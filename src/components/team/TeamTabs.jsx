@@ -1,6 +1,6 @@
 import React from "react";
 
-const tabs = ["roster", "depth", "staff", "finances", "schedule", "stats"];
+const tabs = ["roster", "depthChart", "staff", "finances", "schedule", "stats"];
 
 const TeamTabs = ({ tab, setTab }) => {
   return (
@@ -17,6 +17,12 @@ const TeamTabs = ({ tab, setTab }) => {
       {tabs.map((t) => {
         const active = tab === t;
 
+        // Convert tab key → readable label
+        const label =
+          t === "depthChart"
+            ? "Depth Chart"
+            : t.charAt(0).toUpperCase() + t.slice(1);
+
         return (
           <div
             key={t}
@@ -26,12 +32,14 @@ const TeamTabs = ({ tab, setTab }) => {
               fontWeight: active ? 700 : 500,
               fontSize: "16px",
               paddingBottom: "8px",
-              borderBottom: active ? "3px solid var(--color-accent)" : "3px solid transparent",
+              borderBottom: active
+                ? "3px solid var(--color-accent)"
+                : "3px solid transparent",
               color: active ? "var(--color-accent)" : "#444",
               transition: "0.2s ease",
             }}
           >
-            {t.charAt(0).toUpperCase() + t.slice(1)}
+            {label}
           </div>
         );
       })}
