@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  82,
+        "name":  "Chase Coleman",
+        "id":  "BUF-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  75,
+        "name":  "Xavier Harrington",
+        "id":  "BUF-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  89,
+        "name":  "Andre Harrington",
+        "id":  "BUF-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  72,
+        "name":  "Chase Reeves",
+        "id":  "BUF-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  84,
+        "name":  "Caleb Reeves",
+        "id":  "BUF-CB4"
+    }
+]

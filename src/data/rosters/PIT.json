@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  74,
+        "name":  "Caleb Halford",
+        "id":  "PIT-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  80,
+        "name":  "Chase Coleman",
+        "id":  "PIT-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  91,
+        "name":  "Andre Halford",
+        "id":  "PIT-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  74,
+        "name":  "Marcus Douglas",
+        "id":  "PIT-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  71,
+        "name":  "Darius Harrington",
+        "id":  "PIT-CB4"
+    }
+]

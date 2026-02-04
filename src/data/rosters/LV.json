@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  90,
+        "name":  "Xavier Bennett",
+        "id":  "LV-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  89,
+        "name":  "Chase Rourke",
+        "id":  "LV-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  83,
+        "name":  "Xavier Foster",
+        "id":  "LV-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  68,
+        "name":  "Logan Halford",
+        "id":  "LV-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  76,
+        "name":  "Jalen Douglas",
+        "id":  "LV-CB4"
+    }
+]

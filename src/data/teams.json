@@ -1,0 +1,16 @@
+[
+  {
+    "id": "BAL",
+    "city": "BAL",
+    "mascot": "Nighthawks",
+    "colors": ["#4B2E83", "#F97316"],
+    "logo": "BAL.png"
+  },
+  {
+    "id": "BUF",
+    "city": "BUF",
+    "mascot": "Frosthorns",
+    "colors": ["#1E3A8A", "#60A5FA"],
+    "logo": "BUF.png"
+  }
+]

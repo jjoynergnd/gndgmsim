@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  90,
+        "name":  "Evan Wright",
+        "id":  "LAC-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  81,
+        "name":  "Caleb Rourke",
+        "id":  "LAC-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  70,
+        "name":  "Caleb Harrington",
+        "id":  "LAC-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  87,
+        "name":  "Evan Coleman",
+        "id":  "LAC-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  91,
+        "name":  "Xavier Bennett",
+        "id":  "LAC-CB4"
+    }
+]

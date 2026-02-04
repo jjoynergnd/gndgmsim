@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  82,
+        "name":  "Chase Rourke",
+        "id":  "KC-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  87,
+        "name":  "Xavier Reeves",
+        "id":  "KC-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  83,
+        "name":  "Jalen Harrington",
+        "id":  "KC-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  75,
+        "name":  "Andre Wright",
+        "id":  "KC-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  72,
+        "name":  "Evan Douglas",
+        "id":  "KC-CB4"
+    }
+]

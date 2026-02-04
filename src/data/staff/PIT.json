@@ -1,0 +1,14 @@
+﻿{
+    "HC":  {
+               "rating":  93,
+               "name":  "Caleb Halford"
+           },
+    "OC":  {
+               "rating":  77,
+               "name":  "Marcus Harrington"
+           },
+    "DC":  {
+               "rating":  87,
+               "name":  "Evan Bennett"
+           }
+}

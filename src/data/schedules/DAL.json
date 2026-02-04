@@ -1,0 +1,27 @@
+﻿[
+    {
+        "week":  1,
+        "opponent":  "CIN",
+        "home":  false
+    },
+    {
+        "week":  2,
+        "opponent":  "CAR",
+        "home":  false
+    },
+    {
+        "week":  3,
+        "opponent":  "CHI",
+        "home":  true
+    },
+    {
+        "week":  4,
+        "opponent":  "TEN",
+        "home":  true
+    },
+    {
+        "week":  5,
+        "opponent":  "LV",
+        "home":  false
+    }
+]

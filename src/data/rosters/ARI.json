@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  69,
+        "name":  "Andre Harrington",
+        "id":  "ARI-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  68,
+        "name":  "Malik Wright",
+        "id":  "ARI-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  77,
+        "name":  "Jalen Reeves",
+        "id":  "ARI-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  83,
+        "name":  "Marcus Coleman",
+        "id":  "ARI-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  89,
+        "name":  "Darius Rourke",
+        "id":  "ARI-CB4"
+    }
+]

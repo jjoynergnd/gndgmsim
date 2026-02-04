@@ -1,0 +1,14 @@
+﻿{
+    "HC":  {
+               "rating":  90,
+               "name":  "Jalen Shaw"
+           },
+    "OC":  {
+               "rating":  67,
+               "name":  "Jordan Bennett"
+           },
+    "DC":  {
+               "rating":  80,
+               "name":  "Marcus Douglas"
+           }
+}

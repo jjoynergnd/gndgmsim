@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  77,
+        "name":  "Darius Bennett",
+        "id":  "NE-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  70,
+        "name":  "Chase Foster",
+        "id":  "NE-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  87,
+        "name":  "Caleb Reeves",
+        "id":  "NE-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  87,
+        "name":  "Chase Douglas",
+        "id":  "NE-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  80,
+        "name":  "Xavier Wright",
+        "id":  "NE-CB4"
+    }
+]

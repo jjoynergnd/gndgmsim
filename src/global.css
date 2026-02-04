@@ -1,0 +1,40 @@
+/* -----------------------------------------------------------------------------
+   Global Styles — Option C (NFL‑Style Hybrid)
+   Purpose:
+     - Establish a clean, modern baseline
+     - Add a light content area + dark sidebar contrast
+     - Introduce a simple color system using CSS variables
+     - Improve typography and spacing
+----------------------------------------------------------------------------- */
+
+:root {
+  --color-bg: #f4f6f8;
+  --color-surface: #ffffff;
+  --color-sidebar-bg: #1c1f24;
+  --color-sidebar-hover: #2a2e35;
+  --color-text: #1a1a1a;
+  --color-text-light: #ffffff;
+  --color-accent: #0096c7; /* clean teal accent */
+  --radius: 8px;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --font: "Inter", sans-serif;
+}
+
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  overflow: hidden;
+}
+
+button {
+  font-family: var(--font);
+  cursor: pointer;
+}

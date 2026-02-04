@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  88,
+        "name":  "Chase Wynn",
+        "id":  "MIN-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  72,
+        "name":  "Marcus Douglas",
+        "id":  "MIN-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  83,
+        "name":  "Logan Foster",
+        "id":  "MIN-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  69,
+        "name":  "Caleb Maddox",
+        "id":  "MIN-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  79,
+        "name":  "Logan Shaw",
+        "id":  "MIN-CB4"
+    }
+]

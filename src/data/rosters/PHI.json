@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  72,
+        "name":  "Chase Coleman",
+        "id":  "PHI-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  81,
+        "name":  "Jordan Foster",
+        "id":  "PHI-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  90,
+        "name":  "Jalen Halford",
+        "id":  "PHI-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  89,
+        "name":  "Malik Halford",
+        "id":  "PHI-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  90,
+        "name":  "Jalen Bennett",
+        "id":  "PHI-CB4"
+    }
+]

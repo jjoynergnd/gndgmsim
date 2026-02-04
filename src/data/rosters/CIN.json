@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  78,
+        "name":  "Evan Maddox",
+        "id":  "CIN-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  90,
+        "name":  "Evan Halford",
+        "id":  "CIN-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  68,
+        "name":  "Malik Shaw",
+        "id":  "CIN-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  82,
+        "name":  "Jordan Shaw",
+        "id":  "CIN-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  84,
+        "name":  "Logan Rourke",
+        "id":  "CIN-CB4"
+    }
+]

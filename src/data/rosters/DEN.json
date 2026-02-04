@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  71,
+        "name":  "Jalen Wright",
+        "id":  "DEN-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  73,
+        "name":  "Caleb Foster",
+        "id":  "DEN-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  72,
+        "name":  "Evan Shaw",
+        "id":  "DEN-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  79,
+        "name":  "Evan Halford",
+        "id":  "DEN-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  83,
+        "name":  "Darius Foster",
+        "id":  "DEN-CB4"
+    }
+]

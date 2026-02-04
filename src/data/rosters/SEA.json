@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  70,
+        "name":  "Chase Foster",
+        "id":  "SEA-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  79,
+        "name":  "Tyrone Wright",
+        "id":  "SEA-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  74,
+        "name":  "Xavier Maddox",
+        "id":  "SEA-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  86,
+        "name":  "Evan Rourke",
+        "id":  "SEA-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  90,
+        "name":  "Chase Shaw",
+        "id":  "SEA-CB4"
+    }
+]

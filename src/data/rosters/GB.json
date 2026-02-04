@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  80,
+        "name":  "Tyrone Bennett",
+        "id":  "GB-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  89,
+        "name":  "Caleb Bennett",
+        "id":  "GB-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  83,
+        "name":  "Evan Foster",
+        "id":  "GB-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  88,
+        "name":  "Xavier Wynn",
+        "id":  "GB-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  69,
+        "name":  "Caleb Wright",
+        "id":  "GB-CB4"
+    }
+]

@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  74,
+        "name":  "Malik Douglas",
+        "id":  "TEN-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  76,
+        "name":  "Jordan Foster",
+        "id":  "TEN-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  81,
+        "name":  "Xavier Rourke",
+        "id":  "TEN-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  81,
+        "name":  "Chase Shaw",
+        "id":  "TEN-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  76,
+        "name":  "Andre Wynn",
+        "id":  "TEN-CB4"
+    }
+]

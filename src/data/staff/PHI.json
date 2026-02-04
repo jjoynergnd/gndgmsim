@@ -1,0 +1,14 @@
+﻿{
+    "HC":  {
+               "rating":  85,
+               "name":  "Jordan Reeves"
+           },
+    "OC":  {
+               "rating":  65,
+               "name":  "Evan Rourke"
+           },
+    "DC":  {
+               "rating":  67,
+               "name":  "Andre Wynn"
+           }
+}

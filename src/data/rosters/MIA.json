@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  72,
+        "name":  "Jordan Maddox",
+        "id":  "MIA-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  73,
+        "name":  "Jordan Coleman",
+        "id":  "MIA-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  76,
+        "name":  "Jordan Wynn",
+        "id":  "MIA-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  86,
+        "name":  "Darius Wynn",
+        "id":  "MIA-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  78,
+        "name":  "Tyrone Maddox",
+        "id":  "MIA-CB4"
+    }
+]

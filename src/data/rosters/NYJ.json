@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  85,
+        "name":  "Tyrone Halford",
+        "id":  "NYJ-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  79,
+        "name":  "Andre Coleman",
+        "id":  "NYJ-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  91,
+        "name":  "Tyrone Wright",
+        "id":  "NYJ-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  68,
+        "name":  "Malik Harrington",
+        "id":  "NYJ-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  90,
+        "name":  "Andre Harrington",
+        "id":  "NYJ-CB4"
+    }
+]

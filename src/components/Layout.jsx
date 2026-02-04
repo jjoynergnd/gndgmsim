@@ -1,26 +1,42 @@
 // -----------------------------------------------------------------------------
-// File: src/components/Layout.jsx
-// Purpose:
-//   Wraps the main content area of the app. This ensures consistent spacing,
-//   scroll behavior, and layout structure across all screens.
-//
-// Notes:
-//   - Sidebar sits to the left; Layout fills the remaining space.
-//   - All routed screens will render inside <Layout>{children}</Layout>.
+// Layout — Now includes HeaderBar at the top
 // -----------------------------------------------------------------------------
 
 import React from "react";
+import HeaderBar from "./HeaderBar";
 
 const Layout = ({ children }) => {
   return (
     <div
       style={{
         flex: 1,
-        background: "#f5f5f5",
-        overflowY: "auto",
+        background: "var(--color-bg)",
+        display: "flex",
+        flexDirection: "column",
+        height: "100vh",
+        overflow: "hidden",
       }}
     >
-      {children}
+      {/* Global header bar */}
+      <HeaderBar title="GND GM Simulator" />
+
+      {/* Scrollable content area */}
+      <div
+        style={{
+          flex: 1,
+          overflowY: "auto",
+          padding: "24px",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+          }}
+        >
+          {children}
+        </div>
+      </div>
     </div>
   );
 };

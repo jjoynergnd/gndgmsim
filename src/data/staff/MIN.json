@@ -1,0 +1,14 @@
+﻿{
+    "HC":  {
+               "rating":  80,
+               "name":  "Evan Coleman"
+           },
+    "OC":  {
+               "rating":  74,
+               "name":  "Chase Maddox"
+           },
+    "DC":  {
+               "rating":  77,
+               "name":  "Logan Reeves"
+           }
+}

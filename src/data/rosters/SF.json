@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  75,
+        "name":  "Xavier Foster",
+        "id":  "SF-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  86,
+        "name":  "Malik Coleman",
+        "id":  "SF-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  83,
+        "name":  "Logan Foster",
+        "id":  "SF-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  91,
+        "name":  "Chase Halford",
+        "id":  "SF-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  74,
+        "name":  "Jalen Maddox",
+        "id":  "SF-CB4"
+    }
+]

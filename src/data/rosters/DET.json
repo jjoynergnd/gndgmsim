@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  84,
+        "name":  "Tyrone Wynn",
+        "id":  "DET-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  88,
+        "name":  "Caleb Wynn",
+        "id":  "DET-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  73,
+        "name":  "Darius Harrington",
+        "id":  "DET-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  83,
+        "name":  "Evan Wynn",
+        "id":  "DET-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  78,
+        "name":  "Xavier Maddox",
+        "id":  "DET-CB4"
+    }
+]

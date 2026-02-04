@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  79,
+        "name":  "Chase Maddox",
+        "id":  "CAR-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  82,
+        "name":  "Xavier Douglas",
+        "id":  "CAR-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  77,
+        "name":  "Xavier Harrington",
+        "id":  "CAR-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  83,
+        "name":  "Malik Coleman",
+        "id":  "CAR-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  70,
+        "name":  "Logan Maddox",
+        "id":  "CAR-CB4"
+    }
+]

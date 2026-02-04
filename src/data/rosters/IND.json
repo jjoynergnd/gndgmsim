@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  75,
+        "name":  "Marcus Wynn",
+        "id":  "IND-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  73,
+        "name":  "Andre Wynn",
+        "id":  "IND-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  89,
+        "name":  "Tyrone Shaw",
+        "id":  "IND-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  76,
+        "name":  "Tyrone Wright",
+        "id":  "IND-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  70,
+        "name":  "Marcus Wright",
+        "id":  "IND-CB4"
+    }
+]

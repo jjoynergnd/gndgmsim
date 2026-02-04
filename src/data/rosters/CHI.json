@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  89,
+        "name":  "Jalen Harrington",
+        "id":  "CHI-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  78,
+        "name":  "Jalen Reeves",
+        "id":  "CHI-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  88,
+        "name":  "Evan Halford",
+        "id":  "CHI-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  75,
+        "name":  "Andre Wynn",
+        "id":  "CHI-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  75,
+        "name":  "Darius Harrington",
+        "id":  "CHI-CB4"
+    }
+]

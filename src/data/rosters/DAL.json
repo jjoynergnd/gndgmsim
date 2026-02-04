@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  91,
+        "name":  "Jordan Wynn",
+        "id":  "DAL-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  68,
+        "name":  "Tyrone Bennett",
+        "id":  "DAL-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  80,
+        "name":  "Logan Bennett",
+        "id":  "DAL-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  88,
+        "name":  "Tyrone Maddox",
+        "id":  "DAL-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  75,
+        "name":  "Tyrone Coleman",
+        "id":  "DAL-CB4"
+    }
+]

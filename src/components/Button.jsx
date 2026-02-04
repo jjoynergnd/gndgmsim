@@ -1,43 +1,32 @@
 // -----------------------------------------------------------------------------
-// File: src/components/Button.jsx
-// Purpose:
-//   Reusable button component used throughout the app. Provides consistent
-//   styling and supports primary/secondary variants.
-//
-// Notes:
-//   - This is intentionally simple for Phase 1.
-//   - Later we can expand with size variants, icons, disabled states, etc.
+// Button — Option C (NFL‑Style Hybrid)
 // -----------------------------------------------------------------------------
 
 import React from "react";
 
 const Button = ({ children, onClick, variant = "primary", style = {} }) => {
-  const baseStyle = {
+  const base = {
     padding: "10px 16px",
-    borderRadius: "6px",
+    borderRadius: "var(--radius)",
     border: "none",
-    cursor: "pointer",
-    fontWeight: "600",
+    fontWeight: 600,
     fontSize: "14px",
     transition: "0.2s",
   };
 
   const variants = {
     primary: {
-      background: "#0078ff",
+      background: "var(--color-accent)",
       color: "white",
     },
     secondary: {
-      background: "#e0e0e0",
-      color: "#333",
+      background: "#e5e7eb",
+      color: "#111",
     },
   };
 
   return (
-    <button
-      onClick={onClick}
-      style={{ ...baseStyle, ...variants[variant], ...style }}
-    >
+    <button onClick={onClick} style={{ ...base, ...variants[variant], ...style }}>
       {children}
     </button>
   );

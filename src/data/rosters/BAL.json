@@ -1,0 +1,32 @@
+﻿[
+    {
+        "position":  "QB",
+        "overall":  76,
+        "name":  "Jordan Douglas",
+        "id":  "BAL-QB0"
+    },
+    {
+        "position":  "RB",
+        "overall":  77,
+        "name":  "Evan Wright",
+        "id":  "BAL-RB1"
+    },
+    {
+        "position":  "WR",
+        "overall":  71,
+        "name":  "Jalen Maddox",
+        "id":  "BAL-WR2"
+    },
+    {
+        "position":  "LB",
+        "overall":  75,
+        "name":  "Evan Foster",
+        "id":  "BAL-LB3"
+    },
+    {
+        "position":  "CB",
+        "overall":  88,
+        "name":  "Tyrone Foster",
+        "id":  "BAL-CB4"
+    }
+]
