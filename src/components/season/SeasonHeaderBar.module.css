@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 8px 24px;
+  background: #0b0d14;
+  border-bottom: 1px solid #1c1f2a;
+  color: #fff;
+}
+
+.year {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #00d4ff;
+  white-space: nowrap;
+}
+
+.phases {
+  display: flex;
+  gap: 16px;
+}
+
+.phase {
+  font-size: 0.85rem;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.week {
+  font-size: 0.75rem;
+  color: #00d4ff;
+}

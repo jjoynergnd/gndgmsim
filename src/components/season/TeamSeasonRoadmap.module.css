@@ -1,0 +1,66 @@
+.container {
+  background: var(--color-surface);
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--color-text-muted);
+}
+
+.phases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.phase {
+  border-radius: 10px;
+  padding: 12px;
+  background: var(--color-bg);
+  opacity: 0.6;
+}
+
+.completed {
+  opacity: 0.4;
+}
+
+.active {
+  opacity: 1;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 212, 255, 0.12),
+    rgba(0, 212, 255, 0.04)
+  );
+  border: 1px solid rgba(0, 212, 255, 0.35);
+}
+
+.phaseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.subtle {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.subSteps {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.subStep {
+  font-size: 0.8rem;
+  padding-left: 8px;
+  border-left: 2px solid rgba(0, 212, 255, 0.4);
+}

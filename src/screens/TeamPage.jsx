@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import teams from "../data/teams.json";
 
 import TeamHeader from "../components/team/TeamHeader";
+import TeamSeasonRoadmap from "../components/season/TeamSeasonRoadmap";
 import TeamTabs from "../components/team/TeamTabs";
 
 import RosterTable from "../components/team/RosterTable";
@@ -40,11 +41,21 @@ const TeamPage = () => {
   const [tab, setTab] = useState("roster");
   const [selectedPlayer, setSelectedPlayer] = useState(null);
 
+  // TEMP season context — read-only for now
+  const [seasonContext] = useState({
+    year: 2026,
+    phase: "REGULAR_SEASON", // PRESEASON | REGULAR_SEASON | PLAYOFFS | OFFSEASON
+    week: 4,
+  });
+
   const handlePlayerClick = (player) => setSelectedPlayer(player);
 
   return (
-    <div style={{ paddingTop: "8px", paddingBottom: "40px" }}>
+    <div style={{ paddingBottom: "40px" }}>
       <TeamHeader team={team} />
+
+      {/* Tier 2 — Team Season Context */}
+      <TeamSeasonRoadmap season={seasonContext} />
 
       <div style={{ height: "12px" }} />
 
@@ -58,13 +69,11 @@ const TeamPage = () => {
           />
         )}
 
-
         {tab === "depthChart" && (
           <DepthChart
-              roster={rosters[selectedTeam]}
-              onPlayerClick={handlePlayerClick}
-            />
-
+            roster={rosters[selectedTeam]}
+            onPlayerClick={handlePlayerClick}
+          />
         )}
 
         {tab === "staff" && (
@@ -74,8 +83,14 @@ const TeamPage = () => {
           />
         )}
 
-        {tab === "finances" && <FinancesPanel meta={meta[selectedTeam]} />}
-        {tab === "schedule" && <ScheduleTable schedule={schedules[selectedTeam]} />}
+        {tab === "finances" && (
+          <FinancesPanel meta={meta[selectedTeam]} />
+        )}
+
+        {tab === "schedule" && (
+          <ScheduleTable schedule={schedules[selectedTeam]} />
+        )}
+
         {tab === "stats" && <StatsPanel />}
       </div>
 

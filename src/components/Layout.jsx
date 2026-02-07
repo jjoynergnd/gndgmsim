@@ -1,11 +1,19 @@
 // -----------------------------------------------------------------------------
-// Layout — Corrected, Shadow‑Safe, Full‑Width Architecture
+// Layout — Corrected, Shadow-Safe, Full-Width Architecture
 // -----------------------------------------------------------------------------
 
-import React from "react";
+import React, { useState } from "react";
 import HeaderBar from "./HeaderBar";
+import SeasonHeaderBar from "./season/SeasonHeaderBar";
 
 const Layout = ({ children }) => {
+  // Tier 1 — Global season context (read-only for now)
+  const [seasonContext] = useState({
+    year: 2026,
+    phase: "REGULAR_SEASON", // PRESEASON | REGULAR_SEASON | PLAYOFFS | OFFSEASON
+    week: 4,
+  });
+
   return (
     <div
       style={{
@@ -19,6 +27,9 @@ const Layout = ({ children }) => {
     >
       {/* Global header bar */}
       <HeaderBar title="GND GM Simulator" />
+
+      {/* Tier 1 — Global season orientation */}
+      <SeasonHeaderBar season={seasonContext} />
 
       {/* SINGLE scroll container */}
       <div
