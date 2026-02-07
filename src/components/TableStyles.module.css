@@ -1,0 +1,70 @@
+/* -----------------------------------------------------------------------------
+   Premium ESPN‑Style Table
+   Modern, clean, shadowed, alternating rows, sticky header
+----------------------------------------------------------------------------- */
+
+.tableContainer {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e7eb;
+}
+
+/* HEADER ROW --------------------------------------------------------------- */
+
+.headerRow {
+  display: grid;
+  background: #f3f4f6;
+  border-bottom: 1px solid #d1d5db;
+  font-weight: 700;
+  font-size: 14px;
+  color: #111827;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.headerCell {
+  padding: 12px 14px;
+  white-space: nowrap;
+}
+
+/* DATA ROWS ---------------------------------------------------------------- */
+
+.dataRow {
+  display: grid;
+  font-size: 14px;
+  color: #1f2937;
+  transition: background 0.15s ease;
+}
+
+.dataRow:nth-child(even) {
+  background: #fafafa;
+}
+
+.dataRow:nth-child(odd) {
+  background: #ffffff;
+}
+
+.dataRow:hover {
+  background: #e8f4ff;
+}
+
+/* CELLS -------------------------------------------------------------------- */
+
+.dataCell {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* LAST ROW CLEANUP --------------------------------------------------------- */
+
+.dataRow:last-child .dataCell {
+  border-bottom: none;
+}

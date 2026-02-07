@@ -1,10 +1,5 @@
 /* -----------------------------------------------------------------------------
-   Global Styles — Option C (NFL‑Style Hybrid)
-   Purpose:
-     - Establish a clean, modern baseline
-     - Add a light content area + dark sidebar contrast
-     - Introduce a simple color system using CSS variables
-     - Improve typography and spacing
+   Global Styles — Clean, Modern, NFL‑Style Hybrid
 ----------------------------------------------------------------------------- */
 
 :root {
@@ -14,7 +9,7 @@
   --color-sidebar-hover: #2a2e35;
   --color-text: #1a1a1a;
   --color-text-light: #ffffff;
-  --color-accent: #0096c7; /* clean teal accent */
+  --color-accent: #0096c7;
   --radius: 8px;
   --shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   --font: "Inter", sans-serif;
@@ -23,7 +18,6 @@
 /* Reset + base */
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: var(--font);
 }
@@ -31,7 +25,10 @@
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  overflow: hidden;
+
+  /* ❗ Removed overflow: hidden — this was collapsing layout width */
+  overflow-x: hidden; /* safe */
+  overflow-y: auto; /* allow natural scrolling */
 }
 
 button {

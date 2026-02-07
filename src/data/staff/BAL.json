@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  88,
-               "name":  "Caleb Wynn"
-           },
-    "OC":  {
-               "rating":  86,
-               "name":  "Evan Shaw"
-           },
-    "DC":  {
-               "rating":  72,
-               "name":  "Evan Wright"
-           }
-}
+[
+  {
+    "id": "BAL-STAFF-1",
+    "team": "BAL",
+    "role": "Head Coach",
+    "name": "Knox Harris",
+    "vitals": {
+      "age": 30,
+      "experience": 14
+    },
+    "ratings": {
+      "leadership": 84,
+      "discipline": 65,
+      "schemeKnowledge": 63,
+      "playerDev": 73,
+      "motivation": 87,
+      "injuryManagement": 48,
+      "conditioning": 56,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 2,
+      "salary": 4715794
+    }
+  },
+  {
+    "id": "BAL-STAFF-2",
+    "team": "BAL",
+    "role": "Offensive Coordinator",
+    "name": "Yuri Hudson",
+    "vitals": {
+      "age": 61,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 88,
+      "discipline": 71,
+      "schemeKnowledge": 76,
+      "playerDev": 65,
+      "motivation": 89,
+      "injuryManagement": 65,
+      "conditioning": 64,
+      "analyticsIQ": 54
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2958239
+    }
+  },
+  {
+    "id": "BAL-STAFF-3",
+    "team": "BAL",
+    "role": "Defensive Coordinator",
+    "name": "Quentin Schmitt",
+    "vitals": {
+      "age": 47,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 93,
+      "schemeKnowledge": 67,
+      "playerDev": 69,
+      "motivation": 64,
+      "injuryManagement": 59,
+      "conditioning": 53,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2503232
+    }
+  },
+  {
+    "id": "BAL-STAFF-4",
+    "team": "BAL",
+    "role": "Strength & Conditioning Coach",
+    "name": "Leonard Morissette",
+    "vitals": {
+      "age": 30,
+      "experience": 38
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 77,
+      "schemeKnowledge": 74,
+      "playerDev": 61,
+      "motivation": 76,
+      "injuryManagement": 67,
+      "conditioning": 84,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 2,
+      "salary": 834054
+    }
+  },
+  {
+    "id": "BAL-STAFF-5",
+    "team": "BAL",
+    "role": "Physical Therapist",
+    "name": "Daniel Mertz",
+    "vitals": {
+      "age": 58,
+      "experience": 18
+    },
+    "ratings": {
+      "leadership": 66,
+      "discipline": 71,
+      "schemeKnowledge": 84,
+      "playerDev": 91,
+      "motivation": 63,
+      "injuryManagement": 84,
+      "conditioning": 68,
+      "analyticsIQ": 50
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1774041
+    }
+  },
+  {
+    "id": "BAL-STAFF-6",
+    "team": "BAL",
+    "role": "Athletic Trainer",
+    "name": "Eric Lynch",
+    "vitals": {
+      "age": 35,
+      "experience": 34
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 70,
+      "schemeKnowledge": 69,
+      "playerDev": 95,
+      "motivation": 80,
+      "injuryManagement": 72,
+      "conditioning": 59,
+      "analyticsIQ": 64
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5175611
+    }
+  },
+  {
+    "id": "BAL-STAFF-7",
+    "team": "BAL",
+    "role": "Analytics Coordinator",
+    "name": "Cormac Tremblay",
+    "vitals": {
+      "age": 33,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 87,
+      "discipline": 70,
+      "schemeKnowledge": 94,
+      "playerDev": 79,
+      "motivation": 63,
+      "injuryManagement": 52,
+      "conditioning": 44,
+      "analyticsIQ": 98
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1902085
+    }
+  }
+]

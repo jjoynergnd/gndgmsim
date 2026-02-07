@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="CLE Forge Hounds Logo">
+  <!-- Color variables -->
+  <defs>
+    <style>
+      .brown { fill: #311D00; }
+      .orange { fill: #FF3C00; }
+      .cream { fill: #F3E7D3; }
+      .stroke { stroke: #311D00; stroke-width: 10; stroke-linejoin: round; }
+      .inner-stroke { stroke: #F3E7D3; stroke-width: 6; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Outer circular badge -->
+  <circle cx="250" cy="250" r="235" class="brown"/>
+  <circle cx="250" cy="250" r="210" class="orange" />
+  <circle cx="250" cy="250" r="190" fill="none" class="inner-stroke"/>
+
+  <!-- Forge hound head (stylized) -->
+  <!-- Head base -->
+  <path d="
+    M170 300
+    L160 220
+    L200 160
+    L250 140
+    L300 160
+    L340 220
+    L330 300
+    L250 330
+    Z"
+    class="brown"
+    />
+
+  <!-- Ears -->
+  <path d="M185 170 L150 120 L210 150 Z" class="brown"/>
+  <path d="M315 170 L350 120 L290 150 Z" class="brown"/>
+
+  <!-- Eyes -->
+  <path d="M215 230 L235 225 L215 245 Z" class="cream"/>
+  <path d="M285 230 L265 225 L285 245 Z" class="cream"/>
+
+  <!-- Snout -->
+  <path d="
+    M230 265
+    L250 255
+    L270 265
+    L260 290
+    L240 290
+    Z"
+    class="cream"/>
+
+  <!-- Nose -->
+  <path d="M240 255 L250 248 L260 255 L250 260 Z" class="brown"/>
+
+  <!-- Forge sparks -->
+  <path d="M250 115 L255 95 L260 115 Z" class="orange"/>
+  <path d="M225 120 L215 100 L235 115 Z" class="orange"/>
+  <path d="M275 120 L285 100 L265 115 Z" class="orange"/>
+
+  <!-- Team text -->
+  <text x="250" y="405"
+        text-anchor="middle"
+        font-size="42"
+        font-weight="900"
+        fill="#F3E7D3"
+        style="letter-spacing:2px; font-family: Arial, Helvetica, sans-serif;">
+    FORGE HOUNDS
+  </text>
+
+  <text x="250" y="440"
+        text-anchor="middle"
+        font-size="24"
+        font-weight="700"
+        fill="#F3E7D3"
+        style="letter-spacing:3px; font-family: Arial, Helvetica, sans-serif;">
+    CLE
+  </text>
+</svg>

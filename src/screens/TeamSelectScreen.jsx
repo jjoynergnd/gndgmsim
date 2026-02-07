@@ -20,9 +20,9 @@ const TeamSelectScreen = () => {
         onClick={() => handleSelect(team.id)}
         style={{
           cursor: "pointer",
-          padding: "6px",
+          padding: "4px",
           textAlign: "center",
-          borderRadius: "8px",
+          borderRadius: "6px",
           transition: "0.2s",
           border: isSelected ? "2px solid var(--color-accent)" : "2px solid transparent",
           background: isSelected ? "rgba(0,200,255,0.08)" : "transparent",
@@ -35,30 +35,34 @@ const TeamSelectScreen = () => {
           onError={(e) => {
             e.target.style.display = "none";
             const fallback = document.createElement("div");
-            fallback.style.width = "50px";
-            fallback.style.height = "50px";
+            fallback.style.width = "42px";
+            fallback.style.height = "42px";
             fallback.style.borderRadius = "50%";
             fallback.style.background = "#ddd";
             fallback.style.display = "flex";
             fallback.style.alignItems = "center";
             fallback.style.justifyContent = "center";
-            fallback.style.margin = "0 auto 6px auto";
+            fallback.style.margin = "0 auto 4px auto";
             fallback.style.fontWeight = "700";
-            fallback.style.fontSize = "18px";
+            fallback.style.fontSize = "14px";
             fallback.innerText = team.id;
             e.target.parentNode.insertBefore(fallback, e.target);
           }}
           style={{
-            width: "50px",
-            height: "50px",
+            width: "42px",
+            height: "42px",
             borderRadius: "50%",
             objectFit: "cover",
-            margin: "0 auto 6px auto",
+            margin: "0 auto 4px auto",
           }}
         />
 
-        <div style={{ fontWeight: 600, fontSize: "13px" }}>{team.city}</div>
-        <div style={{ fontSize: "11px", opacity: 0.8 }}>{team.mascot}</div>
+        <div style={{ fontWeight: 600, fontSize: "12px", lineHeight: "14px" }}>
+          {team.city}
+        </div>
+        <div style={{ fontSize: "10px", opacity: 0.75, lineHeight: "12px" }}>
+          {team.mascot}
+        </div>
       </div>
     );
   };
@@ -68,26 +72,44 @@ const TeamSelectScreen = () => {
 
   return (
     <div style={{ paddingBottom: pendingTeam ? "80px" : "0" }}>
-      <h2 style={{ color: "#C94A4A", fontWeight: 700 }}>AFC</h2>
+      <h2
+        style={{
+          color: "#C94A4A",
+          fontWeight: 700,
+          marginBottom: "8px",
+          marginTop: "4px",
+        }}
+      >
+        AFC
+      </h2>
 
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(5, 1fr)",
-          gap: "10px",
-          marginBottom: "20px",
+          gridTemplateColumns: "repeat(6, 1fr)",
+          gap: "6px",
+          marginBottom: "16px",
         }}
       >
         {afcTeams.map(renderTeamCard)}
       </div>
 
-      <h2 style={{ color: "#3A6FF7", fontWeight: 700 }}>NFC</h2>
+      <h2
+        style={{
+          color: "#3A6FF7",
+          fontWeight: 700,
+          marginBottom: "8px",
+          marginTop: "4px",
+        }}
+      >
+        NFC
+      </h2>
 
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(5, 1fr)",
-          gap: "10px",
+          gridTemplateColumns: "repeat(6, 1fr)",
+          gap: "6px",
         }}
       >
         {nfcTeams.map(renderTeamCard)}

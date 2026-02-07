@@ -1,0 +1,165 @@
+/* -----------------------------------------------------------------------------
+   RosterList — Premium ESPN‑Style with Group Colors + Sticky Header
+----------------------------------------------------------------------------- */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+/* Sticky Header ------------------------------------------------------------- */
+
+.header {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px 60px;
+  background: #171818;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #e9e2e1;
+  border-bottom: 1px solid #d1d5db;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  align-items: center; /* vertically center items */
+}
+
+/* Ensure child divs inherit the color */
+.header > div {
+  color: inherit;
+  border-left: 1px solid #d1d5db; /* vertical separator */
+  padding-left: 12px;
+}
+.header > div:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+/* Group Headers ------------------------------------------------------------- */
+
+.groupLabel {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #030405;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Pastel group colors */
+.groupLabel_QB {
+  background: #d7f6ff; /* light blue */
+}
+
+.groupLabel_RB {
+  background: #ffeec9; /* light orange */
+}
+
+.groupLabel_WR {
+  background: #d2fad8; /* light mint */
+}
+
+.groupLabel_TE {
+  background: #fce7fd; /* light purple */
+}
+
+.groupLabel_LT,
+.groupLabel_LG,
+.groupLabel_C,
+.groupLabel_RG,
+.groupLabel_RT {
+  background: #ffcbcb; /* light coral */
+}
+
+.groupLabel_LDE,
+.groupLabel_RDE,
+.groupLabel_DT {
+  background: #c5e6ff; /*light blue*/
+}
+
+.groupLabel_LOLB,
+.groupLabel_ROLB,
+.groupLabel_MLB {
+  background: #fff0ba;
+}
+
+.groupLabel_CB {
+  background: #baf5ff; /* light blue */
+}
+
+.groupLabel_FS,
+.groupLabel_SS {
+  background: #baffc9;
+}
+
+.groupLabel_K,
+.groupLabel_P,
+.groupLabel_LS,
+.groupLabel_KR,
+.groupLabel_PR {
+  background: #e9d3ff; /* light green */
+}
+
+/* Rows ---------------------------------------------------------------------- */
+
+.row {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px 60px;
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 15px;
+  border-bottom: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.row:hover {
+  background: #f0f7ff;
+}
+
+/* Position (neutral now) ---------------------------------------------------- */
+
+.position {
+  font-weight: 400;
+  color: #111827;
+}
+
+/* Name ---------------------------------------------------------------------- */
+
+.name {
+  font-weight: 200;
+  color: #111827;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* OVR Scaling --------------------------------------------------------------- */
+
+.ovr {
+  text-align: center;
+  font-weight: 200;
+}
+
+/* Age ----------------------------------------------------------------------- */
+
+.age {
+  text-align: center;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* Responsive --------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .header,
+  .row {
+    grid-template-columns: 50px 1fr 50px 50px;
+    padding: 10px 12px;
+  }
+}

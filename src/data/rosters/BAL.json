@@ -1,69 +1,3766 @@
-﻿[
-  { "id": "BAL-QB1", "name": "Marcus Halford", "position": "QB", "overall": 82 },
-  { "id": "BAL-QB2", "name": "Darius Wynn", "position": "QB", "overall": 74 },
-  { "id": "BAL-QB3", "name": "Evan Rourke", "position": "QB", "overall": 68 },
-
-  { "id": "BAL-RB1", "name": "Tyrone Maddox", "position": "RB", "overall": 85 },
-  { "id": "BAL-RB2", "name": "Caleb Foster", "position": "RB", "overall": 79 },
-  { "id": "BAL-RB3", "name": "Jordan Douglas", "position": "RB", "overall": 73 },
-  { "id": "BAL-RB4", "name": "Xavier Coleman", "position": "RB", "overall": 69 },
-
-  { "id": "BAL-WR1", "name": "Logan Reeves", "position": "WR", "overall": 88 },
-  { "id": "BAL-WR2", "name": "Chase Harrington", "position": "WR", "overall": 82 },
-  { "id": "BAL-WR3", "name": "Andre Shaw", "position": "WR", "overall": 78 },
-  { "id": "BAL-WR4", "name": "Malik Bennett", "position": "WR", "overall": 74 },
-  { "id": "BAL-WR5", "name": "Jalen Wright", "position": "WR", "overall": 70 },
-
-  { "id": "BAL-TE1", "name": "Evan Maddox", "position": "TE", "overall": 84 },
-  { "id": "BAL-TE2", "name": "Marcus Foster", "position": "TE", "overall": 77 },
-  { "id": "BAL-TE3", "name": "Darius Douglas", "position": "TE", "overall": 71 },
-
-  { "id": "BAL-LT1", "name": "Jordan Reeves", "position": "LT", "overall": 86 },
-  { "id": "BAL-LT2", "name": "Caleb Shaw", "position": "LT", "overall": 74 },
-
-  { "id": "BAL-LG1", "name": "Xavier Foster", "position": "LG", "overall": 83 },
-  { "id": "BAL-LG2", "name": "Malik Harrington", "position": "LG", "overall": 72 },
-
-  { "id": "BAL-C1", "name": "Andre Douglas", "position": "C", "overall": 85 },
-  { "id": "BAL-C2", "name": "Jalen Reeves", "position": "C", "overall": 73 },
-
-  { "id": "BAL-RG1", "name": "Chase Foster", "position": "RG", "overall": 84 },
-  { "id": "BAL-RG2", "name": "Logan Shaw", "position": "RG", "overall": 71 },
-
-  { "id": "BAL-RT1", "name": "Tyrone Reeves", "position": "RT", "overall": 87 },
-  { "id": "BAL-RT2", "name": "Evan Harrington", "position": "RT", "overall": 74 },
-
-  { "id": "BAL-EDGE1", "name": "Marcus Douglas", "position": "EDGE", "overall": 89 },
-  { "id": "BAL-EDGE2", "name": "Darius Reeves", "position": "EDGE", "overall": 80 },
-  { "id": "BAL-EDGE3", "name": "Caleb Harrington", "position": "EDGE", "overall": 72 },
-
-  { "id": "BAL-DE1", "name": "Jordan Foster", "position": "DE", "overall": 86 },
-  { "id": "BAL-DE2", "name": "Malik Douglas", "position": "DE", "overall": 78 },
-  { "id": "BAL-DE3", "name": "Andre Harrington", "position": "DE", "overall": 70 },
-
-  { "id": "BAL-DT1", "name": "Logan Foster", "position": "DT", "overall": 88 },
-  { "id": "BAL-DT2", "name": "Chase Douglas", "position": "DT", "overall": 79 },
-  { "id": "BAL-DT3", "name": "Jalen Shaw", "position": "DT", "overall": 72 },
-
-  { "id": "BAL-MLB1", "name": "Tyrone Reeves", "position": "MLB", "overall": 84 },
-  { "id": "BAL-MLB2", "name": "Evan Douglas", "position": "MLB", "overall": 73 },
-
-  { "id": "BAL-OLB1", "name": "Marcus Shaw", "position": "OLB", "overall": 82 },
-  { "id": "BAL-OLB2", "name": "Darius Foster", "position": "OLB", "overall": 76 },
-  { "id": "BAL-OLB3", "name": "Caleb Reeves", "position": "OLB", "overall": 70 },
-
-  { "id": "BAL-CB1", "name": "Logan Douglas", "position": "CB", "overall": 90 },
-  { "id": "BAL-CB2", "name": "Chase Shaw", "position": "CB", "overall": 84 },
-  { "id": "BAL-CB3", "name": "Andre Foster", "position": "CB", "overall": 78 },
-
-  { "id": "BAL-FS1", "name": "Malik Reeves", "position": "FS", "overall": 83 },
-  { "id": "BAL-FS2", "name": "Jalen Foster", "position": "FS", "overall": 72 },
-
-  { "id": "BAL-SS1", "name": "Tyrone Douglas", "position": "SS", "overall": 85 },
-  { "id": "BAL-SS2", "name": "Evan Shaw", "position": "SS", "overall": 73 },
-
-  { "id": "BAL-K1", "name": "Marcus Harrington", "position": "K", "overall": 78 },
-  { "id": "BAL-P1", "name": "Darius Douglas", "position": "P", "overall": 76 },
-  { "id": "BAL-KR1", "name": "Caleb Shaw", "position": "KR", "overall": 82 },
-  { "id": "BAL-PR1", "name": "Jordan Reeves", "position": "PR", "overall": 80 }
+[
+  {
+    "id": "BAL-QB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Richard Wolf",
+    "jerseyNumber": 97,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 307,
+      "college": "Leuschkeworth",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 7014651,
+      "capHit": 20386636,
+      "deadCap": 1849728,
+      "signingBonus": 17109334,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 84,
+      "schemeFit": 88,
+      "speed": 88,
+      "acceleration": 83,
+      "agility": 83,
+      "strength": 94,
+      "tackle": 78,
+      "pursuit": 85,
+      "manCoverage": 55,
+      "zoneCoverage": 89,
+      "kickPower": 60,
+      "kickAccuracy": 62,
+      "catching": 82,
+      "routeRunning": 73,
+      "release": 67,
+      "throwPower": 71,
+      "shortAccuracy": 91,
+      "mediumAccuracy": 83,
+      "deepAccuracy": 73
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 628,
+        "statB": 264
+      },
+      "career": {
+        "games": 9,
+        "statA": 4730,
+        "statB": 2363
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "BAL-QB-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Tristan Stracke",
+    "jerseyNumber": 93,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'3\"",
+      "weight": 248,
+      "college": "Shannastad",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 14756109,
+      "capHit": 23763655,
+      "deadCap": 7641086,
+      "signingBonus": 10299150,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 68,
+      "schemeFit": 82,
+      "speed": 84,
+      "acceleration": 90,
+      "agility": 95,
+      "strength": 86,
+      "tackle": 68,
+      "pursuit": 65,
+      "manCoverage": 71,
+      "zoneCoverage": 76,
+      "kickPower": 95,
+      "kickAccuracy": 80,
+      "catching": 79,
+      "routeRunning": 84,
+      "release": 82,
+      "throwPower": 78,
+      "shortAccuracy": 82,
+      "mediumAccuracy": 72,
+      "deepAccuracy": 82
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 62,
+        "statB": 354
+      },
+      "career": {
+        "games": 66,
+        "statA": 346,
+        "statB": 3711
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "BAL-QB-3",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Marcus Torp",
+    "jerseyNumber": 65,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 228,
+      "college": "Lake Stacey",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 1310246,
+      "capHit": 22140140,
+      "deadCap": 8478121,
+      "signingBonus": 8339745,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 81,
+      "schemeFit": 95,
+      "speed": 74,
+      "acceleration": 70,
+      "agility": 91,
+      "strength": 63,
+      "tackle": 94,
+      "pursuit": 62,
+      "manCoverage": 60,
+      "zoneCoverage": 77,
+      "kickPower": 54,
+      "kickAccuracy": 94,
+      "catching": 74,
+      "routeRunning": 52,
+      "release": 63,
+      "throwPower": 90,
+      "shortAccuracy": 74,
+      "mediumAccuracy": 68,
+      "deepAccuracy": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 179,
+        "statB": 450
+      },
+      "career": {
+        "games": 49,
+        "statA": 1909,
+        "statB": 2012
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "BAL-RB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Parker Stehr",
+    "jerseyNumber": 25,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 325,
+      "college": "New Kyla",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 5517191,
+      "capHit": 20532170,
+      "deadCap": 4014245,
+      "signingBonus": 14645061,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 80,
+      "speed": 90,
+      "acceleration": 82,
+      "agility": 72,
+      "strength": 68,
+      "tackle": 71,
+      "pursuit": 61,
+      "manCoverage": 78,
+      "zoneCoverage": 79,
+      "kickPower": 67,
+      "kickAccuracy": 90,
+      "catching": 73,
+      "routeRunning": 60,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 860,
+        "statB": 789
+      },
+      "career": {
+        "games": 21,
+        "statA": 172,
+        "statB": 446
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "BAL-RB-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Micah Wiza",
+    "jerseyNumber": 23,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 265,
+      "college": "Hammesland",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 94082429,
+      "capHit": 13287465,
+      "deadCap": 8076068,
+      "signingBonus": 10670361,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 89,
+      "speed": 88,
+      "acceleration": 81,
+      "agility": 74,
+      "strength": 79,
+      "tackle": 81,
+      "pursuit": 73,
+      "manCoverage": 79,
+      "zoneCoverage": 65,
+      "kickPower": 70,
+      "kickAccuracy": 57,
+      "catching": 73,
+      "routeRunning": 81,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 909,
+        "statB": 396
+      },
+      "career": {
+        "games": 39,
+        "statA": 730,
+        "statB": 993
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "BAL-RB-3",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Jared Walter",
+    "jerseyNumber": 43,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 26,
+      "height": "6'3\"",
+      "weight": 237,
+      "college": "Beckertown",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 25954767,
+      "capHit": 15288818,
+      "deadCap": 2085499,
+      "signingBonus": 14098934,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 78,
+      "speed": 85,
+      "acceleration": 89,
+      "agility": 89,
+      "strength": 75,
+      "tackle": 64,
+      "pursuit": 66,
+      "manCoverage": 58,
+      "zoneCoverage": 77,
+      "kickPower": 56,
+      "kickAccuracy": 69,
+      "catching": 85,
+      "routeRunning": 50,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 894,
+        "statB": 459
+      },
+      "career": {
+        "games": 34,
+        "statA": 1073,
+        "statB": 2746
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "BAL-RB-4",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Yuri Larson",
+    "jerseyNumber": 30,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 254,
+      "college": "Floridahaven",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 50321283,
+      "capHit": 1658964,
+      "deadCap": 4866447,
+      "signingBonus": 4508274,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 74,
+      "schemeFit": 95,
+      "speed": 74,
+      "acceleration": 77,
+      "agility": 90,
+      "strength": 65,
+      "tackle": 87,
+      "pursuit": 67,
+      "manCoverage": 89,
+      "zoneCoverage": 67,
+      "kickPower": 63,
+      "kickAccuracy": 52,
+      "catching": 64,
+      "routeRunning": 79,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 623,
+        "statB": 302
+      },
+      "career": {
+        "games": 57,
+        "statA": 3782,
+        "statB": 3480
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "BAL-WR-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Ryan Fahey",
+    "jerseyNumber": 15,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 243,
+      "college": "Lakinstead",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 46129157,
+      "capHit": 22977975,
+      "deadCap": 1209466,
+      "signingBonus": 3645618,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 83,
+      "schemeFit": 76,
+      "speed": 71,
+      "acceleration": 93,
+      "agility": 92,
+      "strength": 66,
+      "tackle": 82,
+      "pursuit": 90,
+      "manCoverage": 68,
+      "zoneCoverage": 62,
+      "kickPower": 72,
+      "kickAccuracy": 85,
+      "catching": 56,
+      "routeRunning": 88,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 217,
+        "statB": 230
+      },
+      "career": {
+        "games": 22,
+        "statA": 2164,
+        "statB": 675
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "BAL-WR-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Viktor Labadie",
+    "jerseyNumber": 75,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 277,
+      "college": "Felipaview",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 80754033,
+      "capHit": 14887768,
+      "deadCap": 8925806,
+      "signingBonus": 16856442,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 86,
+      "schemeFit": 82,
+      "speed": 70,
+      "acceleration": 84,
+      "agility": 75,
+      "strength": 72,
+      "tackle": 95,
+      "pursuit": 87,
+      "manCoverage": 72,
+      "zoneCoverage": 58,
+      "kickPower": 66,
+      "kickAccuracy": 83,
+      "catching": 84,
+      "routeRunning": 78,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 85,
+        "statB": 923
+      },
+      "career": {
+        "games": 43,
+        "statA": 4518,
+        "statB": 4756
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "BAL-WR-3",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Elijah Treutel",
+    "jerseyNumber": 73,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'0\"",
+      "weight": 238,
+      "college": "Pearl City",
+      "experience": 9,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 86666495,
+      "capHit": 2204809,
+      "deadCap": 585489,
+      "signingBonus": 5465775,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 85,
+      "speed": 81,
+      "acceleration": 92,
+      "agility": 91,
+      "strength": 76,
+      "tackle": 70,
+      "pursuit": 75,
+      "manCoverage": 57,
+      "zoneCoverage": 51,
+      "kickPower": 68,
+      "kickAccuracy": 63,
+      "catching": 65,
+      "routeRunning": 90,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 424,
+        "statB": 218
+      },
+      "career": {
+        "games": 12,
+        "statA": 3808,
+        "statB": 455
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "BAL-WR-4",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Eric Schulist",
+    "jerseyNumber": 8,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 23,
+      "height": "6'5\"",
+      "weight": 327,
+      "college": "Ivacester",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 8716208,
+      "capHit": 10089614,
+      "deadCap": 314789,
+      "signingBonus": 15510914,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 70,
+      "schemeFit": 76,
+      "speed": 83,
+      "acceleration": 90,
+      "agility": 92,
+      "strength": 90,
+      "tackle": 92,
+      "pursuit": 72,
+      "manCoverage": 78,
+      "zoneCoverage": 67,
+      "kickPower": 89,
+      "kickAccuracy": 73,
+      "catching": 80,
+      "routeRunning": 90,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 413,
+        "statB": 167
+      },
+      "career": {
+        "games": 83,
+        "statA": 4317,
+        "statB": 1113
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "BAL-WR-5",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Evan O'Hara-Schumm",
+    "jerseyNumber": 79,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 295,
+      "college": "North Maximillian",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 16361093,
+      "capHit": 18497612,
+      "deadCap": 9949016,
+      "signingBonus": 6259375,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 87,
+      "schemeFit": 78,
+      "speed": 87,
+      "acceleration": 94,
+      "agility": 84,
+      "strength": 77,
+      "tackle": 62,
+      "pursuit": 87,
+      "manCoverage": 82,
+      "zoneCoverage": 76,
+      "kickPower": 56,
+      "kickAccuracy": 53,
+      "catching": 86,
+      "routeRunning": 65,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 776,
+        "statB": 818
+      },
+      "career": {
+        "games": 66,
+        "statA": 2478,
+        "statB": 2803
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "BAL-WR-6",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Edgar Windler",
+    "jerseyNumber": 50,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 316,
+      "college": "Dale City",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 29091349,
+      "capHit": 20622373,
+      "deadCap": 4607218,
+      "signingBonus": 16971960,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 83,
+      "schemeFit": 94,
+      "speed": 73,
+      "acceleration": 83,
+      "agility": 94,
+      "strength": 71,
+      "tackle": 91,
+      "pursuit": 93,
+      "manCoverage": 74,
+      "zoneCoverage": 73,
+      "kickPower": 72,
+      "kickAccuracy": 51,
+      "catching": 77,
+      "routeRunning": 75,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 682,
+        "statB": 871
+      },
+      "career": {
+        "games": 101,
+        "statA": 1815,
+        "statB": 3840
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "BAL-WR-7",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Evan Auer",
+    "jerseyNumber": 58,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 204,
+      "college": "East Kenny",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 9149313,
+      "capHit": 12554297,
+      "deadCap": 5396437,
+      "signingBonus": 6822714,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 78,
+      "schemeFit": 90,
+      "speed": 77,
+      "acceleration": 80,
+      "agility": 88,
+      "strength": 83,
+      "tackle": 80,
+      "pursuit": 88,
+      "manCoverage": 84,
+      "zoneCoverage": 76,
+      "kickPower": 63,
+      "kickAccuracy": 85,
+      "catching": 51,
+      "routeRunning": 73,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 405,
+        "statB": 441
+      },
+      "career": {
+        "games": 10,
+        "statA": 4918,
+        "statB": 280
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "BAL-TE-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Edward Hammes",
+    "jerseyNumber": 67,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 260,
+      "college": "Tremblayfurt",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 110038328,
+      "capHit": 21101623,
+      "deadCap": 5054921,
+      "signingBonus": 18548531,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 94,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 82,
+      "agility": 92,
+      "strength": 83,
+      "tackle": 88,
+      "pursuit": 78,
+      "manCoverage": 66,
+      "zoneCoverage": 80,
+      "kickPower": 76,
+      "kickAccuracy": 67,
+      "catching": 64,
+      "routeRunning": 95,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 95,
+        "statB": 780
+      },
+      "career": {
+        "games": 63,
+        "statA": 790,
+        "statB": 1928
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "BAL-TE-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Henry Hagenes",
+    "jerseyNumber": 23,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 327,
+      "college": "Corkeryview",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 64254187,
+      "capHit": 17299396,
+      "deadCap": 3996103,
+      "signingBonus": 5531282,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 68,
+      "schemeFit": 84,
+      "speed": 91,
+      "acceleration": 85,
+      "agility": 88,
+      "strength": 62,
+      "tackle": 81,
+      "pursuit": 78,
+      "manCoverage": 53,
+      "zoneCoverage": 56,
+      "kickPower": 55,
+      "kickAccuracy": 65,
+      "catching": 66,
+      "routeRunning": 64,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 226,
+        "statB": 961
+      },
+      "career": {
+        "games": 100,
+        "statA": 1132,
+        "statB": 3676
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "BAL-TE-3",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Raul Ferry",
+    "jerseyNumber": 56,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 250,
+      "college": "New Robbiestead",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 65236983,
+      "capHit": 16853664,
+      "deadCap": 374902,
+      "signingBonus": 11048145,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 91,
+      "speed": 70,
+      "acceleration": 79,
+      "agility": 81,
+      "strength": 88,
+      "tackle": 60,
+      "pursuit": 78,
+      "manCoverage": 79,
+      "zoneCoverage": 64,
+      "kickPower": 93,
+      "kickAccuracy": 56,
+      "catching": 66,
+      "routeRunning": 85,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 894,
+        "statB": 90
+      },
+      "career": {
+        "games": 37,
+        "statA": 4147,
+        "statB": 4789
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "BAL-LT-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Diego Greenholt",
+    "jerseyNumber": 5,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 225,
+      "college": "Brookline",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 32085495,
+      "capHit": 9438823,
+      "deadCap": 3506430,
+      "signingBonus": 537526,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 71,
+      "acceleration": 76,
+      "agility": 92,
+      "strength": 87,
+      "tackle": 73,
+      "pursuit": 60,
+      "manCoverage": 60,
+      "zoneCoverage": 69,
+      "kickPower": 65,
+      "kickAccuracy": 68,
+      "catching": 65,
+      "routeRunning": 80,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 593,
+        "statB": 689
+      },
+      "career": {
+        "games": 95,
+        "statA": 617,
+        "statB": 2982
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "BAL-LT-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Noah Gislason",
+    "jerseyNumber": 28,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 312,
+      "college": "South Germaine",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 45054067,
+      "capHit": 12364903,
+      "deadCap": 9351361,
+      "signingBonus": 1513190,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 67,
+      "schemeFit": 71,
+      "speed": 82,
+      "acceleration": 90,
+      "agility": 92,
+      "strength": 90,
+      "tackle": 78,
+      "pursuit": 80,
+      "manCoverage": 71,
+      "zoneCoverage": 80,
+      "kickPower": 80,
+      "kickAccuracy": 81,
+      "catching": 65,
+      "routeRunning": 91,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 441,
+        "statB": 20
+      },
+      "career": {
+        "games": 106,
+        "statA": 871,
+        "statB": 3753
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "BAL-LG-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Raul Dickinson",
+    "jerseyNumber": 64,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 191,
+      "college": "Lake Darby",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 109186565,
+      "capHit": 6742170,
+      "deadCap": 3188466,
+      "signingBonus": 2743412,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 87,
+      "schemeFit": 93,
+      "speed": 89,
+      "acceleration": 85,
+      "agility": 85,
+      "strength": 91,
+      "tackle": 91,
+      "pursuit": 65,
+      "manCoverage": 67,
+      "zoneCoverage": 66,
+      "kickPower": 72,
+      "kickAccuracy": 67,
+      "catching": 79,
+      "routeRunning": 59,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 602,
+        "statB": 376
+      },
+      "career": {
+        "games": 14,
+        "statA": 3311,
+        "statB": 2435
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "BAL-LG-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Dawson Monahan",
+    "jerseyNumber": 50,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 248,
+      "college": "New Mandy",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 14817699,
+      "capHit": 11599651,
+      "deadCap": 4937390,
+      "signingBonus": 2170306,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 83,
+      "speed": 92,
+      "acceleration": 71,
+      "agility": 82,
+      "strength": 89,
+      "tackle": 93,
+      "pursuit": 88,
+      "manCoverage": 78,
+      "zoneCoverage": 80,
+      "kickPower": 61,
+      "kickAccuracy": 86,
+      "catching": 58,
+      "routeRunning": 62,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 343,
+        "statB": 478
+      },
+      "career": {
+        "games": 103,
+        "statA": 3167,
+        "statB": 3118
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "BAL-C-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Aaron Ullrich",
+    "jerseyNumber": 87,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 288,
+      "college": "North Magdalen",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 42795661,
+      "capHit": 14410653,
+      "deadCap": 9541755,
+      "signingBonus": 1788056,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 73,
+      "schemeFit": 77,
+      "speed": 94,
+      "acceleration": 86,
+      "agility": 82,
+      "strength": 79,
+      "tackle": 80,
+      "pursuit": 70,
+      "manCoverage": 73,
+      "zoneCoverage": 58,
+      "kickPower": 81,
+      "kickAccuracy": 87,
+      "catching": 62,
+      "routeRunning": 50,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 31,
+        "statB": 199
+      },
+      "career": {
+        "games": 105,
+        "statA": 965,
+        "statB": 3611
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "BAL-C-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Ethan Walker-Jast",
+    "jerseyNumber": 75,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 252,
+      "college": "South Elise",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 109851879,
+      "capHit": 7497443,
+      "deadCap": 4489831,
+      "signingBonus": 1359072,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 91,
+      "schemeFit": 81,
+      "speed": 71,
+      "acceleration": 76,
+      "agility": 79,
+      "strength": 86,
+      "tackle": 86,
+      "pursuit": 61,
+      "manCoverage": 86,
+      "zoneCoverage": 70,
+      "kickPower": 75,
+      "kickAccuracy": 54,
+      "catching": 74,
+      "routeRunning": 66,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 100,
+        "statB": 501
+      },
+      "career": {
+        "games": 6,
+        "statA": 3268,
+        "statB": 1170
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "BAL-RG-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Miles Heaney",
+    "jerseyNumber": 3,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 238,
+      "college": "South Kaitlynside",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 64809312,
+      "capHit": 23718545,
+      "deadCap": 6996657,
+      "signingBonus": 8131750,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 82,
+      "schemeFit": 95,
+      "speed": 84,
+      "acceleration": 76,
+      "agility": 95,
+      "strength": 87,
+      "tackle": 80,
+      "pursuit": 61,
+      "manCoverage": 76,
+      "zoneCoverage": 60,
+      "kickPower": 78,
+      "kickAccuracy": 93,
+      "catching": 90,
+      "routeRunning": 86,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 789,
+        "statB": 824
+      },
+      "career": {
+        "games": 94,
+        "statA": 3847,
+        "statB": 24
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "BAL-RG-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Gianni Douglas",
+    "jerseyNumber": 68,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 253,
+      "college": "Auburn",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 29916066,
+      "capHit": 18718655,
+      "deadCap": 1386314,
+      "signingBonus": 13615124,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 71,
+      "schemeFit": 78,
+      "speed": 91,
+      "acceleration": 81,
+      "agility": 85,
+      "strength": 79,
+      "tackle": 67,
+      "pursuit": 67,
+      "manCoverage": 79,
+      "zoneCoverage": 76,
+      "kickPower": 77,
+      "kickAccuracy": 94,
+      "catching": 82,
+      "routeRunning": 58,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 442,
+        "statB": 612
+      },
+      "career": {
+        "games": 100,
+        "statA": 4570,
+        "statB": 3793
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "BAL-RT-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Igor Nader",
+    "jerseyNumber": 3,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 308,
+      "college": "New Joan",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 31827820,
+      "capHit": 23372357,
+      "deadCap": 3635283,
+      "signingBonus": 2362494,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 73,
+      "schemeFit": 90,
+      "speed": 70,
+      "acceleration": 70,
+      "agility": 83,
+      "strength": 95,
+      "tackle": 61,
+      "pursuit": 86,
+      "manCoverage": 66,
+      "zoneCoverage": 86,
+      "kickPower": 72,
+      "kickAccuracy": 89,
+      "catching": 83,
+      "routeRunning": 85,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 28,
+        "statB": 130
+      },
+      "career": {
+        "games": 52,
+        "statA": 2570,
+        "statB": 799
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "BAL-RT-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Anton Keebler",
+    "jerseyNumber": 16,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 222,
+      "college": "Kentwood",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 86445551,
+      "capHit": 4848693,
+      "deadCap": 4512579,
+      "signingBonus": 16751650,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 72,
+      "schemeFit": 81,
+      "speed": 94,
+      "acceleration": 88,
+      "agility": 95,
+      "strength": 67,
+      "tackle": 93,
+      "pursuit": 91,
+      "manCoverage": 86,
+      "zoneCoverage": 50,
+      "kickPower": 84,
+      "kickAccuracy": 66,
+      "catching": 84,
+      "routeRunning": 55,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 783,
+        "statB": 828
+      },
+      "career": {
+        "games": 42,
+        "statA": 1056,
+        "statB": 3027
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "BAL-LDE-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Samuel Thiel",
+    "jerseyNumber": 34,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 233,
+      "college": "Georgetown",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 108007093,
+      "capHit": 24185856,
+      "deadCap": 4930317,
+      "signingBonus": 8573631,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 77,
+      "schemeFit": 90,
+      "speed": 76,
+      "acceleration": 73,
+      "agility": 83,
+      "strength": 74,
+      "tackle": 91,
+      "pursuit": 92,
+      "manCoverage": 68,
+      "zoneCoverage": 66,
+      "kickPower": 62,
+      "kickAccuracy": 80,
+      "catching": 52,
+      "routeRunning": 50,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 867,
+        "statB": 671
+      },
+      "career": {
+        "games": 98,
+        "statA": 471,
+        "statB": 2937
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "BAL-LDE-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "James Herman",
+    "jerseyNumber": 76,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 308,
+      "college": "Altenwerthville",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 94129564,
+      "capHit": 4758690,
+      "deadCap": 9331436,
+      "signingBonus": 8521173,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 87,
+      "schemeFit": 88,
+      "speed": 74,
+      "acceleration": 74,
+      "agility": 92,
+      "strength": 75,
+      "tackle": 92,
+      "pursuit": 78,
+      "manCoverage": 64,
+      "zoneCoverage": 72,
+      "kickPower": 89,
+      "kickAccuracy": 91,
+      "catching": 67,
+      "routeRunning": 84,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 168,
+        "statB": 149
+      },
+      "career": {
+        "games": 69,
+        "statA": 4346,
+        "statB": 574
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "BAL-RDE-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Joon Mitchell",
+    "jerseyNumber": 14,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 272,
+      "college": "New Nyasia",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 35512564,
+      "capHit": 14149589,
+      "deadCap": 2501760,
+      "signingBonus": 11921751,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 79,
+      "schemeFit": 79,
+      "speed": 83,
+      "acceleration": 88,
+      "agility": 75,
+      "strength": 83,
+      "tackle": 92,
+      "pursuit": 81,
+      "manCoverage": 50,
+      "zoneCoverage": 65,
+      "kickPower": 61,
+      "kickAccuracy": 87,
+      "catching": 87,
+      "routeRunning": 80,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 694,
+        "statB": 775
+      },
+      "career": {
+        "games": 5,
+        "statA": 2795,
+        "statB": 4234
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "BAL-RDE-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Eric Douglas",
+    "jerseyNumber": 29,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 207,
+      "college": "Fort Viviannebury",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 14982821,
+      "capHit": 13033626,
+      "deadCap": 2660609,
+      "signingBonus": 13123560,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 72,
+      "speed": 91,
+      "acceleration": 89,
+      "agility": 80,
+      "strength": 66,
+      "tackle": 93,
+      "pursuit": 74,
+      "manCoverage": 56,
+      "zoneCoverage": 84,
+      "kickPower": 88,
+      "kickAccuracy": 58,
+      "catching": 51,
+      "routeRunning": 93,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 338,
+        "statB": 217
+      },
+      "career": {
+        "games": 111,
+        "statA": 2321,
+        "statB": 2176
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "BAL-DT-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Ivan Hills-Waters",
+    "jerseyNumber": 30,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 260,
+      "college": "South Chadrick",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 101922394,
+      "capHit": 742196,
+      "deadCap": 5732617,
+      "signingBonus": 17908320,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 79,
+      "schemeFit": 95,
+      "speed": 95,
+      "acceleration": 87,
+      "agility": 80,
+      "strength": 64,
+      "tackle": 82,
+      "pursuit": 69,
+      "manCoverage": 59,
+      "zoneCoverage": 60,
+      "kickPower": 87,
+      "kickAccuracy": 64,
+      "catching": 57,
+      "routeRunning": 75,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 443,
+        "statB": 9
+      },
+      "career": {
+        "games": 45,
+        "statA": 3540,
+        "statB": 981
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "BAL-DT-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Sergio Hane",
+    "jerseyNumber": 38,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 305,
+      "college": "South Claudiashire",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 66337665,
+      "capHit": 11258943,
+      "deadCap": 4283696,
+      "signingBonus": 14927157,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 73,
+      "schemeFit": 79,
+      "speed": 92,
+      "acceleration": 95,
+      "agility": 84,
+      "strength": 69,
+      "tackle": 66,
+      "pursuit": 88,
+      "manCoverage": 65,
+      "zoneCoverage": 88,
+      "kickPower": 75,
+      "kickAccuracy": 52,
+      "catching": 74,
+      "routeRunning": 89,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 285,
+        "statB": 481
+      },
+      "career": {
+        "games": 54,
+        "statA": 447,
+        "statB": 4727
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "BAL-DT-3",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Justin Langosh",
+    "jerseyNumber": 52,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 262,
+      "college": "Fort Dorothyburgh",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 119801721,
+      "capHit": 13641109,
+      "deadCap": 4762743,
+      "signingBonus": 15962369,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 76,
+      "speed": 93,
+      "acceleration": 88,
+      "agility": 85,
+      "strength": 79,
+      "tackle": 66,
+      "pursuit": 77,
+      "manCoverage": 63,
+      "zoneCoverage": 85,
+      "kickPower": 53,
+      "kickAccuracy": 94,
+      "catching": 72,
+      "routeRunning": 91,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 369,
+        "statB": 119
+      },
+      "career": {
+        "games": 1,
+        "statA": 3518,
+        "statB": 3991
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "BAL-DT-4",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Robert Crona",
+    "jerseyNumber": 19,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 324,
+      "college": "Austinbury",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 63305303,
+      "capHit": 15696618,
+      "deadCap": 7685440,
+      "signingBonus": 6408050,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 83,
+      "speed": 77,
+      "acceleration": 85,
+      "agility": 86,
+      "strength": 69,
+      "tackle": 70,
+      "pursuit": 66,
+      "manCoverage": 61,
+      "zoneCoverage": 66,
+      "kickPower": 88,
+      "kickAccuracy": 61,
+      "catching": 73,
+      "routeRunning": 78,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 659,
+        "statB": 705
+      },
+      "career": {
+        "games": 88,
+        "statA": 257,
+        "statB": 2974
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "BAL-LOLB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Samuel Moen",
+    "jerseyNumber": 39,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 269,
+      "college": "Pinellas Park",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 107893647,
+      "capHit": 14387738,
+      "deadCap": 2095707,
+      "signingBonus": 6057091,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 83,
+      "schemeFit": 90,
+      "speed": 75,
+      "acceleration": 88,
+      "agility": 74,
+      "strength": 67,
+      "tackle": 85,
+      "pursuit": 75,
+      "manCoverage": 72,
+      "zoneCoverage": 86,
+      "kickPower": 58,
+      "kickAccuracy": 70,
+      "catching": 50,
+      "routeRunning": 76,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 750,
+        "statB": 837
+      },
+      "career": {
+        "games": 18,
+        "statA": 442,
+        "statB": 3818
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "BAL-LOLB-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Santiago Muller",
+    "jerseyNumber": 44,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 206,
+      "college": "Port Charlie",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 81266963,
+      "capHit": 13716351,
+      "deadCap": 6563968,
+      "signingBonus": 8268752,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 91,
+      "schemeFit": 71,
+      "speed": 79,
+      "acceleration": 70,
+      "agility": 92,
+      "strength": 87,
+      "tackle": 78,
+      "pursuit": 66,
+      "manCoverage": 53,
+      "zoneCoverage": 74,
+      "kickPower": 69,
+      "kickAccuracy": 51,
+      "catching": 77,
+      "routeRunning": 66,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 146,
+        "statB": 670
+      },
+      "career": {
+        "games": 8,
+        "statA": 4476,
+        "statB": 1046
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "BAL-MLB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Larry Lowe",
+    "jerseyNumber": 82,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 192,
+      "college": "Dominiquestead",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 30498709,
+      "capHit": 13839491,
+      "deadCap": 3865864,
+      "signingBonus": 7268173,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 88,
+      "schemeFit": 89,
+      "speed": 83,
+      "acceleration": 82,
+      "agility": 72,
+      "strength": 79,
+      "tackle": 83,
+      "pursuit": 63,
+      "manCoverage": 69,
+      "zoneCoverage": 79,
+      "kickPower": 78,
+      "kickAccuracy": 51,
+      "catching": 60,
+      "routeRunning": 57,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 209,
+        "statB": 775
+      },
+      "career": {
+        "games": 53,
+        "statA": 1325,
+        "statB": 2630
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "BAL-MLB-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Jeremy Harber",
+    "jerseyNumber": 84,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 274,
+      "college": "Zboncakfurt",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 73677144,
+      "capHit": 10098408,
+      "deadCap": 8657540,
+      "signingBonus": 6636767,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 92,
+      "schemeFit": 90,
+      "speed": 93,
+      "acceleration": 78,
+      "agility": 95,
+      "strength": 80,
+      "tackle": 75,
+      "pursuit": 65,
+      "manCoverage": 67,
+      "zoneCoverage": 62,
+      "kickPower": 61,
+      "kickAccuracy": 71,
+      "catching": 66,
+      "routeRunning": 90,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 891,
+        "statB": 638
+      },
+      "career": {
+        "games": 1,
+        "statA": 2037,
+        "statB": 872
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "BAL-ROLB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Callum Ferry",
+    "jerseyNumber": 21,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 212,
+      "college": "New Anissa",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 106090433,
+      "capHit": 19516039,
+      "deadCap": 6029270,
+      "signingBonus": 3944030,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 85,
+      "schemeFit": 86,
+      "speed": 88,
+      "acceleration": 78,
+      "agility": 86,
+      "strength": 62,
+      "tackle": 76,
+      "pursuit": 60,
+      "manCoverage": 60,
+      "zoneCoverage": 74,
+      "kickPower": 77,
+      "kickAccuracy": 77,
+      "catching": 87,
+      "routeRunning": 83,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 269,
+        "statB": 262
+      },
+      "career": {
+        "games": 91,
+        "statA": 2278,
+        "statB": 3859
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "BAL-ROLB-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Matteo Connelly",
+    "jerseyNumber": 94,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 190,
+      "college": "Port Francesca",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 22756008,
+      "capHit": 6176108,
+      "deadCap": 3984267,
+      "signingBonus": 14050325,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 85,
+      "schemeFit": 90,
+      "speed": 81,
+      "acceleration": 94,
+      "agility": 71,
+      "strength": 91,
+      "tackle": 76,
+      "pursuit": 80,
+      "manCoverage": 65,
+      "zoneCoverage": 68,
+      "kickPower": 51,
+      "kickAccuracy": 84,
+      "catching": 68,
+      "routeRunning": 59,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 677,
+        "statB": 546
+      },
+      "career": {
+        "games": 88,
+        "statA": 4025,
+        "statB": 2700
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "BAL-CB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Wei Sipes",
+    "jerseyNumber": 91,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 330,
+      "college": "Macon-Bibb County",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 2962369,
+      "capHit": 10377880,
+      "deadCap": 9120177,
+      "signingBonus": 10482687,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 91,
+      "schemeFit": 94,
+      "speed": 83,
+      "acceleration": 90,
+      "agility": 75,
+      "strength": 68,
+      "tackle": 75,
+      "pursuit": 76,
+      "manCoverage": 55,
+      "zoneCoverage": 68,
+      "kickPower": 79,
+      "kickAccuracy": 83,
+      "catching": 87,
+      "routeRunning": 92,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 179,
+        "statB": 279
+      },
+      "career": {
+        "games": 32,
+        "statA": 657,
+        "statB": 2172
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "BAL-CB-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Nolan Rogahn",
+    "jerseyNumber": 86,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 200,
+      "college": "Stockton",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 36621661,
+      "capHit": 18043205,
+      "deadCap": 1699912,
+      "signingBonus": 11977252,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 86,
+      "schemeFit": 84,
+      "speed": 82,
+      "acceleration": 91,
+      "agility": 79,
+      "strength": 67,
+      "tackle": 91,
+      "pursuit": 91,
+      "manCoverage": 74,
+      "zoneCoverage": 56,
+      "kickPower": 69,
+      "kickAccuracy": 84,
+      "catching": 64,
+      "routeRunning": 67,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 153,
+        "statB": 807
+      },
+      "career": {
+        "games": 33,
+        "statA": 1840,
+        "statB": 4755
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "BAL-CB-3",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Adrian Hoeger",
+    "jerseyNumber": 12,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 223,
+      "college": "Normal",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 48143571,
+      "capHit": 18544988,
+      "deadCap": 717659,
+      "signingBonus": 5965926,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 81,
+      "schemeFit": 72,
+      "speed": 74,
+      "acceleration": 75,
+      "agility": 71,
+      "strength": 86,
+      "tackle": 86,
+      "pursuit": 75,
+      "manCoverage": 63,
+      "zoneCoverage": 75,
+      "kickPower": 89,
+      "kickAccuracy": 74,
+      "catching": 50,
+      "routeRunning": 69,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 391,
+        "statB": 109
+      },
+      "career": {
+        "games": 35,
+        "statA": 2845,
+        "statB": 2226
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "BAL-CB-4",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Parker Larkin",
+    "jerseyNumber": 70,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 242,
+      "college": "Lubowitzworth",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 76566346,
+      "capHit": 2706326,
+      "deadCap": 5669313,
+      "signingBonus": 17956908,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 82,
+      "schemeFit": 73,
+      "speed": 84,
+      "acceleration": 89,
+      "agility": 92,
+      "strength": 80,
+      "tackle": 82,
+      "pursuit": 77,
+      "manCoverage": 85,
+      "zoneCoverage": 54,
+      "kickPower": 58,
+      "kickAccuracy": 92,
+      "catching": 67,
+      "routeRunning": 75,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 911,
+        "statB": 406
+      },
+      "career": {
+        "games": 61,
+        "statA": 3064,
+        "statB": 1736
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "BAL-CB-5",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Hunter DuBuque",
+    "jerseyNumber": 57,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 236,
+      "college": "Lake Ericahaven",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 39261782,
+      "capHit": 15818425,
+      "deadCap": 6123315,
+      "signingBonus": 8250184,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 68,
+      "schemeFit": 89,
+      "speed": 87,
+      "acceleration": 91,
+      "agility": 94,
+      "strength": 68,
+      "tackle": 77,
+      "pursuit": 66,
+      "manCoverage": 68,
+      "zoneCoverage": 70,
+      "kickPower": 60,
+      "kickAccuracy": 70,
+      "catching": 92,
+      "routeRunning": 91,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 751,
+        "statB": 462
+      },
+      "career": {
+        "games": 59,
+        "statA": 4404,
+        "statB": 950
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "BAL-CB-6",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Mark Swaniawski",
+    "jerseyNumber": 7,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 263,
+      "college": "Athenashire",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 108346886,
+      "capHit": 14334889,
+      "deadCap": 1546609,
+      "signingBonus": 11644923,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 79,
+      "schemeFit": 77,
+      "speed": 88,
+      "acceleration": 77,
+      "agility": 89,
+      "strength": 95,
+      "tackle": 94,
+      "pursuit": 84,
+      "manCoverage": 52,
+      "zoneCoverage": 62,
+      "kickPower": 68,
+      "kickAccuracy": 66,
+      "catching": 54,
+      "routeRunning": 73,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 320,
+        "statB": 149
+      },
+      "career": {
+        "games": 112,
+        "statA": 2525,
+        "statB": 2900
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "BAL-FS-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Gary Luettgen",
+    "jerseyNumber": 2,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 274,
+      "college": "Caliville",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 57052570,
+      "capHit": 951346,
+      "deadCap": 7377421,
+      "signingBonus": 14147819,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 70,
+      "schemeFit": 77,
+      "speed": 73,
+      "acceleration": 81,
+      "agility": 76,
+      "strength": 82,
+      "tackle": 87,
+      "pursuit": 89,
+      "manCoverage": 71,
+      "zoneCoverage": 83,
+      "kickPower": 66,
+      "kickAccuracy": 72,
+      "catching": 54,
+      "routeRunning": 92,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 695,
+        "statB": 749
+      },
+      "career": {
+        "games": 99,
+        "statA": 3010,
+        "statB": 499
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "BAL-FS-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Riley Bashirian-Hahn",
+    "jerseyNumber": 90,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 194,
+      "college": "Sarasota",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 28344113,
+      "capHit": 21858755,
+      "deadCap": 5517438,
+      "signingBonus": 15242024,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 66,
+      "schemeFit": 86,
+      "speed": 84,
+      "acceleration": 80,
+      "agility": 93,
+      "strength": 81,
+      "tackle": 87,
+      "pursuit": 86,
+      "manCoverage": 56,
+      "zoneCoverage": 54,
+      "kickPower": 73,
+      "kickAccuracy": 69,
+      "catching": 86,
+      "routeRunning": 57,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 364,
+        "statB": 319
+      },
+      "career": {
+        "games": 63,
+        "statA": 2035,
+        "statB": 3160
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "BAL-SS-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Keith Satterfield",
+    "jerseyNumber": 50,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 234,
+      "college": "Aurora",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 116632115,
+      "capHit": 14732721,
+      "deadCap": 1396881,
+      "signingBonus": 16315601,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 68,
+      "schemeFit": 79,
+      "speed": 71,
+      "acceleration": 72,
+      "agility": 83,
+      "strength": 74,
+      "tackle": 76,
+      "pursuit": 66,
+      "manCoverage": 63,
+      "zoneCoverage": 62,
+      "kickPower": 68,
+      "kickAccuracy": 80,
+      "catching": 91,
+      "routeRunning": 73,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 165,
+        "statB": 37
+      },
+      "career": {
+        "games": 41,
+        "statA": 4258,
+        "statB": 2226
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "BAL-SS-2",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Julian Homenick",
+    "jerseyNumber": 73,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "5'11\"",
+      "weight": 256,
+      "college": "Weymouth Town",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 42312469,
+      "capHit": 4756574,
+      "deadCap": 3471115,
+      "signingBonus": 12149704,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 63,
+      "schemeFit": 79,
+      "speed": 93,
+      "acceleration": 90,
+      "agility": 79,
+      "strength": 89,
+      "tackle": 66,
+      "pursuit": 64,
+      "manCoverage": 65,
+      "zoneCoverage": 70,
+      "kickPower": 74,
+      "kickAccuracy": 63,
+      "catching": 82,
+      "routeRunning": 85,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 931,
+        "statB": 731
+      },
+      "career": {
+        "games": 18,
+        "statA": 2767,
+        "statB": 3442
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "BAL-K-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Gregory Baumbach",
+    "jerseyNumber": 7,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 262,
+      "college": "Duluth",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 111748648,
+      "capHit": 1615655,
+      "deadCap": 7298932,
+      "signingBonus": 10103436,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 80,
+      "schemeFit": 84,
+      "speed": 94,
+      "acceleration": 71,
+      "agility": 77,
+      "strength": 91,
+      "tackle": 81,
+      "pursuit": 81,
+      "manCoverage": 60,
+      "zoneCoverage": 59,
+      "kickPower": 91,
+      "kickAccuracy": 85,
+      "catching": 61,
+      "routeRunning": 65,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 664,
+        "statB": 174
+      },
+      "career": {
+        "games": 87,
+        "statA": 1225,
+        "statB": 1501
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "BAL-P-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Noah Reinger",
+    "jerseyNumber": 8,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'1\"",
+      "weight": 323,
+      "college": "Elbertboro",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 89972458,
+      "capHit": 4596987,
+      "deadCap": 7133224,
+      "signingBonus": 17026630,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 75,
+      "speed": 89,
+      "acceleration": 90,
+      "agility": 71,
+      "strength": 80,
+      "tackle": 68,
+      "pursuit": 70,
+      "manCoverage": 75,
+      "zoneCoverage": 85,
+      "kickPower": 64,
+      "kickAccuracy": 61,
+      "catching": 91,
+      "routeRunning": 87,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 818,
+        "statB": 443
+      },
+      "career": {
+        "games": 65,
+        "statA": 603,
+        "statB": 3528
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "BAL-LS-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Takumi Luettgen",
+    "jerseyNumber": 74,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 284,
+      "college": "Trantowhaven",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 33243653,
+      "capHit": 20132771,
+      "deadCap": 5518395,
+      "signingBonus": 1885304,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 68,
+      "schemeFit": 89,
+      "speed": 95,
+      "acceleration": 94,
+      "agility": 78,
+      "strength": 69,
+      "tackle": 65,
+      "pursuit": 90,
+      "manCoverage": 90,
+      "zoneCoverage": 88,
+      "kickPower": 76,
+      "kickAccuracy": 85,
+      "catching": 78,
+      "routeRunning": 53,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 294,
+        "statB": 970
+      },
+      "career": {
+        "games": 18,
+        "statA": 4,
+        "statB": 3759
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "BAL-KR-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Connor Spencer",
+    "jerseyNumber": 15,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 291,
+      "college": "Castle Rock",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 29773876,
+      "capHit": 10146497,
+      "deadCap": 1928883,
+      "signingBonus": 1047565,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 86,
+      "schemeFit": 95,
+      "speed": 75,
+      "acceleration": 73,
+      "agility": 91,
+      "strength": 84,
+      "tackle": 73,
+      "pursuit": 94,
+      "manCoverage": 61,
+      "zoneCoverage": 73,
+      "kickPower": 92,
+      "kickAccuracy": 94,
+      "catching": 55,
+      "routeRunning": 87,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 941,
+        "statB": 417
+      },
+      "career": {
+        "games": 88,
+        "statA": 1870,
+        "statB": 3805
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "BAL-PR-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Kieran Zemlak",
+    "jerseyNumber": 69,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 293,
+      "college": "Memphis",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 1963447,
+      "capHit": 11393321,
+      "deadCap": 2188901,
+      "signingBonus": 2360675,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 78,
+      "speed": 93,
+      "acceleration": 75,
+      "agility": 70,
+      "strength": 76,
+      "tackle": 67,
+      "pursuit": 95,
+      "manCoverage": 82,
+      "zoneCoverage": 61,
+      "kickPower": 64,
+      "kickAccuracy": 74,
+      "catching": 87,
+      "routeRunning": 78,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 520,
+        "statB": 348
+      },
+      "career": {
+        "games": 40,
+        "statA": 1670,
+        "statB": 1863
+      }
+    },
+    "photo": "/player_faces/47.png"
+  }
 ]

@@ -6,7 +6,7 @@ import TeamHeader from "../components/team/TeamHeader";
 import TeamTabs from "../components/team/TeamTabs";
 
 import RosterTable from "../components/team/RosterTable";
-import DepthChart2 from "../components/team/DepthChart2";
+import DepthChart from "../components/team/depthchart/DepthChart.jsx";
 import StaffTable from "../components/team/StaffTable";
 import FinancesPanel from "../components/team/FinancesPanel";
 import ScheduleTable from "../components/team/ScheduleTable";
@@ -40,44 +40,45 @@ const TeamPage = () => {
   const [tab, setTab] = useState("roster");
   const [selectedPlayer, setSelectedPlayer] = useState(null);
 
-  const handlePlayerClick = (player) => {
-    setSelectedPlayer(player);
-  };
+  const handlePlayerClick = (player) => setSelectedPlayer(player);
 
   return (
-    <div style={{ padding: "20px", paddingTop: "10px" }}>
+    <div style={{ paddingTop: "8px", paddingBottom: "40px" }}>
       <TeamHeader team={team} />
 
-      <div style={{ height: "10px" }} />
+      <div style={{ height: "12px" }} />
 
       <TeamTabs tab={tab} setTab={setTab} />
 
-      {tab === "roster" && (
-        <RosterTable
-          roster={rosters[selectedTeam]}
-          onPlayerClick={handlePlayerClick}
-        />
-      )}
+      <div style={{ marginTop: "20px" }}>
+        {tab === "roster" && (
+          <RosterTable
+            roster={rosters[selectedTeam]}
+            onPlayerClick={handlePlayerClick}
+          />
+        )}
 
-      {tab === "depthChart" && (
-        <DepthChart2
-          roster={rosters[selectedTeam]}
-          onPlayerClick={handlePlayerClick}
-        />
-      )}
 
-      {tab === "staff" && (
-        <StaffTable
-          staff={staff[selectedTeam]}
-          onPlayerClick={handlePlayerClick}
-        />
-      )}
+        {tab === "depthChart" && (
+          <DepthChart
+              roster={rosters[selectedTeam]}
+              onPlayerClick={handlePlayerClick}
+            />
 
-      {tab === "finances" && <FinancesPanel meta={meta[selectedTeam]} />}
-      {tab === "schedule" && <ScheduleTable schedule={schedules[selectedTeam]} />}
-      {tab === "stats" && <StatsPanel />}
+        )}
 
-      {/* Player Modal */}
+        {tab === "staff" && (
+          <StaffTable
+            staff={staff[selectedTeam]}
+            onPlayerClick={handlePlayerClick}
+          />
+        )}
+
+        {tab === "finances" && <FinancesPanel meta={meta[selectedTeam]} />}
+        {tab === "schedule" && <ScheduleTable schedule={schedules[selectedTeam]} />}
+        {tab === "stats" && <StatsPanel />}
+      </div>
+
       <PlayerModal
         player={selectedPlayer}
         onClose={() => setSelectedPlayer(null)}

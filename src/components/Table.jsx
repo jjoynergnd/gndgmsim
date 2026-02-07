@@ -1,33 +1,26 @@
 import React from "react";
+import styles from "./TableStyles.module.css";
 
-const Table = ({ columns, data }) => {
+const Table = ({ columns, data, onRowClick }) => {
+  const getValue = (row, accessor) => {
+    if (typeof accessor === "function") return accessor(row);
+    return row[accessor];
+  };
+
+  const gridTemplate = columns.map((col) => col.width || "1fr").join(" ");
+
   return (
-    <div
-      style={{
-        border: "1px solid #dcdcdc",
-        borderRadius: "8px",
-        overflow: "hidden",
-        background: "#fff",
-      }}
-    >
+    <div className={styles.tableContainer}>
       {/* HEADER */}
       <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: columns.map(() => "1fr").join(" "),
-          background: "#f7f7f7",
-          borderBottom: "1px solid #dcdcdc",
-        }}
+        className={styles.headerRow}
+        style={{ gridTemplateColumns: gridTemplate }}
       >
         {columns.map((col, idx) => (
           <div
             key={idx}
-            style={{
-              padding: "10px 12px",
-              fontWeight: 700,
-              fontSize: "14px",
-              borderRight: idx < columns.length - 1 ? "1px solid #e5e5e5" : "none",
-            }}
+            className={styles.headerCell}
+            style={{ textAlign: col.headerStyle?.textAlign || "left" }}
           >
             {col.header}
           </div>
@@ -38,24 +31,20 @@ const Table = ({ columns, data }) => {
       {data.map((row, rowIndex) => (
         <div
           key={rowIndex}
+          className={styles.dataRow}
           style={{
-            display: "grid",
-            gridTemplateColumns: columns.map(() => "1fr").join(" "),
-            borderBottom: rowIndex < data.length - 1 ? "1px solid #eee" : "none",
-            background: rowIndex % 2 === 0 ? "#fff" : "#fafafa",
-            transition: "background 0.15s ease",
+            gridTemplateColumns: gridTemplate,
+            cursor: onRowClick ? "pointer" : "default",
           }}
+          onClick={() => onRowClick && onRowClick(row)}
         >
           {columns.map((col, colIndex) => (
             <div
               key={colIndex}
-              style={{
-                padding: "10px 12px",
-                fontSize: "14px",
-                borderRight: colIndex < columns.length - 1 ? "1px solid #f0f0f0" : "none",
-              }}
+              className={styles.dataCell}
+              style={{ textAlign: col.cellStyle?.textAlign || "left" }}
             >
-              {row[col.accessor]}
+              {getValue(row, col.accessor)}
             </div>
           ))}
         </div>

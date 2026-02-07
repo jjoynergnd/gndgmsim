@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// Layout — Now includes HeaderBar at the top
+// Layout — Corrected, Shadow‑Safe, Full‑Width Architecture
 // -----------------------------------------------------------------------------
 
 import React from "react";
@@ -9,29 +9,33 @@ const Layout = ({ children }) => {
   return (
     <div
       style={{
-        flex: 1,
+        height: "100vh",
+        width: "100vw",
         background: "var(--color-bg)",
         display: "flex",
         flexDirection: "column",
-        height: "100vh",
-        overflow: "hidden",
+        overflow: "hidden", // root clamps ONLY the viewport, not children
       }}
     >
       {/* Global header bar */}
       <HeaderBar title="GND GM Simulator" />
 
-      {/* Scrollable content area */}
+      {/* SINGLE scroll container */}
       <div
         style={{
           flex: 1,
           overflowY: "auto",
+          overflowX: "hidden",
           padding: "24px",
+          display: "flex",
+          justifyContent: "center",
         }}
       >
+        {/* Content shell */}
         <div
           style={{
+            width: "100%",
             maxWidth: "1200px",
-            margin: "0 auto",
           }}
         >
           {children}

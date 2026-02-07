@@ -14,7 +14,7 @@ export const teams = [
   { id: "BUF", city: "BUF", mascot: "Frosthorns", conference: "AFC", color: "#3A6FF7" },
   { id: "CIN", city: "CIN", mascot: "Striped Fury", conference: "AFC", color: "#F77F2F" },
   { id: "CLE", city: "CLE", mascot: "Forge Hounds", conference: "AFC", color: "#A65A2E" },
-  { id: "DEN", city: "DEN", mascot: "Storm Broncos", conference: "AFC", color: "#FF7F50" },
+  { id: "DEN", city: "DEN", mascot: "Storm Riders", conference: "AFC", color: "#FF7F50" },
   { id: "HOU", city: "HOU", mascot: "Red Guardians", conference: "AFC", color: "#C0392B" },
   { id: "IND", city: "IND", mascot: "Blue Chargers", conference: "AFC", color: "#2E86DE" },
   { id: "JAX", city: "JAX", mascot: "Jungle Strikers", conference: "AFC", color: "#D4A017" },
