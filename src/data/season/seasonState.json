@@ -1,0 +1,29 @@
+{
+  "year": 2026,
+
+  "phase": "PRESEASON",
+  "week": 0,
+
+  "playoffRound": null,
+  "offseasonStep": null,
+
+  "gamesCompleted": 16,
+  "gamesTotal": 16,
+
+  "lastResult": {
+    "summary": "",
+    "details": ""
+  },
+
+  "warnings": {
+    "injuries": 2,
+    "depthChartIssues": 0,
+    "capOver": false
+  },
+
+  "offseason": {
+    "resigningsComplete": false,
+    "freeAgencyComplete": false,
+    "draftComplete": false
+  }
+}

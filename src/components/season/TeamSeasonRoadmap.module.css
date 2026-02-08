@@ -63,4 +63,22 @@
   font-size: 0.8rem;
   padding-left: 8px;
   border-left: 2px solid rgba(0, 212, 255, 0.4);
+  color: var(--color-text-muted);
+}
+
+.subStepActive {
+  color: #ffffff;
+  border-left-color: #00d4ff;
+}
+
+.clickable {
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.clickable:hover {
+  opacity: 1;
+  transform: translateY(-2px);
 }

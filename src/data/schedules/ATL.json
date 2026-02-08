@@ -1,27 +1,122 @@
-﻿[
-    {
-        "week":  1,
-        "opponent":  "TB",
-        "home":  false
-    },
-    {
-        "week":  2,
-        "opponent":  "LV",
-        "home":  true
-    },
-    {
-        "week":  3,
-        "opponent":  "MIN",
-        "home":  false
-    },
-    {
-        "week":  4,
-        "opponent":  "CAR",
-        "home":  true
-    },
-    {
-        "week":  5,
-        "opponent":  "LAR",
-        "home":  true
-    }
+[
+  {
+    "week": 1,
+    "opponent": "CAR",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 2,
+    "opponent": "GB",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 3,
+    "opponent": "CHI",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 4,
+    "opponent": "ARI",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 5,
+    "opponent": "PIT",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 6,
+    "opponent": "CIN",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 7,
+    "opponent": "BUF",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 8,
+    "opponent": "KC",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 9,
+    "opponent": "JAX",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 10,
+    "opponent": "IND",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 11,
+    "opponent": "DEN",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 12,
+    "opponent": "LAC",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 13,
+    "opponent": "WAS",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 14,
+    "opponent": "DET",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 15,
+    "opponent": "NE",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 16,
+    "opponent": "PHI",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 17,
+    "opponent": "NYG",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 18,
+    "opponent": "BAL",
+    "home": false,
+    "played": false
+  },
+  {
+    "week": 19,
+    "opponent": "SEA",
+    "home": true,
+    "played": false
+  },
+  {
+    "week": 20,
+    "opponent": "TB",
+    "home": false,
+    "played": false
+  }
 ]

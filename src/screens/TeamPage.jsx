@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import teams from "../data/teams.json";
 
+import seasonState from "../data/season/seasonState.json";
+import { advanceSeason } from "../utils/seasonEngine";
+
 import TeamHeader from "../components/team/TeamHeader";
 import TeamSeasonRoadmap from "../components/season/TeamSeasonRoadmap";
+import NextActionCard from "../components/season/NextActionCard";
 import TeamTabs from "../components/team/TeamTabs";
 
 import RosterTable from "../components/team/RosterTable";
@@ -14,7 +18,7 @@ import ScheduleTable from "../components/team/ScheduleTable";
 import StatsPanel from "../components/team/StatsPanel";
 import PlayerModal from "../components/player/PlayerModal";
 
-// Vite-friendly dynamic imports
+// dynamic imports
 const rosterMap = import.meta.glob("../data/rosters/*.json", { eager: true });
 const staffMap = import.meta.glob("../data/staff/*.json", { eager: true });
 const scheduleMap = import.meta.glob("../data/schedules/*.json", { eager: true });
@@ -40,22 +44,51 @@ const TeamPage = () => {
 
   const [tab, setTab] = useState("roster");
   const [selectedPlayer, setSelectedPlayer] = useState(null);
-
-  // TEMP season context — read-only for now
-  const [seasonContext] = useState({
-    year: 2026,
-    phase: "REGULAR_SEASON", // PRESEASON | REGULAR_SEASON | PLAYOFFS | OFFSEASON
-    week: 4,
-  });
+  const [season, setSeason] = useState(seasonState);
 
   const handlePlayerClick = (player) => setSelectedPlayer(player);
+
+  const canAdvance = true;
+
+  const warnings = [];
+  if (season.warnings?.injuries > 0)
+    warnings.push(`${season.warnings.injuries} injured starters`);
+  if (season.warnings?.depthChartIssues > 0)
+    warnings.push("Depth chart incomplete");
+  if (season.warnings?.capOver)
+    warnings.push("Over the salary cap");
+
+  const handleAdvance = () => {
+    const teamContext = {
+      teamId: selectedTeam,
+      roster: rosters[selectedTeam],
+      schedule: schedules[selectedTeam],
+      meta: meta[selectedTeam],
+      staff: staff[selectedTeam]
+    };
+
+    setSeason((prev) => advanceSeason(prev, teamContext));
+  };
+
+  const handleSelectPhase = (phaseKey) => {
+    console.log("Clicked roadmap phase:", phaseKey);
+  };
 
   return (
     <div style={{ paddingBottom: "40px" }}>
       <TeamHeader team={team} />
 
-      {/* Tier 2 — Team Season Context */}
-      <TeamSeasonRoadmap season={seasonContext} />
+      <TeamSeasonRoadmap
+        season={season}
+        onSelectPhase={handleSelectPhase}
+      />
+
+      <NextActionCard
+        season={season}
+        onAdvance={handleAdvance}
+        canAdvance={canAdvance}
+        warnings={warnings}
+      />
 
       <div style={{ height: "12px" }} />
 
