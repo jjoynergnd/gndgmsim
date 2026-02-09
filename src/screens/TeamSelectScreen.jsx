@@ -28,7 +28,6 @@ const TeamSelectScreen = () => {
           background: isSelected ? "rgba(0,200,255,0.08)" : "transparent",
         }}
       >
-        {/* LOGO OR INITIALS */}
         <img
           src={`/logos/${team.id}.png`}
           alt={team.id}
@@ -69,6 +68,11 @@ const TeamSelectScreen = () => {
 
   const afcTeams = teams.filter((t) => t.conference === "AFC");
   const nfcTeams = teams.filter((t) => t.conference === "NFC");
+
+  // SAFELY RESOLVE SELECTED TEAM
+  const selectedTeam = pendingTeam
+    ? teams.find((t) => t.id === pendingTeam)
+    : null;
 
   return (
     <div style={{ paddingBottom: pendingTeam ? "80px" : "0" }}>
@@ -115,7 +119,8 @@ const TeamSelectScreen = () => {
         {nfcTeams.map(renderTeamCard)}
       </div>
 
-      {pendingTeam && (
+      {/* SAFE BOTTOM BAR */}
+      {selectedTeam && (
         <div
           style={{
             position: "fixed",
@@ -132,9 +137,7 @@ const TeamSelectScreen = () => {
           }}
         >
           <div style={{ fontSize: "16px", fontWeight: 600 }}>
-            You selected the{" "}
-            {teams.find((t) => t.id === pendingTeam).city}{" "}
-            {teams.find((t) => t.id === pendingTeam).mascot}
+            You selected the {selectedTeam.city} {selectedTeam.mascot}
           </div>
 
           <div style={{ display: "flex", gap: "12px" }}>

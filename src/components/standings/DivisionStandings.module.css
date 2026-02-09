@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 14px;
+  padding: 16px;
+  color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.team {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.abbr {
+  font-weight: 800;
+  width: 36px;
+}
+
+.name {
+  opacity: 0.9;
+}
+
+.record {
+  font-weight: 700;
+}
+
+.userRow {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid var(--team-color, #fff);
+}
+
+.cpuRow {
+  opacity: 0.55;
+}

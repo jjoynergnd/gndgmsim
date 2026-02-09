@@ -1,122 +1,262 @@
 [
   {
     "week": 1,
-    "opponent": "WAS",
+    "type": "PRESEASON",
+    "opponent": "CLE",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 74983,
+    "notes": null
   },
   {
     "week": 2,
-    "opponent": "NO",
+    "type": "PRESEASON",
+    "opponent": "PHI",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 69261,
+    "notes": null
   },
   {
     "week": 3,
-    "opponent": "BAL",
+    "type": "PRESEASON",
+    "opponent": "BUF",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 58806,
+    "notes": null
   },
   {
     "week": 4,
-    "opponent": "TEN",
+    "type": "REGULAR_SEASON",
+    "opponent": "PIT",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 64263,
+    "notes": null
   },
   {
     "week": 5,
-    "opponent": "SEA",
+    "type": "REGULAR_SEASON",
+    "opponent": "BAL",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 68958,
+    "notes": null
   },
   {
     "week": 6,
-    "opponent": "GB",
+    "type": "REGULAR_SEASON",
+    "opponent": "DAL",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 65352,
+    "notes": null
   },
   {
     "week": 7,
-    "opponent": "CHI",
+    "type": "REGULAR_SEASON",
+    "opponent": "MIA",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 55649,
+    "notes": null
   },
   {
     "week": 8,
-    "opponent": "SF",
+    "type": "REGULAR_SEASON",
+    "opponent": "NE",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 58835,
+    "notes": null
   },
   {
     "week": 9,
-    "opponent": "NYG",
+    "type": "REGULAR_SEASON",
+    "opponent": "TB",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 75136,
+    "notes": null
   },
   {
     "week": 10,
-    "opponent": "MIN",
+    "type": "REGULAR_SEASON",
+    "opponent": "ARI",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 72469,
+    "notes": null
   },
   {
     "week": 11,
-    "opponent": "BUF",
+    "type": "REGULAR_SEASON",
+    "opponent": "TEN",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 72730,
+    "notes": null
   },
   {
     "week": 12,
-    "opponent": "IND",
+    "type": "REGULAR_SEASON",
+    "opponent": "WAS",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 59818,
+    "notes": null
   },
   {
     "week": 13,
-    "opponent": "PHI",
+    "type": "REGULAR_SEASON",
+    "opponent": "CHI",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 62674,
+    "notes": null
   },
   {
     "week": 14,
-    "opponent": "TB",
+    "type": "REGULAR_SEASON",
+    "opponent": "DET",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 71734,
+    "notes": null
   },
   {
     "week": 15,
-    "opponent": "DEN",
+    "type": "REGULAR_SEASON",
+    "opponent": "SEA",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 60781,
+    "notes": null
   },
   {
     "week": 16,
-    "opponent": "ARI",
+    "type": "REGULAR_SEASON",
+    "opponent": "LAR",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 71453,
+    "notes": null
   },
   {
     "week": 17,
-    "opponent": "KC",
+    "type": "REGULAR_SEASON",
+    "opponent": "LV",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 68934,
+    "notes": null
   },
   {
     "week": 18,
-    "opponent": "PIT",
+    "type": "REGULAR_SEASON",
+    "opponent": "HOU",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 77052,
+    "notes": null
   },
   {
     "week": 19,
-    "opponent": "CLE",
+    "type": "REGULAR_SEASON",
+    "opponent": "CIN",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 56863,
+    "notes": null
   },
   {
     "week": 20,
-    "opponent": "JAX",
+    "type": "REGULAR_SEASON",
+    "opponent": "NYG",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 74921,
+    "notes": null
   }
 ]

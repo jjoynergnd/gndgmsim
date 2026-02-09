@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import teams from "../data/teams.json";
+import { teams } from "../data/teams";
+
 
 import seasonState from "../data/season/seasonState.json";
 import { advanceSeason } from "../utils/seasonEngine";
@@ -14,9 +15,11 @@ import RosterTable from "../components/team/RosterTable";
 import DepthChart from "../components/team/depthchart/DepthChart.jsx";
 import StaffTable from "../components/team/StaffTable";
 import FinancesPanel from "../components/team/FinancesPanel";
-import ScheduleTable from "../components/team/ScheduleTable";
 import StatsPanel from "../components/team/StatsPanel";
 import PlayerModal from "../components/player/PlayerModal";
+
+import ScheduleTab from "../components/team/schedule/ScheduleTab";
+import DivisionStandings from "../components/standings/DivisionStandings";
 
 // dynamic imports
 const rosterMap = import.meta.glob("../data/rosters/*.json", { eager: true });
@@ -43,6 +46,7 @@ const TeamPage = () => {
   const team = teams.find((t) => t.id === selectedTeam);
 
   const [tab, setTab] = useState("roster");
+  console.log("ACTIVE TAB:", tab);
   const [selectedPlayer, setSelectedPlayer] = useState(null);
   const [season, setSeason] = useState(seasonState);
 
@@ -74,9 +78,16 @@ const TeamPage = () => {
     console.log("Clicked roadmap phase:", phaseKey);
   };
 
+  const activeSchedule =
+    season.schedule || schedules[selectedTeam] || [];
+
   return (
     <div style={{ paddingBottom: "40px" }}>
-      <TeamHeader team={team} />
+      <TeamHeader
+        team={team}
+        season={season}
+        meta={meta[selectedTeam]}
+      />
 
       <TeamSeasonRoadmap
         season={season}
@@ -121,7 +132,15 @@ const TeamPage = () => {
         )}
 
         {tab === "schedule" && (
-          <ScheduleTable schedule={schedules[selectedTeam]} />
+          <ScheduleTab schedule={activeSchedule} />
+        )}
+
+        {tab === "Standings" && (
+          <DivisionStandings
+            teams={teams}
+            userTeam={team}
+            season={season}
+          />
         )}
 
         {tab === "stats" && <StatsPanel />}

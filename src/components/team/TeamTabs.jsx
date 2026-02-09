@@ -1,6 +1,6 @@
 import React from "react";
 
-const tabs = ["roster", "depthChart", "staff", "finances", "schedule", "stats"];
+const tabs = ["roster", "depthChart", "staff", "finances", "schedule", "Standings","stats"];
 
 const TeamTabs = ({ tab, setTab }) => {
   return (

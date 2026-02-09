@@ -87,7 +87,7 @@ export function advanceSeason(prev, teamContext) {
 }
 
 // --------------------------------------------------
-// WEEK SIMULATION (Increment 2 – Narrative Results)
+// WEEK SIMULATION (Persisted Schedule Results)
 // --------------------------------------------------
 export function runWeekSimulation(SEASON, TEAM_CONTEXT) {
   if (SEASON.phase !== "REGULAR_SEASON") return;
@@ -96,9 +96,16 @@ export function runWeekSimulation(SEASON, TEAM_CONTEXT) {
 
   const { roster = [], schedule = [] } = TEAM_CONTEXT;
 
-  const matchup = schedule.find((g) => g.week === SEASON.week);
-  const opponent = matchup?.opponent || "Opponent";
-  const isHome = matchup?.home ?? true;
+  // Initialize season schedule once (clone source data)
+  if (!SEASON.schedule) {
+    SEASON.schedule = schedule.map((g) => ({ ...g }));
+  }
+
+  const matchup = SEASON.schedule.find((g) => g.week === SEASON.week);
+  if (!matchup || matchup.played) return;
+
+  const opponent = matchup.opponent || "Opponent";
+  const isHome = matchup.home ?? true;
 
   // --- Score generation ---
   const base = 17 + rand(0, 14);
@@ -108,6 +115,12 @@ export function runWeekSimulation(SEASON, TEAM_CONTEXT) {
   const scoreAgainst = base + rand(-10, 10);
 
   const win = scoreFor >= scoreAgainst;
+
+  // --- Persist result into schedule ---
+  matchup.played = true;
+  matchup.scoreFor = scoreFor;
+  matchup.scoreAgainst = scoreAgainst;
+  matchup.result = win ? "W" : "L";
 
   // --- Star player selection ---
   const qb =
@@ -147,7 +160,6 @@ export function runWeekSimulation(SEASON, TEAM_CONTEXT) {
 }
 
 // --- FUTURE HOOKS ---
-// --- FUTURE HOOKS ---
 export function runPlayoffSimulation() {}
 export function runOffseasonStep() {}
 export function runPlayerDevelopment() {}
@@ -155,7 +167,6 @@ export function runCpuRosterLogic() {}
 export function runInjurySimulation() {}
 export function runScouting() {}
 export function runDraftLogic() {}
-
 
 export function getOffseasonSteps() {
   return OFFSEASON_STEPS;

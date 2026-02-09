@@ -1,0 +1,80 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: linear-gradient(180deg, #1f2933, #111827);
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.played {
+  border-left: 4px solid #374151;
+}
+
+.upcoming {
+  opacity: 0.65;
+}
+
+.week {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+}
+
+.matchup {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f9fafb;
+}
+
+.location {
+  margin-right: 6px;
+  color: #9ca3af;
+}
+
+.opponent {
+  color: #e5e7eb;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.win {
+  color: #22c55e;
+}
+
+.loss {
+  color: #ef4444;
+}
+
+.record {
+  font-size: 18px;
+}
+
+.score {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.pending {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.empty {
+  padding: 24px;
+  color: #9ca3af;
+  text-align: center;
+}

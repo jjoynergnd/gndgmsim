@@ -1,21 +1,33 @@
-import React, { useState } from "react";
-import metaBAL from "../../data/meta/BAL.json";
-import metaBUF from "../../data/meta/BUF.json";
+import React, { useState, useMemo } from "react";
 
-// Map team → metadata JSON
-const metaMap = {
-  BAL: metaBAL,
-  BUF: metaBUF,
+const formatCapSpace = (value) => {
+  if (typeof value !== "number") return "—";
+  return `$${(value / 1_000_000).toFixed(1)}M`;
 };
 
-const TeamHeader = ({ team }) => {
+const deriveRecord = (schedule = []) => {
+  let wins = 0;
+  let losses = 0;
+
+  schedule.forEach((game) => {
+    if (!game.played) return;
+    if (game.result === "W") wins += 1;
+    if (game.result === "L") losses += 1;
+  });
+
+  return `${wins}-${losses}`;
+};
+
+const TeamHeader = ({ team, season, meta }) => {
   const [logoError, setLogoError] = useState(false);
 
-  // Pull metadata (record, cap space, etc.)
-  const meta = metaMap[team.id] || {
-    record: "0-0",
-    capSpace: "$42.1M",
-  };
+  const record = useMemo(() => {
+    return deriveRecord(season?.schedule);
+  }, [season]);
+
+  const capSpace = useMemo(() => {
+    return formatCapSpace(meta?.capSpace);
+  }, [meta]);
 
   return (
     <div
@@ -80,15 +92,15 @@ const TeamHeader = ({ team }) => {
 
         <div
           style={{
-            marginTop: "5px",
+            marginTop: "6px",
             fontSize: "16px",
             opacity: 0.75,
             display: "flex",
-            gap: "20px",
+            gap: "24px",
           }}
         >
-          <span>Record: {meta.record}</span>
-          <span>Cap Space: {meta.capSpace}</span>
+          <span>Record: {record}</span>
+          <span>Cap Space: {capSpace}</span>
         </div>
       </div>
     </div>

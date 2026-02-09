@@ -8,6 +8,8 @@ import TeamSelectScreen from "./screens/TeamSelectScreen";
 import TeamPage from "./screens/TeamPage";
 
 function App() {
+  console.log("APP RENDER START");
+
   const selectedTeam = useSelector((state) => state.team.selectedTeam);
 
   return (
@@ -15,11 +17,7 @@ function App() {
       <Sidebar />
 
       <Layout>
-        {!selectedTeam ? (
-          <TeamSelectScreen />
-        ) : (
-          <TeamPage />
-        )}
+        {!selectedTeam ? <TeamSelectScreen /> : <TeamPage />}
       </Layout>
     </div>
   );

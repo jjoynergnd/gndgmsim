@@ -1,122 +1,262 @@
 [
   {
     "week": 1,
-    "opponent": "MIA",
+    "type": "PRESEASON",
+    "opponent": "PIT",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 64932,
+    "notes": null
   },
   {
     "week": 2,
+    "type": "PRESEASON",
     "opponent": "DET",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 60378,
+    "notes": null
   },
   {
     "week": 3,
-    "opponent": "MIN",
+    "type": "PRESEASON",
+    "opponent": "CHI",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 63868,
+    "notes": null
   },
   {
     "week": 4,
-    "opponent": "DEN",
+    "type": "REGULAR_SEASON",
+    "opponent": "JAX",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 76450,
+    "notes": null
   },
   {
     "week": 5,
-    "opponent": "JAX",
+    "type": "REGULAR_SEASON",
+    "opponent": "CLE",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 66438,
+    "notes": null
   },
   {
     "week": 6,
-    "opponent": "LAC",
+    "type": "REGULAR_SEASON",
+    "opponent": "DEN",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 55181,
+    "notes": null
   },
   {
     "week": 7,
+    "type": "REGULAR_SEASON",
     "opponent": "ATL",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 71531,
+    "notes": null
   },
   {
     "week": 8,
-    "opponent": "ARI",
+    "type": "REGULAR_SEASON",
+    "opponent": "NYJ",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 58473,
+    "notes": null
   },
   {
     "week": 9,
-    "opponent": "PIT",
+    "type": "REGULAR_SEASON",
+    "opponent": "GB",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 56861,
+    "notes": null
   },
   {
     "week": 10,
-    "opponent": "GB",
+    "type": "REGULAR_SEASON",
+    "opponent": "BAL",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 60149,
+    "notes": null
   },
   {
     "week": 11,
-    "opponent": "NE",
+    "type": "REGULAR_SEASON",
+    "opponent": "TB",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 71843,
+    "notes": null
   },
   {
     "week": 12,
-    "opponent": "BAL",
+    "type": "REGULAR_SEASON",
+    "opponent": "WAS",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 62507,
+    "notes": null
   },
   {
     "week": 13,
-    "opponent": "SEA",
+    "type": "REGULAR_SEASON",
+    "opponent": "CAR",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 59164,
+    "notes": null
   },
   {
     "week": 14,
+    "type": "REGULAR_SEASON",
     "opponent": "PHI",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 75378,
+    "notes": null
   },
   {
     "week": 15,
-    "opponent": "CAR",
+    "type": "REGULAR_SEASON",
+    "opponent": "NE",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 69993,
+    "notes": null
   },
   {
     "week": 16,
-    "opponent": "LAR",
+    "type": "REGULAR_SEASON",
+    "opponent": "HOU",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 66822,
+    "notes": null
   },
   {
     "week": 17,
-    "opponent": "CHI",
+    "type": "REGULAR_SEASON",
+    "opponent": "CIN",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 74075,
+    "notes": null
   },
   {
     "week": 18,
-    "opponent": "TEN",
+    "type": "REGULAR_SEASON",
+    "opponent": "LV",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 65130,
+    "notes": null
   },
   {
     "week": 19,
-    "opponent": "HOU",
+    "type": "REGULAR_SEASON",
+    "opponent": "KC",
     "home": true,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 77737,
+    "notes": null
   },
   {
     "week": 20,
-    "opponent": "WAS",
+    "type": "REGULAR_SEASON",
+    "opponent": "NYG",
     "home": false,
-    "played": false
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 70999,
+    "notes": null
   }
 ]
