@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  89,
-        "name":  "Evan Wynn",
-        "id":  "JAX-QB0"
+[
+  {
+    "id": "JAX-QB-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Clayton Dooley",
+    "jerseyNumber": 79,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 241,
+      "college": "Runolfsdottirstead",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  89,
-        "name":  "Marcus Harrington",
-        "id":  "JAX-RB1"
+    "contract": {
+      "years": 5,
+      "totalValue": 58870229,
+      "capHit": 15622536,
+      "deadCap": 4967858,
+      "signingBonus": 4006583,
+      "expiresYear": 2031,
+      "contractType": "Standard"
     },
-    {
-        "position":  "WR",
-        "overall":  87,
-        "name":  "Caleb Harrington",
-        "id":  "JAX-WR2"
+    "ratings": {
+      "overall": 75,
+      "potential": 75,
+      "schemeFit": 78,
+      "speed": 87,
+      "acceleration": 92,
+      "agility": 75,
+      "strength": 77,
+      "tackle": 70,
+      "pursuit": 64,
+      "manCoverage": 51,
+      "zoneCoverage": 64,
+      "kickPower": 59,
+      "kickAccuracy": 84,
+      "catching": 61,
+      "routeRunning": 57,
+      "release": 86,
+      "throwPower": 78,
+      "shortAccuracy": 77,
+      "mediumAccuracy": 94,
+      "deepAccuracy": 72
     },
-    {
-        "position":  "LB",
-        "overall":  81,
-        "name":  "Logan Harrington",
-        "id":  "JAX-LB3"
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  85,
-        "name":  "Darius Reeves",
-        "id":  "JAX-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 300,
+        "statB": 803
+      },
+      "career": {
+        "games": 100,
+        "statA": 2066,
+        "statB": 7
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "JAX-QB-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Kieran Armstrong",
+    "jerseyNumber": 13,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 243,
+      "college": "Utica",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 66477366,
+      "capHit": 18763879,
+      "deadCap": 7216652,
+      "signingBonus": 13816053,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 79,
+      "schemeFit": 88,
+      "speed": 90,
+      "acceleration": 88,
+      "agility": 79,
+      "strength": 94,
+      "tackle": 83,
+      "pursuit": 74,
+      "manCoverage": 71,
+      "zoneCoverage": 52,
+      "kickPower": 50,
+      "kickAccuracy": 74,
+      "catching": 54,
+      "routeRunning": 89,
+      "release": 61,
+      "throwPower": 75,
+      "shortAccuracy": 72,
+      "mediumAccuracy": 86,
+      "deepAccuracy": 73
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 42,
+        "statB": 657
+      },
+      "career": {
+        "games": 100,
+        "statA": 4509,
+        "statB": 4700
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "JAX-QB-3",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Edward Buckridge",
+    "jerseyNumber": 92,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 230,
+      "college": "Harlingen",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 65213953,
+      "capHit": 13560952,
+      "deadCap": 6057017,
+      "signingBonus": 790365,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 75,
+      "speed": 94,
+      "acceleration": 86,
+      "agility": 76,
+      "strength": 75,
+      "tackle": 88,
+      "pursuit": 85,
+      "manCoverage": 82,
+      "zoneCoverage": 50,
+      "kickPower": 54,
+      "kickAccuracy": 57,
+      "catching": 86,
+      "routeRunning": 52,
+      "release": 63,
+      "throwPower": 77,
+      "shortAccuracy": 88,
+      "mediumAccuracy": 82,
+      "deepAccuracy": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 542,
+        "statB": 144
+      },
+      "career": {
+        "games": 120,
+        "statA": 4828,
+        "statB": 3108
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "JAX-RB-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Edgar Dach",
+    "jerseyNumber": 42,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 315,
+      "college": "Odessaton",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 104236375,
+      "capHit": 10755710,
+      "deadCap": 2520390,
+      "signingBonus": 11024303,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 90,
+      "speed": 75,
+      "acceleration": 86,
+      "agility": 78,
+      "strength": 79,
+      "tackle": 83,
+      "pursuit": 66,
+      "manCoverage": 60,
+      "zoneCoverage": 52,
+      "kickPower": 64,
+      "kickAccuracy": 90,
+      "catching": 68,
+      "routeRunning": 56,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 665,
+        "statB": 921
+      },
+      "career": {
+        "games": 106,
+        "statA": 687,
+        "statB": 3563
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "JAX-RB-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Lucas Lowe",
+    "jerseyNumber": 55,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 300,
+      "college": "Gottliebcester",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 105900733,
+      "capHit": 23900343,
+      "deadCap": 6848885,
+      "signingBonus": 11975871,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 80,
+      "schemeFit": 72,
+      "speed": 93,
+      "acceleration": 75,
+      "agility": 95,
+      "strength": 82,
+      "tackle": 86,
+      "pursuit": 70,
+      "manCoverage": 87,
+      "zoneCoverage": 77,
+      "kickPower": 51,
+      "kickAccuracy": 57,
+      "catching": 54,
+      "routeRunning": 76,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 843,
+        "statB": 44
+      },
+      "career": {
+        "games": 10,
+        "statA": 68,
+        "statB": 3808
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "JAX-RB-3",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Stephen Gutkowski",
+    "jerseyNumber": 32,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 251,
+      "college": "Sherwoodfurt",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 72444790,
+      "capHit": 5572806,
+      "deadCap": 2953955,
+      "signingBonus": 2625366,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 76,
+      "schemeFit": 93,
+      "speed": 72,
+      "acceleration": 76,
+      "agility": 71,
+      "strength": 88,
+      "tackle": 89,
+      "pursuit": 68,
+      "manCoverage": 51,
+      "zoneCoverage": 78,
+      "kickPower": 86,
+      "kickAccuracy": 81,
+      "catching": 85,
+      "routeRunning": 82,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 986,
+        "statB": 79
+      },
+      "career": {
+        "games": 30,
+        "statA": 1398,
+        "statB": 4250
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "JAX-RB-4",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Landon Welch",
+    "jerseyNumber": 92,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 295,
+      "college": "Bothell",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 111145597,
+      "capHit": 2016835,
+      "deadCap": 5164474,
+      "signingBonus": 8225979,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 86,
+      "schemeFit": 86,
+      "speed": 84,
+      "acceleration": 79,
+      "agility": 82,
+      "strength": 68,
+      "tackle": 74,
+      "pursuit": 73,
+      "manCoverage": 52,
+      "zoneCoverage": 58,
+      "kickPower": 63,
+      "kickAccuracy": 68,
+      "catching": 66,
+      "routeRunning": 91,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 363,
+        "statB": 773
+      },
+      "career": {
+        "games": 71,
+        "statA": 3678,
+        "statB": 3039
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "JAX-WR-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Seth Gulgowski",
+    "jerseyNumber": 59,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 256,
+      "college": "Hattiesburg",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 104653436,
+      "capHit": 17306223,
+      "deadCap": 6197238,
+      "signingBonus": 18841520,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 78,
+      "schemeFit": 74,
+      "speed": 90,
+      "acceleration": 84,
+      "agility": 75,
+      "strength": 62,
+      "tackle": 79,
+      "pursuit": 80,
+      "manCoverage": 59,
+      "zoneCoverage": 86,
+      "kickPower": 54,
+      "kickAccuracy": 53,
+      "catching": 81,
+      "routeRunning": 81,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 417,
+        "statB": 708
+      },
+      "career": {
+        "games": 11,
+        "statA": 1652,
+        "statB": 581
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "JAX-WR-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "John Kerluke",
+    "jerseyNumber": 18,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 321,
+      "college": "Port Arthur",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 103998421,
+      "capHit": 20468094,
+      "deadCap": 7567712,
+      "signingBonus": 11257152,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 71,
+      "speed": 82,
+      "acceleration": 76,
+      "agility": 94,
+      "strength": 86,
+      "tackle": 76,
+      "pursuit": 67,
+      "manCoverage": 58,
+      "zoneCoverage": 61,
+      "kickPower": 79,
+      "kickAccuracy": 70,
+      "catching": 90,
+      "routeRunning": 53,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 35,
+        "statB": 956
+      },
+      "career": {
+        "games": 87,
+        "statA": 2758,
+        "statB": 4870
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "JAX-WR-3",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Marco Schaefer",
+    "jerseyNumber": 86,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 295,
+      "college": "Flatleyburgh",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 80963975,
+      "capHit": 18195186,
+      "deadCap": 951900,
+      "signingBonus": 4600102,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 67,
+      "schemeFit": 85,
+      "speed": 85,
+      "acceleration": 87,
+      "agility": 74,
+      "strength": 81,
+      "tackle": 83,
+      "pursuit": 81,
+      "manCoverage": 78,
+      "zoneCoverage": 85,
+      "kickPower": 55,
+      "kickAccuracy": 65,
+      "catching": 57,
+      "routeRunning": 67,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 562,
+        "statB": 127
+      },
+      "career": {
+        "games": 87,
+        "statA": 534,
+        "statB": 1218
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "JAX-WR-4",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Evan Watsica",
+    "jerseyNumber": 19,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 306,
+      "college": "North Lyda",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 94360209,
+      "capHit": 7917718,
+      "deadCap": 5456280,
+      "signingBonus": 2556529,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 92,
+      "speed": 83,
+      "acceleration": 86,
+      "agility": 85,
+      "strength": 66,
+      "tackle": 71,
+      "pursuit": 75,
+      "manCoverage": 90,
+      "zoneCoverage": 85,
+      "kickPower": 86,
+      "kickAccuracy": 60,
+      "catching": 61,
+      "routeRunning": 53,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 620,
+        "statB": 949
+      },
+      "career": {
+        "games": 54,
+        "statA": 871,
+        "statB": 4642
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "JAX-WR-5",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Leonard Grimes",
+    "jerseyNumber": 82,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 269,
+      "college": "Schillerstead",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 20715205,
+      "capHit": 24814102,
+      "deadCap": 4020122,
+      "signingBonus": 14500772,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 80,
+      "schemeFit": 89,
+      "speed": 84,
+      "acceleration": 87,
+      "agility": 94,
+      "strength": 80,
+      "tackle": 88,
+      "pursuit": 81,
+      "manCoverage": 77,
+      "zoneCoverage": 71,
+      "kickPower": 95,
+      "kickAccuracy": 94,
+      "catching": 76,
+      "routeRunning": 61,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 571,
+        "statB": 63
+      },
+      "career": {
+        "games": 21,
+        "statA": 4500,
+        "statB": 1974
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "JAX-WR-6",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Esteban Keebler",
+    "jerseyNumber": 90,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 262,
+      "college": "Willmsmouth",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 106336227,
+      "capHit": 20429168,
+      "deadCap": 3212723,
+      "signingBonus": 1408925,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 82,
+      "speed": 83,
+      "acceleration": 86,
+      "agility": 82,
+      "strength": 69,
+      "tackle": 77,
+      "pursuit": 74,
+      "manCoverage": 68,
+      "zoneCoverage": 67,
+      "kickPower": 51,
+      "kickAccuracy": 82,
+      "catching": 78,
+      "routeRunning": 89,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 100,
+        "statB": 713
+      },
+      "career": {
+        "games": 78,
+        "statA": 3602,
+        "statB": 2496
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "JAX-WR-7",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Anthony Ratke",
+    "jerseyNumber": 35,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 33,
+      "height": "6'1\"",
+      "weight": 290,
+      "college": "Aprilside",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 14186196,
+      "capHit": 22916725,
+      "deadCap": 9781455,
+      "signingBonus": 17556920,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 84,
+      "schemeFit": 70,
+      "speed": 93,
+      "acceleration": 80,
+      "agility": 74,
+      "strength": 76,
+      "tackle": 72,
+      "pursuit": 94,
+      "manCoverage": 86,
+      "zoneCoverage": 52,
+      "kickPower": 61,
+      "kickAccuracy": 54,
+      "catching": 86,
+      "routeRunning": 75,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 864,
+        "statB": 740
+      },
+      "career": {
+        "games": 101,
+        "statA": 4080,
+        "statB": 4957
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "JAX-TE-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Caleb Kautzer",
+    "jerseyNumber": 8,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 278,
+      "college": "Palm Coast",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 98382280,
+      "capHit": 10464738,
+      "deadCap": 6377277,
+      "signingBonus": 1025760,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 68,
+      "schemeFit": 75,
+      "speed": 84,
+      "acceleration": 76,
+      "agility": 77,
+      "strength": 87,
+      "tackle": 82,
+      "pursuit": 91,
+      "manCoverage": 86,
+      "zoneCoverage": 57,
+      "kickPower": 74,
+      "kickAccuracy": 85,
+      "catching": 79,
+      "routeRunning": 69,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 822,
+        "statB": 458
+      },
+      "career": {
+        "games": 76,
+        "statA": 386,
+        "statB": 3181
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "JAX-TE-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Caleb Waelchi",
+    "jerseyNumber": 13,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 230,
+      "college": "South Jaunita",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 82353529,
+      "capHit": 20167082,
+      "deadCap": 7604600,
+      "signingBonus": 16177170,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 83,
+      "schemeFit": 94,
+      "speed": 76,
+      "acceleration": 94,
+      "agility": 76,
+      "strength": 62,
+      "tackle": 60,
+      "pursuit": 66,
+      "manCoverage": 90,
+      "zoneCoverage": 55,
+      "kickPower": 95,
+      "kickAccuracy": 82,
+      "catching": 89,
+      "routeRunning": 82,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 71,
+        "statB": 384
+      },
+      "career": {
+        "games": 109,
+        "statA": 569,
+        "statB": 1654
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "JAX-TE-3",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Chase Gutkowski",
+    "jerseyNumber": 99,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 222,
+      "college": "Fort Alejandrinfield",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 70494189,
+      "capHit": 16946682,
+      "deadCap": 9195795,
+      "signingBonus": 3997789,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 75,
+      "schemeFit": 76,
+      "speed": 92,
+      "acceleration": 92,
+      "agility": 71,
+      "strength": 66,
+      "tackle": 87,
+      "pursuit": 71,
+      "manCoverage": 63,
+      "zoneCoverage": 75,
+      "kickPower": 90,
+      "kickAccuracy": 88,
+      "catching": 83,
+      "routeRunning": 82,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 544,
+        "statB": 918
+      },
+      "career": {
+        "games": 69,
+        "statA": 3246,
+        "statB": 1854
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "JAX-LT-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Anton MacGyver",
+    "jerseyNumber": 94,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 186,
+      "college": "North Junestead",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 105303662,
+      "capHit": 7675268,
+      "deadCap": 5682302,
+      "signingBonus": 9552709,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 67,
+      "schemeFit": 75,
+      "speed": 75,
+      "acceleration": 83,
+      "agility": 92,
+      "strength": 77,
+      "tackle": 69,
+      "pursuit": 66,
+      "manCoverage": 78,
+      "zoneCoverage": 71,
+      "kickPower": 87,
+      "kickAccuracy": 88,
+      "catching": 61,
+      "routeRunning": 65,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 770,
+        "statB": 421
+      },
+      "career": {
+        "games": 5,
+        "statA": 255,
+        "statB": 2296
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "JAX-LT-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Santiago Okuneva",
+    "jerseyNumber": 7,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 223,
+      "college": "Hutchinson",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 56946284,
+      "capHit": 14268522,
+      "deadCap": 244687,
+      "signingBonus": 5120993,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 77,
+      "schemeFit": 91,
+      "speed": 93,
+      "acceleration": 73,
+      "agility": 70,
+      "strength": 95,
+      "tackle": 92,
+      "pursuit": 62,
+      "manCoverage": 67,
+      "zoneCoverage": 85,
+      "kickPower": 85,
+      "kickAccuracy": 55,
+      "catching": 80,
+      "routeRunning": 65,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 658,
+        "statB": 367
+      },
+      "career": {
+        "games": 57,
+        "statA": 175,
+        "statB": 540
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "JAX-LG-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Lucas Crona",
+    "jerseyNumber": 73,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 327,
+      "college": "Wilson",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 59303584,
+      "capHit": 2859259,
+      "deadCap": 9534002,
+      "signingBonus": 15561307,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 71,
+      "schemeFit": 71,
+      "speed": 74,
+      "acceleration": 81,
+      "agility": 83,
+      "strength": 79,
+      "tackle": 88,
+      "pursuit": 93,
+      "manCoverage": 88,
+      "zoneCoverage": 68,
+      "kickPower": 84,
+      "kickAccuracy": 92,
+      "catching": 54,
+      "routeRunning": 72,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 35,
+        "statB": 935
+      },
+      "career": {
+        "games": 76,
+        "statA": 2568,
+        "statB": 755
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "JAX-LG-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Brendan Bashirian",
+    "jerseyNumber": 27,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 200,
+      "college": "East Elaina",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 40322410,
+      "capHit": 24909061,
+      "deadCap": 1797903,
+      "signingBonus": 2967756,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 91,
+      "schemeFit": 75,
+      "speed": 75,
+      "acceleration": 85,
+      "agility": 94,
+      "strength": 75,
+      "tackle": 89,
+      "pursuit": 65,
+      "manCoverage": 67,
+      "zoneCoverage": 66,
+      "kickPower": 65,
+      "kickAccuracy": 53,
+      "catching": 58,
+      "routeRunning": 70,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 55,
+        "statB": 87
+      },
+      "career": {
+        "games": 66,
+        "statA": 1937,
+        "statB": 2433
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "JAX-C-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "John Reilly",
+    "jerseyNumber": 7,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 216,
+      "college": "East Florian",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 24183441,
+      "capHit": 17980200,
+      "deadCap": 5373220,
+      "signingBonus": 12679823,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 74,
+      "speed": 71,
+      "acceleration": 82,
+      "agility": 77,
+      "strength": 62,
+      "tackle": 83,
+      "pursuit": 70,
+      "manCoverage": 86,
+      "zoneCoverage": 61,
+      "kickPower": 80,
+      "kickAccuracy": 66,
+      "catching": 83,
+      "routeRunning": 51,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 865,
+        "statB": 144
+      },
+      "career": {
+        "games": 21,
+        "statA": 132,
+        "statB": 2101
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "JAX-C-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Fernando Paucek",
+    "jerseyNumber": 95,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 243,
+      "college": "Millsworth",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 6380004,
+      "capHit": 6545316,
+      "deadCap": 9334799,
+      "signingBonus": 19431083,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 89,
+      "speed": 75,
+      "acceleration": 71,
+      "agility": 71,
+      "strength": 67,
+      "tackle": 81,
+      "pursuit": 66,
+      "manCoverage": 80,
+      "zoneCoverage": 58,
+      "kickPower": 67,
+      "kickAccuracy": 94,
+      "catching": 54,
+      "routeRunning": 77,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 808,
+        "statB": 158
+      },
+      "career": {
+        "games": 78,
+        "statA": 2479,
+        "statB": 237
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "JAX-RG-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Hassan Homenick",
+    "jerseyNumber": 52,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'3\"",
+      "weight": 277,
+      "college": "D'Amorebury",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 62226763,
+      "capHit": 9372426,
+      "deadCap": 9731544,
+      "signingBonus": 4651533,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 84,
+      "speed": 88,
+      "acceleration": 74,
+      "agility": 94,
+      "strength": 95,
+      "tackle": 77,
+      "pursuit": 81,
+      "manCoverage": 51,
+      "zoneCoverage": 75,
+      "kickPower": 92,
+      "kickAccuracy": 91,
+      "catching": 59,
+      "routeRunning": 56,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 636,
+        "statB": 679
+      },
+      "career": {
+        "games": 97,
+        "statA": 3214,
+        "statB": 3210
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "JAX-RG-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Julian Mueller",
+    "jerseyNumber": 23,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 281,
+      "college": "New Orleans",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 32424802,
+      "capHit": 20759134,
+      "deadCap": 3726587,
+      "signingBonus": 17848258,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 80,
+      "schemeFit": 90,
+      "speed": 81,
+      "acceleration": 91,
+      "agility": 91,
+      "strength": 83,
+      "tackle": 61,
+      "pursuit": 88,
+      "manCoverage": 78,
+      "zoneCoverage": 58,
+      "kickPower": 80,
+      "kickAccuracy": 95,
+      "catching": 51,
+      "routeRunning": 80,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 758,
+        "statB": 19
+      },
+      "career": {
+        "games": 104,
+        "statA": 2537,
+        "statB": 2865
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "JAX-RT-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Bo Dare",
+    "jerseyNumber": 59,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 313,
+      "college": "New Joseph",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 19542627,
+      "capHit": 5006646,
+      "deadCap": 7428435,
+      "signingBonus": 7939364,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 71,
+      "schemeFit": 90,
+      "speed": 79,
+      "acceleration": 72,
+      "agility": 95,
+      "strength": 62,
+      "tackle": 73,
+      "pursuit": 92,
+      "manCoverage": 66,
+      "zoneCoverage": 80,
+      "kickPower": 95,
+      "kickAccuracy": 68,
+      "catching": 72,
+      "routeRunning": 51,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 547,
+        "statB": 630
+      },
+      "career": {
+        "games": 6,
+        "statA": 364,
+        "statB": 3042
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "JAX-RT-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Igor Yundt",
+    "jerseyNumber": 71,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'3\"",
+      "weight": 192,
+      "college": "East Mireilleburgh",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 16770991,
+      "capHit": 9327730,
+      "deadCap": 7119487,
+      "signingBonus": 8284404,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 74,
+      "schemeFit": 79,
+      "speed": 74,
+      "acceleration": 73,
+      "agility": 91,
+      "strength": 74,
+      "tackle": 71,
+      "pursuit": 72,
+      "manCoverage": 75,
+      "zoneCoverage": 66,
+      "kickPower": 54,
+      "kickAccuracy": 76,
+      "catching": 64,
+      "routeRunning": 80,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 979,
+        "statB": 649
+      },
+      "career": {
+        "games": 86,
+        "statA": 2946,
+        "statB": 4299
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "JAX-LDE-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Wayne Spencer",
+    "jerseyNumber": 98,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 319,
+      "college": "Wittingfield",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 119112039,
+      "capHit": 23388926,
+      "deadCap": 4856959,
+      "signingBonus": 1015087,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 85,
+      "schemeFit": 95,
+      "speed": 78,
+      "acceleration": 85,
+      "agility": 86,
+      "strength": 77,
+      "tackle": 80,
+      "pursuit": 91,
+      "manCoverage": 81,
+      "zoneCoverage": 84,
+      "kickPower": 61,
+      "kickAccuracy": 94,
+      "catching": 84,
+      "routeRunning": 68,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 981,
+        "statB": 865
+      },
+      "career": {
+        "games": 91,
+        "statA": 947,
+        "statB": 1391
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "JAX-LDE-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Luca Hane",
+    "jerseyNumber": 36,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 270,
+      "college": "East Jairo",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 46098255,
+      "capHit": 6506135,
+      "deadCap": 9629143,
+      "signingBonus": 13968434,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 72,
+      "schemeFit": 73,
+      "speed": 78,
+      "acceleration": 83,
+      "agility": 81,
+      "strength": 83,
+      "tackle": 91,
+      "pursuit": 74,
+      "manCoverage": 79,
+      "zoneCoverage": 78,
+      "kickPower": 55,
+      "kickAccuracy": 78,
+      "catching": 94,
+      "routeRunning": 67,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 973,
+        "statB": 34
+      },
+      "career": {
+        "games": 104,
+        "statA": 4487,
+        "statB": 819
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "JAX-RDE-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Kieran Anderson",
+    "jerseyNumber": 4,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'10\"",
+      "weight": 192,
+      "college": "Gradycester",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 34435764,
+      "capHit": 10251082,
+      "deadCap": 8179040,
+      "signingBonus": 19585881,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 70,
+      "schemeFit": 94,
+      "speed": 80,
+      "acceleration": 72,
+      "agility": 76,
+      "strength": 75,
+      "tackle": 75,
+      "pursuit": 62,
+      "manCoverage": 87,
+      "zoneCoverage": 57,
+      "kickPower": 91,
+      "kickAccuracy": 56,
+      "catching": 56,
+      "routeRunning": 58,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 493,
+        "statB": 549
+      },
+      "career": {
+        "games": 74,
+        "statA": 1453,
+        "statB": 3061
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "JAX-RDE-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Bryan Jenkins",
+    "jerseyNumber": 73,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 299,
+      "college": "Lavinaworth",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 107697346,
+      "capHit": 642558,
+      "deadCap": 3034168,
+      "signingBonus": 5853373,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 76,
+      "schemeFit": 90,
+      "speed": 88,
+      "acceleration": 86,
+      "agility": 84,
+      "strength": 79,
+      "tackle": 88,
+      "pursuit": 66,
+      "manCoverage": 88,
+      "zoneCoverage": 54,
+      "kickPower": 76,
+      "kickAccuracy": 62,
+      "catching": 68,
+      "routeRunning": 52,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 225,
+        "statB": 113
+      },
+      "career": {
+        "games": 12,
+        "statA": 2268,
+        "statB": 1126
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "JAX-DT-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Harold Cummerata",
+    "jerseyNumber": 68,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 316,
+      "college": "East Zita",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 86613042,
+      "capHit": 2095100,
+      "deadCap": 1581664,
+      "signingBonus": 16396210,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 85,
+      "schemeFit": 85,
+      "speed": 73,
+      "acceleration": 82,
+      "agility": 70,
+      "strength": 74,
+      "tackle": 73,
+      "pursuit": 91,
+      "manCoverage": 87,
+      "zoneCoverage": 80,
+      "kickPower": 85,
+      "kickAccuracy": 89,
+      "catching": 82,
+      "routeRunning": 63,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 813,
+        "statB": 537
+      },
+      "career": {
+        "games": 88,
+        "statA": 856,
+        "statB": 4972
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "JAX-DT-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Calvin Weber",
+    "jerseyNumber": 99,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 279,
+      "college": "Janessacester",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 92291805,
+      "capHit": 8277586,
+      "deadCap": 3841350,
+      "signingBonus": 7487454,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 71,
+      "schemeFit": 88,
+      "speed": 74,
+      "acceleration": 91,
+      "agility": 79,
+      "strength": 60,
+      "tackle": 74,
+      "pursuit": 77,
+      "manCoverage": 76,
+      "zoneCoverage": 54,
+      "kickPower": 81,
+      "kickAccuracy": 92,
+      "catching": 55,
+      "routeRunning": 50,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 149,
+        "statB": 483
+      },
+      "career": {
+        "games": 53,
+        "statA": 4929,
+        "statB": 1323
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "JAX-DT-3",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Mario Stoltenberg",
+    "jerseyNumber": 85,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 224,
+      "college": "Marcusfort",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 117472835,
+      "capHit": 2560538,
+      "deadCap": 2042053,
+      "signingBonus": 11964066,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 70,
+      "schemeFit": 72,
+      "speed": 81,
+      "acceleration": 79,
+      "agility": 82,
+      "strength": 92,
+      "tackle": 91,
+      "pursuit": 75,
+      "manCoverage": 88,
+      "zoneCoverage": 90,
+      "kickPower": 92,
+      "kickAccuracy": 93,
+      "catching": 73,
+      "routeRunning": 60,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 267,
+        "statB": 915
+      },
+      "career": {
+        "games": 65,
+        "statA": 4682,
+        "statB": 4167
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "JAX-DT-4",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Bobby Fritsch",
+    "jerseyNumber": 11,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 249,
+      "college": "Fort Linneaworth",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 1721898,
+      "capHit": 10432377,
+      "deadCap": 9349913,
+      "signingBonus": 14347817,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 83,
+      "schemeFit": 88,
+      "speed": 88,
+      "acceleration": 70,
+      "agility": 90,
+      "strength": 85,
+      "tackle": 79,
+      "pursuit": 66,
+      "manCoverage": 70,
+      "zoneCoverage": 85,
+      "kickPower": 60,
+      "kickAccuracy": 53,
+      "catching": 59,
+      "routeRunning": 90,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 815,
+        "statB": 667
+      },
+      "career": {
+        "games": 63,
+        "statA": 744,
+        "statB": 2744
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "JAX-LOLB-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Zane O'Kon",
+    "jerseyNumber": 82,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 298,
+      "college": "New Rickyworth",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 50464821,
+      "capHit": 18219950,
+      "deadCap": 4752486,
+      "signingBonus": 2961027,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 77,
+      "schemeFit": 72,
+      "speed": 71,
+      "acceleration": 71,
+      "agility": 82,
+      "strength": 71,
+      "tackle": 92,
+      "pursuit": 84,
+      "manCoverage": 66,
+      "zoneCoverage": 63,
+      "kickPower": 84,
+      "kickAccuracy": 60,
+      "catching": 66,
+      "routeRunning": 60,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 347,
+        "statB": 904
+      },
+      "career": {
+        "games": 100,
+        "statA": 654,
+        "statB": 4012
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "JAX-LOLB-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Andrei Skiles",
+    "jerseyNumber": 45,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 307,
+      "college": "Hillaryport",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 119660169,
+      "capHit": 21298743,
+      "deadCap": 2672724,
+      "signingBonus": 12615990,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 78,
+      "speed": 71,
+      "acceleration": 74,
+      "agility": 76,
+      "strength": 94,
+      "tackle": 95,
+      "pursuit": 82,
+      "manCoverage": 85,
+      "zoneCoverage": 73,
+      "kickPower": 67,
+      "kickAccuracy": 91,
+      "catching": 59,
+      "routeRunning": 68,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 665,
+        "statB": 337
+      },
+      "career": {
+        "games": 41,
+        "statA": 1966,
+        "statB": 4789
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "JAX-MLB-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Chen Heller",
+    "jerseyNumber": 93,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 311,
+      "college": "Cyrushaven",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 90824723,
+      "capHit": 8442530,
+      "deadCap": 369945,
+      "signingBonus": 17339332,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 65,
+      "schemeFit": 86,
+      "speed": 80,
+      "acceleration": 74,
+      "agility": 95,
+      "strength": 82,
+      "tackle": 70,
+      "pursuit": 65,
+      "manCoverage": 89,
+      "zoneCoverage": 90,
+      "kickPower": 73,
+      "kickAccuracy": 63,
+      "catching": 67,
+      "routeRunning": 94,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 582,
+        "statB": 329
+      },
+      "career": {
+        "games": 9,
+        "statA": 4576,
+        "statB": 1815
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "JAX-MLB-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Christopher Mayer",
+    "jerseyNumber": 58,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 309,
+      "college": "Lake Sylvesterton",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 4923763,
+      "capHit": 4039978,
+      "deadCap": 668555,
+      "signingBonus": 12663382,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 84,
+      "schemeFit": 71,
+      "speed": 91,
+      "acceleration": 83,
+      "agility": 85,
+      "strength": 84,
+      "tackle": 77,
+      "pursuit": 76,
+      "manCoverage": 66,
+      "zoneCoverage": 85,
+      "kickPower": 67,
+      "kickAccuracy": 80,
+      "catching": 56,
+      "routeRunning": 83,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 517,
+        "statB": 186
+      },
+      "career": {
+        "games": 115,
+        "statA": 3249,
+        "statB": 638
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "JAX-ROLB-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Ronan Reichert",
+    "jerseyNumber": 48,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 324,
+      "college": "Powlowskichester",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 57606082,
+      "capHit": 9629324,
+      "deadCap": 1641433,
+      "signingBonus": 18801129,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 73,
+      "schemeFit": 87,
+      "speed": 89,
+      "acceleration": 78,
+      "agility": 76,
+      "strength": 60,
+      "tackle": 76,
+      "pursuit": 70,
+      "manCoverage": 88,
+      "zoneCoverage": 68,
+      "kickPower": 69,
+      "kickAccuracy": 89,
+      "catching": 80,
+      "routeRunning": 91,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 757,
+        "statB": 413
+      },
+      "career": {
+        "games": 53,
+        "statA": 1182,
+        "statB": 1053
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "JAX-ROLB-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Cooper Reinger",
+    "jerseyNumber": 8,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 269,
+      "college": "West Felicita",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 83746125,
+      "capHit": 14625006,
+      "deadCap": 5283470,
+      "signingBonus": 10033440,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 86,
+      "schemeFit": 94,
+      "speed": 95,
+      "acceleration": 80,
+      "agility": 85,
+      "strength": 71,
+      "tackle": 64,
+      "pursuit": 60,
+      "manCoverage": 67,
+      "zoneCoverage": 54,
+      "kickPower": 56,
+      "kickAccuracy": 81,
+      "catching": 72,
+      "routeRunning": 55,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 252,
+        "statB": 354
+      },
+      "career": {
+        "games": 75,
+        "statA": 2165,
+        "statB": 2182
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "JAX-CB-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Devin Gutkowski",
+    "jerseyNumber": 28,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 287,
+      "college": "Connietown",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 11640224,
+      "capHit": 10525547,
+      "deadCap": 6429810,
+      "signingBonus": 10659377,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 61,
+      "schemeFit": 79,
+      "speed": 94,
+      "acceleration": 71,
+      "agility": 88,
+      "strength": 92,
+      "tackle": 62,
+      "pursuit": 82,
+      "manCoverage": 52,
+      "zoneCoverage": 58,
+      "kickPower": 78,
+      "kickAccuracy": 61,
+      "catching": 76,
+      "routeRunning": 65,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 712,
+        "statB": 968
+      },
+      "career": {
+        "games": 47,
+        "statA": 2191,
+        "statB": 1493
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "JAX-CB-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Taeyang Nitzsche",
+    "jerseyNumber": 12,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'1\"",
+      "weight": 315,
+      "college": "West Maudeberg",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 104735767,
+      "capHit": 9786200,
+      "deadCap": 6440028,
+      "signingBonus": 5675016,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 82,
+      "schemeFit": 77,
+      "speed": 89,
+      "acceleration": 77,
+      "agility": 73,
+      "strength": 72,
+      "tackle": 93,
+      "pursuit": 76,
+      "manCoverage": 90,
+      "zoneCoverage": 75,
+      "kickPower": 83,
+      "kickAccuracy": 56,
+      "catching": 77,
+      "routeRunning": 55,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 182,
+        "statB": 715
+      },
+      "career": {
+        "games": 0,
+        "statA": 2740,
+        "statB": 440
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "JAX-CB-3",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Richard Miller",
+    "jerseyNumber": 90,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 271,
+      "college": "Lucieton",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 74957379,
+      "capHit": 11564255,
+      "deadCap": 7971529,
+      "signingBonus": 2352928,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 74,
+      "schemeFit": 83,
+      "speed": 93,
+      "acceleration": 83,
+      "agility": 72,
+      "strength": 66,
+      "tackle": 82,
+      "pursuit": 75,
+      "manCoverage": 79,
+      "zoneCoverage": 68,
+      "kickPower": 60,
+      "kickAccuracy": 75,
+      "catching": 79,
+      "routeRunning": 62,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 417,
+        "statB": 764
+      },
+      "career": {
+        "games": 7,
+        "statA": 4727,
+        "statB": 897
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "JAX-CB-4",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Larry Kunze",
+    "jerseyNumber": 98,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 193,
+      "college": "Riverview",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 117857240,
+      "capHit": 9316112,
+      "deadCap": 3674352,
+      "signingBonus": 953239,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 84,
+      "schemeFit": 90,
+      "speed": 88,
+      "acceleration": 83,
+      "agility": 73,
+      "strength": 95,
+      "tackle": 93,
+      "pursuit": 94,
+      "manCoverage": 64,
+      "zoneCoverage": 78,
+      "kickPower": 72,
+      "kickAccuracy": 65,
+      "catching": 62,
+      "routeRunning": 70,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 415,
+        "statB": 225
+      },
+      "career": {
+        "games": 79,
+        "statA": 3326,
+        "statB": 404
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "JAX-CB-5",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Yuri Cremin",
+    "jerseyNumber": 36,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 25,
+      "height": "6'0\"",
+      "weight": 303,
+      "college": "Ceasarmouth",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 14646551,
+      "capHit": 19047974,
+      "deadCap": 2305150,
+      "signingBonus": 2518690,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 66,
+      "schemeFit": 76,
+      "speed": 83,
+      "acceleration": 84,
+      "agility": 72,
+      "strength": 95,
+      "tackle": 72,
+      "pursuit": 85,
+      "manCoverage": 63,
+      "zoneCoverage": 76,
+      "kickPower": 69,
+      "kickAccuracy": 94,
+      "catching": 59,
+      "routeRunning": 52,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 403,
+        "statB": 696
+      },
+      "career": {
+        "games": 1,
+        "statA": 917,
+        "statB": 1133
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "JAX-CB-6",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Joseph Rogahn",
+    "jerseyNumber": 49,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 225,
+      "college": "Ebertborough",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 104304210,
+      "capHit": 8961143,
+      "deadCap": 7875423,
+      "signingBonus": 7304051,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 80,
+      "schemeFit": 74,
+      "speed": 79,
+      "acceleration": 72,
+      "agility": 83,
+      "strength": 78,
+      "tackle": 66,
+      "pursuit": 93,
+      "manCoverage": 69,
+      "zoneCoverage": 77,
+      "kickPower": 89,
+      "kickAccuracy": 79,
+      "catching": 71,
+      "routeRunning": 71,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 108,
+        "statB": 846
+      },
+      "career": {
+        "games": 17,
+        "statA": 728,
+        "statB": 1450
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "JAX-FS-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Dennis Bayer",
+    "jerseyNumber": 31,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 329,
+      "college": "Lynn",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 108050815,
+      "capHit": 664082,
+      "deadCap": 826692,
+      "signingBonus": 14095444,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 72,
+      "speed": 81,
+      "acceleration": 72,
+      "agility": 79,
+      "strength": 60,
+      "tackle": 83,
+      "pursuit": 71,
+      "manCoverage": 79,
+      "zoneCoverage": 78,
+      "kickPower": 94,
+      "kickAccuracy": 70,
+      "catching": 52,
+      "routeRunning": 73,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 986,
+        "statB": 888
+      },
+      "career": {
+        "games": 8,
+        "statA": 3214,
+        "statB": 4902
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "JAX-FS-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Kenji Lindgren",
+    "jerseyNumber": 3,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 303,
+      "college": "Robelton",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 79175552,
+      "capHit": 12779485,
+      "deadCap": 8611684,
+      "signingBonus": 16597098,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 71,
+      "schemeFit": 76,
+      "speed": 93,
+      "acceleration": 85,
+      "agility": 90,
+      "strength": 86,
+      "tackle": 94,
+      "pursuit": 62,
+      "manCoverage": 90,
+      "zoneCoverage": 80,
+      "kickPower": 55,
+      "kickAccuracy": 75,
+      "catching": 80,
+      "routeRunning": 94,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 406,
+        "statB": 860
+      },
+      "career": {
+        "games": 80,
+        "statA": 805,
+        "statB": 2061
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "JAX-SS-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Yuri Kuvalis",
+    "jerseyNumber": 21,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'1\"",
+      "weight": 246,
+      "college": "Dillonworth",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 4151021,
+      "capHit": 23521500,
+      "deadCap": 5893223,
+      "signingBonus": 13877576,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 72,
+      "schemeFit": 89,
+      "speed": 79,
+      "acceleration": 74,
+      "agility": 91,
+      "strength": 93,
+      "tackle": 85,
+      "pursuit": 86,
+      "manCoverage": 86,
+      "zoneCoverage": 76,
+      "kickPower": 95,
+      "kickAccuracy": 64,
+      "catching": 78,
+      "routeRunning": 57,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 645,
+        "statB": 416
+      },
+      "career": {
+        "games": 56,
+        "statA": 617,
+        "statB": 451
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "JAX-SS-2",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Pablo O'Conner",
+    "jerseyNumber": 47,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'5\"",
+      "weight": 240,
+      "college": "New Wilfridside",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 91135037,
+      "capHit": 24131986,
+      "deadCap": 1720300,
+      "signingBonus": 17884525,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 63,
+      "schemeFit": 94,
+      "speed": 78,
+      "acceleration": 86,
+      "agility": 81,
+      "strength": 66,
+      "tackle": 90,
+      "pursuit": 70,
+      "manCoverage": 51,
+      "zoneCoverage": 57,
+      "kickPower": 86,
+      "kickAccuracy": 76,
+      "catching": 57,
+      "routeRunning": 71,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 316,
+        "statB": 33
+      },
+      "career": {
+        "games": 58,
+        "statA": 427,
+        "statB": 12
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "JAX-K-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Luca Howe",
+    "jerseyNumber": 4,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 243,
+      "college": "Fort Jarrodland",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 86569115,
+      "capHit": 10170846,
+      "deadCap": 1138115,
+      "signingBonus": 17645052,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 85,
+      "schemeFit": 73,
+      "speed": 82,
+      "acceleration": 70,
+      "agility": 72,
+      "strength": 60,
+      "tackle": 64,
+      "pursuit": 74,
+      "manCoverage": 59,
+      "zoneCoverage": 66,
+      "kickPower": 54,
+      "kickAccuracy": 65,
+      "catching": 92,
+      "routeRunning": 85,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 114,
+        "statB": 357
+      },
+      "career": {
+        "games": 18,
+        "statA": 950,
+        "statB": 290
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "JAX-P-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Grant Schumm",
+    "jerseyNumber": 78,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'11\"",
+      "weight": 314,
+      "college": "Fort Kendrickfurt",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 2619275,
+      "capHit": 10277249,
+      "deadCap": 3363276,
+      "signingBonus": 10796961,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 78,
+      "schemeFit": 82,
+      "speed": 72,
+      "acceleration": 80,
+      "agility": 70,
+      "strength": 74,
+      "tackle": 94,
+      "pursuit": 69,
+      "manCoverage": 81,
+      "zoneCoverage": 76,
+      "kickPower": 81,
+      "kickAccuracy": 70,
+      "catching": 59,
+      "routeRunning": 93,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 16,
+        "statB": 764
+      },
+      "career": {
+        "games": 33,
+        "statA": 3694,
+        "statB": 624
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "JAX-LS-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Carter Graham",
+    "jerseyNumber": 8,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 241,
+      "college": "East Kittyview",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 74690494,
+      "capHit": 14047806,
+      "deadCap": 3070621,
+      "signingBonus": 4799993,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 70,
+      "schemeFit": 71,
+      "speed": 73,
+      "acceleration": 78,
+      "agility": 84,
+      "strength": 78,
+      "tackle": 93,
+      "pursuit": 61,
+      "manCoverage": 60,
+      "zoneCoverage": 89,
+      "kickPower": 81,
+      "kickAccuracy": 83,
+      "catching": 76,
+      "routeRunning": 90,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 895,
+        "statB": 892
+      },
+      "career": {
+        "games": 5,
+        "statA": 3583,
+        "statB": 3623
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "JAX-KR-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Franco Davis",
+    "jerseyNumber": 83,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 262,
+      "college": "West Palm Beach",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 39180900,
+      "capHit": 19713441,
+      "deadCap": 8220519,
+      "signingBonus": 18112327,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 93,
+      "speed": 75,
+      "acceleration": 82,
+      "agility": 73,
+      "strength": 71,
+      "tackle": 93,
+      "pursuit": 80,
+      "manCoverage": 84,
+      "zoneCoverage": 83,
+      "kickPower": 88,
+      "kickAccuracy": 94,
+      "catching": 68,
+      "routeRunning": 73,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 560,
+        "statB": 522
+      },
+      "career": {
+        "games": 28,
+        "statA": 594,
+        "statB": 2354
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "JAX-PR-1",
+    "team": "JAX",
+    "teamName": "JAX",
+    "name": "Porter Lakin",
+    "jerseyNumber": 93,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 243,
+      "college": "Blacksburg",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 117754551,
+      "capHit": 4611326,
+      "deadCap": 1738777,
+      "signingBonus": 13442674,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 70,
+      "schemeFit": 89,
+      "speed": 72,
+      "acceleration": 76,
+      "agility": 76,
+      "strength": 90,
+      "tackle": 67,
+      "pursuit": 65,
+      "manCoverage": 72,
+      "zoneCoverage": 72,
+      "kickPower": 84,
+      "kickAccuracy": 77,
+      "catching": 54,
+      "routeRunning": 90,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 579,
+        "statB": 272
+      },
+      "career": {
+        "games": 31,
+        "statA": 1430,
+        "statB": 1214
+      }
+    },
+    "photo": "/player_faces/11.png"
+  }
 ]

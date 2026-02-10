@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  76,
-               "name":  "Darius Shaw"
-           },
-    "OC":  {
-               "rating":  74,
-               "name":  "Malik Halford"
-           },
-    "DC":  {
-               "rating":  67,
-               "name":  "Jordan Maddox"
-           }
-}
+[
+  {
+    "id": "JAX-STAFF-1",
+    "team": "JAX",
+    "role": "Head Coach",
+    "name": "Scott Goldner",
+    "vitals": {
+      "age": 59,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 94,
+      "schemeKnowledge": 72,
+      "playerDev": 93,
+      "motivation": 65,
+      "injuryManagement": 69,
+      "conditioning": 62,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4111551
+    }
+  },
+  {
+    "id": "JAX-STAFF-2",
+    "team": "JAX",
+    "role": "Offensive Coordinator",
+    "name": "Jack Howell",
+    "vitals": {
+      "age": 64,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 87,
+      "schemeKnowledge": 62,
+      "playerDev": 89,
+      "motivation": 75,
+      "injuryManagement": 70,
+      "conditioning": 65,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2282396
+    }
+  },
+  {
+    "id": "JAX-STAFF-3",
+    "team": "JAX",
+    "role": "Defensive Coordinator",
+    "name": "Joseph Dickinson",
+    "vitals": {
+      "age": 37,
+      "experience": 32
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 76,
+      "schemeKnowledge": 78,
+      "playerDev": 75,
+      "motivation": 84,
+      "injuryManagement": 68,
+      "conditioning": 53,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4666461
+    }
+  },
+  {
+    "id": "JAX-STAFF-4",
+    "team": "JAX",
+    "role": "Strength & Conditioning Coach",
+    "name": "Malcolm Hand",
+    "vitals": {
+      "age": 50,
+      "experience": 31
+    },
+    "ratings": {
+      "leadership": 91,
+      "discipline": 68,
+      "schemeKnowledge": 60,
+      "playerDev": 73,
+      "motivation": 68,
+      "injuryManagement": 69,
+      "conditioning": 93,
+      "analyticsIQ": 41
+    },
+    "contract": {
+      "years": 5,
+      "salary": 3550595
+    }
+  },
+  {
+    "id": "JAX-STAFF-5",
+    "team": "JAX",
+    "role": "Physical Therapist",
+    "name": "Angelo Kilback",
+    "vitals": {
+      "age": 40,
+      "experience": 38
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 95,
+      "schemeKnowledge": 81,
+      "playerDev": 83,
+      "motivation": 86,
+      "injuryManagement": 83,
+      "conditioning": 58,
+      "analyticsIQ": 54
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5004779
+    }
+  },
+  {
+    "id": "JAX-STAFF-6",
+    "team": "JAX",
+    "role": "Athletic Trainer",
+    "name": "Leonard Graham",
+    "vitals": {
+      "age": 42,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 87,
+      "discipline": 67,
+      "schemeKnowledge": 88,
+      "playerDev": 84,
+      "motivation": 87,
+      "injuryManagement": 88,
+      "conditioning": 48,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2135678
+    }
+  },
+  {
+    "id": "JAX-STAFF-7",
+    "team": "JAX",
+    "role": "Analytics Coordinator",
+    "name": "Mario Lubowitz",
+    "vitals": {
+      "age": 39,
+      "experience": 22
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 66,
+      "schemeKnowledge": 87,
+      "playerDev": 71,
+      "motivation": 82,
+      "injuryManagement": 61,
+      "conditioning": 61,
+      "analyticsIQ": 89
+    },
+    "contract": {
+      "years": 5,
+      "salary": 964951
+    }
+  }
+]

@@ -1,65 +1,72 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: #1e1e1e;
-  border-radius: 14px;
-  padding: 16px;
-  color: white;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-}
-
-.header {
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  margin-bottom: 12px;
-  color: #ffffff;
-  opacity: 0.85;
-}
-
-.table {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.conferenceColumn {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 12px;
+  box-shadow: var(--shadow);
+  font-size: 0.82rem;
+}
+
+.conferenceTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.divisionBlock {
+  margin-bottom: 10px;
+}
+
+.divisionTitle {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 4px;
+}
+
+.headerRow {
+  display: grid;
+  grid-template-columns: 1.6fr 0.6fr 0.6fr 0.6fr;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 12px;
-  border-radius: 10px;
-  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1.6fr 0.6fr 0.6fr 0.6fr;
+  font-size: 0.8rem;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
-.team {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+.row:last-child {
+  border-bottom: none;
 }
 
-.abbr {
-  font-weight: 800;
-  width: 36px;
+.rowHighlight {
+  background: rgba(0, 212, 255, 0.08);
 }
 
-.name {
-  opacity: 0.9;
+.center {
+  text-align: center;
 }
 
-.record {
-  font-weight: 700;
-}
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 
-.userRow {
-  background: rgba(255, 255, 255, 0.08);
-  border-left: 4px solid var(--team-color, #fff);
-}
-
-.cpuRow {
-  opacity: 0.55;
+  .conferenceColumn {
+    width: 100%;
+  }
 }

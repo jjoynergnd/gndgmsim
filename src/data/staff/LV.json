@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  87,
-               "name":  "Malik Wright"
-           },
-    "OC":  {
-               "rating":  72,
-               "name":  "Chase Maddox"
-           },
-    "DC":  {
-               "rating":  78,
-               "name":  "Logan Maddox"
-           }
-}
+[
+  {
+    "id": "LV-STAFF-1",
+    "team": "LV",
+    "role": "Head Coach",
+    "name": "Colby Kuhn",
+    "vitals": {
+      "age": 45,
+      "experience": 38
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 71,
+      "schemeKnowledge": 64,
+      "playerDev": 95,
+      "motivation": 67,
+      "injuryManagement": 45,
+      "conditioning": 46,
+      "analyticsIQ": 63
+    },
+    "contract": {
+      "years": 3,
+      "salary": 647942
+    }
+  },
+  {
+    "id": "LV-STAFF-2",
+    "team": "LV",
+    "role": "Offensive Coordinator",
+    "name": "Quentin Cruickshank",
+    "vitals": {
+      "age": 50,
+      "experience": 30
+    },
+    "ratings": {
+      "leadership": 70,
+      "discipline": 61,
+      "schemeKnowledge": 70,
+      "playerDev": 73,
+      "motivation": 63,
+      "injuryManagement": 67,
+      "conditioning": 53,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 5,
+      "salary": 2814676
+    }
+  },
+  {
+    "id": "LV-STAFF-3",
+    "team": "LV",
+    "role": "Defensive Coordinator",
+    "name": "Dmitri Weber",
+    "vitals": {
+      "age": 54,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 89,
+      "schemeKnowledge": 61,
+      "playerDev": 80,
+      "motivation": 79,
+      "injuryManagement": 60,
+      "conditioning": 62,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3606549
+    }
+  },
+  {
+    "id": "LV-STAFF-4",
+    "team": "LV",
+    "role": "Strength & Conditioning Coach",
+    "name": "Samuel Ziemann",
+    "vitals": {
+      "age": 34,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 64,
+      "discipline": 82,
+      "schemeKnowledge": 83,
+      "playerDev": 72,
+      "motivation": 94,
+      "injuryManagement": 57,
+      "conditioning": 93,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4590669
+    }
+  },
+  {
+    "id": "LV-STAFF-5",
+    "team": "LV",
+    "role": "Physical Therapist",
+    "name": "Roger Feeney",
+    "vitals": {
+      "age": 30,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 68,
+      "discipline": 71,
+      "schemeKnowledge": 89,
+      "playerDev": 74,
+      "motivation": 92,
+      "injuryManagement": 74,
+      "conditioning": 58,
+      "analyticsIQ": 59
+    },
+    "contract": {
+      "years": 3,
+      "salary": 758896
+    }
+  },
+  {
+    "id": "LV-STAFF-6",
+    "team": "LV",
+    "role": "Athletic Trainer",
+    "name": "Riley Lesch",
+    "vitals": {
+      "age": 47,
+      "experience": 15
+    },
+    "ratings": {
+      "leadership": 62,
+      "discipline": 88,
+      "schemeKnowledge": 94,
+      "playerDev": 88,
+      "motivation": 80,
+      "injuryManagement": 72,
+      "conditioning": 63,
+      "analyticsIQ": 50
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1489761
+    }
+  },
+  {
+    "id": "LV-STAFF-7",
+    "team": "LV",
+    "role": "Analytics Coordinator",
+    "name": "Mason Lakin",
+    "vitals": {
+      "age": 60,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 76,
+      "schemeKnowledge": 61,
+      "playerDev": 83,
+      "motivation": 90,
+      "injuryManagement": 59,
+      "conditioning": 68,
+      "analyticsIQ": 90
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3265602
+    }
+  }
+]

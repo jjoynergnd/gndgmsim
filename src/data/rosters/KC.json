@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  82,
-        "name":  "Chase Rourke",
-        "id":  "KC-QB0"
+[
+  {
+    "id": "KC-QB-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Eugene Kreiger",
+    "jerseyNumber": 38,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 277,
+      "college": "Lake Jacklynside",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  87,
-        "name":  "Xavier Reeves",
-        "id":  "KC-RB1"
+    "contract": {
+      "years": 2,
+      "totalValue": 54126167,
+      "capHit": 13096980,
+      "deadCap": 8669455,
+      "signingBonus": 5000411,
+      "expiresYear": 2028,
+      "contractType": "Standard"
     },
-    {
-        "position":  "WR",
-        "overall":  83,
-        "name":  "Jalen Harrington",
-        "id":  "KC-WR2"
+    "ratings": {
+      "overall": 68,
+      "potential": 71,
+      "schemeFit": 82,
+      "speed": 72,
+      "acceleration": 90,
+      "agility": 85,
+      "strength": 76,
+      "tackle": 75,
+      "pursuit": 65,
+      "manCoverage": 63,
+      "zoneCoverage": 65,
+      "kickPower": 73,
+      "kickAccuracy": 88,
+      "catching": 51,
+      "routeRunning": 71,
+      "release": 86,
+      "throwPower": 75,
+      "shortAccuracy": 89,
+      "mediumAccuracy": 73,
+      "deepAccuracy": 63
     },
-    {
-        "position":  "LB",
-        "overall":  75,
-        "name":  "Andre Wright",
-        "id":  "KC-LB3"
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
     },
-    {
-        "position":  "CB",
-        "overall":  72,
-        "name":  "Evan Douglas",
-        "id":  "KC-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 602,
+        "statB": 249
+      },
+      "career": {
+        "games": 72,
+        "statA": 4538,
+        "statB": 3107
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "KC-QB-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Juan Kautzer-Mraz",
+    "jerseyNumber": 2,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 295,
+      "college": "Erdmantown",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 81652768,
+      "capHit": 19574040,
+      "deadCap": 5114831,
+      "signingBonus": 3159612,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 90,
+      "schemeFit": 93,
+      "speed": 77,
+      "acceleration": 88,
+      "agility": 72,
+      "strength": 73,
+      "tackle": 82,
+      "pursuit": 86,
+      "manCoverage": 85,
+      "zoneCoverage": 75,
+      "kickPower": 94,
+      "kickAccuracy": 78,
+      "catching": 65,
+      "routeRunning": 78,
+      "release": 73,
+      "throwPower": 76,
+      "shortAccuracy": 60,
+      "mediumAccuracy": 75,
+      "deepAccuracy": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 508,
+        "statB": 61
+      },
+      "career": {
+        "games": 110,
+        "statA": 3673,
+        "statB": 4191
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "KC-QB-3",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Arthur Halvorson",
+    "jerseyNumber": 76,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 204,
+      "college": "Tarynworth",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 47841661,
+      "capHit": 4840673,
+      "deadCap": 9986280,
+      "signingBonus": 13251147,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 70,
+      "schemeFit": 82,
+      "speed": 85,
+      "acceleration": 91,
+      "agility": 78,
+      "strength": 68,
+      "tackle": 67,
+      "pursuit": 70,
+      "manCoverage": 51,
+      "zoneCoverage": 70,
+      "kickPower": 84,
+      "kickAccuracy": 81,
+      "catching": 51,
+      "routeRunning": 74,
+      "release": 61,
+      "throwPower": 77,
+      "shortAccuracy": 68,
+      "mediumAccuracy": 92,
+      "deepAccuracy": 68
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 109,
+        "statB": 985
+      },
+      "career": {
+        "games": 69,
+        "statA": 4483,
+        "statB": 4839
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "KC-RB-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Riku Abbott",
+    "jerseyNumber": 30,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 203,
+      "college": "South Monserrate",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 115990225,
+      "capHit": 4130097,
+      "deadCap": 4306153,
+      "signingBonus": 18836871,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 78,
+      "schemeFit": 90,
+      "speed": 78,
+      "acceleration": 70,
+      "agility": 86,
+      "strength": 81,
+      "tackle": 87,
+      "pursuit": 77,
+      "manCoverage": 57,
+      "zoneCoverage": 53,
+      "kickPower": 82,
+      "kickAccuracy": 70,
+      "catching": 92,
+      "routeRunning": 51,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 545,
+        "statB": 20
+      },
+      "career": {
+        "games": 98,
+        "statA": 1923,
+        "statB": 1105
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "KC-RB-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Gregory O'Connell",
+    "jerseyNumber": 86,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 260,
+      "college": "Monroeport",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 81120154,
+      "capHit": 19532664,
+      "deadCap": 5052521,
+      "signingBonus": 3734286,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 90,
+      "schemeFit": 80,
+      "speed": 74,
+      "acceleration": 84,
+      "agility": 70,
+      "strength": 92,
+      "tackle": 92,
+      "pursuit": 66,
+      "manCoverage": 67,
+      "zoneCoverage": 53,
+      "kickPower": 68,
+      "kickAccuracy": 75,
+      "catching": 60,
+      "routeRunning": 74,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 383,
+        "statB": 140
+      },
+      "career": {
+        "games": 110,
+        "statA": 1199,
+        "statB": 3418
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "KC-RB-3",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Anthony Herman",
+    "jerseyNumber": 45,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 325,
+      "college": "Fort Jesse",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 59852736,
+      "capHit": 4218022,
+      "deadCap": 6563960,
+      "signingBonus": 3457429,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 78,
+      "schemeFit": 83,
+      "speed": 91,
+      "acceleration": 86,
+      "agility": 95,
+      "strength": 95,
+      "tackle": 90,
+      "pursuit": 77,
+      "manCoverage": 79,
+      "zoneCoverage": 76,
+      "kickPower": 94,
+      "kickAccuracy": 95,
+      "catching": 65,
+      "routeRunning": 78,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 75,
+        "statB": 326
+      },
+      "career": {
+        "games": 120,
+        "statA": 1313,
+        "statB": 4383
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "KC-RB-4",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Mario Klocko",
+    "jerseyNumber": 72,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 296,
+      "college": "East Myronbury",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 106097687,
+      "capHit": 23432579,
+      "deadCap": 5233593,
+      "signingBonus": 11709640,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 77,
+      "schemeFit": 91,
+      "speed": 76,
+      "acceleration": 86,
+      "agility": 70,
+      "strength": 64,
+      "tackle": 75,
+      "pursuit": 66,
+      "manCoverage": 72,
+      "zoneCoverage": 60,
+      "kickPower": 83,
+      "kickAccuracy": 83,
+      "catching": 55,
+      "routeRunning": 77,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 872,
+        "statB": 161
+      },
+      "career": {
+        "games": 57,
+        "statA": 2251,
+        "statB": 4097
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "KC-WR-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Knox Volkman",
+    "jerseyNumber": 42,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 266,
+      "college": "Faheytown",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 2398064,
+      "capHit": 11307647,
+      "deadCap": 1276977,
+      "signingBonus": 11362851,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 80,
+      "schemeFit": 90,
+      "speed": 84,
+      "acceleration": 81,
+      "agility": 88,
+      "strength": 72,
+      "tackle": 66,
+      "pursuit": 75,
+      "manCoverage": 65,
+      "zoneCoverage": 70,
+      "kickPower": 60,
+      "kickAccuracy": 82,
+      "catching": 95,
+      "routeRunning": 86,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 900,
+        "statB": 558
+      },
+      "career": {
+        "games": 8,
+        "statA": 193,
+        "statB": 4249
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "KC-WR-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Christopher Langworth",
+    "jerseyNumber": 76,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "5'9\"",
+      "weight": 255,
+      "college": "South Carissastead",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 76960166,
+      "capHit": 16765865,
+      "deadCap": 9033017,
+      "signingBonus": 1401333,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 83,
+      "speed": 91,
+      "acceleration": 71,
+      "agility": 88,
+      "strength": 74,
+      "tackle": 72,
+      "pursuit": 73,
+      "manCoverage": 73,
+      "zoneCoverage": 59,
+      "kickPower": 60,
+      "kickAccuracy": 71,
+      "catching": 54,
+      "routeRunning": 82,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 149,
+        "statB": 551
+      },
+      "career": {
+        "games": 106,
+        "statA": 3255,
+        "statB": 2811
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "KC-WR-3",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Rafael Schaden",
+    "jerseyNumber": 11,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 298,
+      "college": "Hermannland",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 105400141,
+      "capHit": 2975323,
+      "deadCap": 9346619,
+      "signingBonus": 4736235,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 82,
+      "schemeFit": 82,
+      "speed": 82,
+      "acceleration": 75,
+      "agility": 78,
+      "strength": 90,
+      "tackle": 85,
+      "pursuit": 77,
+      "manCoverage": 66,
+      "zoneCoverage": 68,
+      "kickPower": 50,
+      "kickAccuracy": 83,
+      "catching": 62,
+      "routeRunning": 59,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 144,
+        "statB": 969
+      },
+      "career": {
+        "games": 96,
+        "statA": 964,
+        "statB": 811
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "KC-WR-4",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Gabriel Conn",
+    "jerseyNumber": 71,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 221,
+      "college": "Lake Jettstead",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 72024083,
+      "capHit": 22551487,
+      "deadCap": 373988,
+      "signingBonus": 17103013,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 87,
+      "schemeFit": 86,
+      "speed": 93,
+      "acceleration": 88,
+      "agility": 92,
+      "strength": 71,
+      "tackle": 77,
+      "pursuit": 75,
+      "manCoverage": 69,
+      "zoneCoverage": 66,
+      "kickPower": 94,
+      "kickAccuracy": 54,
+      "catching": 62,
+      "routeRunning": 83,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 831,
+        "statB": 90
+      },
+      "career": {
+        "games": 44,
+        "statA": 309,
+        "statB": 1121
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "KC-WR-5",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Declan Morar",
+    "jerseyNumber": 10,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 210,
+      "college": "Fort Jeanne",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 36143445,
+      "capHit": 15263464,
+      "deadCap": 7544491,
+      "signingBonus": 6292991,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 83,
+      "schemeFit": 94,
+      "speed": 90,
+      "acceleration": 93,
+      "agility": 77,
+      "strength": 68,
+      "tackle": 91,
+      "pursuit": 68,
+      "manCoverage": 71,
+      "zoneCoverage": 59,
+      "kickPower": 69,
+      "kickAccuracy": 90,
+      "catching": 63,
+      "routeRunning": 55,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 74,
+        "statB": 429
+      },
+      "career": {
+        "games": 36,
+        "statA": 4820,
+        "statB": 1271
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "KC-WR-6",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Dominic Brown",
+    "jerseyNumber": 88,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 240,
+      "college": "New Kurtisshire",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 68578693,
+      "capHit": 11762515,
+      "deadCap": 1962130,
+      "signingBonus": 18629454,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 73,
+      "schemeFit": 75,
+      "speed": 94,
+      "acceleration": 78,
+      "agility": 92,
+      "strength": 74,
+      "tackle": 88,
+      "pursuit": 91,
+      "manCoverage": 89,
+      "zoneCoverage": 86,
+      "kickPower": 85,
+      "kickAccuracy": 56,
+      "catching": 56,
+      "routeRunning": 93,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 603,
+        "statB": 761
+      },
+      "career": {
+        "games": 75,
+        "statA": 4668,
+        "statB": 1016
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "KC-WR-7",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Luca Langosh",
+    "jerseyNumber": 8,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 328,
+      "college": "Walshtown",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 91596395,
+      "capHit": 10779839,
+      "deadCap": 4640848,
+      "signingBonus": 11428680,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 77,
+      "speed": 70,
+      "acceleration": 75,
+      "agility": 71,
+      "strength": 76,
+      "tackle": 70,
+      "pursuit": 87,
+      "manCoverage": 86,
+      "zoneCoverage": 65,
+      "kickPower": 52,
+      "kickAccuracy": 90,
+      "catching": 76,
+      "routeRunning": 68,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 92,
+        "statB": 557
+      },
+      "career": {
+        "games": 27,
+        "statA": 2632,
+        "statB": 1724
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "KC-TE-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Theo Bechtelar",
+    "jerseyNumber": 68,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 264,
+      "college": "New Drake",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 70432624,
+      "capHit": 10806632,
+      "deadCap": 2861140,
+      "signingBonus": 7325078,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 76,
+      "schemeFit": 86,
+      "speed": 74,
+      "acceleration": 80,
+      "agility": 80,
+      "strength": 74,
+      "tackle": 79,
+      "pursuit": 74,
+      "manCoverage": 83,
+      "zoneCoverage": 85,
+      "kickPower": 68,
+      "kickAccuracy": 76,
+      "catching": 63,
+      "routeRunning": 94,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 570,
+        "statB": 128
+      },
+      "career": {
+        "games": 50,
+        "statA": 1115,
+        "statB": 2472
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "KC-TE-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Sora Welch",
+    "jerseyNumber": 84,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 320,
+      "college": "Danville",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 33368180,
+      "capHit": 6226195,
+      "deadCap": 9215793,
+      "signingBonus": 4684230,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 77,
+      "schemeFit": 93,
+      "speed": 70,
+      "acceleration": 88,
+      "agility": 81,
+      "strength": 64,
+      "tackle": 68,
+      "pursuit": 95,
+      "manCoverage": 79,
+      "zoneCoverage": 76,
+      "kickPower": 74,
+      "kickAccuracy": 93,
+      "catching": 63,
+      "routeRunning": 63,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 993,
+        "statB": 993
+      },
+      "career": {
+        "games": 97,
+        "statA": 390,
+        "statB": 3243
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "KC-TE-3",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Billy Wisoky",
+    "jerseyNumber": 55,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 255,
+      "college": "Priceboro",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 47408158,
+      "capHit": 739428,
+      "deadCap": 9556150,
+      "signingBonus": 1446711,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 77,
+      "schemeFit": 83,
+      "speed": 73,
+      "acceleration": 84,
+      "agility": 73,
+      "strength": 67,
+      "tackle": 79,
+      "pursuit": 71,
+      "manCoverage": 54,
+      "zoneCoverage": 81,
+      "kickPower": 60,
+      "kickAccuracy": 94,
+      "catching": 61,
+      "routeRunning": 66,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 616,
+        "statB": 805
+      },
+      "career": {
+        "games": 101,
+        "statA": 4441,
+        "statB": 4569
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "KC-LT-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Christopher Schoen",
+    "jerseyNumber": 6,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 230,
+      "college": "West Glennie",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 84970355,
+      "capHit": 17358169,
+      "deadCap": 4005473,
+      "signingBonus": 16064812,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 68,
+      "schemeFit": 78,
+      "speed": 77,
+      "acceleration": 74,
+      "agility": 75,
+      "strength": 90,
+      "tackle": 85,
+      "pursuit": 70,
+      "manCoverage": 60,
+      "zoneCoverage": 89,
+      "kickPower": 83,
+      "kickAccuracy": 61,
+      "catching": 51,
+      "routeRunning": 67,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 68,
+        "statB": 954
+      },
+      "career": {
+        "games": 24,
+        "statA": 3310,
+        "statB": 501
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "KC-LT-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Zane Romaguera",
+    "jerseyNumber": 59,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 280,
+      "college": "Hailiemouth",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 46945865,
+      "capHit": 14822871,
+      "deadCap": 6411997,
+      "signingBonus": 5775439,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 88,
+      "schemeFit": 94,
+      "speed": 82,
+      "acceleration": 90,
+      "agility": 72,
+      "strength": 74,
+      "tackle": 75,
+      "pursuit": 63,
+      "manCoverage": 68,
+      "zoneCoverage": 50,
+      "kickPower": 54,
+      "kickAccuracy": 90,
+      "catching": 65,
+      "routeRunning": 89,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 311,
+        "statB": 360
+      },
+      "career": {
+        "games": 98,
+        "statA": 4799,
+        "statB": 4547
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "KC-LG-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Daniel Vandervort",
+    "jerseyNumber": 65,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 294,
+      "college": "Paulineboro",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 118303187,
+      "capHit": 20786197,
+      "deadCap": 2943212,
+      "signingBonus": 11513953,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 73,
+      "schemeFit": 86,
+      "speed": 86,
+      "acceleration": 76,
+      "agility": 84,
+      "strength": 86,
+      "tackle": 88,
+      "pursuit": 88,
+      "manCoverage": 52,
+      "zoneCoverage": 90,
+      "kickPower": 79,
+      "kickAccuracy": 66,
+      "catching": 71,
+      "routeRunning": 59,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 245,
+        "statB": 501
+      },
+      "career": {
+        "games": 112,
+        "statA": 3010,
+        "statB": 4618
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "KC-LG-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Evan Beier",
+    "jerseyNumber": 46,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 240,
+      "college": "North Cierraberg",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 45235568,
+      "capHit": 7383058,
+      "deadCap": 9994563,
+      "signingBonus": 15720611,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 74,
+      "speed": 70,
+      "acceleration": 86,
+      "agility": 83,
+      "strength": 82,
+      "tackle": 94,
+      "pursuit": 68,
+      "manCoverage": 89,
+      "zoneCoverage": 71,
+      "kickPower": 73,
+      "kickAccuracy": 86,
+      "catching": 78,
+      "routeRunning": 76,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 421,
+        "statB": 922
+      },
+      "career": {
+        "games": 90,
+        "statA": 3169,
+        "statB": 2195
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "KC-C-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Caleb Gerlach-Kirlin",
+    "jerseyNumber": 72,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 304,
+      "college": "Berthacester",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 112991509,
+      "capHit": 4960029,
+      "deadCap": 8128851,
+      "signingBonus": 1327306,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 92,
+      "speed": 73,
+      "acceleration": 95,
+      "agility": 72,
+      "strength": 93,
+      "tackle": 69,
+      "pursuit": 61,
+      "manCoverage": 77,
+      "zoneCoverage": 82,
+      "kickPower": 90,
+      "kickAccuracy": 52,
+      "catching": 64,
+      "routeRunning": 60,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 261,
+        "statB": 615
+      },
+      "career": {
+        "games": 16,
+        "statA": 4988,
+        "statB": 3743
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "KC-C-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Jacob Fisher",
+    "jerseyNumber": 45,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 329,
+      "college": "South Violette",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 5345684,
+      "capHit": 9522110,
+      "deadCap": 3990593,
+      "signingBonus": 15601404,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 82,
+      "speed": 92,
+      "acceleration": 75,
+      "agility": 88,
+      "strength": 79,
+      "tackle": 81,
+      "pursuit": 74,
+      "manCoverage": 69,
+      "zoneCoverage": 88,
+      "kickPower": 83,
+      "kickAccuracy": 73,
+      "catching": 94,
+      "routeRunning": 69,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 72,
+        "statB": 833
+      },
+      "career": {
+        "games": 59,
+        "statA": 3524,
+        "statB": 4500
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "KC-RG-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Ashton Pollich-Corkery",
+    "jerseyNumber": 7,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'2\"",
+      "weight": 294,
+      "college": "Predovicstad",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 61268943,
+      "capHit": 21717169,
+      "deadCap": 8476759,
+      "signingBonus": 6520852,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 84,
+      "speed": 92,
+      "acceleration": 79,
+      "agility": 92,
+      "strength": 73,
+      "tackle": 75,
+      "pursuit": 86,
+      "manCoverage": 88,
+      "zoneCoverage": 73,
+      "kickPower": 77,
+      "kickAccuracy": 75,
+      "catching": 89,
+      "routeRunning": 62,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 53,
+        "statB": 445
+      },
+      "career": {
+        "games": 112,
+        "statA": 2394,
+        "statB": 4004
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "KC-RG-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Alan Brakus",
+    "jerseyNumber": 23,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 282,
+      "college": "West Marie",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 64619577,
+      "capHit": 5699681,
+      "deadCap": 9147195,
+      "signingBonus": 17217874,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 63,
+      "schemeFit": 80,
+      "speed": 85,
+      "acceleration": 83,
+      "agility": 88,
+      "strength": 93,
+      "tackle": 66,
+      "pursuit": 94,
+      "manCoverage": 82,
+      "zoneCoverage": 61,
+      "kickPower": 74,
+      "kickAccuracy": 92,
+      "catching": 67,
+      "routeRunning": 62,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 334,
+        "statB": 653
+      },
+      "career": {
+        "games": 80,
+        "statA": 3180,
+        "statB": 2629
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "KC-RT-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Blake Russel",
+    "jerseyNumber": 5,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 325,
+      "college": "Frederick",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 105579116,
+      "capHit": 510453,
+      "deadCap": 5242838,
+      "signingBonus": 2299303,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 72,
+      "speed": 76,
+      "acceleration": 70,
+      "agility": 79,
+      "strength": 69,
+      "tackle": 82,
+      "pursuit": 92,
+      "manCoverage": 80,
+      "zoneCoverage": 73,
+      "kickPower": 86,
+      "kickAccuracy": 75,
+      "catching": 71,
+      "routeRunning": 67,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 620,
+        "statB": 746
+      },
+      "career": {
+        "games": 1,
+        "statA": 1479,
+        "statB": 928
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "KC-RT-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Paul Lemke",
+    "jerseyNumber": 26,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 268,
+      "college": "Whitestead",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 31482931,
+      "capHit": 12706884,
+      "deadCap": 9574499,
+      "signingBonus": 8972584,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 83,
+      "schemeFit": 88,
+      "speed": 74,
+      "acceleration": 70,
+      "agility": 88,
+      "strength": 83,
+      "tackle": 84,
+      "pursuit": 77,
+      "manCoverage": 50,
+      "zoneCoverage": 55,
+      "kickPower": 59,
+      "kickAccuracy": 74,
+      "catching": 80,
+      "routeRunning": 87,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 341,
+        "statB": 11
+      },
+      "career": {
+        "games": 29,
+        "statA": 407,
+        "statB": 2780
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "KC-LDE-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Albert Stamm",
+    "jerseyNumber": 47,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 202,
+      "college": "Cummerataside",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 15320396,
+      "capHit": 7240855,
+      "deadCap": 8302596,
+      "signingBonus": 8732631,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 87,
+      "schemeFit": 82,
+      "speed": 86,
+      "acceleration": 89,
+      "agility": 80,
+      "strength": 95,
+      "tackle": 74,
+      "pursuit": 62,
+      "manCoverage": 68,
+      "zoneCoverage": 85,
+      "kickPower": 62,
+      "kickAccuracy": 74,
+      "catching": 67,
+      "routeRunning": 93,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 695,
+        "statB": 726
+      },
+      "career": {
+        "games": 116,
+        "statA": 2389,
+        "statB": 521
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "KC-LDE-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Jeremy Lind",
+    "jerseyNumber": 97,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 316,
+      "college": "South Arvillabury",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 102146616,
+      "capHit": 21624505,
+      "deadCap": 5646223,
+      "signingBonus": 19310978,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 84,
+      "schemeFit": 90,
+      "speed": 75,
+      "acceleration": 93,
+      "agility": 81,
+      "strength": 77,
+      "tackle": 88,
+      "pursuit": 89,
+      "manCoverage": 68,
+      "zoneCoverage": 50,
+      "kickPower": 69,
+      "kickAccuracy": 76,
+      "catching": 56,
+      "routeRunning": 93,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 494,
+        "statB": 541
+      },
+      "career": {
+        "games": 55,
+        "statA": 2866,
+        "statB": 2700
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "KC-RDE-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Timothy Fadel",
+    "jerseyNumber": 95,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 215,
+      "college": "Mount Vernon",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 104930596,
+      "capHit": 11181459,
+      "deadCap": 8287836,
+      "signingBonus": 18192365,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 82,
+      "schemeFit": 83,
+      "speed": 86,
+      "acceleration": 77,
+      "agility": 89,
+      "strength": 60,
+      "tackle": 92,
+      "pursuit": 63,
+      "manCoverage": 74,
+      "zoneCoverage": 56,
+      "kickPower": 72,
+      "kickAccuracy": 78,
+      "catching": 85,
+      "routeRunning": 82,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 400,
+        "statB": 891
+      },
+      "career": {
+        "games": 74,
+        "statA": 1258,
+        "statB": 4085
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "KC-RDE-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Michael Hane",
+    "jerseyNumber": 83,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "5'10\"",
+      "weight": 303,
+      "college": "Lehi",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 95447929,
+      "capHit": 15599669,
+      "deadCap": 5677248,
+      "signingBonus": 18647155,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 73,
+      "speed": 81,
+      "acceleration": 92,
+      "agility": 86,
+      "strength": 91,
+      "tackle": 87,
+      "pursuit": 64,
+      "manCoverage": 72,
+      "zoneCoverage": 63,
+      "kickPower": 64,
+      "kickAccuracy": 95,
+      "catching": 57,
+      "routeRunning": 82,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 55,
+        "statB": 632
+      },
+      "career": {
+        "games": 17,
+        "statA": 1036,
+        "statB": 3086
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "KC-DT-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Michael Leffler",
+    "jerseyNumber": 25,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 257,
+      "college": "Mosciskishire",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 111490002,
+      "capHit": 1455864,
+      "deadCap": 2232094,
+      "signingBonus": 2265298,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 70,
+      "schemeFit": 73,
+      "speed": 76,
+      "acceleration": 90,
+      "agility": 76,
+      "strength": 71,
+      "tackle": 83,
+      "pursuit": 64,
+      "manCoverage": 60,
+      "zoneCoverage": 68,
+      "kickPower": 94,
+      "kickAccuracy": 89,
+      "catching": 92,
+      "routeRunning": 79,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 141,
+        "statB": 769
+      },
+      "career": {
+        "games": 18,
+        "statA": 3527,
+        "statB": 2117
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "KC-DT-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Trevor Zieme",
+    "jerseyNumber": 52,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 329,
+      "college": "West Camille",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 90492876,
+      "capHit": 16431584,
+      "deadCap": 1102302,
+      "signingBonus": 19364208,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 78,
+      "speed": 71,
+      "acceleration": 75,
+      "agility": 82,
+      "strength": 74,
+      "tackle": 72,
+      "pursuit": 89,
+      "manCoverage": 55,
+      "zoneCoverage": 50,
+      "kickPower": 82,
+      "kickAccuracy": 93,
+      "catching": 77,
+      "routeRunning": 80,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 12,
+        "statB": 494
+      },
+      "career": {
+        "games": 98,
+        "statA": 894,
+        "statB": 847
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "KC-DT-3",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Gerald Smith",
+    "jerseyNumber": 5,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 308,
+      "college": "East Cassidy",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 51820253,
+      "capHit": 11112975,
+      "deadCap": 9370389,
+      "signingBonus": 5701610,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 84,
+      "schemeFit": 82,
+      "speed": 72,
+      "acceleration": 82,
+      "agility": 88,
+      "strength": 84,
+      "tackle": 71,
+      "pursuit": 82,
+      "manCoverage": 90,
+      "zoneCoverage": 82,
+      "kickPower": 72,
+      "kickAccuracy": 81,
+      "catching": 68,
+      "routeRunning": 55,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 538,
+        "statB": 406
+      },
+      "career": {
+        "games": 1,
+        "statA": 605,
+        "statB": 4125
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "KC-DT-4",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Tucker Maggio",
+    "jerseyNumber": 64,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 301,
+      "college": "Round Rock",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 42294224,
+      "capHit": 24439326,
+      "deadCap": 9201285,
+      "signingBonus": 15067167,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 75,
+      "speed": 93,
+      "acceleration": 74,
+      "agility": 70,
+      "strength": 78,
+      "tackle": 95,
+      "pursuit": 78,
+      "manCoverage": 68,
+      "zoneCoverage": 62,
+      "kickPower": 59,
+      "kickAccuracy": 78,
+      "catching": 73,
+      "routeRunning": 65,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 229,
+        "statB": 510
+      },
+      "career": {
+        "games": 81,
+        "statA": 4836,
+        "statB": 4475
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "KC-LOLB-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Viktor Koepp",
+    "jerseyNumber": 93,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'0\"",
+      "weight": 195,
+      "college": "Hackensack",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 41523940,
+      "capHit": 9097735,
+      "deadCap": 8391657,
+      "signingBonus": 13114496,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 87,
+      "schemeFit": 78,
+      "speed": 84,
+      "acceleration": 78,
+      "agility": 94,
+      "strength": 72,
+      "tackle": 94,
+      "pursuit": 89,
+      "manCoverage": 57,
+      "zoneCoverage": 80,
+      "kickPower": 81,
+      "kickAccuracy": 88,
+      "catching": 87,
+      "routeRunning": 64,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 646,
+        "statB": 890
+      },
+      "career": {
+        "games": 35,
+        "statA": 4130,
+        "statB": 1474
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "KC-LOLB-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Shawn Mueller",
+    "jerseyNumber": 22,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 243,
+      "college": "Macon-Bibb County",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 44979862,
+      "capHit": 21704950,
+      "deadCap": 7819419,
+      "signingBonus": 13764220,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 93,
+      "schemeFit": 92,
+      "speed": 86,
+      "acceleration": 77,
+      "agility": 88,
+      "strength": 75,
+      "tackle": 68,
+      "pursuit": 84,
+      "manCoverage": 59,
+      "zoneCoverage": 73,
+      "kickPower": 70,
+      "kickAccuracy": 54,
+      "catching": 91,
+      "routeRunning": 53,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 215,
+        "statB": 957
+      },
+      "career": {
+        "games": 17,
+        "statA": 2915,
+        "statB": 1880
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "KC-MLB-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Gabriel Murphy",
+    "jerseyNumber": 61,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 271,
+      "college": "Davenport",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 90980065,
+      "capHit": 4984350,
+      "deadCap": 9386453,
+      "signingBonus": 681867,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 83,
+      "speed": 72,
+      "acceleration": 93,
+      "agility": 92,
+      "strength": 71,
+      "tackle": 87,
+      "pursuit": 74,
+      "manCoverage": 61,
+      "zoneCoverage": 85,
+      "kickPower": 86,
+      "kickAccuracy": 80,
+      "catching": 78,
+      "routeRunning": 69,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 491,
+        "statB": 113
+      },
+      "career": {
+        "games": 79,
+        "statA": 515,
+        "statB": 4456
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "KC-MLB-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Hugo Quitzon",
+    "jerseyNumber": 50,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 249,
+      "college": "Aurora",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 33228933,
+      "capHit": 18903970,
+      "deadCap": 9404910,
+      "signingBonus": 17219552,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 62,
+      "schemeFit": 84,
+      "speed": 82,
+      "acceleration": 85,
+      "agility": 74,
+      "strength": 69,
+      "tackle": 66,
+      "pursuit": 80,
+      "manCoverage": 83,
+      "zoneCoverage": 57,
+      "kickPower": 55,
+      "kickAccuracy": 87,
+      "catching": 95,
+      "routeRunning": 80,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 45,
+        "statB": 898
+      },
+      "career": {
+        "games": 88,
+        "statA": 4808,
+        "statB": 4602
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "KC-ROLB-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Trevor Kertzmann",
+    "jerseyNumber": 25,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 281,
+      "college": "Abbottside",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 22392774,
+      "capHit": 11791815,
+      "deadCap": 9906683,
+      "signingBonus": 17000186,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 67,
+      "schemeFit": 72,
+      "speed": 87,
+      "acceleration": 94,
+      "agility": 91,
+      "strength": 83,
+      "tackle": 75,
+      "pursuit": 63,
+      "manCoverage": 54,
+      "zoneCoverage": 70,
+      "kickPower": 84,
+      "kickAccuracy": 58,
+      "catching": 77,
+      "routeRunning": 58,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 539,
+        "statB": 612
+      },
+      "career": {
+        "games": 17,
+        "statA": 1430,
+        "statB": 697
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "KC-ROLB-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Brendan Kiehn",
+    "jerseyNumber": 62,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 259,
+      "college": "Port Louisaberg",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 39684371,
+      "capHit": 10472829,
+      "deadCap": 8520060,
+      "signingBonus": 19745939,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 92,
+      "acceleration": 89,
+      "agility": 95,
+      "strength": 87,
+      "tackle": 68,
+      "pursuit": 80,
+      "manCoverage": 73,
+      "zoneCoverage": 79,
+      "kickPower": 76,
+      "kickAccuracy": 84,
+      "catching": 66,
+      "routeRunning": 81,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 32,
+        "statB": 763
+      },
+      "career": {
+        "games": 37,
+        "statA": 3780,
+        "statB": 2621
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "KC-CB-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Hayden Brekke",
+    "jerseyNumber": 58,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 230,
+      "college": "Maraton",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 116880267,
+      "capHit": 15943144,
+      "deadCap": 6452976,
+      "signingBonus": 5012720,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 81,
+      "schemeFit": 75,
+      "speed": 73,
+      "acceleration": 82,
+      "agility": 91,
+      "strength": 92,
+      "tackle": 78,
+      "pursuit": 70,
+      "manCoverage": 82,
+      "zoneCoverage": 56,
+      "kickPower": 95,
+      "kickAccuracy": 55,
+      "catching": 87,
+      "routeRunning": 85,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 905,
+        "statB": 68
+      },
+      "career": {
+        "games": 101,
+        "statA": 1453,
+        "statB": 3534
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "KC-CB-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Cillian Altenwerth",
+    "jerseyNumber": 82,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 254,
+      "college": "Bennyfield",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 54846672,
+      "capHit": 8580779,
+      "deadCap": 9165574,
+      "signingBonus": 17598730,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 91,
+      "speed": 81,
+      "acceleration": 72,
+      "agility": 77,
+      "strength": 88,
+      "tackle": 64,
+      "pursuit": 69,
+      "manCoverage": 76,
+      "zoneCoverage": 62,
+      "kickPower": 95,
+      "kickAccuracy": 90,
+      "catching": 76,
+      "routeRunning": 90,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 150,
+        "statB": 372
+      },
+      "career": {
+        "games": 94,
+        "statA": 658,
+        "statB": 2738
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "KC-CB-3",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Damien Beahan",
+    "jerseyNumber": 61,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 201,
+      "college": "Schaumburg",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 83418395,
+      "capHit": 21346316,
+      "deadCap": 8590322,
+      "signingBonus": 13655163,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 65,
+      "schemeFit": 83,
+      "speed": 91,
+      "acceleration": 84,
+      "agility": 83,
+      "strength": 77,
+      "tackle": 79,
+      "pursuit": 76,
+      "manCoverage": 84,
+      "zoneCoverage": 64,
+      "kickPower": 80,
+      "kickAccuracy": 65,
+      "catching": 84,
+      "routeRunning": 51,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 617,
+        "statB": 212
+      },
+      "career": {
+        "games": 46,
+        "statA": 3567,
+        "statB": 974
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "KC-CB-4",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Victor Nicolas",
+    "jerseyNumber": 23,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 234,
+      "college": "Reidcester",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 32075201,
+      "capHit": 20528397,
+      "deadCap": 2421912,
+      "signingBonus": 9238187,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 72,
+      "schemeFit": 93,
+      "speed": 85,
+      "acceleration": 76,
+      "agility": 72,
+      "strength": 93,
+      "tackle": 90,
+      "pursuit": 86,
+      "manCoverage": 63,
+      "zoneCoverage": 74,
+      "kickPower": 59,
+      "kickAccuracy": 51,
+      "catching": 94,
+      "routeRunning": 58,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 101,
+        "statB": 521
+      },
+      "career": {
+        "games": 118,
+        "statA": 1261,
+        "statB": 4743
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "KC-CB-5",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Brent Veum",
+    "jerseyNumber": 52,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 22,
+      "height": "5'10\"",
+      "weight": 327,
+      "college": "Lake Morris",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 52019375,
+      "capHit": 16495638,
+      "deadCap": 7703588,
+      "signingBonus": 2526636,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 61,
+      "schemeFit": 93,
+      "speed": 73,
+      "acceleration": 95,
+      "agility": 85,
+      "strength": 93,
+      "tackle": 74,
+      "pursuit": 75,
+      "manCoverage": 88,
+      "zoneCoverage": 75,
+      "kickPower": 81,
+      "kickAccuracy": 68,
+      "catching": 55,
+      "routeRunning": 58,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 655,
+        "statB": 550
+      },
+      "career": {
+        "games": 33,
+        "statA": 2498,
+        "statB": 479
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "KC-CB-6",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Theo Block",
+    "jerseyNumber": 20,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 284,
+      "college": "Runtefield",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 73457614,
+      "capHit": 11306367,
+      "deadCap": 7101542,
+      "signingBonus": 16464208,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 81,
+      "schemeFit": 86,
+      "speed": 89,
+      "acceleration": 74,
+      "agility": 80,
+      "strength": 92,
+      "tackle": 82,
+      "pursuit": 86,
+      "manCoverage": 80,
+      "zoneCoverage": 90,
+      "kickPower": 80,
+      "kickAccuracy": 50,
+      "catching": 93,
+      "routeRunning": 84,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 225,
+        "statB": 233
+      },
+      "career": {
+        "games": 110,
+        "statA": 1342,
+        "statB": 384
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "KC-FS-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Hector Corwin",
+    "jerseyNumber": 43,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 273,
+      "college": "Rock Hill",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 83032513,
+      "capHit": 18410043,
+      "deadCap": 4033110,
+      "signingBonus": 3822080,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 81,
+      "speed": 73,
+      "acceleration": 79,
+      "agility": 75,
+      "strength": 68,
+      "tackle": 86,
+      "pursuit": 63,
+      "manCoverage": 90,
+      "zoneCoverage": 79,
+      "kickPower": 54,
+      "kickAccuracy": 59,
+      "catching": 90,
+      "routeRunning": 75,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 139,
+        "statB": 543
+      },
+      "career": {
+        "games": 9,
+        "statA": 1635,
+        "statB": 3521
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "KC-FS-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Caleb Wehner",
+    "jerseyNumber": 41,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 226,
+      "college": "Olinfurt",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 34340540,
+      "capHit": 4309503,
+      "deadCap": 4881346,
+      "signingBonus": 1016941,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 64,
+      "schemeFit": 70,
+      "speed": 81,
+      "acceleration": 73,
+      "agility": 72,
+      "strength": 65,
+      "tackle": 77,
+      "pursuit": 93,
+      "manCoverage": 67,
+      "zoneCoverage": 54,
+      "kickPower": 73,
+      "kickAccuracy": 89,
+      "catching": 50,
+      "routeRunning": 77,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 891,
+        "statB": 846
+      },
+      "career": {
+        "games": 73,
+        "statA": 3424,
+        "statB": 4254
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "KC-SS-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Louis Rempel",
+    "jerseyNumber": 72,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 252,
+      "college": "Goyettecester",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 16333755,
+      "capHit": 18965783,
+      "deadCap": 6892817,
+      "signingBonus": 2094868,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 75,
+      "speed": 86,
+      "acceleration": 89,
+      "agility": 82,
+      "strength": 72,
+      "tackle": 78,
+      "pursuit": 65,
+      "manCoverage": 90,
+      "zoneCoverage": 72,
+      "kickPower": 84,
+      "kickAccuracy": 74,
+      "catching": 75,
+      "routeRunning": 64,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 182,
+        "statB": 136
+      },
+      "career": {
+        "games": 96,
+        "statA": 4789,
+        "statB": 71
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "KC-SS-2",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Shawn Marks",
+    "jerseyNumber": 35,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'5\"",
+      "weight": 230,
+      "college": "Gottliebcester",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 67103635,
+      "capHit": 17073662,
+      "deadCap": 7181784,
+      "signingBonus": 14544607,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 77,
+      "schemeFit": 76,
+      "speed": 84,
+      "acceleration": 83,
+      "agility": 91,
+      "strength": 71,
+      "tackle": 74,
+      "pursuit": 86,
+      "manCoverage": 69,
+      "zoneCoverage": 60,
+      "kickPower": 91,
+      "kickAccuracy": 94,
+      "catching": 71,
+      "routeRunning": 89,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 311,
+        "statB": 524
+      },
+      "career": {
+        "games": 90,
+        "statA": 3280,
+        "statB": 343
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "KC-K-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Larry Wilkinson",
+    "jerseyNumber": 75,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 286,
+      "college": "Wizafield",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 55880645,
+      "capHit": 6932488,
+      "deadCap": 656008,
+      "signingBonus": 773884,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 80,
+      "schemeFit": 76,
+      "speed": 80,
+      "acceleration": 95,
+      "agility": 90,
+      "strength": 91,
+      "tackle": 81,
+      "pursuit": 62,
+      "manCoverage": 69,
+      "zoneCoverage": 68,
+      "kickPower": 93,
+      "kickAccuracy": 51,
+      "catching": 88,
+      "routeRunning": 55,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 984,
+        "statB": 385
+      },
+      "career": {
+        "games": 40,
+        "statA": 2901,
+        "statB": 3879
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "KC-P-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Roger Greenholt",
+    "jerseyNumber": 50,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'3\"",
+      "weight": 189,
+      "college": "Glennafield",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 36740731,
+      "capHit": 6974658,
+      "deadCap": 9951267,
+      "signingBonus": 19523814,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 63,
+      "schemeFit": 83,
+      "speed": 82,
+      "acceleration": 87,
+      "agility": 87,
+      "strength": 86,
+      "tackle": 72,
+      "pursuit": 67,
+      "manCoverage": 78,
+      "zoneCoverage": 86,
+      "kickPower": 75,
+      "kickAccuracy": 90,
+      "catching": 57,
+      "routeRunning": 65,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 435,
+        "statB": 259
+      },
+      "career": {
+        "games": 56,
+        "statA": 843,
+        "statB": 428
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "KC-LS-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Jack Bernier",
+    "jerseyNumber": 36,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 264,
+      "college": "Montebello",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 95730794,
+      "capHit": 6579201,
+      "deadCap": 3461640,
+      "signingBonus": 10464238,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 75,
+      "schemeFit": 74,
+      "speed": 73,
+      "acceleration": 90,
+      "agility": 79,
+      "strength": 75,
+      "tackle": 83,
+      "pursuit": 81,
+      "manCoverage": 77,
+      "zoneCoverage": 58,
+      "kickPower": 83,
+      "kickAccuracy": 83,
+      "catching": 50,
+      "routeRunning": 51,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 600,
+        "statB": 52
+      },
+      "career": {
+        "games": 105,
+        "statA": 635,
+        "statB": 4589
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "KC-KR-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Gianni Heller",
+    "jerseyNumber": 69,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 273,
+      "college": "Broderickborough",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 7440510,
+      "capHit": 16899491,
+      "deadCap": 4108792,
+      "signingBonus": 10307250,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 74,
+      "schemeFit": 80,
+      "speed": 78,
+      "acceleration": 83,
+      "agility": 84,
+      "strength": 94,
+      "tackle": 72,
+      "pursuit": 62,
+      "manCoverage": 72,
+      "zoneCoverage": 89,
+      "kickPower": 93,
+      "kickAccuracy": 85,
+      "catching": 91,
+      "routeRunning": 90,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 832,
+        "statB": 675
+      },
+      "career": {
+        "games": 5,
+        "statA": 1470,
+        "statB": 3662
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "KC-PR-1",
+    "team": "KC",
+    "teamName": "KC",
+    "name": "Damien Bartell",
+    "jerseyNumber": 27,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 209,
+      "college": "McLaughlinfort",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 75114076,
+      "capHit": 17134178,
+      "deadCap": 6999719,
+      "signingBonus": 11617681,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 83,
+      "speed": 77,
+      "acceleration": 73,
+      "agility": 73,
+      "strength": 69,
+      "tackle": 74,
+      "pursuit": 64,
+      "manCoverage": 68,
+      "zoneCoverage": 65,
+      "kickPower": 94,
+      "kickAccuracy": 90,
+      "catching": 70,
+      "routeRunning": 53,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 111,
+        "statB": 289
+      },
+      "career": {
+        "games": 31,
+        "statA": 4071,
+        "statB": 1870
+      }
+    },
+    "photo": "/player_faces/35.png"
+  }
 ]

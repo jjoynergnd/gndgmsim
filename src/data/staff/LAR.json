@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  90,
-               "name":  "Logan Douglas"
-           },
-    "OC":  {
-               "rating":  69,
-               "name":  "Darius Bennett"
-           },
-    "DC":  {
-               "rating":  70,
-               "name":  "Jalen Bennett"
-           }
-}
+[
+  {
+    "id": "LAR-STAFF-1",
+    "team": "LAR",
+    "role": "Head Coach",
+    "name": "Pablo Goodwin",
+    "vitals": {
+      "age": 49,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 75,
+      "schemeKnowledge": 61,
+      "playerDev": 89,
+      "motivation": 77,
+      "injuryManagement": 54,
+      "conditioning": 44,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 5,
+      "salary": 7038698
+    }
+  },
+  {
+    "id": "LAR-STAFF-2",
+    "team": "LAR",
+    "role": "Offensive Coordinator",
+    "name": "Khalid Walter",
+    "vitals": {
+      "age": 60,
+      "experience": 6
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 92,
+      "schemeKnowledge": 62,
+      "playerDev": 83,
+      "motivation": 95,
+      "injuryManagement": 48,
+      "conditioning": 50,
+      "analyticsIQ": 50
+    },
+    "contract": {
+      "years": 5,
+      "salary": 5216163
+    }
+  },
+  {
+    "id": "LAR-STAFF-3",
+    "team": "LAR",
+    "role": "Defensive Coordinator",
+    "name": "Matthew Mayer",
+    "vitals": {
+      "age": 40,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 85,
+      "schemeKnowledge": 85,
+      "playerDev": 78,
+      "motivation": 94,
+      "injuryManagement": 60,
+      "conditioning": 46,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 4,
+      "salary": 6977806
+    }
+  },
+  {
+    "id": "LAR-STAFF-4",
+    "team": "LAR",
+    "role": "Strength & Conditioning Coach",
+    "name": "Scott Reinger",
+    "vitals": {
+      "age": 60,
+      "experience": 25
+    },
+    "ratings": {
+      "leadership": 62,
+      "discipline": 91,
+      "schemeKnowledge": 90,
+      "playerDev": 63,
+      "motivation": 82,
+      "injuryManagement": 66,
+      "conditioning": 95,
+      "analyticsIQ": 50
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5999822
+    }
+  },
+  {
+    "id": "LAR-STAFF-5",
+    "team": "LAR",
+    "role": "Physical Therapist",
+    "name": "Hayden Volkman",
+    "vitals": {
+      "age": 48,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 70,
+      "schemeKnowledge": 95,
+      "playerDev": 63,
+      "motivation": 85,
+      "injuryManagement": 78,
+      "conditioning": 57,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 4,
+      "salary": 850147
+    }
+  },
+  {
+    "id": "LAR-STAFF-6",
+    "team": "LAR",
+    "role": "Athletic Trainer",
+    "name": "Austin Ruecker",
+    "vitals": {
+      "age": 40,
+      "experience": 30
+    },
+    "ratings": {
+      "leadership": 87,
+      "discipline": 93,
+      "schemeKnowledge": 89,
+      "playerDev": 82,
+      "motivation": 63,
+      "injuryManagement": 77,
+      "conditioning": 55,
+      "analyticsIQ": 48
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2200990
+    }
+  },
+  {
+    "id": "LAR-STAFF-7",
+    "team": "LAR",
+    "role": "Analytics Coordinator",
+    "name": "Scott Gibson",
+    "vitals": {
+      "age": 61,
+      "experience": 35
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 65,
+      "schemeKnowledge": 93,
+      "playerDev": 65,
+      "motivation": 71,
+      "injuryManagement": 44,
+      "conditioning": 46,
+      "analyticsIQ": 81
+    },
+    "contract": {
+      "years": 3,
+      "salary": 749472
+    }
+  }
+]

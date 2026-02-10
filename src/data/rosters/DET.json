@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  84,
-        "name":  "Tyrone Wynn",
-        "id":  "DET-QB0"
+[
+  {
+    "id": "DET-QB-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Mateo Schaden",
+    "jerseyNumber": 14,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 189,
+      "college": "East Nyasiaberg",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  88,
-        "name":  "Caleb Wynn",
-        "id":  "DET-RB1"
+    "contract": {
+      "years": 1,
+      "totalValue": 85538518,
+      "capHit": 5292514,
+      "deadCap": 9915568,
+      "signingBonus": 8936882,
+      "expiresYear": 2027,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  73,
-        "name":  "Darius Harrington",
-        "id":  "DET-WR2"
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 87,
+      "speed": 79,
+      "acceleration": 91,
+      "agility": 88,
+      "strength": 60,
+      "tackle": 60,
+      "pursuit": 84,
+      "manCoverage": 79,
+      "zoneCoverage": 90,
+      "kickPower": 68,
+      "kickAccuracy": 94,
+      "catching": 51,
+      "routeRunning": 87,
+      "release": 80,
+      "throwPower": 73,
+      "shortAccuracy": 92,
+      "mediumAccuracy": 64,
+      "deepAccuracy": 74
     },
-    {
-        "position":  "LB",
-        "overall":  83,
-        "name":  "Evan Wynn",
-        "id":  "DET-LB3"
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
     },
-    {
-        "position":  "CB",
-        "overall":  78,
-        "name":  "Xavier Maddox",
-        "id":  "DET-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 91,
+        "statB": 602
+      },
+      "career": {
+        "games": 73,
+        "statA": 340,
+        "statB": 1378
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "DET-QB-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Ahmad Hirthe",
+    "jerseyNumber": 18,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 236,
+      "college": "Lake Lola",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 33151567,
+      "capHit": 9717622,
+      "deadCap": 7013328,
+      "signingBonus": 9916455,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 72,
+      "speed": 84,
+      "acceleration": 71,
+      "agility": 95,
+      "strength": 86,
+      "tackle": 87,
+      "pursuit": 63,
+      "manCoverage": 85,
+      "zoneCoverage": 66,
+      "kickPower": 94,
+      "kickAccuracy": 78,
+      "catching": 62,
+      "routeRunning": 55,
+      "release": 65,
+      "throwPower": 83,
+      "shortAccuracy": 95,
+      "mediumAccuracy": 83,
+      "deepAccuracy": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 944,
+        "statB": 969
+      },
+      "career": {
+        "games": 32,
+        "statA": 2866,
+        "statB": 3438
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "DET-QB-3",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Damien Jacobi",
+    "jerseyNumber": 79,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 209,
+      "college": "Considineborough",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 105008426,
+      "capHit": 21778749,
+      "deadCap": 5815008,
+      "signingBonus": 8495937,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 85,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 79,
+      "agility": 78,
+      "strength": 74,
+      "tackle": 81,
+      "pursuit": 82,
+      "manCoverage": 72,
+      "zoneCoverage": 85,
+      "kickPower": 67,
+      "kickAccuracy": 74,
+      "catching": 51,
+      "routeRunning": 57,
+      "release": 85,
+      "throwPower": 94,
+      "shortAccuracy": 89,
+      "mediumAccuracy": 69,
+      "deepAccuracy": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 22,
+        "statB": 114
+      },
+      "career": {
+        "games": 26,
+        "statA": 2298,
+        "statB": 2995
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "DET-RB-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Jian Glover",
+    "jerseyNumber": 24,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'11\"",
+      "weight": 220,
+      "college": "Emanuelton",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 93770208,
+      "capHit": 893703,
+      "deadCap": 411362,
+      "signingBonus": 5115450,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 91,
+      "speed": 93,
+      "acceleration": 70,
+      "agility": 77,
+      "strength": 94,
+      "tackle": 63,
+      "pursuit": 81,
+      "manCoverage": 71,
+      "zoneCoverage": 52,
+      "kickPower": 56,
+      "kickAccuracy": 58,
+      "catching": 61,
+      "routeRunning": 70,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 434,
+        "statB": 914
+      },
+      "career": {
+        "games": 20,
+        "statA": 633,
+        "statB": 676
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "DET-RB-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Sora Leuschke",
+    "jerseyNumber": 92,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 212,
+      "college": "South Freidaton",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 43888975,
+      "capHit": 19749159,
+      "deadCap": 1036977,
+      "signingBonus": 14123923,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 79,
+      "schemeFit": 76,
+      "speed": 76,
+      "acceleration": 75,
+      "agility": 91,
+      "strength": 70,
+      "tackle": 83,
+      "pursuit": 66,
+      "manCoverage": 83,
+      "zoneCoverage": 59,
+      "kickPower": 51,
+      "kickAccuracy": 89,
+      "catching": 95,
+      "routeRunning": 86,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 341,
+        "statB": 26
+      },
+      "career": {
+        "games": 19,
+        "statA": 279,
+        "statB": 2740
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "DET-RB-3",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Peter Will",
+    "jerseyNumber": 31,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 195,
+      "college": "Kenmouth",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 80959438,
+      "capHit": 22078923,
+      "deadCap": 5966154,
+      "signingBonus": 910793,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 83,
+      "schemeFit": 87,
+      "speed": 83,
+      "acceleration": 70,
+      "agility": 78,
+      "strength": 60,
+      "tackle": 64,
+      "pursuit": 79,
+      "manCoverage": 56,
+      "zoneCoverage": 76,
+      "kickPower": 83,
+      "kickAccuracy": 60,
+      "catching": 73,
+      "routeRunning": 77,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 496,
+        "statB": 207
+      },
+      "career": {
+        "games": 99,
+        "statA": 3048,
+        "statB": 2937
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "DET-RB-4",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Cormac Nader",
+    "jerseyNumber": 74,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 32,
+      "height": "6'0\"",
+      "weight": 186,
+      "college": "Karsonbury",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 111079716,
+      "capHit": 18226159,
+      "deadCap": 1433623,
+      "signingBonus": 13406913,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 91,
+      "schemeFit": 88,
+      "speed": 72,
+      "acceleration": 95,
+      "agility": 83,
+      "strength": 93,
+      "tackle": 92,
+      "pursuit": 77,
+      "manCoverage": 84,
+      "zoneCoverage": 51,
+      "kickPower": 71,
+      "kickAccuracy": 78,
+      "catching": 67,
+      "routeRunning": 94,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 908,
+        "statB": 283
+      },
+      "career": {
+        "games": 6,
+        "statA": 3470,
+        "statB": 990
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "DET-WR-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Spencer Kohler",
+    "jerseyNumber": 6,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 281,
+      "college": "New Vincentworth",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 26344876,
+      "capHit": 23061924,
+      "deadCap": 3566450,
+      "signingBonus": 1753230,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 68,
+      "schemeFit": 91,
+      "speed": 95,
+      "acceleration": 93,
+      "agility": 72,
+      "strength": 83,
+      "tackle": 62,
+      "pursuit": 71,
+      "manCoverage": 70,
+      "zoneCoverage": 89,
+      "kickPower": 89,
+      "kickAccuracy": 85,
+      "catching": 91,
+      "routeRunning": 88,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 249,
+        "statB": 342
+      },
+      "career": {
+        "games": 87,
+        "statA": 2923,
+        "statB": 673
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "DET-WR-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Stephen Ratke",
+    "jerseyNumber": 15,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'5\"",
+      "weight": 235,
+      "college": "Antelope",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 81970664,
+      "capHit": 7277383,
+      "deadCap": 9587499,
+      "signingBonus": 10179318,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 72,
+      "speed": 87,
+      "acceleration": 90,
+      "agility": 85,
+      "strength": 71,
+      "tackle": 91,
+      "pursuit": 90,
+      "manCoverage": 67,
+      "zoneCoverage": 69,
+      "kickPower": 81,
+      "kickAccuracy": 72,
+      "catching": 51,
+      "routeRunning": 52,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 393,
+        "statB": 998
+      },
+      "career": {
+        "games": 6,
+        "statA": 775,
+        "statB": 1393
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "DET-WR-3",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Louis McClure-Ryan",
+    "jerseyNumber": 79,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 289,
+      "college": "Cartwrightville",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 36588576,
+      "capHit": 12591766,
+      "deadCap": 6505766,
+      "signingBonus": 17361683,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 68,
+      "schemeFit": 92,
+      "speed": 91,
+      "acceleration": 94,
+      "agility": 81,
+      "strength": 75,
+      "tackle": 83,
+      "pursuit": 83,
+      "manCoverage": 76,
+      "zoneCoverage": 65,
+      "kickPower": 83,
+      "kickAccuracy": 63,
+      "catching": 61,
+      "routeRunning": 75,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 975,
+        "statB": 38
+      },
+      "career": {
+        "games": 107,
+        "statA": 4899,
+        "statB": 1721
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "DET-WR-4",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Paul Sauer",
+    "jerseyNumber": 30,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 284,
+      "college": "Mayaside",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 28543289,
+      "capHit": 20480163,
+      "deadCap": 6059270,
+      "signingBonus": 16290575,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 74,
+      "schemeFit": 71,
+      "speed": 86,
+      "acceleration": 91,
+      "agility": 79,
+      "strength": 69,
+      "tackle": 68,
+      "pursuit": 85,
+      "manCoverage": 82,
+      "zoneCoverage": 73,
+      "kickPower": 88,
+      "kickAccuracy": 91,
+      "catching": 77,
+      "routeRunning": 60,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 613,
+        "statB": 568
+      },
+      "career": {
+        "games": 88,
+        "statA": 830,
+        "statB": 3727
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "DET-WR-5",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Cooper Homenick",
+    "jerseyNumber": 70,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 29,
+      "height": "6'0\"",
+      "weight": 236,
+      "college": "Huntington Park",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 49635226,
+      "capHit": 1941359,
+      "deadCap": 8322434,
+      "signingBonus": 11793308,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 84,
+      "speed": 78,
+      "acceleration": 75,
+      "agility": 70,
+      "strength": 91,
+      "tackle": 68,
+      "pursuit": 67,
+      "manCoverage": 86,
+      "zoneCoverage": 52,
+      "kickPower": 58,
+      "kickAccuracy": 94,
+      "catching": 94,
+      "routeRunning": 87,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 809,
+        "statB": 983
+      },
+      "career": {
+        "games": 106,
+        "statA": 3932,
+        "statB": 388
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "DET-WR-6",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Dmitri DuBuque",
+    "jerseyNumber": 12,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 208,
+      "college": "Wiegandboro",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 29270568,
+      "capHit": 1894153,
+      "deadCap": 2957613,
+      "signingBonus": 10700841,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 70,
+      "schemeFit": 92,
+      "speed": 76,
+      "acceleration": 71,
+      "agility": 94,
+      "strength": 93,
+      "tackle": 84,
+      "pursuit": 82,
+      "manCoverage": 83,
+      "zoneCoverage": 83,
+      "kickPower": 76,
+      "kickAccuracy": 74,
+      "catching": 92,
+      "routeRunning": 55,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 716,
+        "statB": 701
+      },
+      "career": {
+        "games": 89,
+        "statA": 151,
+        "statB": 2077
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "DET-WR-7",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Arthur Robel",
+    "jerseyNumber": 80,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 199,
+      "college": "Kaleighstad",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 82079494,
+      "capHit": 22024492,
+      "deadCap": 9106630,
+      "signingBonus": 4259822,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 72,
+      "schemeFit": 70,
+      "speed": 94,
+      "acceleration": 95,
+      "agility": 86,
+      "strength": 89,
+      "tackle": 89,
+      "pursuit": 71,
+      "manCoverage": 84,
+      "zoneCoverage": 71,
+      "kickPower": 82,
+      "kickAccuracy": 50,
+      "catching": 53,
+      "routeRunning": 78,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 337,
+        "statB": 377
+      },
+      "career": {
+        "games": 4,
+        "statA": 4654,
+        "statB": 85
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "DET-TE-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Timothy Romaguera",
+    "jerseyNumber": 1,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 237,
+      "college": "North Janabury",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 26466570,
+      "capHit": 23043122,
+      "deadCap": 5778296,
+      "signingBonus": 13863456,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 84,
+      "schemeFit": 91,
+      "speed": 91,
+      "acceleration": 85,
+      "agility": 88,
+      "strength": 83,
+      "tackle": 83,
+      "pursuit": 62,
+      "manCoverage": 54,
+      "zoneCoverage": 68,
+      "kickPower": 72,
+      "kickAccuracy": 86,
+      "catching": 78,
+      "routeRunning": 77,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 835,
+        "statB": 514
+      },
+      "career": {
+        "games": 78,
+        "statA": 905,
+        "statB": 1132
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "DET-TE-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Henry Gleason",
+    "jerseyNumber": 72,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 287,
+      "college": "Assuntaside",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 43551651,
+      "capHit": 16635430,
+      "deadCap": 8797278,
+      "signingBonus": 9184342,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 91,
+      "schemeFit": 88,
+      "speed": 85,
+      "acceleration": 92,
+      "agility": 87,
+      "strength": 83,
+      "tackle": 64,
+      "pursuit": 64,
+      "manCoverage": 72,
+      "zoneCoverage": 65,
+      "kickPower": 70,
+      "kickAccuracy": 77,
+      "catching": 75,
+      "routeRunning": 52,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 301,
+        "statB": 754
+      },
+      "career": {
+        "games": 54,
+        "statA": 510,
+        "statB": 962
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "DET-TE-3",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Riley Dooley",
+    "jerseyNumber": 61,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 321,
+      "college": "Port Murielshire",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 17279059,
+      "capHit": 14887880,
+      "deadCap": 9764819,
+      "signingBonus": 16313996,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 76,
+      "schemeFit": 87,
+      "speed": 88,
+      "acceleration": 92,
+      "agility": 72,
+      "strength": 61,
+      "tackle": 68,
+      "pursuit": 62,
+      "manCoverage": 72,
+      "zoneCoverage": 81,
+      "kickPower": 90,
+      "kickAccuracy": 61,
+      "catching": 86,
+      "routeRunning": 82,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 696,
+        "statB": 154
+      },
+      "career": {
+        "games": 6,
+        "statA": 4615,
+        "statB": 652
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "DET-LT-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Omar Raynor-Lynch",
+    "jerseyNumber": 27,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 224,
+      "college": "Felixshire",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 72715777,
+      "capHit": 19105937,
+      "deadCap": 5627497,
+      "signingBonus": 6988412,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 79,
+      "schemeFit": 79,
+      "speed": 89,
+      "acceleration": 89,
+      "agility": 72,
+      "strength": 79,
+      "tackle": 90,
+      "pursuit": 78,
+      "manCoverage": 76,
+      "zoneCoverage": 59,
+      "kickPower": 56,
+      "kickAccuracy": 64,
+      "catching": 76,
+      "routeRunning": 92,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 354,
+        "statB": 464
+      },
+      "career": {
+        "games": 103,
+        "statA": 3211,
+        "statB": 2030
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "DET-LT-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Brendan Fritsch",
+    "jerseyNumber": 36,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 205,
+      "college": "Fort Nicholas",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 45891090,
+      "capHit": 19310665,
+      "deadCap": 463060,
+      "signingBonus": 3637039,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 65,
+      "schemeFit": 82,
+      "speed": 89,
+      "acceleration": 71,
+      "agility": 77,
+      "strength": 85,
+      "tackle": 88,
+      "pursuit": 82,
+      "manCoverage": 88,
+      "zoneCoverage": 51,
+      "kickPower": 52,
+      "kickAccuracy": 93,
+      "catching": 67,
+      "routeRunning": 52,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 807,
+        "statB": 18
+      },
+      "career": {
+        "games": 44,
+        "statA": 294,
+        "statB": 1642
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "DET-LG-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Callum Rippin",
+    "jerseyNumber": 54,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 286,
+      "college": "Chula Vista",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 24435997,
+      "capHit": 22574102,
+      "deadCap": 4391184,
+      "signingBonus": 11586418,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 88,
+      "speed": 93,
+      "acceleration": 72,
+      "agility": 83,
+      "strength": 67,
+      "tackle": 82,
+      "pursuit": 74,
+      "manCoverage": 84,
+      "zoneCoverage": 87,
+      "kickPower": 90,
+      "kickAccuracy": 64,
+      "catching": 51,
+      "routeRunning": 64,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 167,
+        "statB": 838
+      },
+      "career": {
+        "games": 36,
+        "statA": 4739,
+        "statB": 3406
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "DET-LG-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Samir Upton",
+    "jerseyNumber": 12,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 194,
+      "college": "East Cindyport",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 56917952,
+      "capHit": 21722958,
+      "deadCap": 9350019,
+      "signingBonus": 16109358,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 71,
+      "schemeFit": 89,
+      "speed": 72,
+      "acceleration": 86,
+      "agility": 88,
+      "strength": 71,
+      "tackle": 95,
+      "pursuit": 85,
+      "manCoverage": 71,
+      "zoneCoverage": 81,
+      "kickPower": 82,
+      "kickAccuracy": 57,
+      "catching": 56,
+      "routeRunning": 88,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 652,
+        "statB": 523
+      },
+      "career": {
+        "games": 66,
+        "statA": 1127,
+        "statB": 1123
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "DET-C-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Seamus Lebsack",
+    "jerseyNumber": 14,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 266,
+      "college": "Goyetteborough",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 4318991,
+      "capHit": 16263383,
+      "deadCap": 8066557,
+      "signingBonus": 11683164,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 72,
+      "speed": 81,
+      "acceleration": 83,
+      "agility": 78,
+      "strength": 61,
+      "tackle": 70,
+      "pursuit": 85,
+      "manCoverage": 53,
+      "zoneCoverage": 86,
+      "kickPower": 64,
+      "kickAccuracy": 62,
+      "catching": 68,
+      "routeRunning": 51,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 64,
+        "statB": 164
+      },
+      "career": {
+        "games": 89,
+        "statA": 4401,
+        "statB": 3445
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "DET-C-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Lawrence Buckridge",
+    "jerseyNumber": 85,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 282,
+      "college": "Rashawnhaven",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 90651753,
+      "capHit": 22823714,
+      "deadCap": 2468526,
+      "signingBonus": 8671145,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 87,
+      "speed": 89,
+      "acceleration": 88,
+      "agility": 81,
+      "strength": 60,
+      "tackle": 85,
+      "pursuit": 78,
+      "manCoverage": 75,
+      "zoneCoverage": 72,
+      "kickPower": 51,
+      "kickAccuracy": 55,
+      "catching": 76,
+      "routeRunning": 64,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 531,
+        "statB": 338
+      },
+      "career": {
+        "games": 60,
+        "statA": 573,
+        "statB": 4197
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "DET-RG-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "William Rice",
+    "jerseyNumber": 13,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 196,
+      "college": "Pourosfurt",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 70718840,
+      "capHit": 18564812,
+      "deadCap": 1817996,
+      "signingBonus": 17991843,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 83,
+      "schemeFit": 78,
+      "speed": 84,
+      "acceleration": 75,
+      "agility": 73,
+      "strength": 90,
+      "tackle": 85,
+      "pursuit": 60,
+      "manCoverage": 69,
+      "zoneCoverage": 69,
+      "kickPower": 53,
+      "kickAccuracy": 88,
+      "catching": 68,
+      "routeRunning": 61,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 359,
+        "statB": 503
+      },
+      "career": {
+        "games": 81,
+        "statA": 4546,
+        "statB": 2000
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "DET-RG-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Hassan Bashirian",
+    "jerseyNumber": 92,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'2\"",
+      "weight": 215,
+      "college": "North Ned",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 27800036,
+      "capHit": 23123690,
+      "deadCap": 7018808,
+      "signingBonus": 9136639,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 94,
+      "schemeFit": 91,
+      "speed": 77,
+      "acceleration": 94,
+      "agility": 74,
+      "strength": 69,
+      "tackle": 68,
+      "pursuit": 74,
+      "manCoverage": 74,
+      "zoneCoverage": 79,
+      "kickPower": 59,
+      "kickAccuracy": 51,
+      "catching": 56,
+      "routeRunning": 84,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 737,
+        "statB": 930
+      },
+      "career": {
+        "games": 46,
+        "statA": 1956,
+        "statB": 2085
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "DET-RT-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Marcus Hand-Goldner",
+    "jerseyNumber": 64,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 292,
+      "college": "Christycester",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 91898035,
+      "capHit": 16164680,
+      "deadCap": 2081907,
+      "signingBonus": 15337427,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 84,
+      "schemeFit": 87,
+      "speed": 86,
+      "acceleration": 95,
+      "agility": 88,
+      "strength": 81,
+      "tackle": 92,
+      "pursuit": 90,
+      "manCoverage": 65,
+      "zoneCoverage": 87,
+      "kickPower": 73,
+      "kickAccuracy": 54,
+      "catching": 93,
+      "routeRunning": 92,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 167,
+        "statB": 192
+      },
+      "career": {
+        "games": 31,
+        "statA": 3135,
+        "statB": 1250
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "DET-RT-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Raymond Wehner",
+    "jerseyNumber": 31,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "5'11\"",
+      "weight": 263,
+      "college": "South Damarisbury",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 71071051,
+      "capHit": 4154618,
+      "deadCap": 6498313,
+      "signingBonus": 15507142,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 74,
+      "schemeFit": 88,
+      "speed": 74,
+      "acceleration": 88,
+      "agility": 81,
+      "strength": 71,
+      "tackle": 92,
+      "pursuit": 66,
+      "manCoverage": 85,
+      "zoneCoverage": 76,
+      "kickPower": 60,
+      "kickAccuracy": 95,
+      "catching": 75,
+      "routeRunning": 59,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 936,
+        "statB": 741
+      },
+      "career": {
+        "games": 112,
+        "statA": 718,
+        "statB": 865
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "DET-LDE-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Thomas Wintheiser",
+    "jerseyNumber": 32,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 197,
+      "college": "South Kay",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 84772376,
+      "capHit": 3558070,
+      "deadCap": 9906561,
+      "signingBonus": 2765514,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 68,
+      "schemeFit": 76,
+      "speed": 78,
+      "acceleration": 70,
+      "agility": 89,
+      "strength": 64,
+      "tackle": 92,
+      "pursuit": 83,
+      "manCoverage": 57,
+      "zoneCoverage": 61,
+      "kickPower": 93,
+      "kickAccuracy": 50,
+      "catching": 62,
+      "routeRunning": 57,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 183,
+        "statB": 307
+      },
+      "career": {
+        "games": 94,
+        "statA": 2006,
+        "statB": 3234
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "DET-LDE-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Austin Hane",
+    "jerseyNumber": 75,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 265,
+      "college": "Eloisaland",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 51250662,
+      "capHit": 24943039,
+      "deadCap": 6228756,
+      "signingBonus": 7013111,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 65,
+      "schemeFit": 90,
+      "speed": 90,
+      "acceleration": 94,
+      "agility": 87,
+      "strength": 92,
+      "tackle": 86,
+      "pursuit": 62,
+      "manCoverage": 83,
+      "zoneCoverage": 56,
+      "kickPower": 79,
+      "kickAccuracy": 77,
+      "catching": 87,
+      "routeRunning": 71,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 134,
+        "statB": 930
+      },
+      "career": {
+        "games": 49,
+        "statA": 1245,
+        "statB": 2167
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "DET-RDE-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Parker Corwin",
+    "jerseyNumber": 7,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 201,
+      "college": "Yundtland",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 35589185,
+      "capHit": 6206301,
+      "deadCap": 9453978,
+      "signingBonus": 4476373,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 90,
+      "schemeFit": 73,
+      "speed": 92,
+      "acceleration": 83,
+      "agility": 89,
+      "strength": 75,
+      "tackle": 87,
+      "pursuit": 65,
+      "manCoverage": 65,
+      "zoneCoverage": 79,
+      "kickPower": 56,
+      "kickAccuracy": 92,
+      "catching": 95,
+      "routeRunning": 52,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 764,
+        "statB": 170
+      },
+      "career": {
+        "games": 54,
+        "statA": 2062,
+        "statB": 2010
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "DET-RDE-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Walter Nikolaus",
+    "jerseyNumber": 63,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 239,
+      "college": "Mertzhaven",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 97779737,
+      "capHit": 941437,
+      "deadCap": 7830319,
+      "signingBonus": 4739764,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 72,
+      "schemeFit": 85,
+      "speed": 85,
+      "acceleration": 84,
+      "agility": 79,
+      "strength": 84,
+      "tackle": 62,
+      "pursuit": 83,
+      "manCoverage": 81,
+      "zoneCoverage": 70,
+      "kickPower": 50,
+      "kickAccuracy": 69,
+      "catching": 82,
+      "routeRunning": 65,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 996,
+        "statB": 856
+      },
+      "career": {
+        "games": 106,
+        "statA": 3139,
+        "statB": 4137
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "DET-DT-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Ryan Greenfelder",
+    "jerseyNumber": 39,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 322,
+      "college": "North Treva",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 34764952,
+      "capHit": 10199152,
+      "deadCap": 6247755,
+      "signingBonus": 8670232,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 75,
+      "schemeFit": 89,
+      "speed": 93,
+      "acceleration": 82,
+      "agility": 81,
+      "strength": 64,
+      "tackle": 67,
+      "pursuit": 78,
+      "manCoverage": 88,
+      "zoneCoverage": 52,
+      "kickPower": 63,
+      "kickAccuracy": 66,
+      "catching": 50,
+      "routeRunning": 52,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 47,
+        "statB": 298
+      },
+      "career": {
+        "games": 10,
+        "statA": 4966,
+        "statB": 319
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "DET-DT-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Andres Jast",
+    "jerseyNumber": 7,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 311,
+      "college": "West Seneca",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 92240725,
+      "capHit": 17974203,
+      "deadCap": 2102785,
+      "signingBonus": 2944326,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 77,
+      "schemeFit": 90,
+      "speed": 79,
+      "acceleration": 84,
+      "agility": 90,
+      "strength": 91,
+      "tackle": 89,
+      "pursuit": 92,
+      "manCoverage": 73,
+      "zoneCoverage": 90,
+      "kickPower": 64,
+      "kickAccuracy": 67,
+      "catching": 76,
+      "routeRunning": 92,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 39,
+        "statB": 452
+      },
+      "career": {
+        "games": 107,
+        "statA": 3285,
+        "statB": 4391
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "DET-DT-3",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Anthony Schowalter",
+    "jerseyNumber": 69,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 282,
+      "college": "Miami",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 30250795,
+      "capHit": 3384200,
+      "deadCap": 2865395,
+      "signingBonus": 4821340,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 76,
+      "schemeFit": 85,
+      "speed": 77,
+      "acceleration": 71,
+      "agility": 87,
+      "strength": 82,
+      "tackle": 85,
+      "pursuit": 93,
+      "manCoverage": 78,
+      "zoneCoverage": 56,
+      "kickPower": 89,
+      "kickAccuracy": 95,
+      "catching": 78,
+      "routeRunning": 70,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 624,
+        "statB": 566
+      },
+      "career": {
+        "games": 116,
+        "statA": 1244,
+        "statB": 1098
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "DET-DT-4",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Riku Torp",
+    "jerseyNumber": 87,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 238,
+      "college": "Andersonbury",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 107579256,
+      "capHit": 4380896,
+      "deadCap": 6837161,
+      "signingBonus": 19435931,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 88,
+      "schemeFit": 75,
+      "speed": 70,
+      "acceleration": 89,
+      "agility": 80,
+      "strength": 94,
+      "tackle": 70,
+      "pursuit": 83,
+      "manCoverage": 54,
+      "zoneCoverage": 60,
+      "kickPower": 78,
+      "kickAccuracy": 70,
+      "catching": 50,
+      "routeRunning": 86,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 361,
+        "statB": 420
+      },
+      "career": {
+        "games": 13,
+        "statA": 1751,
+        "statB": 4096
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "DET-LOLB-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Rowan Larson",
+    "jerseyNumber": 94,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 249,
+      "college": "Reynaburgh",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 91536046,
+      "capHit": 16240811,
+      "deadCap": 2336295,
+      "signingBonus": 13716362,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 61,
+      "schemeFit": 73,
+      "speed": 93,
+      "acceleration": 71,
+      "agility": 79,
+      "strength": 76,
+      "tackle": 73,
+      "pursuit": 71,
+      "manCoverage": 62,
+      "zoneCoverage": 83,
+      "kickPower": 63,
+      "kickAccuracy": 75,
+      "catching": 56,
+      "routeRunning": 91,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 859,
+        "statB": 676
+      },
+      "career": {
+        "games": 37,
+        "statA": 3160,
+        "statB": 270
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "DET-LOLB-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Jeffrey Parker",
+    "jerseyNumber": 38,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 330,
+      "college": "Zulaufchester",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 88440901,
+      "capHit": 19259107,
+      "deadCap": 5115641,
+      "signingBonus": 7758966,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 77,
+      "schemeFit": 78,
+      "speed": 88,
+      "acceleration": 90,
+      "agility": 87,
+      "strength": 91,
+      "tackle": 92,
+      "pursuit": 69,
+      "manCoverage": 80,
+      "zoneCoverage": 70,
+      "kickPower": 87,
+      "kickAccuracy": 84,
+      "catching": 76,
+      "routeRunning": 67,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 693,
+        "statB": 805
+      },
+      "career": {
+        "games": 32,
+        "statA": 2974,
+        "statB": 1616
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "DET-MLB-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Anthony Langosh",
+    "jerseyNumber": 31,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 239,
+      "college": "Abigailville",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 44043359,
+      "capHit": 16864512,
+      "deadCap": 8534947,
+      "signingBonus": 12933206,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 88,
+      "schemeFit": 70,
+      "speed": 82,
+      "acceleration": 71,
+      "agility": 95,
+      "strength": 66,
+      "tackle": 85,
+      "pursuit": 70,
+      "manCoverage": 77,
+      "zoneCoverage": 50,
+      "kickPower": 52,
+      "kickAccuracy": 53,
+      "catching": 88,
+      "routeRunning": 67,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 922,
+        "statB": 710
+      },
+      "career": {
+        "games": 111,
+        "statA": 2728,
+        "statB": 4551
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "DET-MLB-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Justin Tillman-Parisian",
+    "jerseyNumber": 62,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'3\"",
+      "weight": 237,
+      "college": "East Nickbury",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 25086563,
+      "capHit": 12723769,
+      "deadCap": 5432872,
+      "signingBonus": 16209590,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 88,
+      "schemeFit": 90,
+      "speed": 92,
+      "acceleration": 77,
+      "agility": 94,
+      "strength": 72,
+      "tackle": 76,
+      "pursuit": 94,
+      "manCoverage": 57,
+      "zoneCoverage": 69,
+      "kickPower": 85,
+      "kickAccuracy": 69,
+      "catching": 66,
+      "routeRunning": 60,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 954,
+        "statB": 183
+      },
+      "career": {
+        "games": 94,
+        "statA": 3455,
+        "statB": 642
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "DET-ROLB-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Ivan Hauck",
+    "jerseyNumber": 48,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 256,
+      "college": "Port Matteoview",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 98604055,
+      "capHit": 8444209,
+      "deadCap": 4177036,
+      "signingBonus": 4261093,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 74,
+      "schemeFit": 70,
+      "speed": 87,
+      "acceleration": 76,
+      "agility": 71,
+      "strength": 62,
+      "tackle": 82,
+      "pursuit": 69,
+      "manCoverage": 73,
+      "zoneCoverage": 51,
+      "kickPower": 86,
+      "kickAccuracy": 58,
+      "catching": 73,
+      "routeRunning": 76,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 615,
+        "statB": 550
+      },
+      "career": {
+        "games": 107,
+        "statA": 552,
+        "statB": 4238
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "DET-ROLB-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Wayne Heathcote",
+    "jerseyNumber": 42,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 229,
+      "college": "Winstonboro",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 119920364,
+      "capHit": 7726954,
+      "deadCap": 1218478,
+      "signingBonus": 11436310,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 74,
+      "schemeFit": 91,
+      "speed": 91,
+      "acceleration": 71,
+      "agility": 89,
+      "strength": 91,
+      "tackle": 93,
+      "pursuit": 77,
+      "manCoverage": 77,
+      "zoneCoverage": 86,
+      "kickPower": 84,
+      "kickAccuracy": 76,
+      "catching": 92,
+      "routeRunning": 84,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 270,
+        "statB": 287
+      },
+      "career": {
+        "games": 44,
+        "statA": 3667,
+        "statB": 2527
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "DET-CB-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Beckett Skiles",
+    "jerseyNumber": 49,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 188,
+      "college": "Port Clay",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 36646935,
+      "capHit": 13954730,
+      "deadCap": 2927927,
+      "signingBonus": 6315023,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 93,
+      "schemeFit": 71,
+      "speed": 73,
+      "acceleration": 84,
+      "agility": 92,
+      "strength": 63,
+      "tackle": 60,
+      "pursuit": 61,
+      "manCoverage": 74,
+      "zoneCoverage": 55,
+      "kickPower": 56,
+      "kickAccuracy": 79,
+      "catching": 57,
+      "routeRunning": 70,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 16,
+        "statB": 592
+      },
+      "career": {
+        "games": 87,
+        "statA": 291,
+        "statB": 422
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "DET-CB-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Keegan Klein",
+    "jerseyNumber": 70,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 248,
+      "college": "Danialtown",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 104836995,
+      "capHit": 19257998,
+      "deadCap": 8330431,
+      "signingBonus": 6257840,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 68,
+      "schemeFit": 92,
+      "speed": 76,
+      "acceleration": 72,
+      "agility": 82,
+      "strength": 89,
+      "tackle": 70,
+      "pursuit": 62,
+      "manCoverage": 76,
+      "zoneCoverage": 55,
+      "kickPower": 71,
+      "kickAccuracy": 69,
+      "catching": 95,
+      "routeRunning": 69,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 305,
+        "statB": 673
+      },
+      "career": {
+        "games": 47,
+        "statA": 2268,
+        "statB": 1359
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "DET-CB-3",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Mikhail Klein-Trantow",
+    "jerseyNumber": 14,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 290,
+      "college": "Kent",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 94898451,
+      "capHit": 15587102,
+      "deadCap": 7152508,
+      "signingBonus": 598918,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 74,
+      "schemeFit": 82,
+      "speed": 95,
+      "acceleration": 79,
+      "agility": 72,
+      "strength": 86,
+      "tackle": 74,
+      "pursuit": 78,
+      "manCoverage": 83,
+      "zoneCoverage": 85,
+      "kickPower": 64,
+      "kickAccuracy": 79,
+      "catching": 57,
+      "routeRunning": 52,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 401,
+        "statB": 84
+      },
+      "career": {
+        "games": 80,
+        "statA": 224,
+        "statB": 4246
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "DET-CB-4",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Sora Kutch",
+    "jerseyNumber": 99,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 314,
+      "college": "Ryanview",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 71621739,
+      "capHit": 22519333,
+      "deadCap": 2748877,
+      "signingBonus": 14845512,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 72,
+      "schemeFit": 71,
+      "speed": 94,
+      "acceleration": 72,
+      "agility": 88,
+      "strength": 78,
+      "tackle": 90,
+      "pursuit": 79,
+      "manCoverage": 73,
+      "zoneCoverage": 52,
+      "kickPower": 66,
+      "kickAccuracy": 74,
+      "catching": 53,
+      "routeRunning": 67,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 435,
+        "statB": 302
+      },
+      "career": {
+        "games": 101,
+        "statA": 966,
+        "statB": 1657
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "DET-CB-5",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Brent Franecki",
+    "jerseyNumber": 21,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 282,
+      "college": "Phoenix",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 37094375,
+      "capHit": 17711134,
+      "deadCap": 7324118,
+      "signingBonus": 17972222,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 78,
+      "schemeFit": 78,
+      "speed": 81,
+      "acceleration": 73,
+      "agility": 91,
+      "strength": 76,
+      "tackle": 76,
+      "pursuit": 79,
+      "manCoverage": 55,
+      "zoneCoverage": 71,
+      "kickPower": 84,
+      "kickAccuracy": 52,
+      "catching": 66,
+      "routeRunning": 68,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 436,
+        "statB": 17
+      },
+      "career": {
+        "games": 66,
+        "statA": 4794,
+        "statB": 4591
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "DET-CB-6",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Hector Kozey",
+    "jerseyNumber": 46,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 196,
+      "college": "Mavisboro",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 85188498,
+      "capHit": 5369604,
+      "deadCap": 3522904,
+      "signingBonus": 418999,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 87,
+      "acceleration": 94,
+      "agility": 80,
+      "strength": 67,
+      "tackle": 70,
+      "pursuit": 93,
+      "manCoverage": 75,
+      "zoneCoverage": 87,
+      "kickPower": 58,
+      "kickAccuracy": 94,
+      "catching": 82,
+      "routeRunning": 53,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 393,
+        "statB": 912
+      },
+      "career": {
+        "games": 103,
+        "statA": 1337,
+        "statB": 523
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "DET-FS-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Dawson Wehner",
+    "jerseyNumber": 95,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 266,
+      "college": "Armstrongview",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 15102458,
+      "capHit": 20257230,
+      "deadCap": 1127191,
+      "signingBonus": 4241204,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 75,
+      "schemeFit": 77,
+      "speed": 86,
+      "acceleration": 76,
+      "agility": 90,
+      "strength": 65,
+      "tackle": 81,
+      "pursuit": 66,
+      "manCoverage": 85,
+      "zoneCoverage": 52,
+      "kickPower": 85,
+      "kickAccuracy": 54,
+      "catching": 55,
+      "routeRunning": 63,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 85,
+        "statB": 772
+      },
+      "career": {
+        "games": 41,
+        "statA": 2504,
+        "statB": 1252
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "DET-FS-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Terry Tromp",
+    "jerseyNumber": 36,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 296,
+      "college": "Skokie",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 46532717,
+      "capHit": 24962055,
+      "deadCap": 1598131,
+      "signingBonus": 14171095,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 71,
+      "schemeFit": 91,
+      "speed": 94,
+      "acceleration": 88,
+      "agility": 74,
+      "strength": 66,
+      "tackle": 87,
+      "pursuit": 91,
+      "manCoverage": 67,
+      "zoneCoverage": 77,
+      "kickPower": 77,
+      "kickAccuracy": 55,
+      "catching": 66,
+      "routeRunning": 95,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 255,
+        "statB": 27
+      },
+      "career": {
+        "games": 102,
+        "statA": 1201,
+        "statB": 4060
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "DET-SS-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Preston Feest",
+    "jerseyNumber": 74,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'2\"",
+      "weight": 188,
+      "college": "Daly City",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 78432585,
+      "capHit": 19235281,
+      "deadCap": 2280103,
+      "signingBonus": 4755014,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 76,
+      "schemeFit": 83,
+      "speed": 82,
+      "acceleration": 78,
+      "agility": 94,
+      "strength": 71,
+      "tackle": 68,
+      "pursuit": 83,
+      "manCoverage": 86,
+      "zoneCoverage": 60,
+      "kickPower": 93,
+      "kickAccuracy": 92,
+      "catching": 59,
+      "routeRunning": 75,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 122,
+        "statB": 852
+      },
+      "career": {
+        "games": 35,
+        "statA": 4655,
+        "statB": 1874
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "DET-SS-2",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Preston Walsh",
+    "jerseyNumber": 36,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 290,
+      "college": "Janaetown",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 107811603,
+      "capHit": 19311304,
+      "deadCap": 1044231,
+      "signingBonus": 5448389,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 72,
+      "schemeFit": 89,
+      "speed": 71,
+      "acceleration": 93,
+      "agility": 80,
+      "strength": 95,
+      "tackle": 81,
+      "pursuit": 81,
+      "manCoverage": 86,
+      "zoneCoverage": 61,
+      "kickPower": 87,
+      "kickAccuracy": 94,
+      "catching": 59,
+      "routeRunning": 59,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 524,
+        "statB": 264
+      },
+      "career": {
+        "games": 31,
+        "statA": 3817,
+        "statB": 987
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "DET-K-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Kevin Labadie",
+    "jerseyNumber": 30,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 310,
+      "college": "Keelingshire",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 112144857,
+      "capHit": 3806074,
+      "deadCap": 627060,
+      "signingBonus": 2419386,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 83,
+      "speed": 76,
+      "acceleration": 88,
+      "agility": 83,
+      "strength": 93,
+      "tackle": 95,
+      "pursuit": 93,
+      "manCoverage": 55,
+      "zoneCoverage": 56,
+      "kickPower": 60,
+      "kickAccuracy": 71,
+      "catching": 83,
+      "routeRunning": 93,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 908,
+        "statB": 375
+      },
+      "career": {
+        "games": 31,
+        "statA": 738,
+        "statB": 3592
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "DET-P-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Hayden Rosenbaum",
+    "jerseyNumber": 88,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 197,
+      "college": "Fort Larry",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 66323224,
+      "capHit": 19587254,
+      "deadCap": 3461152,
+      "signingBonus": 11958381,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 92,
+      "speed": 73,
+      "acceleration": 93,
+      "agility": 91,
+      "strength": 76,
+      "tackle": 63,
+      "pursuit": 62,
+      "manCoverage": 70,
+      "zoneCoverage": 57,
+      "kickPower": 88,
+      "kickAccuracy": 82,
+      "catching": 81,
+      "routeRunning": 51,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 100,
+        "statB": 654
+      },
+      "career": {
+        "games": 99,
+        "statA": 2930,
+        "statB": 881
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "DET-LS-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Zaid Von",
+    "jerseyNumber": 34,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 194,
+      "college": "Port Catharine",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 95890129,
+      "capHit": 16151722,
+      "deadCap": 7152155,
+      "signingBonus": 7510920,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 71,
+      "schemeFit": 78,
+      "speed": 73,
+      "acceleration": 88,
+      "agility": 90,
+      "strength": 72,
+      "tackle": 83,
+      "pursuit": 94,
+      "manCoverage": 78,
+      "zoneCoverage": 54,
+      "kickPower": 75,
+      "kickAccuracy": 70,
+      "catching": 74,
+      "routeRunning": 52,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 411,
+        "statB": 163
+      },
+      "career": {
+        "games": 108,
+        "statA": 1260,
+        "statB": 1198
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "DET-KR-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Jacob Morar",
+    "jerseyNumber": 12,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 235,
+      "college": "Wilmington",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 94379770,
+      "capHit": 5363951,
+      "deadCap": 3601765,
+      "signingBonus": 18737503,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 76,
+      "schemeFit": 86,
+      "speed": 72,
+      "acceleration": 93,
+      "agility": 85,
+      "strength": 94,
+      "tackle": 85,
+      "pursuit": 87,
+      "manCoverage": 88,
+      "zoneCoverage": 81,
+      "kickPower": 82,
+      "kickAccuracy": 80,
+      "catching": 61,
+      "routeRunning": 50,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 638,
+        "statB": 981
+      },
+      "career": {
+        "games": 102,
+        "statA": 2190,
+        "statB": 1134
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "DET-PR-1",
+    "team": "DET",
+    "teamName": "DET",
+    "name": "Eamon Corwin",
+    "jerseyNumber": 18,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 291,
+      "college": "Goodwincester",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 3881713,
+      "capHit": 12785768,
+      "deadCap": 2374909,
+      "signingBonus": 8324593,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 91,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 84,
+      "agility": 70,
+      "strength": 86,
+      "tackle": 61,
+      "pursuit": 65,
+      "manCoverage": 59,
+      "zoneCoverage": 75,
+      "kickPower": 86,
+      "kickAccuracy": 79,
+      "catching": 78,
+      "routeRunning": 61,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 593,
+        "statB": 919
+      },
+      "career": {
+        "games": 16,
+        "statA": 1948,
+        "statB": 3921
+      }
+    },
+    "photo": "/player_faces/33.png"
+  }
 ]

@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  79,
-               "name":  "Tyrone Foster"
-           },
-    "OC":  {
-               "rating":  75,
-               "name":  "Jordan Halford"
-           },
-    "DC":  {
-               "rating":  66,
-               "name":  "Tyrone Wright"
-           }
-}
+[
+  {
+    "id": "DEN-STAFF-1",
+    "team": "DEN",
+    "role": "Head Coach",
+    "name": "Tristan Lubowitz",
+    "vitals": {
+      "age": 59,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 92,
+      "discipline": 66,
+      "schemeKnowledge": 63,
+      "playerDev": 74,
+      "motivation": 61,
+      "injuryManagement": 53,
+      "conditioning": 64,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5848883
+    }
+  },
+  {
+    "id": "DEN-STAFF-2",
+    "team": "DEN",
+    "role": "Offensive Coordinator",
+    "name": "Gabriel Kling",
+    "vitals": {
+      "age": 39,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 85,
+      "schemeKnowledge": 75,
+      "playerDev": 90,
+      "motivation": 79,
+      "injuryManagement": 58,
+      "conditioning": 55,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1705783
+    }
+  },
+  {
+    "id": "DEN-STAFF-3",
+    "team": "DEN",
+    "role": "Defensive Coordinator",
+    "name": "Hyun Kozey",
+    "vitals": {
+      "age": 47,
+      "experience": 30
+    },
+    "ratings": {
+      "leadership": 68,
+      "discipline": 77,
+      "schemeKnowledge": 64,
+      "playerDev": 67,
+      "motivation": 90,
+      "injuryManagement": 67,
+      "conditioning": 57,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3154828
+    }
+  },
+  {
+    "id": "DEN-STAFF-4",
+    "team": "DEN",
+    "role": "Strength & Conditioning Coach",
+    "name": "John Auer",
+    "vitals": {
+      "age": 43,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 92,
+      "schemeKnowledge": 85,
+      "playerDev": 83,
+      "motivation": 79,
+      "injuryManagement": 51,
+      "conditioning": 87,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3938833
+    }
+  },
+  {
+    "id": "DEN-STAFF-5",
+    "team": "DEN",
+    "role": "Physical Therapist",
+    "name": "Brendan Boehm",
+    "vitals": {
+      "age": 46,
+      "experience": 25
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 87,
+      "schemeKnowledge": 70,
+      "playerDev": 90,
+      "motivation": 71,
+      "injuryManagement": 92,
+      "conditioning": 70,
+      "analyticsIQ": 59
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3184529
+    }
+  },
+  {
+    "id": "DEN-STAFF-6",
+    "team": "DEN",
+    "role": "Athletic Trainer",
+    "name": "Cooper Mayer",
+    "vitals": {
+      "age": 64,
+      "experience": 20
+    },
+    "ratings": {
+      "leadership": 83,
+      "discipline": 80,
+      "schemeKnowledge": 64,
+      "playerDev": 87,
+      "motivation": 78,
+      "injuryManagement": 72,
+      "conditioning": 48,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 2,
+      "salary": 4123108
+    }
+  },
+  {
+    "id": "DEN-STAFF-7",
+    "team": "DEN",
+    "role": "Analytics Coordinator",
+    "name": "Elijah Haag",
+    "vitals": {
+      "age": 40,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 93,
+      "discipline": 92,
+      "schemeKnowledge": 74,
+      "playerDev": 85,
+      "motivation": 79,
+      "injuryManagement": 70,
+      "conditioning": 62,
+      "analyticsIQ": 92
+    },
+    "contract": {
+      "years": 3,
+      "salary": 6325678
+    }
+  }
+]

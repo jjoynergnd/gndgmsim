@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  85,
-               "name":  "Jordan Reeves"
-           },
-    "OC":  {
-               "rating":  65,
-               "name":  "Evan Rourke"
-           },
-    "DC":  {
-               "rating":  67,
-               "name":  "Andre Wynn"
-           }
-}
+[
+  {
+    "id": "PHI-STAFF-1",
+    "team": "PHI",
+    "role": "Head Coach",
+    "name": "Logan Murphy",
+    "vitals": {
+      "age": 30,
+      "experience": 38
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 94,
+      "schemeKnowledge": 91,
+      "playerDev": 69,
+      "motivation": 79,
+      "injuryManagement": 56,
+      "conditioning": 65,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 5,
+      "salary": 3570528
+    }
+  },
+  {
+    "id": "PHI-STAFF-2",
+    "team": "PHI",
+    "role": "Offensive Coordinator",
+    "name": "Jack Walter",
+    "vitals": {
+      "age": 63,
+      "experience": 5
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 80,
+      "schemeKnowledge": 70,
+      "playerDev": 85,
+      "motivation": 68,
+      "injuryManagement": 43,
+      "conditioning": 64,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2947334
+    }
+  },
+  {
+    "id": "PHI-STAFF-3",
+    "team": "PHI",
+    "role": "Defensive Coordinator",
+    "name": "Henry Stokes",
+    "vitals": {
+      "age": 45,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 75,
+      "discipline": 73,
+      "schemeKnowledge": 79,
+      "playerDev": 73,
+      "motivation": 60,
+      "injuryManagement": 54,
+      "conditioning": 40,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7502436
+    }
+  },
+  {
+    "id": "PHI-STAFF-4",
+    "team": "PHI",
+    "role": "Strength & Conditioning Coach",
+    "name": "Jonathan Monahan",
+    "vitals": {
+      "age": 52,
+      "experience": 15
+    },
+    "ratings": {
+      "leadership": 92,
+      "discipline": 93,
+      "schemeKnowledge": 83,
+      "playerDev": 69,
+      "motivation": 87,
+      "injuryManagement": 70,
+      "conditioning": 82,
+      "analyticsIQ": 40
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3904879
+    }
+  },
+  {
+    "id": "PHI-STAFF-5",
+    "team": "PHI",
+    "role": "Physical Therapist",
+    "name": "Reed Cassin",
+    "vitals": {
+      "age": 45,
+      "experience": 27
+    },
+    "ratings": {
+      "leadership": 87,
+      "discipline": 86,
+      "schemeKnowledge": 60,
+      "playerDev": 94,
+      "motivation": 75,
+      "injuryManagement": 80,
+      "conditioning": 70,
+      "analyticsIQ": 44
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4195872
+    }
+  },
+  {
+    "id": "PHI-STAFF-6",
+    "team": "PHI",
+    "role": "Athletic Trainer",
+    "name": "Hassan Lueilwitz",
+    "vitals": {
+      "age": 33,
+      "experience": 5
+    },
+    "ratings": {
+      "leadership": 68,
+      "discipline": 87,
+      "schemeKnowledge": 63,
+      "playerDev": 78,
+      "motivation": 62,
+      "injuryManagement": 74,
+      "conditioning": 68,
+      "analyticsIQ": 62
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2415106
+    }
+  },
+  {
+    "id": "PHI-STAFF-7",
+    "team": "PHI",
+    "role": "Analytics Coordinator",
+    "name": "Preston Schaefer",
+    "vitals": {
+      "age": 61,
+      "experience": 14
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 73,
+      "schemeKnowledge": 86,
+      "playerDev": 76,
+      "motivation": 69,
+      "injuryManagement": 66,
+      "conditioning": 54,
+      "analyticsIQ": 98
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5337055
+    }
+  }
+]

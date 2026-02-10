@@ -1,80 +1,69 @@
 .container {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 12px 16px;
+  box-shadow: var(--shadow);
+  font-size: 0.85rem;
+}
+
+.headerRow {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 14px;
+  grid-template-columns: 80px 1fr 80px 70px;
+  padding: 6px 4px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.card {
-  background: linear-gradient(180deg, #1f2933, #111827);
-  border-radius: 10px;
-  padding: 14px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.row {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px 70px;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
-.played {
-  border-left: 4px solid #374151;
+.row:last-child {
+  border-bottom: none;
 }
 
-.upcoming {
-  opacity: 0.65;
-}
-
-.week {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #9ca3af;
-}
-
-.matchup {
-  font-size: 16px;
-  font-weight: 600;
-  color: #f9fafb;
-}
-
-.location {
-  margin-right: 6px;
-  color: #9ca3af;
-}
-
-.opponent {
-  color: #e5e7eb;
-}
-
-.result {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-}
-
-.win {
-  color: #22c55e;
-}
-
-.loss {
-  color: #ef4444;
-}
-
-.record {
-  font-size: 18px;
+.center {
+  text-align: center;
 }
 
 .score {
-  font-size: 14px;
-  opacity: 0.9;
+  font-weight: 600;
 }
 
-.pending {
-  font-size: 13px;
-  color: #9ca3af;
+.resultWin {
+  color: #2ecc71;
+  font-weight: 700;
 }
 
-.empty {
-  padding: 24px;
-  color: #9ca3af;
-  text-align: center;
+.resultLoss {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+.resultTie {
+  color: #f1c40f;
+  font-weight: 700;
+}
+
+.resultBye {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.resultNeutral {
+  color: var(--color-text-muted);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .headerRow,
+  .row {
+    grid-template-columns: 70px 1fr 70px 60px;
+    font-size: 0.8rem;
+  }
 }

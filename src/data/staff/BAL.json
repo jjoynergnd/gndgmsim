@@ -3,168 +3,168 @@
     "id": "BAL-STAFF-1",
     "team": "BAL",
     "role": "Head Coach",
-    "name": "Knox Harris",
+    "name": "Hayden Stroman",
     "vitals": {
-      "age": 30,
-      "experience": 14
+      "age": 32,
+      "experience": 22
     },
     "ratings": {
-      "leadership": 84,
-      "discipline": 65,
-      "schemeKnowledge": 63,
-      "playerDev": 73,
-      "motivation": 87,
-      "injuryManagement": 48,
-      "conditioning": 56,
-      "analyticsIQ": 43
+      "leadership": 86,
+      "discipline": 71,
+      "schemeKnowledge": 77,
+      "playerDev": 78,
+      "motivation": 73,
+      "injuryManagement": 56,
+      "conditioning": 40,
+      "analyticsIQ": 42
     },
     "contract": {
       "years": 2,
-      "salary": 4715794
+      "salary": 5712928
     }
   },
   {
     "id": "BAL-STAFF-2",
     "team": "BAL",
     "role": "Offensive Coordinator",
-    "name": "Yuri Hudson",
+    "name": "Reed Torp",
     "vitals": {
-      "age": 61,
-      "experience": 21
+      "age": 44,
+      "experience": 12
     },
     "ratings": {
-      "leadership": 88,
-      "discipline": 71,
-      "schemeKnowledge": 76,
-      "playerDev": 65,
-      "motivation": 89,
-      "injuryManagement": 65,
-      "conditioning": 64,
-      "analyticsIQ": 54
+      "leadership": 77,
+      "discipline": 67,
+      "schemeKnowledge": 94,
+      "playerDev": 64,
+      "motivation": 63,
+      "injuryManagement": 63,
+      "conditioning": 50,
+      "analyticsIQ": 51
     },
     "contract": {
-      "years": 2,
-      "salary": 2958239
+      "years": 3,
+      "salary": 4190378
     }
   },
   {
     "id": "BAL-STAFF-3",
     "team": "BAL",
     "role": "Defensive Coordinator",
-    "name": "Quentin Schmitt",
+    "name": "Troy Bergstrom",
     "vitals": {
-      "age": 47,
-      "experience": 8
+      "age": 49,
+      "experience": 7
     },
     "ratings": {
-      "leadership": 89,
-      "discipline": 93,
-      "schemeKnowledge": 67,
-      "playerDev": 69,
-      "motivation": 64,
-      "injuryManagement": 59,
-      "conditioning": 53,
-      "analyticsIQ": 68
+      "leadership": 95,
+      "discipline": 74,
+      "schemeKnowledge": 74,
+      "playerDev": 76,
+      "motivation": 60,
+      "injuryManagement": 40,
+      "conditioning": 58,
+      "analyticsIQ": 61
     },
     "contract": {
       "years": 3,
-      "salary": 2503232
+      "salary": 3652893
     }
   },
   {
     "id": "BAL-STAFF-4",
     "team": "BAL",
     "role": "Strength & Conditioning Coach",
-    "name": "Leonard Morissette",
+    "name": "Joseph Spinka-Treutel",
     "vitals": {
-      "age": 30,
-      "experience": 38
+      "age": 65,
+      "experience": 12
     },
     "ratings": {
-      "leadership": 81,
-      "discipline": 77,
-      "schemeKnowledge": 74,
-      "playerDev": 61,
-      "motivation": 76,
-      "injuryManagement": 67,
+      "leadership": 62,
+      "discipline": 90,
+      "schemeKnowledge": 75,
+      "playerDev": 76,
+      "motivation": 86,
+      "injuryManagement": 50,
       "conditioning": 84,
-      "analyticsIQ": 53
+      "analyticsIQ": 65
     },
     "contract": {
-      "years": 2,
-      "salary": 834054
+      "years": 4,
+      "salary": 3735545
     }
   },
   {
     "id": "BAL-STAFF-5",
     "team": "BAL",
     "role": "Physical Therapist",
-    "name": "Daniel Mertz",
+    "name": "Knox Jones",
     "vitals": {
-      "age": 58,
-      "experience": 18
+      "age": 48,
+      "experience": 38
     },
     "ratings": {
-      "leadership": 66,
-      "discipline": 71,
-      "schemeKnowledge": 84,
-      "playerDev": 91,
-      "motivation": 63,
-      "injuryManagement": 84,
+      "leadership": 71,
+      "discipline": 68,
+      "schemeKnowledge": 91,
+      "playerDev": 90,
+      "motivation": 76,
+      "injuryManagement": 86,
       "conditioning": 68,
-      "analyticsIQ": 50
+      "analyticsIQ": 43
     },
     "contract": {
-      "years": 5,
-      "salary": 1774041
+      "years": 2,
+      "salary": 6430079
     }
   },
   {
     "id": "BAL-STAFF-6",
     "team": "BAL",
     "role": "Athletic Trainer",
-    "name": "Eric Lynch",
+    "name": "Louis Fay",
     "vitals": {
-      "age": 35,
-      "experience": 34
+      "age": 53,
+      "experience": 40
     },
     "ratings": {
-      "leadership": 89,
+      "leadership": 74,
       "discipline": 70,
-      "schemeKnowledge": 69,
-      "playerDev": 95,
-      "motivation": 80,
+      "schemeKnowledge": 94,
+      "playerDev": 69,
+      "motivation": 87,
       "injuryManagement": 72,
-      "conditioning": 59,
-      "analyticsIQ": 64
+      "conditioning": 58,
+      "analyticsIQ": 42
     },
     "contract": {
-      "years": 2,
-      "salary": 5175611
+      "years": 4,
+      "salary": 6282480
     }
   },
   {
     "id": "BAL-STAFF-7",
     "team": "BAL",
     "role": "Analytics Coordinator",
-    "name": "Cormac Tremblay",
+    "name": "Owen Huel",
     "vitals": {
-      "age": 33,
-      "experience": 3
+      "age": 56,
+      "experience": 6
     },
     "ratings": {
-      "leadership": 87,
-      "discipline": 70,
-      "schemeKnowledge": 94,
-      "playerDev": 79,
-      "motivation": 63,
-      "injuryManagement": 52,
-      "conditioning": 44,
-      "analyticsIQ": 98
+      "leadership": 94,
+      "discipline": 94,
+      "schemeKnowledge": 76,
+      "playerDev": 85,
+      "motivation": 88,
+      "injuryManagement": 68,
+      "conditioning": 68,
+      "analyticsIQ": 81
     },
     "contract": {
-      "years": 3,
-      "salary": 1902085
+      "years": 5,
+      "salary": 4356204
     }
   }
 ]

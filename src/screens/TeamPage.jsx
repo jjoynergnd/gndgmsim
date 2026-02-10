@@ -1,23 +1,19 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
+
 import { teams } from "../data/teams";
-
-
 import seasonState from "../data/season/seasonState.json";
 import { advanceSeason } from "../utils/seasonEngine";
 
 import TeamHeader from "../components/team/TeamHeader";
-import TeamSeasonRoadmap from "../components/season/TeamSeasonRoadmap";
 import NextActionCard from "../components/season/NextActionCard";
 import TeamTabs from "../components/team/TeamTabs";
-
 import RosterTable from "../components/team/RosterTable";
 import DepthChart from "../components/team/depthchart/DepthChart.jsx";
 import StaffTable from "../components/team/StaffTable";
 import FinancesPanel from "../components/team/FinancesPanel";
 import StatsPanel from "../components/team/StatsPanel";
 import PlayerModal from "../components/player/PlayerModal";
-
 import ScheduleTab from "../components/team/schedule/ScheduleTab";
 import DivisionStandings from "../components/standings/DivisionStandings";
 
@@ -46,15 +42,18 @@ const TeamPage = () => {
   const team = teams.find((t) => t.id === selectedTeam);
 
   const [tab, setTab] = useState("roster");
-  console.log("ACTIVE TAB:", tab);
   const [selectedPlayer, setSelectedPlayer] = useState(null);
-  const [season, setSeason] = useState(seasonState);
+
+  const [season, setSeason] = useState(() => {
+    console.log("[TeamPage] Initial season state from JSON:", seasonState);
+    return seasonState;
+  });
 
   const handlePlayerClick = (player) => setSelectedPlayer(player);
 
   const canAdvance = true;
-
   const warnings = [];
+
   if (season.warnings?.injuries > 0)
     warnings.push(`${season.warnings.injuries} injured starters`);
   if (season.warnings?.depthChartIssues > 0)
@@ -63,23 +62,37 @@ const TeamPage = () => {
     warnings.push("Over the salary cap");
 
   const handleAdvance = () => {
-    const teamContext = {
-      teamId: selectedTeam,
-      roster: rosters[selectedTeam],
-      schedule: schedules[selectedTeam],
-      meta: meta[selectedTeam],
-      staff: staff[selectedTeam]
-    };
+    console.log(
+      "[TeamPage] Advance clicked — phase:",
+      season.phase,
+      "week:",
+      season.week,
+      "preseasonWeek:",
+      season.preseasonWeek,
+      "offseasonStep:",
+      season.offseasonStep
+    );
 
-    setSeason((prev) => advanceSeason(prev, teamContext));
+    setSeason((prev) => {
+      const next = advanceSeason(prev, {
+        teams,
+        schedules
+      });
+      console.log("[TeamPage] Season after advanceSeason:", next);
+      return next;
+    });
   };
 
-  const handleSelectPhase = (phaseKey) => {
-    console.log("Clicked roadmap phase:", phaseKey);
-  };
 
+  // Source of truth for schedule:
+  // 1) Engine-populated league schedules (season.schedules[teamId])
+  // 2) Fallback to static JSON if engine not initialized yet
   const activeSchedule =
-    season.schedule || schedules[selectedTeam] || [];
+    season.schedules?.[selectedTeam] || schedules[selectedTeam] || [];
+
+  if (!team) {
+    return <div style={{ padding: "24px" }}>Select a team to begin.</div>;
+  }
 
   return (
     <div style={{ paddingBottom: "40px" }}>
@@ -89,10 +102,7 @@ const TeamPage = () => {
         meta={meta[selectedTeam]}
       />
 
-      <TeamSeasonRoadmap
-        season={season}
-        onSelectPhase={handleSelectPhase}
-      />
+      {/* Roadmap removed here to reduce clutter; global shell roadmap remains */}
 
       <NextActionCard
         season={season}

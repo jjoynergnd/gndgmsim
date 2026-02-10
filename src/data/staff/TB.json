@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  87,
-               "name":  "Evan Reeves"
-           },
-    "OC":  {
-               "rating":  87,
-               "name":  "Tyrone Maddox"
-           },
-    "DC":  {
-               "rating":  86,
-               "name":  "Caleb Bennett"
-           }
-}
+[
+  {
+    "id": "TB-STAFF-1",
+    "team": "TB",
+    "role": "Head Coach",
+    "name": "Jonathan Kunde",
+    "vitals": {
+      "age": 33,
+      "experience": 20
+    },
+    "ratings": {
+      "leadership": 64,
+      "discipline": 75,
+      "schemeKnowledge": 74,
+      "playerDev": 76,
+      "motivation": 64,
+      "injuryManagement": 70,
+      "conditioning": 46,
+      "analyticsIQ": 69
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5065040
+    }
+  },
+  {
+    "id": "TB-STAFF-2",
+    "team": "TB",
+    "role": "Offensive Coordinator",
+    "name": "Ralph Kunde",
+    "vitals": {
+      "age": 61,
+      "experience": 35
+    },
+    "ratings": {
+      "leadership": 92,
+      "discipline": 71,
+      "schemeKnowledge": 75,
+      "playerDev": 70,
+      "motivation": 90,
+      "injuryManagement": 41,
+      "conditioning": 69,
+      "analyticsIQ": 46
+    },
+    "contract": {
+      "years": 4,
+      "salary": 5395441
+    }
+  },
+  {
+    "id": "TB-STAFF-3",
+    "team": "TB",
+    "role": "Defensive Coordinator",
+    "name": "Terry Rodriguez",
+    "vitals": {
+      "age": 38,
+      "experience": 18
+    },
+    "ratings": {
+      "leadership": 61,
+      "discipline": 78,
+      "schemeKnowledge": 83,
+      "playerDev": 95,
+      "motivation": 91,
+      "injuryManagement": 41,
+      "conditioning": 64,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 4,
+      "salary": 6198535
+    }
+  },
+  {
+    "id": "TB-STAFF-4",
+    "team": "TB",
+    "role": "Strength & Conditioning Coach",
+    "name": "Joon Fisher",
+    "vitals": {
+      "age": 57,
+      "experience": 10
+    },
+    "ratings": {
+      "leadership": 91,
+      "discipline": 72,
+      "schemeKnowledge": 73,
+      "playerDev": 92,
+      "motivation": 76,
+      "injuryManagement": 56,
+      "conditioning": 88,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2422367
+    }
+  },
+  {
+    "id": "TB-STAFF-5",
+    "team": "TB",
+    "role": "Physical Therapist",
+    "name": "Donald Goodwin-Bogisich",
+    "vitals": {
+      "age": 33,
+      "experience": 32
+    },
+    "ratings": {
+      "leadership": 75,
+      "discipline": 65,
+      "schemeKnowledge": 92,
+      "playerDev": 79,
+      "motivation": 82,
+      "injuryManagement": 81,
+      "conditioning": 64,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4479424
+    }
+  },
+  {
+    "id": "TB-STAFF-6",
+    "team": "TB",
+    "role": "Athletic Trainer",
+    "name": "Blake Ondricka",
+    "vitals": {
+      "age": 64,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 63,
+      "schemeKnowledge": 95,
+      "playerDev": 60,
+      "motivation": 92,
+      "injuryManagement": 77,
+      "conditioning": 64,
+      "analyticsIQ": 46
+    },
+    "contract": {
+      "years": 4,
+      "salary": 1656809
+    }
+  },
+  {
+    "id": "TB-STAFF-7",
+    "team": "TB",
+    "role": "Analytics Coordinator",
+    "name": "Bryan Zboncak",
+    "vitals": {
+      "age": 55,
+      "experience": 25
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 87,
+      "schemeKnowledge": 62,
+      "playerDev": 81,
+      "motivation": 69,
+      "injuryManagement": 44,
+      "conditioning": 55,
+      "analyticsIQ": 80
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7524490
+    }
+  }
+]

@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  74,
-               "name":  "Tyrone Harrington"
-           },
-    "OC":  {
-               "rating":  78,
-               "name":  "Caleb Halford"
-           },
-    "DC":  {
-               "rating":  83,
-               "name":  "Evan Rourke"
-           }
-}
+[
+  {
+    "id": "SEA-STAFF-1",
+    "team": "SEA",
+    "role": "Head Coach",
+    "name": "Colton Brown",
+    "vitals": {
+      "age": 61,
+      "experience": 18
+    },
+    "ratings": {
+      "leadership": 88,
+      "discipline": 92,
+      "schemeKnowledge": 61,
+      "playerDev": 88,
+      "motivation": 80,
+      "injuryManagement": 50,
+      "conditioning": 42,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 4,
+      "salary": 1103566
+    }
+  },
+  {
+    "id": "SEA-STAFF-2",
+    "team": "SEA",
+    "role": "Offensive Coordinator",
+    "name": "Nikolai Kautzer-Walker",
+    "vitals": {
+      "age": 62,
+      "experience": 37
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 65,
+      "schemeKnowledge": 66,
+      "playerDev": 87,
+      "motivation": 69,
+      "injuryManagement": 46,
+      "conditioning": 52,
+      "analyticsIQ": 70
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5346423
+    }
+  },
+  {
+    "id": "SEA-STAFF-3",
+    "team": "SEA",
+    "role": "Defensive Coordinator",
+    "name": "Holden Walter",
+    "vitals": {
+      "age": 58,
+      "experience": 10
+    },
+    "ratings": {
+      "leadership": 79,
+      "discipline": 81,
+      "schemeKnowledge": 61,
+      "playerDev": 74,
+      "motivation": 61,
+      "injuryManagement": 59,
+      "conditioning": 42,
+      "analyticsIQ": 54
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3944690
+    }
+  },
+  {
+    "id": "SEA-STAFF-4",
+    "team": "SEA",
+    "role": "Strength & Conditioning Coach",
+    "name": "Eric Armstrong",
+    "vitals": {
+      "age": 42,
+      "experience": 12
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 84,
+      "schemeKnowledge": 77,
+      "playerDev": 90,
+      "motivation": 93,
+      "injuryManagement": 66,
+      "conditioning": 80,
+      "analyticsIQ": 66
+    },
+    "contract": {
+      "years": 5,
+      "salary": 4770515
+    }
+  },
+  {
+    "id": "SEA-STAFF-5",
+    "team": "SEA",
+    "role": "Physical Therapist",
+    "name": "Anton Gerlach",
+    "vitals": {
+      "age": 64,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 77,
+      "discipline": 68,
+      "schemeKnowledge": 84,
+      "playerDev": 67,
+      "motivation": 73,
+      "injuryManagement": 84,
+      "conditioning": 40,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3392018
+    }
+  },
+  {
+    "id": "SEA-STAFF-6",
+    "team": "SEA",
+    "role": "Athletic Trainer",
+    "name": "Yusuf Jacobi",
+    "vitals": {
+      "age": 32,
+      "experience": 30
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 80,
+      "schemeKnowledge": 68,
+      "playerDev": 82,
+      "motivation": 63,
+      "injuryManagement": 79,
+      "conditioning": 53,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3183501
+    }
+  },
+  {
+    "id": "SEA-STAFF-7",
+    "team": "SEA",
+    "role": "Analytics Coordinator",
+    "name": "Nolan Herzog",
+    "vitals": {
+      "age": 60,
+      "experience": 5
+    },
+    "ratings": {
+      "leadership": 75,
+      "discipline": 65,
+      "schemeKnowledge": 85,
+      "playerDev": 62,
+      "motivation": 79,
+      "injuryManagement": 46,
+      "conditioning": 62,
+      "analyticsIQ": 81
+    },
+    "contract": {
+      "years": 5,
+      "salary": 4247699
+    }
+  }
+]

@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  72,
-               "name":  "Evan Maddox"
-           },
-    "OC":  {
-               "rating":  83,
-               "name":  "Xavier Reeves"
-           },
-    "DC":  {
-               "rating":  78,
-               "name":  "Jalen Douglas"
-           }
-}
+[
+  {
+    "id": "NO-STAFF-1",
+    "team": "NO",
+    "role": "Head Coach",
+    "name": "Bo Barrows",
+    "vitals": {
+      "age": 53,
+      "experience": 34
+    },
+    "ratings": {
+      "leadership": 75,
+      "discipline": 89,
+      "schemeKnowledge": 79,
+      "playerDev": 74,
+      "motivation": 85,
+      "injuryManagement": 54,
+      "conditioning": 40,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 5,
+      "salary": 6849378
+    }
+  },
+  {
+    "id": "NO-STAFF-2",
+    "team": "NO",
+    "role": "Offensive Coordinator",
+    "name": "Rafael Wintheiser",
+    "vitals": {
+      "age": 34,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 90,
+      "schemeKnowledge": 79,
+      "playerDev": 73,
+      "motivation": 72,
+      "injuryManagement": 47,
+      "conditioning": 69,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5119048
+    }
+  },
+  {
+    "id": "NO-STAFF-3",
+    "team": "NO",
+    "role": "Defensive Coordinator",
+    "name": "Maxwell Reilly",
+    "vitals": {
+      "age": 39,
+      "experience": 9
+    },
+    "ratings": {
+      "leadership": 91,
+      "discipline": 84,
+      "schemeKnowledge": 94,
+      "playerDev": 92,
+      "motivation": 87,
+      "injuryManagement": 45,
+      "conditioning": 62,
+      "analyticsIQ": 40
+    },
+    "contract": {
+      "years": 5,
+      "salary": 4573773
+    }
+  },
+  {
+    "id": "NO-STAFF-4",
+    "team": "NO",
+    "role": "Strength & Conditioning Coach",
+    "name": "William Jerde",
+    "vitals": {
+      "age": 44,
+      "experience": 22
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 87,
+      "schemeKnowledge": 61,
+      "playerDev": 69,
+      "motivation": 81,
+      "injuryManagement": 63,
+      "conditioning": 88,
+      "analyticsIQ": 45
+    },
+    "contract": {
+      "years": 3,
+      "salary": 915862
+    }
+  },
+  {
+    "id": "NO-STAFF-5",
+    "team": "NO",
+    "role": "Physical Therapist",
+    "name": "Devin Stehr",
+    "vitals": {
+      "age": 48,
+      "experience": 5
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 66,
+      "schemeKnowledge": 92,
+      "playerDev": 64,
+      "motivation": 88,
+      "injuryManagement": 87,
+      "conditioning": 42,
+      "analyticsIQ": 48
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1084111
+    }
+  },
+  {
+    "id": "NO-STAFF-6",
+    "team": "NO",
+    "role": "Athletic Trainer",
+    "name": "Andrew Gulgowski",
+    "vitals": {
+      "age": 61,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 77,
+      "discipline": 65,
+      "schemeKnowledge": 70,
+      "playerDev": 81,
+      "motivation": 90,
+      "injuryManagement": 77,
+      "conditioning": 59,
+      "analyticsIQ": 40
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1861705
+    }
+  },
+  {
+    "id": "NO-STAFF-7",
+    "team": "NO",
+    "role": "Analytics Coordinator",
+    "name": "Keegan Bosco",
+    "vitals": {
+      "age": 51,
+      "experience": 30
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 94,
+      "schemeKnowledge": 86,
+      "playerDev": 85,
+      "motivation": 80,
+      "injuryManagement": 70,
+      "conditioning": 41,
+      "analyticsIQ": 89
+    },
+    "contract": {
+      "years": 5,
+      "salary": 3333629
+    }
+  }
+]

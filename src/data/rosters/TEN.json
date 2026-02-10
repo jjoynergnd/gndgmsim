@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  74,
-        "name":  "Malik Douglas",
-        "id":  "TEN-QB0"
+[
+  {
+    "id": "TEN-QB-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Nicholas McLaughlin",
+    "jerseyNumber": 9,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 241,
+      "college": "Hilpertside",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
     },
-    {
-        "position":  "RB",
-        "overall":  76,
-        "name":  "Jordan Foster",
-        "id":  "TEN-RB1"
+    "contract": {
+      "years": 1,
+      "totalValue": 39076920,
+      "capHit": 2044439,
+      "deadCap": 4072253,
+      "signingBonus": 15681904,
+      "expiresYear": 2027,
+      "contractType": "Standard"
     },
-    {
-        "position":  "WR",
-        "overall":  81,
-        "name":  "Xavier Rourke",
-        "id":  "TEN-WR2"
+    "ratings": {
+      "overall": 72,
+      "potential": 76,
+      "schemeFit": 94,
+      "speed": 76,
+      "acceleration": 92,
+      "agility": 89,
+      "strength": 93,
+      "tackle": 80,
+      "pursuit": 87,
+      "manCoverage": 68,
+      "zoneCoverage": 74,
+      "kickPower": 74,
+      "kickAccuracy": 58,
+      "catching": 94,
+      "routeRunning": 58,
+      "release": 67,
+      "throwPower": 94,
+      "shortAccuracy": 60,
+      "mediumAccuracy": 71,
+      "deepAccuracy": 74
     },
-    {
-        "position":  "LB",
-        "overall":  81,
-        "name":  "Chase Shaw",
-        "id":  "TEN-LB3"
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
     },
-    {
-        "position":  "CB",
-        "overall":  76,
-        "name":  "Andre Wynn",
-        "id":  "TEN-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 214,
+        "statB": 707
+      },
+      "career": {
+        "games": 98,
+        "statA": 3341,
+        "statB": 4172
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "TEN-QB-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Ralph Wilderman",
+    "jerseyNumber": 98,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 322,
+      "college": "White Plains",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 79522500,
+      "capHit": 12062777,
+      "deadCap": 9730025,
+      "signingBonus": 2226880,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 88,
+      "schemeFit": 73,
+      "speed": 75,
+      "acceleration": 85,
+      "agility": 72,
+      "strength": 69,
+      "tackle": 70,
+      "pursuit": 90,
+      "manCoverage": 63,
+      "zoneCoverage": 66,
+      "kickPower": 77,
+      "kickAccuracy": 90,
+      "catching": 75,
+      "routeRunning": 81,
+      "release": 53,
+      "throwPower": 84,
+      "shortAccuracy": 80,
+      "mediumAccuracy": 72,
+      "deepAccuracy": 90
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 167,
+        "statB": 988
+      },
+      "career": {
+        "games": 26,
+        "statA": 731,
+        "statB": 4333
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "TEN-QB-3",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Tyler Rippin",
+    "jerseyNumber": 48,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "6'0\"",
+      "weight": 305,
+      "college": "Gutkowskibury",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 19930249,
+      "capHit": 23971664,
+      "deadCap": 4769253,
+      "signingBonus": 7807938,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 65,
+      "schemeFit": 90,
+      "speed": 76,
+      "acceleration": 87,
+      "agility": 81,
+      "strength": 67,
+      "tackle": 84,
+      "pursuit": 89,
+      "manCoverage": 69,
+      "zoneCoverage": 86,
+      "kickPower": 74,
+      "kickAccuracy": 52,
+      "catching": 75,
+      "routeRunning": 90,
+      "release": 84,
+      "throwPower": 93,
+      "shortAccuracy": 74,
+      "mediumAccuracy": 82,
+      "deepAccuracy": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 793,
+        "statB": 457
+      },
+      "career": {
+        "games": 30,
+        "statA": 3123,
+        "statB": 3635
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "TEN-RB-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Pablo Predovic-Schimmel",
+    "jerseyNumber": 3,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 317,
+      "college": "New Jarodmouth",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 90359919,
+      "capHit": 16509038,
+      "deadCap": 2308044,
+      "signingBonus": 16332895,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 84,
+      "schemeFit": 79,
+      "speed": 78,
+      "acceleration": 79,
+      "agility": 90,
+      "strength": 76,
+      "tackle": 66,
+      "pursuit": 73,
+      "manCoverage": 64,
+      "zoneCoverage": 60,
+      "kickPower": 84,
+      "kickAccuracy": 64,
+      "catching": 84,
+      "routeRunning": 73,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 537,
+        "statB": 919
+      },
+      "career": {
+        "games": 33,
+        "statA": 3708,
+        "statB": 2196
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "TEN-RB-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Sawyer Swaniawski",
+    "jerseyNumber": 10,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'0\"",
+      "weight": 272,
+      "college": "Shayneton",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 83218474,
+      "capHit": 1369609,
+      "deadCap": 7160270,
+      "signingBonus": 8658382,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 87,
+      "schemeFit": 74,
+      "speed": 80,
+      "acceleration": 70,
+      "agility": 71,
+      "strength": 76,
+      "tackle": 77,
+      "pursuit": 65,
+      "manCoverage": 77,
+      "zoneCoverage": 55,
+      "kickPower": 58,
+      "kickAccuracy": 78,
+      "catching": 94,
+      "routeRunning": 68,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 428,
+        "statB": 575
+      },
+      "career": {
+        "games": 10,
+        "statA": 2375,
+        "statB": 4316
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "TEN-RB-3",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Diego Hackett",
+    "jerseyNumber": 36,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'1\"",
+      "weight": 322,
+      "college": "Jaimeview",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 17698030,
+      "capHit": 7451524,
+      "deadCap": 3864564,
+      "signingBonus": 12545291,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 77,
+      "schemeFit": 88,
+      "speed": 88,
+      "acceleration": 80,
+      "agility": 90,
+      "strength": 61,
+      "tackle": 83,
+      "pursuit": 69,
+      "manCoverage": 73,
+      "zoneCoverage": 66,
+      "kickPower": 80,
+      "kickAccuracy": 60,
+      "catching": 89,
+      "routeRunning": 83,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 642,
+        "statB": 832
+      },
+      "career": {
+        "games": 84,
+        "statA": 426,
+        "statB": 613
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "TEN-RB-4",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Gavin Legros",
+    "jerseyNumber": 5,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 194,
+      "college": "Jakubowskiview",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 70907360,
+      "capHit": 21024679,
+      "deadCap": 1166666,
+      "signingBonus": 19880102,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 91,
+      "schemeFit": 71,
+      "speed": 83,
+      "acceleration": 80,
+      "agility": 79,
+      "strength": 92,
+      "tackle": 78,
+      "pursuit": 91,
+      "manCoverage": 69,
+      "zoneCoverage": 82,
+      "kickPower": 69,
+      "kickAccuracy": 76,
+      "catching": 81,
+      "routeRunning": 73,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 355,
+        "statB": 834
+      },
+      "career": {
+        "games": 0,
+        "statA": 947,
+        "statB": 1680
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "TEN-WR-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Kaito Hauck",
+    "jerseyNumber": 64,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 328,
+      "college": "Emilyberg",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 38260055,
+      "capHit": 17512112,
+      "deadCap": 590503,
+      "signingBonus": 11893463,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 90,
+      "schemeFit": 71,
+      "speed": 80,
+      "acceleration": 83,
+      "agility": 72,
+      "strength": 62,
+      "tackle": 88,
+      "pursuit": 81,
+      "manCoverage": 76,
+      "zoneCoverage": 68,
+      "kickPower": 75,
+      "kickAccuracy": 81,
+      "catching": 89,
+      "routeRunning": 54,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 717,
+        "statB": 216
+      },
+      "career": {
+        "games": 1,
+        "statA": 3599,
+        "statB": 560
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "TEN-WR-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Keegan Shields",
+    "jerseyNumber": 30,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'0\"",
+      "weight": 210,
+      "college": "Myleneville",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 91824203,
+      "capHit": 18494689,
+      "deadCap": 7974057,
+      "signingBonus": 17389352,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 68,
+      "schemeFit": 82,
+      "speed": 92,
+      "acceleration": 74,
+      "agility": 76,
+      "strength": 87,
+      "tackle": 95,
+      "pursuit": 92,
+      "manCoverage": 76,
+      "zoneCoverage": 74,
+      "kickPower": 73,
+      "kickAccuracy": 80,
+      "catching": 73,
+      "routeRunning": 84,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 856,
+        "statB": 724
+      },
+      "career": {
+        "games": 24,
+        "statA": 4895,
+        "statB": 3488
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "TEN-WR-3",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Paul Lynch",
+    "jerseyNumber": 45,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 273,
+      "college": "Rashadworth",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 46105402,
+      "capHit": 17903474,
+      "deadCap": 4739993,
+      "signingBonus": 587034,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 76,
+      "schemeFit": 83,
+      "speed": 92,
+      "acceleration": 85,
+      "agility": 83,
+      "strength": 87,
+      "tackle": 67,
+      "pursuit": 76,
+      "manCoverage": 87,
+      "zoneCoverage": 50,
+      "kickPower": 55,
+      "kickAccuracy": 89,
+      "catching": 64,
+      "routeRunning": 66,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 630,
+        "statB": 451
+      },
+      "career": {
+        "games": 77,
+        "statA": 393,
+        "statB": 3065
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "TEN-WR-4",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Ralph Murazik-Bogisich",
+    "jerseyNumber": 43,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 239,
+      "college": "Lindseyside",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 82138731,
+      "capHit": 4315159,
+      "deadCap": 3956246,
+      "signingBonus": 12979183,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 72,
+      "schemeFit": 75,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 80,
+      "strength": 91,
+      "tackle": 93,
+      "pursuit": 77,
+      "manCoverage": 85,
+      "zoneCoverage": 54,
+      "kickPower": 72,
+      "kickAccuracy": 50,
+      "catching": 72,
+      "routeRunning": 56,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 108,
+        "statB": 110
+      },
+      "career": {
+        "games": 0,
+        "statA": 1920,
+        "statB": 1123
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "TEN-WR-5",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Viktor Lebsack",
+    "jerseyNumber": 85,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 326,
+      "college": "Anabelfort",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 27275338,
+      "capHit": 16235413,
+      "deadCap": 3152079,
+      "signingBonus": 19444931,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 75,
+      "schemeFit": 72,
+      "speed": 82,
+      "acceleration": 95,
+      "agility": 87,
+      "strength": 82,
+      "tackle": 89,
+      "pursuit": 90,
+      "manCoverage": 60,
+      "zoneCoverage": 61,
+      "kickPower": 59,
+      "kickAccuracy": 57,
+      "catching": 71,
+      "routeRunning": 63,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 630,
+        "statB": 244
+      },
+      "career": {
+        "games": 38,
+        "statA": 566,
+        "statB": 3113
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "TEN-WR-6",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Anton O'Reilly",
+    "jerseyNumber": 18,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 34,
+      "height": "6'1\"",
+      "weight": 328,
+      "college": "Larkinbury",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 102462481,
+      "capHit": 24772902,
+      "deadCap": 967297,
+      "signingBonus": 2960352,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 81,
+      "speed": 72,
+      "acceleration": 94,
+      "agility": 94,
+      "strength": 80,
+      "tackle": 70,
+      "pursuit": 90,
+      "manCoverage": 86,
+      "zoneCoverage": 73,
+      "kickPower": 82,
+      "kickAccuracy": 83,
+      "catching": 85,
+      "routeRunning": 55,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 39,
+        "statB": 484
+      },
+      "career": {
+        "games": 30,
+        "statA": 204,
+        "statB": 1595
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "TEN-WR-7",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Eugene Adams-Runolfsdottir",
+    "jerseyNumber": 39,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 241,
+      "college": "Lourdesberg",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 83511527,
+      "capHit": 10287495,
+      "deadCap": 8696289,
+      "signingBonus": 2135565,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 63,
+      "schemeFit": 93,
+      "speed": 82,
+      "acceleration": 83,
+      "agility": 91,
+      "strength": 63,
+      "tackle": 92,
+      "pursuit": 91,
+      "manCoverage": 51,
+      "zoneCoverage": 82,
+      "kickPower": 63,
+      "kickAccuracy": 74,
+      "catching": 91,
+      "routeRunning": 67,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 950,
+        "statB": 19
+      },
+      "career": {
+        "games": 13,
+        "statA": 3097,
+        "statB": 1593
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "TEN-TE-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Riley Dicki",
+    "jerseyNumber": 26,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 215,
+      "college": "Fort Tobinberg",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 69536965,
+      "capHit": 13197368,
+      "deadCap": 6430021,
+      "signingBonus": 9769549,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 65,
+      "schemeFit": 91,
+      "speed": 94,
+      "acceleration": 93,
+      "agility": 85,
+      "strength": 94,
+      "tackle": 71,
+      "pursuit": 71,
+      "manCoverage": 75,
+      "zoneCoverage": 57,
+      "kickPower": 61,
+      "kickAccuracy": 55,
+      "catching": 50,
+      "routeRunning": 58,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 838,
+        "statB": 235
+      },
+      "career": {
+        "games": 42,
+        "statA": 556,
+        "statB": 3423
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "TEN-TE-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Santiago Heaney",
+    "jerseyNumber": 73,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'4\"",
+      "weight": 275,
+      "college": "Camrenfield",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 54630637,
+      "capHit": 6743833,
+      "deadCap": 869074,
+      "signingBonus": 4844143,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 84,
+      "schemeFit": 93,
+      "speed": 89,
+      "acceleration": 82,
+      "agility": 88,
+      "strength": 75,
+      "tackle": 75,
+      "pursuit": 67,
+      "manCoverage": 62,
+      "zoneCoverage": 62,
+      "kickPower": 76,
+      "kickAccuracy": 53,
+      "catching": 82,
+      "routeRunning": 55,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 198,
+        "statB": 510
+      },
+      "career": {
+        "games": 54,
+        "statA": 1631,
+        "statB": 3618
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "TEN-TE-3",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Alberto Auer",
+    "jerseyNumber": 67,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 217,
+      "college": "Berylport",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 99355063,
+      "capHit": 11114761,
+      "deadCap": 7632487,
+      "signingBonus": 17070955,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 73,
+      "schemeFit": 93,
+      "speed": 93,
+      "acceleration": 72,
+      "agility": 80,
+      "strength": 68,
+      "tackle": 66,
+      "pursuit": 95,
+      "manCoverage": 79,
+      "zoneCoverage": 86,
+      "kickPower": 87,
+      "kickAccuracy": 87,
+      "catching": 58,
+      "routeRunning": 66,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 516,
+        "statB": 808
+      },
+      "career": {
+        "games": 91,
+        "statA": 2593,
+        "statB": 2978
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "TEN-LT-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Tariq Ziemann",
+    "jerseyNumber": 82,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 326,
+      "college": "East Gene",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 102873444,
+      "capHit": 21384473,
+      "deadCap": 2407691,
+      "signingBonus": 16778915,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 82,
+      "schemeFit": 92,
+      "speed": 79,
+      "acceleration": 83,
+      "agility": 85,
+      "strength": 73,
+      "tackle": 88,
+      "pursuit": 80,
+      "manCoverage": 51,
+      "zoneCoverage": 63,
+      "kickPower": 84,
+      "kickAccuracy": 61,
+      "catching": 67,
+      "routeRunning": 68,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 901,
+        "statB": 875
+      },
+      "career": {
+        "games": 32,
+        "statA": 609,
+        "statB": 4827
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "TEN-LT-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Kevin Ebert-Kris",
+    "jerseyNumber": 84,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 277,
+      "college": "Tomside",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 8707121,
+      "capHit": 7400967,
+      "deadCap": 1793086,
+      "signingBonus": 12583184,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 90,
+      "speed": 89,
+      "acceleration": 81,
+      "agility": 80,
+      "strength": 74,
+      "tackle": 90,
+      "pursuit": 85,
+      "manCoverage": 64,
+      "zoneCoverage": 84,
+      "kickPower": 79,
+      "kickAccuracy": 83,
+      "catching": 91,
+      "routeRunning": 76,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 388,
+        "statB": 145
+      },
+      "career": {
+        "games": 1,
+        "statA": 1735,
+        "statB": 2861
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "TEN-LG-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Declan Waelchi",
+    "jerseyNumber": 68,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'1\"",
+      "weight": 257,
+      "college": "South Orphacester",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 65862718,
+      "capHit": 4507492,
+      "deadCap": 3589791,
+      "signingBonus": 11779802,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 72,
+      "schemeFit": 72,
+      "speed": 79,
+      "acceleration": 73,
+      "agility": 86,
+      "strength": 90,
+      "tackle": 93,
+      "pursuit": 70,
+      "manCoverage": 57,
+      "zoneCoverage": 73,
+      "kickPower": 50,
+      "kickAccuracy": 71,
+      "catching": 51,
+      "routeRunning": 67,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 863,
+        "statB": 664
+      },
+      "career": {
+        "games": 75,
+        "statA": 1830,
+        "statB": 1773
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "TEN-LG-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Joshua Harvey",
+    "jerseyNumber": 90,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 230,
+      "college": "Mesa",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 11430943,
+      "capHit": 16629552,
+      "deadCap": 7229777,
+      "signingBonus": 7079245,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 83,
+      "schemeFit": 90,
+      "speed": 70,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 78,
+      "tackle": 69,
+      "pursuit": 76,
+      "manCoverage": 77,
+      "zoneCoverage": 58,
+      "kickPower": 94,
+      "kickAccuracy": 65,
+      "catching": 92,
+      "routeRunning": 54,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 907,
+        "statB": 72
+      },
+      "career": {
+        "games": 12,
+        "statA": 202,
+        "statB": 2771
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "TEN-C-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Diego Waters",
+    "jerseyNumber": 84,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 288,
+      "college": "New Issac",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 116994602,
+      "capHit": 15170745,
+      "deadCap": 5537439,
+      "signingBonus": 14095989,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 80,
+      "schemeFit": 81,
+      "speed": 85,
+      "acceleration": 91,
+      "agility": 70,
+      "strength": 88,
+      "tackle": 68,
+      "pursuit": 85,
+      "manCoverage": 82,
+      "zoneCoverage": 88,
+      "kickPower": 80,
+      "kickAccuracy": 94,
+      "catching": 85,
+      "routeRunning": 89,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 696,
+        "statB": 894
+      },
+      "career": {
+        "games": 59,
+        "statA": 1696,
+        "statB": 3013
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "TEN-C-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Beckett Gutmann",
+    "jerseyNumber": 82,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'1\"",
+      "weight": 314,
+      "college": "Covina",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 74669015,
+      "capHit": 1744506,
+      "deadCap": 520057,
+      "signingBonus": 244214,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 89,
+      "schemeFit": 80,
+      "speed": 76,
+      "acceleration": 74,
+      "agility": 82,
+      "strength": 77,
+      "tackle": 60,
+      "pursuit": 72,
+      "manCoverage": 73,
+      "zoneCoverage": 88,
+      "kickPower": 55,
+      "kickAccuracy": 91,
+      "catching": 60,
+      "routeRunning": 79,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 879,
+        "statB": 551
+      },
+      "career": {
+        "games": 10,
+        "statA": 2619,
+        "statB": 4334
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "TEN-RG-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Russell Connelly",
+    "jerseyNumber": 62,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 314,
+      "college": "Muellerburgh",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 102747433,
+      "capHit": 3869033,
+      "deadCap": 4868259,
+      "signingBonus": 2502018,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 82,
+      "schemeFit": 72,
+      "speed": 80,
+      "acceleration": 71,
+      "agility": 76,
+      "strength": 92,
+      "tackle": 80,
+      "pursuit": 86,
+      "manCoverage": 73,
+      "zoneCoverage": 64,
+      "kickPower": 94,
+      "kickAccuracy": 80,
+      "catching": 94,
+      "routeRunning": 52,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 112,
+        "statB": 751
+      },
+      "career": {
+        "games": 66,
+        "statA": 4799,
+        "statB": 2424
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "TEN-RG-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Robert Boyle",
+    "jerseyNumber": 75,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 199,
+      "college": "East Charleymouth",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 12979784,
+      "capHit": 2970999,
+      "deadCap": 621992,
+      "signingBonus": 10761479,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 84,
+      "schemeFit": 79,
+      "speed": 83,
+      "acceleration": 70,
+      "agility": 86,
+      "strength": 91,
+      "tackle": 62,
+      "pursuit": 79,
+      "manCoverage": 85,
+      "zoneCoverage": 54,
+      "kickPower": 72,
+      "kickAccuracy": 55,
+      "catching": 58,
+      "routeRunning": 70,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 977,
+        "statB": 934
+      },
+      "career": {
+        "games": 48,
+        "statA": 3924,
+        "statB": 2554
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "TEN-RT-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Albert Weimann",
+    "jerseyNumber": 73,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'9\"",
+      "weight": 228,
+      "college": "Jastport",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 61264573,
+      "capHit": 1221566,
+      "deadCap": 9585940,
+      "signingBonus": 10767081,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 63,
+      "schemeFit": 81,
+      "speed": 83,
+      "acceleration": 89,
+      "agility": 70,
+      "strength": 60,
+      "tackle": 73,
+      "pursuit": 81,
+      "manCoverage": 86,
+      "zoneCoverage": 81,
+      "kickPower": 64,
+      "kickAccuracy": 51,
+      "catching": 92,
+      "routeRunning": 89,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 426,
+        "statB": 874
+      },
+      "career": {
+        "games": 97,
+        "statA": 3364,
+        "statB": 2258
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "TEN-RT-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Richard Mertz",
+    "jerseyNumber": 28,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 267,
+      "college": "Quincy",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 73919224,
+      "capHit": 10009339,
+      "deadCap": 7741083,
+      "signingBonus": 18440479,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 77,
+      "schemeFit": 89,
+      "speed": 84,
+      "acceleration": 89,
+      "agility": 80,
+      "strength": 71,
+      "tackle": 78,
+      "pursuit": 80,
+      "manCoverage": 65,
+      "zoneCoverage": 75,
+      "kickPower": 72,
+      "kickAccuracy": 91,
+      "catching": 66,
+      "routeRunning": 51,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 254,
+        "statB": 677
+      },
+      "career": {
+        "games": 24,
+        "statA": 477,
+        "statB": 3173
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "TEN-LDE-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Christopher Bogisich-Farrell",
+    "jerseyNumber": 26,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 293,
+      "college": "Wilberfield",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 68870313,
+      "capHit": 2699906,
+      "deadCap": 1715922,
+      "signingBonus": 19395141,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 76,
+      "speed": 94,
+      "acceleration": 75,
+      "agility": 74,
+      "strength": 75,
+      "tackle": 68,
+      "pursuit": 89,
+      "manCoverage": 67,
+      "zoneCoverage": 73,
+      "kickPower": 56,
+      "kickAccuracy": 82,
+      "catching": 87,
+      "routeRunning": 91,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 645,
+        "statB": 321
+      },
+      "career": {
+        "games": 4,
+        "statA": 613,
+        "statB": 4266
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "TEN-LDE-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Stephen Smith",
+    "jerseyNumber": 3,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 276,
+      "college": "Lake Sterlingtown",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 49897443,
+      "capHit": 23839130,
+      "deadCap": 1672975,
+      "signingBonus": 3281503,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 63,
+      "schemeFit": 93,
+      "speed": 75,
+      "acceleration": 72,
+      "agility": 86,
+      "strength": 92,
+      "tackle": 65,
+      "pursuit": 65,
+      "manCoverage": 84,
+      "zoneCoverage": 61,
+      "kickPower": 65,
+      "kickAccuracy": 55,
+      "catching": 92,
+      "routeRunning": 82,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 691,
+        "statB": 385
+      },
+      "career": {
+        "games": 45,
+        "statA": 4096,
+        "statB": 2666
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "TEN-RDE-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Caleb Huel",
+    "jerseyNumber": 70,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 319,
+      "college": "Lake Reynold",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 34051901,
+      "capHit": 22364250,
+      "deadCap": 5968261,
+      "signingBonus": 1498268,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 84,
+      "schemeFit": 89,
+      "speed": 70,
+      "acceleration": 70,
+      "agility": 70,
+      "strength": 63,
+      "tackle": 80,
+      "pursuit": 91,
+      "manCoverage": 56,
+      "zoneCoverage": 78,
+      "kickPower": 87,
+      "kickAccuracy": 69,
+      "catching": 87,
+      "routeRunning": 84,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 932,
+        "statB": 837
+      },
+      "career": {
+        "games": 52,
+        "statA": 757,
+        "statB": 485
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "TEN-RDE-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Thomas Upton",
+    "jerseyNumber": 30,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 316,
+      "college": "Titusville",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 79308267,
+      "capHit": 8835904,
+      "deadCap": 9039082,
+      "signingBonus": 12757149,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 90,
+      "speed": 83,
+      "acceleration": 80,
+      "agility": 79,
+      "strength": 77,
+      "tackle": 80,
+      "pursuit": 95,
+      "manCoverage": 81,
+      "zoneCoverage": 50,
+      "kickPower": 86,
+      "kickAccuracy": 82,
+      "catching": 92,
+      "routeRunning": 62,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 175,
+        "statB": 215
+      },
+      "career": {
+        "games": 60,
+        "statA": 163,
+        "statB": 1767
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "TEN-DT-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Declan Jacobs",
+    "jerseyNumber": 92,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 282,
+      "college": "East Alvertahaven",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 60909383,
+      "capHit": 20307669,
+      "deadCap": 4879467,
+      "signingBonus": 308276,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 89,
+      "schemeFit": 95,
+      "speed": 74,
+      "acceleration": 92,
+      "agility": 87,
+      "strength": 82,
+      "tackle": 86,
+      "pursuit": 81,
+      "manCoverage": 71,
+      "zoneCoverage": 59,
+      "kickPower": 89,
+      "kickAccuracy": 77,
+      "catching": 61,
+      "routeRunning": 87,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 959,
+        "statB": 740
+      },
+      "career": {
+        "games": 29,
+        "statA": 4559,
+        "statB": 1460
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "TEN-DT-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Lawrence Moore",
+    "jerseyNumber": 67,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 266,
+      "college": "Shakiramouth",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 7478163,
+      "capHit": 14978327,
+      "deadCap": 4006862,
+      "signingBonus": 1283438,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 86,
+      "schemeFit": 82,
+      "speed": 94,
+      "acceleration": 78,
+      "agility": 75,
+      "strength": 81,
+      "tackle": 61,
+      "pursuit": 63,
+      "manCoverage": 85,
+      "zoneCoverage": 57,
+      "kickPower": 56,
+      "kickAccuracy": 71,
+      "catching": 66,
+      "routeRunning": 85,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 715,
+        "statB": 759
+      },
+      "career": {
+        "games": 66,
+        "statA": 4550,
+        "statB": 1117
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "TEN-DT-3",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Zaid Boyle",
+    "jerseyNumber": 60,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 199,
+      "college": "Kuphalland",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 55323289,
+      "capHit": 24326136,
+      "deadCap": 6106363,
+      "signingBonus": 8265170,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 66,
+      "schemeFit": 73,
+      "speed": 82,
+      "acceleration": 85,
+      "agility": 90,
+      "strength": 81,
+      "tackle": 77,
+      "pursuit": 80,
+      "manCoverage": 76,
+      "zoneCoverage": 57,
+      "kickPower": 86,
+      "kickAccuracy": 63,
+      "catching": 78,
+      "routeRunning": 80,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 966,
+        "statB": 545
+      },
+      "career": {
+        "games": 49,
+        "statA": 2120,
+        "statB": 663
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "TEN-DT-4",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Andres Ritchie",
+    "jerseyNumber": 17,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 271,
+      "college": "Katherynfort",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 57993960,
+      "capHit": 1177777,
+      "deadCap": 7787353,
+      "signingBonus": 589869,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 67,
+      "schemeFit": 81,
+      "speed": 84,
+      "acceleration": 73,
+      "agility": 82,
+      "strength": 79,
+      "tackle": 70,
+      "pursuit": 60,
+      "manCoverage": 55,
+      "zoneCoverage": 70,
+      "kickPower": 62,
+      "kickAccuracy": 51,
+      "catching": 86,
+      "routeRunning": 84,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 171,
+        "statB": 29
+      },
+      "career": {
+        "games": 93,
+        "statA": 4146,
+        "statB": 3422
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "TEN-LOLB-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Khalid Dooley",
+    "jerseyNumber": 53,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 314,
+      "college": "Mireyafield",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 22880178,
+      "capHit": 12308540,
+      "deadCap": 247214,
+      "signingBonus": 3782825,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 86,
+      "schemeFit": 71,
+      "speed": 73,
+      "acceleration": 83,
+      "agility": 88,
+      "strength": 78,
+      "tackle": 71,
+      "pursuit": 62,
+      "manCoverage": 62,
+      "zoneCoverage": 71,
+      "kickPower": 65,
+      "kickAccuracy": 51,
+      "catching": 76,
+      "routeRunning": 61,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 647,
+        "statB": 745
+      },
+      "career": {
+        "games": 98,
+        "statA": 1373,
+        "statB": 3184
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "TEN-LOLB-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "George Stracke",
+    "jerseyNumber": 27,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 197,
+      "college": "New Rylanhaven",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 33566206,
+      "capHit": 24956519,
+      "deadCap": 2729922,
+      "signingBonus": 14024223,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 83,
+      "speed": 77,
+      "acceleration": 74,
+      "agility": 71,
+      "strength": 94,
+      "tackle": 66,
+      "pursuit": 90,
+      "manCoverage": 64,
+      "zoneCoverage": 88,
+      "kickPower": 72,
+      "kickAccuracy": 95,
+      "catching": 64,
+      "routeRunning": 82,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 592,
+        "statB": 232
+      },
+      "career": {
+        "games": 40,
+        "statA": 4223,
+        "statB": 1034
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "TEN-MLB-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Ronan O'Connell",
+    "jerseyNumber": 7,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 224,
+      "college": "Port Pete",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 94699392,
+      "capHit": 3351495,
+      "deadCap": 1144337,
+      "signingBonus": 15538339,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 68,
+      "schemeFit": 71,
+      "speed": 72,
+      "acceleration": 78,
+      "agility": 89,
+      "strength": 67,
+      "tackle": 70,
+      "pursuit": 75,
+      "manCoverage": 74,
+      "zoneCoverage": 74,
+      "kickPower": 58,
+      "kickAccuracy": 76,
+      "catching": 55,
+      "routeRunning": 68,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 344,
+        "statB": 228
+      },
+      "career": {
+        "games": 101,
+        "statA": 2974,
+        "statB": 1794
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "TEN-MLB-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Liang Mayer",
+    "jerseyNumber": 87,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 186,
+      "college": "Cadenton",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 63513036,
+      "capHit": 19024303,
+      "deadCap": 3872858,
+      "signingBonus": 2142572,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 81,
+      "schemeFit": 72,
+      "speed": 76,
+      "acceleration": 92,
+      "agility": 81,
+      "strength": 61,
+      "tackle": 69,
+      "pursuit": 64,
+      "manCoverage": 90,
+      "zoneCoverage": 53,
+      "kickPower": 82,
+      "kickAccuracy": 73,
+      "catching": 95,
+      "routeRunning": 87,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 862,
+        "statB": 753
+      },
+      "career": {
+        "games": 114,
+        "statA": 2063,
+        "statB": 3368
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "TEN-ROLB-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Wei Funk",
+    "jerseyNumber": 69,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 254,
+      "college": "South Elbert",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 43516399,
+      "capHit": 20778450,
+      "deadCap": 2033232,
+      "signingBonus": 4467404,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 66,
+      "schemeFit": 85,
+      "speed": 71,
+      "acceleration": 80,
+      "agility": 77,
+      "strength": 93,
+      "tackle": 71,
+      "pursuit": 95,
+      "manCoverage": 83,
+      "zoneCoverage": 51,
+      "kickPower": 75,
+      "kickAccuracy": 81,
+      "catching": 68,
+      "routeRunning": 63,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 778,
+        "statB": 865
+      },
+      "career": {
+        "games": 68,
+        "statA": 2774,
+        "statB": 3297
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "TEN-ROLB-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Joseph Dooley",
+    "jerseyNumber": 85,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 212,
+      "college": "Gorczanyfurt",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 119879415,
+      "capHit": 4036790,
+      "deadCap": 5602150,
+      "signingBonus": 9811477,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 67,
+      "schemeFit": 80,
+      "speed": 74,
+      "acceleration": 81,
+      "agility": 91,
+      "strength": 91,
+      "tackle": 70,
+      "pursuit": 64,
+      "manCoverage": 62,
+      "zoneCoverage": 69,
+      "kickPower": 82,
+      "kickAccuracy": 88,
+      "catching": 52,
+      "routeRunning": 82,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 519,
+        "statB": 363
+      },
+      "career": {
+        "games": 10,
+        "statA": 3011,
+        "statB": 2441
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "TEN-CB-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Andrew Mayert",
+    "jerseyNumber": 23,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 322,
+      "college": "Casimirhaven",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 29818506,
+      "capHit": 19062224,
+      "deadCap": 6374997,
+      "signingBonus": 5131889,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 62,
+      "schemeFit": 79,
+      "speed": 70,
+      "acceleration": 88,
+      "agility": 74,
+      "strength": 83,
+      "tackle": 91,
+      "pursuit": 75,
+      "manCoverage": 87,
+      "zoneCoverage": 55,
+      "kickPower": 79,
+      "kickAccuracy": 92,
+      "catching": 63,
+      "routeRunning": 62,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 773,
+        "statB": 149
+      },
+      "career": {
+        "games": 26,
+        "statA": 3969,
+        "statB": 4098
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "TEN-CB-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Raul Davis",
+    "jerseyNumber": 66,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'4\"",
+      "weight": 189,
+      "college": "Lynchbury",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 117554615,
+      "capHit": 1310550,
+      "deadCap": 4938103,
+      "signingBonus": 7668001,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 61,
+      "schemeFit": 94,
+      "speed": 75,
+      "acceleration": 81,
+      "agility": 81,
+      "strength": 78,
+      "tackle": 93,
+      "pursuit": 70,
+      "manCoverage": 76,
+      "zoneCoverage": 70,
+      "kickPower": 93,
+      "kickAccuracy": 63,
+      "catching": 74,
+      "routeRunning": 70,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 148,
+        "statB": 666
+      },
+      "career": {
+        "games": 32,
+        "statA": 1341,
+        "statB": 610
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "TEN-CB-3",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Hassan Kertzmann",
+    "jerseyNumber": 26,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "5'10\"",
+      "weight": 205,
+      "college": "Keeblerton",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 22723263,
+      "capHit": 20381376,
+      "deadCap": 6207422,
+      "signingBonus": 15404959,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 93,
+      "schemeFit": 82,
+      "speed": 87,
+      "acceleration": 90,
+      "agility": 87,
+      "strength": 69,
+      "tackle": 65,
+      "pursuit": 84,
+      "manCoverage": 89,
+      "zoneCoverage": 71,
+      "kickPower": 78,
+      "kickAccuracy": 93,
+      "catching": 53,
+      "routeRunning": 67,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 829,
+        "statB": 371
+      },
+      "career": {
+        "games": 5,
+        "statA": 2446,
+        "statB": 3315
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "TEN-CB-4",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Aaron Beier",
+    "jerseyNumber": 39,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 288,
+      "college": "Novi",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 39152867,
+      "capHit": 10807859,
+      "deadCap": 8086001,
+      "signingBonus": 18050317,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 76,
+      "speed": 74,
+      "acceleration": 77,
+      "agility": 82,
+      "strength": 68,
+      "tackle": 75,
+      "pursuit": 85,
+      "manCoverage": 74,
+      "zoneCoverage": 70,
+      "kickPower": 76,
+      "kickAccuracy": 60,
+      "catching": 93,
+      "routeRunning": 68,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 454,
+        "statB": 791
+      },
+      "career": {
+        "games": 24,
+        "statA": 936,
+        "statB": 1350
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "TEN-CB-5",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Andrei Ondricka",
+    "jerseyNumber": 65,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 304,
+      "college": "West Trinity",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 77397126,
+      "capHit": 17736777,
+      "deadCap": 1006087,
+      "signingBonus": 15463747,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 83,
+      "schemeFit": 91,
+      "speed": 71,
+      "acceleration": 79,
+      "agility": 78,
+      "strength": 73,
+      "tackle": 84,
+      "pursuit": 72,
+      "manCoverage": 74,
+      "zoneCoverage": 79,
+      "kickPower": 81,
+      "kickAccuracy": 93,
+      "catching": 66,
+      "routeRunning": 51,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 483,
+        "statB": 157
+      },
+      "career": {
+        "games": 85,
+        "statA": 3239,
+        "statB": 1129
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "TEN-CB-6",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Seth Wintheiser",
+    "jerseyNumber": 58,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 224,
+      "college": "North Burnice",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 107958080,
+      "capHit": 5860484,
+      "deadCap": 5946744,
+      "signingBonus": 9257376,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 71,
+      "schemeFit": 94,
+      "speed": 72,
+      "acceleration": 80,
+      "agility": 93,
+      "strength": 73,
+      "tackle": 64,
+      "pursuit": 82,
+      "manCoverage": 60,
+      "zoneCoverage": 55,
+      "kickPower": 54,
+      "kickAccuracy": 84,
+      "catching": 66,
+      "routeRunning": 75,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 85,
+        "statB": 87
+      },
+      "career": {
+        "games": 79,
+        "statA": 1535,
+        "statB": 2807
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "TEN-FS-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Cooper Hermiston",
+    "jerseyNumber": 6,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 255,
+      "college": "Kaylinside",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 76827002,
+      "capHit": 20867382,
+      "deadCap": 8098106,
+      "signingBonus": 9067863,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 84,
+      "schemeFit": 88,
+      "speed": 83,
+      "acceleration": 81,
+      "agility": 91,
+      "strength": 73,
+      "tackle": 91,
+      "pursuit": 95,
+      "manCoverage": 55,
+      "zoneCoverage": 88,
+      "kickPower": 60,
+      "kickAccuracy": 77,
+      "catching": 59,
+      "routeRunning": 79,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 34,
+        "statB": 258
+      },
+      "career": {
+        "games": 113,
+        "statA": 1463,
+        "statB": 1157
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "TEN-FS-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Lucas Feeney",
+    "jerseyNumber": 37,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 288,
+      "college": "Watersbury",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 2703413,
+      "capHit": 22514100,
+      "deadCap": 9016693,
+      "signingBonus": 3118413,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 78,
+      "speed": 78,
+      "acceleration": 95,
+      "agility": 81,
+      "strength": 87,
+      "tackle": 84,
+      "pursuit": 88,
+      "manCoverage": 89,
+      "zoneCoverage": 56,
+      "kickPower": 80,
+      "kickAccuracy": 77,
+      "catching": 92,
+      "routeRunning": 50,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 53,
+        "statB": 362
+      },
+      "career": {
+        "games": 9,
+        "statA": 2595,
+        "statB": 172
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "TEN-SS-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Sora Farrell",
+    "jerseyNumber": 72,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 296,
+      "college": "Millcreek",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 15651936,
+      "capHit": 12106066,
+      "deadCap": 4950805,
+      "signingBonus": 15072193,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 81,
+      "schemeFit": 80,
+      "speed": 95,
+      "acceleration": 84,
+      "agility": 90,
+      "strength": 70,
+      "tackle": 76,
+      "pursuit": 89,
+      "manCoverage": 63,
+      "zoneCoverage": 68,
+      "kickPower": 87,
+      "kickAccuracy": 73,
+      "catching": 95,
+      "routeRunning": 69,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 655,
+        "statB": 404
+      },
+      "career": {
+        "games": 53,
+        "statA": 2433,
+        "statB": 3143
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "TEN-SS-2",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Samir Emmerich",
+    "jerseyNumber": 20,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 207,
+      "college": "Haagburgh",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 68715863,
+      "capHit": 22120914,
+      "deadCap": 4920295,
+      "signingBonus": 12786997,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 85,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 72,
+      "agility": 83,
+      "strength": 77,
+      "tackle": 82,
+      "pursuit": 70,
+      "manCoverage": 79,
+      "zoneCoverage": 50,
+      "kickPower": 76,
+      "kickAccuracy": 50,
+      "catching": 56,
+      "routeRunning": 67,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 679,
+        "statB": 83
+      },
+      "career": {
+        "games": 75,
+        "statA": 1655,
+        "statB": 1062
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "TEN-K-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "William Bode",
+    "jerseyNumber": 5,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 234,
+      "college": "West Brookboro",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 87737321,
+      "capHit": 10207429,
+      "deadCap": 5853121,
+      "signingBonus": 14091123,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 75,
+      "schemeFit": 70,
+      "speed": 87,
+      "acceleration": 86,
+      "agility": 93,
+      "strength": 61,
+      "tackle": 93,
+      "pursuit": 93,
+      "manCoverage": 81,
+      "zoneCoverage": 83,
+      "kickPower": 74,
+      "kickAccuracy": 67,
+      "catching": 82,
+      "routeRunning": 62,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 113,
+        "statB": 41
+      },
+      "career": {
+        "games": 119,
+        "statA": 3952,
+        "statB": 633
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "TEN-P-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Seamus Turcotte",
+    "jerseyNumber": 59,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 293,
+      "college": "Port Tesshaven",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 44735487,
+      "capHit": 21244098,
+      "deadCap": 4349819,
+      "signingBonus": 17127198,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 86,
+      "schemeFit": 94,
+      "speed": 71,
+      "acceleration": 80,
+      "agility": 75,
+      "strength": 81,
+      "tackle": 87,
+      "pursuit": 92,
+      "manCoverage": 50,
+      "zoneCoverage": 63,
+      "kickPower": 77,
+      "kickAccuracy": 91,
+      "catching": 71,
+      "routeRunning": 60,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 193,
+        "statB": 895
+      },
+      "career": {
+        "games": 30,
+        "statA": 3484,
+        "statB": 96
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "TEN-LS-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Ren Flatley",
+    "jerseyNumber": 87,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 225,
+      "college": "North Abigalebury",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 33443474,
+      "capHit": 876682,
+      "deadCap": 7950165,
+      "signingBonus": 16795061,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 92,
+      "speed": 89,
+      "acceleration": 82,
+      "agility": 70,
+      "strength": 63,
+      "tackle": 63,
+      "pursuit": 91,
+      "manCoverage": 83,
+      "zoneCoverage": 90,
+      "kickPower": 79,
+      "kickAccuracy": 82,
+      "catching": 79,
+      "routeRunning": 56,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 483,
+        "statB": 760
+      },
+      "career": {
+        "games": 110,
+        "statA": 4640,
+        "statB": 3385
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "TEN-KR-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Raul Aufderhar",
+    "jerseyNumber": 56,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 230,
+      "college": "North Ken",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 102179466,
+      "capHit": 11247668,
+      "deadCap": 993846,
+      "signingBonus": 12478742,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 65,
+      "schemeFit": 95,
+      "speed": 85,
+      "acceleration": 74,
+      "agility": 89,
+      "strength": 84,
+      "tackle": 63,
+      "pursuit": 61,
+      "manCoverage": 69,
+      "zoneCoverage": 58,
+      "kickPower": 52,
+      "kickAccuracy": 89,
+      "catching": 68,
+      "routeRunning": 62,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 131,
+        "statB": 673
+      },
+      "career": {
+        "games": 70,
+        "statA": 4039,
+        "statB": 2556
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "TEN-PR-1",
+    "team": "TEN",
+    "teamName": "TEN",
+    "name": "Joshua Zulauf",
+    "jerseyNumber": 17,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 229,
+      "college": "Rahsaanberg",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 56266807,
+      "capHit": 19418273,
+      "deadCap": 7804341,
+      "signingBonus": 17330184,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 75,
+      "schemeFit": 81,
+      "speed": 92,
+      "acceleration": 93,
+      "agility": 90,
+      "strength": 81,
+      "tackle": 84,
+      "pursuit": 82,
+      "manCoverage": 80,
+      "zoneCoverage": 68,
+      "kickPower": 58,
+      "kickAccuracy": 55,
+      "catching": 76,
+      "routeRunning": 73,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 891,
+        "statB": 402
+      },
+      "career": {
+        "games": 30,
+        "statA": 4812,
+        "statB": 3077
+      }
+    },
+    "photo": "/player_faces/32.png"
+  }
 ]

@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  79,
-        "name":  "Chase Maddox",
-        "id":  "CAR-QB0"
+[
+  {
+    "id": "CAR-QB-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Patrick Murray",
+    "jerseyNumber": 23,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 265,
+      "college": "Alekchester",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  82,
-        "name":  "Xavier Douglas",
-        "id":  "CAR-RB1"
+    "contract": {
+      "years": 3,
+      "totalValue": 116599560,
+      "capHit": 23622278,
+      "deadCap": 6713881,
+      "signingBonus": 4185021,
+      "expiresYear": 2029,
+      "contractType": "Standard"
     },
-    {
-        "position":  "WR",
-        "overall":  77,
-        "name":  "Xavier Harrington",
-        "id":  "CAR-WR2"
+    "ratings": {
+      "overall": 70,
+      "potential": 72,
+      "schemeFit": 72,
+      "speed": 89,
+      "acceleration": 93,
+      "agility": 92,
+      "strength": 84,
+      "tackle": 85,
+      "pursuit": 69,
+      "manCoverage": 70,
+      "zoneCoverage": 61,
+      "kickPower": 58,
+      "kickAccuracy": 71,
+      "catching": 72,
+      "routeRunning": 75,
+      "release": 50,
+      "throwPower": 73,
+      "shortAccuracy": 84,
+      "mediumAccuracy": 76,
+      "deepAccuracy": 72
     },
-    {
-        "position":  "LB",
-        "overall":  83,
-        "name":  "Malik Coleman",
-        "id":  "CAR-LB3"
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
     },
-    {
-        "position":  "CB",
-        "overall":  70,
-        "name":  "Logan Maddox",
-        "id":  "CAR-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 371,
+        "statB": 934
+      },
+      "career": {
+        "games": 87,
+        "statA": 2863,
+        "statB": 252
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "CAR-QB-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Sergei Stroman",
+    "jerseyNumber": 32,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 306,
+      "college": "Schuylerboro",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 16963135,
+      "capHit": 6146872,
+      "deadCap": 826523,
+      "signingBonus": 15670393,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 71,
+      "schemeFit": 91,
+      "speed": 91,
+      "acceleration": 78,
+      "agility": 74,
+      "strength": 62,
+      "tackle": 92,
+      "pursuit": 88,
+      "manCoverage": 67,
+      "zoneCoverage": 80,
+      "kickPower": 53,
+      "kickAccuracy": 74,
+      "catching": 61,
+      "routeRunning": 70,
+      "release": 82,
+      "throwPower": 94,
+      "shortAccuracy": 89,
+      "mediumAccuracy": 85,
+      "deepAccuracy": 87
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 863,
+        "statB": 130
+      },
+      "career": {
+        "games": 43,
+        "statA": 354,
+        "statB": 2984
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "CAR-QB-3",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Seth Marvin",
+    "jerseyNumber": 37,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "5'10\"",
+      "weight": 302,
+      "college": "Samanthaport",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 35376056,
+      "capHit": 15602734,
+      "deadCap": 2248953,
+      "signingBonus": 11316875,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 94,
+      "speed": 87,
+      "acceleration": 87,
+      "agility": 78,
+      "strength": 94,
+      "tackle": 65,
+      "pursuit": 77,
+      "manCoverage": 74,
+      "zoneCoverage": 60,
+      "kickPower": 61,
+      "kickAccuracy": 87,
+      "catching": 87,
+      "routeRunning": 52,
+      "release": 90,
+      "throwPower": 92,
+      "shortAccuracy": 60,
+      "mediumAccuracy": 64,
+      "deepAccuracy": 82
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 690,
+        "statB": 500
+      },
+      "career": {
+        "games": 63,
+        "statA": 3398,
+        "statB": 4397
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "CAR-RB-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Brendan Veum",
+    "jerseyNumber": 95,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 305,
+      "college": "Bismarck",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 91729610,
+      "capHit": 551627,
+      "deadCap": 2526430,
+      "signingBonus": 16593806,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 79,
+      "schemeFit": 78,
+      "speed": 91,
+      "acceleration": 82,
+      "agility": 78,
+      "strength": 90,
+      "tackle": 85,
+      "pursuit": 72,
+      "manCoverage": 90,
+      "zoneCoverage": 67,
+      "kickPower": 50,
+      "kickAccuracy": 94,
+      "catching": 52,
+      "routeRunning": 52,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 746,
+        "statB": 209
+      },
+      "career": {
+        "games": 87,
+        "statA": 899,
+        "statB": 2681
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "CAR-RB-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Julian Bruen",
+    "jerseyNumber": 80,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'11\"",
+      "weight": 313,
+      "college": "West Estefaniashire",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 9412345,
+      "capHit": 7476059,
+      "deadCap": 369081,
+      "signingBonus": 16581781,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 66,
+      "schemeFit": 80,
+      "speed": 94,
+      "acceleration": 80,
+      "agility": 72,
+      "strength": 76,
+      "tackle": 86,
+      "pursuit": 84,
+      "manCoverage": 80,
+      "zoneCoverage": 84,
+      "kickPower": 89,
+      "kickAccuracy": 89,
+      "catching": 72,
+      "routeRunning": 90,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 871,
+        "statB": 242
+      },
+      "career": {
+        "games": 112,
+        "statA": 67,
+        "statB": 4333
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "CAR-RB-3",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Esteban Pouros",
+    "jerseyNumber": 59,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 224,
+      "college": "Hammond",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 44584546,
+      "capHit": 16011987,
+      "deadCap": 7534325,
+      "signingBonus": 8332851,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 68,
+      "schemeFit": 80,
+      "speed": 84,
+      "acceleration": 79,
+      "agility": 87,
+      "strength": 66,
+      "tackle": 85,
+      "pursuit": 94,
+      "manCoverage": 85,
+      "zoneCoverage": 65,
+      "kickPower": 76,
+      "kickAccuracy": 89,
+      "catching": 53,
+      "routeRunning": 67,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 120,
+        "statB": 76
+      },
+      "career": {
+        "games": 67,
+        "statA": 1896,
+        "statB": 1775
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "CAR-RB-4",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Juan Champlin",
+    "jerseyNumber": 86,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 30,
+      "height": "6'1\"",
+      "weight": 303,
+      "college": "Port Coy",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 95020630,
+      "capHit": 19364755,
+      "deadCap": 3431341,
+      "signingBonus": 4306458,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 83,
+      "schemeFit": 94,
+      "speed": 93,
+      "acceleration": 81,
+      "agility": 94,
+      "strength": 86,
+      "tackle": 94,
+      "pursuit": 89,
+      "manCoverage": 76,
+      "zoneCoverage": 72,
+      "kickPower": 70,
+      "kickAccuracy": 57,
+      "catching": 62,
+      "routeRunning": 71,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 393,
+        "statB": 52
+      },
+      "career": {
+        "games": 116,
+        "statA": 65,
+        "statB": 428
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "CAR-WR-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Frank Wiza",
+    "jerseyNumber": 74,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 230,
+      "college": "Bergeton",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 115098647,
+      "capHit": 22045083,
+      "deadCap": 737664,
+      "signingBonus": 11325091,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 75,
+      "speed": 73,
+      "acceleration": 70,
+      "agility": 71,
+      "strength": 81,
+      "tackle": 60,
+      "pursuit": 74,
+      "manCoverage": 84,
+      "zoneCoverage": 65,
+      "kickPower": 76,
+      "kickAccuracy": 50,
+      "catching": 70,
+      "routeRunning": 67,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 542,
+        "statB": 870
+      },
+      "career": {
+        "games": 43,
+        "statA": 3816,
+        "statB": 338
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "CAR-WR-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Caleb Mraz",
+    "jerseyNumber": 33,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 224,
+      "college": "Sarasota",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 3786047,
+      "capHit": 7430398,
+      "deadCap": 8617172,
+      "signingBonus": 19198524,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 68,
+      "schemeFit": 87,
+      "speed": 79,
+      "acceleration": 76,
+      "agility": 79,
+      "strength": 74,
+      "tackle": 60,
+      "pursuit": 65,
+      "manCoverage": 86,
+      "zoneCoverage": 89,
+      "kickPower": 68,
+      "kickAccuracy": 89,
+      "catching": 66,
+      "routeRunning": 87,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 395,
+        "statB": 704
+      },
+      "career": {
+        "games": 73,
+        "statA": 2680,
+        "statB": 972
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "CAR-WR-3",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Devin Muller",
+    "jerseyNumber": 50,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 27,
+      "height": "6'4\"",
+      "weight": 276,
+      "college": "Lake Sadiefield",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 109715965,
+      "capHit": 8131063,
+      "deadCap": 5765182,
+      "signingBonus": 9970028,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 89,
+      "schemeFit": 91,
+      "speed": 78,
+      "acceleration": 85,
+      "agility": 92,
+      "strength": 69,
+      "tackle": 77,
+      "pursuit": 66,
+      "manCoverage": 90,
+      "zoneCoverage": 87,
+      "kickPower": 77,
+      "kickAccuracy": 53,
+      "catching": 51,
+      "routeRunning": 56,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 376,
+        "statB": 486
+      },
+      "career": {
+        "games": 107,
+        "statA": 2084,
+        "statB": 2728
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "CAR-WR-4",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Matteo Parisian",
+    "jerseyNumber": 80,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 240,
+      "college": "Port Gunnertown",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 41597004,
+      "capHit": 10646087,
+      "deadCap": 6451342,
+      "signingBonus": 4970349,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 78,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 88,
+      "agility": 70,
+      "strength": 72,
+      "tackle": 91,
+      "pursuit": 89,
+      "manCoverage": 90,
+      "zoneCoverage": 77,
+      "kickPower": 80,
+      "kickAccuracy": 87,
+      "catching": 61,
+      "routeRunning": 69,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 872,
+        "statB": 946
+      },
+      "career": {
+        "games": 38,
+        "statA": 261,
+        "statB": 4903
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "CAR-WR-5",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Quentin Stanton",
+    "jerseyNumber": 40,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 223,
+      "college": "Louisville/Jefferson County",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 35276267,
+      "capHit": 19613867,
+      "deadCap": 7483499,
+      "signingBonus": 14820341,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 69,
+      "schemeFit": 77,
+      "speed": 94,
+      "acceleration": 86,
+      "agility": 86,
+      "strength": 76,
+      "tackle": 78,
+      "pursuit": 89,
+      "manCoverage": 88,
+      "zoneCoverage": 75,
+      "kickPower": 90,
+      "kickAccuracy": 82,
+      "catching": 56,
+      "routeRunning": 62,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 338,
+        "statB": 25
+      },
+      "career": {
+        "games": 8,
+        "statA": 3135,
+        "statB": 1326
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "CAR-WR-6",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "William Tromp",
+    "jerseyNumber": 30,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 189,
+      "college": "East Philipstad",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 50090601,
+      "capHit": 14196362,
+      "deadCap": 9112838,
+      "signingBonus": 14830719,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 70,
+      "schemeFit": 80,
+      "speed": 86,
+      "acceleration": 95,
+      "agility": 77,
+      "strength": 79,
+      "tackle": 63,
+      "pursuit": 88,
+      "manCoverage": 53,
+      "zoneCoverage": 56,
+      "kickPower": 61,
+      "kickAccuracy": 80,
+      "catching": 93,
+      "routeRunning": 73,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 169,
+        "statB": 166
+      },
+      "career": {
+        "games": 55,
+        "statA": 4054,
+        "statB": 1345
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "CAR-WR-7",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Paul Lemke",
+    "jerseyNumber": 51,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 193,
+      "college": "Santa Maria",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 55498841,
+      "capHit": 11082778,
+      "deadCap": 3746541,
+      "signingBonus": 10203275,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 82,
+      "speed": 91,
+      "acceleration": 79,
+      "agility": 92,
+      "strength": 61,
+      "tackle": 73,
+      "pursuit": 78,
+      "manCoverage": 90,
+      "zoneCoverage": 86,
+      "kickPower": 90,
+      "kickAccuracy": 86,
+      "catching": 55,
+      "routeRunning": 81,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 64,
+        "statB": 150
+      },
+      "career": {
+        "games": 53,
+        "statA": 4795,
+        "statB": 3158
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "CAR-TE-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Noah Stokes-Swift",
+    "jerseyNumber": 82,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 291,
+      "college": "North Velva",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 70900654,
+      "capHit": 24216690,
+      "deadCap": 2796025,
+      "signingBonus": 17983579,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 79,
+      "speed": 90,
+      "acceleration": 84,
+      "agility": 95,
+      "strength": 91,
+      "tackle": 92,
+      "pursuit": 74,
+      "manCoverage": 70,
+      "zoneCoverage": 61,
+      "kickPower": 67,
+      "kickAccuracy": 68,
+      "catching": 71,
+      "routeRunning": 57,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 260,
+        "statB": 527
+      },
+      "career": {
+        "games": 34,
+        "statA": 1978,
+        "statB": 2815
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "CAR-TE-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Hiro Kshlerin",
+    "jerseyNumber": 27,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'4\"",
+      "weight": 298,
+      "college": "Huntsville",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 58983953,
+      "capHit": 9937297,
+      "deadCap": 276411,
+      "signingBonus": 16736335,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 83,
+      "schemeFit": 74,
+      "speed": 83,
+      "acceleration": 72,
+      "agility": 77,
+      "strength": 87,
+      "tackle": 62,
+      "pursuit": 65,
+      "manCoverage": 71,
+      "zoneCoverage": 50,
+      "kickPower": 88,
+      "kickAccuracy": 52,
+      "catching": 75,
+      "routeRunning": 89,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 644,
+        "statB": 324
+      },
+      "career": {
+        "games": 57,
+        "statA": 2170,
+        "statB": 3087
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "CAR-TE-3",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Brandon Williamson",
+    "jerseyNumber": 13,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "6'1\"",
+      "weight": 208,
+      "college": "Lake Amariberg",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 45346349,
+      "capHit": 1104140,
+      "deadCap": 204386,
+      "signingBonus": 1139965,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 83,
+      "schemeFit": 91,
+      "speed": 78,
+      "acceleration": 76,
+      "agility": 79,
+      "strength": 92,
+      "tackle": 64,
+      "pursuit": 73,
+      "manCoverage": 85,
+      "zoneCoverage": 86,
+      "kickPower": 89,
+      "kickAccuracy": 53,
+      "catching": 94,
+      "routeRunning": 90,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 986,
+        "statB": 939
+      },
+      "career": {
+        "games": 44,
+        "statA": 3742,
+        "statB": 2167
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "CAR-LT-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Xavier Halvorson",
+    "jerseyNumber": 46,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 199,
+      "college": "Pontiac",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 90174928,
+      "capHit": 23422771,
+      "deadCap": 7864569,
+      "signingBonus": 1499276,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 72,
+      "schemeFit": 82,
+      "speed": 75,
+      "acceleration": 89,
+      "agility": 80,
+      "strength": 77,
+      "tackle": 94,
+      "pursuit": 60,
+      "manCoverage": 78,
+      "zoneCoverage": 72,
+      "kickPower": 76,
+      "kickAccuracy": 54,
+      "catching": 75,
+      "routeRunning": 51,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 811,
+        "statB": 682
+      },
+      "career": {
+        "games": 64,
+        "statA": 3038,
+        "statB": 2676
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "CAR-LT-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Landon Mraz",
+    "jerseyNumber": 87,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 241,
+      "college": "Vincenzobury",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 96954535,
+      "capHit": 13649097,
+      "deadCap": 1050164,
+      "signingBonus": 14300615,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 66,
+      "schemeFit": 79,
+      "speed": 79,
+      "acceleration": 82,
+      "agility": 73,
+      "strength": 61,
+      "tackle": 84,
+      "pursuit": 65,
+      "manCoverage": 85,
+      "zoneCoverage": 68,
+      "kickPower": 54,
+      "kickAccuracy": 53,
+      "catching": 62,
+      "routeRunning": 67,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 346,
+        "statB": 348
+      },
+      "career": {
+        "games": 112,
+        "statA": 2930,
+        "statB": 4040
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "CAR-LG-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Bryan Kohler",
+    "jerseyNumber": 18,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 200,
+      "college": "Fort Laurystad",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 58984704,
+      "capHit": 17525296,
+      "deadCap": 5000258,
+      "signingBonus": 5145180,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 77,
+      "speed": 86,
+      "acceleration": 81,
+      "agility": 85,
+      "strength": 78,
+      "tackle": 61,
+      "pursuit": 78,
+      "manCoverage": 59,
+      "zoneCoverage": 56,
+      "kickPower": 61,
+      "kickAccuracy": 76,
+      "catching": 56,
+      "routeRunning": 79,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 232,
+        "statB": 956
+      },
+      "career": {
+        "games": 109,
+        "statA": 4114,
+        "statB": 3337
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "CAR-LG-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Russell Stoltenberg",
+    "jerseyNumber": 90,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 293,
+      "college": "Jaskolskimouth",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 35251478,
+      "capHit": 3074825,
+      "deadCap": 8781090,
+      "signingBonus": 17139066,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 81,
+      "speed": 75,
+      "acceleration": 89,
+      "agility": 93,
+      "strength": 90,
+      "tackle": 69,
+      "pursuit": 82,
+      "manCoverage": 79,
+      "zoneCoverage": 79,
+      "kickPower": 54,
+      "kickAccuracy": 94,
+      "catching": 60,
+      "routeRunning": 95,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 92,
+        "statB": 163
+      },
+      "career": {
+        "games": 91,
+        "statA": 1067,
+        "statB": 2885
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "CAR-C-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Leon Olson",
+    "jerseyNumber": 56,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 194,
+      "college": "Port Wilhelminetown",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 15165474,
+      "capHit": 5044142,
+      "deadCap": 1273261,
+      "signingBonus": 1978622,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 81,
+      "schemeFit": 93,
+      "speed": 89,
+      "acceleration": 90,
+      "agility": 89,
+      "strength": 80,
+      "tackle": 75,
+      "pursuit": 65,
+      "manCoverage": 50,
+      "zoneCoverage": 57,
+      "kickPower": 80,
+      "kickAccuracy": 88,
+      "catching": 68,
+      "routeRunning": 66,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 841,
+        "statB": 788
+      },
+      "career": {
+        "games": 46,
+        "statA": 4843,
+        "statB": 4036
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "CAR-C-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Jacob Treutel",
+    "jerseyNumber": 68,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 246,
+      "college": "Erdmanhaven",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 83673515,
+      "capHit": 24044313,
+      "deadCap": 5397473,
+      "signingBonus": 11098073,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 65,
+      "schemeFit": 84,
+      "speed": 94,
+      "acceleration": 72,
+      "agility": 72,
+      "strength": 73,
+      "tackle": 92,
+      "pursuit": 87,
+      "manCoverage": 68,
+      "zoneCoverage": 72,
+      "kickPower": 81,
+      "kickAccuracy": 56,
+      "catching": 68,
+      "routeRunning": 52,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 430,
+        "statB": 709
+      },
+      "career": {
+        "games": 28,
+        "statA": 1863,
+        "statB": 3139
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "CAR-RG-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Jeffrey Howe",
+    "jerseyNumber": 59,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 306,
+      "college": "Lake Danika",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 118683719,
+      "capHit": 6012160,
+      "deadCap": 9459295,
+      "signingBonus": 2949902,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 89,
+      "speed": 83,
+      "acceleration": 71,
+      "agility": 81,
+      "strength": 67,
+      "tackle": 82,
+      "pursuit": 63,
+      "manCoverage": 62,
+      "zoneCoverage": 57,
+      "kickPower": 78,
+      "kickAccuracy": 95,
+      "catching": 91,
+      "routeRunning": 84,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 508,
+        "statB": 521
+      },
+      "career": {
+        "games": 111,
+        "statA": 4340,
+        "statB": 3993
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "CAR-RG-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Johnny Heller",
+    "jerseyNumber": 44,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'2\"",
+      "weight": 200,
+      "college": "Treutelside",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 113221671,
+      "capHit": 10958729,
+      "deadCap": 6704484,
+      "signingBonus": 18471399,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 88,
+      "schemeFit": 71,
+      "speed": 87,
+      "acceleration": 72,
+      "agility": 81,
+      "strength": 60,
+      "tackle": 79,
+      "pursuit": 71,
+      "manCoverage": 62,
+      "zoneCoverage": 51,
+      "kickPower": 59,
+      "kickAccuracy": 95,
+      "catching": 52,
+      "routeRunning": 55,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 145,
+        "statB": 213
+      },
+      "career": {
+        "games": 106,
+        "statA": 4206,
+        "statB": 1929
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "CAR-RT-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Dennis Conn",
+    "jerseyNumber": 38,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 225,
+      "college": "Fort Alphonsostead",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 15142966,
+      "capHit": 22149312,
+      "deadCap": 7481392,
+      "signingBonus": 709836,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 70,
+      "schemeFit": 73,
+      "speed": 95,
+      "acceleration": 92,
+      "agility": 83,
+      "strength": 92,
+      "tackle": 83,
+      "pursuit": 95,
+      "manCoverage": 82,
+      "zoneCoverage": 59,
+      "kickPower": 83,
+      "kickAccuracy": 50,
+      "catching": 60,
+      "routeRunning": 51,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 600,
+        "statB": 942
+      },
+      "career": {
+        "games": 15,
+        "statA": 318,
+        "statB": 1910
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "CAR-RT-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Zaid Haley-Barrows",
+    "jerseyNumber": 96,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 233,
+      "college": "Lebsackworth",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 98346862,
+      "capHit": 19549118,
+      "deadCap": 4328665,
+      "signingBonus": 6164729,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 83,
+      "schemeFit": 88,
+      "speed": 83,
+      "acceleration": 81,
+      "agility": 78,
+      "strength": 79,
+      "tackle": 78,
+      "pursuit": 61,
+      "manCoverage": 74,
+      "zoneCoverage": 73,
+      "kickPower": 61,
+      "kickAccuracy": 86,
+      "catching": 54,
+      "routeRunning": 70,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 122,
+        "statB": 791
+      },
+      "career": {
+        "games": 16,
+        "statA": 3888,
+        "statB": 4130
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "CAR-LDE-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Andrew Koepp",
+    "jerseyNumber": 51,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 231,
+      "college": "Mission",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 101643268,
+      "capHit": 22769084,
+      "deadCap": 3926530,
+      "signingBonus": 5718035,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 78,
+      "schemeFit": 90,
+      "speed": 78,
+      "acceleration": 72,
+      "agility": 76,
+      "strength": 74,
+      "tackle": 87,
+      "pursuit": 64,
+      "manCoverage": 81,
+      "zoneCoverage": 85,
+      "kickPower": 88,
+      "kickAccuracy": 51,
+      "catching": 91,
+      "routeRunning": 54,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 894,
+        "statB": 356
+      },
+      "career": {
+        "games": 113,
+        "statA": 3713,
+        "statB": 2478
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "CAR-LDE-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Scott Stokes",
+    "jerseyNumber": 54,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 217,
+      "college": "Kiarratown",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 97329492,
+      "capHit": 5750898,
+      "deadCap": 976760,
+      "signingBonus": 1583067,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 81,
+      "schemeFit": 91,
+      "speed": 81,
+      "acceleration": 87,
+      "agility": 73,
+      "strength": 63,
+      "tackle": 61,
+      "pursuit": 80,
+      "manCoverage": 50,
+      "zoneCoverage": 84,
+      "kickPower": 91,
+      "kickAccuracy": 92,
+      "catching": 53,
+      "routeRunning": 78,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 993,
+        "statB": 760
+      },
+      "career": {
+        "games": 60,
+        "statA": 2138,
+        "statB": 549
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "CAR-RDE-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Zachary Schumm",
+    "jerseyNumber": 92,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 245,
+      "college": "Lexieworth",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 113065614,
+      "capHit": 23241093,
+      "deadCap": 3492511,
+      "signingBonus": 1012350,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 79,
+      "speed": 92,
+      "acceleration": 85,
+      "agility": 81,
+      "strength": 70,
+      "tackle": 63,
+      "pursuit": 73,
+      "manCoverage": 82,
+      "zoneCoverage": 84,
+      "kickPower": 54,
+      "kickAccuracy": 61,
+      "catching": 88,
+      "routeRunning": 80,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 107,
+        "statB": 282
+      },
+      "career": {
+        "games": 108,
+        "statA": 691,
+        "statB": 4152
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "CAR-RDE-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Jonathan Huels",
+    "jerseyNumber": 1,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 195,
+      "college": "Fort Antonettaworth",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 79527848,
+      "capHit": 4010987,
+      "deadCap": 4582884,
+      "signingBonus": 17741863,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 82,
+      "schemeFit": 76,
+      "speed": 80,
+      "acceleration": 70,
+      "agility": 79,
+      "strength": 71,
+      "tackle": 84,
+      "pursuit": 63,
+      "manCoverage": 55,
+      "zoneCoverage": 85,
+      "kickPower": 94,
+      "kickAccuracy": 69,
+      "catching": 76,
+      "routeRunning": 52,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 588,
+        "statB": 416
+      },
+      "career": {
+        "games": 5,
+        "statA": 1164,
+        "statB": 1109
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "CAR-DT-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Carter Huels",
+    "jerseyNumber": 3,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 330,
+      "college": "New Ara",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 97570641,
+      "capHit": 5280074,
+      "deadCap": 2868888,
+      "signingBonus": 746357,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 65,
+      "schemeFit": 77,
+      "speed": 81,
+      "acceleration": 79,
+      "agility": 71,
+      "strength": 68,
+      "tackle": 84,
+      "pursuit": 77,
+      "manCoverage": 70,
+      "zoneCoverage": 85,
+      "kickPower": 76,
+      "kickAccuracy": 61,
+      "catching": 83,
+      "routeRunning": 88,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 903,
+        "statB": 652
+      },
+      "career": {
+        "games": 88,
+        "statA": 4597,
+        "statB": 2352
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "CAR-DT-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Terry Rutherford",
+    "jerseyNumber": 94,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 198,
+      "college": "Krajcikburgh",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 15043396,
+      "capHit": 4059767,
+      "deadCap": 3728243,
+      "signingBonus": 17068313,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 69,
+      "schemeFit": 94,
+      "speed": 83,
+      "acceleration": 95,
+      "agility": 88,
+      "strength": 66,
+      "tackle": 83,
+      "pursuit": 70,
+      "manCoverage": 81,
+      "zoneCoverage": 62,
+      "kickPower": 57,
+      "kickAccuracy": 72,
+      "catching": 52,
+      "routeRunning": 86,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 961,
+        "statB": 664
+      },
+      "career": {
+        "games": 37,
+        "statA": 1713,
+        "statB": 4335
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "CAR-DT-3",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Julian Sawayn",
+    "jerseyNumber": 61,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 309,
+      "college": "West Vicenta",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 51960959,
+      "capHit": 20148314,
+      "deadCap": 3748891,
+      "signingBonus": 15509724,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 80,
+      "speed": 77,
+      "acceleration": 95,
+      "agility": 81,
+      "strength": 90,
+      "tackle": 84,
+      "pursuit": 75,
+      "manCoverage": 85,
+      "zoneCoverage": 89,
+      "kickPower": 94,
+      "kickAccuracy": 83,
+      "catching": 76,
+      "routeRunning": 54,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 259,
+        "statB": 818
+      },
+      "career": {
+        "games": 107,
+        "statA": 1709,
+        "statB": 4054
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "CAR-DT-4",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Charles Dickens",
+    "jerseyNumber": 16,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 227,
+      "college": "Bernhardshire",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 75258904,
+      "capHit": 14844558,
+      "deadCap": 8568741,
+      "signingBonus": 9968474,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 81,
+      "schemeFit": 80,
+      "speed": 71,
+      "acceleration": 74,
+      "agility": 92,
+      "strength": 63,
+      "tackle": 83,
+      "pursuit": 73,
+      "manCoverage": 88,
+      "zoneCoverage": 87,
+      "kickPower": 60,
+      "kickAccuracy": 73,
+      "catching": 91,
+      "routeRunning": 71,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 194,
+        "statB": 697
+      },
+      "career": {
+        "games": 30,
+        "statA": 4280,
+        "statB": 3109
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "CAR-LOLB-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Brian Bernier-Lemke",
+    "jerseyNumber": 76,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 220,
+      "college": "South Alexanne",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 36745830,
+      "capHit": 11187719,
+      "deadCap": 1649075,
+      "signingBonus": 18021774,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 75,
+      "schemeFit": 90,
+      "speed": 75,
+      "acceleration": 91,
+      "agility": 76,
+      "strength": 64,
+      "tackle": 62,
+      "pursuit": 68,
+      "manCoverage": 64,
+      "zoneCoverage": 79,
+      "kickPower": 83,
+      "kickAccuracy": 64,
+      "catching": 93,
+      "routeRunning": 53,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 656,
+        "statB": 335
+      },
+      "career": {
+        "games": 59,
+        "statA": 238,
+        "statB": 3030
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "CAR-LOLB-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Colton Upton",
+    "jerseyNumber": 69,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 300,
+      "college": "East Corene",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 23577798,
+      "capHit": 9308836,
+      "deadCap": 4196253,
+      "signingBonus": 13611556,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 77,
+      "schemeFit": 94,
+      "speed": 82,
+      "acceleration": 71,
+      "agility": 81,
+      "strength": 85,
+      "tackle": 78,
+      "pursuit": 82,
+      "manCoverage": 60,
+      "zoneCoverage": 70,
+      "kickPower": 77,
+      "kickAccuracy": 59,
+      "catching": 87,
+      "routeRunning": 59,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 583,
+        "statB": 976
+      },
+      "career": {
+        "games": 35,
+        "statA": 808,
+        "statB": 1221
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "CAR-MLB-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Terry Goyette",
+    "jerseyNumber": 98,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 255,
+      "college": "Johnson City",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 62133382,
+      "capHit": 24775828,
+      "deadCap": 9839613,
+      "signingBonus": 10660555,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 62,
+      "schemeFit": 83,
+      "speed": 79,
+      "acceleration": 73,
+      "agility": 89,
+      "strength": 67,
+      "tackle": 65,
+      "pursuit": 77,
+      "manCoverage": 53,
+      "zoneCoverage": 55,
+      "kickPower": 69,
+      "kickAccuracy": 68,
+      "catching": 80,
+      "routeRunning": 68,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 56,
+        "statB": 409
+      },
+      "career": {
+        "games": 84,
+        "statA": 3349,
+        "statB": 328
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "CAR-MLB-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Seth Cruickshank",
+    "jerseyNumber": 65,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 304,
+      "college": "North Helenstead",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 34193994,
+      "capHit": 24007706,
+      "deadCap": 4908642,
+      "signingBonus": 10480589,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 81,
+      "schemeFit": 77,
+      "speed": 76,
+      "acceleration": 88,
+      "agility": 81,
+      "strength": 70,
+      "tackle": 80,
+      "pursuit": 65,
+      "manCoverage": 88,
+      "zoneCoverage": 81,
+      "kickPower": 68,
+      "kickAccuracy": 60,
+      "catching": 84,
+      "routeRunning": 89,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 535,
+        "statB": 218
+      },
+      "career": {
+        "games": 59,
+        "statA": 3761,
+        "statB": 3867
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "CAR-ROLB-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Andrei O'Reilly",
+    "jerseyNumber": 58,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 204,
+      "college": "Bodeport",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 75666776,
+      "capHit": 2352168,
+      "deadCap": 9617989,
+      "signingBonus": 18915186,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 72,
+      "schemeFit": 72,
+      "speed": 88,
+      "acceleration": 76,
+      "agility": 86,
+      "strength": 80,
+      "tackle": 62,
+      "pursuit": 87,
+      "manCoverage": 66,
+      "zoneCoverage": 55,
+      "kickPower": 77,
+      "kickAccuracy": 61,
+      "catching": 71,
+      "routeRunning": 91,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 995,
+        "statB": 310
+      },
+      "career": {
+        "games": 53,
+        "statA": 1344,
+        "statB": 2752
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "CAR-ROLB-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Raul Roberts",
+    "jerseyNumber": 71,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 328,
+      "college": "Greenstead",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 113571145,
+      "capHit": 8349995,
+      "deadCap": 6946599,
+      "signingBonus": 4378722,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 68,
+      "schemeFit": 82,
+      "speed": 75,
+      "acceleration": 88,
+      "agility": 85,
+      "strength": 88,
+      "tackle": 83,
+      "pursuit": 94,
+      "manCoverage": 53,
+      "zoneCoverage": 61,
+      "kickPower": 72,
+      "kickAccuracy": 82,
+      "catching": 89,
+      "routeRunning": 66,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 554,
+        "statB": 946
+      },
+      "career": {
+        "games": 0,
+        "statA": 1577,
+        "statB": 3023
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "CAR-CB-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Parker Rodriguez",
+    "jerseyNumber": 20,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 244,
+      "college": "Green Bay",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 109430982,
+      "capHit": 2524640,
+      "deadCap": 1824385,
+      "signingBonus": 5510947,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 85,
+      "schemeFit": 91,
+      "speed": 84,
+      "acceleration": 92,
+      "agility": 80,
+      "strength": 92,
+      "tackle": 92,
+      "pursuit": 83,
+      "manCoverage": 68,
+      "zoneCoverage": 66,
+      "kickPower": 81,
+      "kickAccuracy": 90,
+      "catching": 63,
+      "routeRunning": 90,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 987,
+        "statB": 591
+      },
+      "career": {
+        "games": 79,
+        "statA": 3412,
+        "statB": 88
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "CAR-CB-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Dmitri Gutkowski",
+    "jerseyNumber": 56,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'5\"",
+      "weight": 227,
+      "college": "North Astridchester",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 33109474,
+      "capHit": 3715320,
+      "deadCap": 6035131,
+      "signingBonus": 3630096,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 82,
+      "schemeFit": 78,
+      "speed": 94,
+      "acceleration": 70,
+      "agility": 90,
+      "strength": 75,
+      "tackle": 85,
+      "pursuit": 78,
+      "manCoverage": 76,
+      "zoneCoverage": 61,
+      "kickPower": 95,
+      "kickAccuracy": 81,
+      "catching": 61,
+      "routeRunning": 77,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 207,
+        "statB": 296
+      },
+      "career": {
+        "games": 45,
+        "statA": 4390,
+        "statB": 4474
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "CAR-CB-3",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Zaid Barton",
+    "jerseyNumber": 47,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 309,
+      "college": "Shanahanbury",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 101618343,
+      "capHit": 15259223,
+      "deadCap": 7621647,
+      "signingBonus": 2388596,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 82,
+      "speed": 75,
+      "acceleration": 79,
+      "agility": 74,
+      "strength": 63,
+      "tackle": 71,
+      "pursuit": 70,
+      "manCoverage": 80,
+      "zoneCoverage": 57,
+      "kickPower": 55,
+      "kickAccuracy": 79,
+      "catching": 81,
+      "routeRunning": 82,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 714,
+        "statB": 489
+      },
+      "career": {
+        "games": 94,
+        "statA": 1077,
+        "statB": 2186
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "CAR-CB-4",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Douglas Kemmer",
+    "jerseyNumber": 44,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 291,
+      "college": "East Unatown",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 30839081,
+      "capHit": 6830685,
+      "deadCap": 5143191,
+      "signingBonus": 8505257,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 70,
+      "schemeFit": 81,
+      "speed": 87,
+      "acceleration": 83,
+      "agility": 91,
+      "strength": 67,
+      "tackle": 87,
+      "pursuit": 94,
+      "manCoverage": 71,
+      "zoneCoverage": 71,
+      "kickPower": 92,
+      "kickAccuracy": 94,
+      "catching": 53,
+      "routeRunning": 78,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 922,
+        "statB": 668
+      },
+      "career": {
+        "games": 90,
+        "statA": 1629,
+        "statB": 4024
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "CAR-CB-5",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Wayne Turcotte-Jerde",
+    "jerseyNumber": 93,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 33,
+      "height": "6'5\"",
+      "weight": 294,
+      "college": "Leannonworth",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 21344249,
+      "capHit": 1090717,
+      "deadCap": 1378500,
+      "signingBonus": 19985913,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 77,
+      "schemeFit": 78,
+      "speed": 70,
+      "acceleration": 88,
+      "agility": 94,
+      "strength": 76,
+      "tackle": 72,
+      "pursuit": 75,
+      "manCoverage": 71,
+      "zoneCoverage": 78,
+      "kickPower": 56,
+      "kickAccuracy": 62,
+      "catching": 83,
+      "routeRunning": 87,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 824,
+        "statB": 124
+      },
+      "career": {
+        "games": 111,
+        "statA": 4281,
+        "statB": 665
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "CAR-CB-6",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Diego Kautzer",
+    "jerseyNumber": 35,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 284,
+      "college": "Davonteboro",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 107954923,
+      "capHit": 19650984,
+      "deadCap": 4548130,
+      "signingBonus": 16721440,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 88,
+      "schemeFit": 81,
+      "speed": 82,
+      "acceleration": 76,
+      "agility": 82,
+      "strength": 81,
+      "tackle": 80,
+      "pursuit": 79,
+      "manCoverage": 86,
+      "zoneCoverage": 78,
+      "kickPower": 75,
+      "kickAccuracy": 66,
+      "catching": 56,
+      "routeRunning": 72,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 272,
+        "statB": 311
+      },
+      "career": {
+        "games": 96,
+        "statA": 2178,
+        "statB": 4426
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "CAR-FS-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Khalid Fritsch",
+    "jerseyNumber": 10,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 258,
+      "college": "Fort Gisselle",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 22859616,
+      "capHit": 6763896,
+      "deadCap": 3386864,
+      "signingBonus": 11174824,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 80,
+      "schemeFit": 83,
+      "speed": 85,
+      "acceleration": 85,
+      "agility": 75,
+      "strength": 83,
+      "tackle": 95,
+      "pursuit": 78,
+      "manCoverage": 77,
+      "zoneCoverage": 79,
+      "kickPower": 65,
+      "kickAccuracy": 93,
+      "catching": 54,
+      "routeRunning": 81,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 692,
+        "statB": 406
+      },
+      "career": {
+        "games": 20,
+        "statA": 704,
+        "statB": 2136
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "CAR-FS-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Cooper Barrows",
+    "jerseyNumber": 62,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 326,
+      "college": "Port Alysonstead",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 18694789,
+      "capHit": 18934376,
+      "deadCap": 9013807,
+      "signingBonus": 10198389,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 85,
+      "schemeFit": 75,
+      "speed": 84,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 67,
+      "tackle": 74,
+      "pursuit": 87,
+      "manCoverage": 64,
+      "zoneCoverage": 77,
+      "kickPower": 56,
+      "kickAccuracy": 76,
+      "catching": 95,
+      "routeRunning": 69,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 378,
+        "statB": 446
+      },
+      "career": {
+        "games": 61,
+        "statA": 3636,
+        "statB": 4352
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "CAR-SS-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Hayden Ritchie",
+    "jerseyNumber": 93,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'3\"",
+      "weight": 288,
+      "college": "Frankworth",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 51010554,
+      "capHit": 14399432,
+      "deadCap": 6928651,
+      "signingBonus": 17047535,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 88,
+      "schemeFit": 87,
+      "speed": 87,
+      "acceleration": 85,
+      "agility": 82,
+      "strength": 60,
+      "tackle": 82,
+      "pursuit": 70,
+      "manCoverage": 55,
+      "zoneCoverage": 64,
+      "kickPower": 95,
+      "kickAccuracy": 94,
+      "catching": 59,
+      "routeRunning": 80,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 690,
+        "statB": 446
+      },
+      "career": {
+        "games": 120,
+        "statA": 3436,
+        "statB": 1894
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "CAR-SS-2",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Santiago Considine",
+    "jerseyNumber": 24,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'5\"",
+      "weight": 228,
+      "college": "North Karley",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 21021222,
+      "capHit": 7288911,
+      "deadCap": 5824781,
+      "signingBonus": 10792595,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 81,
+      "speed": 95,
+      "acceleration": 90,
+      "agility": 91,
+      "strength": 77,
+      "tackle": 69,
+      "pursuit": 78,
+      "manCoverage": 83,
+      "zoneCoverage": 50,
+      "kickPower": 88,
+      "kickAccuracy": 51,
+      "catching": 83,
+      "routeRunning": 87,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 175,
+        "statB": 229
+      },
+      "career": {
+        "games": 108,
+        "statA": 4056,
+        "statB": 3528
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "CAR-K-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Jared Fay",
+    "jerseyNumber": 27,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'5\"",
+      "weight": 323,
+      "college": "Ames",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 117468559,
+      "capHit": 24957666,
+      "deadCap": 5217242,
+      "signingBonus": 7828643,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 72,
+      "schemeFit": 94,
+      "speed": 91,
+      "acceleration": 72,
+      "agility": 86,
+      "strength": 88,
+      "tackle": 91,
+      "pursuit": 94,
+      "manCoverage": 51,
+      "zoneCoverage": 63,
+      "kickPower": 86,
+      "kickAccuracy": 80,
+      "catching": 75,
+      "routeRunning": 93,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 441,
+        "statB": 269
+      },
+      "career": {
+        "games": 119,
+        "statA": 4179,
+        "statB": 1073
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "CAR-P-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Ahmad Pollich",
+    "jerseyNumber": 78,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 195,
+      "college": "Tuckahoe",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 10430332,
+      "capHit": 7080556,
+      "deadCap": 754895,
+      "signingBonus": 8946620,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 88,
+      "speed": 83,
+      "acceleration": 90,
+      "agility": 82,
+      "strength": 64,
+      "tackle": 62,
+      "pursuit": 78,
+      "manCoverage": 75,
+      "zoneCoverage": 50,
+      "kickPower": 93,
+      "kickAccuracy": 87,
+      "catching": 92,
+      "routeRunning": 61,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 156,
+        "statB": 574
+      },
+      "career": {
+        "games": 116,
+        "statA": 3006,
+        "statB": 1522
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "CAR-LS-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Beckett Dach",
+    "jerseyNumber": 90,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 300,
+      "college": "East Julien",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 116325794,
+      "capHit": 8010051,
+      "deadCap": 8387545,
+      "signingBonus": 17220489,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 92,
+      "schemeFit": 73,
+      "speed": 86,
+      "acceleration": 92,
+      "agility": 71,
+      "strength": 81,
+      "tackle": 87,
+      "pursuit": 71,
+      "manCoverage": 68,
+      "zoneCoverage": 72,
+      "kickPower": 88,
+      "kickAccuracy": 76,
+      "catching": 80,
+      "routeRunning": 55,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 32,
+        "statB": 868
+      },
+      "career": {
+        "games": 119,
+        "statA": 2573,
+        "statB": 4726
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "CAR-KR-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Kenneth Padberg",
+    "jerseyNumber": 93,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'2\"",
+      "weight": 214,
+      "college": "West Hailey",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 111321308,
+      "capHit": 2243641,
+      "deadCap": 6587899,
+      "signingBonus": 3901867,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 87,
+      "schemeFit": 80,
+      "speed": 81,
+      "acceleration": 71,
+      "agility": 88,
+      "strength": 72,
+      "tackle": 76,
+      "pursuit": 88,
+      "manCoverage": 71,
+      "zoneCoverage": 70,
+      "kickPower": 71,
+      "kickAccuracy": 68,
+      "catching": 73,
+      "routeRunning": 74,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 313,
+        "statB": 682
+      },
+      "career": {
+        "games": 89,
+        "statA": 2595,
+        "statB": 2662
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "CAR-PR-1",
+    "team": "CAR",
+    "teamName": "CAR",
+    "name": "Matteo Corwin",
+    "jerseyNumber": 83,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 316,
+      "college": "Volkmanstead",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 27223794,
+      "capHit": 8493794,
+      "deadCap": 1524147,
+      "signingBonus": 13502303,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 69,
+      "schemeFit": 74,
+      "speed": 90,
+      "acceleration": 80,
+      "agility": 94,
+      "strength": 92,
+      "tackle": 88,
+      "pursuit": 86,
+      "manCoverage": 66,
+      "zoneCoverage": 60,
+      "kickPower": 66,
+      "kickAccuracy": 75,
+      "catching": 71,
+      "routeRunning": 70,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 126,
+        "statB": 864
+      },
+      "career": {
+        "games": 13,
+        "statA": 519,
+        "statB": 55
+      }
+    },
+    "photo": "/player_faces/40.png"
+  }
 ]

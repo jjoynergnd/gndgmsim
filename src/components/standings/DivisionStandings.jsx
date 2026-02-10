@@ -1,91 +1,88 @@
-import React, { useMemo } from "react";
+import React from "react";
 import styles from "./DivisionStandings.module.css";
 
-const deriveRecord = (schedule = []) => {
-  let wins = 0;
-  let losses = 0;
+function getRecord(season, teamId) {
+  const rec = season.teams?.[teamId];
+  if (!rec) {
+    return { wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0 };
+  }
+  return rec;
+}
 
-  schedule.forEach((game) => {
-    if (!game.played) return;
-    if (game.result === "W") wins++;
-    if (game.result === "L") losses++;
+function sortDivisionTeams(season, teamsInDivision) {
+  return [...teamsInDivision].sort((a, b) => {
+    const ra = getRecord(season, a.id);
+    const rb = getRecord(season, b.id);
+
+    if (rb.wins !== ra.wins) return rb.wins - ra.wins;
+    if (rb.ties !== ra.ties) return rb.ties - ra.ties;
+
+    const diffA = ra.pointsFor - ra.pointsAgainst;
+    const diffB = rb.pointsFor - rb.pointsAgainst;
+    return diffB - diffA;
   });
+}
 
-  return `${wins}-${losses}`;
-};
-
-const DivisionStandings = ({
-  teams = [],
-  userTeam,
-  season
-}) => {
-  // 🔍 DEBUG: confirm what data is actually arriving
-  console.log("STANDINGS teams prop:", teams);
-
-  const userRecord = useMemo(() => {
-    return deriveRecord(season?.schedule);
-  }, [season]);
-
-  const divisions = useMemo(() => {
-    const map = {};
-
-    teams.forEach((team) => {
-      if (!team.conference || !team.division) {
-        console.warn("Team missing conference/division:", team);
-        return;
-      }
-
-      const key = `${team.conference} ${team.division}`;
-      if (!map[key]) map[key] = [];
-      map[key].push(team);
-    });
-
-    console.log("STANDINGS divisions map:", map);
-
-    return map;
-  }, [teams]);
+function renderConferenceColumn(conferenceName, teams, season, userTeam) {
+  const divisions = ["North", "East", "South", "West"];
 
   return (
-    <div className={styles.container}>
-      {Object.keys(divisions).length === 0 && (
-        <div style={{ opacity: 0.6, padding: "20px" }}>
-          No standings data available.
-        </div>
-      )}
+    <div className={styles.conferenceColumn}>
+      <div className={styles.conferenceTitle}>{conferenceName}</div>
 
-      {Object.entries(divisions).map(([divisionName, divisionTeams]) => (
-        <div key={divisionName} className={styles.card}>
-          <div className={styles.header}>{divisionName}</div>
+      {divisions.map((division) => {
+        const divisionTeams = teams.filter(
+          (t) => t.conference === conferenceName && t.division === division
+        );
+        if (divisionTeams.length === 0) return null;
 
-          <div className={styles.table}>
-            {divisionTeams.map((team) => {
-              const isUser = team.id === userTeam?.id;
+        const sorted = sortDivisionTeams(season, divisionTeams);
+
+        return (
+          <div key={division} className={styles.divisionBlock}>
+            <div className={styles.divisionTitle}>{division}</div>
+            <div className={styles.headerRow}>
+              <div>Team</div>
+              <div className={styles.center}>W</div>
+              <div className={styles.center}>L</div>
+              <div className={styles.center}>T</div>
+            </div>
+            {sorted.map((team) => {
+              const rec = getRecord(season, team.id);
+              const highlight = userTeam && userTeam.id === team.id;
 
               return (
                 <div
                   key={team.id}
                   className={`${styles.row} ${
-                    isUser ? styles.userRow : styles.cpuRow
+                    highlight ? styles.rowHighlight : ""
                   }`}
                 >
-                  <div className={styles.team}>
-                    <span className={styles.abbr}>{team.id}</span>
-                    <span className={styles.name}>
-                      {team.city} {team.mascot}
-                    </span>
+                  <div>
+                    {team.city} {team.mascot}
                   </div>
-
-                  <div className={styles.record}>
-                    {isUser ? userRecord : "—"}
-                  </div>
+                  <div className={styles.center}>{rec.wins}</div>
+                  <div className={styles.center}>{rec.losses}</div>
+                  <div className={styles.center}>{rec.ties}</div>
                 </div>
               );
             })}
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
-};
+}
 
-export default DivisionStandings;
+export default function DivisionStandings({ teams, userTeam, season }) {
+  if (!season || !season.teams) {
+    return <div>Standings unavailable.</div>;
+  }
+
+  return (
+    <div className={styles.container}>
+      {renderConferenceColumn("AFC", teams, season, userTeam)}
+      {renderConferenceColumn("NFC", teams, season, userTeam)}
+    </div>
+  );
+}

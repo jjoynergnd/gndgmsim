@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  78,
-        "name":  "Evan Maddox",
-        "id":  "CIN-QB0"
+[
+  {
+    "id": "CIN-QB-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Paul Kihn",
+    "jerseyNumber": 99,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 285,
+      "college": "Santa Rosa",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  90,
-        "name":  "Evan Halford",
-        "id":  "CIN-RB1"
+    "contract": {
+      "years": 2,
+      "totalValue": 40161943,
+      "capHit": 3227623,
+      "deadCap": 2165231,
+      "signingBonus": 8507312,
+      "expiresYear": 2028,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  68,
-        "name":  "Malik Shaw",
-        "id":  "CIN-WR2"
+    "ratings": {
+      "overall": 84,
+      "potential": 88,
+      "schemeFit": 70,
+      "speed": 82,
+      "acceleration": 71,
+      "agility": 77,
+      "strength": 86,
+      "tackle": 74,
+      "pursuit": 81,
+      "manCoverage": 53,
+      "zoneCoverage": 59,
+      "kickPower": 95,
+      "kickAccuracy": 73,
+      "catching": 89,
+      "routeRunning": 76,
+      "release": 74,
+      "throwPower": 71,
+      "shortAccuracy": 71,
+      "mediumAccuracy": 93,
+      "deepAccuracy": 85
     },
-    {
-        "position":  "LB",
-        "overall":  82,
-        "name":  "Jordan Shaw",
-        "id":  "CIN-LB3"
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  84,
-        "name":  "Logan Rourke",
-        "id":  "CIN-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 711,
+        "statB": 20
+      },
+      "career": {
+        "games": 116,
+        "statA": 946,
+        "statB": 2836
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "CIN-QB-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Scott Lehner",
+    "jerseyNumber": 81,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 218,
+      "college": "Nyahbury",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 36123650,
+      "capHit": 544440,
+      "deadCap": 8844095,
+      "signingBonus": 16193493,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 78,
+      "schemeFit": 81,
+      "speed": 87,
+      "acceleration": 93,
+      "agility": 94,
+      "strength": 87,
+      "tackle": 69,
+      "pursuit": 75,
+      "manCoverage": 52,
+      "zoneCoverage": 53,
+      "kickPower": 66,
+      "kickAccuracy": 62,
+      "catching": 94,
+      "routeRunning": 73,
+      "release": 71,
+      "throwPower": 85,
+      "shortAccuracy": 89,
+      "mediumAccuracy": 77,
+      "deepAccuracy": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 350,
+        "statB": 693
+      },
+      "career": {
+        "games": 18,
+        "statA": 1640,
+        "statB": 3761
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "CIN-QB-3",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Gregory Stracke",
+    "jerseyNumber": 75,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 257,
+      "college": "Lake Everett",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 24310753,
+      "capHit": 13813467,
+      "deadCap": 1992691,
+      "signingBonus": 12781757,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 62,
+      "schemeFit": 91,
+      "speed": 81,
+      "acceleration": 93,
+      "agility": 93,
+      "strength": 72,
+      "tackle": 71,
+      "pursuit": 92,
+      "manCoverage": 58,
+      "zoneCoverage": 56,
+      "kickPower": 82,
+      "kickAccuracy": 93,
+      "catching": 81,
+      "routeRunning": 68,
+      "release": 87,
+      "throwPower": 70,
+      "shortAccuracy": 70,
+      "mediumAccuracy": 92,
+      "deepAccuracy": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 820,
+        "statB": 562
+      },
+      "career": {
+        "games": 2,
+        "statA": 1886,
+        "statB": 3140
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "CIN-RB-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Nathan Rohan",
+    "jerseyNumber": 55,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 328,
+      "college": "Lake Darren",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 115885625,
+      "capHit": 15400884,
+      "deadCap": 8991853,
+      "signingBonus": 16490285,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 70,
+      "schemeFit": 70,
+      "speed": 74,
+      "acceleration": 82,
+      "agility": 92,
+      "strength": 81,
+      "tackle": 76,
+      "pursuit": 63,
+      "manCoverage": 86,
+      "zoneCoverage": 89,
+      "kickPower": 82,
+      "kickAccuracy": 63,
+      "catching": 89,
+      "routeRunning": 51,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 548,
+        "statB": 395
+      },
+      "career": {
+        "games": 72,
+        "statA": 2754,
+        "statB": 929
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "CIN-RB-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Liang Berge",
+    "jerseyNumber": 77,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 225,
+      "college": "Pico Rivera",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 7914450,
+      "capHit": 12451278,
+      "deadCap": 3259521,
+      "signingBonus": 12154096,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 83,
+      "schemeFit": 82,
+      "speed": 83,
+      "acceleration": 95,
+      "agility": 72,
+      "strength": 92,
+      "tackle": 86,
+      "pursuit": 93,
+      "manCoverage": 63,
+      "zoneCoverage": 74,
+      "kickPower": 81,
+      "kickAccuracy": 86,
+      "catching": 76,
+      "routeRunning": 92,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 782,
+        "statB": 643
+      },
+      "career": {
+        "games": 34,
+        "statA": 2817,
+        "statB": 70
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "CIN-RB-3",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jose Pagac",
+    "jerseyNumber": 87,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 268,
+      "college": "Southfield",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 112040259,
+      "capHit": 14049066,
+      "deadCap": 5268695,
+      "signingBonus": 12854631,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 91,
+      "schemeFit": 78,
+      "speed": 76,
+      "acceleration": 86,
+      "agility": 80,
+      "strength": 76,
+      "tackle": 86,
+      "pursuit": 60,
+      "manCoverage": 86,
+      "zoneCoverage": 61,
+      "kickPower": 86,
+      "kickAccuracy": 65,
+      "catching": 79,
+      "routeRunning": 69,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 963,
+        "statB": 815
+      },
+      "career": {
+        "games": 33,
+        "statA": 2046,
+        "statB": 3073
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "CIN-RB-4",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Mario McLaughlin",
+    "jerseyNumber": 10,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "6'1\"",
+      "weight": 253,
+      "college": "Langoshstead",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 115623083,
+      "capHit": 9138938,
+      "deadCap": 5521183,
+      "signingBonus": 4078329,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 87,
+      "schemeFit": 76,
+      "speed": 89,
+      "acceleration": 76,
+      "agility": 79,
+      "strength": 67,
+      "tackle": 73,
+      "pursuit": 67,
+      "manCoverage": 87,
+      "zoneCoverage": 66,
+      "kickPower": 83,
+      "kickAccuracy": 66,
+      "catching": 71,
+      "routeRunning": 88,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 189,
+        "statB": 4
+      },
+      "career": {
+        "games": 69,
+        "statA": 3995,
+        "statB": 4959
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "CIN-WR-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Darius Jones",
+    "jerseyNumber": 98,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 285,
+      "college": "Lake Keeleyburgh",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 45845115,
+      "capHit": 14353461,
+      "deadCap": 1265138,
+      "signingBonus": 2290379,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 84,
+      "schemeFit": 74,
+      "speed": 83,
+      "acceleration": 76,
+      "agility": 78,
+      "strength": 78,
+      "tackle": 63,
+      "pursuit": 87,
+      "manCoverage": 67,
+      "zoneCoverage": 80,
+      "kickPower": 90,
+      "kickAccuracy": 84,
+      "catching": 86,
+      "routeRunning": 88,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 874,
+        "statB": 978
+      },
+      "career": {
+        "games": 47,
+        "statA": 2826,
+        "statB": 3608
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "CIN-WR-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jesse Cruickshank-Legros",
+    "jerseyNumber": 78,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 262,
+      "college": "Kalamazoo",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 37703136,
+      "capHit": 22014364,
+      "deadCap": 9314543,
+      "signingBonus": 4083413,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 76,
+      "speed": 74,
+      "acceleration": 76,
+      "agility": 89,
+      "strength": 91,
+      "tackle": 66,
+      "pursuit": 89,
+      "manCoverage": 61,
+      "zoneCoverage": 89,
+      "kickPower": 84,
+      "kickAccuracy": 59,
+      "catching": 86,
+      "routeRunning": 53,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 973,
+        "statB": 774
+      },
+      "career": {
+        "games": 109,
+        "statA": 4176,
+        "statB": 64
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "CIN-WR-3",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Ren Purdy",
+    "jerseyNumber": 38,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 232,
+      "college": "Okunevaton",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 38117370,
+      "capHit": 8343959,
+      "deadCap": 8604157,
+      "signingBonus": 3134491,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 70,
+      "schemeFit": 79,
+      "speed": 76,
+      "acceleration": 70,
+      "agility": 91,
+      "strength": 83,
+      "tackle": 95,
+      "pursuit": 72,
+      "manCoverage": 66,
+      "zoneCoverage": 72,
+      "kickPower": 80,
+      "kickAccuracy": 80,
+      "catching": 65,
+      "routeRunning": 70,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 335,
+        "statB": 771
+      },
+      "career": {
+        "games": 42,
+        "statA": 4931,
+        "statB": 859
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "CIN-WR-4",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Tristan Bruen",
+    "jerseyNumber": 26,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 325,
+      "college": "Dewittbury",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 8809085,
+      "capHit": 22650955,
+      "deadCap": 3811019,
+      "signingBonus": 1776729,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 72,
+      "schemeFit": 95,
+      "speed": 83,
+      "acceleration": 93,
+      "agility": 74,
+      "strength": 66,
+      "tackle": 85,
+      "pursuit": 69,
+      "manCoverage": 87,
+      "zoneCoverage": 81,
+      "kickPower": 84,
+      "kickAccuracy": 74,
+      "catching": 61,
+      "routeRunning": 75,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 908,
+        "statB": 920
+      },
+      "career": {
+        "games": 16,
+        "statA": 78,
+        "statB": 519
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "CIN-WR-5",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Mateo Hills",
+    "jerseyNumber": 97,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 23,
+      "height": "6'5\"",
+      "weight": 219,
+      "college": "Mountain View",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 29385220,
+      "capHit": 12339453,
+      "deadCap": 3167638,
+      "signingBonus": 14004288,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 76,
+      "schemeFit": 92,
+      "speed": 86,
+      "acceleration": 92,
+      "agility": 78,
+      "strength": 65,
+      "tackle": 69,
+      "pursuit": 88,
+      "manCoverage": 60,
+      "zoneCoverage": 86,
+      "kickPower": 77,
+      "kickAccuracy": 64,
+      "catching": 85,
+      "routeRunning": 92,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 506,
+        "statB": 780
+      },
+      "career": {
+        "games": 103,
+        "statA": 477,
+        "statB": 4419
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "CIN-WR-6",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Dominic Daugherty",
+    "jerseyNumber": 32,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 272,
+      "college": "Johnson City",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 61283643,
+      "capHit": 14928102,
+      "deadCap": 1241720,
+      "signingBonus": 5773457,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 83,
+      "schemeFit": 71,
+      "speed": 85,
+      "acceleration": 94,
+      "agility": 80,
+      "strength": 86,
+      "tackle": 78,
+      "pursuit": 82,
+      "manCoverage": 78,
+      "zoneCoverage": 68,
+      "kickPower": 66,
+      "kickAccuracy": 67,
+      "catching": 68,
+      "routeRunning": 61,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 801,
+        "statB": 457
+      },
+      "career": {
+        "games": 13,
+        "statA": 2815,
+        "statB": 1225
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "CIN-WR-7",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Omar Schumm",
+    "jerseyNumber": 89,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 302,
+      "college": "Robertsstead",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 44264991,
+      "capHit": 17634205,
+      "deadCap": 3437184,
+      "signingBonus": 15459908,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 68,
+      "schemeFit": 73,
+      "speed": 80,
+      "acceleration": 81,
+      "agility": 72,
+      "strength": 74,
+      "tackle": 94,
+      "pursuit": 81,
+      "manCoverage": 87,
+      "zoneCoverage": 57,
+      "kickPower": 87,
+      "kickAccuracy": 85,
+      "catching": 52,
+      "routeRunning": 92,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 212,
+        "statB": 160
+      },
+      "career": {
+        "games": 42,
+        "statA": 863,
+        "statB": 2533
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "CIN-TE-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jerry Conroy",
+    "jerseyNumber": 29,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 323,
+      "college": "Jaredburgh",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 35309604,
+      "capHit": 21653192,
+      "deadCap": 7997366,
+      "signingBonus": 10614148,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 77,
+      "schemeFit": 94,
+      "speed": 88,
+      "acceleration": 86,
+      "agility": 81,
+      "strength": 84,
+      "tackle": 69,
+      "pursuit": 88,
+      "manCoverage": 50,
+      "zoneCoverage": 68,
+      "kickPower": 73,
+      "kickAccuracy": 68,
+      "catching": 94,
+      "routeRunning": 68,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 166,
+        "statB": 234
+      },
+      "career": {
+        "games": 75,
+        "statA": 1939,
+        "statB": 543
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "CIN-TE-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Liang Turner",
+    "jerseyNumber": 99,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 251,
+      "college": "Port Fatima",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 23884551,
+      "capHit": 9985769,
+      "deadCap": 9052610,
+      "signingBonus": 13428655,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 85,
+      "schemeFit": 74,
+      "speed": 86,
+      "acceleration": 70,
+      "agility": 71,
+      "strength": 65,
+      "tackle": 65,
+      "pursuit": 72,
+      "manCoverage": 61,
+      "zoneCoverage": 58,
+      "kickPower": 55,
+      "kickAccuracy": 68,
+      "catching": 91,
+      "routeRunning": 65,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 609,
+        "statB": 916
+      },
+      "career": {
+        "games": 70,
+        "statA": 1322,
+        "statB": 2865
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "CIN-TE-3",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Mario Bechtelar",
+    "jerseyNumber": 63,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 191,
+      "college": "West Veronafurt",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 104974289,
+      "capHit": 11828305,
+      "deadCap": 1981332,
+      "signingBonus": 16066284,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 83,
+      "schemeFit": 84,
+      "speed": 75,
+      "acceleration": 86,
+      "agility": 86,
+      "strength": 79,
+      "tackle": 83,
+      "pursuit": 78,
+      "manCoverage": 77,
+      "zoneCoverage": 90,
+      "kickPower": 61,
+      "kickAccuracy": 72,
+      "catching": 88,
+      "routeRunning": 56,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 192,
+        "statB": 327
+      },
+      "career": {
+        "games": 1,
+        "statA": 2849,
+        "statB": 1916
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "CIN-LT-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Justin Schuster",
+    "jerseyNumber": 8,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 315,
+      "college": "New Kanefort",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 68958099,
+      "capHit": 11817603,
+      "deadCap": 6939377,
+      "signingBonus": 7913823,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 89,
+      "schemeFit": 71,
+      "speed": 77,
+      "acceleration": 83,
+      "agility": 85,
+      "strength": 71,
+      "tackle": 76,
+      "pursuit": 87,
+      "manCoverage": 53,
+      "zoneCoverage": 74,
+      "kickPower": 68,
+      "kickAccuracy": 72,
+      "catching": 83,
+      "routeRunning": 67,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 351,
+        "statB": 258
+      },
+      "career": {
+        "games": 76,
+        "statA": 4621,
+        "statB": 4381
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "CIN-LT-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Paul Gusikowski",
+    "jerseyNumber": 73,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 310,
+      "college": "Brantview",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 61588492,
+      "capHit": 4756244,
+      "deadCap": 7123886,
+      "signingBonus": 2453481,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 76,
+      "speed": 87,
+      "acceleration": 89,
+      "agility": 77,
+      "strength": 79,
+      "tackle": 75,
+      "pursuit": 68,
+      "manCoverage": 50,
+      "zoneCoverage": 56,
+      "kickPower": 94,
+      "kickAccuracy": 53,
+      "catching": 72,
+      "routeRunning": 68,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 29,
+        "statB": 719
+      },
+      "career": {
+        "games": 4,
+        "statA": 2434,
+        "statB": 2887
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "CIN-LG-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Esteban Little",
+    "jerseyNumber": 73,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 259,
+      "college": "Lake Milesberg",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 57569262,
+      "capHit": 3177571,
+      "deadCap": 6360149,
+      "signingBonus": 3985883,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 89,
+      "schemeFit": 76,
+      "speed": 93,
+      "acceleration": 92,
+      "agility": 95,
+      "strength": 61,
+      "tackle": 95,
+      "pursuit": 78,
+      "manCoverage": 80,
+      "zoneCoverage": 62,
+      "kickPower": 58,
+      "kickAccuracy": 58,
+      "catching": 84,
+      "routeRunning": 74,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 139,
+        "statB": 442
+      },
+      "career": {
+        "games": 42,
+        "statA": 392,
+        "statB": 1742
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "CIN-LG-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Roy Haley",
+    "jerseyNumber": 33,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "5'11\"",
+      "weight": 282,
+      "college": "Donnyville",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 48929882,
+      "capHit": 11404160,
+      "deadCap": 6379415,
+      "signingBonus": 10424404,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 94,
+      "schemeFit": 93,
+      "speed": 84,
+      "acceleration": 86,
+      "agility": 76,
+      "strength": 84,
+      "tackle": 63,
+      "pursuit": 63,
+      "manCoverage": 71,
+      "zoneCoverage": 63,
+      "kickPower": 95,
+      "kickAccuracy": 59,
+      "catching": 59,
+      "routeRunning": 95,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 844,
+        "statB": 496
+      },
+      "career": {
+        "games": 86,
+        "statA": 916,
+        "statB": 993
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "CIN-C-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Gary Heidenreich",
+    "jerseyNumber": 74,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "5'11\"",
+      "weight": 286,
+      "college": "Torphyburgh",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 90159596,
+      "capHit": 11002652,
+      "deadCap": 6058464,
+      "signingBonus": 14505366,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 87,
+      "schemeFit": 82,
+      "speed": 91,
+      "acceleration": 70,
+      "agility": 75,
+      "strength": 93,
+      "tackle": 77,
+      "pursuit": 79,
+      "manCoverage": 82,
+      "zoneCoverage": 65,
+      "kickPower": 52,
+      "kickAccuracy": 87,
+      "catching": 70,
+      "routeRunning": 80,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 209,
+        "statB": 691
+      },
+      "career": {
+        "games": 75,
+        "statA": 1360,
+        "statB": 1349
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "CIN-C-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Keegan Ondricka",
+    "jerseyNumber": 68,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 277,
+      "college": "East Carrie",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 63882296,
+      "capHit": 16058340,
+      "deadCap": 8501539,
+      "signingBonus": 4328419,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 87,
+      "speed": 79,
+      "acceleration": 81,
+      "agility": 90,
+      "strength": 72,
+      "tackle": 89,
+      "pursuit": 75,
+      "manCoverage": 79,
+      "zoneCoverage": 80,
+      "kickPower": 91,
+      "kickAccuracy": 57,
+      "catching": 82,
+      "routeRunning": 82,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 60,
+        "statB": 446
+      },
+      "career": {
+        "games": 30,
+        "statA": 2483,
+        "statB": 1185
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "CIN-RG-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Andrew Jacobson",
+    "jerseyNumber": 44,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 237,
+      "college": "Yonkers",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 22452418,
+      "capHit": 4371048,
+      "deadCap": 9511059,
+      "signingBonus": 11595778,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 73,
+      "schemeFit": 86,
+      "speed": 76,
+      "acceleration": 81,
+      "agility": 77,
+      "strength": 81,
+      "tackle": 73,
+      "pursuit": 93,
+      "manCoverage": 64,
+      "zoneCoverage": 88,
+      "kickPower": 85,
+      "kickAccuracy": 55,
+      "catching": 79,
+      "routeRunning": 83,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 791,
+        "statB": 773
+      },
+      "career": {
+        "games": 88,
+        "statA": 2440,
+        "statB": 1934
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "CIN-RG-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Beckett Harber",
+    "jerseyNumber": 83,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 257,
+      "college": "Lake Annamaeworth",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 73785751,
+      "capHit": 14454166,
+      "deadCap": 9716655,
+      "signingBonus": 16012501,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 65,
+      "schemeFit": 88,
+      "speed": 72,
+      "acceleration": 73,
+      "agility": 79,
+      "strength": 82,
+      "tackle": 71,
+      "pursuit": 83,
+      "manCoverage": 73,
+      "zoneCoverage": 62,
+      "kickPower": 72,
+      "kickAccuracy": 65,
+      "catching": 55,
+      "routeRunning": 66,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 803,
+        "statB": 293
+      },
+      "career": {
+        "games": 73,
+        "statA": 732,
+        "statB": 574
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "CIN-RT-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Riku Corkery",
+    "jerseyNumber": 14,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 191,
+      "college": "North Little Rock",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 28621510,
+      "capHit": 2833533,
+      "deadCap": 5243723,
+      "signingBonus": 19086681,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 77,
+      "schemeFit": 71,
+      "speed": 71,
+      "acceleration": 70,
+      "agility": 93,
+      "strength": 74,
+      "tackle": 74,
+      "pursuit": 64,
+      "manCoverage": 81,
+      "zoneCoverage": 90,
+      "kickPower": 73,
+      "kickAccuracy": 53,
+      "catching": 88,
+      "routeRunning": 91,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 843,
+        "statB": 886
+      },
+      "career": {
+        "games": 76,
+        "statA": 4955,
+        "statB": 4243
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "CIN-RT-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jeffrey Hudson",
+    "jerseyNumber": 61,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 261,
+      "college": "South Reilly",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 65471107,
+      "capHit": 18545056,
+      "deadCap": 6955653,
+      "signingBonus": 14942394,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 67,
+      "schemeFit": 82,
+      "speed": 75,
+      "acceleration": 86,
+      "agility": 71,
+      "strength": 64,
+      "tackle": 62,
+      "pursuit": 95,
+      "manCoverage": 68,
+      "zoneCoverage": 53,
+      "kickPower": 88,
+      "kickAccuracy": 94,
+      "catching": 84,
+      "routeRunning": 82,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 422,
+        "statB": 261
+      },
+      "career": {
+        "games": 71,
+        "statA": 4021,
+        "statB": 4379
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "CIN-LDE-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jason Stiedemann",
+    "jerseyNumber": 19,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 312,
+      "college": "West Eusebio",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 47717942,
+      "capHit": 18348236,
+      "deadCap": 3100642,
+      "signingBonus": 5753160,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 78,
+      "schemeFit": 89,
+      "speed": 95,
+      "acceleration": 71,
+      "agility": 70,
+      "strength": 79,
+      "tackle": 79,
+      "pursuit": 88,
+      "manCoverage": 63,
+      "zoneCoverage": 83,
+      "kickPower": 64,
+      "kickAccuracy": 77,
+      "catching": 52,
+      "routeRunning": 71,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 440,
+        "statB": 293
+      },
+      "career": {
+        "games": 95,
+        "statA": 1474,
+        "statB": 498
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "CIN-LDE-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Alan Ratke",
+    "jerseyNumber": 89,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 188,
+      "college": "Kailynshire",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 22683599,
+      "capHit": 17940221,
+      "deadCap": 3119965,
+      "signingBonus": 18545681,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 82,
+      "schemeFit": 86,
+      "speed": 79,
+      "acceleration": 81,
+      "agility": 74,
+      "strength": 81,
+      "tackle": 83,
+      "pursuit": 94,
+      "manCoverage": 79,
+      "zoneCoverage": 74,
+      "kickPower": 66,
+      "kickAccuracy": 77,
+      "catching": 94,
+      "routeRunning": 61,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 164,
+        "statB": 375
+      },
+      "career": {
+        "games": 4,
+        "statA": 4910,
+        "statB": 396
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "CIN-RDE-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Cristian Wunsch",
+    "jerseyNumber": 2,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 288,
+      "college": "Delbertborough",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 52900035,
+      "capHit": 14746401,
+      "deadCap": 3839886,
+      "signingBonus": 1803396,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 72,
+      "schemeFit": 81,
+      "speed": 81,
+      "acceleration": 71,
+      "agility": 80,
+      "strength": 75,
+      "tackle": 61,
+      "pursuit": 92,
+      "manCoverage": 80,
+      "zoneCoverage": 74,
+      "kickPower": 65,
+      "kickAccuracy": 57,
+      "catching": 65,
+      "routeRunning": 71,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 396,
+        "statB": 234
+      },
+      "career": {
+        "games": 23,
+        "statA": 455,
+        "statB": 3330
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "CIN-RDE-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Mitchell Bartoletti",
+    "jerseyNumber": 18,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 197,
+      "college": "Boehmtown",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 83061922,
+      "capHit": 4335372,
+      "deadCap": 9225198,
+      "signingBonus": 18837463,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 79,
+      "schemeFit": 76,
+      "speed": 70,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 95,
+      "tackle": 88,
+      "pursuit": 62,
+      "manCoverage": 62,
+      "zoneCoverage": 69,
+      "kickPower": 87,
+      "kickAccuracy": 90,
+      "catching": 75,
+      "routeRunning": 52,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 850,
+        "statB": 279
+      },
+      "career": {
+        "games": 68,
+        "statA": 1904,
+        "statB": 1835
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "CIN-DT-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Yusuf Harris",
+    "jerseyNumber": 85,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 276,
+      "college": "Alejandrinview",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 59989113,
+      "capHit": 16062818,
+      "deadCap": 3571136,
+      "signingBonus": 7662498,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 67,
+      "schemeFit": 83,
+      "speed": 92,
+      "acceleration": 83,
+      "agility": 76,
+      "strength": 61,
+      "tackle": 63,
+      "pursuit": 91,
+      "manCoverage": 67,
+      "zoneCoverage": 71,
+      "kickPower": 75,
+      "kickAccuracy": 79,
+      "catching": 77,
+      "routeRunning": 91,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 897,
+        "statB": 136
+      },
+      "career": {
+        "games": 102,
+        "statA": 556,
+        "statB": 663
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "CIN-DT-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jason Luettgen",
+    "jerseyNumber": 50,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 299,
+      "college": "New Josianestad",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 101265828,
+      "capHit": 15756456,
+      "deadCap": 9122431,
+      "signingBonus": 7678650,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 82,
+      "schemeFit": 79,
+      "speed": 93,
+      "acceleration": 79,
+      "agility": 88,
+      "strength": 62,
+      "tackle": 72,
+      "pursuit": 76,
+      "manCoverage": 80,
+      "zoneCoverage": 51,
+      "kickPower": 59,
+      "kickAccuracy": 66,
+      "catching": 52,
+      "routeRunning": 71,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 160,
+        "statB": 179
+      },
+      "career": {
+        "games": 60,
+        "statA": 2596,
+        "statB": 2734
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "CIN-DT-3",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Joon Denesik",
+    "jerseyNumber": 33,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 21,
+      "height": "6'3\"",
+      "weight": 247,
+      "college": "Funkhaven",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 90550938,
+      "capHit": 12823140,
+      "deadCap": 8352935,
+      "signingBonus": 15616654,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 72,
+      "schemeFit": 70,
+      "speed": 89,
+      "acceleration": 72,
+      "agility": 91,
+      "strength": 92,
+      "tackle": 80,
+      "pursuit": 69,
+      "manCoverage": 89,
+      "zoneCoverage": 77,
+      "kickPower": 58,
+      "kickAccuracy": 52,
+      "catching": 58,
+      "routeRunning": 67,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 88,
+        "statB": 405
+      },
+      "career": {
+        "games": 68,
+        "statA": 2676,
+        "statB": 4725
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "CIN-DT-4",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Sergio Barton",
+    "jerseyNumber": 32,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 29,
+      "height": "6'0\"",
+      "weight": 244,
+      "college": "Abbottfort",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 50959108,
+      "capHit": 15423430,
+      "deadCap": 2524466,
+      "signingBonus": 5087113,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 83,
+      "schemeFit": 93,
+      "speed": 84,
+      "acceleration": 84,
+      "agility": 73,
+      "strength": 63,
+      "tackle": 67,
+      "pursuit": 69,
+      "manCoverage": 60,
+      "zoneCoverage": 84,
+      "kickPower": 71,
+      "kickAccuracy": 67,
+      "catching": 63,
+      "routeRunning": 51,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 374,
+        "statB": 222
+      },
+      "career": {
+        "games": 108,
+        "statA": 3350,
+        "statB": 2772
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "CIN-LOLB-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Emmanuel Hettinger",
+    "jerseyNumber": 80,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 273,
+      "college": "Bothell",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 19168185,
+      "capHit": 19559062,
+      "deadCap": 2603978,
+      "signingBonus": 2755913,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 95,
+      "schemeFit": 77,
+      "speed": 87,
+      "acceleration": 92,
+      "agility": 95,
+      "strength": 90,
+      "tackle": 71,
+      "pursuit": 88,
+      "manCoverage": 74,
+      "zoneCoverage": 71,
+      "kickPower": 83,
+      "kickAccuracy": 76,
+      "catching": 76,
+      "routeRunning": 66,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 64,
+        "statB": 459
+      },
+      "career": {
+        "games": 70,
+        "statA": 2635,
+        "statB": 368
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "CIN-LOLB-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Henry Smith",
+    "jerseyNumber": 12,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'4\"",
+      "weight": 225,
+      "college": "Mosetown",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 87915969,
+      "capHit": 7455451,
+      "deadCap": 2645562,
+      "signingBonus": 13646839,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 90,
+      "schemeFit": 92,
+      "speed": 78,
+      "acceleration": 91,
+      "agility": 71,
+      "strength": 72,
+      "tackle": 60,
+      "pursuit": 71,
+      "manCoverage": 88,
+      "zoneCoverage": 71,
+      "kickPower": 51,
+      "kickAccuracy": 87,
+      "catching": 95,
+      "routeRunning": 90,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 205,
+        "statB": 186
+      },
+      "career": {
+        "games": 36,
+        "statA": 409,
+        "statB": 2086
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "CIN-MLB-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Colton Langosh",
+    "jerseyNumber": 81,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 248,
+      "college": "New Kendrachester",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 59556750,
+      "capHit": 6694740,
+      "deadCap": 9375959,
+      "signingBonus": 2350235,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 74,
+      "schemeFit": 86,
+      "speed": 79,
+      "acceleration": 89,
+      "agility": 82,
+      "strength": 65,
+      "tackle": 94,
+      "pursuit": 81,
+      "manCoverage": 83,
+      "zoneCoverage": 79,
+      "kickPower": 76,
+      "kickAccuracy": 78,
+      "catching": 74,
+      "routeRunning": 93,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 66,
+        "statB": 970
+      },
+      "career": {
+        "games": 64,
+        "statA": 286,
+        "statB": 2072
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "CIN-MLB-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Ralph Brown",
+    "jerseyNumber": 84,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 309,
+      "college": "Asheville",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 5964289,
+      "capHit": 19811671,
+      "deadCap": 1978926,
+      "signingBonus": 6005579,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 71,
+      "schemeFit": 90,
+      "speed": 76,
+      "acceleration": 92,
+      "agility": 93,
+      "strength": 76,
+      "tackle": 79,
+      "pursuit": 71,
+      "manCoverage": 54,
+      "zoneCoverage": 69,
+      "kickPower": 69,
+      "kickAccuracy": 50,
+      "catching": 64,
+      "routeRunning": 58,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 386,
+        "statB": 281
+      },
+      "career": {
+        "games": 87,
+        "statA": 4097,
+        "statB": 760
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "CIN-ROLB-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Santiago Nolan",
+    "jerseyNumber": 54,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 292,
+      "college": "Mount Vernon",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 71189599,
+      "capHit": 14486080,
+      "deadCap": 2655217,
+      "signingBonus": 10767238,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 70,
+      "schemeFit": 86,
+      "speed": 79,
+      "acceleration": 95,
+      "agility": 87,
+      "strength": 82,
+      "tackle": 77,
+      "pursuit": 74,
+      "manCoverage": 87,
+      "zoneCoverage": 83,
+      "kickPower": 95,
+      "kickAccuracy": 75,
+      "catching": 75,
+      "routeRunning": 93,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 910,
+        "statB": 746
+      },
+      "career": {
+        "games": 54,
+        "statA": 3229,
+        "statB": 3615
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "CIN-ROLB-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Chase Kshlerin",
+    "jerseyNumber": 5,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 212,
+      "college": "Olathe",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 24675329,
+      "capHit": 17943268,
+      "deadCap": 4769601,
+      "signingBonus": 6731284,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 82,
+      "schemeFit": 89,
+      "speed": 88,
+      "acceleration": 72,
+      "agility": 93,
+      "strength": 73,
+      "tackle": 85,
+      "pursuit": 69,
+      "manCoverage": 79,
+      "zoneCoverage": 73,
+      "kickPower": 94,
+      "kickAccuracy": 52,
+      "catching": 89,
+      "routeRunning": 90,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 404,
+        "statB": 193
+      },
+      "career": {
+        "games": 75,
+        "statA": 113,
+        "statB": 767
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "CIN-CB-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Sawyer Bergnaum-Heidenreich",
+    "jerseyNumber": 4,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 274,
+      "college": "Port Cletusland",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 41828026,
+      "capHit": 17745248,
+      "deadCap": 1575291,
+      "signingBonus": 3249678,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 85,
+      "schemeFit": 94,
+      "speed": 95,
+      "acceleration": 83,
+      "agility": 81,
+      "strength": 60,
+      "tackle": 84,
+      "pursuit": 74,
+      "manCoverage": 61,
+      "zoneCoverage": 87,
+      "kickPower": 68,
+      "kickAccuracy": 82,
+      "catching": 74,
+      "routeRunning": 70,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 237,
+        "statB": 894
+      },
+      "career": {
+        "games": 16,
+        "statA": 2623,
+        "statB": 426
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "CIN-CB-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Micah Yost",
+    "jerseyNumber": 28,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 314,
+      "college": "East Marielastead",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 34175564,
+      "capHit": 9264844,
+      "deadCap": 3986874,
+      "signingBonus": 14222850,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 73,
+      "schemeFit": 94,
+      "speed": 73,
+      "acceleration": 81,
+      "agility": 79,
+      "strength": 63,
+      "tackle": 88,
+      "pursuit": 89,
+      "manCoverage": 58,
+      "zoneCoverage": 70,
+      "kickPower": 88,
+      "kickAccuracy": 74,
+      "catching": 93,
+      "routeRunning": 91,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 353,
+        "statB": 794
+      },
+      "career": {
+        "games": 80,
+        "statA": 3353,
+        "statB": 4060
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "CIN-CB-3",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Riley Larkin",
+    "jerseyNumber": 21,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 270,
+      "college": "Hildaside",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 22293861,
+      "capHit": 7519617,
+      "deadCap": 1318116,
+      "signingBonus": 11179510,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 77,
+      "schemeFit": 79,
+      "speed": 76,
+      "acceleration": 77,
+      "agility": 84,
+      "strength": 81,
+      "tackle": 75,
+      "pursuit": 86,
+      "manCoverage": 66,
+      "zoneCoverage": 76,
+      "kickPower": 70,
+      "kickAccuracy": 58,
+      "catching": 57,
+      "routeRunning": 81,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 598,
+        "statB": 404
+      },
+      "career": {
+        "games": 120,
+        "statA": 1440,
+        "statB": 2688
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "CIN-CB-4",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Igor Bode",
+    "jerseyNumber": 12,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 277,
+      "college": "North Teagan",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 116329515,
+      "capHit": 7679197,
+      "deadCap": 4002859,
+      "signingBonus": 9795415,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 91,
+      "schemeFit": 81,
+      "speed": 90,
+      "acceleration": 86,
+      "agility": 71,
+      "strength": 68,
+      "tackle": 72,
+      "pursuit": 60,
+      "manCoverage": 78,
+      "zoneCoverage": 58,
+      "kickPower": 62,
+      "kickAccuracy": 66,
+      "catching": 70,
+      "routeRunning": 67,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 307,
+        "statB": 185
+      },
+      "career": {
+        "games": 2,
+        "statA": 860,
+        "statB": 2565
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "CIN-CB-5",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Minho Howell",
+    "jerseyNumber": 45,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 23,
+      "height": "5'11\"",
+      "weight": 200,
+      "college": "Sioux City",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 35931030,
+      "capHit": 21209633,
+      "deadCap": 8655297,
+      "signingBonus": 2155699,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 64,
+      "schemeFit": 78,
+      "speed": 72,
+      "acceleration": 84,
+      "agility": 70,
+      "strength": 73,
+      "tackle": 67,
+      "pursuit": 85,
+      "manCoverage": 53,
+      "zoneCoverage": 50,
+      "kickPower": 94,
+      "kickAccuracy": 94,
+      "catching": 52,
+      "routeRunning": 88,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 854,
+        "statB": 658
+      },
+      "career": {
+        "games": 10,
+        "statA": 945,
+        "statB": 4579
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "CIN-CB-6",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Jordan Ondricka",
+    "jerseyNumber": 59,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 24,
+      "height": "5'9\"",
+      "weight": 222,
+      "college": "Verlacester",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 115581575,
+      "capHit": 947898,
+      "deadCap": 5767691,
+      "signingBonus": 11663166,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 87,
+      "schemeFit": 75,
+      "speed": 90,
+      "acceleration": 94,
+      "agility": 83,
+      "strength": 90,
+      "tackle": 62,
+      "pursuit": 78,
+      "manCoverage": 60,
+      "zoneCoverage": 57,
+      "kickPower": 68,
+      "kickAccuracy": 67,
+      "catching": 66,
+      "routeRunning": 68,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 262,
+        "statB": 592
+      },
+      "career": {
+        "games": 73,
+        "statA": 2871,
+        "statB": 1696
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "CIN-FS-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Enzo Daniel",
+    "jerseyNumber": 22,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 319,
+      "college": "Jontown",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 41271228,
+      "capHit": 17626712,
+      "deadCap": 9769181,
+      "signingBonus": 4923279,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 75,
+      "schemeFit": 85,
+      "speed": 84,
+      "acceleration": 85,
+      "agility": 92,
+      "strength": 74,
+      "tackle": 65,
+      "pursuit": 82,
+      "manCoverage": 84,
+      "zoneCoverage": 74,
+      "kickPower": 73,
+      "kickAccuracy": 50,
+      "catching": 73,
+      "routeRunning": 74,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 207,
+        "statB": 107
+      },
+      "career": {
+        "games": 91,
+        "statA": 4289,
+        "statB": 632
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "CIN-FS-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "William Veum",
+    "jerseyNumber": 74,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 268,
+      "college": "Tacoma",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 27827726,
+      "capHit": 21958936,
+      "deadCap": 4558087,
+      "signingBonus": 18221179,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 86,
+      "schemeFit": 75,
+      "speed": 80,
+      "acceleration": 75,
+      "agility": 84,
+      "strength": 73,
+      "tackle": 88,
+      "pursuit": 84,
+      "manCoverage": 89,
+      "zoneCoverage": 81,
+      "kickPower": 75,
+      "kickAccuracy": 50,
+      "catching": 69,
+      "routeRunning": 73,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 569,
+        "statB": 232
+      },
+      "career": {
+        "games": 8,
+        "statA": 3553,
+        "statB": 171
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "CIN-SS-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Viktor Jacobson",
+    "jerseyNumber": 63,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'11\"",
+      "weight": 281,
+      "college": "Vonfort",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 15690132,
+      "capHit": 12415438,
+      "deadCap": 1272245,
+      "signingBonus": 17990477,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 95,
+      "speed": 71,
+      "acceleration": 71,
+      "agility": 78,
+      "strength": 77,
+      "tackle": 66,
+      "pursuit": 66,
+      "manCoverage": 68,
+      "zoneCoverage": 88,
+      "kickPower": 91,
+      "kickAccuracy": 94,
+      "catching": 88,
+      "routeRunning": 66,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 459,
+        "statB": 409
+      },
+      "career": {
+        "games": 26,
+        "statA": 221,
+        "statB": 21
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "CIN-SS-2",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Walter Johnston",
+    "jerseyNumber": 10,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'3\"",
+      "weight": 324,
+      "college": "West Don",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 87474950,
+      "capHit": 2668299,
+      "deadCap": 4741020,
+      "signingBonus": 19635364,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 63,
+      "schemeFit": 83,
+      "speed": 86,
+      "acceleration": 70,
+      "agility": 81,
+      "strength": 93,
+      "tackle": 88,
+      "pursuit": 83,
+      "manCoverage": 65,
+      "zoneCoverage": 56,
+      "kickPower": 55,
+      "kickAccuracy": 83,
+      "catching": 91,
+      "routeRunning": 59,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 165,
+        "statB": 978
+      },
+      "career": {
+        "games": 104,
+        "statA": 4912,
+        "statB": 330
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "CIN-K-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Esteban Kirlin",
+    "jerseyNumber": 18,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 211,
+      "college": "Elsieland",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 60089836,
+      "capHit": 9861516,
+      "deadCap": 3809154,
+      "signingBonus": 229021,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 76,
+      "schemeFit": 70,
+      "speed": 86,
+      "acceleration": 87,
+      "agility": 93,
+      "strength": 66,
+      "tackle": 94,
+      "pursuit": 69,
+      "manCoverage": 55,
+      "zoneCoverage": 67,
+      "kickPower": 56,
+      "kickAccuracy": 67,
+      "catching": 60,
+      "routeRunning": 59,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 557,
+        "statB": 87
+      },
+      "career": {
+        "games": 110,
+        "statA": 3943,
+        "statB": 3386
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "CIN-P-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Joon Schmidt",
+    "jerseyNumber": 7,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 224,
+      "college": "Wardfurt",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 3256983,
+      "capHit": 6098978,
+      "deadCap": 2313592,
+      "signingBonus": 14035524,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 82,
+      "schemeFit": 90,
+      "speed": 71,
+      "acceleration": 77,
+      "agility": 93,
+      "strength": 80,
+      "tackle": 77,
+      "pursuit": 70,
+      "manCoverage": 87,
+      "zoneCoverage": 54,
+      "kickPower": 57,
+      "kickAccuracy": 62,
+      "catching": 79,
+      "routeRunning": 60,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 493,
+        "statB": 563
+      },
+      "career": {
+        "games": 100,
+        "statA": 1109,
+        "statB": 1743
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "CIN-LS-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Griffin Kuvalis",
+    "jerseyNumber": 79,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 202,
+      "college": "Lake Luciousburgh",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 21514610,
+      "capHit": 15923332,
+      "deadCap": 7647849,
+      "signingBonus": 4934801,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 74,
+      "schemeFit": 74,
+      "speed": 77,
+      "acceleration": 83,
+      "agility": 82,
+      "strength": 94,
+      "tackle": 62,
+      "pursuit": 75,
+      "manCoverage": 79,
+      "zoneCoverage": 85,
+      "kickPower": 69,
+      "kickAccuracy": 59,
+      "catching": 61,
+      "routeRunning": 63,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 464,
+        "statB": 757
+      },
+      "career": {
+        "games": 99,
+        "statA": 3057,
+        "statB": 3534
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "CIN-KR-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Khalid Stark",
+    "jerseyNumber": 13,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 218,
+      "college": "Joelstad",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 10803047,
+      "capHit": 11341292,
+      "deadCap": 1845425,
+      "signingBonus": 18645278,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 75,
+      "speed": 82,
+      "acceleration": 88,
+      "agility": 89,
+      "strength": 80,
+      "tackle": 85,
+      "pursuit": 94,
+      "manCoverage": 88,
+      "zoneCoverage": 54,
+      "kickPower": 70,
+      "kickAccuracy": 63,
+      "catching": 86,
+      "routeRunning": 57,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 860,
+        "statB": 785
+      },
+      "career": {
+        "games": 36,
+        "statA": 2175,
+        "statB": 2842
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "CIN-PR-1",
+    "team": "CIN",
+    "teamName": "CIN",
+    "name": "Patrick Doyle",
+    "jerseyNumber": 64,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 321,
+      "college": "Lake Glennie",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 77085899,
+      "capHit": 13401642,
+      "deadCap": 6388797,
+      "signingBonus": 7015319,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 77,
+      "speed": 71,
+      "acceleration": 92,
+      "agility": 89,
+      "strength": 89,
+      "tackle": 80,
+      "pursuit": 83,
+      "manCoverage": 51,
+      "zoneCoverage": 69,
+      "kickPower": 80,
+      "kickAccuracy": 78,
+      "catching": 64,
+      "routeRunning": 89,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 247,
+        "statB": 489
+      },
+      "career": {
+        "games": 18,
+        "statA": 528,
+        "statB": 263
+      }
+    },
+    "photo": "/player_faces/16.png"
+  }
 ]

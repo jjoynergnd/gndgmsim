@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  72,
-        "name":  "Chase Coleman",
-        "id":  "PHI-QB0"
+[
+  {
+    "id": "PHI-QB-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Lucas Kris",
+    "jerseyNumber": 86,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 318,
+      "college": "Lexington-Fayette",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  81,
-        "name":  "Jordan Foster",
-        "id":  "PHI-RB1"
+    "contract": {
+      "years": 5,
+      "totalValue": 13029243,
+      "capHit": 21964641,
+      "deadCap": 3881711,
+      "signingBonus": 955694,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
     },
-    {
-        "position":  "WR",
-        "overall":  90,
-        "name":  "Jalen Halford",
-        "id":  "PHI-WR2"
+    "ratings": {
+      "overall": 73,
+      "potential": 81,
+      "schemeFit": 84,
+      "speed": 82,
+      "acceleration": 78,
+      "agility": 75,
+      "strength": 91,
+      "tackle": 61,
+      "pursuit": 83,
+      "manCoverage": 62,
+      "zoneCoverage": 76,
+      "kickPower": 79,
+      "kickAccuracy": 84,
+      "catching": 72,
+      "routeRunning": 53,
+      "release": 89,
+      "throwPower": 85,
+      "shortAccuracy": 81,
+      "mediumAccuracy": 69,
+      "deepAccuracy": 78
     },
-    {
-        "position":  "LB",
-        "overall":  89,
-        "name":  "Malik Halford",
-        "id":  "PHI-LB3"
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
     },
-    {
-        "position":  "CB",
-        "overall":  90,
-        "name":  "Jalen Bennett",
-        "id":  "PHI-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 78,
+        "statB": 581
+      },
+      "career": {
+        "games": 117,
+        "statA": 2846,
+        "statB": 929
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "PHI-QB-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Jeremy Runolfsdottir",
+    "jerseyNumber": 70,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 292,
+      "college": "Starkboro",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 7668765,
+      "capHit": 12389229,
+      "deadCap": 6460929,
+      "signingBonus": 9919529,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 78,
+      "schemeFit": 83,
+      "speed": 76,
+      "acceleration": 87,
+      "agility": 83,
+      "strength": 62,
+      "tackle": 66,
+      "pursuit": 89,
+      "manCoverage": 73,
+      "zoneCoverage": 60,
+      "kickPower": 52,
+      "kickAccuracy": 89,
+      "catching": 66,
+      "routeRunning": 69,
+      "release": 52,
+      "throwPower": 95,
+      "shortAccuracy": 75,
+      "mediumAccuracy": 83,
+      "deepAccuracy": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 219,
+        "statB": 885
+      },
+      "career": {
+        "games": 11,
+        "statA": 1341,
+        "statB": 1731
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "PHI-QB-3",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Darius Thompson",
+    "jerseyNumber": 62,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 204,
+      "college": "Orphastad",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 87200130,
+      "capHit": 8844727,
+      "deadCap": 8650024,
+      "signingBonus": 2818949,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 81,
+      "schemeFit": 91,
+      "speed": 76,
+      "acceleration": 79,
+      "agility": 74,
+      "strength": 77,
+      "tackle": 63,
+      "pursuit": 74,
+      "manCoverage": 72,
+      "zoneCoverage": 72,
+      "kickPower": 64,
+      "kickAccuracy": 58,
+      "catching": 83,
+      "routeRunning": 54,
+      "release": 59,
+      "throwPower": 71,
+      "shortAccuracy": 80,
+      "mediumAccuracy": 77,
+      "deepAccuracy": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 981,
+        "statB": 280
+      },
+      "career": {
+        "games": 116,
+        "statA": 1038,
+        "statB": 1866
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "PHI-RB-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Jason Reichel",
+    "jerseyNumber": 3,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 192,
+      "college": "Svenstad",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 112877597,
+      "capHit": 18352519,
+      "deadCap": 3649385,
+      "signingBonus": 13643972,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 92,
+      "speed": 86,
+      "acceleration": 91,
+      "agility": 87,
+      "strength": 86,
+      "tackle": 69,
+      "pursuit": 65,
+      "manCoverage": 61,
+      "zoneCoverage": 69,
+      "kickPower": 76,
+      "kickAccuracy": 62,
+      "catching": 71,
+      "routeRunning": 56,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 735,
+        "statB": 852
+      },
+      "career": {
+        "games": 79,
+        "statA": 2581,
+        "statB": 2039
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "PHI-RB-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Hunter Schaefer",
+    "jerseyNumber": 25,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 277,
+      "college": "Sherwoodworth",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 106753089,
+      "capHit": 23667431,
+      "deadCap": 1057373,
+      "signingBonus": 16729069,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 72,
+      "schemeFit": 92,
+      "speed": 90,
+      "acceleration": 90,
+      "agility": 78,
+      "strength": 90,
+      "tackle": 78,
+      "pursuit": 83,
+      "manCoverage": 83,
+      "zoneCoverage": 88,
+      "kickPower": 80,
+      "kickAccuracy": 56,
+      "catching": 72,
+      "routeRunning": 94,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 843,
+        "statB": 175
+      },
+      "career": {
+        "games": 87,
+        "statA": 2921,
+        "statB": 3625
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "PHI-RB-3",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Stephen Lesch",
+    "jerseyNumber": 87,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 195,
+      "college": "Fresno",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 18455159,
+      "capHit": 10130146,
+      "deadCap": 6657738,
+      "signingBonus": 2786050,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 83,
+      "schemeFit": 89,
+      "speed": 90,
+      "acceleration": 82,
+      "agility": 78,
+      "strength": 78,
+      "tackle": 62,
+      "pursuit": 62,
+      "manCoverage": 83,
+      "zoneCoverage": 85,
+      "kickPower": 93,
+      "kickAccuracy": 68,
+      "catching": 51,
+      "routeRunning": 81,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 968,
+        "statB": 746
+      },
+      "career": {
+        "games": 75,
+        "statA": 3421,
+        "statB": 314
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "PHI-RB-4",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Peter Stark",
+    "jerseyNumber": 75,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 324,
+      "college": "Macejkovicview",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 110821781,
+      "capHit": 18071577,
+      "deadCap": 7702336,
+      "signingBonus": 223764,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 86,
+      "schemeFit": 84,
+      "speed": 88,
+      "acceleration": 86,
+      "agility": 88,
+      "strength": 88,
+      "tackle": 91,
+      "pursuit": 65,
+      "manCoverage": 64,
+      "zoneCoverage": 74,
+      "kickPower": 85,
+      "kickAccuracy": 91,
+      "catching": 84,
+      "routeRunning": 51,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 5,
+        "statB": 132
+      },
+      "career": {
+        "games": 32,
+        "statA": 3987,
+        "statB": 2567
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "PHI-WR-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "William Kub",
+    "jerseyNumber": 84,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 207,
+      "college": "East Rico",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 54981167,
+      "capHit": 7466833,
+      "deadCap": 6407451,
+      "signingBonus": 19671102,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 93,
+      "schemeFit": 80,
+      "speed": 72,
+      "acceleration": 91,
+      "agility": 95,
+      "strength": 81,
+      "tackle": 86,
+      "pursuit": 68,
+      "manCoverage": 71,
+      "zoneCoverage": 70,
+      "kickPower": 63,
+      "kickAccuracy": 73,
+      "catching": 66,
+      "routeRunning": 59,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 189,
+        "statB": 583
+      },
+      "career": {
+        "games": 38,
+        "statA": 3230,
+        "statB": 4647
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "PHI-WR-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Gavin Beatty",
+    "jerseyNumber": 23,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 329,
+      "college": "West Daisy",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 103029806,
+      "capHit": 2503383,
+      "deadCap": 9343517,
+      "signingBonus": 6132032,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 79,
+      "schemeFit": 78,
+      "speed": 93,
+      "acceleration": 95,
+      "agility": 81,
+      "strength": 67,
+      "tackle": 85,
+      "pursuit": 67,
+      "manCoverage": 50,
+      "zoneCoverage": 72,
+      "kickPower": 76,
+      "kickAccuracy": 82,
+      "catching": 84,
+      "routeRunning": 91,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 137,
+        "statB": 338
+      },
+      "career": {
+        "games": 107,
+        "statA": 2590,
+        "statB": 3737
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "PHI-WR-3",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Harold Metz",
+    "jerseyNumber": 53,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 228,
+      "college": "Jacobifort",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 113170507,
+      "capHit": 22354054,
+      "deadCap": 4538449,
+      "signingBonus": 3490000,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 89,
+      "schemeFit": 70,
+      "speed": 76,
+      "acceleration": 95,
+      "agility": 92,
+      "strength": 94,
+      "tackle": 86,
+      "pursuit": 80,
+      "manCoverage": 77,
+      "zoneCoverage": 81,
+      "kickPower": 84,
+      "kickAccuracy": 64,
+      "catching": 93,
+      "routeRunning": 65,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 238,
+        "statB": 632
+      },
+      "career": {
+        "games": 114,
+        "statA": 3431,
+        "statB": 798
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "PHI-WR-4",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Lucas Watsica",
+    "jerseyNumber": 63,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 259,
+      "college": "Modestamouth",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 76373870,
+      "capHit": 18001666,
+      "deadCap": 6601266,
+      "signingBonus": 11102544,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 86,
+      "schemeFit": 90,
+      "speed": 90,
+      "acceleration": 91,
+      "agility": 79,
+      "strength": 92,
+      "tackle": 67,
+      "pursuit": 85,
+      "manCoverage": 63,
+      "zoneCoverage": 59,
+      "kickPower": 83,
+      "kickAccuracy": 76,
+      "catching": 60,
+      "routeRunning": 61,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 984,
+        "statB": 434
+      },
+      "career": {
+        "games": 77,
+        "statA": 389,
+        "statB": 3977
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "PHI-WR-5",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Kevin Ebert",
+    "jerseyNumber": 10,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 319,
+      "college": "El Paso",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 52717768,
+      "capHit": 15932203,
+      "deadCap": 1189871,
+      "signingBonus": 10093985,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 73,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 87,
+      "agility": 91,
+      "strength": 81,
+      "tackle": 79,
+      "pursuit": 92,
+      "manCoverage": 57,
+      "zoneCoverage": 82,
+      "kickPower": 56,
+      "kickAccuracy": 63,
+      "catching": 84,
+      "routeRunning": 87,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 148,
+        "statB": 932
+      },
+      "career": {
+        "games": 23,
+        "statA": 897,
+        "statB": 2146
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "PHI-WR-6",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Gerald Windler",
+    "jerseyNumber": 38,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 225,
+      "college": "Lefflerbury",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 23498183,
+      "capHit": 5432274,
+      "deadCap": 2096175,
+      "signingBonus": 5292134,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 67,
+      "schemeFit": 91,
+      "speed": 86,
+      "acceleration": 79,
+      "agility": 79,
+      "strength": 72,
+      "tackle": 73,
+      "pursuit": 78,
+      "manCoverage": 51,
+      "zoneCoverage": 51,
+      "kickPower": 63,
+      "kickAccuracy": 68,
+      "catching": 72,
+      "routeRunning": 77,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 613,
+        "statB": 925
+      },
+      "career": {
+        "games": 45,
+        "statA": 3849,
+        "statB": 4301
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "PHI-WR-7",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Damien Smitham",
+    "jerseyNumber": 95,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 262,
+      "college": "South Nia",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 83579123,
+      "capHit": 6355279,
+      "deadCap": 3985236,
+      "signingBonus": 17729566,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 83,
+      "schemeFit": 78,
+      "speed": 80,
+      "acceleration": 89,
+      "agility": 92,
+      "strength": 71,
+      "tackle": 69,
+      "pursuit": 89,
+      "manCoverage": 59,
+      "zoneCoverage": 83,
+      "kickPower": 59,
+      "kickAccuracy": 70,
+      "catching": 91,
+      "routeRunning": 94,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 498,
+        "statB": 622
+      },
+      "career": {
+        "games": 39,
+        "statA": 3888,
+        "statB": 2427
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "PHI-TE-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Jose Fisher",
+    "jerseyNumber": 49,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 232,
+      "college": "Lake Dock",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 89403327,
+      "capHit": 10943520,
+      "deadCap": 1239220,
+      "signingBonus": 11929623,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 67,
+      "schemeFit": 75,
+      "speed": 83,
+      "acceleration": 79,
+      "agility": 83,
+      "strength": 63,
+      "tackle": 77,
+      "pursuit": 88,
+      "manCoverage": 76,
+      "zoneCoverage": 52,
+      "kickPower": 68,
+      "kickAccuracy": 72,
+      "catching": 63,
+      "routeRunning": 71,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 478,
+        "statB": 273
+      },
+      "career": {
+        "games": 30,
+        "statA": 3674,
+        "statB": 4400
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "PHI-TE-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Joe Jacobs",
+    "jerseyNumber": 22,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 321,
+      "college": "Breannabury",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 55960922,
+      "capHit": 15363171,
+      "deadCap": 2300721,
+      "signingBonus": 13145114,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 76,
+      "schemeFit": 90,
+      "speed": 83,
+      "acceleration": 77,
+      "agility": 84,
+      "strength": 83,
+      "tackle": 74,
+      "pursuit": 83,
+      "manCoverage": 54,
+      "zoneCoverage": 64,
+      "kickPower": 75,
+      "kickAccuracy": 85,
+      "catching": 61,
+      "routeRunning": 91,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 571,
+        "statB": 754
+      },
+      "career": {
+        "games": 0,
+        "statA": 1653,
+        "statB": 2000
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "PHI-TE-3",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Minho Blick",
+    "jerseyNumber": 67,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 268,
+      "college": "South Dena",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 108049141,
+      "capHit": 11239245,
+      "deadCap": 9579682,
+      "signingBonus": 3692678,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 67,
+      "schemeFit": 90,
+      "speed": 75,
+      "acceleration": 76,
+      "agility": 92,
+      "strength": 84,
+      "tackle": 87,
+      "pursuit": 75,
+      "manCoverage": 71,
+      "zoneCoverage": 82,
+      "kickPower": 86,
+      "kickAccuracy": 72,
+      "catching": 89,
+      "routeRunning": 81,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 952,
+        "statB": 166
+      },
+      "career": {
+        "games": 14,
+        "statA": 4273,
+        "statB": 1864
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "PHI-LT-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Holden Veum",
+    "jerseyNumber": 96,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'9\"",
+      "weight": 316,
+      "college": "East Kennith",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 20332020,
+      "capHit": 7518726,
+      "deadCap": 1442356,
+      "signingBonus": 7135380,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 79,
+      "schemeFit": 73,
+      "speed": 84,
+      "acceleration": 74,
+      "agility": 93,
+      "strength": 93,
+      "tackle": 82,
+      "pursuit": 67,
+      "manCoverage": 88,
+      "zoneCoverage": 89,
+      "kickPower": 68,
+      "kickAccuracy": 54,
+      "catching": 70,
+      "routeRunning": 77,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 849,
+        "statB": 161
+      },
+      "career": {
+        "games": 5,
+        "statA": 2855,
+        "statB": 2565
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "PHI-LT-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Brian Marvin",
+    "jerseyNumber": 74,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 188,
+      "college": "South Olin",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 36389126,
+      "capHit": 20576277,
+      "deadCap": 9629850,
+      "signingBonus": 18296634,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 94,
+      "schemeFit": 72,
+      "speed": 82,
+      "acceleration": 81,
+      "agility": 83,
+      "strength": 86,
+      "tackle": 65,
+      "pursuit": 77,
+      "manCoverage": 80,
+      "zoneCoverage": 50,
+      "kickPower": 51,
+      "kickAccuracy": 79,
+      "catching": 81,
+      "routeRunning": 52,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 886,
+        "statB": 742
+      },
+      "career": {
+        "games": 51,
+        "statA": 3321,
+        "statB": 3959
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "PHI-LG-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Benjamin Heaney",
+    "jerseyNumber": 5,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 213,
+      "college": "Chino",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 45889232,
+      "capHit": 4890054,
+      "deadCap": 6445502,
+      "signingBonus": 1933925,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 74,
+      "schemeFit": 95,
+      "speed": 80,
+      "acceleration": 88,
+      "agility": 78,
+      "strength": 86,
+      "tackle": 92,
+      "pursuit": 83,
+      "manCoverage": 65,
+      "zoneCoverage": 87,
+      "kickPower": 64,
+      "kickAccuracy": 66,
+      "catching": 89,
+      "routeRunning": 81,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 506,
+        "statB": 553
+      },
+      "career": {
+        "games": 118,
+        "statA": 1331,
+        "statB": 2738
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "PHI-LG-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Kenneth Beer",
+    "jerseyNumber": 70,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 205,
+      "college": "East Hallie",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 26827534,
+      "capHit": 17427073,
+      "deadCap": 6842758,
+      "signingBonus": 9238146,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 86,
+      "schemeFit": 88,
+      "speed": 88,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 67,
+      "tackle": 63,
+      "pursuit": 65,
+      "manCoverage": 63,
+      "zoneCoverage": 51,
+      "kickPower": 63,
+      "kickAccuracy": 80,
+      "catching": 76,
+      "routeRunning": 82,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 911,
+        "statB": 275
+      },
+      "career": {
+        "games": 114,
+        "statA": 245,
+        "statB": 4949
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "PHI-C-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Leon Kuhn",
+    "jerseyNumber": 46,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 309,
+      "college": "Nitzschefurt",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 104930179,
+      "capHit": 11915497,
+      "deadCap": 206406,
+      "signingBonus": 6953848,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 75,
+      "speed": 85,
+      "acceleration": 75,
+      "agility": 87,
+      "strength": 85,
+      "tackle": 92,
+      "pursuit": 80,
+      "manCoverage": 62,
+      "zoneCoverage": 61,
+      "kickPower": 56,
+      "kickAccuracy": 83,
+      "catching": 53,
+      "routeRunning": 70,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 504,
+        "statB": 657
+      },
+      "career": {
+        "games": 76,
+        "statA": 3055,
+        "statB": 125
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "PHI-C-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Cormac Spencer",
+    "jerseyNumber": 90,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 306,
+      "college": "Moseworth",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 26421733,
+      "capHit": 1897227,
+      "deadCap": 6495006,
+      "signingBonus": 4560555,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 77,
+      "schemeFit": 93,
+      "speed": 74,
+      "acceleration": 74,
+      "agility": 77,
+      "strength": 95,
+      "tackle": 67,
+      "pursuit": 65,
+      "manCoverage": 64,
+      "zoneCoverage": 61,
+      "kickPower": 58,
+      "kickAccuracy": 55,
+      "catching": 54,
+      "routeRunning": 93,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 25,
+        "statB": 214
+      },
+      "career": {
+        "games": 81,
+        "statA": 3509,
+        "statB": 2171
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "PHI-RG-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Kevin Schaefer",
+    "jerseyNumber": 69,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 327,
+      "college": "Isobelburgh",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 102492781,
+      "capHit": 21653243,
+      "deadCap": 4233388,
+      "signingBonus": 6650773,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 91,
+      "schemeFit": 92,
+      "speed": 73,
+      "acceleration": 72,
+      "agility": 86,
+      "strength": 60,
+      "tackle": 89,
+      "pursuit": 60,
+      "manCoverage": 73,
+      "zoneCoverage": 72,
+      "kickPower": 52,
+      "kickAccuracy": 75,
+      "catching": 81,
+      "routeRunning": 56,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 944,
+        "statB": 33
+      },
+      "career": {
+        "games": 103,
+        "statA": 1406,
+        "statB": 4376
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "PHI-RG-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Lucas McLaughlin",
+    "jerseyNumber": 68,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 323,
+      "college": "New Sammy",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 13802331,
+      "capHit": 12798504,
+      "deadCap": 952693,
+      "signingBonus": 9266497,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 90,
+      "speed": 76,
+      "acceleration": 71,
+      "agility": 92,
+      "strength": 82,
+      "tackle": 63,
+      "pursuit": 72,
+      "manCoverage": 57,
+      "zoneCoverage": 82,
+      "kickPower": 63,
+      "kickAccuracy": 79,
+      "catching": 65,
+      "routeRunning": 57,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 37,
+        "statB": 427
+      },
+      "career": {
+        "games": 51,
+        "statA": 3558,
+        "statB": 1623
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "PHI-RT-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Dawson Schuster",
+    "jerseyNumber": 67,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 227,
+      "college": "Port Geovanny",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 15993356,
+      "capHit": 17815587,
+      "deadCap": 4488922,
+      "signingBonus": 1143863,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 78,
+      "schemeFit": 71,
+      "speed": 71,
+      "acceleration": 80,
+      "agility": 72,
+      "strength": 88,
+      "tackle": 70,
+      "pursuit": 72,
+      "manCoverage": 72,
+      "zoneCoverage": 73,
+      "kickPower": 74,
+      "kickAccuracy": 74,
+      "catching": 82,
+      "routeRunning": 90,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 878,
+        "statB": 538
+      },
+      "career": {
+        "games": 7,
+        "statA": 2040,
+        "statB": 446
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "PHI-RT-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Adam Rice",
+    "jerseyNumber": 29,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 308,
+      "college": "Carlsbad",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 64193450,
+      "capHit": 23473069,
+      "deadCap": 3737328,
+      "signingBonus": 10299026,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 73,
+      "speed": 94,
+      "acceleration": 81,
+      "agility": 90,
+      "strength": 79,
+      "tackle": 62,
+      "pursuit": 67,
+      "manCoverage": 85,
+      "zoneCoverage": 61,
+      "kickPower": 85,
+      "kickAccuracy": 69,
+      "catching": 68,
+      "routeRunning": 94,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 94,
+        "statB": 291
+      },
+      "career": {
+        "games": 3,
+        "statA": 687,
+        "statB": 4145
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "PHI-LDE-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Keith Kuvalis",
+    "jerseyNumber": 83,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'2\"",
+      "weight": 212,
+      "college": "Port Dayton",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 16811099,
+      "capHit": 19785368,
+      "deadCap": 4375946,
+      "signingBonus": 14023831,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 68,
+      "schemeFit": 83,
+      "speed": 79,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 92,
+      "tackle": 60,
+      "pursuit": 80,
+      "manCoverage": 57,
+      "zoneCoverage": 72,
+      "kickPower": 58,
+      "kickAccuracy": 58,
+      "catching": 94,
+      "routeRunning": 65,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 57,
+        "statB": 455
+      },
+      "career": {
+        "games": 83,
+        "statA": 2659,
+        "statB": 1544
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "PHI-LDE-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Calvin Grant",
+    "jerseyNumber": 42,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 192,
+      "college": "South Garry",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 89479798,
+      "capHit": 6414292,
+      "deadCap": 8831726,
+      "signingBonus": 3553177,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 68,
+      "schemeFit": 77,
+      "speed": 75,
+      "acceleration": 82,
+      "agility": 88,
+      "strength": 85,
+      "tackle": 63,
+      "pursuit": 88,
+      "manCoverage": 61,
+      "zoneCoverage": 89,
+      "kickPower": 73,
+      "kickAccuracy": 93,
+      "catching": 88,
+      "routeRunning": 89,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 568,
+        "statB": 198
+      },
+      "career": {
+        "games": 53,
+        "statA": 1416,
+        "statB": 440
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "PHI-RDE-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "John Gislason",
+    "jerseyNumber": 13,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 306,
+      "college": "Port Brown",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 88861545,
+      "capHit": 23491451,
+      "deadCap": 5710975,
+      "signingBonus": 4681707,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 86,
+      "schemeFit": 77,
+      "speed": 87,
+      "acceleration": 71,
+      "agility": 91,
+      "strength": 92,
+      "tackle": 86,
+      "pursuit": 64,
+      "manCoverage": 73,
+      "zoneCoverage": 89,
+      "kickPower": 69,
+      "kickAccuracy": 76,
+      "catching": 64,
+      "routeRunning": 58,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 647,
+        "statB": 438
+      },
+      "career": {
+        "games": 69,
+        "statA": 3256,
+        "statB": 2096
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "PHI-RDE-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Adam Lehner",
+    "jerseyNumber": 80,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 243,
+      "college": "Dangelobury",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 17791230,
+      "capHit": 11128962,
+      "deadCap": 4141262,
+      "signingBonus": 19368589,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 69,
+      "schemeFit": 76,
+      "speed": 89,
+      "acceleration": 72,
+      "agility": 82,
+      "strength": 69,
+      "tackle": 67,
+      "pursuit": 85,
+      "manCoverage": 75,
+      "zoneCoverage": 72,
+      "kickPower": 64,
+      "kickAccuracy": 76,
+      "catching": 73,
+      "routeRunning": 77,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 487,
+        "statB": 815
+      },
+      "career": {
+        "games": 67,
+        "statA": 479,
+        "statB": 1409
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "PHI-DT-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Porter Hudson-Daniel",
+    "jerseyNumber": 33,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 318,
+      "college": "Norfolk",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 33667366,
+      "capHit": 1543047,
+      "deadCap": 2269139,
+      "signingBonus": 2328144,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 78,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 77,
+      "agility": 82,
+      "strength": 72,
+      "tackle": 85,
+      "pursuit": 78,
+      "manCoverage": 54,
+      "zoneCoverage": 61,
+      "kickPower": 51,
+      "kickAccuracy": 53,
+      "catching": 64,
+      "routeRunning": 82,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 344,
+        "statB": 177
+      },
+      "career": {
+        "games": 89,
+        "statA": 152,
+        "statB": 965
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "PHI-DT-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Lucas Herzog",
+    "jerseyNumber": 47,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 233,
+      "college": "Darrinchester",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 46373543,
+      "capHit": 24373716,
+      "deadCap": 9298779,
+      "signingBonus": 17695550,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 77,
+      "schemeFit": 95,
+      "speed": 81,
+      "acceleration": 73,
+      "agility": 77,
+      "strength": 89,
+      "tackle": 82,
+      "pursuit": 83,
+      "manCoverage": 69,
+      "zoneCoverage": 88,
+      "kickPower": 87,
+      "kickAccuracy": 68,
+      "catching": 70,
+      "routeRunning": 76,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 850,
+        "statB": 875
+      },
+      "career": {
+        "games": 80,
+        "statA": 3293,
+        "statB": 480
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "PHI-DT-3",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Timothy Huels",
+    "jerseyNumber": 2,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "6'3\"",
+      "weight": 191,
+      "college": "Zelmaborough",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 84071143,
+      "capHit": 21268170,
+      "deadCap": 7605397,
+      "signingBonus": 2019794,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 85,
+      "schemeFit": 81,
+      "speed": 87,
+      "acceleration": 79,
+      "agility": 78,
+      "strength": 60,
+      "tackle": 68,
+      "pursuit": 87,
+      "manCoverage": 57,
+      "zoneCoverage": 52,
+      "kickPower": 85,
+      "kickAccuracy": 90,
+      "catching": 93,
+      "routeRunning": 62,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 868,
+        "statB": 449
+      },
+      "career": {
+        "games": 103,
+        "statA": 2820,
+        "statB": 134
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "PHI-DT-4",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Andres Crooks",
+    "jerseyNumber": 54,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 190,
+      "college": "Morissetteburgh",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 16077556,
+      "capHit": 10540446,
+      "deadCap": 1389540,
+      "signingBonus": 13047129,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 63,
+      "schemeFit": 81,
+      "speed": 72,
+      "acceleration": 71,
+      "agility": 83,
+      "strength": 91,
+      "tackle": 64,
+      "pursuit": 61,
+      "manCoverage": 83,
+      "zoneCoverage": 69,
+      "kickPower": 76,
+      "kickAccuracy": 77,
+      "catching": 64,
+      "routeRunning": 56,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 95,
+        "statB": 897
+      },
+      "career": {
+        "games": 45,
+        "statA": 4303,
+        "statB": 4224
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "PHI-LOLB-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Brendan Franey",
+    "jerseyNumber": 41,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 266,
+      "college": "New Madgehaven",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 93234863,
+      "capHit": 4671934,
+      "deadCap": 9810816,
+      "signingBonus": 16515265,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 92,
+      "schemeFit": 90,
+      "speed": 70,
+      "acceleration": 90,
+      "agility": 83,
+      "strength": 83,
+      "tackle": 91,
+      "pursuit": 71,
+      "manCoverage": 83,
+      "zoneCoverage": 60,
+      "kickPower": 68,
+      "kickAccuracy": 53,
+      "catching": 53,
+      "routeRunning": 82,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 952,
+        "statB": 998
+      },
+      "career": {
+        "games": 40,
+        "statA": 1996,
+        "statB": 740
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "PHI-LOLB-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Andres Beer-Greenfelder",
+    "jerseyNumber": 61,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "5'10\"",
+      "weight": 306,
+      "college": "West Maevefurt",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 7066254,
+      "capHit": 18420709,
+      "deadCap": 6976483,
+      "signingBonus": 420021,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 85,
+      "schemeFit": 86,
+      "speed": 79,
+      "acceleration": 95,
+      "agility": 78,
+      "strength": 65,
+      "tackle": 82,
+      "pursuit": 80,
+      "manCoverage": 83,
+      "zoneCoverage": 71,
+      "kickPower": 86,
+      "kickAccuracy": 94,
+      "catching": 86,
+      "routeRunning": 86,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 215,
+        "statB": 704
+      },
+      "career": {
+        "games": 66,
+        "statA": 96,
+        "statB": 1473
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "PHI-MLB-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Peter Goldner",
+    "jerseyNumber": 54,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 279,
+      "college": "South Fay",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 27756152,
+      "capHit": 12703746,
+      "deadCap": 3081161,
+      "signingBonus": 18369746,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 68,
+      "schemeFit": 71,
+      "speed": 84,
+      "acceleration": 74,
+      "agility": 73,
+      "strength": 95,
+      "tackle": 84,
+      "pursuit": 64,
+      "manCoverage": 59,
+      "zoneCoverage": 70,
+      "kickPower": 55,
+      "kickAccuracy": 75,
+      "catching": 85,
+      "routeRunning": 94,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 357,
+        "statB": 610
+      },
+      "career": {
+        "games": 51,
+        "statA": 4811,
+        "statB": 3964
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "PHI-MLB-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Dominic Blick",
+    "jerseyNumber": 52,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 272,
+      "college": "South Demarco",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 35391137,
+      "capHit": 3385173,
+      "deadCap": 8175564,
+      "signingBonus": 3968734,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 73,
+      "schemeFit": 95,
+      "speed": 90,
+      "acceleration": 71,
+      "agility": 93,
+      "strength": 64,
+      "tackle": 88,
+      "pursuit": 69,
+      "manCoverage": 84,
+      "zoneCoverage": 69,
+      "kickPower": 68,
+      "kickAccuracy": 86,
+      "catching": 72,
+      "routeRunning": 67,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 840,
+        "statB": 110
+      },
+      "career": {
+        "games": 74,
+        "statA": 1566,
+        "statB": 2855
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "PHI-ROLB-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Jordan Gibson",
+    "jerseyNumber": 44,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 326,
+      "college": "South Arloberg",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 95368503,
+      "capHit": 20040662,
+      "deadCap": 1651840,
+      "signingBonus": 1662978,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 81,
+      "schemeFit": 76,
+      "speed": 89,
+      "acceleration": 78,
+      "agility": 72,
+      "strength": 79,
+      "tackle": 80,
+      "pursuit": 86,
+      "manCoverage": 80,
+      "zoneCoverage": 61,
+      "kickPower": 71,
+      "kickAccuracy": 80,
+      "catching": 76,
+      "routeRunning": 64,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 514,
+        "statB": 352
+      },
+      "career": {
+        "games": 47,
+        "statA": 4556,
+        "statB": 3683
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "PHI-ROLB-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Cristian Gottlieb",
+    "jerseyNumber": 72,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 215,
+      "college": "Jackyhaven",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 87789760,
+      "capHit": 10228066,
+      "deadCap": 2900239,
+      "signingBonus": 18382516,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 74,
+      "schemeFit": 86,
+      "speed": 71,
+      "acceleration": 74,
+      "agility": 75,
+      "strength": 81,
+      "tackle": 85,
+      "pursuit": 93,
+      "manCoverage": 86,
+      "zoneCoverage": 65,
+      "kickPower": 54,
+      "kickAccuracy": 52,
+      "catching": 89,
+      "routeRunning": 52,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 33,
+        "statB": 58
+      },
+      "career": {
+        "games": 66,
+        "statA": 948,
+        "statB": 415
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "PHI-CB-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Joseph Feeney",
+    "jerseyNumber": 64,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 227,
+      "college": "East Josie",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 92987660,
+      "capHit": 20301160,
+      "deadCap": 6843556,
+      "signingBonus": 3932278,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 76,
+      "schemeFit": 71,
+      "speed": 81,
+      "acceleration": 85,
+      "agility": 70,
+      "strength": 88,
+      "tackle": 89,
+      "pursuit": 67,
+      "manCoverage": 70,
+      "zoneCoverage": 61,
+      "kickPower": 55,
+      "kickAccuracy": 79,
+      "catching": 50,
+      "routeRunning": 60,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 944,
+        "statB": 400
+      },
+      "career": {
+        "games": 66,
+        "statA": 1203,
+        "statB": 974
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "PHI-CB-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Brian Huels-Renner",
+    "jerseyNumber": 5,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 258,
+      "college": "Roxanneworth",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 30462604,
+      "capHit": 13735041,
+      "deadCap": 2547080,
+      "signingBonus": 14075236,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 87,
+      "schemeFit": 84,
+      "speed": 90,
+      "acceleration": 88,
+      "agility": 86,
+      "strength": 68,
+      "tackle": 91,
+      "pursuit": 79,
+      "manCoverage": 78,
+      "zoneCoverage": 81,
+      "kickPower": 82,
+      "kickAccuracy": 54,
+      "catching": 65,
+      "routeRunning": 74,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 324,
+        "statB": 533
+      },
+      "career": {
+        "games": 75,
+        "statA": 2722,
+        "statB": 2459
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "PHI-CB-3",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Harold Langworth",
+    "jerseyNumber": 58,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 308,
+      "college": "Schinnerstad",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 93360580,
+      "capHit": 19598459,
+      "deadCap": 8279953,
+      "signingBonus": 11714863,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 89,
+      "schemeFit": 79,
+      "speed": 84,
+      "acceleration": 72,
+      "agility": 91,
+      "strength": 93,
+      "tackle": 85,
+      "pursuit": 67,
+      "manCoverage": 72,
+      "zoneCoverage": 76,
+      "kickPower": 57,
+      "kickAccuracy": 63,
+      "catching": 82,
+      "routeRunning": 94,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 90,
+        "statB": 788
+      },
+      "career": {
+        "games": 57,
+        "statA": 3569,
+        "statB": 1412
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "PHI-CB-4",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Preston Boehm",
+    "jerseyNumber": 24,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 326,
+      "college": "Fort Megane",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 8215244,
+      "capHit": 6700719,
+      "deadCap": 2609104,
+      "signingBonus": 10646310,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 65,
+      "schemeFit": 86,
+      "speed": 86,
+      "acceleration": 78,
+      "agility": 72,
+      "strength": 89,
+      "tackle": 74,
+      "pursuit": 91,
+      "manCoverage": 68,
+      "zoneCoverage": 53,
+      "kickPower": 94,
+      "kickAccuracy": 57,
+      "catching": 64,
+      "routeRunning": 67,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 757,
+        "statB": 738
+      },
+      "career": {
+        "games": 56,
+        "statA": 4722,
+        "statB": 1700
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "PHI-CB-5",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Malik Reilly",
+    "jerseyNumber": 52,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 224,
+      "college": "Hackettview",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 105842791,
+      "capHit": 2109702,
+      "deadCap": 5428516,
+      "signingBonus": 8994057,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 75,
+      "speed": 72,
+      "acceleration": 75,
+      "agility": 75,
+      "strength": 75,
+      "tackle": 95,
+      "pursuit": 69,
+      "manCoverage": 71,
+      "zoneCoverage": 62,
+      "kickPower": 69,
+      "kickAccuracy": 70,
+      "catching": 58,
+      "routeRunning": 53,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 612,
+        "statB": 508
+      },
+      "career": {
+        "games": 95,
+        "statA": 3956,
+        "statB": 3852
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "PHI-CB-6",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Nicholas Hand",
+    "jerseyNumber": 40,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 284,
+      "college": "Websterberg",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 54517875,
+      "capHit": 24788038,
+      "deadCap": 5749009,
+      "signingBonus": 1651019,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 65,
+      "schemeFit": 86,
+      "speed": 88,
+      "acceleration": 83,
+      "agility": 88,
+      "strength": 71,
+      "tackle": 85,
+      "pursuit": 66,
+      "manCoverage": 81,
+      "zoneCoverage": 82,
+      "kickPower": 91,
+      "kickAccuracy": 88,
+      "catching": 60,
+      "routeRunning": 75,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 215,
+        "statB": 575
+      },
+      "career": {
+        "games": 108,
+        "statA": 3101,
+        "statB": 1505
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "PHI-FS-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Griffin Von",
+    "jerseyNumber": 95,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 219,
+      "college": "San Clemente",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 99102308,
+      "capHit": 8263944,
+      "deadCap": 232730,
+      "signingBonus": 7341955,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 70,
+      "schemeFit": 70,
+      "speed": 87,
+      "acceleration": 86,
+      "agility": 72,
+      "strength": 69,
+      "tackle": 64,
+      "pursuit": 95,
+      "manCoverage": 54,
+      "zoneCoverage": 78,
+      "kickPower": 53,
+      "kickAccuracy": 76,
+      "catching": 54,
+      "routeRunning": 62,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 230,
+        "statB": 779
+      },
+      "career": {
+        "games": 103,
+        "statA": 1604,
+        "statB": 3003
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "PHI-FS-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Gianni Herman",
+    "jerseyNumber": 50,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 246,
+      "college": "Sawaynton",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 48901574,
+      "capHit": 858542,
+      "deadCap": 2876106,
+      "signingBonus": 14862465,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 71,
+      "schemeFit": 85,
+      "speed": 84,
+      "acceleration": 78,
+      "agility": 95,
+      "strength": 60,
+      "tackle": 84,
+      "pursuit": 77,
+      "manCoverage": 88,
+      "zoneCoverage": 51,
+      "kickPower": 78,
+      "kickAccuracy": 77,
+      "catching": 68,
+      "routeRunning": 60,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 28,
+        "statB": 259
+      },
+      "career": {
+        "games": 47,
+        "statA": 249,
+        "statB": 3032
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "PHI-SS-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Liang Jacobs",
+    "jerseyNumber": 27,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 188,
+      "college": "Lake Marilie",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 103785180,
+      "capHit": 23784778,
+      "deadCap": 2875813,
+      "signingBonus": 15903561,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 69,
+      "schemeFit": 71,
+      "speed": 94,
+      "acceleration": 73,
+      "agility": 95,
+      "strength": 68,
+      "tackle": 79,
+      "pursuit": 60,
+      "manCoverage": 62,
+      "zoneCoverage": 88,
+      "kickPower": 88,
+      "kickAccuracy": 74,
+      "catching": 64,
+      "routeRunning": 55,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 935,
+        "statB": 1000
+      },
+      "career": {
+        "games": 102,
+        "statA": 1091,
+        "statB": 2154
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "PHI-SS-2",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Mitchell Fritsch",
+    "jerseyNumber": 68,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 257,
+      "college": "Savannah",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 118553011,
+      "capHit": 4831077,
+      "deadCap": 3450023,
+      "signingBonus": 19083040,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 72,
+      "schemeFit": 87,
+      "speed": 82,
+      "acceleration": 72,
+      "agility": 85,
+      "strength": 62,
+      "tackle": 76,
+      "pursuit": 82,
+      "manCoverage": 75,
+      "zoneCoverage": 63,
+      "kickPower": 57,
+      "kickAccuracy": 80,
+      "catching": 66,
+      "routeRunning": 90,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 601,
+        "statB": 116
+      },
+      "career": {
+        "games": 13,
+        "statA": 4958,
+        "statB": 198
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "PHI-K-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Samir Rodriguez",
+    "jerseyNumber": 34,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'11\"",
+      "weight": 213,
+      "college": "Orinton",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 113028027,
+      "capHit": 14490347,
+      "deadCap": 3857529,
+      "signingBonus": 12140854,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 65,
+      "schemeFit": 93,
+      "speed": 93,
+      "acceleration": 85,
+      "agility": 92,
+      "strength": 83,
+      "tackle": 71,
+      "pursuit": 73,
+      "manCoverage": 57,
+      "zoneCoverage": 80,
+      "kickPower": 51,
+      "kickAccuracy": 92,
+      "catching": 51,
+      "routeRunning": 65,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 653,
+        "statB": 351
+      },
+      "career": {
+        "games": 58,
+        "statA": 2310,
+        "statB": 4597
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "PHI-P-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Riku Hyatt",
+    "jerseyNumber": 26,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 319,
+      "college": "Idellton",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 39879631,
+      "capHit": 8073829,
+      "deadCap": 5308710,
+      "signingBonus": 4876596,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 82,
+      "schemeFit": 86,
+      "speed": 71,
+      "acceleration": 76,
+      "agility": 86,
+      "strength": 71,
+      "tackle": 63,
+      "pursuit": 70,
+      "manCoverage": 74,
+      "zoneCoverage": 69,
+      "kickPower": 91,
+      "kickAccuracy": 54,
+      "catching": 63,
+      "routeRunning": 67,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 255,
+        "statB": 99
+      },
+      "career": {
+        "games": 33,
+        "statA": 1327,
+        "statB": 2197
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "PHI-LS-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Enzo Klein",
+    "jerseyNumber": 95,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 330,
+      "college": "Maxineburgh",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 36785794,
+      "capHit": 6668570,
+      "deadCap": 4770622,
+      "signingBonus": 12159066,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 71,
+      "schemeFit": 86,
+      "speed": 75,
+      "acceleration": 70,
+      "agility": 70,
+      "strength": 75,
+      "tackle": 95,
+      "pursuit": 78,
+      "manCoverage": 77,
+      "zoneCoverage": 88,
+      "kickPower": 95,
+      "kickAccuracy": 75,
+      "catching": 65,
+      "routeRunning": 73,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 486,
+        "statB": 342
+      },
+      "career": {
+        "games": 102,
+        "statA": 4474,
+        "statB": 2545
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "PHI-KR-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Edgar Olson",
+    "jerseyNumber": 16,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'10\"",
+      "weight": 322,
+      "college": "Codystead",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 115761074,
+      "capHit": 3059413,
+      "deadCap": 5441147,
+      "signingBonus": 2153188,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 75,
+      "schemeFit": 83,
+      "speed": 77,
+      "acceleration": 91,
+      "agility": 73,
+      "strength": 80,
+      "tackle": 68,
+      "pursuit": 84,
+      "manCoverage": 86,
+      "zoneCoverage": 63,
+      "kickPower": 93,
+      "kickAccuracy": 61,
+      "catching": 87,
+      "routeRunning": 83,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 947,
+        "statB": 397
+      },
+      "career": {
+        "games": 21,
+        "statA": 1503,
+        "statB": 4356
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "PHI-PR-1",
+    "team": "PHI",
+    "teamName": "PHI",
+    "name": "Alberto Gleichner-Thompson",
+    "jerseyNumber": 59,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 223,
+      "college": "East Sonya",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 96241088,
+      "capHit": 24889327,
+      "deadCap": 4154381,
+      "signingBonus": 17168425,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 75,
+      "schemeFit": 72,
+      "speed": 83,
+      "acceleration": 74,
+      "agility": 81,
+      "strength": 80,
+      "tackle": 91,
+      "pursuit": 70,
+      "manCoverage": 56,
+      "zoneCoverage": 80,
+      "kickPower": 53,
+      "kickAccuracy": 92,
+      "catching": 87,
+      "routeRunning": 88,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 985,
+        "statB": 522
+      },
+      "career": {
+        "games": 39,
+        "statA": 312,
+        "statB": 1698
+      }
+    },
+    "photo": "/player_faces/16.png"
+  }
 ]

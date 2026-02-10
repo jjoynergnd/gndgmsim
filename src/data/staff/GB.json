@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  90,
-               "name":  "Jalen Shaw"
-           },
-    "OC":  {
-               "rating":  67,
-               "name":  "Jordan Bennett"
-           },
-    "DC":  {
-               "rating":  80,
-               "name":  "Marcus Douglas"
-           }
-}
+[
+  {
+    "id": "GB-STAFF-1",
+    "team": "GB",
+    "role": "Head Coach",
+    "name": "Khalid Kshlerin",
+    "vitals": {
+      "age": 57,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 93,
+      "schemeKnowledge": 81,
+      "playerDev": 81,
+      "motivation": 68,
+      "injuryManagement": 60,
+      "conditioning": 56,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 5,
+      "salary": 2720767
+    }
+  },
+  {
+    "id": "GB-STAFF-2",
+    "team": "GB",
+    "role": "Offensive Coordinator",
+    "name": "Tucker McGlynn",
+    "vitals": {
+      "age": 39,
+      "experience": 18
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 63,
+      "schemeKnowledge": 88,
+      "playerDev": 84,
+      "motivation": 67,
+      "injuryManagement": 55,
+      "conditioning": 42,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7570896
+    }
+  },
+  {
+    "id": "GB-STAFF-3",
+    "team": "GB",
+    "role": "Defensive Coordinator",
+    "name": "Quentin Kihn-Goodwin",
+    "vitals": {
+      "age": 58,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 86,
+      "discipline": 78,
+      "schemeKnowledge": 63,
+      "playerDev": 83,
+      "motivation": 91,
+      "injuryManagement": 53,
+      "conditioning": 64,
+      "analyticsIQ": 63
+    },
+    "contract": {
+      "years": 5,
+      "salary": 4584293
+    }
+  },
+  {
+    "id": "GB-STAFF-4",
+    "team": "GB",
+    "role": "Strength & Conditioning Coach",
+    "name": "Igor Wyman",
+    "vitals": {
+      "age": 55,
+      "experience": 32
+    },
+    "ratings": {
+      "leadership": 86,
+      "discipline": 68,
+      "schemeKnowledge": 66,
+      "playerDev": 77,
+      "motivation": 61,
+      "injuryManagement": 59,
+      "conditioning": 78,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 3,
+      "salary": 6176753
+    }
+  },
+  {
+    "id": "GB-STAFF-5",
+    "team": "GB",
+    "role": "Physical Therapist",
+    "name": "Maxwell Daugherty",
+    "vitals": {
+      "age": 43,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 71,
+      "schemeKnowledge": 67,
+      "playerDev": 70,
+      "motivation": 72,
+      "injuryManagement": 84,
+      "conditioning": 48,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2383875
+    }
+  },
+  {
+    "id": "GB-STAFF-6",
+    "team": "GB",
+    "role": "Athletic Trainer",
+    "name": "Emmanuel Daugherty",
+    "vitals": {
+      "age": 61,
+      "experience": 9
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 70,
+      "schemeKnowledge": 73,
+      "playerDev": 63,
+      "motivation": 90,
+      "injuryManagement": 90,
+      "conditioning": 63,
+      "analyticsIQ": 64
+    },
+    "contract": {
+      "years": 4,
+      "salary": 799577
+    }
+  },
+  {
+    "id": "GB-STAFF-7",
+    "team": "GB",
+    "role": "Analytics Coordinator",
+    "name": "Griffin Lockman",
+    "vitals": {
+      "age": 53,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 93,
+      "discipline": 93,
+      "schemeKnowledge": 92,
+      "playerDev": 76,
+      "motivation": 80,
+      "injuryManagement": 60,
+      "conditioning": 64,
+      "analyticsIQ": 87
+    },
+    "contract": {
+      "years": 2,
+      "salary": 581799
+    }
+  }
+]

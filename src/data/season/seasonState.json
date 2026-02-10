@@ -1,29 +1,16 @@
 {
   "year": 2026,
-
-  "phase": "PRESEASON",
+  "phase": "OFFSEASON",
+  "offseasonStep": "RESIGNINGS",
   "week": 0,
-
-  "playoffRound": null,
-  "offseasonStep": null,
-
-  "gamesCompleted": 16,
-  "gamesTotal": 16,
-
-  "lastResult": {
-    "summary": "",
-    "details": ""
-  },
-
+  "_initialized": false,
   "warnings": {
-    "injuries": 2,
+    "injuries": 0,
     "depthChartIssues": 0,
     "capOver": false
   },
-
-  "offseason": {
-    "resigningsComplete": false,
-    "freeAgencyComplete": false,
-    "draftComplete": false
+  "lastResult": {
+    "summary": "New franchise loaded",
+    "details": "Offseason — RESIGNINGS"
   }
 }

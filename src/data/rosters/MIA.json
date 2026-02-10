@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  72,
-        "name":  "Jordan Maddox",
-        "id":  "MIA-QB0"
+[
+  {
+    "id": "MIA-QB-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Derek Spinka",
+    "jerseyNumber": 11,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 206,
+      "college": "South Casimir",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  73,
-        "name":  "Jordan Coleman",
-        "id":  "MIA-RB1"
+    "contract": {
+      "years": 1,
+      "totalValue": 102832171,
+      "capHit": 15933954,
+      "deadCap": 3328576,
+      "signingBonus": 10466293,
+      "expiresYear": 2027,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  76,
-        "name":  "Jordan Wynn",
-        "id":  "MIA-WR2"
+    "ratings": {
+      "overall": 65,
+      "potential": 73,
+      "schemeFit": 91,
+      "speed": 73,
+      "acceleration": 73,
+      "agility": 87,
+      "strength": 70,
+      "tackle": 65,
+      "pursuit": 63,
+      "manCoverage": 51,
+      "zoneCoverage": 63,
+      "kickPower": 69,
+      "kickAccuracy": 84,
+      "catching": 66,
+      "routeRunning": 66,
+      "release": 84,
+      "throwPower": 88,
+      "shortAccuracy": 91,
+      "mediumAccuracy": 73,
+      "deepAccuracy": 86
     },
-    {
-        "position":  "LB",
-        "overall":  86,
-        "name":  "Darius Wynn",
-        "id":  "MIA-LB3"
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  78,
-        "name":  "Tyrone Maddox",
-        "id":  "MIA-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 499,
+        "statB": 898
+      },
+      "career": {
+        "games": 112,
+        "statA": 2703,
+        "statB": 63
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "MIA-QB-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Lawrence Jast",
+    "jerseyNumber": 91,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 314,
+      "college": "Mission Viejo",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 18194194,
+      "capHit": 19111961,
+      "deadCap": 580005,
+      "signingBonus": 16815731,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 69,
+      "schemeFit": 77,
+      "speed": 79,
+      "acceleration": 93,
+      "agility": 86,
+      "strength": 62,
+      "tackle": 86,
+      "pursuit": 77,
+      "manCoverage": 61,
+      "zoneCoverage": 71,
+      "kickPower": 93,
+      "kickAccuracy": 54,
+      "catching": 77,
+      "routeRunning": 85,
+      "release": 59,
+      "throwPower": 93,
+      "shortAccuracy": 94,
+      "mediumAccuracy": 64,
+      "deepAccuracy": 79
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 694,
+        "statB": 316
+      },
+      "career": {
+        "games": 119,
+        "statA": 2913,
+        "statB": 4743
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "MIA-QB-3",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Ralph Beatty",
+    "jerseyNumber": 66,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 271,
+      "college": "West Donny",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 50514778,
+      "capHit": 15073661,
+      "deadCap": 8312435,
+      "signingBonus": 10955855,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 87,
+      "schemeFit": 89,
+      "speed": 92,
+      "acceleration": 73,
+      "agility": 88,
+      "strength": 86,
+      "tackle": 73,
+      "pursuit": 71,
+      "manCoverage": 82,
+      "zoneCoverage": 65,
+      "kickPower": 82,
+      "kickAccuracy": 73,
+      "catching": 66,
+      "routeRunning": 50,
+      "release": 53,
+      "throwPower": 85,
+      "shortAccuracy": 77,
+      "mediumAccuracy": 78,
+      "deepAccuracy": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 128,
+        "statB": 824
+      },
+      "career": {
+        "games": 70,
+        "statA": 4992,
+        "statB": 619
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "MIA-RB-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Raymond Heathcote",
+    "jerseyNumber": 4,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 259,
+      "college": "Port Rosaliaboro",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 5954585,
+      "capHit": 19597207,
+      "deadCap": 1611195,
+      "signingBonus": 14555567,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 71,
+      "schemeFit": 93,
+      "speed": 89,
+      "acceleration": 92,
+      "agility": 78,
+      "strength": 76,
+      "tackle": 79,
+      "pursuit": 82,
+      "manCoverage": 81,
+      "zoneCoverage": 69,
+      "kickPower": 72,
+      "kickAccuracy": 88,
+      "catching": 65,
+      "routeRunning": 90,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 768,
+        "statB": 860
+      },
+      "career": {
+        "games": 28,
+        "statA": 566,
+        "statB": 3724
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "MIA-RB-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Paul Simonis",
+    "jerseyNumber": 74,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 266,
+      "college": "East Maymie",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 69044493,
+      "capHit": 6128394,
+      "deadCap": 3462165,
+      "signingBonus": 7404037,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 80,
+      "schemeFit": 89,
+      "speed": 82,
+      "acceleration": 90,
+      "agility": 89,
+      "strength": 94,
+      "tackle": 92,
+      "pursuit": 72,
+      "manCoverage": 80,
+      "zoneCoverage": 67,
+      "kickPower": 67,
+      "kickAccuracy": 87,
+      "catching": 51,
+      "routeRunning": 53,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 1000,
+        "statB": 825
+      },
+      "career": {
+        "games": 64,
+        "statA": 2782,
+        "statB": 4898
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "MIA-RB-3",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Luca McDermott",
+    "jerseyNumber": 3,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 267,
+      "college": "Lake Christtown",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 38792954,
+      "capHit": 19245272,
+      "deadCap": 659042,
+      "signingBonus": 8481484,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 78,
+      "speed": 95,
+      "acceleration": 89,
+      "agility": 71,
+      "strength": 80,
+      "tackle": 85,
+      "pursuit": 91,
+      "manCoverage": 68,
+      "zoneCoverage": 80,
+      "kickPower": 93,
+      "kickAccuracy": 85,
+      "catching": 71,
+      "routeRunning": 69,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 615,
+        "statB": 228
+      },
+      "career": {
+        "games": 85,
+        "statA": 2458,
+        "statB": 3258
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "MIA-RB-4",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Edgar Oberbrunner",
+    "jerseyNumber": 59,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 265,
+      "college": "Lake Chelsea",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 37251534,
+      "capHit": 11602411,
+      "deadCap": 9511358,
+      "signingBonus": 10727658,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 76,
+      "schemeFit": 73,
+      "speed": 71,
+      "acceleration": 71,
+      "agility": 88,
+      "strength": 92,
+      "tackle": 71,
+      "pursuit": 91,
+      "manCoverage": 59,
+      "zoneCoverage": 55,
+      "kickPower": 95,
+      "kickAccuracy": 84,
+      "catching": 85,
+      "routeRunning": 74,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 21,
+        "statB": 168
+      },
+      "career": {
+        "games": 74,
+        "statA": 2981,
+        "statB": 1978
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "MIA-WR-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Parker Jenkins",
+    "jerseyNumber": 74,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 185,
+      "college": "Fort Tate",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 25319886,
+      "capHit": 11935585,
+      "deadCap": 4691341,
+      "signingBonus": 14348709,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 73,
+      "schemeFit": 70,
+      "speed": 91,
+      "acceleration": 89,
+      "agility": 80,
+      "strength": 68,
+      "tackle": 74,
+      "pursuit": 92,
+      "manCoverage": 71,
+      "zoneCoverage": 77,
+      "kickPower": 94,
+      "kickAccuracy": 71,
+      "catching": 61,
+      "routeRunning": 67,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 979,
+        "statB": 847
+      },
+      "career": {
+        "games": 48,
+        "statA": 4388,
+        "statB": 541
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "MIA-WR-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Kenji DuBuque",
+    "jerseyNumber": 88,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 280,
+      "college": "Caguas",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 111599190,
+      "capHit": 24086958,
+      "deadCap": 9354784,
+      "signingBonus": 17687882,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 76,
+      "schemeFit": 92,
+      "speed": 83,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 94,
+      "tackle": 80,
+      "pursuit": 70,
+      "manCoverage": 61,
+      "zoneCoverage": 59,
+      "kickPower": 50,
+      "kickAccuracy": 91,
+      "catching": 81,
+      "routeRunning": 91,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 831,
+        "statB": 494
+      },
+      "career": {
+        "games": 18,
+        "statA": 1927,
+        "statB": 3088
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "MIA-WR-3",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Omar Metz",
+    "jerseyNumber": 88,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 315,
+      "college": "East Meggie",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 37999456,
+      "capHit": 23478987,
+      "deadCap": 7565978,
+      "signingBonus": 1888339,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 91,
+      "schemeFit": 71,
+      "speed": 81,
+      "acceleration": 83,
+      "agility": 71,
+      "strength": 89,
+      "tackle": 79,
+      "pursuit": 93,
+      "manCoverage": 52,
+      "zoneCoverage": 58,
+      "kickPower": 78,
+      "kickAccuracy": 77,
+      "catching": 60,
+      "routeRunning": 61,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 874,
+        "statB": 458
+      },
+      "career": {
+        "games": 13,
+        "statA": 4038,
+        "statB": 2761
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "MIA-WR-4",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Brent Bruen",
+    "jerseyNumber": 41,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 298,
+      "college": "Maggioland",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 52587567,
+      "capHit": 23674272,
+      "deadCap": 9698069,
+      "signingBonus": 3338502,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 86,
+      "schemeFit": 80,
+      "speed": 70,
+      "acceleration": 73,
+      "agility": 94,
+      "strength": 84,
+      "tackle": 76,
+      "pursuit": 69,
+      "manCoverage": 50,
+      "zoneCoverage": 73,
+      "kickPower": 85,
+      "kickAccuracy": 68,
+      "catching": 76,
+      "routeRunning": 68,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 62,
+        "statB": 767
+      },
+      "career": {
+        "games": 0,
+        "statA": 4364,
+        "statB": 688
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "MIA-WR-5",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Samir Hettinger",
+    "jerseyNumber": 96,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 24,
+      "height": "5'9\"",
+      "weight": 230,
+      "college": "Tiaraberg",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 90863086,
+      "capHit": 24655604,
+      "deadCap": 3596803,
+      "signingBonus": 9479307,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 62,
+      "schemeFit": 86,
+      "speed": 81,
+      "acceleration": 78,
+      "agility": 71,
+      "strength": 64,
+      "tackle": 92,
+      "pursuit": 66,
+      "manCoverage": 73,
+      "zoneCoverage": 75,
+      "kickPower": 67,
+      "kickAccuracy": 53,
+      "catching": 94,
+      "routeRunning": 84,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 490,
+        "statB": 200
+      },
+      "career": {
+        "games": 111,
+        "statA": 2017,
+        "statB": 735
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "MIA-WR-6",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Paul Hirthe",
+    "jerseyNumber": 22,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 253,
+      "college": "Walkerfurt",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 3286381,
+      "capHit": 8983617,
+      "deadCap": 2439821,
+      "signingBonus": 18641738,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 71,
+      "schemeFit": 75,
+      "speed": 86,
+      "acceleration": 87,
+      "agility": 72,
+      "strength": 77,
+      "tackle": 64,
+      "pursuit": 74,
+      "manCoverage": 66,
+      "zoneCoverage": 60,
+      "kickPower": 55,
+      "kickAccuracy": 85,
+      "catching": 87,
+      "routeRunning": 60,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 825,
+        "statB": 358
+      },
+      "career": {
+        "games": 40,
+        "statA": 576,
+        "statB": 1843
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "MIA-WR-7",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Brandon Herman",
+    "jerseyNumber": 3,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 197,
+      "college": "Providence",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 1513375,
+      "capHit": 22329229,
+      "deadCap": 2841644,
+      "signingBonus": 12543862,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 68,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 94,
+      "agility": 81,
+      "strength": 83,
+      "tackle": 70,
+      "pursuit": 92,
+      "manCoverage": 58,
+      "zoneCoverage": 52,
+      "kickPower": 52,
+      "kickAccuracy": 53,
+      "catching": 68,
+      "routeRunning": 80,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 829,
+        "statB": 825
+      },
+      "career": {
+        "games": 101,
+        "statA": 4222,
+        "statB": 1018
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "MIA-TE-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Gary Schneider",
+    "jerseyNumber": 22,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 281,
+      "college": "Justinaside",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 30099855,
+      "capHit": 7508718,
+      "deadCap": 9206244,
+      "signingBonus": 6495265,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 88,
+      "speed": 73,
+      "acceleration": 83,
+      "agility": 79,
+      "strength": 60,
+      "tackle": 79,
+      "pursuit": 86,
+      "manCoverage": 76,
+      "zoneCoverage": 82,
+      "kickPower": 56,
+      "kickAccuracy": 53,
+      "catching": 59,
+      "routeRunning": 59,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 102,
+        "statB": 711
+      },
+      "career": {
+        "games": 71,
+        "statA": 3570,
+        "statB": 569
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "MIA-TE-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Brandon Mayer",
+    "jerseyNumber": 42,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 296,
+      "college": "Schusterfurt",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 99407330,
+      "capHit": 5357590,
+      "deadCap": 8125867,
+      "signingBonus": 14198175,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 66,
+      "schemeFit": 89,
+      "speed": 74,
+      "acceleration": 92,
+      "agility": 88,
+      "strength": 66,
+      "tackle": 62,
+      "pursuit": 67,
+      "manCoverage": 73,
+      "zoneCoverage": 52,
+      "kickPower": 88,
+      "kickAccuracy": 86,
+      "catching": 66,
+      "routeRunning": 73,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 572,
+        "statB": 607
+      },
+      "career": {
+        "games": 65,
+        "statA": 1586,
+        "statB": 1294
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "MIA-TE-3",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Juan Anderson",
+    "jerseyNumber": 4,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 216,
+      "college": "Yundtport",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 3127427,
+      "capHit": 599210,
+      "deadCap": 1457082,
+      "signingBonus": 233499,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 80,
+      "schemeFit": 83,
+      "speed": 74,
+      "acceleration": 76,
+      "agility": 70,
+      "strength": 81,
+      "tackle": 83,
+      "pursuit": 67,
+      "manCoverage": 87,
+      "zoneCoverage": 50,
+      "kickPower": 58,
+      "kickAccuracy": 65,
+      "catching": 74,
+      "routeRunning": 93,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 784,
+        "statB": 809
+      },
+      "career": {
+        "games": 97,
+        "statA": 2110,
+        "statB": 4441
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "MIA-LT-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Mitchell Quigley",
+    "jerseyNumber": 3,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 256,
+      "college": "Kenyattafurt",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 87637081,
+      "capHit": 19856099,
+      "deadCap": 6811117,
+      "signingBonus": 473639,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 83,
+      "schemeFit": 78,
+      "speed": 72,
+      "acceleration": 87,
+      "agility": 87,
+      "strength": 80,
+      "tackle": 89,
+      "pursuit": 94,
+      "manCoverage": 60,
+      "zoneCoverage": 50,
+      "kickPower": 53,
+      "kickAccuracy": 79,
+      "catching": 70,
+      "routeRunning": 90,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 954,
+        "statB": 705
+      },
+      "career": {
+        "games": 47,
+        "statA": 3336,
+        "statB": 856
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "MIA-LT-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Riley Schoen",
+    "jerseyNumber": 92,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 301,
+      "college": "Vancefort",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 21069676,
+      "capHit": 14385141,
+      "deadCap": 2374115,
+      "signingBonus": 2450236,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 69,
+      "schemeFit": 76,
+      "speed": 94,
+      "acceleration": 94,
+      "agility": 70,
+      "strength": 67,
+      "tackle": 94,
+      "pursuit": 65,
+      "manCoverage": 61,
+      "zoneCoverage": 90,
+      "kickPower": 89,
+      "kickAccuracy": 91,
+      "catching": 83,
+      "routeRunning": 82,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 516,
+        "statB": 938
+      },
+      "career": {
+        "games": 75,
+        "statA": 4389,
+        "statB": 735
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "MIA-LG-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Jason Abernathy",
+    "jerseyNumber": 52,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 189,
+      "college": "Fort Elnoracester",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 93010364,
+      "capHit": 2648641,
+      "deadCap": 1301962,
+      "signingBonus": 8426056,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 78,
+      "schemeFit": 86,
+      "speed": 85,
+      "acceleration": 89,
+      "agility": 74,
+      "strength": 78,
+      "tackle": 65,
+      "pursuit": 81,
+      "manCoverage": 74,
+      "zoneCoverage": 52,
+      "kickPower": 55,
+      "kickAccuracy": 76,
+      "catching": 86,
+      "routeRunning": 84,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 310,
+        "statB": 778
+      },
+      "career": {
+        "games": 97,
+        "statA": 4899,
+        "statB": 4890
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "MIA-LG-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Justin Cronin",
+    "jerseyNumber": 24,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 194,
+      "college": "Torpfurt",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 29066325,
+      "capHit": 8186974,
+      "deadCap": 3160512,
+      "signingBonus": 11235407,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 65,
+      "schemeFit": 79,
+      "speed": 75,
+      "acceleration": 81,
+      "agility": 77,
+      "strength": 89,
+      "tackle": 65,
+      "pursuit": 69,
+      "manCoverage": 64,
+      "zoneCoverage": 61,
+      "kickPower": 60,
+      "kickAccuracy": 63,
+      "catching": 80,
+      "routeRunning": 87,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 864,
+        "statB": 4
+      },
+      "career": {
+        "games": 87,
+        "statA": 4055,
+        "statB": 850
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "MIA-C-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Austin Rutherford",
+    "jerseyNumber": 52,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 284,
+      "college": "Lake Urbanboro",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 69043002,
+      "capHit": 17742223,
+      "deadCap": 6317454,
+      "signingBonus": 11951997,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 78,
+      "speed": 90,
+      "acceleration": 87,
+      "agility": 76,
+      "strength": 71,
+      "tackle": 64,
+      "pursuit": 75,
+      "manCoverage": 74,
+      "zoneCoverage": 66,
+      "kickPower": 58,
+      "kickAccuracy": 82,
+      "catching": 51,
+      "routeRunning": 61,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 755,
+        "statB": 440
+      },
+      "career": {
+        "games": 86,
+        "statA": 1844,
+        "statB": 2247
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "MIA-C-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Kevin Hodkiewicz",
+    "jerseyNumber": 32,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 190,
+      "college": "Hicklehaven",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 113243523,
+      "capHit": 15657595,
+      "deadCap": 8530342,
+      "signingBonus": 604376,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 86,
+      "speed": 94,
+      "acceleration": 88,
+      "agility": 95,
+      "strength": 76,
+      "tackle": 83,
+      "pursuit": 68,
+      "manCoverage": 76,
+      "zoneCoverage": 82,
+      "kickPower": 59,
+      "kickAccuracy": 90,
+      "catching": 88,
+      "routeRunning": 78,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 451,
+        "statB": 917
+      },
+      "career": {
+        "games": 8,
+        "statA": 2142,
+        "statB": 785
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "MIA-RG-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Peter Botsford",
+    "jerseyNumber": 82,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 238,
+      "college": "Visalia",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 7744150,
+      "capHit": 20926162,
+      "deadCap": 8769068,
+      "signingBonus": 8615597,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 76,
+      "schemeFit": 82,
+      "speed": 86,
+      "acceleration": 82,
+      "agility": 86,
+      "strength": 64,
+      "tackle": 83,
+      "pursuit": 88,
+      "manCoverage": 58,
+      "zoneCoverage": 78,
+      "kickPower": 72,
+      "kickAccuracy": 91,
+      "catching": 56,
+      "routeRunning": 56,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 191,
+        "statB": 621
+      },
+      "career": {
+        "games": 14,
+        "statA": 488,
+        "statB": 3185
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "MIA-RG-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Johnny Mueller",
+    "jerseyNumber": 83,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 257,
+      "college": "South Rahsaanfurt",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 26814653,
+      "capHit": 12413053,
+      "deadCap": 6872574,
+      "signingBonus": 15618830,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 95,
+      "speed": 79,
+      "acceleration": 91,
+      "agility": 81,
+      "strength": 75,
+      "tackle": 73,
+      "pursuit": 63,
+      "manCoverage": 78,
+      "zoneCoverage": 78,
+      "kickPower": 89,
+      "kickAccuracy": 74,
+      "catching": 84,
+      "routeRunning": 93,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 144,
+        "statB": 636
+      },
+      "career": {
+        "games": 78,
+        "statA": 4604,
+        "statB": 1222
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "MIA-RT-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Trevor Kuhic",
+    "jerseyNumber": 52,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 271,
+      "college": "Port Clay",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 44655974,
+      "capHit": 8359573,
+      "deadCap": 7800678,
+      "signingBonus": 978540,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 83,
+      "schemeFit": 92,
+      "speed": 76,
+      "acceleration": 70,
+      "agility": 72,
+      "strength": 88,
+      "tackle": 91,
+      "pursuit": 61,
+      "manCoverage": 65,
+      "zoneCoverage": 66,
+      "kickPower": 75,
+      "kickAccuracy": 84,
+      "catching": 86,
+      "routeRunning": 67,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 393,
+        "statB": 626
+      },
+      "career": {
+        "games": 82,
+        "statA": 2537,
+        "statB": 2604
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "MIA-RT-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Jose Baumbach",
+    "jerseyNumber": 21,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 202,
+      "college": "Lake Thalia",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 69565091,
+      "capHit": 4072407,
+      "deadCap": 9626606,
+      "signingBonus": 11735490,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 74,
+      "schemeFit": 86,
+      "speed": 88,
+      "acceleration": 74,
+      "agility": 71,
+      "strength": 63,
+      "tackle": 63,
+      "pursuit": 95,
+      "manCoverage": 85,
+      "zoneCoverage": 58,
+      "kickPower": 71,
+      "kickAccuracy": 86,
+      "catching": 55,
+      "routeRunning": 73,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 463,
+        "statB": 922
+      },
+      "career": {
+        "games": 79,
+        "statA": 3313,
+        "statB": 3719
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "MIA-LDE-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Taeyang Hackett",
+    "jerseyNumber": 65,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 203,
+      "college": "New Conradstad",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 71986141,
+      "capHit": 16838959,
+      "deadCap": 4993263,
+      "signingBonus": 2026413,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 76,
+      "schemeFit": 78,
+      "speed": 87,
+      "acceleration": 89,
+      "agility": 72,
+      "strength": 86,
+      "tackle": 68,
+      "pursuit": 73,
+      "manCoverage": 54,
+      "zoneCoverage": 71,
+      "kickPower": 67,
+      "kickAccuracy": 82,
+      "catching": 78,
+      "routeRunning": 91,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 410,
+        "statB": 745
+      },
+      "career": {
+        "games": 4,
+        "statA": 3521,
+        "statB": 3503
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "MIA-LDE-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Colby Lind",
+    "jerseyNumber": 90,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'5\"",
+      "weight": 191,
+      "college": "Hettingerfield",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 35367010,
+      "capHit": 23528105,
+      "deadCap": 2322305,
+      "signingBonus": 13888750,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 79,
+      "schemeFit": 84,
+      "speed": 91,
+      "acceleration": 81,
+      "agility": 85,
+      "strength": 76,
+      "tackle": 65,
+      "pursuit": 67,
+      "manCoverage": 63,
+      "zoneCoverage": 51,
+      "kickPower": 82,
+      "kickAccuracy": 74,
+      "catching": 75,
+      "routeRunning": 65,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 1000,
+        "statB": 293
+      },
+      "career": {
+        "games": 22,
+        "statA": 440,
+        "statB": 3921
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "MIA-RDE-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Yusuf Beer-Shields",
+    "jerseyNumber": 15,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 248,
+      "college": "Mistyworth",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 81211835,
+      "capHit": 3915376,
+      "deadCap": 2938135,
+      "signingBonus": 3733527,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 77,
+      "schemeFit": 94,
+      "speed": 90,
+      "acceleration": 76,
+      "agility": 95,
+      "strength": 70,
+      "tackle": 76,
+      "pursuit": 90,
+      "manCoverage": 62,
+      "zoneCoverage": 76,
+      "kickPower": 93,
+      "kickAccuracy": 91,
+      "catching": 74,
+      "routeRunning": 69,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 656,
+        "statB": 829
+      },
+      "career": {
+        "games": 6,
+        "statA": 1423,
+        "statB": 2735
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "MIA-RDE-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Liang Spinka",
+    "jerseyNumber": 58,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 277,
+      "college": "Sydniville",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 66845457,
+      "capHit": 22435012,
+      "deadCap": 2116850,
+      "signingBonus": 17929002,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 74,
+      "schemeFit": 71,
+      "speed": 95,
+      "acceleration": 84,
+      "agility": 76,
+      "strength": 77,
+      "tackle": 91,
+      "pursuit": 72,
+      "manCoverage": 58,
+      "zoneCoverage": 74,
+      "kickPower": 77,
+      "kickAccuracy": 76,
+      "catching": 94,
+      "routeRunning": 78,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 472,
+        "statB": 964
+      },
+      "career": {
+        "games": 21,
+        "statA": 3511,
+        "statB": 2335
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "MIA-DT-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Angelo Wunsch",
+    "jerseyNumber": 29,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 315,
+      "college": "Korytown",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 105667453,
+      "capHit": 20108249,
+      "deadCap": 4918019,
+      "signingBonus": 13269305,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 80,
+      "schemeFit": 93,
+      "speed": 82,
+      "acceleration": 86,
+      "agility": 90,
+      "strength": 88,
+      "tackle": 94,
+      "pursuit": 80,
+      "manCoverage": 72,
+      "zoneCoverage": 68,
+      "kickPower": 75,
+      "kickAccuracy": 51,
+      "catching": 70,
+      "routeRunning": 55,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 438,
+        "statB": 708
+      },
+      "career": {
+        "games": 80,
+        "statA": 1548,
+        "statB": 3337
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "MIA-DT-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Gianni VonRueden",
+    "jerseyNumber": 6,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 324,
+      "college": "Mount Vernon",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 4262321,
+      "capHit": 15923737,
+      "deadCap": 1913443,
+      "signingBonus": 12649095,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 82,
+      "speed": 81,
+      "acceleration": 91,
+      "agility": 81,
+      "strength": 63,
+      "tackle": 67,
+      "pursuit": 62,
+      "manCoverage": 59,
+      "zoneCoverage": 65,
+      "kickPower": 66,
+      "kickAccuracy": 93,
+      "catching": 79,
+      "routeRunning": 79,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 431,
+        "statB": 766
+      },
+      "career": {
+        "games": 115,
+        "statA": 1492,
+        "statB": 183
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "MIA-DT-3",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Willie Grant",
+    "jerseyNumber": 96,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "6'4\"",
+      "weight": 242,
+      "college": "West Elodyboro",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 75324974,
+      "capHit": 5700685,
+      "deadCap": 3524430,
+      "signingBonus": 3444473,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 92,
+      "speed": 73,
+      "acceleration": 82,
+      "agility": 72,
+      "strength": 83,
+      "tackle": 91,
+      "pursuit": 70,
+      "manCoverage": 58,
+      "zoneCoverage": 64,
+      "kickPower": 64,
+      "kickAccuracy": 69,
+      "catching": 67,
+      "routeRunning": 78,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 892,
+        "statB": 46
+      },
+      "career": {
+        "games": 106,
+        "statA": 2950,
+        "statB": 2587
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "MIA-DT-4",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Martin Schroeder",
+    "jerseyNumber": 13,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 25,
+      "height": "6'5\"",
+      "weight": 281,
+      "college": "Genestead",
+      "experience": 9,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 44343025,
+      "capHit": 9237964,
+      "deadCap": 949794,
+      "signingBonus": 10694729,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 89,
+      "speed": 85,
+      "acceleration": 74,
+      "agility": 81,
+      "strength": 69,
+      "tackle": 63,
+      "pursuit": 85,
+      "manCoverage": 66,
+      "zoneCoverage": 88,
+      "kickPower": 92,
+      "kickAccuracy": 87,
+      "catching": 78,
+      "routeRunning": 57,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 310,
+        "statB": 837
+      },
+      "career": {
+        "games": 61,
+        "statA": 253,
+        "statB": 2500
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "MIA-LOLB-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Hugo Morar",
+    "jerseyNumber": 13,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 222,
+      "college": "Fort Stanchester",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 82388019,
+      "capHit": 5930632,
+      "deadCap": 4958558,
+      "signingBonus": 1180582,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 71,
+      "schemeFit": 71,
+      "speed": 91,
+      "acceleration": 74,
+      "agility": 78,
+      "strength": 65,
+      "tackle": 94,
+      "pursuit": 88,
+      "manCoverage": 87,
+      "zoneCoverage": 67,
+      "kickPower": 78,
+      "kickAccuracy": 75,
+      "catching": 72,
+      "routeRunning": 80,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 484,
+        "statB": 43
+      },
+      "career": {
+        "games": 0,
+        "statA": 4498,
+        "statB": 673
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "MIA-LOLB-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Miles Rath",
+    "jerseyNumber": 48,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'2\"",
+      "weight": 217,
+      "college": "Austynport",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 74903533,
+      "capHit": 17475434,
+      "deadCap": 2163955,
+      "signingBonus": 14571703,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 76,
+      "schemeFit": 86,
+      "speed": 84,
+      "acceleration": 75,
+      "agility": 78,
+      "strength": 86,
+      "tackle": 75,
+      "pursuit": 88,
+      "manCoverage": 65,
+      "zoneCoverage": 79,
+      "kickPower": 71,
+      "kickAccuracy": 53,
+      "catching": 54,
+      "routeRunning": 68,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 138,
+        "statB": 37
+      },
+      "career": {
+        "games": 108,
+        "statA": 591,
+        "statB": 4362
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "MIA-MLB-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Tyler Cremin",
+    "jerseyNumber": 73,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'11\"",
+      "weight": 221,
+      "college": "South Justen",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 6134008,
+      "capHit": 21521437,
+      "deadCap": 7856330,
+      "signingBonus": 14902764,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 92,
+      "schemeFit": 81,
+      "speed": 87,
+      "acceleration": 82,
+      "agility": 86,
+      "strength": 82,
+      "tackle": 60,
+      "pursuit": 70,
+      "manCoverage": 65,
+      "zoneCoverage": 70,
+      "kickPower": 76,
+      "kickAccuracy": 56,
+      "catching": 50,
+      "routeRunning": 55,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 432,
+        "statB": 961
+      },
+      "career": {
+        "games": 55,
+        "statA": 4198,
+        "statB": 278
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "MIA-MLB-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Gabriel Von",
+    "jerseyNumber": 54,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 228,
+      "college": "Port Karson",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 82631228,
+      "capHit": 10913162,
+      "deadCap": 1764898,
+      "signingBonus": 13750144,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 80,
+      "speed": 90,
+      "acceleration": 76,
+      "agility": 71,
+      "strength": 68,
+      "tackle": 82,
+      "pursuit": 85,
+      "manCoverage": 53,
+      "zoneCoverage": 74,
+      "kickPower": 81,
+      "kickAccuracy": 68,
+      "catching": 92,
+      "routeRunning": 54,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 981,
+        "statB": 963
+      },
+      "career": {
+        "games": 15,
+        "statA": 764,
+        "statB": 4181
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "MIA-ROLB-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Gary Gibson",
+    "jerseyNumber": 1,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'5\"",
+      "weight": 196,
+      "college": "Mansfield",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 107314535,
+      "capHit": 12261186,
+      "deadCap": 3093703,
+      "signingBonus": 17460945,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 86,
+      "schemeFit": 81,
+      "speed": 90,
+      "acceleration": 77,
+      "agility": 89,
+      "strength": 77,
+      "tackle": 74,
+      "pursuit": 66,
+      "manCoverage": 86,
+      "zoneCoverage": 54,
+      "kickPower": 65,
+      "kickAccuracy": 70,
+      "catching": 72,
+      "routeRunning": 57,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 441,
+        "statB": 780
+      },
+      "career": {
+        "games": 100,
+        "statA": 1383,
+        "statB": 189
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "MIA-ROLB-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Anton Welch",
+    "jerseyNumber": 15,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 220,
+      "college": "Jacobsonfurt",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 115336052,
+      "capHit": 21407101,
+      "deadCap": 6968688,
+      "signingBonus": 13697338,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 93,
+      "speed": 72,
+      "acceleration": 71,
+      "agility": 80,
+      "strength": 78,
+      "tackle": 85,
+      "pursuit": 71,
+      "manCoverage": 67,
+      "zoneCoverage": 56,
+      "kickPower": 93,
+      "kickAccuracy": 88,
+      "catching": 84,
+      "routeRunning": 91,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 731,
+        "statB": 967
+      },
+      "career": {
+        "games": 120,
+        "statA": 3518,
+        "statB": 2141
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "MIA-CB-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Paolo Schneider",
+    "jerseyNumber": 11,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 247,
+      "college": "Port Hillardton",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 115126720,
+      "capHit": 14482069,
+      "deadCap": 7630879,
+      "signingBonus": 6699142,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 75,
+      "schemeFit": 86,
+      "speed": 80,
+      "acceleration": 86,
+      "agility": 87,
+      "strength": 90,
+      "tackle": 92,
+      "pursuit": 61,
+      "manCoverage": 54,
+      "zoneCoverage": 85,
+      "kickPower": 63,
+      "kickAccuracy": 55,
+      "catching": 86,
+      "routeRunning": 52,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 56,
+        "statB": 384
+      },
+      "career": {
+        "games": 96,
+        "statA": 1133,
+        "statB": 456
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "MIA-CB-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Dmitri Bartoletti",
+    "jerseyNumber": 88,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 186,
+      "college": "Tonyland",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 96102972,
+      "capHit": 19389360,
+      "deadCap": 957168,
+      "signingBonus": 5029908,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 76,
+      "schemeFit": 71,
+      "speed": 92,
+      "acceleration": 83,
+      "agility": 84,
+      "strength": 75,
+      "tackle": 63,
+      "pursuit": 61,
+      "manCoverage": 87,
+      "zoneCoverage": 61,
+      "kickPower": 76,
+      "kickAccuracy": 57,
+      "catching": 84,
+      "routeRunning": 63,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 293,
+        "statB": 698
+      },
+      "career": {
+        "games": 11,
+        "statA": 2645,
+        "statB": 1827
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "MIA-CB-3",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Malcolm Dicki",
+    "jerseyNumber": 39,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 302,
+      "college": "Fort Franz",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 13850202,
+      "capHit": 13253482,
+      "deadCap": 584910,
+      "signingBonus": 10853845,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 84,
+      "schemeFit": 82,
+      "speed": 90,
+      "acceleration": 94,
+      "agility": 92,
+      "strength": 79,
+      "tackle": 78,
+      "pursuit": 70,
+      "manCoverage": 51,
+      "zoneCoverage": 71,
+      "kickPower": 78,
+      "kickAccuracy": 81,
+      "catching": 80,
+      "routeRunning": 81,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 332,
+        "statB": 707
+      },
+      "career": {
+        "games": 47,
+        "statA": 3371,
+        "statB": 2502
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "MIA-CB-4",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Joel Bernhard",
+    "jerseyNumber": 98,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 280,
+      "college": "Downey",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 95099009,
+      "capHit": 5685555,
+      "deadCap": 7093074,
+      "signingBonus": 6810803,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 78,
+      "schemeFit": 82,
+      "speed": 84,
+      "acceleration": 86,
+      "agility": 73,
+      "strength": 95,
+      "tackle": 79,
+      "pursuit": 60,
+      "manCoverage": 80,
+      "zoneCoverage": 63,
+      "kickPower": 51,
+      "kickAccuracy": 69,
+      "catching": 67,
+      "routeRunning": 58,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 384,
+        "statB": 345
+      },
+      "career": {
+        "games": 38,
+        "statA": 4301,
+        "statB": 2586
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "MIA-CB-5",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "James Powlowski",
+    "jerseyNumber": 22,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 222,
+      "college": "Blue Springs",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 63853403,
+      "capHit": 15957523,
+      "deadCap": 6778862,
+      "signingBonus": 18696746,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 82,
+      "speed": 73,
+      "acceleration": 78,
+      "agility": 79,
+      "strength": 94,
+      "tackle": 61,
+      "pursuit": 78,
+      "manCoverage": 59,
+      "zoneCoverage": 58,
+      "kickPower": 51,
+      "kickAccuracy": 86,
+      "catching": 75,
+      "routeRunning": 56,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 512,
+        "statB": 744
+      },
+      "career": {
+        "games": 48,
+        "statA": 4952,
+        "statB": 3678
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "MIA-CB-6",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Robert O'Hara",
+    "jerseyNumber": 77,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 199,
+      "college": "Brannonworth",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 100131764,
+      "capHit": 11201435,
+      "deadCap": 2333658,
+      "signingBonus": 19328843,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 63,
+      "schemeFit": 84,
+      "speed": 95,
+      "acceleration": 82,
+      "agility": 72,
+      "strength": 76,
+      "tackle": 91,
+      "pursuit": 61,
+      "manCoverage": 55,
+      "zoneCoverage": 62,
+      "kickPower": 67,
+      "kickAccuracy": 89,
+      "catching": 76,
+      "routeRunning": 73,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 203,
+        "statB": 182
+      },
+      "career": {
+        "games": 50,
+        "statA": 1300,
+        "statB": 1952
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "MIA-FS-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Brendan Hilll",
+    "jerseyNumber": 17,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 314,
+      "college": "West Ned",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 51763576,
+      "capHit": 20709010,
+      "deadCap": 6535058,
+      "signingBonus": 8485092,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 86,
+      "schemeFit": 87,
+      "speed": 76,
+      "acceleration": 74,
+      "agility": 93,
+      "strength": 72,
+      "tackle": 82,
+      "pursuit": 80,
+      "manCoverage": 58,
+      "zoneCoverage": 64,
+      "kickPower": 65,
+      "kickAccuracy": 60,
+      "catching": 55,
+      "routeRunning": 62,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 895,
+        "statB": 644
+      },
+      "career": {
+        "games": 37,
+        "statA": 2779,
+        "statB": 1755
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "MIA-FS-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Sergio Reynolds",
+    "jerseyNumber": 11,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 269,
+      "college": "Nathanside",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 21756523,
+      "capHit": 24616293,
+      "deadCap": 422803,
+      "signingBonus": 2446615,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 76,
+      "schemeFit": 82,
+      "speed": 90,
+      "acceleration": 75,
+      "agility": 83,
+      "strength": 90,
+      "tackle": 85,
+      "pursuit": 80,
+      "manCoverage": 51,
+      "zoneCoverage": 82,
+      "kickPower": 90,
+      "kickAccuracy": 59,
+      "catching": 76,
+      "routeRunning": 66,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 582,
+        "statB": 184
+      },
+      "career": {
+        "games": 8,
+        "statA": 3309,
+        "statB": 1815
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "MIA-SS-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Micah Beer",
+    "jerseyNumber": 1,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 222,
+      "college": "Port Lulaport",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 41922754,
+      "capHit": 5211952,
+      "deadCap": 3369201,
+      "signingBonus": 16860449,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 80,
+      "schemeFit": 72,
+      "speed": 84,
+      "acceleration": 71,
+      "agility": 84,
+      "strength": 94,
+      "tackle": 60,
+      "pursuit": 95,
+      "manCoverage": 50,
+      "zoneCoverage": 56,
+      "kickPower": 51,
+      "kickAccuracy": 89,
+      "catching": 85,
+      "routeRunning": 94,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 595,
+        "statB": 925
+      },
+      "career": {
+        "games": 119,
+        "statA": 1621,
+        "statB": 3627
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "MIA-SS-2",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Taeyang Schumm-Baumbach",
+    "jerseyNumber": 27,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 301,
+      "college": "Arnoldburgh",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 59581221,
+      "capHit": 5921667,
+      "deadCap": 9185628,
+      "signingBonus": 6491514,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 69,
+      "schemeFit": 75,
+      "speed": 92,
+      "acceleration": 78,
+      "agility": 80,
+      "strength": 94,
+      "tackle": 93,
+      "pursuit": 62,
+      "manCoverage": 69,
+      "zoneCoverage": 80,
+      "kickPower": 62,
+      "kickAccuracy": 76,
+      "catching": 95,
+      "routeRunning": 77,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 826,
+        "statB": 11
+      },
+      "career": {
+        "games": 103,
+        "statA": 4963,
+        "statB": 879
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "MIA-K-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "John Robel",
+    "jerseyNumber": 96,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'10\"",
+      "weight": 327,
+      "college": "Metzport",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 51207012,
+      "capHit": 9402855,
+      "deadCap": 7693907,
+      "signingBonus": 10610268,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 71,
+      "schemeFit": 77,
+      "speed": 82,
+      "acceleration": 94,
+      "agility": 82,
+      "strength": 62,
+      "tackle": 90,
+      "pursuit": 92,
+      "manCoverage": 67,
+      "zoneCoverage": 81,
+      "kickPower": 85,
+      "kickAccuracy": 86,
+      "catching": 90,
+      "routeRunning": 92,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 687,
+        "statB": 902
+      },
+      "career": {
+        "games": 80,
+        "statA": 1635,
+        "statB": 3382
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "MIA-P-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Kyle Bailey",
+    "jerseyNumber": 23,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 303,
+      "college": "Fort Tillmanside",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 80240276,
+      "capHit": 23223865,
+      "deadCap": 3415618,
+      "signingBonus": 5793509,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 81,
+      "schemeFit": 87,
+      "speed": 76,
+      "acceleration": 80,
+      "agility": 81,
+      "strength": 63,
+      "tackle": 66,
+      "pursuit": 80,
+      "manCoverage": 52,
+      "zoneCoverage": 66,
+      "kickPower": 78,
+      "kickAccuracy": 52,
+      "catching": 56,
+      "routeRunning": 62,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 562,
+        "statB": 408
+      },
+      "career": {
+        "games": 50,
+        "statA": 4720,
+        "statB": 4596
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "MIA-LS-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Stephen Nader",
+    "jerseyNumber": 56,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'4\"",
+      "weight": 210,
+      "college": "Fort Bettyeberg",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 36184891,
+      "capHit": 15812118,
+      "deadCap": 238556,
+      "signingBonus": 18134565,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 77,
+      "schemeFit": 94,
+      "speed": 84,
+      "acceleration": 72,
+      "agility": 88,
+      "strength": 71,
+      "tackle": 95,
+      "pursuit": 62,
+      "manCoverage": 53,
+      "zoneCoverage": 75,
+      "kickPower": 83,
+      "kickAccuracy": 62,
+      "catching": 73,
+      "routeRunning": 66,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 369,
+        "statB": 673
+      },
+      "career": {
+        "games": 95,
+        "statA": 4023,
+        "statB": 3350
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "MIA-KR-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Gerald Ward",
+    "jerseyNumber": 82,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 216,
+      "college": "Port Otha",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 114612045,
+      "capHit": 9958568,
+      "deadCap": 9775019,
+      "signingBonus": 4988275,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 76,
+      "speed": 84,
+      "acceleration": 82,
+      "agility": 93,
+      "strength": 69,
+      "tackle": 84,
+      "pursuit": 78,
+      "manCoverage": 70,
+      "zoneCoverage": 51,
+      "kickPower": 88,
+      "kickAccuracy": 72,
+      "catching": 94,
+      "routeRunning": 72,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 816,
+        "statB": 117
+      },
+      "career": {
+        "games": 19,
+        "statA": 2979,
+        "statB": 2686
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "MIA-PR-1",
+    "team": "MIA",
+    "teamName": "MIA",
+    "name": "Joe Stanton",
+    "jerseyNumber": 37,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 246,
+      "college": "South Elna",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 80450802,
+      "capHit": 22700592,
+      "deadCap": 4229773,
+      "signingBonus": 19230852,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 69,
+      "schemeFit": 85,
+      "speed": 85,
+      "acceleration": 95,
+      "agility": 77,
+      "strength": 74,
+      "tackle": 67,
+      "pursuit": 61,
+      "manCoverage": 66,
+      "zoneCoverage": 71,
+      "kickPower": 72,
+      "kickAccuracy": 79,
+      "catching": 54,
+      "routeRunning": 66,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 524,
+        "statB": 153
+      },
+      "career": {
+        "games": 120,
+        "statA": 4560,
+        "statB": 3215
+      }
+    },
+    "photo": "/player_faces/42.png"
+  }
 ]

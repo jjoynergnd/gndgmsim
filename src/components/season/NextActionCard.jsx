@@ -33,7 +33,9 @@ export default function NextActionCard({
       {/* MIDDLE COLUMN (BUTTON) */}
       <div className={styles.middleCol}>
         <button
-          className={`${styles.button} ${!canAdvance ? styles.disabled : ""}`}
+          className={`${styles.button} ${
+            !canAdvance ? styles.disabled : ""
+          }`}
           disabled={!canAdvance}
           onClick={() => canAdvance && onAdvance?.(season)}
         >
@@ -60,37 +62,32 @@ export default function NextActionCard({
   );
 }
 
-// --- unchanged helper ---
 function getActionConfig(season) {
   switch (season.phase) {
     case "PRESEASON":
       return {
-        title: `Offseason — Preseason`,
-        subtitle: "Tune roster & depth chart",
-        actionLabel: "Advance to Regular Season"
+        title: `Preseason — Week ${season.preseasonWeek}`,
+        subtitle: `Preseason Week ${season.preseasonWeek}`,
+        actionLabel: `Sim Preseason Week ${season.preseasonWeek}`
       };
-
     case "REGULAR_SEASON":
       return {
         title: `Regular Season — Week ${season.week}`,
         subtitle: `Week ${season.week} Complete`,
         actionLabel: `Sim Week ${season.week + 1}`
       };
-
     case "PLAYOFFS":
       return {
         title: `Playoffs — ${season.playoffRound}`,
         subtitle: "Win or go home",
         actionLabel: "Sim Next Round"
       };
-
     case "OFFSEASON":
       return {
         title: `Offseason — ${season.offseasonStep}`,
         subtitle: "Team building phase",
         actionLabel: "Advance"
       };
-
     default:
       return {
         title: "Season",

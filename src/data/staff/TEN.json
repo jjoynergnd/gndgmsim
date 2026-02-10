@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  78,
-               "name":  "Darius Bennett"
-           },
-    "OC":  {
-               "rating":  79,
-               "name":  "Andre Douglas"
-           },
-    "DC":  {
-               "rating":  83,
-               "name":  "Marcus Reeves"
-           }
-}
+[
+  {
+    "id": "TEN-STAFF-1",
+    "team": "TEN",
+    "role": "Head Coach",
+    "name": "Lucas Stehr",
+    "vitals": {
+      "age": 45,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 86,
+      "discipline": 68,
+      "schemeKnowledge": 79,
+      "playerDev": 79,
+      "motivation": 63,
+      "injuryManagement": 56,
+      "conditioning": 70,
+      "analyticsIQ": 50
+    },
+    "contract": {
+      "years": 5,
+      "salary": 4776319
+    }
+  },
+  {
+    "id": "TEN-STAFF-2",
+    "team": "TEN",
+    "role": "Offensive Coordinator",
+    "name": "Cormac Bergnaum",
+    "vitals": {
+      "age": 52,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 66,
+      "schemeKnowledge": 60,
+      "playerDev": 83,
+      "motivation": 80,
+      "injuryManagement": 52,
+      "conditioning": 45,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 3,
+      "salary": 6340753
+    }
+  },
+  {
+    "id": "TEN-STAFF-3",
+    "team": "TEN",
+    "role": "Defensive Coordinator",
+    "name": "Lucas Heathcote",
+    "vitals": {
+      "age": 30,
+      "experience": 10
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 78,
+      "schemeKnowledge": 61,
+      "playerDev": 76,
+      "motivation": 69,
+      "injuryManagement": 65,
+      "conditioning": 56,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 2,
+      "salary": 620194
+    }
+  },
+  {
+    "id": "TEN-STAFF-4",
+    "team": "TEN",
+    "role": "Strength & Conditioning Coach",
+    "name": "Jonathan Bartoletti",
+    "vitals": {
+      "age": 48,
+      "experience": 26
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 91,
+      "schemeKnowledge": 74,
+      "playerDev": 93,
+      "motivation": 69,
+      "injuryManagement": 68,
+      "conditioning": 92,
+      "analyticsIQ": 63
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1234537
+    }
+  },
+  {
+    "id": "TEN-STAFF-5",
+    "team": "TEN",
+    "role": "Physical Therapist",
+    "name": "Matthew Bahringer",
+    "vitals": {
+      "age": 63,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 87,
+      "schemeKnowledge": 83,
+      "playerDev": 72,
+      "motivation": 73,
+      "injuryManagement": 84,
+      "conditioning": 42,
+      "analyticsIQ": 40
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5936332
+    }
+  },
+  {
+    "id": "TEN-STAFF-6",
+    "team": "TEN",
+    "role": "Athletic Trainer",
+    "name": "Jacob Reynolds",
+    "vitals": {
+      "age": 63,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 73,
+      "discipline": 79,
+      "schemeKnowledge": 82,
+      "playerDev": 80,
+      "motivation": 84,
+      "injuryManagement": 81,
+      "conditioning": 59,
+      "analyticsIQ": 44
+    },
+    "contract": {
+      "years": 2,
+      "salary": 6274824
+    }
+  },
+  {
+    "id": "TEN-STAFF-7",
+    "team": "TEN",
+    "role": "Analytics Coordinator",
+    "name": "Jesse Zemlak",
+    "vitals": {
+      "age": 54,
+      "experience": 25
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 78,
+      "schemeKnowledge": 74,
+      "playerDev": 80,
+      "motivation": 74,
+      "injuryManagement": 70,
+      "conditioning": 54,
+      "analyticsIQ": 92
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1125937
+    }
+  }
+]

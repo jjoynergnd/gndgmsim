@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  80,
-               "name":  "Evan Coleman"
-           },
-    "OC":  {
-               "rating":  74,
-               "name":  "Chase Maddox"
-           },
-    "DC":  {
-               "rating":  77,
-               "name":  "Logan Reeves"
-           }
-}
+[
+  {
+    "id": "MIN-STAFF-1",
+    "team": "MIN",
+    "role": "Head Coach",
+    "name": "William Mohr",
+    "vitals": {
+      "age": 44,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 73,
+      "discipline": 70,
+      "schemeKnowledge": 88,
+      "playerDev": 93,
+      "motivation": 64,
+      "injuryManagement": 68,
+      "conditioning": 54,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2783336
+    }
+  },
+  {
+    "id": "MIN-STAFF-2",
+    "team": "MIN",
+    "role": "Offensive Coordinator",
+    "name": "Gavin O'Keefe",
+    "vitals": {
+      "age": 48,
+      "experience": 27
+    },
+    "ratings": {
+      "leadership": 77,
+      "discipline": 94,
+      "schemeKnowledge": 62,
+      "playerDev": 60,
+      "motivation": 89,
+      "injuryManagement": 62,
+      "conditioning": 46,
+      "analyticsIQ": 63
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7984140
+    }
+  },
+  {
+    "id": "MIN-STAFF-3",
+    "team": "MIN",
+    "role": "Defensive Coordinator",
+    "name": "Steven Quigley",
+    "vitals": {
+      "age": 59,
+      "experience": 6
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 84,
+      "schemeKnowledge": 91,
+      "playerDev": 92,
+      "motivation": 82,
+      "injuryManagement": 57,
+      "conditioning": 50,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 4,
+      "salary": 1961380
+    }
+  },
+  {
+    "id": "MIN-STAFF-4",
+    "team": "MIN",
+    "role": "Strength & Conditioning Coach",
+    "name": "Wei Williamson",
+    "vitals": {
+      "age": 42,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 61,
+      "discipline": 72,
+      "schemeKnowledge": 93,
+      "playerDev": 62,
+      "motivation": 68,
+      "injuryManagement": 61,
+      "conditioning": 82,
+      "analyticsIQ": 41
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3928181
+    }
+  },
+  {
+    "id": "MIN-STAFF-5",
+    "team": "MIN",
+    "role": "Physical Therapist",
+    "name": "Elijah Nitzsche",
+    "vitals": {
+      "age": 32,
+      "experience": 22
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 60,
+      "schemeKnowledge": 78,
+      "playerDev": 69,
+      "motivation": 67,
+      "injuryManagement": 70,
+      "conditioning": 63,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 4,
+      "salary": 7024195
+    }
+  },
+  {
+    "id": "MIN-STAFF-6",
+    "team": "MIN",
+    "role": "Athletic Trainer",
+    "name": "Zaid Moore",
+    "vitals": {
+      "age": 59,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 82,
+      "schemeKnowledge": 76,
+      "playerDev": 72,
+      "motivation": 76,
+      "injuryManagement": 92,
+      "conditioning": 50,
+      "analyticsIQ": 62
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5867709
+    }
+  },
+  {
+    "id": "MIN-STAFF-7",
+    "team": "MIN",
+    "role": "Analytics Coordinator",
+    "name": "Mario Greenfelder",
+    "vitals": {
+      "age": 54,
+      "experience": 38
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 64,
+      "schemeKnowledge": 71,
+      "playerDev": 62,
+      "motivation": 73,
+      "injuryManagement": 43,
+      "conditioning": 56,
+      "analyticsIQ": 93
+    },
+    "contract": {
+      "years": 4,
+      "salary": 1405786
+    }
+  }
+]

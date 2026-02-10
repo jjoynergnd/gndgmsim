@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  78,
-               "name":  "Logan Shaw"
-           },
-    "OC":  {
-               "rating":  66,
-               "name":  "Tyrone Wright"
-           },
-    "DC":  {
-               "rating":  66,
-               "name":  "Jalen Bennett"
-           }
-}
+[
+  {
+    "id": "KC-STAFF-1",
+    "team": "KC",
+    "role": "Head Coach",
+    "name": "Declan Maggio-Pacocha",
+    "vitals": {
+      "age": 42,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 63,
+      "discipline": 83,
+      "schemeKnowledge": 86,
+      "playerDev": 83,
+      "motivation": 72,
+      "injuryManagement": 61,
+      "conditioning": 59,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 4,
+      "salary": 1755894
+    }
+  },
+  {
+    "id": "KC-STAFF-2",
+    "team": "KC",
+    "role": "Offensive Coordinator",
+    "name": "Vincent Rutherford",
+    "vitals": {
+      "age": 45,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 72,
+      "schemeKnowledge": 88,
+      "playerDev": 79,
+      "motivation": 90,
+      "injuryManagement": 41,
+      "conditioning": 51,
+      "analyticsIQ": 46
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7130966
+    }
+  },
+  {
+    "id": "KC-STAFF-3",
+    "team": "KC",
+    "role": "Defensive Coordinator",
+    "name": "Zaid Tillman",
+    "vitals": {
+      "age": 63,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 73,
+      "schemeKnowledge": 65,
+      "playerDev": 85,
+      "motivation": 72,
+      "injuryManagement": 42,
+      "conditioning": 51,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1175217
+    }
+  },
+  {
+    "id": "KC-STAFF-4",
+    "team": "KC",
+    "role": "Strength & Conditioning Coach",
+    "name": "Chase Dach",
+    "vitals": {
+      "age": 60,
+      "experience": 28
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 92,
+      "schemeKnowledge": 66,
+      "playerDev": 74,
+      "motivation": 68,
+      "injuryManagement": 61,
+      "conditioning": 95,
+      "analyticsIQ": 54
+    },
+    "contract": {
+      "years": 5,
+      "salary": 7433626
+    }
+  },
+  {
+    "id": "KC-STAFF-5",
+    "team": "KC",
+    "role": "Physical Therapist",
+    "name": "Christopher Hermiston",
+    "vitals": {
+      "age": 38,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 88,
+      "discipline": 94,
+      "schemeKnowledge": 85,
+      "playerDev": 73,
+      "motivation": 94,
+      "injuryManagement": 75,
+      "conditioning": 57,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7672634
+    }
+  },
+  {
+    "id": "KC-STAFF-6",
+    "team": "KC",
+    "role": "Athletic Trainer",
+    "name": "Mateo Ryan",
+    "vitals": {
+      "age": 38,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 73,
+      "discipline": 83,
+      "schemeKnowledge": 77,
+      "playerDev": 92,
+      "motivation": 70,
+      "injuryManagement": 79,
+      "conditioning": 45,
+      "analyticsIQ": 62
+    },
+    "contract": {
+      "years": 5,
+      "salary": 2882748
+    }
+  },
+  {
+    "id": "KC-STAFF-7",
+    "team": "KC",
+    "role": "Analytics Coordinator",
+    "name": "Declan Bartoletti",
+    "vitals": {
+      "age": 56,
+      "experience": 5
+    },
+    "ratings": {
+      "leadership": 83,
+      "discipline": 88,
+      "schemeKnowledge": 85,
+      "playerDev": 67,
+      "motivation": 75,
+      "injuryManagement": 44,
+      "conditioning": 43,
+      "analyticsIQ": 84
+    },
+    "contract": {
+      "years": 4,
+      "salary": 620746
+    }
+  }
+]

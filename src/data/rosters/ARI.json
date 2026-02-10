@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  69,
-        "name":  "Andre Harrington",
-        "id":  "ARI-QB0"
+[
+  {
+    "id": "ARI-QB-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jisoo Quitzon",
+    "jerseyNumber": 77,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 299,
+      "college": "North Adrien",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
     },
-    {
-        "position":  "RB",
-        "overall":  68,
-        "name":  "Malik Wright",
-        "id":  "ARI-RB1"
+    "contract": {
+      "years": 4,
+      "totalValue": 21231004,
+      "capHit": 11777024,
+      "deadCap": 7871409,
+      "signingBonus": 13585689,
+      "expiresYear": 2030,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  77,
-        "name":  "Jalen Reeves",
-        "id":  "ARI-WR2"
+    "ratings": {
+      "overall": 73,
+      "potential": 75,
+      "schemeFit": 71,
+      "speed": 82,
+      "acceleration": 75,
+      "agility": 84,
+      "strength": 94,
+      "tackle": 67,
+      "pursuit": 86,
+      "manCoverage": 51,
+      "zoneCoverage": 58,
+      "kickPower": 74,
+      "kickAccuracy": 77,
+      "catching": 84,
+      "routeRunning": 84,
+      "release": 61,
+      "throwPower": 80,
+      "shortAccuracy": 73,
+      "mediumAccuracy": 74,
+      "deepAccuracy": 86
     },
-    {
-        "position":  "LB",
-        "overall":  83,
-        "name":  "Marcus Coleman",
-        "id":  "ARI-LB3"
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
     },
-    {
-        "position":  "CB",
-        "overall":  89,
-        "name":  "Darius Rourke",
-        "id":  "ARI-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 209,
+        "statB": 615
+      },
+      "career": {
+        "games": 65,
+        "statA": 4714,
+        "statB": 4543
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "ARI-QB-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Mason Kovacek",
+    "jerseyNumber": 68,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'11\"",
+      "weight": 187,
+      "college": "Harrisboro",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 75488177,
+      "capHit": 7160658,
+      "deadCap": 2895898,
+      "signingBonus": 2332657,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 73,
+      "schemeFit": 72,
+      "speed": 93,
+      "acceleration": 81,
+      "agility": 89,
+      "strength": 78,
+      "tackle": 60,
+      "pursuit": 80,
+      "manCoverage": 74,
+      "zoneCoverage": 73,
+      "kickPower": 92,
+      "kickAccuracy": 91,
+      "catching": 52,
+      "routeRunning": 58,
+      "release": 71,
+      "throwPower": 82,
+      "shortAccuracy": 93,
+      "mediumAccuracy": 90,
+      "deepAccuracy": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 19,
+        "statB": 51
+      },
+      "career": {
+        "games": 27,
+        "statA": 1648,
+        "statB": 4826
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "ARI-QB-3",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Brian Smith",
+    "jerseyNumber": 23,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 204,
+      "college": "Lake Billy",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 100935938,
+      "capHit": 8061436,
+      "deadCap": 1344572,
+      "signingBonus": 1956107,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 68,
+      "schemeFit": 85,
+      "speed": 77,
+      "acceleration": 72,
+      "agility": 84,
+      "strength": 86,
+      "tackle": 95,
+      "pursuit": 73,
+      "manCoverage": 75,
+      "zoneCoverage": 68,
+      "kickPower": 88,
+      "kickAccuracy": 72,
+      "catching": 91,
+      "routeRunning": 80,
+      "release": 95,
+      "throwPower": 70,
+      "shortAccuracy": 75,
+      "mediumAccuracy": 87,
+      "deepAccuracy": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 667,
+        "statB": 213
+      },
+      "career": {
+        "games": 66,
+        "statA": 1914,
+        "statB": 1404
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "ARI-RB-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jason O'Reilly",
+    "jerseyNumber": 14,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'2\"",
+      "weight": 208,
+      "college": "Louisville/Jefferson County",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 63702943,
+      "capHit": 21414934,
+      "deadCap": 1363304,
+      "signingBonus": 8045428,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 81,
+      "acceleration": 77,
+      "agility": 85,
+      "strength": 61,
+      "tackle": 77,
+      "pursuit": 75,
+      "manCoverage": 84,
+      "zoneCoverage": 88,
+      "kickPower": 61,
+      "kickAccuracy": 71,
+      "catching": 75,
+      "routeRunning": 73,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 82,
+        "statB": 681
+      },
+      "career": {
+        "games": 63,
+        "statA": 1563,
+        "statB": 694
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "ARI-RB-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Alberto Spencer",
+    "jerseyNumber": 69,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 212,
+      "college": "Port Diana",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 67676271,
+      "capHit": 11275932,
+      "deadCap": 9269049,
+      "signingBonus": 209998,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 60,
+      "schemeFit": 86,
+      "speed": 88,
+      "acceleration": 83,
+      "agility": 81,
+      "strength": 64,
+      "tackle": 93,
+      "pursuit": 76,
+      "manCoverage": 90,
+      "zoneCoverage": 65,
+      "kickPower": 61,
+      "kickAccuracy": 89,
+      "catching": 72,
+      "routeRunning": 79,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 423,
+        "statB": 460
+      },
+      "career": {
+        "games": 70,
+        "statA": 4185,
+        "statB": 1047
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "ARI-RB-3",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Emmanuel Ondricka",
+    "jerseyNumber": 73,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 21,
+      "height": "6'5\"",
+      "weight": 202,
+      "college": "Pompano Beach",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 19569445,
+      "capHit": 17219490,
+      "deadCap": 6896084,
+      "signingBonus": 15720544,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 78,
+      "schemeFit": 72,
+      "speed": 88,
+      "acceleration": 95,
+      "agility": 83,
+      "strength": 71,
+      "tackle": 91,
+      "pursuit": 86,
+      "manCoverage": 78,
+      "zoneCoverage": 60,
+      "kickPower": 87,
+      "kickAccuracy": 84,
+      "catching": 94,
+      "routeRunning": 92,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 72,
+        "statB": 539
+      },
+      "career": {
+        "games": 48,
+        "statA": 2051,
+        "statB": 3069
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "ARI-RB-4",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jared Swift",
+    "jerseyNumber": 97,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 195,
+      "college": "North Natalie",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 17766942,
+      "capHit": 10040055,
+      "deadCap": 4167474,
+      "signingBonus": 5719158,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 73,
+      "schemeFit": 75,
+      "speed": 86,
+      "acceleration": 95,
+      "agility": 83,
+      "strength": 62,
+      "tackle": 74,
+      "pursuit": 67,
+      "manCoverage": 58,
+      "zoneCoverage": 86,
+      "kickPower": 53,
+      "kickAccuracy": 65,
+      "catching": 94,
+      "routeRunning": 76,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 365,
+        "statB": 68
+      },
+      "career": {
+        "games": 95,
+        "statA": 1342,
+        "statB": 95
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "ARI-WR-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Paolo Boyer-Konopelski",
+    "jerseyNumber": 46,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 216,
+      "college": "Vanessaville",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 106806377,
+      "capHit": 14000697,
+      "deadCap": 9238592,
+      "signingBonus": 9702503,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 67,
+      "schemeFit": 91,
+      "speed": 92,
+      "acceleration": 75,
+      "agility": 87,
+      "strength": 60,
+      "tackle": 68,
+      "pursuit": 80,
+      "manCoverage": 59,
+      "zoneCoverage": 90,
+      "kickPower": 80,
+      "kickAccuracy": 95,
+      "catching": 51,
+      "routeRunning": 77,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 501,
+        "statB": 791
+      },
+      "career": {
+        "games": 77,
+        "statA": 4459,
+        "statB": 2177
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "ARI-WR-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Marco Luettgen",
+    "jerseyNumber": 5,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'1\"",
+      "weight": 297,
+      "college": "South Tremaine",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 71491280,
+      "capHit": 854475,
+      "deadCap": 7135990,
+      "signingBonus": 13489739,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 69,
+      "schemeFit": 93,
+      "speed": 89,
+      "acceleration": 76,
+      "agility": 76,
+      "strength": 89,
+      "tackle": 68,
+      "pursuit": 92,
+      "manCoverage": 55,
+      "zoneCoverage": 83,
+      "kickPower": 67,
+      "kickAccuracy": 93,
+      "catching": 87,
+      "routeRunning": 66,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 134,
+        "statB": 519
+      },
+      "career": {
+        "games": 17,
+        "statA": 1690,
+        "statB": 3041
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "ARI-WR-3",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Thomas O'Conner",
+    "jerseyNumber": 3,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 255,
+      "college": "South Nash",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 70412820,
+      "capHit": 14760267,
+      "deadCap": 2480212,
+      "signingBonus": 17773103,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 81,
+      "speed": 72,
+      "acceleration": 81,
+      "agility": 87,
+      "strength": 68,
+      "tackle": 90,
+      "pursuit": 78,
+      "manCoverage": 71,
+      "zoneCoverage": 71,
+      "kickPower": 71,
+      "kickAccuracy": 93,
+      "catching": 78,
+      "routeRunning": 83,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 134,
+        "statB": 366
+      },
+      "career": {
+        "games": 114,
+        "statA": 1489,
+        "statB": 4501
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "ARI-WR-4",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Evan Bradtke",
+    "jerseyNumber": 5,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 318,
+      "college": "Bartfurt",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 103164025,
+      "capHit": 7890656,
+      "deadCap": 3631453,
+      "signingBonus": 17117872,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 78,
+      "schemeFit": 77,
+      "speed": 76,
+      "acceleration": 79,
+      "agility": 81,
+      "strength": 93,
+      "tackle": 77,
+      "pursuit": 85,
+      "manCoverage": 83,
+      "zoneCoverage": 73,
+      "kickPower": 90,
+      "kickAccuracy": 50,
+      "catching": 52,
+      "routeRunning": 68,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 220,
+        "statB": 539
+      },
+      "career": {
+        "games": 59,
+        "statA": 801,
+        "statB": 4488
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "ARI-WR-5",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Paolo Tremblay",
+    "jerseyNumber": 84,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 278,
+      "college": "New Celestinehaven",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 92002689,
+      "capHit": 14868685,
+      "deadCap": 4240101,
+      "signingBonus": 543105,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 90,
+      "schemeFit": 85,
+      "speed": 75,
+      "acceleration": 83,
+      "agility": 86,
+      "strength": 81,
+      "tackle": 86,
+      "pursuit": 79,
+      "manCoverage": 81,
+      "zoneCoverage": 61,
+      "kickPower": 82,
+      "kickAccuracy": 79,
+      "catching": 75,
+      "routeRunning": 88,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 566,
+        "statB": 512
+      },
+      "career": {
+        "games": 120,
+        "statA": 653,
+        "statB": 1739
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "ARI-WR-6",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Adam Funk",
+    "jerseyNumber": 76,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 284,
+      "college": "New Daphneyborough",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 22904340,
+      "capHit": 18518218,
+      "deadCap": 3448897,
+      "signingBonus": 7966619,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 73,
+      "speed": 85,
+      "acceleration": 81,
+      "agility": 95,
+      "strength": 69,
+      "tackle": 65,
+      "pursuit": 71,
+      "manCoverage": 68,
+      "zoneCoverage": 55,
+      "kickPower": 75,
+      "kickAccuracy": 92,
+      "catching": 91,
+      "routeRunning": 58,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 715,
+        "statB": 782
+      },
+      "career": {
+        "games": 74,
+        "statA": 2777,
+        "statB": 1255
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "ARI-WR-7",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jonathan Rosenbaum",
+    "jerseyNumber": 42,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 248,
+      "college": "Port Bernadetteworth",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 28645795,
+      "capHit": 14711649,
+      "deadCap": 1503899,
+      "signingBonus": 6545345,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 87,
+      "schemeFit": 75,
+      "speed": 93,
+      "acceleration": 78,
+      "agility": 86,
+      "strength": 90,
+      "tackle": 93,
+      "pursuit": 86,
+      "manCoverage": 53,
+      "zoneCoverage": 81,
+      "kickPower": 74,
+      "kickAccuracy": 72,
+      "catching": 67,
+      "routeRunning": 56,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 715,
+        "statB": 369
+      },
+      "career": {
+        "games": 86,
+        "statA": 4038,
+        "statB": 3411
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "ARI-TE-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Gabriel Hessel",
+    "jerseyNumber": 23,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 258,
+      "college": "Simonisstead",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 12376328,
+      "capHit": 14467217,
+      "deadCap": 4954883,
+      "signingBonus": 10578779,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 74,
+      "schemeFit": 95,
+      "speed": 84,
+      "acceleration": 91,
+      "agility": 93,
+      "strength": 69,
+      "tackle": 67,
+      "pursuit": 86,
+      "manCoverage": 56,
+      "zoneCoverage": 79,
+      "kickPower": 55,
+      "kickAccuracy": 52,
+      "catching": 64,
+      "routeRunning": 93,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 33,
+        "statB": 2
+      },
+      "career": {
+        "games": 89,
+        "statA": 2722,
+        "statB": 2862
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "ARI-TE-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Russell Wolff-Heathcote",
+    "jerseyNumber": 23,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 209,
+      "college": "Mayaguez",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 82220412,
+      "capHit": 17203017,
+      "deadCap": 842439,
+      "signingBonus": 12838316,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 79,
+      "schemeFit": 85,
+      "speed": 94,
+      "acceleration": 94,
+      "agility": 86,
+      "strength": 61,
+      "tackle": 92,
+      "pursuit": 85,
+      "manCoverage": 50,
+      "zoneCoverage": 56,
+      "kickPower": 87,
+      "kickAccuracy": 88,
+      "catching": 57,
+      "routeRunning": 83,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 369,
+        "statB": 634
+      },
+      "career": {
+        "games": 63,
+        "statA": 2074,
+        "statB": 4846
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "ARI-TE-3",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Justin Hirthe",
+    "jerseyNumber": 78,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 295,
+      "college": "Flatleyfurt",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 87964976,
+      "capHit": 3366385,
+      "deadCap": 3441038,
+      "signingBonus": 14864764,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 63,
+      "schemeFit": 85,
+      "speed": 87,
+      "acceleration": 94,
+      "agility": 78,
+      "strength": 66,
+      "tackle": 81,
+      "pursuit": 91,
+      "manCoverage": 90,
+      "zoneCoverage": 87,
+      "kickPower": 89,
+      "kickAccuracy": 81,
+      "catching": 66,
+      "routeRunning": 54,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 804,
+        "statB": 130
+      },
+      "career": {
+        "games": 101,
+        "statA": 1443,
+        "statB": 4103
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "ARI-LT-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Quentin Carroll",
+    "jerseyNumber": 34,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 327,
+      "college": "Coeur d'Alene",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 36814928,
+      "capHit": 20757016,
+      "deadCap": 4595858,
+      "signingBonus": 15938305,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 80,
+      "schemeFit": 78,
+      "speed": 75,
+      "acceleration": 90,
+      "agility": 70,
+      "strength": 84,
+      "tackle": 94,
+      "pursuit": 95,
+      "manCoverage": 89,
+      "zoneCoverage": 60,
+      "kickPower": 71,
+      "kickAccuracy": 78,
+      "catching": 77,
+      "routeRunning": 89,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 537,
+        "statB": 640
+      },
+      "career": {
+        "games": 109,
+        "statA": 4539,
+        "statB": 3991
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "ARI-LT-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Zaid Lynch",
+    "jerseyNumber": 3,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 207,
+      "college": "Steubertown",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 22789250,
+      "capHit": 15698515,
+      "deadCap": 8744398,
+      "signingBonus": 7034415,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 69,
+      "schemeFit": 82,
+      "speed": 77,
+      "acceleration": 72,
+      "agility": 74,
+      "strength": 82,
+      "tackle": 61,
+      "pursuit": 77,
+      "manCoverage": 87,
+      "zoneCoverage": 58,
+      "kickPower": 84,
+      "kickAccuracy": 79,
+      "catching": 89,
+      "routeRunning": 94,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 85,
+        "statB": 326
+      },
+      "career": {
+        "games": 9,
+        "statA": 4577,
+        "statB": 1420
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "ARI-LG-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Anthony Lubowitz",
+    "jerseyNumber": 43,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'4\"",
+      "weight": 303,
+      "college": "Lake Denaport",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 2509080,
+      "capHit": 2727575,
+      "deadCap": 8761451,
+      "signingBonus": 17302414,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 90,
+      "schemeFit": 90,
+      "speed": 90,
+      "acceleration": 81,
+      "agility": 90,
+      "strength": 88,
+      "tackle": 84,
+      "pursuit": 61,
+      "manCoverage": 74,
+      "zoneCoverage": 69,
+      "kickPower": 87,
+      "kickAccuracy": 54,
+      "catching": 79,
+      "routeRunning": 79,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 246,
+        "statB": 69
+      },
+      "career": {
+        "games": 18,
+        "statA": 3295,
+        "statB": 2792
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "ARI-LG-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Henry Bahringer",
+    "jerseyNumber": 9,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 311,
+      "college": "Lake Josiane",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 98564909,
+      "capHit": 12051320,
+      "deadCap": 4034487,
+      "signingBonus": 11220087,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 81,
+      "schemeFit": 80,
+      "speed": 80,
+      "acceleration": 74,
+      "agility": 73,
+      "strength": 93,
+      "tackle": 81,
+      "pursuit": 62,
+      "manCoverage": 54,
+      "zoneCoverage": 86,
+      "kickPower": 50,
+      "kickAccuracy": 91,
+      "catching": 92,
+      "routeRunning": 71,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 153,
+        "statB": 322
+      },
+      "career": {
+        "games": 105,
+        "statA": 3991,
+        "statB": 1580
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "ARI-C-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Matthew Purdy",
+    "jerseyNumber": 91,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "5'9\"",
+      "weight": 324,
+      "college": "North Jordyfort",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 26384445,
+      "capHit": 11932519,
+      "deadCap": 3038285,
+      "signingBonus": 6081417,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 82,
+      "schemeFit": 81,
+      "speed": 87,
+      "acceleration": 70,
+      "agility": 86,
+      "strength": 63,
+      "tackle": 77,
+      "pursuit": 67,
+      "manCoverage": 59,
+      "zoneCoverage": 89,
+      "kickPower": 70,
+      "kickAccuracy": 75,
+      "catching": 69,
+      "routeRunning": 93,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 858,
+        "statB": 956
+      },
+      "career": {
+        "games": 84,
+        "statA": 4399,
+        "statB": 825
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "ARI-C-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Ren Bernhard",
+    "jerseyNumber": 25,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'0\"",
+      "weight": 298,
+      "college": "Taureanport",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 44806712,
+      "capHit": 16330923,
+      "deadCap": 4793051,
+      "signingBonus": 10601272,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 76,
+      "schemeFit": 72,
+      "speed": 90,
+      "acceleration": 83,
+      "agility": 82,
+      "strength": 90,
+      "tackle": 86,
+      "pursuit": 91,
+      "manCoverage": 65,
+      "zoneCoverage": 51,
+      "kickPower": 68,
+      "kickAccuracy": 65,
+      "catching": 87,
+      "routeRunning": 57,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 553,
+        "statB": 659
+      },
+      "career": {
+        "games": 89,
+        "statA": 355,
+        "statB": 4172
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "ARI-RG-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Ahmad Strosin",
+    "jerseyNumber": 29,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'11\"",
+      "weight": 186,
+      "college": "South Magdalena",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 10900245,
+      "capHit": 7013896,
+      "deadCap": 3482293,
+      "signingBonus": 15607449,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 67,
+      "schemeFit": 88,
+      "speed": 91,
+      "acceleration": 75,
+      "agility": 88,
+      "strength": 81,
+      "tackle": 67,
+      "pursuit": 66,
+      "manCoverage": 87,
+      "zoneCoverage": 88,
+      "kickPower": 54,
+      "kickAccuracy": 58,
+      "catching": 69,
+      "routeRunning": 53,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 534,
+        "statB": 421
+      },
+      "career": {
+        "games": 114,
+        "statA": 1755,
+        "statB": 4997
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "ARI-RG-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Theo Bins",
+    "jerseyNumber": 8,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 289,
+      "college": "Lefflerstead",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 68323071,
+      "capHit": 16445601,
+      "deadCap": 9342575,
+      "signingBonus": 14786259,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 84,
+      "acceleration": 81,
+      "agility": 74,
+      "strength": 74,
+      "tackle": 65,
+      "pursuit": 70,
+      "manCoverage": 53,
+      "zoneCoverage": 85,
+      "kickPower": 89,
+      "kickAccuracy": 76,
+      "catching": 72,
+      "routeRunning": 80,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 540,
+        "statB": 302
+      },
+      "career": {
+        "games": 69,
+        "statA": 3712,
+        "statB": 440
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "ARI-RT-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Leon Ratke",
+    "jerseyNumber": 48,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 272,
+      "college": "Howebury",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 90440994,
+      "capHit": 11680008,
+      "deadCap": 2687247,
+      "signingBonus": 6020250,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 73,
+      "schemeFit": 92,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 76,
+      "strength": 76,
+      "tackle": 81,
+      "pursuit": 87,
+      "manCoverage": 50,
+      "zoneCoverage": 78,
+      "kickPower": 62,
+      "kickAccuracy": 77,
+      "catching": 77,
+      "routeRunning": 83,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 735,
+        "statB": 127
+      },
+      "career": {
+        "games": 102,
+        "statA": 562,
+        "statB": 4248
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "ARI-RT-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Carter Reichert",
+    "jerseyNumber": 46,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 251,
+      "college": "West Isaias",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 118212177,
+      "capHit": 5361187,
+      "deadCap": 6719323,
+      "signingBonus": 13437089,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 78,
+      "schemeFit": 78,
+      "speed": 89,
+      "acceleration": 76,
+      "agility": 74,
+      "strength": 89,
+      "tackle": 74,
+      "pursuit": 76,
+      "manCoverage": 80,
+      "zoneCoverage": 84,
+      "kickPower": 75,
+      "kickAccuracy": 81,
+      "catching": 65,
+      "routeRunning": 60,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 723,
+        "statB": 348
+      },
+      "career": {
+        "games": 100,
+        "statA": 2417,
+        "statB": 3986
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "ARI-LDE-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Igor Franecki",
+    "jerseyNumber": 75,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 279,
+      "college": "North Garry",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 71950233,
+      "capHit": 19308255,
+      "deadCap": 3501191,
+      "signingBonus": 4705455,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 84,
+      "schemeFit": 95,
+      "speed": 83,
+      "acceleration": 87,
+      "agility": 77,
+      "strength": 60,
+      "tackle": 93,
+      "pursuit": 87,
+      "manCoverage": 71,
+      "zoneCoverage": 72,
+      "kickPower": 82,
+      "kickAccuracy": 94,
+      "catching": 82,
+      "routeRunning": 72,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 470,
+        "statB": 117
+      },
+      "career": {
+        "games": 15,
+        "statA": 2040,
+        "statB": 2953
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "ARI-LDE-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Griffin Considine",
+    "jerseyNumber": 59,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 189,
+      "college": "Port Emelia",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 12763085,
+      "capHit": 14171325,
+      "deadCap": 6780292,
+      "signingBonus": 16219088,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 76,
+      "schemeFit": 93,
+      "speed": 87,
+      "acceleration": 89,
+      "agility": 87,
+      "strength": 90,
+      "tackle": 90,
+      "pursuit": 76,
+      "manCoverage": 65,
+      "zoneCoverage": 65,
+      "kickPower": 77,
+      "kickAccuracy": 67,
+      "catching": 86,
+      "routeRunning": 52,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 425,
+        "statB": 855
+      },
+      "career": {
+        "games": 93,
+        "statA": 4269,
+        "statB": 670
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "ARI-RDE-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Alexander Nader",
+    "jerseyNumber": 62,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 212,
+      "college": "Palm Beach Gardens",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 69417106,
+      "capHit": 14243568,
+      "deadCap": 1173259,
+      "signingBonus": 7393404,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 84,
+      "schemeFit": 74,
+      "speed": 81,
+      "acceleration": 84,
+      "agility": 86,
+      "strength": 82,
+      "tackle": 90,
+      "pursuit": 90,
+      "manCoverage": 55,
+      "zoneCoverage": 66,
+      "kickPower": 85,
+      "kickAccuracy": 88,
+      "catching": 77,
+      "routeRunning": 80,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 9,
+        "statB": 802
+      },
+      "career": {
+        "games": 3,
+        "statA": 2561,
+        "statB": 1615
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "ARI-RDE-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Bobby DuBuque",
+    "jerseyNumber": 40,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 250,
+      "college": "South Elianefurt",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 46052769,
+      "capHit": 15122322,
+      "deadCap": 2662575,
+      "signingBonus": 16767590,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 92,
+      "schemeFit": 88,
+      "speed": 80,
+      "acceleration": 90,
+      "agility": 76,
+      "strength": 91,
+      "tackle": 69,
+      "pursuit": 78,
+      "manCoverage": 51,
+      "zoneCoverage": 72,
+      "kickPower": 57,
+      "kickAccuracy": 82,
+      "catching": 95,
+      "routeRunning": 85,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 640,
+        "statB": 457
+      },
+      "career": {
+        "games": 27,
+        "statA": 1903,
+        "statB": 3536
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "ARI-DT-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Reed Kuhic",
+    "jerseyNumber": 2,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 309,
+      "college": "Mossiestead",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 17812755,
+      "capHit": 11795155,
+      "deadCap": 9834124,
+      "signingBonus": 5370238,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 72,
+      "schemeFit": 94,
+      "speed": 93,
+      "acceleration": 75,
+      "agility": 95,
+      "strength": 93,
+      "tackle": 93,
+      "pursuit": 65,
+      "manCoverage": 60,
+      "zoneCoverage": 74,
+      "kickPower": 56,
+      "kickAccuracy": 76,
+      "catching": 50,
+      "routeRunning": 84,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 756,
+        "statB": 417
+      },
+      "career": {
+        "games": 112,
+        "statA": 2708,
+        "statB": 2752
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "ARI-DT-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jian Dibbert-Daugherty",
+    "jerseyNumber": 95,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'3\"",
+      "weight": 198,
+      "college": "Raucester",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 25701331,
+      "capHit": 14835548,
+      "deadCap": 2704951,
+      "signingBonus": 6248435,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 87,
+      "schemeFit": 80,
+      "speed": 87,
+      "acceleration": 94,
+      "agility": 89,
+      "strength": 85,
+      "tackle": 86,
+      "pursuit": 93,
+      "manCoverage": 77,
+      "zoneCoverage": 73,
+      "kickPower": 62,
+      "kickAccuracy": 50,
+      "catching": 87,
+      "routeRunning": 73,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 454,
+        "statB": 242
+      },
+      "career": {
+        "games": 12,
+        "statA": 207,
+        "statB": 2104
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "ARI-DT-3",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Diego Hauck",
+    "jerseyNumber": 10,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 299,
+      "college": "Lake Eliezer",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 34686812,
+      "capHit": 18140368,
+      "deadCap": 9688713,
+      "signingBonus": 16372217,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 80,
+      "schemeFit": 81,
+      "speed": 83,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 69,
+      "tackle": 67,
+      "pursuit": 89,
+      "manCoverage": 64,
+      "zoneCoverage": 82,
+      "kickPower": 84,
+      "kickAccuracy": 83,
+      "catching": 86,
+      "routeRunning": 94,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 867,
+        "statB": 257
+      },
+      "career": {
+        "games": 66,
+        "statA": 4794,
+        "statB": 2011
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "ARI-DT-4",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Carter Casper",
+    "jerseyNumber": 22,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 210,
+      "college": "Tigard",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 5459471,
+      "capHit": 10188502,
+      "deadCap": 2976177,
+      "signingBonus": 9516284,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 74,
+      "schemeFit": 84,
+      "speed": 90,
+      "acceleration": 85,
+      "agility": 81,
+      "strength": 90,
+      "tackle": 86,
+      "pursuit": 61,
+      "manCoverage": 55,
+      "zoneCoverage": 65,
+      "kickPower": 59,
+      "kickAccuracy": 79,
+      "catching": 59,
+      "routeRunning": 73,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 700,
+        "statB": 295
+      },
+      "career": {
+        "games": 46,
+        "statA": 898,
+        "statB": 1878
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "ARI-LOLB-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Benjamin Wehner",
+    "jerseyNumber": 85,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 320,
+      "college": "Dooleyburgh",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 45047159,
+      "capHit": 16414051,
+      "deadCap": 2300960,
+      "signingBonus": 17560404,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 82,
+      "speed": 71,
+      "acceleration": 90,
+      "agility": 80,
+      "strength": 78,
+      "tackle": 79,
+      "pursuit": 75,
+      "manCoverage": 66,
+      "zoneCoverage": 61,
+      "kickPower": 64,
+      "kickAccuracy": 92,
+      "catching": 57,
+      "routeRunning": 54,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 793,
+        "statB": 85
+      },
+      "career": {
+        "games": 53,
+        "statA": 3756,
+        "statB": 1702
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "ARI-LOLB-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jisoo Hamill",
+    "jerseyNumber": 40,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 212,
+      "college": "East Abner",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 10241060,
+      "capHit": 7927299,
+      "deadCap": 4551363,
+      "signingBonus": 12056810,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 89,
+      "schemeFit": 83,
+      "speed": 88,
+      "acceleration": 75,
+      "agility": 95,
+      "strength": 91,
+      "tackle": 81,
+      "pursuit": 88,
+      "manCoverage": 56,
+      "zoneCoverage": 55,
+      "kickPower": 83,
+      "kickAccuracy": 83,
+      "catching": 81,
+      "routeRunning": 61,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 712,
+        "statB": 739
+      },
+      "career": {
+        "games": 62,
+        "statA": 3909,
+        "statB": 4583
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "ARI-MLB-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Yusuf Carroll",
+    "jerseyNumber": 22,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'10\"",
+      "weight": 311,
+      "college": "South Isaiah",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 115651389,
+      "capHit": 11968847,
+      "deadCap": 7103470,
+      "signingBonus": 14620166,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 77,
+      "schemeFit": 95,
+      "speed": 78,
+      "acceleration": 72,
+      "agility": 77,
+      "strength": 86,
+      "tackle": 91,
+      "pursuit": 86,
+      "manCoverage": 85,
+      "zoneCoverage": 58,
+      "kickPower": 53,
+      "kickAccuracy": 85,
+      "catching": 60,
+      "routeRunning": 94,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 492,
+        "statB": 789
+      },
+      "career": {
+        "games": 71,
+        "statA": 2575,
+        "statB": 3205
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "ARI-MLB-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Brendan Mohr",
+    "jerseyNumber": 67,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 204,
+      "college": "Fort Nathenworth",
+      "experience": 9,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 52537069,
+      "capHit": 16829205,
+      "deadCap": 5415691,
+      "signingBonus": 7292829,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 74,
+      "schemeFit": 74,
+      "speed": 75,
+      "acceleration": 93,
+      "agility": 91,
+      "strength": 85,
+      "tackle": 89,
+      "pursuit": 71,
+      "manCoverage": 90,
+      "zoneCoverage": 58,
+      "kickPower": 87,
+      "kickAccuracy": 83,
+      "catching": 75,
+      "routeRunning": 82,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 345,
+        "statB": 467
+      },
+      "career": {
+        "games": 85,
+        "statA": 4207,
+        "statB": 4527
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "ARI-ROLB-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Emmanuel West",
+    "jerseyNumber": 82,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 305,
+      "college": "Gutkowskiworth",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 93144672,
+      "capHit": 21863691,
+      "deadCap": 5732358,
+      "signingBonus": 6236207,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 80,
+      "schemeFit": 75,
+      "speed": 86,
+      "acceleration": 87,
+      "agility": 89,
+      "strength": 94,
+      "tackle": 67,
+      "pursuit": 76,
+      "manCoverage": 86,
+      "zoneCoverage": 87,
+      "kickPower": 66,
+      "kickAccuracy": 51,
+      "catching": 65,
+      "routeRunning": 90,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 858,
+        "statB": 641
+      },
+      "career": {
+        "games": 27,
+        "statA": 2307,
+        "statB": 1811
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "ARI-ROLB-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Dylan Bogan",
+    "jerseyNumber": 58,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 322,
+      "college": "Lake Tara",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 79567221,
+      "capHit": 6431244,
+      "deadCap": 4187448,
+      "signingBonus": 7678083,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 87,
+      "speed": 75,
+      "acceleration": 89,
+      "agility": 72,
+      "strength": 63,
+      "tackle": 94,
+      "pursuit": 92,
+      "manCoverage": 70,
+      "zoneCoverage": 61,
+      "kickPower": 92,
+      "kickAccuracy": 74,
+      "catching": 53,
+      "routeRunning": 84,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 950,
+        "statB": 65
+      },
+      "career": {
+        "games": 92,
+        "statA": 1825,
+        "statB": 483
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "ARI-CB-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Jeremy Connelly",
+    "jerseyNumber": 74,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 234,
+      "college": "Fort Florencioworth",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 78024686,
+      "capHit": 14270564,
+      "deadCap": 5083247,
+      "signingBonus": 7850370,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 79,
+      "schemeFit": 76,
+      "speed": 82,
+      "acceleration": 88,
+      "agility": 90,
+      "strength": 72,
+      "tackle": 67,
+      "pursuit": 62,
+      "manCoverage": 56,
+      "zoneCoverage": 51,
+      "kickPower": 62,
+      "kickAccuracy": 74,
+      "catching": 59,
+      "routeRunning": 71,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 921,
+        "statB": 290
+      },
+      "career": {
+        "games": 99,
+        "statA": 4907,
+        "statB": 3986
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "ARI-CB-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Keegan Bergstrom",
+    "jerseyNumber": 69,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 329,
+      "college": "Georgetown",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 51098688,
+      "capHit": 15267388,
+      "deadCap": 6332788,
+      "signingBonus": 5512747,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 83,
+      "schemeFit": 84,
+      "speed": 76,
+      "acceleration": 78,
+      "agility": 75,
+      "strength": 74,
+      "tackle": 62,
+      "pursuit": 73,
+      "manCoverage": 85,
+      "zoneCoverage": 86,
+      "kickPower": 92,
+      "kickAccuracy": 63,
+      "catching": 90,
+      "routeRunning": 51,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 344,
+        "statB": 645
+      },
+      "career": {
+        "games": 7,
+        "statA": 2115,
+        "statB": 2930
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "ARI-CB-3",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Adrian Lynch",
+    "jerseyNumber": 1,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 213,
+      "college": "Berwyn",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 95382599,
+      "capHit": 21704440,
+      "deadCap": 930805,
+      "signingBonus": 11574255,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 73,
+      "schemeFit": 71,
+      "speed": 73,
+      "acceleration": 73,
+      "agility": 74,
+      "strength": 60,
+      "tackle": 87,
+      "pursuit": 64,
+      "manCoverage": 78,
+      "zoneCoverage": 80,
+      "kickPower": 94,
+      "kickAccuracy": 60,
+      "catching": 69,
+      "routeRunning": 53,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 319,
+        "statB": 737
+      },
+      "career": {
+        "games": 104,
+        "statA": 217,
+        "statB": 1783
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "ARI-CB-4",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Gregory Gusikowski",
+    "jerseyNumber": 63,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 235,
+      "college": "Modesto",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 31559178,
+      "capHit": 20232030,
+      "deadCap": 3780614,
+      "signingBonus": 15641051,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 82,
+      "schemeFit": 79,
+      "speed": 74,
+      "acceleration": 74,
+      "agility": 79,
+      "strength": 95,
+      "tackle": 92,
+      "pursuit": 90,
+      "manCoverage": 77,
+      "zoneCoverage": 54,
+      "kickPower": 74,
+      "kickAccuracy": 93,
+      "catching": 63,
+      "routeRunning": 68,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 992,
+        "statB": 901
+      },
+      "career": {
+        "games": 116,
+        "statA": 1419,
+        "statB": 2512
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "ARI-CB-5",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Quentin Sanford",
+    "jerseyNumber": 46,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 217,
+      "college": "Lake Zackary",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 92247432,
+      "capHit": 2369632,
+      "deadCap": 6527562,
+      "signingBonus": 8086763,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 92,
+      "schemeFit": 93,
+      "speed": 83,
+      "acceleration": 72,
+      "agility": 74,
+      "strength": 71,
+      "tackle": 90,
+      "pursuit": 74,
+      "manCoverage": 83,
+      "zoneCoverage": 68,
+      "kickPower": 68,
+      "kickAccuracy": 68,
+      "catching": 57,
+      "routeRunning": 82,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 414,
+        "statB": 390
+      },
+      "career": {
+        "games": 12,
+        "statA": 1639,
+        "statB": 3887
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "ARI-CB-6",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Bo Auer",
+    "jerseyNumber": 93,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 250,
+      "college": "Merlfield",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 96269847,
+      "capHit": 6214883,
+      "deadCap": 4628515,
+      "signingBonus": 10701443,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 83,
+      "schemeFit": 86,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 90,
+      "strength": 71,
+      "tackle": 92,
+      "pursuit": 80,
+      "manCoverage": 69,
+      "zoneCoverage": 50,
+      "kickPower": 54,
+      "kickAccuracy": 63,
+      "catching": 71,
+      "routeRunning": 90,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 667,
+        "statB": 423
+      },
+      "career": {
+        "games": 9,
+        "statA": 5000,
+        "statB": 122
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "ARI-FS-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Ivan Auer-Romaguera",
+    "jerseyNumber": 52,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'11\"",
+      "weight": 288,
+      "college": "Karolannstad",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 60880272,
+      "capHit": 6578646,
+      "deadCap": 7674995,
+      "signingBonus": 11142002,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 76,
+      "schemeFit": 91,
+      "speed": 85,
+      "acceleration": 80,
+      "agility": 86,
+      "strength": 93,
+      "tackle": 82,
+      "pursuit": 72,
+      "manCoverage": 73,
+      "zoneCoverage": 68,
+      "kickPower": 61,
+      "kickAccuracy": 85,
+      "catching": 91,
+      "routeRunning": 72,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 637,
+        "statB": 129
+      },
+      "career": {
+        "games": 86,
+        "statA": 3108,
+        "statB": 3362
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "ARI-FS-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Joon Donnelly",
+    "jerseyNumber": 36,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 195,
+      "college": "New Estevancester",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 101130769,
+      "capHit": 17279873,
+      "deadCap": 5239181,
+      "signingBonus": 19327803,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 84,
+      "schemeFit": 72,
+      "speed": 85,
+      "acceleration": 85,
+      "agility": 77,
+      "strength": 78,
+      "tackle": 72,
+      "pursuit": 89,
+      "manCoverage": 70,
+      "zoneCoverage": 82,
+      "kickPower": 72,
+      "kickAccuracy": 78,
+      "catching": 83,
+      "routeRunning": 80,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 277,
+        "statB": 287
+      },
+      "career": {
+        "games": 53,
+        "statA": 305,
+        "statB": 2943
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "ARI-SS-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Pablo Kuhlman",
+    "jerseyNumber": 46,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 208,
+      "college": "Joanfurt",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 17866320,
+      "capHit": 2984372,
+      "deadCap": 2584905,
+      "signingBonus": 15534444,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 90,
+      "schemeFit": 84,
+      "speed": 87,
+      "acceleration": 85,
+      "agility": 89,
+      "strength": 66,
+      "tackle": 66,
+      "pursuit": 62,
+      "manCoverage": 50,
+      "zoneCoverage": 58,
+      "kickPower": 89,
+      "kickAccuracy": 61,
+      "catching": 54,
+      "routeRunning": 63,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 863,
+        "statB": 105
+      },
+      "career": {
+        "games": 23,
+        "statA": 4320,
+        "statB": 4755
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "ARI-SS-2",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Ren Walsh",
+    "jerseyNumber": 64,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 275,
+      "college": "New Ebony",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 79291364,
+      "capHit": 19754320,
+      "deadCap": 8654837,
+      "signingBonus": 3364024,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 66,
+      "schemeFit": 70,
+      "speed": 80,
+      "acceleration": 80,
+      "agility": 77,
+      "strength": 70,
+      "tackle": 94,
+      "pursuit": 91,
+      "manCoverage": 67,
+      "zoneCoverage": 70,
+      "kickPower": 77,
+      "kickAccuracy": 73,
+      "catching": 89,
+      "routeRunning": 67,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 409,
+        "statB": 776
+      },
+      "career": {
+        "games": 99,
+        "statA": 2000,
+        "statB": 3603
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "ARI-K-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Steven Schoen-Hane",
+    "jerseyNumber": 27,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 329,
+      "college": "Brookton",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 44118852,
+      "capHit": 1413379,
+      "deadCap": 5531508,
+      "signingBonus": 554865,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 68,
+      "schemeFit": 92,
+      "speed": 91,
+      "acceleration": 89,
+      "agility": 82,
+      "strength": 60,
+      "tackle": 85,
+      "pursuit": 64,
+      "manCoverage": 57,
+      "zoneCoverage": 80,
+      "kickPower": 89,
+      "kickAccuracy": 76,
+      "catching": 86,
+      "routeRunning": 54,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 594,
+        "statB": 888
+      },
+      "career": {
+        "games": 98,
+        "statA": 2310,
+        "statB": 897
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "ARI-P-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Grant Lindgren",
+    "jerseyNumber": 13,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 319,
+      "college": "New Otiliahaven",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 18128030,
+      "capHit": 14647325,
+      "deadCap": 1108022,
+      "signingBonus": 1725256,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 82,
+      "schemeFit": 95,
+      "speed": 81,
+      "acceleration": 88,
+      "agility": 90,
+      "strength": 72,
+      "tackle": 94,
+      "pursuit": 87,
+      "manCoverage": 55,
+      "zoneCoverage": 60,
+      "kickPower": 50,
+      "kickAccuracy": 94,
+      "catching": 70,
+      "routeRunning": 74,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 31,
+        "statB": 162
+      },
+      "career": {
+        "games": 66,
+        "statA": 2620,
+        "statB": 3964
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "ARI-LS-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Declan Dibbert",
+    "jerseyNumber": 8,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 217,
+      "college": "Deontaechester",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 66541914,
+      "capHit": 24223538,
+      "deadCap": 4358635,
+      "signingBonus": 5618026,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 68,
+      "schemeFit": 78,
+      "speed": 79,
+      "acceleration": 71,
+      "agility": 91,
+      "strength": 85,
+      "tackle": 87,
+      "pursuit": 89,
+      "manCoverage": 58,
+      "zoneCoverage": 51,
+      "kickPower": 70,
+      "kickAccuracy": 77,
+      "catching": 67,
+      "routeRunning": 84,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 984,
+        "statB": 554
+      },
+      "career": {
+        "games": 68,
+        "statA": 3970,
+        "statB": 1659
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "ARI-KR-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Hyun Champlin",
+    "jerseyNumber": 7,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 192,
+      "college": "Nitzscheworth",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 9764347,
+      "capHit": 16083422,
+      "deadCap": 4717261,
+      "signingBonus": 5280404,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 86,
+      "schemeFit": 76,
+      "speed": 84,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 62,
+      "tackle": 63,
+      "pursuit": 70,
+      "manCoverage": 79,
+      "zoneCoverage": 56,
+      "kickPower": 80,
+      "kickAccuracy": 91,
+      "catching": 68,
+      "routeRunning": 84,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 945,
+        "statB": 153
+      },
+      "career": {
+        "games": 36,
+        "statA": 209,
+        "statB": 2329
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "ARI-PR-1",
+    "team": "ARI",
+    "teamName": "ARI",
+    "name": "Emmanuel Kling",
+    "jerseyNumber": 15,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 326,
+      "college": "Ratkeburgh",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 31429917,
+      "capHit": 8180345,
+      "deadCap": 6502912,
+      "signingBonus": 11238905,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 71,
+      "schemeFit": 74,
+      "speed": 70,
+      "acceleration": 72,
+      "agility": 89,
+      "strength": 89,
+      "tackle": 67,
+      "pursuit": 90,
+      "manCoverage": 57,
+      "zoneCoverage": 55,
+      "kickPower": 51,
+      "kickAccuracy": 62,
+      "catching": 74,
+      "routeRunning": 50,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 861,
+        "statB": 732
+      },
+      "career": {
+        "games": 73,
+        "statA": 2570,
+        "statB": 1703
+      }
+    },
+    "photo": "/player_faces/35.png"
+  }
 ]

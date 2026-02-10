@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  81,
-               "name":  "Xavier Wright"
-           },
-    "OC":  {
-               "rating":  87,
-               "name":  "Marcus Wynn"
-           },
-    "DC":  {
-               "rating":  68,
-               "name":  "Logan Halford"
-           }
-}
+[
+  {
+    "id": "ATL-STAFF-1",
+    "team": "ATL",
+    "role": "Head Coach",
+    "name": "Gianni Gleason",
+    "vitals": {
+      "age": 40,
+      "experience": 26
+    },
+    "ratings": {
+      "leadership": 93,
+      "discipline": 79,
+      "schemeKnowledge": 73,
+      "playerDev": 71,
+      "motivation": 69,
+      "injuryManagement": 62,
+      "conditioning": 63,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2219370
+    }
+  },
+  {
+    "id": "ATL-STAFF-2",
+    "team": "ATL",
+    "role": "Offensive Coordinator",
+    "name": "Samuel Collier-Hayes",
+    "vitals": {
+      "age": 54,
+      "experience": 40
+    },
+    "ratings": {
+      "leadership": 74,
+      "discipline": 88,
+      "schemeKnowledge": 76,
+      "playerDev": 90,
+      "motivation": 74,
+      "injuryManagement": 53,
+      "conditioning": 59,
+      "analyticsIQ": 46
+    },
+    "contract": {
+      "years": 5,
+      "salary": 6629537
+    }
+  },
+  {
+    "id": "ATL-STAFF-3",
+    "team": "ATL",
+    "role": "Defensive Coordinator",
+    "name": "Arthur Blick",
+    "vitals": {
+      "age": 38,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 83,
+      "discipline": 86,
+      "schemeKnowledge": 69,
+      "playerDev": 68,
+      "motivation": 65,
+      "injuryManagement": 59,
+      "conditioning": 56,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1778575
+    }
+  },
+  {
+    "id": "ATL-STAFF-4",
+    "team": "ATL",
+    "role": "Strength & Conditioning Coach",
+    "name": "Porter Blick",
+    "vitals": {
+      "age": 63,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 80,
+      "schemeKnowledge": 66,
+      "playerDev": 73,
+      "motivation": 90,
+      "injuryManagement": 62,
+      "conditioning": 82,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1427409
+    }
+  },
+  {
+    "id": "ATL-STAFF-5",
+    "team": "ATL",
+    "role": "Physical Therapist",
+    "name": "Harold Goodwin",
+    "vitals": {
+      "age": 57,
+      "experience": 35
+    },
+    "ratings": {
+      "leadership": 63,
+      "discipline": 81,
+      "schemeKnowledge": 66,
+      "playerDev": 82,
+      "motivation": 90,
+      "injuryManagement": 71,
+      "conditioning": 41,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 5,
+      "salary": 7732475
+    }
+  },
+  {
+    "id": "ATL-STAFF-6",
+    "team": "ATL",
+    "role": "Athletic Trainer",
+    "name": "Jordan Simonis",
+    "vitals": {
+      "age": 39,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 70,
+      "discipline": 73,
+      "schemeKnowledge": 73,
+      "playerDev": 86,
+      "motivation": 95,
+      "injuryManagement": 87,
+      "conditioning": 60,
+      "analyticsIQ": 48
+    },
+    "contract": {
+      "years": 4,
+      "salary": 7508337
+    }
+  },
+  {
+    "id": "ATL-STAFF-7",
+    "team": "ATL",
+    "role": "Analytics Coordinator",
+    "name": "Rafael Gottlieb",
+    "vitals": {
+      "age": 64,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 92,
+      "schemeKnowledge": 64,
+      "playerDev": 70,
+      "motivation": 60,
+      "injuryManagement": 59,
+      "conditioning": 58,
+      "analyticsIQ": 83
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4695081
+    }
+  }
+]

@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  92,
-               "name":  "Tyrone Rourke"
-           },
-    "OC":  {
-               "rating":  77,
-               "name":  "Evan Bennett"
-           },
-    "DC":  {
-               "rating":  88,
-               "name":  "Evan Foster"
-           }
-}
+[
+  {
+    "id": "NYJ-STAFF-1",
+    "team": "NYJ",
+    "role": "Head Coach",
+    "name": "Joshua Huel",
+    "vitals": {
+      "age": 30,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 91,
+      "discipline": 85,
+      "schemeKnowledge": 90,
+      "playerDev": 78,
+      "motivation": 68,
+      "injuryManagement": 49,
+      "conditioning": 68,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2045621
+    }
+  },
+  {
+    "id": "NYJ-STAFF-2",
+    "team": "NYJ",
+    "role": "Offensive Coordinator",
+    "name": "Cillian Baumbach",
+    "vitals": {
+      "age": 33,
+      "experience": 36
+    },
+    "ratings": {
+      "leadership": 73,
+      "discipline": 85,
+      "schemeKnowledge": 87,
+      "playerDev": 84,
+      "motivation": 69,
+      "injuryManagement": 42,
+      "conditioning": 69,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7020450
+    }
+  },
+  {
+    "id": "NYJ-STAFF-3",
+    "team": "NYJ",
+    "role": "Defensive Coordinator",
+    "name": "Evan Hills",
+    "vitals": {
+      "age": 37,
+      "experience": 32
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 79,
+      "schemeKnowledge": 64,
+      "playerDev": 60,
+      "motivation": 70,
+      "injuryManagement": 61,
+      "conditioning": 53,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3877589
+    }
+  },
+  {
+    "id": "NYJ-STAFF-4",
+    "team": "NYJ",
+    "role": "Strength & Conditioning Coach",
+    "name": "Leon Hermann",
+    "vitals": {
+      "age": 32,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 92,
+      "schemeKnowledge": 85,
+      "playerDev": 88,
+      "motivation": 84,
+      "injuryManagement": 43,
+      "conditioning": 92,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 2,
+      "salary": 6645367
+    }
+  },
+  {
+    "id": "NYJ-STAFF-5",
+    "team": "NYJ",
+    "role": "Physical Therapist",
+    "name": "Dennis White",
+    "vitals": {
+      "age": 50,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 76,
+      "schemeKnowledge": 75,
+      "playerDev": 87,
+      "motivation": 84,
+      "injuryManagement": 88,
+      "conditioning": 57,
+      "analyticsIQ": 48
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4005509
+    }
+  },
+  {
+    "id": "NYJ-STAFF-6",
+    "team": "NYJ",
+    "role": "Athletic Trainer",
+    "name": "Raul Ferry",
+    "vitals": {
+      "age": 35,
+      "experience": 31
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 83,
+      "schemeKnowledge": 61,
+      "playerDev": 84,
+      "motivation": 70,
+      "injuryManagement": 91,
+      "conditioning": 56,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7167259
+    }
+  },
+  {
+    "id": "NYJ-STAFF-7",
+    "team": "NYJ",
+    "role": "Analytics Coordinator",
+    "name": "Seth Goyette",
+    "vitals": {
+      "age": 58,
+      "experience": 10
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 74,
+      "schemeKnowledge": 82,
+      "playerDev": 95,
+      "motivation": 73,
+      "injuryManagement": 69,
+      "conditioning": 51,
+      "analyticsIQ": 99
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7304999
+    }
+  }
+]

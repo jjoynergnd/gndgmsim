@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  87,
-               "name":  "Darius Coleman"
-           },
-    "OC":  {
-               "rating":  79,
-               "name":  "Jalen Wright"
-           },
-    "DC":  {
-               "rating":  71,
-               "name":  "Xavier Shaw"
-           }
-}
+[
+  {
+    "id": "CAR-STAFF-1",
+    "team": "CAR",
+    "role": "Head Coach",
+    "name": "Philip Emmerich",
+    "vitals": {
+      "age": 46,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 66,
+      "discipline": 93,
+      "schemeKnowledge": 91,
+      "playerDev": 85,
+      "motivation": 86,
+      "injuryManagement": 48,
+      "conditioning": 49,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2793533
+    }
+  },
+  {
+    "id": "CAR-STAFF-2",
+    "team": "CAR",
+    "role": "Offensive Coordinator",
+    "name": "James Reichel",
+    "vitals": {
+      "age": 33,
+      "experience": 36
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 88,
+      "schemeKnowledge": 60,
+      "playerDev": 70,
+      "motivation": 70,
+      "injuryManagement": 50,
+      "conditioning": 47,
+      "analyticsIQ": 45
+    },
+    "contract": {
+      "years": 2,
+      "salary": 1793269
+    }
+  },
+  {
+    "id": "CAR-STAFF-3",
+    "team": "CAR",
+    "role": "Defensive Coordinator",
+    "name": "Adrian Zboncak",
+    "vitals": {
+      "age": 45,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 80,
+      "schemeKnowledge": 90,
+      "playerDev": 95,
+      "motivation": 82,
+      "injuryManagement": 56,
+      "conditioning": 57,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4370887
+    }
+  },
+  {
+    "id": "CAR-STAFF-4",
+    "team": "CAR",
+    "role": "Strength & Conditioning Coach",
+    "name": "Zachary DuBuque",
+    "vitals": {
+      "age": 32,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 62,
+      "discipline": 60,
+      "schemeKnowledge": 76,
+      "playerDev": 70,
+      "motivation": 78,
+      "injuryManagement": 61,
+      "conditioning": 87,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 5,
+      "salary": 599120
+    }
+  },
+  {
+    "id": "CAR-STAFF-5",
+    "team": "CAR",
+    "role": "Physical Therapist",
+    "name": "Sung Hickle",
+    "vitals": {
+      "age": 52,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 70,
+      "discipline": 74,
+      "schemeKnowledge": 84,
+      "playerDev": 80,
+      "motivation": 88,
+      "injuryManagement": 84,
+      "conditioning": 56,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 5,
+      "salary": 768405
+    }
+  },
+  {
+    "id": "CAR-STAFF-6",
+    "team": "CAR",
+    "role": "Athletic Trainer",
+    "name": "Yusuf D'Amore",
+    "vitals": {
+      "age": 65,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 91,
+      "schemeKnowledge": 69,
+      "playerDev": 63,
+      "motivation": 95,
+      "injuryManagement": 79,
+      "conditioning": 58,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2177512
+    }
+  },
+  {
+    "id": "CAR-STAFF-7",
+    "team": "CAR",
+    "role": "Analytics Coordinator",
+    "name": "Bruce Champlin",
+    "vitals": {
+      "age": 47,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 79,
+      "discipline": 79,
+      "schemeKnowledge": 90,
+      "playerDev": 61,
+      "motivation": 63,
+      "injuryManagement": 45,
+      "conditioning": 59,
+      "analyticsIQ": 81
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7282312
+    }
+  }
+]

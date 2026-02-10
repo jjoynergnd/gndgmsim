@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  92,
-               "name":  "Xavier Foster"
-           },
-    "OC":  {
-               "rating":  66,
-               "name":  "Chase Wright"
-           },
-    "DC":  {
-               "rating":  79,
-               "name":  "Tyrone Rourke"
-           }
-}
+[
+  {
+    "id": "MIA-STAFF-1",
+    "team": "MIA",
+    "role": "Head Coach",
+    "name": "James McCullough",
+    "vitals": {
+      "age": 39,
+      "experience": 20
+    },
+    "ratings": {
+      "leadership": 68,
+      "discipline": 82,
+      "schemeKnowledge": 62,
+      "playerDev": 69,
+      "motivation": 75,
+      "injuryManagement": 62,
+      "conditioning": 69,
+      "analyticsIQ": 46
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3798154
+    }
+  },
+  {
+    "id": "MIA-STAFF-2",
+    "team": "MIA",
+    "role": "Offensive Coordinator",
+    "name": "Viktor Sanford",
+    "vitals": {
+      "age": 55,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 80,
+      "discipline": 91,
+      "schemeKnowledge": 83,
+      "playerDev": 60,
+      "motivation": 75,
+      "injuryManagement": 52,
+      "conditioning": 42,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 2,
+      "salary": 534248
+    }
+  },
+  {
+    "id": "MIA-STAFF-3",
+    "team": "MIA",
+    "role": "Defensive Coordinator",
+    "name": "George Bins",
+    "vitals": {
+      "age": 42,
+      "experience": 28
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 72,
+      "schemeKnowledge": 90,
+      "playerDev": 90,
+      "motivation": 91,
+      "injuryManagement": 48,
+      "conditioning": 54,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7269244
+    }
+  },
+  {
+    "id": "MIA-STAFF-4",
+    "team": "MIA",
+    "role": "Strength & Conditioning Coach",
+    "name": "Sergei Balistreri",
+    "vitals": {
+      "age": 43,
+      "experience": 27
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 86,
+      "schemeKnowledge": 87,
+      "playerDev": 81,
+      "motivation": 79,
+      "injuryManagement": 60,
+      "conditioning": 89,
+      "analyticsIQ": 41
+    },
+    "contract": {
+      "years": 4,
+      "salary": 6228437
+    }
+  },
+  {
+    "id": "MIA-STAFF-5",
+    "team": "MIA",
+    "role": "Physical Therapist",
+    "name": "Carter Blick",
+    "vitals": {
+      "age": 36,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 62,
+      "schemeKnowledge": 70,
+      "playerDev": 91,
+      "motivation": 80,
+      "injuryManagement": 89,
+      "conditioning": 47,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2235061
+    }
+  },
+  {
+    "id": "MIA-STAFF-6",
+    "team": "MIA",
+    "role": "Athletic Trainer",
+    "name": "Malik O'Reilly",
+    "vitals": {
+      "age": 51,
+      "experience": 36
+    },
+    "ratings": {
+      "leadership": 63,
+      "discipline": 83,
+      "schemeKnowledge": 71,
+      "playerDev": 87,
+      "motivation": 95,
+      "injuryManagement": 76,
+      "conditioning": 56,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7010938
+    }
+  },
+  {
+    "id": "MIA-STAFF-7",
+    "team": "MIA",
+    "role": "Analytics Coordinator",
+    "name": "Julian Rolfson",
+    "vitals": {
+      "age": 47,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 92,
+      "schemeKnowledge": 92,
+      "playerDev": 93,
+      "motivation": 67,
+      "injuryManagement": 62,
+      "conditioning": 43,
+      "analyticsIQ": 80
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2981910
+    }
+  }
+]

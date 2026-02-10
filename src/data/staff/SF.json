@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  91,
-               "name":  "Evan Foster"
-           },
-    "OC":  {
-               "rating":  81,
-               "name":  "Jordan Wynn"
-           },
-    "DC":  {
-               "rating":  76,
-               "name":  "Malik Maddox"
-           }
-}
+[
+  {
+    "id": "SF-STAFF-1",
+    "team": "SF",
+    "role": "Head Coach",
+    "name": "Taeyang Fay",
+    "vitals": {
+      "age": 63,
+      "experience": 26
+    },
+    "ratings": {
+      "leadership": 70,
+      "discipline": 80,
+      "schemeKnowledge": 62,
+      "playerDev": 63,
+      "motivation": 84,
+      "injuryManagement": 49,
+      "conditioning": 46,
+      "analyticsIQ": 55
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1682237
+    }
+  },
+  {
+    "id": "SF-STAFF-2",
+    "team": "SF",
+    "role": "Offensive Coordinator",
+    "name": "Dmitri Littel",
+    "vitals": {
+      "age": 44,
+      "experience": 37
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 71,
+      "schemeKnowledge": 73,
+      "playerDev": 91,
+      "motivation": 69,
+      "injuryManagement": 44,
+      "conditioning": 41,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5561224
+    }
+  },
+  {
+    "id": "SF-STAFF-3",
+    "team": "SF",
+    "role": "Defensive Coordinator",
+    "name": "Daichi Hegmann",
+    "vitals": {
+      "age": 64,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 84,
+      "discipline": 72,
+      "schemeKnowledge": 81,
+      "playerDev": 84,
+      "motivation": 93,
+      "injuryManagement": 49,
+      "conditioning": 68,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7381702
+    }
+  },
+  {
+    "id": "SF-STAFF-4",
+    "team": "SF",
+    "role": "Strength & Conditioning Coach",
+    "name": "Quentin Kling",
+    "vitals": {
+      "age": 39,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 63,
+      "schemeKnowledge": 70,
+      "playerDev": 61,
+      "motivation": 89,
+      "injuryManagement": 63,
+      "conditioning": 78,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7332127
+    }
+  },
+  {
+    "id": "SF-STAFF-5",
+    "team": "SF",
+    "role": "Physical Therapist",
+    "name": "Ryan Rempel",
+    "vitals": {
+      "age": 36,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 88,
+      "discipline": 92,
+      "schemeKnowledge": 72,
+      "playerDev": 77,
+      "motivation": 86,
+      "injuryManagement": 91,
+      "conditioning": 59,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3231373
+    }
+  },
+  {
+    "id": "SF-STAFF-6",
+    "team": "SF",
+    "role": "Athletic Trainer",
+    "name": "Tristan Doyle",
+    "vitals": {
+      "age": 58,
+      "experience": 27
+    },
+    "ratings": {
+      "leadership": 84,
+      "discipline": 71,
+      "schemeKnowledge": 86,
+      "playerDev": 87,
+      "motivation": 76,
+      "injuryManagement": 83,
+      "conditioning": 60,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 5,
+      "salary": 6133354
+    }
+  },
+  {
+    "id": "SF-STAFF-7",
+    "team": "SF",
+    "role": "Analytics Coordinator",
+    "name": "Daichi Vandervort",
+    "vitals": {
+      "age": 59,
+      "experience": 25
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 73,
+      "schemeKnowledge": 87,
+      "playerDev": 84,
+      "motivation": 68,
+      "injuryManagement": 50,
+      "conditioning": 60,
+      "analyticsIQ": 84
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1386559
+    }
+  }
+]

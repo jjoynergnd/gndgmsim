@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 212, 255, 0.12),
+    rgba(0, 212, 255, 0.04)
+  );
+  border: 1px solid rgba(0, 212, 255, 0.35);
+  border-radius: 14px;
+  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+/* LEFT SIDE — LOGO + TEAM NAME */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logoWrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logoFallback {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamName {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.subline {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* MIDDLE — RECORD + YEAR */
+.middle {
+  text-align: center;
+}
+
+.record {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.year {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* RIGHT — CAP SPACE */
+.right {
+  text-align: right;
+}
+
+.capBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.capLabel {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.capValue {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .capBlock {
+    align-items: center;
+  }
+}

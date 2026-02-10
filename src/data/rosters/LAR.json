@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  85,
-        "name":  "Caleb Coleman",
-        "id":  "LAR-QB0"
+[
+  {
+    "id": "LAR-QB-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Kieran Bednar",
+    "jerseyNumber": 41,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'10\"",
+      "weight": 225,
+      "college": "Federal Way",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Right"
     },
-    {
-        "position":  "RB",
-        "overall":  87,
-        "name":  "Marcus Maddox",
-        "id":  "LAR-RB1"
+    "contract": {
+      "years": 1,
+      "totalValue": 53103944,
+      "capHit": 16839265,
+      "deadCap": 1415273,
+      "signingBonus": 16149214,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
     },
-    {
-        "position":  "WR",
-        "overall":  79,
-        "name":  "Jalen Harrington",
-        "id":  "LAR-WR2"
+    "ratings": {
+      "overall": 78,
+      "potential": 78,
+      "schemeFit": 81,
+      "speed": 92,
+      "acceleration": 92,
+      "agility": 86,
+      "strength": 79,
+      "tackle": 92,
+      "pursuit": 65,
+      "manCoverage": 54,
+      "zoneCoverage": 80,
+      "kickPower": 87,
+      "kickAccuracy": 57,
+      "catching": 61,
+      "routeRunning": 73,
+      "release": 93,
+      "throwPower": 75,
+      "shortAccuracy": 88,
+      "mediumAccuracy": 79,
+      "deepAccuracy": 66
     },
-    {
-        "position":  "LB",
-        "overall":  87,
-        "name":  "Tyrone Coleman",
-        "id":  "LAR-LB3"
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
     },
-    {
-        "position":  "CB",
-        "overall":  80,
-        "name":  "Evan Rourke",
-        "id":  "LAR-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 38,
+        "statB": 82
+      },
+      "career": {
+        "games": 22,
+        "statA": 4940,
+        "statB": 4467
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "LAR-QB-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Daichi Turcotte",
+    "jerseyNumber": 38,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 282,
+      "college": "East Oceane",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 75455245,
+      "capHit": 11417548,
+      "deadCap": 3841776,
+      "signingBonus": 16315057,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 83,
+      "schemeFit": 93,
+      "speed": 79,
+      "acceleration": 88,
+      "agility": 91,
+      "strength": 92,
+      "tackle": 69,
+      "pursuit": 76,
+      "manCoverage": 86,
+      "zoneCoverage": 54,
+      "kickPower": 74,
+      "kickAccuracy": 67,
+      "catching": 72,
+      "routeRunning": 95,
+      "release": 64,
+      "throwPower": 83,
+      "shortAccuracy": 85,
+      "mediumAccuracy": 81,
+      "deepAccuracy": 72
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 143,
+        "statB": 198
+      },
+      "career": {
+        "games": 34,
+        "statA": 2381,
+        "statB": 4306
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "LAR-QB-3",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "James Nolan",
+    "jerseyNumber": 96,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 27,
+      "height": "6'4\"",
+      "weight": 189,
+      "college": "Kemmerview",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 6528860,
+      "capHit": 6457693,
+      "deadCap": 2291674,
+      "signingBonus": 13544121,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 94,
+      "schemeFit": 92,
+      "speed": 82,
+      "acceleration": 81,
+      "agility": 85,
+      "strength": 84,
+      "tackle": 66,
+      "pursuit": 94,
+      "manCoverage": 55,
+      "zoneCoverage": 55,
+      "kickPower": 90,
+      "kickAccuracy": 75,
+      "catching": 82,
+      "routeRunning": 69,
+      "release": 53,
+      "throwPower": 84,
+      "shortAccuracy": 77,
+      "mediumAccuracy": 66,
+      "deepAccuracy": 62
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 936,
+        "statB": 245
+      },
+      "career": {
+        "games": 11,
+        "statA": 214,
+        "statB": 313
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "LAR-RB-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Devin Wyman",
+    "jerseyNumber": 66,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 300,
+      "college": "Aimeemouth",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 89150358,
+      "capHit": 8489167,
+      "deadCap": 2345914,
+      "signingBonus": 10493512,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 63,
+      "schemeFit": 85,
+      "speed": 72,
+      "acceleration": 79,
+      "agility": 89,
+      "strength": 64,
+      "tackle": 73,
+      "pursuit": 63,
+      "manCoverage": 71,
+      "zoneCoverage": 51,
+      "kickPower": 51,
+      "kickAccuracy": 89,
+      "catching": 79,
+      "routeRunning": 89,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 148,
+        "statB": 510
+      },
+      "career": {
+        "games": 63,
+        "statA": 1405,
+        "statB": 1779
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "LAR-RB-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Roger Kertzmann",
+    "jerseyNumber": 70,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'5\"",
+      "weight": 324,
+      "college": "Dallas",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 14743412,
+      "capHit": 15562379,
+      "deadCap": 9506671,
+      "signingBonus": 16167076,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 72,
+      "schemeFit": 94,
+      "speed": 87,
+      "acceleration": 84,
+      "agility": 74,
+      "strength": 90,
+      "tackle": 85,
+      "pursuit": 76,
+      "manCoverage": 85,
+      "zoneCoverage": 60,
+      "kickPower": 57,
+      "kickAccuracy": 85,
+      "catching": 65,
+      "routeRunning": 51,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 332,
+        "statB": 339
+      },
+      "career": {
+        "games": 110,
+        "statA": 3301,
+        "statB": 2090
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "LAR-RB-3",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Christian Denesik",
+    "jerseyNumber": 30,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 286,
+      "college": "West Linda",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 16555128,
+      "capHit": 24956869,
+      "deadCap": 2853219,
+      "signingBonus": 18804994,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 75,
+      "schemeFit": 95,
+      "speed": 95,
+      "acceleration": 73,
+      "agility": 71,
+      "strength": 71,
+      "tackle": 83,
+      "pursuit": 86,
+      "manCoverage": 52,
+      "zoneCoverage": 62,
+      "kickPower": 69,
+      "kickAccuracy": 50,
+      "catching": 82,
+      "routeRunning": 55,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 875,
+        "statB": 270
+      },
+      "career": {
+        "games": 8,
+        "statA": 254,
+        "statB": 2669
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "LAR-RB-4",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Seamus Carter",
+    "jerseyNumber": 81,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 209,
+      "college": "Fontana",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 8542347,
+      "capHit": 20132064,
+      "deadCap": 415582,
+      "signingBonus": 5072822,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 70,
+      "schemeFit": 73,
+      "speed": 94,
+      "acceleration": 73,
+      "agility": 71,
+      "strength": 74,
+      "tackle": 65,
+      "pursuit": 94,
+      "manCoverage": 86,
+      "zoneCoverage": 66,
+      "kickPower": 59,
+      "kickAccuracy": 79,
+      "catching": 89,
+      "routeRunning": 65,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 800,
+        "statB": 606
+      },
+      "career": {
+        "games": 54,
+        "statA": 48,
+        "statB": 2772
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "LAR-WR-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Hyun Gusikowski",
+    "jerseyNumber": 24,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 233,
+      "college": "McKenziemouth",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 66939047,
+      "capHit": 13080411,
+      "deadCap": 6258636,
+      "signingBonus": 7975183,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 67,
+      "schemeFit": 79,
+      "speed": 75,
+      "acceleration": 81,
+      "agility": 79,
+      "strength": 62,
+      "tackle": 90,
+      "pursuit": 68,
+      "manCoverage": 68,
+      "zoneCoverage": 65,
+      "kickPower": 57,
+      "kickAccuracy": 70,
+      "catching": 92,
+      "routeRunning": 68,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 978,
+        "statB": 493
+      },
+      "career": {
+        "games": 23,
+        "statA": 809,
+        "statB": 662
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "LAR-WR-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Martin Abshire",
+    "jerseyNumber": 28,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 302,
+      "college": "Taureanfurt",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 86706495,
+      "capHit": 3199266,
+      "deadCap": 1817814,
+      "signingBonus": 2469544,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 79,
+      "schemeFit": 83,
+      "speed": 75,
+      "acceleration": 83,
+      "agility": 76,
+      "strength": 91,
+      "tackle": 63,
+      "pursuit": 68,
+      "manCoverage": 76,
+      "zoneCoverage": 65,
+      "kickPower": 52,
+      "kickAccuracy": 50,
+      "catching": 82,
+      "routeRunning": 95,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 198,
+        "statB": 686
+      },
+      "career": {
+        "games": 13,
+        "statA": 4290,
+        "statB": 4118
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "LAR-WR-3",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Knox Keeling",
+    "jerseyNumber": 47,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 222,
+      "college": "Riverside",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 21020896,
+      "capHit": 17799197,
+      "deadCap": 7435444,
+      "signingBonus": 13981979,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 84,
+      "schemeFit": 75,
+      "speed": 87,
+      "acceleration": 92,
+      "agility": 94,
+      "strength": 62,
+      "tackle": 81,
+      "pursuit": 94,
+      "manCoverage": 57,
+      "zoneCoverage": 82,
+      "kickPower": 75,
+      "kickAccuracy": 92,
+      "catching": 95,
+      "routeRunning": 76,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 716,
+        "statB": 709
+      },
+      "career": {
+        "games": 51,
+        "statA": 3464,
+        "statB": 3325
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "LAR-WR-4",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Nathan Anderson",
+    "jerseyNumber": 77,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'4\"",
+      "weight": 325,
+      "college": "Palo Alto",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 73547488,
+      "capHit": 14090827,
+      "deadCap": 3302567,
+      "signingBonus": 4685255,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 65,
+      "schemeFit": 71,
+      "speed": 71,
+      "acceleration": 93,
+      "agility": 74,
+      "strength": 64,
+      "tackle": 88,
+      "pursuit": 66,
+      "manCoverage": 57,
+      "zoneCoverage": 77,
+      "kickPower": 54,
+      "kickAccuracy": 86,
+      "catching": 58,
+      "routeRunning": 72,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 799,
+        "statB": 249
+      },
+      "career": {
+        "games": 84,
+        "statA": 92,
+        "statB": 2900
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "LAR-WR-5",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Gavin Barrows",
+    "jerseyNumber": 75,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 301,
+      "college": "Fort Rosanna",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 13620112,
+      "capHit": 20643159,
+      "deadCap": 2365786,
+      "signingBonus": 17059926,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 80,
+      "schemeFit": 77,
+      "speed": 79,
+      "acceleration": 70,
+      "agility": 72,
+      "strength": 83,
+      "tackle": 66,
+      "pursuit": 62,
+      "manCoverage": 63,
+      "zoneCoverage": 53,
+      "kickPower": 61,
+      "kickAccuracy": 68,
+      "catching": 69,
+      "routeRunning": 70,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 978,
+        "statB": 514
+      },
+      "career": {
+        "games": 0,
+        "statA": 322,
+        "statB": 4656
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "LAR-WR-6",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Joel Littel",
+    "jerseyNumber": 32,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 208,
+      "college": "Hackensack",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 92316153,
+      "capHit": 15366280,
+      "deadCap": 2691968,
+      "signingBonus": 8916098,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 79,
+      "schemeFit": 77,
+      "speed": 72,
+      "acceleration": 87,
+      "agility": 94,
+      "strength": 83,
+      "tackle": 75,
+      "pursuit": 95,
+      "manCoverage": 71,
+      "zoneCoverage": 70,
+      "kickPower": 54,
+      "kickAccuracy": 80,
+      "catching": 74,
+      "routeRunning": 55,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 584,
+        "statB": 114
+      },
+      "career": {
+        "games": 59,
+        "statA": 4664,
+        "statB": 4301
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "LAR-WR-7",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Zachary O'Reilly",
+    "jerseyNumber": 33,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 318,
+      "college": "West Pearlie",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 71773374,
+      "capHit": 6596091,
+      "deadCap": 6669472,
+      "signingBonus": 5335023,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 71,
+      "schemeFit": 74,
+      "speed": 72,
+      "acceleration": 92,
+      "agility": 72,
+      "strength": 62,
+      "tackle": 71,
+      "pursuit": 90,
+      "manCoverage": 57,
+      "zoneCoverage": 54,
+      "kickPower": 84,
+      "kickAccuracy": 65,
+      "catching": 87,
+      "routeRunning": 64,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 908,
+        "statB": 588
+      },
+      "career": {
+        "games": 38,
+        "statA": 2319,
+        "statB": 1414
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "LAR-TE-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Andrei Moore",
+    "jerseyNumber": 98,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'9\"",
+      "weight": 288,
+      "college": "East Ofelia",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 9412236,
+      "capHit": 15530318,
+      "deadCap": 3263628,
+      "signingBonus": 8915155,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 91,
+      "schemeFit": 83,
+      "speed": 82,
+      "acceleration": 87,
+      "agility": 74,
+      "strength": 78,
+      "tackle": 71,
+      "pursuit": 63,
+      "manCoverage": 57,
+      "zoneCoverage": 50,
+      "kickPower": 82,
+      "kickAccuracy": 95,
+      "catching": 68,
+      "routeRunning": 75,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 4,
+        "statB": 285
+      },
+      "career": {
+        "games": 67,
+        "statA": 612,
+        "statB": 4639
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "LAR-TE-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Kevin Grady",
+    "jerseyNumber": 94,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 202,
+      "college": "Port Marquise",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 53887487,
+      "capHit": 21757858,
+      "deadCap": 9755165,
+      "signingBonus": 15282116,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 82,
+      "schemeFit": 80,
+      "speed": 91,
+      "acceleration": 71,
+      "agility": 72,
+      "strength": 78,
+      "tackle": 76,
+      "pursuit": 89,
+      "manCoverage": 55,
+      "zoneCoverage": 75,
+      "kickPower": 94,
+      "kickAccuracy": 82,
+      "catching": 54,
+      "routeRunning": 72,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 165,
+        "statB": 338
+      },
+      "career": {
+        "games": 78,
+        "statA": 3486,
+        "statB": 4221
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "LAR-TE-3",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Colby Dietrich",
+    "jerseyNumber": 70,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 315,
+      "college": "Marafurt",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 14496870,
+      "capHit": 23134054,
+      "deadCap": 8145206,
+      "signingBonus": 17847956,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 75,
+      "schemeFit": 84,
+      "speed": 90,
+      "acceleration": 81,
+      "agility": 93,
+      "strength": 74,
+      "tackle": 77,
+      "pursuit": 62,
+      "manCoverage": 80,
+      "zoneCoverage": 81,
+      "kickPower": 90,
+      "kickAccuracy": 86,
+      "catching": 76,
+      "routeRunning": 77,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 16,
+        "statB": 460
+      },
+      "career": {
+        "games": 59,
+        "statA": 3787,
+        "statB": 3859
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "LAR-LT-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Tyler Reichert",
+    "jerseyNumber": 68,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 213,
+      "college": "North Princessburgh",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 29737684,
+      "capHit": 23968529,
+      "deadCap": 1329537,
+      "signingBonus": 13850974,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 67,
+      "schemeFit": 76,
+      "speed": 90,
+      "acceleration": 80,
+      "agility": 92,
+      "strength": 67,
+      "tackle": 80,
+      "pursuit": 62,
+      "manCoverage": 90,
+      "zoneCoverage": 63,
+      "kickPower": 93,
+      "kickAccuracy": 67,
+      "catching": 83,
+      "routeRunning": 90,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 503,
+        "statB": 67
+      },
+      "career": {
+        "games": 79,
+        "statA": 4854,
+        "statB": 2681
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "LAR-LT-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Liang Carter",
+    "jerseyNumber": 87,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 262,
+      "college": "Haverhill",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 5010883,
+      "capHit": 10377385,
+      "deadCap": 1755763,
+      "signingBonus": 10890663,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 80,
+      "speed": 70,
+      "acceleration": 75,
+      "agility": 92,
+      "strength": 94,
+      "tackle": 91,
+      "pursuit": 61,
+      "manCoverage": 65,
+      "zoneCoverage": 54,
+      "kickPower": 50,
+      "kickAccuracy": 72,
+      "catching": 55,
+      "routeRunning": 57,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 481,
+        "statB": 135
+      },
+      "career": {
+        "games": 100,
+        "statA": 1800,
+        "statB": 3885
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "LAR-LG-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Carl Rau",
+    "jerseyNumber": 77,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 195,
+      "college": "Fountainebleau",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 117743159,
+      "capHit": 9891189,
+      "deadCap": 3180743,
+      "signingBonus": 14150251,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 70,
+      "schemeFit": 95,
+      "speed": 84,
+      "acceleration": 71,
+      "agility": 87,
+      "strength": 90,
+      "tackle": 68,
+      "pursuit": 81,
+      "manCoverage": 90,
+      "zoneCoverage": 50,
+      "kickPower": 51,
+      "kickAccuracy": 80,
+      "catching": 74,
+      "routeRunning": 50,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 657,
+        "statB": 838
+      },
+      "career": {
+        "games": 36,
+        "statA": 464,
+        "statB": 3726
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "LAR-LG-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Roy Feil",
+    "jerseyNumber": 35,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 310,
+      "college": "St. Cloud",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 51757929,
+      "capHit": 11856376,
+      "deadCap": 3978427,
+      "signingBonus": 19471721,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 91,
+      "schemeFit": 89,
+      "speed": 93,
+      "acceleration": 71,
+      "agility": 90,
+      "strength": 72,
+      "tackle": 76,
+      "pursuit": 64,
+      "manCoverage": 84,
+      "zoneCoverage": 56,
+      "kickPower": 64,
+      "kickAccuracy": 53,
+      "catching": 55,
+      "routeRunning": 55,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 26,
+        "statB": 178
+      },
+      "career": {
+        "games": 9,
+        "statA": 1328,
+        "statB": 125
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "LAR-C-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Eamon Walsh",
+    "jerseyNumber": 61,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 258,
+      "college": "O'Keefehaven",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 59451534,
+      "capHit": 12432978,
+      "deadCap": 2080203,
+      "signingBonus": 11924489,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 91,
+      "speed": 92,
+      "acceleration": 88,
+      "agility": 95,
+      "strength": 63,
+      "tackle": 76,
+      "pursuit": 82,
+      "manCoverage": 82,
+      "zoneCoverage": 77,
+      "kickPower": 95,
+      "kickAccuracy": 51,
+      "catching": 66,
+      "routeRunning": 66,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 713,
+        "statB": 457
+      },
+      "career": {
+        "games": 66,
+        "statA": 419,
+        "statB": 1870
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "LAR-C-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Pablo Ortiz",
+    "jerseyNumber": 12,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 282,
+      "college": "Elkhart",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 44061927,
+      "capHit": 10225096,
+      "deadCap": 4009712,
+      "signingBonus": 18026413,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 68,
+      "schemeFit": 90,
+      "speed": 93,
+      "acceleration": 73,
+      "agility": 76,
+      "strength": 69,
+      "tackle": 74,
+      "pursuit": 78,
+      "manCoverage": 64,
+      "zoneCoverage": 74,
+      "kickPower": 69,
+      "kickAccuracy": 66,
+      "catching": 68,
+      "routeRunning": 74,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 209,
+        "statB": 399
+      },
+      "career": {
+        "games": 66,
+        "statA": 3630,
+        "statB": 4189
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "LAR-RG-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Samuel Stroman",
+    "jerseyNumber": 61,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'11\"",
+      "weight": 314,
+      "college": "Gabriellaport",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 20660702,
+      "capHit": 24644659,
+      "deadCap": 6673309,
+      "signingBonus": 13836742,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 87,
+      "schemeFit": 74,
+      "speed": 82,
+      "acceleration": 94,
+      "agility": 88,
+      "strength": 62,
+      "tackle": 69,
+      "pursuit": 84,
+      "manCoverage": 69,
+      "zoneCoverage": 54,
+      "kickPower": 94,
+      "kickAccuracy": 66,
+      "catching": 60,
+      "routeRunning": 84,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 804,
+        "statB": 7
+      },
+      "career": {
+        "games": 70,
+        "statA": 4450,
+        "statB": 551
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "LAR-RG-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Emmanuel Hirthe",
+    "jerseyNumber": 67,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 256,
+      "college": "Hayesfield",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 6199009,
+      "capHit": 7405703,
+      "deadCap": 8430124,
+      "signingBonus": 9505405,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 81,
+      "schemeFit": 87,
+      "speed": 73,
+      "acceleration": 74,
+      "agility": 81,
+      "strength": 73,
+      "tackle": 73,
+      "pursuit": 67,
+      "manCoverage": 55,
+      "zoneCoverage": 54,
+      "kickPower": 91,
+      "kickAccuracy": 62,
+      "catching": 73,
+      "routeRunning": 95,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 287,
+        "statB": 554
+      },
+      "career": {
+        "games": 54,
+        "statA": 101,
+        "statB": 4607
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "LAR-RT-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Dennis Little",
+    "jerseyNumber": 71,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 264,
+      "college": "South Cydney",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 55869622,
+      "capHit": 12817306,
+      "deadCap": 391125,
+      "signingBonus": 4746891,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 83,
+      "speed": 89,
+      "acceleration": 71,
+      "agility": 70,
+      "strength": 80,
+      "tackle": 84,
+      "pursuit": 87,
+      "manCoverage": 69,
+      "zoneCoverage": 72,
+      "kickPower": 86,
+      "kickAccuracy": 87,
+      "catching": 51,
+      "routeRunning": 84,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 942,
+        "statB": 469
+      },
+      "career": {
+        "games": 102,
+        "statA": 2171,
+        "statB": 1117
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "LAR-RT-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Emmanuel Crona",
+    "jerseyNumber": 44,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 190,
+      "college": "Clemensfurt",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 66325736,
+      "capHit": 17549368,
+      "deadCap": 6367043,
+      "signingBonus": 2102143,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 73,
+      "speed": 70,
+      "acceleration": 76,
+      "agility": 80,
+      "strength": 89,
+      "tackle": 81,
+      "pursuit": 89,
+      "manCoverage": 51,
+      "zoneCoverage": 56,
+      "kickPower": 69,
+      "kickAccuracy": 65,
+      "catching": 55,
+      "routeRunning": 60,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 452,
+        "statB": 484
+      },
+      "career": {
+        "games": 5,
+        "statA": 1404,
+        "statB": 4335
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "LAR-LDE-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Douglas Hagenes",
+    "jerseyNumber": 1,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 311,
+      "college": "San Antonio",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 73550785,
+      "capHit": 22769728,
+      "deadCap": 849031,
+      "signingBonus": 8369030,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 81,
+      "schemeFit": 76,
+      "speed": 77,
+      "acceleration": 82,
+      "agility": 88,
+      "strength": 71,
+      "tackle": 81,
+      "pursuit": 74,
+      "manCoverage": 75,
+      "zoneCoverage": 80,
+      "kickPower": 64,
+      "kickAccuracy": 57,
+      "catching": 63,
+      "routeRunning": 68,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 290,
+        "statB": 579
+      },
+      "career": {
+        "games": 34,
+        "statA": 3903,
+        "statB": 4253
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "LAR-LDE-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Tristan Kulas",
+    "jerseyNumber": 96,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 192,
+      "college": "Fort Lurlineport",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 2108241,
+      "capHit": 24051189,
+      "deadCap": 3420012,
+      "signingBonus": 1995118,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 80,
+      "speed": 80,
+      "acceleration": 76,
+      "agility": 93,
+      "strength": 65,
+      "tackle": 69,
+      "pursuit": 70,
+      "manCoverage": 71,
+      "zoneCoverage": 58,
+      "kickPower": 76,
+      "kickAccuracy": 70,
+      "catching": 88,
+      "routeRunning": 84,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 952,
+        "statB": 88
+      },
+      "career": {
+        "games": 39,
+        "statA": 1886,
+        "statB": 2681
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "LAR-RDE-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Alexander Hauck",
+    "jerseyNumber": 40,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 292,
+      "college": "New Santiago",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 58311387,
+      "capHit": 20318399,
+      "deadCap": 876175,
+      "signingBonus": 14646691,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 74,
+      "schemeFit": 78,
+      "speed": 87,
+      "acceleration": 95,
+      "agility": 71,
+      "strength": 78,
+      "tackle": 88,
+      "pursuit": 71,
+      "manCoverage": 68,
+      "zoneCoverage": 79,
+      "kickPower": 82,
+      "kickAccuracy": 51,
+      "catching": 92,
+      "routeRunning": 61,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 751,
+        "statB": 861
+      },
+      "career": {
+        "games": 89,
+        "statA": 4427,
+        "statB": 4305
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "LAR-RDE-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Seth Wunsch",
+    "jerseyNumber": 37,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 321,
+      "college": "Jackshire",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 82865196,
+      "capHit": 13076462,
+      "deadCap": 8745835,
+      "signingBonus": 19636078,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 93,
+      "speed": 89,
+      "acceleration": 71,
+      "agility": 83,
+      "strength": 78,
+      "tackle": 83,
+      "pursuit": 76,
+      "manCoverage": 67,
+      "zoneCoverage": 56,
+      "kickPower": 81,
+      "kickAccuracy": 52,
+      "catching": 85,
+      "routeRunning": 67,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 891,
+        "statB": 86
+      },
+      "career": {
+        "games": 86,
+        "statA": 4934,
+        "statB": 2099
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "LAR-DT-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Yuri Johnson",
+    "jerseyNumber": 59,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 252,
+      "college": "Ponce",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 111823981,
+      "capHit": 20542386,
+      "deadCap": 6519840,
+      "signingBonus": 18821773,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 83,
+      "schemeFit": 79,
+      "speed": 86,
+      "acceleration": 92,
+      "agility": 92,
+      "strength": 66,
+      "tackle": 62,
+      "pursuit": 67,
+      "manCoverage": 86,
+      "zoneCoverage": 85,
+      "kickPower": 53,
+      "kickAccuracy": 60,
+      "catching": 60,
+      "routeRunning": 87,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 605,
+        "statB": 7
+      },
+      "career": {
+        "games": 84,
+        "statA": 98,
+        "statB": 2854
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "LAR-DT-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Samir Marks",
+    "jerseyNumber": 27,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 191,
+      "college": "Port Jordynview",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 111857571,
+      "capHit": 6283390,
+      "deadCap": 3885725,
+      "signingBonus": 2712356,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 67,
+      "schemeFit": 75,
+      "speed": 95,
+      "acceleration": 77,
+      "agility": 77,
+      "strength": 73,
+      "tackle": 87,
+      "pursuit": 93,
+      "manCoverage": 78,
+      "zoneCoverage": 81,
+      "kickPower": 77,
+      "kickAccuracy": 56,
+      "catching": 70,
+      "routeRunning": 88,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 671,
+        "statB": 199
+      },
+      "career": {
+        "games": 117,
+        "statA": 4140,
+        "statB": 965
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "LAR-DT-3",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Bryan Prohaska",
+    "jerseyNumber": 2,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 281,
+      "college": "Franeckimouth",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 46324804,
+      "capHit": 20902520,
+      "deadCap": 5127762,
+      "signingBonus": 12066631,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 81,
+      "schemeFit": 78,
+      "speed": 91,
+      "acceleration": 84,
+      "agility": 89,
+      "strength": 72,
+      "tackle": 95,
+      "pursuit": 95,
+      "manCoverage": 55,
+      "zoneCoverage": 57,
+      "kickPower": 71,
+      "kickAccuracy": 79,
+      "catching": 64,
+      "routeRunning": 51,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 736,
+        "statB": 164
+      },
+      "career": {
+        "games": 104,
+        "statA": 2821,
+        "statB": 1080
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "LAR-DT-4",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Jose Yundt",
+    "jerseyNumber": 92,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 245,
+      "college": "New Jaydonfort",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 91388542,
+      "capHit": 5472959,
+      "deadCap": 9211391,
+      "signingBonus": 2026964,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 95,
+      "schemeFit": 89,
+      "speed": 93,
+      "acceleration": 86,
+      "agility": 80,
+      "strength": 87,
+      "tackle": 78,
+      "pursuit": 81,
+      "manCoverage": 75,
+      "zoneCoverage": 83,
+      "kickPower": 88,
+      "kickAccuracy": 63,
+      "catching": 57,
+      "routeRunning": 64,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 971,
+        "statB": 659
+      },
+      "career": {
+        "games": 43,
+        "statA": 4835,
+        "statB": 3984
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "LAR-LOLB-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Robert Fadel",
+    "jerseyNumber": 61,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 288,
+      "college": "East Ryann",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 28595169,
+      "capHit": 9515503,
+      "deadCap": 9439234,
+      "signingBonus": 19745069,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 87,
+      "speed": 85,
+      "acceleration": 91,
+      "agility": 95,
+      "strength": 90,
+      "tackle": 87,
+      "pursuit": 66,
+      "manCoverage": 55,
+      "zoneCoverage": 57,
+      "kickPower": 92,
+      "kickAccuracy": 69,
+      "catching": 85,
+      "routeRunning": 52,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 378,
+        "statB": 439
+      },
+      "career": {
+        "games": 83,
+        "statA": 3250,
+        "statB": 2947
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "LAR-LOLB-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Brent Homenick",
+    "jerseyNumber": 46,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 192,
+      "college": "Russelfurt",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 60435988,
+      "capHit": 13464985,
+      "deadCap": 2982662,
+      "signingBonus": 11773886,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 62,
+      "schemeFit": 92,
+      "speed": 79,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 95,
+      "tackle": 67,
+      "pursuit": 86,
+      "manCoverage": 65,
+      "zoneCoverage": 86,
+      "kickPower": 90,
+      "kickAccuracy": 63,
+      "catching": 70,
+      "routeRunning": 56,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 458,
+        "statB": 615
+      },
+      "career": {
+        "games": 11,
+        "statA": 2773,
+        "statB": 1361
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "LAR-MLB-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Gabriel Fahey",
+    "jerseyNumber": 49,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 196,
+      "college": "Beierview",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 100427757,
+      "capHit": 23128311,
+      "deadCap": 6892293,
+      "signingBonus": 10584741,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 85,
+      "schemeFit": 75,
+      "speed": 95,
+      "acceleration": 94,
+      "agility": 87,
+      "strength": 83,
+      "tackle": 88,
+      "pursuit": 83,
+      "manCoverage": 87,
+      "zoneCoverage": 88,
+      "kickPower": 93,
+      "kickAccuracy": 89,
+      "catching": 89,
+      "routeRunning": 88,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 966,
+        "statB": 307
+      },
+      "career": {
+        "games": 116,
+        "statA": 446,
+        "statB": 1887
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "LAR-MLB-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Paul Gutmann",
+    "jerseyNumber": 56,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 189,
+      "college": "Schaeferboro",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 84470867,
+      "capHit": 22453413,
+      "deadCap": 5534217,
+      "signingBonus": 14296499,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 69,
+      "schemeFit": 78,
+      "speed": 95,
+      "acceleration": 79,
+      "agility": 74,
+      "strength": 95,
+      "tackle": 83,
+      "pursuit": 89,
+      "manCoverage": 57,
+      "zoneCoverage": 58,
+      "kickPower": 72,
+      "kickAccuracy": 79,
+      "catching": 56,
+      "routeRunning": 93,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 125,
+        "statB": 547
+      },
+      "career": {
+        "games": 10,
+        "statA": 3429,
+        "statB": 515
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "LAR-ROLB-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Joshua Daugherty",
+    "jerseyNumber": 74,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 195,
+      "college": "D'Amoreside",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 80221609,
+      "capHit": 23606824,
+      "deadCap": 6210339,
+      "signingBonus": 8647417,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 91,
+      "schemeFit": 89,
+      "speed": 90,
+      "acceleration": 90,
+      "agility": 91,
+      "strength": 87,
+      "tackle": 67,
+      "pursuit": 66,
+      "manCoverage": 53,
+      "zoneCoverage": 65,
+      "kickPower": 65,
+      "kickAccuracy": 69,
+      "catching": 87,
+      "routeRunning": 70,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 256,
+        "statB": 921
+      },
+      "career": {
+        "games": 84,
+        "statA": 1028,
+        "statB": 4813
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "LAR-ROLB-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Mitchell Bosco",
+    "jerseyNumber": 95,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 203,
+      "college": "Stamford",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 94231141,
+      "capHit": 14149015,
+      "deadCap": 7911744,
+      "signingBonus": 14212059,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 77,
+      "schemeFit": 91,
+      "speed": 84,
+      "acceleration": 85,
+      "agility": 81,
+      "strength": 76,
+      "tackle": 75,
+      "pursuit": 83,
+      "manCoverage": 57,
+      "zoneCoverage": 61,
+      "kickPower": 87,
+      "kickAccuracy": 86,
+      "catching": 74,
+      "routeRunning": 84,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 710,
+        "statB": 660
+      },
+      "career": {
+        "games": 117,
+        "statA": 4456,
+        "statB": 2037
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "LAR-CB-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Colby Schamberger",
+    "jerseyNumber": 90,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 297,
+      "college": "West Timmothy",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 85809373,
+      "capHit": 10580015,
+      "deadCap": 9838090,
+      "signingBonus": 17729474,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 71,
+      "schemeFit": 71,
+      "speed": 70,
+      "acceleration": 94,
+      "agility": 88,
+      "strength": 94,
+      "tackle": 77,
+      "pursuit": 83,
+      "manCoverage": 50,
+      "zoneCoverage": 55,
+      "kickPower": 87,
+      "kickAccuracy": 55,
+      "catching": 80,
+      "routeRunning": 76,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 837,
+        "statB": 360
+      },
+      "career": {
+        "games": 47,
+        "statA": 4275,
+        "statB": 510
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "LAR-CB-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Cillian Prohaska",
+    "jerseyNumber": 14,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 327,
+      "college": "Cadecester",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 80065564,
+      "capHit": 10446305,
+      "deadCap": 378267,
+      "signingBonus": 6077163,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 89,
+      "schemeFit": 79,
+      "speed": 77,
+      "acceleration": 82,
+      "agility": 72,
+      "strength": 79,
+      "tackle": 70,
+      "pursuit": 95,
+      "manCoverage": 51,
+      "zoneCoverage": 80,
+      "kickPower": 81,
+      "kickAccuracy": 93,
+      "catching": 61,
+      "routeRunning": 84,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 588,
+        "statB": 893
+      },
+      "career": {
+        "games": 7,
+        "statA": 2487,
+        "statB": 3413
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "LAR-CB-3",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Hiro Legros",
+    "jerseyNumber": 4,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 302,
+      "college": "Verniecester",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 119407765,
+      "capHit": 10152058,
+      "deadCap": 9219980,
+      "signingBonus": 13339804,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 84,
+      "schemeFit": 80,
+      "speed": 91,
+      "acceleration": 71,
+      "agility": 71,
+      "strength": 75,
+      "tackle": 61,
+      "pursuit": 67,
+      "manCoverage": 85,
+      "zoneCoverage": 83,
+      "kickPower": 94,
+      "kickAccuracy": 94,
+      "catching": 95,
+      "routeRunning": 59,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 813,
+        "statB": 658
+      },
+      "career": {
+        "games": 118,
+        "statA": 3725,
+        "statB": 1860
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "LAR-CB-4",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Jose Kuhn",
+    "jerseyNumber": 1,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 301,
+      "college": "Maple Grove",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 52832801,
+      "capHit": 10418844,
+      "deadCap": 1795614,
+      "signingBonus": 3365390,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 71,
+      "schemeFit": 90,
+      "speed": 75,
+      "acceleration": 80,
+      "agility": 88,
+      "strength": 74,
+      "tackle": 86,
+      "pursuit": 76,
+      "manCoverage": 64,
+      "zoneCoverage": 73,
+      "kickPower": 60,
+      "kickAccuracy": 95,
+      "catching": 56,
+      "routeRunning": 77,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 895,
+        "statB": 149
+      },
+      "career": {
+        "games": 79,
+        "statA": 2541,
+        "statB": 2132
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "LAR-CB-5",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Sung Bartell",
+    "jerseyNumber": 81,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 288,
+      "college": "Melbourne",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 53048304,
+      "capHit": 19641987,
+      "deadCap": 6406468,
+      "signingBonus": 8026655,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 92,
+      "schemeFit": 74,
+      "speed": 70,
+      "acceleration": 92,
+      "agility": 71,
+      "strength": 71,
+      "tackle": 95,
+      "pursuit": 71,
+      "manCoverage": 74,
+      "zoneCoverage": 90,
+      "kickPower": 57,
+      "kickAccuracy": 62,
+      "catching": 89,
+      "routeRunning": 81,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 738,
+        "statB": 904
+      },
+      "career": {
+        "games": 17,
+        "statA": 4370,
+        "statB": 4145
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "LAR-CB-6",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Christopher Braun",
+    "jerseyNumber": 25,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 296,
+      "college": "Nashville-Davidson",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 109265748,
+      "capHit": 12213873,
+      "deadCap": 8456566,
+      "signingBonus": 19053744,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 90,
+      "speed": 72,
+      "acceleration": 77,
+      "agility": 76,
+      "strength": 76,
+      "tackle": 71,
+      "pursuit": 65,
+      "manCoverage": 52,
+      "zoneCoverage": 54,
+      "kickPower": 84,
+      "kickAccuracy": 66,
+      "catching": 59,
+      "routeRunning": 65,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 613,
+        "statB": 694
+      },
+      "career": {
+        "games": 5,
+        "statA": 3696,
+        "statB": 1025
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "LAR-FS-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Blake Wiza",
+    "jerseyNumber": 31,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'2\"",
+      "weight": 267,
+      "college": "Camarillo",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 37123827,
+      "capHit": 3958103,
+      "deadCap": 2595876,
+      "signingBonus": 17076083,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 78,
+      "schemeFit": 78,
+      "speed": 94,
+      "acceleration": 86,
+      "agility": 72,
+      "strength": 94,
+      "tackle": 85,
+      "pursuit": 84,
+      "manCoverage": 65,
+      "zoneCoverage": 68,
+      "kickPower": 63,
+      "kickAccuracy": 74,
+      "catching": 87,
+      "routeRunning": 55,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 742,
+        "statB": 428
+      },
+      "career": {
+        "games": 65,
+        "statA": 2374,
+        "statB": 2619
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "LAR-FS-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Connor Kohler",
+    "jerseyNumber": 63,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 219,
+      "college": "Collierworth",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 42282848,
+      "capHit": 16129868,
+      "deadCap": 9238776,
+      "signingBonus": 19624396,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 69,
+      "schemeFit": 71,
+      "speed": 83,
+      "acceleration": 73,
+      "agility": 72,
+      "strength": 74,
+      "tackle": 86,
+      "pursuit": 77,
+      "manCoverage": 81,
+      "zoneCoverage": 65,
+      "kickPower": 50,
+      "kickAccuracy": 90,
+      "catching": 58,
+      "routeRunning": 90,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 574,
+        "statB": 162
+      },
+      "career": {
+        "games": 48,
+        "statA": 3978,
+        "statB": 929
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "LAR-SS-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Richard Breitenberg",
+    "jerseyNumber": 12,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 198,
+      "college": "Rippinfield",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 109411332,
+      "capHit": 2625531,
+      "deadCap": 6492895,
+      "signingBonus": 13242341,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 84,
+      "schemeFit": 94,
+      "speed": 85,
+      "acceleration": 84,
+      "agility": 89,
+      "strength": 81,
+      "tackle": 75,
+      "pursuit": 76,
+      "manCoverage": 52,
+      "zoneCoverage": 59,
+      "kickPower": 92,
+      "kickAccuracy": 80,
+      "catching": 69,
+      "routeRunning": 64,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 721,
+        "statB": 491
+      },
+      "career": {
+        "games": 10,
+        "statA": 705,
+        "statB": 169
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LAR-SS-2",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Mitchell Gibson",
+    "jerseyNumber": 44,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 291,
+      "college": "West Joeside",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 13509852,
+      "capHit": 6405346,
+      "deadCap": 4584725,
+      "signingBonus": 16118664,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 94,
+      "speed": 85,
+      "acceleration": 74,
+      "agility": 75,
+      "strength": 92,
+      "tackle": 63,
+      "pursuit": 63,
+      "manCoverage": 53,
+      "zoneCoverage": 51,
+      "kickPower": 70,
+      "kickAccuracy": 83,
+      "catching": 73,
+      "routeRunning": 67,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 12,
+        "statB": 373
+      },
+      "career": {
+        "games": 37,
+        "statA": 4384,
+        "statB": 1737
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "LAR-K-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Pablo Schulist",
+    "jerseyNumber": 27,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 294,
+      "college": "Harlingen",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 108001291,
+      "capHit": 1512040,
+      "deadCap": 4178996,
+      "signingBonus": 5611563,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 87,
+      "schemeFit": 78,
+      "speed": 93,
+      "acceleration": 75,
+      "agility": 87,
+      "strength": 68,
+      "tackle": 61,
+      "pursuit": 76,
+      "manCoverage": 73,
+      "zoneCoverage": 76,
+      "kickPower": 81,
+      "kickAccuracy": 81,
+      "catching": 81,
+      "routeRunning": 62,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 289,
+        "statB": 517
+      },
+      "career": {
+        "games": 57,
+        "statA": 2247,
+        "statB": 1810
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "LAR-P-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Dominic Windler",
+    "jerseyNumber": 34,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 275,
+      "college": "South Jed",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 39548547,
+      "capHit": 13917416,
+      "deadCap": 5657153,
+      "signingBonus": 19016647,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 72,
+      "speed": 75,
+      "acceleration": 88,
+      "agility": 76,
+      "strength": 82,
+      "tackle": 80,
+      "pursuit": 85,
+      "manCoverage": 64,
+      "zoneCoverage": 85,
+      "kickPower": 77,
+      "kickAccuracy": 77,
+      "catching": 70,
+      "routeRunning": 69,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 478,
+        "statB": 36
+      },
+      "career": {
+        "games": 107,
+        "statA": 4554,
+        "statB": 812
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "LAR-LS-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Philip Wiegand",
+    "jerseyNumber": 51,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'3\"",
+      "weight": 222,
+      "college": "Port Aileenville",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 64398761,
+      "capHit": 9274738,
+      "deadCap": 1242147,
+      "signingBonus": 14138484,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 78,
+      "speed": 73,
+      "acceleration": 84,
+      "agility": 70,
+      "strength": 64,
+      "tackle": 75,
+      "pursuit": 94,
+      "manCoverage": 61,
+      "zoneCoverage": 61,
+      "kickPower": 61,
+      "kickAccuracy": 80,
+      "catching": 54,
+      "routeRunning": 76,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 643,
+        "statB": 901
+      },
+      "career": {
+        "games": 34,
+        "statA": 2778,
+        "statB": 2820
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "LAR-KR-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Oscar Shields",
+    "jerseyNumber": 9,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 215,
+      "college": "East Devynworth",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 74709264,
+      "capHit": 11210292,
+      "deadCap": 6816227,
+      "signingBonus": 1787633,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 85,
+      "schemeFit": 72,
+      "speed": 92,
+      "acceleration": 91,
+      "agility": 76,
+      "strength": 76,
+      "tackle": 71,
+      "pursuit": 60,
+      "manCoverage": 74,
+      "zoneCoverage": 76,
+      "kickPower": 52,
+      "kickAccuracy": 66,
+      "catching": 81,
+      "routeRunning": 92,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 963,
+        "statB": 395
+      },
+      "career": {
+        "games": 60,
+        "statA": 2388,
+        "statB": 662
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "LAR-PR-1",
+    "team": "LAR",
+    "teamName": "LAR",
+    "name": "Harold Price",
+    "jerseyNumber": 88,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 300,
+      "college": "North Adolph",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 17947543,
+      "capHit": 15289708,
+      "deadCap": 425367,
+      "signingBonus": 12660596,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 74,
+      "schemeFit": 77,
+      "speed": 95,
+      "acceleration": 91,
+      "agility": 76,
+      "strength": 78,
+      "tackle": 63,
+      "pursuit": 79,
+      "manCoverage": 59,
+      "zoneCoverage": 60,
+      "kickPower": 63,
+      "kickAccuracy": 84,
+      "catching": 66,
+      "routeRunning": 70,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 663,
+        "statB": 742
+      },
+      "career": {
+        "games": 52,
+        "statA": 919,
+        "statB": 1672
+      }
+    },
+    "photo": "/player_faces/19.png"
+  }
 ]

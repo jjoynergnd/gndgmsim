@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  73,
-               "name":  "Chase Foster"
-           },
-    "OC":  {
-               "rating":  79,
-               "name":  "Darius Harrington"
-           },
-    "DC":  {
-               "rating":  76,
-               "name":  "Andre Halford"
-           }
-}
+[
+  {
+    "id": "NYG-STAFF-1",
+    "team": "NYG",
+    "role": "Head Coach",
+    "name": "Ethan Hackett",
+    "vitals": {
+      "age": 32,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 79,
+      "schemeKnowledge": 90,
+      "playerDev": 71,
+      "motivation": 95,
+      "injuryManagement": 67,
+      "conditioning": 67,
+      "analyticsIQ": 70
+    },
+    "contract": {
+      "years": 4,
+      "salary": 7387922
+    }
+  },
+  {
+    "id": "NYG-STAFF-2",
+    "team": "NYG",
+    "role": "Offensive Coordinator",
+    "name": "Roy Hansen",
+    "vitals": {
+      "age": 61,
+      "experience": 6
+    },
+    "ratings": {
+      "leadership": 88,
+      "discipline": 78,
+      "schemeKnowledge": 79,
+      "playerDev": 64,
+      "motivation": 68,
+      "injuryManagement": 57,
+      "conditioning": 58,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 4,
+      "salary": 6633744
+    }
+  },
+  {
+    "id": "NYG-STAFF-3",
+    "team": "NYG",
+    "role": "Defensive Coordinator",
+    "name": "Donald Kreiger",
+    "vitals": {
+      "age": 45,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 63,
+      "discipline": 70,
+      "schemeKnowledge": 72,
+      "playerDev": 77,
+      "motivation": 78,
+      "injuryManagement": 61,
+      "conditioning": 67,
+      "analyticsIQ": 48
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2150381
+    }
+  },
+  {
+    "id": "NYG-STAFF-4",
+    "team": "NYG",
+    "role": "Strength & Conditioning Coach",
+    "name": "Edward Lakin",
+    "vitals": {
+      "age": 40,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 88,
+      "schemeKnowledge": 63,
+      "playerDev": 83,
+      "motivation": 83,
+      "injuryManagement": 41,
+      "conditioning": 77,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2526816
+    }
+  },
+  {
+    "id": "NYG-STAFF-5",
+    "team": "NYG",
+    "role": "Physical Therapist",
+    "name": "Andrei Baumbach",
+    "vitals": {
+      "age": 35,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 76,
+      "schemeKnowledge": 77,
+      "playerDev": 88,
+      "motivation": 91,
+      "injuryManagement": 77,
+      "conditioning": 51,
+      "analyticsIQ": 44
+    },
+    "contract": {
+      "years": 2,
+      "salary": 6992701
+    }
+  },
+  {
+    "id": "NYG-STAFF-6",
+    "team": "NYG",
+    "role": "Athletic Trainer",
+    "name": "Dawson Metz",
+    "vitals": {
+      "age": 33,
+      "experience": 40
+    },
+    "ratings": {
+      "leadership": 80,
+      "discipline": 75,
+      "schemeKnowledge": 90,
+      "playerDev": 94,
+      "motivation": 70,
+      "injuryManagement": 75,
+      "conditioning": 42,
+      "analyticsIQ": 58
+    },
+    "contract": {
+      "years": 5,
+      "salary": 7778710
+    }
+  },
+  {
+    "id": "NYG-STAFF-7",
+    "team": "NYG",
+    "role": "Analytics Coordinator",
+    "name": "Wesley Blanda",
+    "vitals": {
+      "age": 32,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 95,
+      "discipline": 85,
+      "schemeKnowledge": 65,
+      "playerDev": 79,
+      "motivation": 71,
+      "injuryManagement": 41,
+      "conditioning": 68,
+      "analyticsIQ": 86
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3490638
+    }
+  }
+]

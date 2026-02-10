@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  94,
-               "name":  "Tyrone Foster"
-           },
-    "OC":  {
-               "rating":  88,
-               "name":  "Tyrone Douglas"
-           },
-    "DC":  {
-               "rating":  87,
-               "name":  "Darius Maddox"
-           }
-}
+[
+  {
+    "id": "CHI-STAFF-1",
+    "team": "CHI",
+    "role": "Head Coach",
+    "name": "Jerry Ratke",
+    "vitals": {
+      "age": 48,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 66,
+      "discipline": 65,
+      "schemeKnowledge": 92,
+      "playerDev": 74,
+      "motivation": 67,
+      "injuryManagement": 43,
+      "conditioning": 65,
+      "analyticsIQ": 64
+    },
+    "contract": {
+      "years": 5,
+      "salary": 3464642
+    }
+  },
+  {
+    "id": "CHI-STAFF-2",
+    "team": "CHI",
+    "role": "Offensive Coordinator",
+    "name": "Andrei Reichert",
+    "vitals": {
+      "age": 34,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 88,
+      "schemeKnowledge": 67,
+      "playerDev": 61,
+      "motivation": 68,
+      "injuryManagement": 56,
+      "conditioning": 47,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5023811
+    }
+  },
+  {
+    "id": "CHI-STAFF-3",
+    "team": "CHI",
+    "role": "Defensive Coordinator",
+    "name": "Derek Howe",
+    "vitals": {
+      "age": 54,
+      "experience": 22
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 83,
+      "schemeKnowledge": 64,
+      "playerDev": 77,
+      "motivation": 75,
+      "injuryManagement": 50,
+      "conditioning": 66,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 5,
+      "salary": 3576026
+    }
+  },
+  {
+    "id": "CHI-STAFF-4",
+    "team": "CHI",
+    "role": "Strength & Conditioning Coach",
+    "name": "Caleb Blanda",
+    "vitals": {
+      "age": 56,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 69,
+      "schemeKnowledge": 61,
+      "playerDev": 74,
+      "motivation": 91,
+      "injuryManagement": 53,
+      "conditioning": 93,
+      "analyticsIQ": 56
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1275017
+    }
+  },
+  {
+    "id": "CHI-STAFF-5",
+    "team": "CHI",
+    "role": "Physical Therapist",
+    "name": "Hunter Grant-Heathcote",
+    "vitals": {
+      "age": 49,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 66,
+      "schemeKnowledge": 84,
+      "playerDev": 78,
+      "motivation": 74,
+      "injuryManagement": 74,
+      "conditioning": 59,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4880422
+    }
+  },
+  {
+    "id": "CHI-STAFF-6",
+    "team": "CHI",
+    "role": "Athletic Trainer",
+    "name": "Benjamin Kuphal",
+    "vitals": {
+      "age": 42,
+      "experience": 37
+    },
+    "ratings": {
+      "leadership": 61,
+      "discipline": 74,
+      "schemeKnowledge": 65,
+      "playerDev": 68,
+      "motivation": 62,
+      "injuryManagement": 91,
+      "conditioning": 60,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 4,
+      "salary": 5067561
+    }
+  },
+  {
+    "id": "CHI-STAFF-7",
+    "team": "CHI",
+    "role": "Analytics Coordinator",
+    "name": "Cormac Brown",
+    "vitals": {
+      "age": 41,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 75,
+      "discipline": 92,
+      "schemeKnowledge": 95,
+      "playerDev": 74,
+      "motivation": 89,
+      "injuryManagement": 68,
+      "conditioning": 45,
+      "analyticsIQ": 82
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4063037
+    }
+  }
+]

@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  90,
-               "name":  "Andre Bennett"
-           },
-    "OC":  {
-               "rating":  80,
-               "name":  "Jordan Rourke"
-           },
-    "DC":  {
-               "rating":  72,
-               "name":  "Andre Maddox"
-           }
-}
+[
+  {
+    "id": "DET-STAFF-1",
+    "team": "DET",
+    "role": "Head Coach",
+    "name": "Keith Predovic",
+    "vitals": {
+      "age": 63,
+      "experience": 35
+    },
+    "ratings": {
+      "leadership": 83,
+      "discipline": 85,
+      "schemeKnowledge": 73,
+      "playerDev": 63,
+      "motivation": 86,
+      "injuryManagement": 57,
+      "conditioning": 45,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 5,
+      "salary": 5408547
+    }
+  },
+  {
+    "id": "DET-STAFF-2",
+    "team": "DET",
+    "role": "Offensive Coordinator",
+    "name": "Tariq Wunsch-Rogahn",
+    "vitals": {
+      "age": 44,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 95,
+      "discipline": 81,
+      "schemeKnowledge": 88,
+      "playerDev": 65,
+      "motivation": 82,
+      "injuryManagement": 43,
+      "conditioning": 51,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3286300
+    }
+  },
+  {
+    "id": "DET-STAFF-3",
+    "team": "DET",
+    "role": "Defensive Coordinator",
+    "name": "Igor MacGyver",
+    "vitals": {
+      "age": 48,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 62,
+      "discipline": 67,
+      "schemeKnowledge": 79,
+      "playerDev": 92,
+      "motivation": 68,
+      "injuryManagement": 58,
+      "conditioning": 65,
+      "analyticsIQ": 51
+    },
+    "contract": {
+      "years": 5,
+      "salary": 5676285
+    }
+  },
+  {
+    "id": "DET-STAFF-4",
+    "team": "DET",
+    "role": "Strength & Conditioning Coach",
+    "name": "Andre Considine",
+    "vitals": {
+      "age": 38,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 83,
+      "schemeKnowledge": 86,
+      "playerDev": 71,
+      "motivation": 64,
+      "injuryManagement": 51,
+      "conditioning": 88,
+      "analyticsIQ": 40
+    },
+    "contract": {
+      "years": 2,
+      "salary": 4559063
+    }
+  },
+  {
+    "id": "DET-STAFF-5",
+    "team": "DET",
+    "role": "Physical Therapist",
+    "name": "Pavel Donnelly",
+    "vitals": {
+      "age": 34,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 77,
+      "discipline": 70,
+      "schemeKnowledge": 60,
+      "playerDev": 90,
+      "motivation": 73,
+      "injuryManagement": 74,
+      "conditioning": 57,
+      "analyticsIQ": 45
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7861217
+    }
+  },
+  {
+    "id": "DET-STAFF-6",
+    "team": "DET",
+    "role": "Athletic Trainer",
+    "name": "Luke Runolfsdottir",
+    "vitals": {
+      "age": 36,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 66,
+      "schemeKnowledge": 91,
+      "playerDev": 91,
+      "motivation": 80,
+      "injuryManagement": 82,
+      "conditioning": 63,
+      "analyticsIQ": 59
+    },
+    "contract": {
+      "years": 4,
+      "salary": 6859310
+    }
+  },
+  {
+    "id": "DET-STAFF-7",
+    "team": "DET",
+    "role": "Analytics Coordinator",
+    "name": "Sung Bashirian",
+    "vitals": {
+      "age": 51,
+      "experience": 18
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 73,
+      "schemeKnowledge": 70,
+      "playerDev": 95,
+      "motivation": 94,
+      "injuryManagement": 41,
+      "conditioning": 56,
+      "analyticsIQ": 88
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5598337
+    }
+  }
+]

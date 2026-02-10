@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  77,
-               "name":  "Caleb Rourke"
-           },
-    "OC":  {
-               "rating":  84,
-               "name":  "Jalen Wright"
-           },
-    "DC":  {
-               "rating":  78,
-               "name":  "Jalen Coleman"
-           }
-}
+[
+  {
+    "id": "WAS-STAFF-1",
+    "team": "WAS",
+    "role": "Head Coach",
+    "name": "Maxwell Dare",
+    "vitals": {
+      "age": 61,
+      "experience": 9
+    },
+    "ratings": {
+      "leadership": 77,
+      "discipline": 90,
+      "schemeKnowledge": 65,
+      "playerDev": 70,
+      "motivation": 68,
+      "injuryManagement": 44,
+      "conditioning": 54,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 4,
+      "salary": 6704516
+    }
+  },
+  {
+    "id": "WAS-STAFF-2",
+    "team": "WAS",
+    "role": "Offensive Coordinator",
+    "name": "Louis Aufderhar",
+    "vitals": {
+      "age": 64,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 71,
+      "schemeKnowledge": 73,
+      "playerDev": 65,
+      "motivation": 73,
+      "injuryManagement": 55,
+      "conditioning": 65,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 5,
+      "salary": 719635
+    }
+  },
+  {
+    "id": "WAS-STAFF-3",
+    "team": "WAS",
+    "role": "Defensive Coordinator",
+    "name": "Jacob Mante",
+    "vitals": {
+      "age": 63,
+      "experience": 28
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 69,
+      "schemeKnowledge": 62,
+      "playerDev": 94,
+      "motivation": 80,
+      "injuryManagement": 45,
+      "conditioning": 66,
+      "analyticsIQ": 48
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1830164
+    }
+  },
+  {
+    "id": "WAS-STAFF-4",
+    "team": "WAS",
+    "role": "Strength & Conditioning Coach",
+    "name": "Mason Rolfson",
+    "vitals": {
+      "age": 65,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 75,
+      "schemeKnowledge": 77,
+      "playerDev": 77,
+      "motivation": 83,
+      "injuryManagement": 61,
+      "conditioning": 90,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 5,
+      "salary": 1040777
+    }
+  },
+  {
+    "id": "WAS-STAFF-5",
+    "team": "WAS",
+    "role": "Physical Therapist",
+    "name": "Knox Altenwerth",
+    "vitals": {
+      "age": 43,
+      "experience": 22
+    },
+    "ratings": {
+      "leadership": 63,
+      "discipline": 78,
+      "schemeKnowledge": 87,
+      "playerDev": 86,
+      "motivation": 64,
+      "injuryManagement": 90,
+      "conditioning": 46,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7047819
+    }
+  },
+  {
+    "id": "WAS-STAFF-6",
+    "team": "WAS",
+    "role": "Athletic Trainer",
+    "name": "Harold Jacobs",
+    "vitals": {
+      "age": 43,
+      "experience": 28
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 63,
+      "schemeKnowledge": 95,
+      "playerDev": 72,
+      "motivation": 83,
+      "injuryManagement": 79,
+      "conditioning": 43,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3459900
+    }
+  },
+  {
+    "id": "WAS-STAFF-7",
+    "team": "WAS",
+    "role": "Analytics Coordinator",
+    "name": "Justin Bayer",
+    "vitals": {
+      "age": 65,
+      "experience": 9
+    },
+    "ratings": {
+      "leadership": 70,
+      "discipline": 77,
+      "schemeKnowledge": 70,
+      "playerDev": 76,
+      "motivation": 78,
+      "injuryManagement": 62,
+      "conditioning": 49,
+      "analyticsIQ": 98
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2727793
+    }
+  }
+]

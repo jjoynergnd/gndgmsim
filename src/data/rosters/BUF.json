@@ -3,262 +3,53 @@
     "id": "BUF-QB-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Vicki Hauck",
-    "jerseyNumber": 4,
+    "name": "William Lubowitz",
+    "jerseyNumber": 85,
     "position": "QB",
     "side": "OFF",
     "depth": 1,
     "vitals": {
-      "age": 34,
-      "height": "6'4\"",
-      "weight": 275,
-      "college": "Port Altachester",
-      "experience": 7,
-      "archetype": "Field General",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 3,
-      "totalValue": 8967838,
-      "capHit": 24544696,
-      "deadCap": 1293758,
-      "signingBonus": 19407430,
-      "expiresYear": 2029,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 85,
-      "potential": 94,
-      "schemeFit": 76,
-      "speed": 76,
-      "acceleration": 83,
-      "agility": 74,
-      "strength": 82,
-      "tackle": 91,
-      "pursuit": 87,
-      "manCoverage": 51,
-      "zoneCoverage": 51,
-      "kickPower": 51,
-      "kickAccuracy": 75,
-      "catching": 80,
-      "routeRunning": 59,
-      "release": 64,
-      "throwPower": 76,
-      "shortAccuracy": 63,
-      "mediumAccuracy": 78,
-      "deepAccuracy": 72
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Normal",
-      "clutch": "Low",
-      "injuryProne": "Low",
-      "workEthic": "High",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 11,
-        "statA": 454,
-        "statB": 825
-      },
-      "career": {
-        "games": 10,
-        "statA": 4445,
-        "statB": 853
-      }
-    },
-    "photo": "/player_faces/5.png"
-  },
-  {
-    "id": "BUF-QB-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Edmond Smitham",
-    "jerseyNumber": 28,
-    "position": "QB",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 21,
-      "height": "6'0\"",
-      "weight": 329,
-      "college": "Noeliashire",
-      "experience": 0,
-      "archetype": "Speed",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 1,
-      "totalValue": 42718911,
-      "capHit": 24344490,
-      "deadCap": 8513954,
-      "signingBonus": 15900932,
-      "expiresYear": 2027,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 61,
-      "potential": 62,
-      "schemeFit": 87,
-      "speed": 80,
-      "acceleration": 79,
-      "agility": 89,
-      "strength": 66,
-      "tackle": 88,
-      "pursuit": 69,
-      "manCoverage": 59,
-      "zoneCoverage": 52,
-      "kickPower": 85,
-      "kickAccuracy": 58,
-      "catching": 55,
-      "routeRunning": 85,
-      "release": 90,
-      "throwPower": 85,
-      "shortAccuracy": 93,
-      "mediumAccuracy": 63,
-      "deepAccuracy": 88
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "Low",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 17,
-        "statA": 748,
-        "statB": 147
-      },
-      "career": {
-        "games": 76,
-        "statA": 392,
-        "statB": 2059
-      }
-    },
-    "photo": "/player_faces/50.png"
-  },
-  {
-    "id": "BUF-QB-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Peter Mosciski V",
-    "jerseyNumber": 72,
-    "position": "QB",
-    "side": "OFF",
-    "depth": 3,
-    "vitals": {
-      "age": 22,
-      "height": "6'4\"",
-      "weight": 239,
-      "college": "Johnsonfort",
-      "experience": 10,
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 309,
+      "college": "Fort Meredith",
+      "experience": 2,
       "archetype": "Balanced",
       "handedness": "Right"
     },
     "contract": {
-      "years": 2,
-      "totalValue": 67186671,
-      "capHit": 3443057,
-      "deadCap": 5485523,
-      "signingBonus": 14525277,
-      "expiresYear": 2028,
-      "contractType": "Extension"
+      "years": 5,
+      "totalValue": 89578733,
+      "capHit": 16161009,
+      "deadCap": 4847630,
+      "signingBonus": 2499290,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
     },
     "ratings": {
-      "overall": 74,
-      "potential": 81,
-      "schemeFit": 78,
-      "speed": 95,
-      "acceleration": 82,
-      "agility": 82,
-      "strength": 84,
-      "tackle": 71,
-      "pursuit": 67,
-      "manCoverage": 90,
-      "zoneCoverage": 56,
-      "kickPower": 75,
-      "kickAccuracy": 75,
-      "catching": 54,
-      "routeRunning": 93,
-      "release": 84,
-      "throwPower": 76,
-      "shortAccuracy": 71,
-      "mediumAccuracy": 80,
-      "deepAccuracy": 90
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Star",
-      "clutch": "Low",
-      "injuryProne": "High",
-      "workEthic": "High",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 6,
-        "statA": 104,
-        "statB": 430
-      },
-      "career": {
-        "games": 81,
-        "statA": 941,
-        "statB": 3120
-      }
-    },
-    "photo": "/player_faces/5.png"
-  },
-  {
-    "id": "BUF-RB-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Elias Kozey",
-    "jerseyNumber": 14,
-    "position": "RB",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 25,
-      "height": "6'1\"",
-      "weight": 329,
-      "college": "Legrosside",
-      "experience": 1,
-      "archetype": "Power",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 3,
-      "totalValue": 11520297,
-      "capHit": 14023126,
-      "deadCap": 6871949,
-      "signingBonus": 3460594,
-      "expiresYear": 2029,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 72,
-      "potential": 76,
-      "schemeFit": 78,
-      "speed": 74,
+      "overall": 60,
+      "potential": 61,
+      "schemeFit": 88,
+      "speed": 71,
       "acceleration": 81,
       "agility": 86,
-      "strength": 73,
-      "tackle": 70,
-      "pursuit": 72,
-      "manCoverage": 62,
-      "zoneCoverage": 86,
-      "kickPower": 56,
-      "kickAccuracy": 94,
-      "catching": 68,
-      "routeRunning": 55,
-      "release": 87
+      "strength": 63,
+      "tackle": 82,
+      "pursuit": 92,
+      "manCoverage": 72,
+      "zoneCoverage": 72,
+      "kickPower": 78,
+      "kickAccuracy": 77,
+      "catching": 69,
+      "routeRunning": 81,
+      "release": 86,
+      "throwPower": 70,
+      "shortAccuracy": 69,
+      "mediumAccuracy": 64,
+      "deepAccuracy": 72
     },
     "traits": {
-      "personality": "Quiet",
+      "personality": "Calm",
       "devTrait": "Superstar",
       "clutch": "Low",
       "injuryProne": "Medium",
@@ -267,133 +58,1146 @@
     },
     "stats": {
       "season": {
-        "games": 17,
-        "statA": 978,
-        "statB": 802
+        "games": 10,
+        "statA": 370,
+        "statB": 46
       },
       "career": {
-        "games": 81,
-        "statA": 3823,
-        "statB": 1811
+        "games": 109,
+        "statA": 713,
+        "statB": 1054
       }
     },
-    "photo": "/player_faces/12.png"
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "BUF-QB-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Rafael McCullough",
+    "jerseyNumber": 54,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 299,
+      "college": "Kirlinton",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 94156099,
+      "capHit": 20810377,
+      "deadCap": 5353210,
+      "signingBonus": 7687798,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 78,
+      "speed": 71,
+      "acceleration": 92,
+      "agility": 75,
+      "strength": 73,
+      "tackle": 75,
+      "pursuit": 62,
+      "manCoverage": 68,
+      "zoneCoverage": 70,
+      "kickPower": 76,
+      "kickAccuracy": 88,
+      "catching": 91,
+      "routeRunning": 68,
+      "release": 58,
+      "throwPower": 79,
+      "shortAccuracy": 83,
+      "mediumAccuracy": 81,
+      "deepAccuracy": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 822,
+        "statB": 27
+      },
+      "career": {
+        "games": 19,
+        "statA": 4550,
+        "statB": 4003
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "BUF-QB-3",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jared Ondricka",
+    "jerseyNumber": 15,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 21,
+      "height": "6'1\"",
+      "weight": 253,
+      "college": "Coon Rapids",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 75072952,
+      "capHit": 8264579,
+      "deadCap": 2426926,
+      "signingBonus": 507721,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 84,
+      "speed": 76,
+      "acceleration": 81,
+      "agility": 81,
+      "strength": 86,
+      "tackle": 65,
+      "pursuit": 83,
+      "manCoverage": 62,
+      "zoneCoverage": 89,
+      "kickPower": 79,
+      "kickAccuracy": 81,
+      "catching": 61,
+      "routeRunning": 84,
+      "release": 84,
+      "throwPower": 77,
+      "shortAccuracy": 83,
+      "mediumAccuracy": 65,
+      "deepAccuracy": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 175,
+        "statB": 666
+      },
+      "career": {
+        "games": 26,
+        "statA": 223,
+        "statB": 1499
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "BUF-RB-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Brian Brakus",
+    "jerseyNumber": 78,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 196,
+      "college": "Alexandroberg",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 82901174,
+      "capHit": 5864885,
+      "deadCap": 5564914,
+      "signingBonus": 15464573,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 68,
+      "schemeFit": 78,
+      "speed": 80,
+      "acceleration": 95,
+      "agility": 74,
+      "strength": 79,
+      "tackle": 78,
+      "pursuit": 73,
+      "manCoverage": 73,
+      "zoneCoverage": 67,
+      "kickPower": 85,
+      "kickAccuracy": 89,
+      "catching": 75,
+      "routeRunning": 57,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 205,
+        "statB": 611
+      },
+      "career": {
+        "games": 117,
+        "statA": 407,
+        "statB": 3179
+      }
+    },
+    "photo": "/player_faces/30.png"
   },
   {
     "id": "BUF-RB-2",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Ms. Carla Herman III",
-    "jerseyNumber": 52,
+    "name": "Chen Schaden",
+    "jerseyNumber": 65,
     "position": "RB",
     "side": "OFF",
     "depth": 2,
     "vitals": {
-      "age": 21,
-      "height": "5'10\"",
-      "weight": 323,
-      "college": "West Lafayette",
-      "experience": 10,
+      "age": 23,
+      "height": "6'3\"",
+      "weight": 304,
+      "college": "West Salvador",
+      "experience": 3,
       "archetype": "Balanced",
       "handedness": "Right"
     },
     "contract": {
-      "years": 3,
-      "totalValue": 94854099,
-      "capHit": 14206397,
-      "deadCap": 775866,
-      "signingBonus": 3925721,
-      "expiresYear": 2029,
+      "years": 4,
+      "totalValue": 9338878,
+      "capHit": 24840212,
+      "deadCap": 732425,
+      "signingBonus": 15650397,
+      "expiresYear": 2030,
       "contractType": "Rookie"
     },
     "ratings": {
       "overall": 85,
-      "potential": 94,
-      "schemeFit": 86,
+      "potential": 88,
+      "schemeFit": 82,
+      "speed": 85,
+      "acceleration": 86,
+      "agility": 73,
+      "strength": 66,
+      "tackle": 95,
+      "pursuit": 90,
+      "manCoverage": 77,
+      "zoneCoverage": 82,
+      "kickPower": 58,
+      "kickAccuracy": 51,
+      "catching": 71,
+      "routeRunning": 51,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 438,
+        "statB": 143
+      },
+      "career": {
+        "games": 55,
+        "statA": 3096,
+        "statB": 3473
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "BUF-RB-3",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Thomas Kunde",
+    "jerseyNumber": 40,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 262,
+      "college": "Cronamouth",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 11846154,
+      "capHit": 18637376,
+      "deadCap": 9280063,
+      "signingBonus": 7856806,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 79,
+      "schemeFit": 81,
+      "speed": 70,
+      "acceleration": 94,
+      "agility": 87,
+      "strength": 88,
+      "tackle": 64,
+      "pursuit": 87,
+      "manCoverage": 84,
+      "zoneCoverage": 76,
+      "kickPower": 52,
+      "kickAccuracy": 68,
+      "catching": 84,
+      "routeRunning": 95,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 108,
+        "statB": 891
+      },
+      "career": {
+        "games": 83,
+        "statA": 190,
+        "statB": 558
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "BUF-RB-4",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jian Nitzsche",
+    "jerseyNumber": 95,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 303,
+      "college": "Balistreriland",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 53645898,
+      "capHit": 601816,
+      "deadCap": 7502829,
+      "signingBonus": 19818794,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 87,
+      "schemeFit": 88,
+      "speed": 80,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 85,
+      "tackle": 86,
+      "pursuit": 68,
+      "manCoverage": 58,
+      "zoneCoverage": 83,
+      "kickPower": 84,
+      "kickAccuracy": 81,
+      "catching": 82,
+      "routeRunning": 74,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 545,
+        "statB": 971
+      },
+      "career": {
+        "games": 20,
+        "statA": 611,
+        "statB": 877
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "BUF-WR-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jeffrey Waelchi",
+    "jerseyNumber": 49,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 323,
+      "college": "VonRuedenfield",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 30104910,
+      "capHit": 19746391,
+      "deadCap": 4549730,
+      "signingBonus": 10775054,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 86,
+      "schemeFit": 92,
+      "speed": 87,
+      "acceleration": 76,
+      "agility": 92,
+      "strength": 69,
+      "tackle": 84,
+      "pursuit": 91,
+      "manCoverage": 56,
+      "zoneCoverage": 63,
+      "kickPower": 74,
+      "kickAccuracy": 75,
+      "catching": 52,
+      "routeRunning": 55,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 487,
+        "statB": 777
+      },
+      "career": {
+        "games": 113,
+        "statA": 4738,
+        "statB": 1042
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "BUF-WR-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "John Balistreri",
+    "jerseyNumber": 42,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'1\"",
+      "weight": 305,
+      "college": "Bossier City",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 5051280,
+      "capHit": 2790376,
+      "deadCap": 1475454,
+      "signingBonus": 10117023,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 66,
+      "schemeFit": 81,
+      "speed": 72,
+      "acceleration": 93,
+      "agility": 73,
+      "strength": 60,
+      "tackle": 93,
+      "pursuit": 69,
+      "manCoverage": 57,
+      "zoneCoverage": 90,
+      "kickPower": 53,
+      "kickAccuracy": 87,
+      "catching": 54,
+      "routeRunning": 78,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 130,
+        "statB": 319
+      },
+      "career": {
+        "games": 18,
+        "statA": 604,
+        "statB": 3048
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "BUF-WR-3",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jason Shields",
+    "jerseyNumber": 42,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 203,
+      "college": "Torpberg",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 4644097,
+      "capHit": 11549181,
+      "deadCap": 5270932,
+      "signingBonus": 2803542,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 78,
+      "schemeFit": 95,
       "speed": 94,
-      "acceleration": 90,
+      "acceleration": 93,
       "agility": 79,
-      "strength": 72,
-      "tackle": 82,
-      "pursuit": 78,
-      "manCoverage": 52,
-      "zoneCoverage": 69,
-      "kickPower": 92,
-      "kickAccuracy": 66,
-      "catching": 51,
-      "routeRunning": 89,
-      "release": 62
+      "strength": 84,
+      "tackle": 66,
+      "pursuit": 86,
+      "manCoverage": 77,
+      "zoneCoverage": 64,
+      "kickPower": 73,
+      "kickAccuracy": 53,
+      "catching": 88,
+      "routeRunning": 73,
+      "release": 64
     },
     "traits": {
       "personality": "Quiet",
       "devTrait": "Star",
-      "clutch": "Low",
+      "clutch": "Average",
       "injuryProne": "Low",
       "workEthic": "Low",
       "leadership": "Low"
     },
     "stats": {
       "season": {
+        "games": 2,
+        "statA": 931,
+        "statB": 265
+      },
+      "career": {
+        "games": 67,
+        "statA": 1908,
+        "statB": 972
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "BUF-WR-4",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Juan Konopelski-Schinner",
+    "jerseyNumber": 10,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "5'10\"",
+      "weight": 276,
+      "college": "Carlsbad",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 79440936,
+      "capHit": 1473299,
+      "deadCap": 3852278,
+      "signingBonus": 13144330,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 85,
+      "schemeFit": 80,
+      "speed": 79,
+      "acceleration": 91,
+      "agility": 91,
+      "strength": 66,
+      "tackle": 77,
+      "pursuit": 89,
+      "manCoverage": 88,
+      "zoneCoverage": 80,
+      "kickPower": 79,
+      "kickAccuracy": 57,
+      "catching": 51,
+      "routeRunning": 66,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
         "games": 5,
-        "statA": 593,
-        "statB": 610
+        "statA": 674,
+        "statB": 435
       },
       "career": {
         "games": 97,
-        "statA": 1986,
-        "statB": 3028
+        "statA": 3485,
+        "statB": 2868
       }
     },
     "photo": "/player_faces/25.png"
   },
   {
-    "id": "BUF-RB-3",
+    "id": "BUF-WR-5",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Kim Kub",
-    "jerseyNumber": 89,
-    "position": "RB",
+    "name": "Harold Olson",
+    "jerseyNumber": 26,
+    "position": "WR",
     "side": "OFF",
-    "depth": 3,
+    "depth": 5,
     "vitals": {
       "age": 21,
-      "height": "5'11\"",
-      "weight": 293,
-      "college": "Feeneyshire",
-      "experience": 0,
+      "height": "5'9\"",
+      "weight": 227,
+      "college": "New Ella",
+      "experience": 10,
       "archetype": "Technical",
-      "handedness": "Right"
+      "handedness": "Left"
     },
     "contract": {
       "years": 3,
-      "totalValue": 59237861,
-      "capHit": 16669427,
-      "deadCap": 7740716,
-      "signingBonus": 13689919,
+      "totalValue": 92799648,
+      "capHit": 12971013,
+      "deadCap": 4149462,
+      "signingBonus": 6389562,
       "expiresYear": 2029,
       "contractType": "Extension"
     },
     "ratings": {
-      "overall": 70,
-      "potential": 71,
-      "schemeFit": 76,
-      "speed": 89,
-      "acceleration": 79,
-      "agility": 92,
-      "strength": 90,
-      "tackle": 62,
-      "pursuit": 66,
-      "manCoverage": 54,
-      "zoneCoverage": 79,
-      "kickPower": 65,
-      "kickAccuracy": 64,
-      "catching": 78,
-      "routeRunning": 69,
-      "release": 89
+      "overall": 83,
+      "potential": 87,
+      "schemeFit": 84,
+      "speed": 77,
+      "acceleration": 73,
+      "agility": 76,
+      "strength": 73,
+      "tackle": 72,
+      "pursuit": 65,
+      "manCoverage": 63,
+      "zoneCoverage": 59,
+      "kickPower": 89,
+      "kickAccuracy": 91,
+      "catching": 51,
+      "routeRunning": 90,
+      "release": 59
     },
     "traits": {
       "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 309,
+        "statB": 792
+      },
+      "career": {
+        "games": 60,
+        "statA": 3470,
+        "statB": 3184
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "BUF-WR-6",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Cristian Langworth-Klocko",
+    "jerseyNumber": 91,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 265,
+      "college": "Lubowitzfurt",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 106379558,
+      "capHit": 6717891,
+      "deadCap": 1412545,
+      "signingBonus": 13638195,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 75,
+      "schemeFit": 87,
+      "speed": 73,
+      "acceleration": 82,
+      "agility": 73,
+      "strength": 76,
+      "tackle": 66,
+      "pursuit": 77,
+      "manCoverage": 70,
+      "zoneCoverage": 69,
+      "kickPower": 76,
+      "kickAccuracy": 68,
+      "catching": 81,
+      "routeRunning": 84,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Fiery",
       "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 742,
+        "statB": 778
+      },
+      "career": {
+        "games": 58,
+        "statA": 662,
+        "statB": 4856
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "BUF-WR-7",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Brandon Graham",
+    "jerseyNumber": 80,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 256,
+      "college": "East Emilia",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 21277456,
+      "capHit": 12999090,
+      "deadCap": 371918,
+      "signingBonus": 19349438,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 78,
+      "schemeFit": 76,
+      "speed": 87,
+      "acceleration": 76,
+      "agility": 71,
+      "strength": 62,
+      "tackle": 90,
+      "pursuit": 73,
+      "manCoverage": 64,
+      "zoneCoverage": 53,
+      "kickPower": 64,
+      "kickAccuracy": 70,
+      "catching": 52,
+      "routeRunning": 75,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 445,
+        "statB": 800
+      },
+      "career": {
+        "games": 69,
+        "statA": 3204,
+        "statB": 1211
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "BUF-TE-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Harold Hermiston-Rath",
+    "jerseyNumber": 88,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 288,
+      "college": "Turnerchester",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 33263324,
+      "capHit": 10444637,
+      "deadCap": 3176938,
+      "signingBonus": 8542582,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 70,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 75,
+      "agility": 92,
+      "strength": 74,
+      "tackle": 70,
+      "pursuit": 80,
+      "manCoverage": 52,
+      "zoneCoverage": 80,
+      "kickPower": 88,
+      "kickAccuracy": 89,
+      "catching": 61,
+      "routeRunning": 85,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 958,
+        "statB": 373
+      },
+      "career": {
+        "games": 95,
+        "statA": 1895,
+        "statB": 3278
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "BUF-TE-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Sung Boyer",
+    "jerseyNumber": 76,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 187,
+      "college": "Eusebioland",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 86434790,
+      "capHit": 2509502,
+      "deadCap": 2425765,
+      "signingBonus": 12628578,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 88,
+      "schemeFit": 73,
+      "speed": 75,
+      "acceleration": 74,
+      "agility": 83,
+      "strength": 66,
+      "tackle": 78,
+      "pursuit": 66,
+      "manCoverage": 86,
+      "zoneCoverage": 63,
+      "kickPower": 89,
+      "kickAccuracy": 64,
+      "catching": 83,
+      "routeRunning": 55,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 268,
+        "statB": 91
+      },
+      "career": {
+        "games": 56,
+        "statA": 1314,
+        "statB": 1196
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "BUF-TE-3",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jordan Kassulke",
+    "jerseyNumber": 11,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 268,
+      "college": "Alexysboro",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 77031464,
+      "capHit": 15157037,
+      "deadCap": 7008965,
+      "signingBonus": 18395001,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 83,
+      "schemeFit": 75,
+      "speed": 88,
+      "acceleration": 86,
+      "agility": 90,
+      "strength": 85,
+      "tackle": 94,
+      "pursuit": 62,
+      "manCoverage": 80,
+      "zoneCoverage": 78,
+      "kickPower": 72,
+      "kickAccuracy": 94,
+      "catching": 71,
+      "routeRunning": 85,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 347,
+        "statB": 914
+      },
+      "career": {
+        "games": 28,
+        "statA": 1395,
+        "statB": 3829
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "BUF-LT-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Tristan Simonis",
+    "jerseyNumber": 65,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 292,
+      "college": "West Forrest",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 65917882,
+      "capHit": 11696643,
+      "deadCap": 2327593,
+      "signingBonus": 10962018,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 85,
+      "schemeFit": 93,
+      "speed": 84,
+      "acceleration": 73,
+      "agility": 91,
+      "strength": 62,
+      "tackle": 72,
+      "pursuit": 74,
+      "manCoverage": 90,
+      "zoneCoverage": 54,
+      "kickPower": 89,
+      "kickAccuracy": 89,
+      "catching": 56,
+      "routeRunning": 91,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
       "clutch": "Average",
       "injuryProne": "High",
       "workEthic": "Low",
@@ -401,65 +1205,266 @@
     },
     "stats": {
       "season": {
-        "games": 0,
-        "statA": 931,
-        "statB": 792
+        "games": 3,
+        "statA": 696,
+        "statB": 528
       },
       "career": {
-        "games": 27,
-        "statA": 2089,
-        "statB": 1917
+        "games": 101,
+        "statA": 183,
+        "statB": 4205
       }
     },
-    "photo": "/player_faces/46.png"
+    "photo": "/player_faces/13.png"
   },
   {
-    "id": "BUF-RB-4",
+    "id": "BUF-LT-2",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Billie Miller",
-    "jerseyNumber": 95,
-    "position": "RB",
+    "name": "Zhou Kub",
+    "jerseyNumber": 61,
+    "position": "LT",
     "side": "OFF",
-    "depth": 4,
+    "depth": 2,
     "vitals": {
-      "age": 22,
-      "height": "5'11\"",
-      "weight": 260,
-      "college": "Albaside",
-      "experience": 6,
-      "archetype": "Power",
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 239,
+      "college": "Madelineberg",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 106501088,
+      "capHit": 14956828,
+      "deadCap": 3350481,
+      "signingBonus": 6499858,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 80,
+      "schemeFit": 94,
+      "speed": 82,
+      "acceleration": 71,
+      "agility": 93,
+      "strength": 62,
+      "tackle": 77,
+      "pursuit": 79,
+      "manCoverage": 87,
+      "zoneCoverage": 85,
+      "kickPower": 82,
+      "kickAccuracy": 95,
+      "catching": 64,
+      "routeRunning": 83,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 703,
+        "statB": 107
+      },
+      "career": {
+        "games": 84,
+        "statA": 3642,
+        "statB": 2742
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "BUF-LG-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Caleb Wilkinson-Kshlerin",
+    "jerseyNumber": 79,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 211,
+      "college": "Mountain View",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 118709064,
+      "capHit": 21994336,
+      "deadCap": 3645475,
+      "signingBonus": 11042992,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 73,
+      "schemeFit": 92,
+      "speed": 88,
+      "acceleration": 93,
+      "agility": 95,
+      "strength": 72,
+      "tackle": 92,
+      "pursuit": 70,
+      "manCoverage": 58,
+      "zoneCoverage": 66,
+      "kickPower": 59,
+      "kickAccuracy": 72,
+      "catching": 75,
+      "routeRunning": 61,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 189,
+        "statB": 885
+      },
+      "career": {
+        "games": 22,
+        "statA": 2181,
+        "statB": 1719
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "BUF-LG-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Ruben Carter",
+    "jerseyNumber": 10,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'10\"",
+      "weight": 256,
+      "college": "Rogahnshire",
+      "experience": 0,
+      "archetype": "Balanced",
       "handedness": "Right"
     },
     "contract": {
       "years": 3,
-      "totalValue": 105232621,
-      "capHit": 8276187,
-      "deadCap": 2926973,
-      "signingBonus": 12532299,
+      "totalValue": 33373969,
+      "capHit": 1369728,
+      "deadCap": 9679815,
+      "signingBonus": 11670590,
       "expiresYear": 2029,
-      "contractType": "Rookie"
+      "contractType": "Extension"
     },
     "ratings": {
-      "overall": 72,
-      "potential": 76,
-      "schemeFit": 85,
-      "speed": 71,
-      "acceleration": 73,
-      "agility": 91,
-      "strength": 90,
-      "tackle": 95,
-      "pursuit": 76,
-      "manCoverage": 50,
-      "zoneCoverage": 80,
-      "kickPower": 78,
-      "kickAccuracy": 83,
-      "catching": 60,
-      "routeRunning": 55,
-      "release": 51
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 81,
+      "speed": 70,
+      "acceleration": 88,
+      "agility": 94,
+      "strength": 83,
+      "tackle": 66,
+      "pursuit": 70,
+      "manCoverage": 65,
+      "zoneCoverage": 73,
+      "kickPower": 84,
+      "kickAccuracy": 79,
+      "catching": 94,
+      "routeRunning": 68,
+      "release": 63
     },
     "traits": {
-      "personality": "Fiery",
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 248,
+        "statB": 595
+      },
+      "career": {
+        "games": 93,
+        "statA": 4621,
+        "statB": 3424
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "BUF-C-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Hassan Armstrong",
+    "jerseyNumber": 4,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 324,
+      "college": "West Heather",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 113432831,
+      "capHit": 8710605,
+      "deadCap": 6637753,
+      "signingBonus": 17279109,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 90,
+      "schemeFit": 70,
+      "speed": 72,
+      "acceleration": 78,
+      "agility": 89,
+      "strength": 65,
+      "tackle": 64,
+      "pursuit": 74,
+      "manCoverage": 51,
+      "zoneCoverage": 56,
+      "kickPower": 87,
+      "kickAccuracy": 82,
+      "catching": 51,
+      "routeRunning": 63,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
       "devTrait": "Star",
       "clutch": "Low",
       "injuryProne": "Low",
@@ -468,134 +1473,1809 @@
     },
     "stats": {
       "season": {
-        "games": 5,
-        "statA": 18,
-        "statB": 744
+        "games": 7,
+        "statA": 395,
+        "statB": 755
       },
       "career": {
-        "games": 63,
-        "statA": 4564,
-        "statB": 2934
+        "games": 52,
+        "statA": 2443,
+        "statB": 4116
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "BUF-C-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Ashton Haley",
+    "jerseyNumber": 15,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'9\"",
+      "weight": 239,
+      "college": "North Victoriastad",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 9399510,
+      "capHit": 1745267,
+      "deadCap": 4931659,
+      "signingBonus": 1266100,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 63,
+      "schemeFit": 88,
+      "speed": 86,
+      "acceleration": 80,
+      "agility": 84,
+      "strength": 83,
+      "tackle": 79,
+      "pursuit": 77,
+      "manCoverage": 54,
+      "zoneCoverage": 66,
+      "kickPower": 53,
+      "kickAccuracy": 95,
+      "catching": 66,
+      "routeRunning": 81,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 423,
+        "statB": 272
+      },
+      "career": {
+        "games": 68,
+        "statA": 4858,
+        "statB": 4985
       }
     },
     "photo": "/player_faces/27.png"
   },
   {
-    "id": "BUF-WR-1",
+    "id": "BUF-RG-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Ted Kuhn",
-    "jerseyNumber": 25,
-    "position": "WR",
+    "name": "Joe Ward",
+    "jerseyNumber": 9,
+    "position": "RG",
     "side": "OFF",
     "depth": 1,
     "vitals": {
-      "age": 24,
-      "height": "6'4\"",
-      "weight": 283,
-      "college": "Carson",
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 199,
+      "college": "Johnsonworth",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 79284797,
+      "capHit": 3983251,
+      "deadCap": 9103315,
+      "signingBonus": 18958359,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 77,
+      "speed": 86,
+      "acceleration": 95,
+      "agility": 91,
+      "strength": 87,
+      "tackle": 89,
+      "pursuit": 69,
+      "manCoverage": 61,
+      "zoneCoverage": 59,
+      "kickPower": 60,
+      "kickAccuracy": 53,
+      "catching": 61,
+      "routeRunning": 55,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 784,
+        "statB": 199
+      },
+      "career": {
+        "games": 83,
+        "statA": 4891,
+        "statB": 1556
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "BUF-RG-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Yuri Donnelly",
+    "jerseyNumber": 1,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "5'9\"",
+      "weight": 273,
+      "college": "New Javon",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 44275244,
+      "capHit": 13780422,
+      "deadCap": 8550260,
+      "signingBonus": 16001012,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 76,
+      "schemeFit": 73,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 75,
+      "strength": 77,
+      "tackle": 80,
+      "pursuit": 92,
+      "manCoverage": 64,
+      "zoneCoverage": 50,
+      "kickPower": 89,
+      "kickAccuracy": 84,
+      "catching": 52,
+      "routeRunning": 95,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 821,
+        "statB": 658
+      },
+      "career": {
+        "games": 26,
+        "statA": 527,
+        "statB": 3525
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "BUF-RT-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Fernando Runte",
+    "jerseyNumber": 24,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 216,
+      "college": "New Unaport",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 20079462,
+      "capHit": 11415326,
+      "deadCap": 3699754,
+      "signingBonus": 5388750,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 84,
+      "schemeFit": 79,
+      "speed": 75,
+      "acceleration": 73,
+      "agility": 89,
+      "strength": 68,
+      "tackle": 72,
+      "pursuit": 66,
+      "manCoverage": 63,
+      "zoneCoverage": 74,
+      "kickPower": 83,
+      "kickAccuracy": 61,
+      "catching": 64,
+      "routeRunning": 69,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 989,
+        "statB": 56
+      },
+      "career": {
+        "games": 9,
+        "statA": 4800,
+        "statB": 265
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "BUF-RT-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Blake Williamson",
+    "jerseyNumber": 96,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 282,
+      "college": "South Trishaborough",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 44903681,
+      "capHit": 21372025,
+      "deadCap": 8740869,
+      "signingBonus": 9520403,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 82,
+      "schemeFit": 82,
+      "speed": 87,
+      "acceleration": 90,
+      "agility": 73,
+      "strength": 82,
+      "tackle": 92,
+      "pursuit": 72,
+      "manCoverage": 87,
+      "zoneCoverage": 67,
+      "kickPower": 89,
+      "kickAccuracy": 52,
+      "catching": 92,
+      "routeRunning": 50,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 521,
+        "statB": 223
+      },
+      "career": {
+        "games": 37,
+        "statA": 1131,
+        "statB": 1249
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "BUF-LDE-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Peter Morissette",
+    "jerseyNumber": 60,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 189,
+      "college": "Sashaborough",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 79471973,
+      "capHit": 20283762,
+      "deadCap": 8182708,
+      "signingBonus": 15044172,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 92,
+      "schemeFit": 77,
+      "speed": 92,
+      "acceleration": 72,
+      "agility": 87,
+      "strength": 62,
+      "tackle": 91,
+      "pursuit": 66,
+      "manCoverage": 84,
+      "zoneCoverage": 85,
+      "kickPower": 74,
+      "kickAccuracy": 61,
+      "catching": 72,
+      "routeRunning": 59,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 977,
+        "statB": 401
+      },
+      "career": {
+        "games": 107,
+        "statA": 1045,
+        "statB": 3495
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "BUF-LDE-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jeremy Blanda",
+    "jerseyNumber": 72,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 195,
+      "college": "Hahnfurt",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 7764455,
+      "capHit": 22669334,
+      "deadCap": 3954979,
+      "signingBonus": 16810632,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 78,
+      "schemeFit": 92,
+      "speed": 93,
+      "acceleration": 77,
+      "agility": 87,
+      "strength": 76,
+      "tackle": 95,
+      "pursuit": 71,
+      "manCoverage": 71,
+      "zoneCoverage": 70,
+      "kickPower": 83,
+      "kickAccuracy": 89,
+      "catching": 90,
+      "routeRunning": 93,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 95,
+        "statB": 154
+      },
+      "career": {
+        "games": 9,
+        "statA": 1341,
+        "statB": 3344
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "BUF-RDE-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Frank Shields",
+    "jerseyNumber": 46,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 233,
+      "college": "West Syblebury",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 65742654,
+      "capHit": 13946007,
+      "deadCap": 7681987,
+      "signingBonus": 2097069,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 69,
+      "schemeFit": 95,
+      "speed": 75,
+      "acceleration": 72,
+      "agility": 71,
+      "strength": 81,
+      "tackle": 93,
+      "pursuit": 82,
+      "manCoverage": 82,
+      "zoneCoverage": 50,
+      "kickPower": 73,
+      "kickAccuracy": 71,
+      "catching": 73,
+      "routeRunning": 58,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 413,
+        "statB": 129
+      },
+      "career": {
+        "games": 79,
+        "statA": 1282,
+        "statB": 825
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "BUF-RDE-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Matteo Balistreri",
+    "jerseyNumber": 64,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'1\"",
+      "weight": 196,
+      "college": "South Rebeccabury",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 51774797,
+      "capHit": 13428841,
+      "deadCap": 5709728,
+      "signingBonus": 11649769,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 89,
+      "schemeFit": 74,
+      "speed": 77,
+      "acceleration": 94,
+      "agility": 87,
+      "strength": 75,
+      "tackle": 69,
+      "pursuit": 65,
+      "manCoverage": 65,
+      "zoneCoverage": 69,
+      "kickPower": 81,
+      "kickAccuracy": 89,
+      "catching": 86,
+      "routeRunning": 58,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 431,
+        "statB": 499
+      },
+      "career": {
+        "games": 109,
+        "statA": 2406,
+        "statB": 1937
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "BUF-DT-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Emmanuel Legros",
+    "jerseyNumber": 69,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'3\"",
+      "weight": 256,
+      "college": "Grimescester",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 78087198,
+      "capHit": 23237058,
+      "deadCap": 652236,
+      "signingBonus": 13538658,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 77,
+      "speed": 85,
+      "acceleration": 86,
+      "agility": 81,
+      "strength": 81,
+      "tackle": 79,
+      "pursuit": 91,
+      "manCoverage": 69,
+      "zoneCoverage": 80,
+      "kickPower": 68,
+      "kickAccuracy": 76,
+      "catching": 91,
+      "routeRunning": 52,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 843,
+        "statB": 124
+      },
+      "career": {
+        "games": 78,
+        "statA": 1468,
+        "statB": 752
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "BUF-DT-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Ibrahim Hayes-Tremblay",
+    "jerseyNumber": 58,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 263,
+      "college": "Port Bernardoburgh",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 58265872,
+      "capHit": 9047977,
+      "deadCap": 1997495,
+      "signingBonus": 19652855,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 91,
+      "schemeFit": 80,
+      "speed": 70,
+      "acceleration": 74,
+      "agility": 82,
+      "strength": 87,
+      "tackle": 89,
+      "pursuit": 80,
+      "manCoverage": 78,
+      "zoneCoverage": 82,
+      "kickPower": 61,
+      "kickAccuracy": 83,
+      "catching": 84,
+      "routeRunning": 57,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 801,
+        "statB": 352
+      },
+      "career": {
+        "games": 105,
+        "statA": 3822,
+        "statB": 4329
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "BUF-DT-3",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Brendan Hermann",
+    "jerseyNumber": 3,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 256,
+      "college": "Lake Camren",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 97648862,
+      "capHit": 18781523,
+      "deadCap": 7087692,
+      "signingBonus": 5531410,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 91,
+      "speed": 84,
+      "acceleration": 78,
+      "agility": 88,
+      "strength": 68,
+      "tackle": 69,
+      "pursuit": 83,
+      "manCoverage": 76,
+      "zoneCoverage": 62,
+      "kickPower": 89,
+      "kickAccuracy": 50,
+      "catching": 67,
+      "routeRunning": 61,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 203,
+        "statB": 561
+      },
+      "career": {
+        "games": 12,
+        "statA": 3086,
+        "statB": 3354
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "BUF-DT-4",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Lawrence Wyman",
+    "jerseyNumber": 63,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 236,
+      "college": "Teresastead",
       "experience": 7,
       "archetype": "Playmaker",
       "handedness": "Left"
     },
     "contract": {
       "years": 3,
-      "totalValue": 87165508,
-      "capHit": 24310562,
-      "deadCap": 8298269,
-      "signingBonus": 11010721,
+      "totalValue": 102672096,
+      "capHit": 20443886,
+      "deadCap": 3125405,
+      "signingBonus": 3072461,
       "expiresYear": 2029,
       "contractType": "Extension"
     },
     "ratings": {
-      "overall": 63,
-      "potential": 67,
-      "schemeFit": 70,
-      "speed": 73,
+      "overall": 81,
+      "potential": 82,
+      "schemeFit": 84,
+      "speed": 86,
+      "acceleration": 77,
+      "agility": 87,
+      "strength": 89,
+      "tackle": 72,
+      "pursuit": 86,
+      "manCoverage": 56,
+      "zoneCoverage": 56,
+      "kickPower": 58,
+      "kickAccuracy": 61,
+      "catching": 78,
+      "routeRunning": 90,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 472,
+        "statB": 808
+      },
+      "career": {
+        "games": 91,
+        "statA": 4582,
+        "statB": 2526
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "BUF-LOLB-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Owen Jacobi",
+    "jerseyNumber": 48,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 189,
+      "college": "Klockofort",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 63373414,
+      "capHit": 24383262,
+      "deadCap": 8587907,
+      "signingBonus": 18055905,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 84,
+      "schemeFit": 79,
+      "speed": 81,
+      "acceleration": 78,
+      "agility": 79,
+      "strength": 85,
+      "tackle": 65,
+      "pursuit": 95,
+      "manCoverage": 82,
+      "zoneCoverage": 58,
+      "kickPower": 57,
+      "kickAccuracy": 83,
+      "catching": 87,
+      "routeRunning": 90,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 531,
+        "statB": 458
+      },
+      "career": {
+        "games": 114,
+        "statA": 4807,
+        "statB": 2377
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "BUF-LOLB-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jesse Will",
+    "jerseyNumber": 98,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 280,
+      "college": "Vilmatown",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 110676550,
+      "capHit": 15075847,
+      "deadCap": 3071521,
+      "signingBonus": 14602458,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 89,
+      "schemeFit": 86,
+      "speed": 83,
+      "acceleration": 90,
+      "agility": 93,
+      "strength": 85,
+      "tackle": 61,
+      "pursuit": 84,
+      "manCoverage": 64,
+      "zoneCoverage": 80,
+      "kickPower": 52,
+      "kickAccuracy": 71,
+      "catching": 54,
+      "routeRunning": 53,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 77,
+        "statB": 816
+      },
+      "career": {
+        "games": 68,
+        "statA": 4712,
+        "statB": 612
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "BUF-MLB-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Porter Abbott",
+    "jerseyNumber": 46,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 214,
+      "college": "Jadenside",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 9937350,
+      "capHit": 706984,
+      "deadCap": 3833894,
+      "signingBonus": 3995105,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 84,
+      "schemeFit": 89,
+      "speed": 78,
+      "acceleration": 88,
+      "agility": 76,
+      "strength": 68,
+      "tackle": 79,
+      "pursuit": 68,
+      "manCoverage": 83,
+      "zoneCoverage": 51,
+      "kickPower": 62,
+      "kickAccuracy": 77,
+      "catching": 65,
+      "routeRunning": 87,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 610,
+        "statB": 392
+      },
+      "career": {
+        "games": 40,
+        "statA": 2646,
+        "statB": 3315
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "BUF-MLB-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jeffrey Olson",
+    "jerseyNumber": 25,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 204,
+      "college": "Fort Hilma",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 119552821,
+      "capHit": 22283698,
+      "deadCap": 8541624,
+      "signingBonus": 13125850,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 82,
+      "schemeFit": 95,
+      "speed": 87,
+      "acceleration": 76,
+      "agility": 88,
+      "strength": 79,
+      "tackle": 86,
+      "pursuit": 64,
+      "manCoverage": 67,
+      "zoneCoverage": 86,
+      "kickPower": 66,
+      "kickAccuracy": 61,
+      "catching": 82,
+      "routeRunning": 70,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 737,
+        "statB": 571
+      },
+      "career": {
+        "games": 57,
+        "statA": 2174,
+        "statB": 2876
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "BUF-ROLB-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Brendan Satterfield",
+    "jerseyNumber": 73,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 218,
+      "college": "Fort Brendaburgh",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 59471398,
+      "capHit": 24479225,
+      "deadCap": 9305964,
+      "signingBonus": 8978523,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 89,
+      "schemeFit": 88,
+      "speed": 89,
+      "acceleration": 70,
+      "agility": 91,
+      "strength": 80,
+      "tackle": 62,
+      "pursuit": 82,
+      "manCoverage": 55,
+      "zoneCoverage": 76,
+      "kickPower": 82,
+      "kickAccuracy": 52,
+      "catching": 79,
+      "routeRunning": 91,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 748,
+        "statB": 51
+      },
+      "career": {
+        "games": 40,
+        "statA": 2018,
+        "statB": 1959
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "BUF-ROLB-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Xavier Koss",
+    "jerseyNumber": 91,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 261,
+      "college": "Lake Paytonland",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 48249927,
+      "capHit": 3837816,
+      "deadCap": 5085873,
+      "signingBonus": 2598744,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 92,
+      "speed": 93,
       "acceleration": 92,
       "agility": 90,
       "strength": 69,
-      "tackle": 86,
-      "pursuit": 81,
-      "manCoverage": 82,
-      "zoneCoverage": 57,
-      "kickPower": 55,
+      "tackle": 60,
+      "pursuit": 94,
+      "manCoverage": 71,
+      "zoneCoverage": 77,
+      "kickPower": 80,
+      "kickAccuracy": 84,
+      "catching": 94,
+      "routeRunning": 79,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 104,
+        "statB": 832
+      },
+      "career": {
+        "games": 55,
+        "statA": 183,
+        "statB": 1053
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "BUF-CB-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Gerald Leffler",
+    "jerseyNumber": 48,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 325,
+      "college": "La Mirada",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 98536127,
+      "capHit": 22509139,
+      "deadCap": 9277148,
+      "signingBonus": 3302733,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 88,
+      "schemeFit": 79,
+      "speed": 92,
+      "acceleration": 73,
+      "agility": 74,
+      "strength": 79,
+      "tackle": 67,
+      "pursuit": 71,
+      "manCoverage": 51,
+      "zoneCoverage": 84,
+      "kickPower": 95,
       "kickAccuracy": 79,
-      "catching": 63,
-      "routeRunning": 61,
-      "release": 56
+      "catching": 62,
+      "routeRunning": 91,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 982,
+        "statB": 366
+      },
+      "career": {
+        "games": 29,
+        "statA": 3255,
+        "statB": 854
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "BUF-CB-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Logan Corkery",
+    "jerseyNumber": 3,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 225,
+      "college": "Aramouth",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 51091733,
+      "capHit": 21947761,
+      "deadCap": 6506184,
+      "signingBonus": 3548776,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 64,
+      "schemeFit": 89,
+      "speed": 82,
+      "acceleration": 95,
+      "agility": 86,
+      "strength": 62,
+      "tackle": 94,
+      "pursuit": 90,
+      "manCoverage": 87,
+      "zoneCoverage": 57,
+      "kickPower": 76,
+      "kickAccuracy": 57,
+      "catching": 72,
+      "routeRunning": 95,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 901,
+        "statB": 354
+      },
+      "career": {
+        "games": 72,
+        "statA": 1743,
+        "statB": 2150
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "BUF-CB-3",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Jared Yost",
+    "jerseyNumber": 43,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 305,
+      "college": "Troyberg",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 72317308,
+      "capHit": 16012681,
+      "deadCap": 6689725,
+      "signingBonus": 14494605,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 88,
+      "schemeFit": 92,
+      "speed": 95,
+      "acceleration": 79,
+      "agility": 86,
+      "strength": 81,
+      "tackle": 64,
+      "pursuit": 62,
+      "manCoverage": 79,
+      "zoneCoverage": 73,
+      "kickPower": 63,
+      "kickAccuracy": 65,
+      "catching": 52,
+      "routeRunning": 86,
+      "release": 81
     },
     "traits": {
       "personality": "Calm",
       "devTrait": "Superstar",
       "clutch": "High",
       "injuryProne": "High",
-      "workEthic": "Low",
+      "workEthic": "High",
       "leadership": "Low"
     },
     "stats": {
       "season": {
-        "games": 17,
-        "statA": 229,
-        "statB": 143
+        "games": 4,
+        "statA": 484,
+        "statB": 35
       },
       "career": {
-        "games": 58,
-        "statA": 2370,
-        "statB": 3723
+        "games": 77,
+        "statA": 2109,
+        "statB": 3724
       }
     },
-    "photo": "/player_faces/19.png"
+    "photo": "/player_faces/44.png"
   },
   {
-    "id": "BUF-WR-2",
+    "id": "BUF-CB-4",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Kim Renner MD",
-    "jerseyNumber": 20,
-    "position": "WR",
-    "side": "OFF",
+    "name": "Parker Luettgen",
+    "jerseyNumber": 14,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 236,
+      "college": "Marlenetown",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 86567307,
+      "capHit": 20533307,
+      "deadCap": 5307974,
+      "signingBonus": 8594988,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 82,
+      "schemeFit": 95,
+      "speed": 73,
+      "acceleration": 94,
+      "agility": 82,
+      "strength": 67,
+      "tackle": 81,
+      "pursuit": 81,
+      "manCoverage": 53,
+      "zoneCoverage": 80,
+      "kickPower": 90,
+      "kickAccuracy": 86,
+      "catching": 61,
+      "routeRunning": 83,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 391,
+        "statB": 228
+      },
+      "career": {
+        "games": 112,
+        "statA": 1290,
+        "statB": 1118
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "BUF-CB-5",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Riku Gleason",
+    "jerseyNumber": 22,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 283,
+      "college": "Fort Brittanymouth",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 28482989,
+      "capHit": 6755513,
+      "deadCap": 4611475,
+      "signingBonus": 3764970,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 72,
+      "schemeFit": 83,
+      "speed": 88,
+      "acceleration": 85,
+      "agility": 72,
+      "strength": 64,
+      "tackle": 93,
+      "pursuit": 85,
+      "manCoverage": 66,
+      "zoneCoverage": 82,
+      "kickPower": 72,
+      "kickAccuracy": 87,
+      "catching": 59,
+      "routeRunning": 63,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 780,
+        "statB": 191
+      },
+      "career": {
+        "games": 95,
+        "statA": 628,
+        "statB": 3739
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "BUF-CB-6",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Parker Wiza",
+    "jerseyNumber": 93,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 237,
+      "college": "Wylie",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 47825130,
+      "capHit": 24413335,
+      "deadCap": 8758763,
+      "signingBonus": 16665445,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 71,
+      "schemeFit": 85,
+      "speed": 93,
+      "acceleration": 90,
+      "agility": 75,
+      "strength": 94,
+      "tackle": 60,
+      "pursuit": 60,
+      "manCoverage": 76,
+      "zoneCoverage": 64,
+      "kickPower": 70,
+      "kickAccuracy": 61,
+      "catching": 94,
+      "routeRunning": 71,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 956,
+        "statB": 464
+      },
+      "career": {
+        "games": 111,
+        "statA": 4758,
+        "statB": 1901
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "BUF-FS-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Declan Rempel",
+    "jerseyNumber": 22,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 222,
+      "college": "Kaneburgh",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 3606149,
+      "capHit": 6598464,
+      "deadCap": 6069592,
+      "signingBonus": 18665198,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 95,
+      "schemeFit": 84,
+      "speed": 86,
+      "acceleration": 79,
+      "agility": 86,
+      "strength": 90,
+      "tackle": 89,
+      "pursuit": 69,
+      "manCoverage": 53,
+      "zoneCoverage": 90,
+      "kickPower": 50,
+      "kickAccuracy": 80,
+      "catching": 64,
+      "routeRunning": 80,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 513,
+        "statB": 671
+      },
+      "career": {
+        "games": 21,
+        "statA": 1058,
+        "statB": 3490
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "BUF-FS-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Kaito Tromp",
+    "jerseyNumber": 24,
+    "position": "FS",
+    "side": "DEF",
     "depth": 2,
     "vitals": {
-      "age": 21,
-      "height": "5'11\"",
-      "weight": 221,
-      "college": "Rogers",
-      "experience": 12,
-      "archetype": "Playmaker",
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 187,
+      "college": "Fort Hassanberg",
+      "experience": 1,
+      "archetype": "Power",
       "handedness": "Left"
     },
     "contract": {
       "years": 5,
-      "totalValue": 98912133,
-      "capHit": 6345543,
-      "deadCap": 5963232,
-      "signingBonus": 19175314,
+      "totalValue": 8897152,
+      "capHit": 14427280,
+      "deadCap": 2197584,
+      "signingBonus": 17154372,
       "expiresYear": 2031,
-      "contractType": "Standard"
+      "contractType": "Extension"
     },
     "ratings": {
-      "overall": 79,
-      "potential": 79,
-      "schemeFit": 83,
+      "overall": 82,
+      "potential": 82,
+      "schemeFit": 93,
       "speed": 70,
-      "acceleration": 78,
-      "agility": 72,
-      "strength": 83,
-      "tackle": 91,
-      "pursuit": 67,
-      "manCoverage": 74,
-      "zoneCoverage": 62,
-      "kickPower": 55,
-      "kickAccuracy": 75,
-      "catching": 68,
-      "routeRunning": 79,
-      "release": 86
+      "acceleration": 70,
+      "agility": 78,
+      "strength": 70,
+      "tackle": 78,
+      "pursuit": 81,
+      "manCoverage": 81,
+      "zoneCoverage": 70,
+      "kickPower": 67,
+      "kickAccuracy": 62,
+      "catching": 95,
+      "routeRunning": 95,
+      "release": 67
     },
     "traits": {
-      "personality": "Fiery",
-      "devTrait": "Star",
-      "clutch": "Low",
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
       "injuryProne": "Medium",
       "workEthic": "Low",
       "leadership": "Low"
@@ -603,1070 +3283,199 @@
     "stats": {
       "season": {
         "games": 9,
-        "statA": 275,
-        "statB": 713
+        "statA": 971,
+        "statB": 548
       },
       "career": {
-        "games": 89,
-        "statA": 3323,
-        "statB": 4856
-      }
-    },
-    "photo": "/player_faces/6.png"
-  },
-  {
-    "id": "BUF-WR-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Clifford Jast",
-    "jerseyNumber": 13,
-    "position": "WR",
-    "side": "OFF",
-    "depth": 3,
-    "vitals": {
-      "age": 28,
-      "height": "6'4\"",
-      "weight": 232,
-      "college": "Beahanland",
-      "experience": 5,
-      "archetype": "Technical",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 78836587,
-      "capHit": 5554958,
-      "deadCap": 5922496,
-      "signingBonus": 5122072,
-      "expiresYear": 2031,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 63,
-      "potential": 68,
-      "schemeFit": 78,
-      "speed": 78,
-      "acceleration": 82,
-      "agility": 75,
-      "strength": 72,
-      "tackle": 77,
-      "pursuit": 80,
-      "manCoverage": 77,
-      "zoneCoverage": 86,
-      "kickPower": 83,
-      "kickAccuracy": 88,
-      "catching": 74,
-      "routeRunning": 71,
-      "release": 91
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Star",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "Average",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 3,
-        "statA": 207,
-        "statB": 638
-      },
-      "career": {
-        "games": 79,
-        "statA": 3182,
-        "statB": 3183
-      }
-    },
-    "photo": "/player_faces/27.png"
-  },
-  {
-    "id": "BUF-WR-4",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Taylor Roob",
-    "jerseyNumber": 35,
-    "position": "WR",
-    "side": "OFF",
-    "depth": 4,
-    "vitals": {
-      "age": 21,
-      "height": "5'11\"",
-      "weight": 187,
-      "college": "North Columbus",
-      "experience": 8,
-      "archetype": "Balanced",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 68320674,
-      "capHit": 11529722,
-      "deadCap": 5037385,
-      "signingBonus": 1112615,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 77,
-      "potential": 77,
-      "schemeFit": 84,
-      "speed": 73,
-      "acceleration": 74,
-      "agility": 77,
-      "strength": 75,
-      "tackle": 66,
-      "pursuit": 94,
-      "manCoverage": 51,
-      "zoneCoverage": 70,
-      "kickPower": 68,
-      "kickAccuracy": 51,
-      "catching": 52,
-      "routeRunning": 82,
-      "release": 72
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Star",
-      "clutch": "Low",
-      "injuryProne": "Medium",
-      "workEthic": "Average",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 16,
-        "statA": 986,
-        "statB": 360
-      },
-      "career": {
-        "games": 77,
-        "statA": 347,
-        "statB": 4684
-      }
-    },
-    "photo": "/player_faces/36.png"
-  },
-  {
-    "id": "BUF-WR-5",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Miss Myra Kuhic III",
-    "jerseyNumber": 4,
-    "position": "WR",
-    "side": "OFF",
-    "depth": 5,
-    "vitals": {
-      "age": 32,
-      "height": "5'11\"",
-      "weight": 246,
-      "college": "New Lexi",
-      "experience": 12,
-      "archetype": "Speed",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 1,
-      "totalValue": 26638033,
-      "capHit": 3752716,
-      "deadCap": 4788279,
-      "signingBonus": 17419444,
-      "expiresYear": 2027,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 71,
-      "potential": 80,
-      "schemeFit": 91,
-      "speed": 91,
-      "acceleration": 77,
-      "agility": 85,
-      "strength": 68,
-      "tackle": 66,
-      "pursuit": 66,
-      "manCoverage": 60,
-      "zoneCoverage": 68,
-      "kickPower": 69,
-      "kickAccuracy": 70,
-      "catching": 77,
-      "routeRunning": 75,
-      "release": 80
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "High",
-      "workEthic": "High",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 12,
-        "statA": 411,
-        "statB": 748
-      },
-      "career": {
-        "games": 113,
-        "statA": 4857,
-        "statB": 404
-      }
-    },
-    "photo": "/player_faces/27.png"
-  },
-  {
-    "id": "BUF-WR-6",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Rose Effertz",
-    "jerseyNumber": 40,
-    "position": "WR",
-    "side": "OFF",
-    "depth": 6,
-    "vitals": {
-      "age": 31,
-      "height": "6'0\"",
-      "weight": 248,
-      "college": "Cruickshankberg",
-      "experience": 10,
-      "archetype": "Field General",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 7128181,
-      "capHit": 16636872,
-      "deadCap": 6211925,
-      "signingBonus": 6098500,
-      "expiresYear": 2028,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 80,
-      "potential": 81,
-      "schemeFit": 90,
-      "speed": 89,
-      "acceleration": 78,
-      "agility": 93,
-      "strength": 83,
-      "tackle": 75,
-      "pursuit": 82,
-      "manCoverage": 88,
-      "zoneCoverage": 52,
-      "kickPower": 83,
-      "kickAccuracy": 76,
-      "catching": 92,
-      "routeRunning": 82,
-      "release": 63
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "Average",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 3,
-        "statA": 660,
-        "statB": 511
-      },
-      "career": {
-        "games": 109,
-        "statA": 3358,
-        "statB": 380
-      }
-    },
-    "photo": "/player_faces/50.png"
-  },
-  {
-    "id": "BUF-WR-7",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Michael Gerlach",
-    "jerseyNumber": 32,
-    "position": "WR",
-    "side": "OFF",
-    "depth": 7,
-    "vitals": {
-      "age": 25,
-      "height": "5'11\"",
-      "weight": 223,
-      "college": "Kirkland",
-      "experience": 5,
-      "archetype": "Playmaker",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 24026741,
-      "capHit": 17081526,
-      "deadCap": 2635920,
-      "signingBonus": 5642265,
-      "expiresYear": 2028,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 84,
-      "potential": 92,
-      "schemeFit": 91,
-      "speed": 73,
-      "acceleration": 90,
-      "agility": 76,
-      "strength": 61,
-      "tackle": 79,
-      "pursuit": 89,
-      "manCoverage": 62,
-      "zoneCoverage": 70,
-      "kickPower": 59,
-      "kickAccuracy": 53,
-      "catching": 79,
-      "routeRunning": 76,
-      "release": 60
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Superstar",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "High",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 13,
-        "statA": 278,
-        "statB": 325
-      },
-      "career": {
-        "games": 24,
-        "statA": 337,
-        "statB": 2985
-      }
-    },
-    "photo": "/player_faces/11.png"
-  },
-  {
-    "id": "BUF-TE-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Lionel Lakin-Carroll",
-    "jerseyNumber": 71,
-    "position": "TE",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 25,
-      "height": "5'9\"",
-      "weight": 326,
-      "college": "Giovannyhaven",
-      "experience": 1,
-      "archetype": "Power",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 1,
-      "totalValue": 3825111,
-      "capHit": 18904943,
-      "deadCap": 955067,
-      "signingBonus": 11413868,
-      "expiresYear": 2027,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 80,
-      "potential": 86,
-      "schemeFit": 95,
-      "speed": 78,
-      "acceleration": 80,
-      "agility": 93,
-      "strength": 90,
-      "tackle": 61,
-      "pursuit": 94,
-      "manCoverage": 71,
-      "zoneCoverage": 68,
-      "kickPower": 51,
-      "kickAccuracy": 50,
-      "catching": 83,
-      "routeRunning": 91,
-      "release": 51
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Medium",
-      "workEthic": "High",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 8,
-        "statA": 918,
-        "statB": 846
-      },
-      "career": {
-        "games": 117,
-        "statA": 1820,
-        "statB": 3985
-      }
-    },
-    "photo": "/player_faces/47.png"
-  },
-  {
-    "id": "BUF-TE-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Kendra Flatley",
-    "jerseyNumber": 97,
-    "position": "TE",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 27,
-      "height": "6'5\"",
-      "weight": 194,
-      "college": "Lake Valerie",
-      "experience": 0,
-      "archetype": "Power",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 47049766,
-      "capHit": 4507576,
-      "deadCap": 3335649,
-      "signingBonus": 3196666,
-      "expiresYear": 2030,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 76,
-      "potential": 76,
-      "schemeFit": 73,
-      "speed": 71,
-      "acceleration": 90,
-      "agility": 70,
-      "strength": 70,
-      "tackle": 62,
-      "pursuit": 89,
-      "manCoverage": 61,
-      "zoneCoverage": 75,
-      "kickPower": 79,
-      "kickAccuracy": 90,
-      "catching": 60,
-      "routeRunning": 58,
-      "release": 94
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Star",
-      "clutch": "Average",
-      "injuryProne": "Medium",
-      "workEthic": "Average",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 6,
-        "statA": 716,
-        "statB": 101
-      },
-      "career": {
-        "games": 11,
-        "statA": 4724,
-        "statB": 4889
+        "games": 30,
+        "statA": 1527,
+        "statB": 779
       }
     },
     "photo": "/player_faces/35.png"
   },
   {
-    "id": "BUF-TE-3",
+    "id": "BUF-SS-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Marjorie Tromp",
-    "jerseyNumber": 35,
-    "position": "TE",
-    "side": "OFF",
-    "depth": 3,
+    "name": "Louis Wiegand",
+    "jerseyNumber": 40,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
     "vitals": {
-      "age": 30,
-      "height": "6'2\"",
-      "weight": 231,
-      "college": "New Casey",
-      "experience": 7,
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 269,
+      "college": "Fort Jaydatown",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 4754494,
+      "capHit": 9545658,
+      "deadCap": 4912338,
+      "signingBonus": 6650474,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 93,
+      "schemeFit": 72,
+      "speed": 85,
+      "acceleration": 85,
+      "agility": 71,
+      "strength": 88,
+      "tackle": 63,
+      "pursuit": 89,
+      "manCoverage": 77,
+      "zoneCoverage": 86,
+      "kickPower": 73,
+      "kickAccuracy": 58,
+      "catching": 78,
+      "routeRunning": 65,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 448,
+        "statB": 972
+      },
+      "career": {
+        "games": 0,
+        "statA": 3449,
+        "statB": 4419
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "BUF-SS-2",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Spencer Lemke",
+    "jerseyNumber": 2,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 206,
+      "college": "Midwest City",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 38956290,
+      "capHit": 21710988,
+      "deadCap": 5767280,
+      "signingBonus": 7371349,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 75,
+      "schemeFit": 89,
+      "speed": 87,
+      "acceleration": 73,
+      "agility": 73,
+      "strength": 82,
+      "tackle": 77,
+      "pursuit": 67,
+      "manCoverage": 83,
+      "zoneCoverage": 60,
+      "kickPower": 58,
+      "kickAccuracy": 85,
+      "catching": 89,
+      "routeRunning": 65,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 150,
+        "statB": 871
+      },
+      "career": {
+        "games": 120,
+        "statA": 3899,
+        "statB": 2240
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "BUF-K-1",
+    "team": "BUF",
+    "teamName": "BUF",
+    "name": "Albert Lockman",
+    "jerseyNumber": 47,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 186,
+      "college": "Vanessaport",
+      "experience": 9,
       "archetype": "Power",
       "handedness": "Right"
     },
     "contract": {
-      "years": 5,
-      "totalValue": 69852591,
-      "capHit": 9495810,
-      "deadCap": 4713032,
-      "signingBonus": 10259508,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 72,
-      "potential": 82,
-      "schemeFit": 75,
-      "speed": 74,
-      "acceleration": 77,
-      "agility": 78,
-      "strength": 82,
-      "tackle": 80,
-      "pursuit": 66,
-      "manCoverage": 67,
-      "zoneCoverage": 84,
-      "kickPower": 59,
-      "kickAccuracy": 59,
-      "catching": 94,
-      "routeRunning": 78,
-      "release": 93
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Star",
-      "clutch": "Low",
-      "injuryProne": "Medium",
-      "workEthic": "Low",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 1,
-        "statA": 566,
-        "statB": 192
-      },
-      "career": {
-        "games": 39,
-        "statA": 64,
-        "statB": 1919
-      }
-    },
-    "photo": "/player_faces/43.png"
-  },
-  {
-    "id": "BUF-LT-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Miss Kathryn Emard",
-    "jerseyNumber": 84,
-    "position": "LT",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 23,
-      "height": "6'5\"",
-      "weight": 330,
-      "college": "Lake Daleworth",
-      "experience": 1,
-      "archetype": "Field General",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 52879406,
-      "capHit": 12327172,
-      "deadCap": 1923063,
-      "signingBonus": 11056060,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 70,
-      "potential": 75,
-      "schemeFit": 70,
-      "speed": 90,
-      "acceleration": 71,
-      "agility": 76,
-      "strength": 84,
-      "tackle": 66,
-      "pursuit": 61,
-      "manCoverage": 79,
-      "zoneCoverage": 69,
-      "kickPower": 89,
-      "kickAccuracy": 83,
-      "catching": 66,
-      "routeRunning": 90,
-      "release": 61
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Star",
-      "clutch": "High",
-      "injuryProne": "Low",
-      "workEthic": "Average",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 6,
-        "statA": 261,
-        "statB": 173
-      },
-      "career": {
-        "games": 33,
-        "statA": 3253,
-        "statB": 193
-      }
-    },
-    "photo": "/player_faces/3.png"
-  },
-  {
-    "id": "BUF-LT-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Dr. Woodrow Gorczany",
-    "jerseyNumber": 51,
-    "position": "LT",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 34,
-      "height": "6'4\"",
-      "weight": 312,
-      "college": "College Station",
-      "experience": 0,
-      "archetype": "Playmaker",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 21314315,
-      "capHit": 10426766,
-      "deadCap": 8426408,
-      "signingBonus": 579504,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 80,
-      "potential": 85,
-      "schemeFit": 78,
-      "speed": 90,
-      "acceleration": 85,
-      "agility": 91,
-      "strength": 75,
-      "tackle": 65,
-      "pursuit": 86,
-      "manCoverage": 81,
-      "zoneCoverage": 84,
-      "kickPower": 93,
-      "kickAccuracy": 90,
-      "catching": 78,
-      "routeRunning": 67,
-      "release": 73
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Normal",
-      "clutch": "Low",
-      "injuryProne": "Low",
-      "workEthic": "High",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 14,
-        "statA": 684,
-        "statB": 564
-      },
-      "career": {
-        "games": 119,
-        "statA": 3525,
-        "statB": 4892
-      }
-    },
-    "photo": "/player_faces/26.png"
-  },
-  {
-    "id": "BUF-LG-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Madeline Schowalter MD",
-    "jerseyNumber": 33,
-    "position": "LG",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 21,
-      "height": "5'9\"",
-      "weight": 327,
-      "college": "North Myraberg",
-      "experience": 12,
-      "archetype": "Balanced",
-      "handedness": "Right"
-    },
-    "contract": {
       "years": 1,
-      "totalValue": 92742658,
-      "capHit": 14486584,
-      "deadCap": 8205261,
-      "signingBonus": 16969351,
+      "totalValue": 38128799,
+      "capHit": 1948542,
+      "deadCap": 8434386,
+      "signingBonus": 2726382,
       "expiresYear": 2027,
       "contractType": "Extension"
     },
     "ratings": {
-      "overall": 66,
-      "potential": 70,
-      "schemeFit": 80,
-      "speed": 84,
-      "acceleration": 79,
-      "agility": 88,
-      "strength": 64,
-      "tackle": 89,
-      "pursuit": 90,
-      "manCoverage": 57,
-      "zoneCoverage": 68,
-      "kickPower": 56,
-      "kickAccuracy": 82,
-      "catching": 58,
-      "routeRunning": 81,
-      "release": 86
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Medium",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 17,
-        "statA": 387,
-        "statB": 830
-      },
-      "career": {
-        "games": 29,
-        "statA": 1205,
-        "statB": 2313
-      }
-    },
-    "photo": "/player_faces/12.png"
-  },
-  {
-    "id": "BUF-LG-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Trevor Cormier",
-    "jerseyNumber": 90,
-    "position": "LG",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 24,
-      "height": "6'0\"",
-      "weight": 286,
-      "college": "Anderson",
-      "experience": 12,
-      "archetype": "Speed",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 54632078,
-      "capHit": 16370481,
-      "deadCap": 566183,
-      "signingBonus": 1118130,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 85,
-      "potential": 92,
-      "schemeFit": 87,
-      "speed": 77,
-      "acceleration": 87,
-      "agility": 81,
-      "strength": 88,
-      "tackle": 61,
-      "pursuit": 77,
-      "manCoverage": 62,
-      "zoneCoverage": 69,
-      "kickPower": 93,
-      "kickAccuracy": 73,
-      "catching": 89,
-      "routeRunning": 75,
-      "release": 67
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Star",
-      "clutch": "Low",
-      "injuryProne": "Low",
-      "workEthic": "Average",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 3,
-        "statA": 208,
-        "statB": 678
-      },
-      "career": {
-        "games": 68,
-        "statA": 4766,
-        "statB": 4994
-      }
-    },
-    "photo": "/player_faces/15.png"
-  },
-  {
-    "id": "BUF-C-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Harold Rolfson",
-    "jerseyNumber": 8,
-    "position": "C",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 31,
-      "height": "5'9\"",
-      "weight": 272,
-      "college": "Lake Martyfurt",
-      "experience": 11,
-      "archetype": "Balanced",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 17984723,
-      "capHit": 16565275,
-      "deadCap": 5420282,
-      "signingBonus": 3456810,
-      "expiresYear": 2030,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 84,
-      "potential": 84,
-      "schemeFit": 86,
-      "speed": 81,
-      "acceleration": 76,
-      "agility": 73,
-      "strength": 90,
-      "tackle": 62,
-      "pursuit": 62,
-      "manCoverage": 61,
-      "zoneCoverage": 85,
-      "kickPower": 53,
-      "kickAccuracy": 70,
-      "catching": 90,
-      "routeRunning": 80,
-      "release": 70
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Star",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 15,
-        "statA": 496,
-        "statB": 346
-      },
-      "career": {
-        "games": 37,
-        "statA": 695,
-        "statB": 1958
-      }
-    },
-    "photo": "/player_faces/22.png"
-  },
-  {
-    "id": "BUF-C-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Javier Mills",
-    "jerseyNumber": 38,
-    "position": "C",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 31,
-      "height": "6'3\"",
-      "weight": 267,
-      "college": "North Waylon",
-      "experience": 8,
-      "archetype": "Technical",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 84347164,
-      "capHit": 8846877,
-      "deadCap": 4768083,
-      "signingBonus": 15557701,
-      "expiresYear": 2031,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 77,
-      "potential": 85,
-      "schemeFit": 73,
-      "speed": 78,
-      "acceleration": 71,
-      "agility": 87,
-      "strength": 77,
-      "tackle": 63,
-      "pursuit": 66,
-      "manCoverage": 88,
-      "zoneCoverage": 63,
-      "kickPower": 73,
-      "kickAccuracy": 86,
-      "catching": 59,
-      "routeRunning": 57,
-      "release": 93
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Normal",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "Average",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 13,
-        "statA": 763,
-        "statB": 316
-      },
-      "career": {
-        "games": 10,
-        "statA": 104,
-        "statB": 3550
-      }
-    },
-    "photo": "/player_faces/33.png"
-  },
-  {
-    "id": "BUF-RG-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Yvette Orn",
-    "jerseyNumber": 99,
-    "position": "RG",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 34,
-      "height": "5'11\"",
-      "weight": 252,
-      "college": "Brigitteborough",
-      "experience": 0,
-      "archetype": "Technical",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 65059631,
-      "capHit": 9281584,
-      "deadCap": 8881257,
-      "signingBonus": 15234639,
-      "expiresYear": 2031,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 68,
-      "potential": 72,
-      "schemeFit": 80,
-      "speed": 74,
-      "acceleration": 93,
-      "agility": 92,
-      "strength": 72,
-      "tackle": 94,
-      "pursuit": 95,
-      "manCoverage": 78,
-      "zoneCoverage": 67,
-      "kickPower": 87,
-      "kickAccuracy": 63,
-      "catching": 94,
-      "routeRunning": 73,
-      "release": 56
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "Medium",
-      "workEthic": "High",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 14,
-        "statA": 824,
-        "statB": 558
-      },
-      "career": {
-        "games": 85,
-        "statA": 4650,
-        "statB": 959
-      }
-    },
-    "photo": "/player_faces/7.png"
-  },
-  {
-    "id": "BUF-RG-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Joe Paucek",
-    "jerseyNumber": 65,
-    "position": "RG",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 23,
-      "height": "6'4\"",
-      "weight": 201,
-      "college": "Francoview",
-      "experience": 0,
-      "archetype": "Speed",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 12930557,
-      "capHit": 20941882,
-      "deadCap": 897937,
-      "signingBonus": 8136933,
-      "expiresYear": 2028,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 63,
-      "potential": 73,
-      "schemeFit": 79,
-      "speed": 82,
-      "acceleration": 74,
-      "agility": 88,
+      "overall": 65,
+      "potential": 71,
+      "schemeFit": 70,
+      "speed": 75,
+      "acceleration": 73,
+      "agility": 84,
       "strength": 79,
-      "tackle": 85,
-      "pursuit": 75,
-      "manCoverage": 73,
-      "zoneCoverage": 81,
-      "kickPower": 72,
-      "kickAccuracy": 94,
-      "catching": 74,
-      "routeRunning": 70,
-      "release": 93
+      "tackle": 79,
+      "pursuit": 84,
+      "manCoverage": 87,
+      "zoneCoverage": 78,
+      "kickPower": 64,
+      "kickAccuracy": 65,
+      "catching": 72,
+      "routeRunning": 52,
+      "release": 95
     },
     "traits": {
-      "personality": "Quiet",
-      "devTrait": "Superstar",
+      "personality": "Calm",
+      "devTrait": "Normal",
       "clutch": "Low",
       "injuryProne": "Low",
       "workEthic": "Average",
@@ -1675,1958 +3484,283 @@
     "stats": {
       "season": {
         "games": 5,
-        "statA": 160,
-        "statB": 843
+        "statA": 738,
+        "statB": 180
       },
       "career": {
-        "games": 46,
-        "statA": 2876,
-        "statB": 591
-      }
-    },
-    "photo": "/player_faces/9.png"
-  },
-  {
-    "id": "BUF-RT-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Dr. Edwin Donnelly",
-    "jerseyNumber": 72,
-    "position": "RT",
-    "side": "OFF",
-    "depth": 1,
-    "vitals": {
-      "age": 32,
-      "height": "5'10\"",
-      "weight": 252,
-      "college": "Waterloo",
-      "experience": 5,
-      "archetype": "Technical",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 3,
-      "totalValue": 8521716,
-      "capHit": 23880192,
-      "deadCap": 2020715,
-      "signingBonus": 2670707,
-      "expiresYear": 2029,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 65,
-      "potential": 71,
-      "schemeFit": 94,
-      "speed": 83,
-      "acceleration": 80,
-      "agility": 89,
-      "strength": 79,
-      "tackle": 78,
-      "pursuit": 67,
-      "manCoverage": 83,
-      "zoneCoverage": 61,
-      "kickPower": 93,
-      "kickAccuracy": 67,
-      "catching": 86,
-      "routeRunning": 57,
-      "release": 50
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 13,
-        "statA": 82,
-        "statB": 965
-      },
-      "career": {
-        "games": 33,
-        "statA": 1785,
-        "statB": 1920
-      }
-    },
-    "photo": "/player_faces/33.png"
-  },
-  {
-    "id": "BUF-RT-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Hannah Block",
-    "jerseyNumber": 58,
-    "position": "RT",
-    "side": "OFF",
-    "depth": 2,
-    "vitals": {
-      "age": 31,
-      "height": "6'3\"",
-      "weight": 265,
-      "college": "Millcreek",
-      "experience": 10,
-      "archetype": "Playmaker",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 18839652,
-      "capHit": 24345388,
-      "deadCap": 3283711,
-      "signingBonus": 1247672,
-      "expiresYear": 2031,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 73,
-      "potential": 79,
-      "schemeFit": 89,
-      "speed": 87,
-      "acceleration": 93,
-      "agility": 73,
-      "strength": 87,
-      "tackle": 88,
-      "pursuit": 63,
-      "manCoverage": 81,
-      "zoneCoverage": 61,
-      "kickPower": 75,
-      "kickAccuracy": 81,
-      "catching": 93,
-      "routeRunning": 86,
-      "release": 90
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "High",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 2,
-        "statA": 611,
-        "statB": 576
-      },
-      "career": {
-        "games": 31,
-        "statA": 2710,
-        "statB": 38
-      }
-    },
-    "photo": "/player_faces/24.png"
-  },
-  {
-    "id": "BUF-EDGE-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Ms. Lynda Bailey",
-    "jerseyNumber": 68,
-    "position": "EDGE",
-    "side": "DEF",
-    "depth": 1,
-    "vitals": {
-      "age": 32,
-      "height": "6'5\"",
-      "weight": 208,
-      "college": "Gottliebshire",
-      "experience": 1,
-      "archetype": "Field General",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 75167205,
-      "capHit": 21653580,
-      "deadCap": 9208194,
-      "signingBonus": 14840032,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 61,
-      "potential": 68,
-      "schemeFit": 77,
-      "speed": 92,
-      "acceleration": 94,
-      "agility": 82,
-      "strength": 86,
-      "tackle": 74,
-      "pursuit": 67,
-      "manCoverage": 90,
-      "zoneCoverage": 52,
-      "kickPower": 60,
-      "kickAccuracy": 85,
-      "catching": 56,
-      "routeRunning": 89,
-      "release": 92
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 16,
-        "statA": 61,
-        "statB": 879
-      },
-      "career": {
-        "games": 63,
-        "statA": 2934,
-        "statB": 1070
-      }
-    },
-    "photo": "/player_faces/4.png"
-  },
-  {
-    "id": "BUF-EDGE-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Betsy Harber",
-    "jerseyNumber": 2,
-    "position": "EDGE",
-    "side": "DEF",
-    "depth": 2,
-    "vitals": {
-      "age": 25,
-      "height": "6'1\"",
-      "weight": 282,
-      "college": "Olgaton",
-      "experience": 9,
-      "archetype": "Power",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 3,
-      "totalValue": 6570981,
-      "capHit": 11929832,
-      "deadCap": 4769892,
-      "signingBonus": 6770215,
-      "expiresYear": 2029,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 69,
-      "potential": 79,
-      "schemeFit": 73,
-      "speed": 95,
-      "acceleration": 93,
-      "agility": 71,
-      "strength": 83,
-      "tackle": 77,
-      "pursuit": 84,
-      "manCoverage": 68,
-      "zoneCoverage": 66,
-      "kickPower": 53,
-      "kickAccuracy": 84,
-      "catching": 88,
-      "routeRunning": 86,
-      "release": 84
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Normal",
-      "clutch": "Low",
-      "injuryProne": "Low",
-      "workEthic": "Average",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 16,
-        "statA": 626,
-        "statB": 777
-      },
-      "career": {
-        "games": 89,
-        "statA": 3805,
-        "statB": 4651
-      }
-    },
-    "photo": "/player_faces/18.png"
-  },
-  {
-    "id": "BUF-EDGE-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Kristin Ratke MD",
-    "jerseyNumber": 35,
-    "position": "EDGE",
-    "side": "DEF",
-    "depth": 3,
-    "vitals": {
-      "age": 24,
-      "height": "6'1\"",
-      "weight": 214,
-      "college": "South Candidatown",
-      "experience": 8,
-      "archetype": "Power",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 81029377,
-      "capHit": 19461287,
-      "deadCap": 6196601,
-      "signingBonus": 624241,
-      "expiresYear": 2031,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 83,
-      "potential": 87,
-      "schemeFit": 70,
-      "speed": 79,
-      "acceleration": 79,
-      "agility": 72,
-      "strength": 60,
-      "tackle": 91,
-      "pursuit": 88,
-      "manCoverage": 63,
-      "zoneCoverage": 68,
-      "kickPower": 72,
-      "kickAccuracy": 89,
-      "catching": 63,
-      "routeRunning": 72,
-      "release": 71
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Superstar",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "High",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 1,
-        "statA": 737,
-        "statB": 389
-      },
-      "career": {
-        "games": 40,
-        "statA": 1011,
-        "statB": 4007
-      }
-    },
-    "photo": "/player_faces/24.png"
-  },
-  {
-    "id": "BUF-EDGE-4",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Mr. Winston Funk",
-    "jerseyNumber": 24,
-    "position": "EDGE",
-    "side": "DEF",
-    "depth": 4,
-    "vitals": {
-      "age": 23,
-      "height": "6'4\"",
-      "weight": 304,
-      "college": "Skilesfurt",
-      "experience": 4,
-      "archetype": "Technical",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 1,
-      "totalValue": 95166488,
-      "capHit": 5835738,
-      "deadCap": 5141910,
-      "signingBonus": 8710604,
-      "expiresYear": 2027,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 84,
-      "potential": 93,
-      "schemeFit": 71,
-      "speed": 83,
-      "acceleration": 75,
-      "agility": 87,
-      "strength": 61,
-      "tackle": 91,
-      "pursuit": 69,
-      "manCoverage": 53,
-      "zoneCoverage": 81,
-      "kickPower": 71,
-      "kickAccuracy": 76,
-      "catching": 59,
-      "routeRunning": 80,
-      "release": 67
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Medium",
-      "workEthic": "High",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 14,
-        "statA": 422,
-        "statB": 979
-      },
-      "career": {
-        "games": 107,
-        "statA": 1732,
-        "statB": 4793
-      }
-    },
-    "photo": "/player_faces/25.png"
-  },
-  {
-    "id": "BUF-EDGE-5",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Bessie Tremblay",
-    "jerseyNumber": 99,
-    "position": "EDGE",
-    "side": "DEF",
-    "depth": 5,
-    "vitals": {
-      "age": 27,
-      "height": "6'1\"",
-      "weight": 309,
-      "college": "North Salvadorfield",
-      "experience": 11,
-      "archetype": "Balanced",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 1,
-      "totalValue": 97452426,
-      "capHit": 14451920,
-      "deadCap": 9899832,
-      "signingBonus": 15948542,
-      "expiresYear": 2027,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 81,
-      "potential": 83,
-      "schemeFit": 91,
-      "speed": 90,
-      "acceleration": 72,
-      "agility": 90,
-      "strength": 65,
-      "tackle": 84,
-      "pursuit": 78,
-      "manCoverage": 59,
-      "zoneCoverage": 76,
-      "kickPower": 65,
-      "kickAccuracy": 65,
-      "catching": 82,
-      "routeRunning": 75,
-      "release": 52
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Star",
-      "clutch": "Average",
-      "injuryProne": "Medium",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 13,
-        "statA": 663,
-        "statB": 825
-      },
-      "career": {
-        "games": 1,
-        "statA": 3329,
-        "statB": 1516
-      }
-    },
-    "photo": "/player_faces/4.png"
-  },
-  {
-    "id": "BUF-DT-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Oscar Keebler",
-    "jerseyNumber": 30,
-    "position": "DT",
-    "side": "DEF",
-    "depth": 1,
-    "vitals": {
-      "age": 33,
-      "height": "5'10\"",
-      "weight": 271,
-      "college": "Camrenbury",
-      "experience": 5,
-      "archetype": "Field General",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 60849888,
-      "capHit": 9254034,
-      "deadCap": 4229335,
-      "signingBonus": 1758300,
-      "expiresYear": 2031,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 82,
-      "potential": 91,
-      "schemeFit": 88,
-      "speed": 85,
-      "acceleration": 83,
-      "agility": 94,
-      "strength": 64,
-      "tackle": 83,
-      "pursuit": 71,
-      "manCoverage": 86,
-      "zoneCoverage": 61,
-      "kickPower": 53,
-      "kickAccuracy": 72,
-      "catching": 54,
-      "routeRunning": 58,
-      "release": 75
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Star",
-      "clutch": "Low",
-      "injuryProne": "Low",
-      "workEthic": "Low",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 0,
-        "statA": 324,
-        "statB": 392
-      },
-      "career": {
-        "games": 55,
-        "statA": 2665,
-        "statB": 381
-      }
-    },
-    "photo": "/player_faces/36.png"
-  },
-  {
-    "id": "BUF-DT-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Juanita Runte",
-    "jerseyNumber": 61,
-    "position": "DT",
-    "side": "DEF",
-    "depth": 2,
-    "vitals": {
-      "age": 30,
-      "height": "6'4\"",
-      "weight": 313,
-      "college": "Largo",
-      "experience": 2,
-      "archetype": "Technical",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 56443942,
-      "capHit": 17651126,
-      "deadCap": 6105692,
-      "signingBonus": 3923613,
-      "expiresYear": 2031,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 72,
-      "potential": 75,
-      "schemeFit": 94,
-      "speed": 94,
-      "acceleration": 89,
-      "agility": 78,
-      "strength": 84,
-      "tackle": 87,
-      "pursuit": 74,
-      "manCoverage": 83,
-      "zoneCoverage": 60,
-      "kickPower": 76,
-      "kickAccuracy": 67,
-      "catching": 84,
-      "routeRunning": 69,
-      "release": 93
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Star",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 12,
-        "statA": 502,
-        "statB": 46
-      },
-      "career": {
-        "games": 11,
-        "statA": 3791,
-        "statB": 467
-      }
-    },
-    "photo": "/player_faces/3.png"
-  },
-  {
-    "id": "BUF-DT-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Benny Schmitt-Bayer",
-    "jerseyNumber": 5,
-    "position": "DT",
-    "side": "DEF",
-    "depth": 3,
-    "vitals": {
-      "age": 25,
-      "height": "6'5\"",
-      "weight": 263,
-      "college": "Fort Juvenal",
-      "experience": 7,
-      "archetype": "Field General",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 79327172,
-      "capHit": 16614399,
-      "deadCap": 6850447,
-      "signingBonus": 15714849,
-      "expiresYear": 2028,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 63,
-      "potential": 65,
-      "schemeFit": 86,
-      "speed": 81,
-      "acceleration": 93,
-      "agility": 77,
-      "strength": 62,
-      "tackle": 63,
-      "pursuit": 82,
-      "manCoverage": 76,
-      "zoneCoverage": 77,
-      "kickPower": 85,
-      "kickAccuracy": 55,
-      "catching": 87,
-      "routeRunning": 73,
-      "release": 95
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Superstar",
-      "clutch": "Average",
-      "injuryProne": "Medium",
-      "workEthic": "High",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 11,
-        "statA": 269,
-        "statB": 222
-      },
-      "career": {
-        "games": 26,
-        "statA": 3149,
-        "statB": 2677
-      }
-    },
-    "photo": "/player_faces/48.png"
-  },
-  {
-    "id": "BUF-DT-4",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Javier Kerluke",
-    "jerseyNumber": 12,
-    "position": "DT",
-    "side": "DEF",
-    "depth": 4,
-    "vitals": {
-      "age": 26,
-      "height": "6'4\"",
-      "weight": 282,
-      "college": "South Rowena",
-      "experience": 9,
-      "archetype": "Technical",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 20665101,
-      "capHit": 13528445,
-      "deadCap": 1265254,
-      "signingBonus": 12941260,
-      "expiresYear": 2030,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 81,
-      "potential": 81,
-      "schemeFit": 79,
-      "speed": 75,
-      "acceleration": 93,
-      "agility": 82,
-      "strength": 72,
-      "tackle": 68,
-      "pursuit": 86,
-      "manCoverage": 84,
-      "zoneCoverage": 61,
-      "kickPower": 70,
-      "kickAccuracy": 66,
-      "catching": 80,
-      "routeRunning": 64,
-      "release": 94
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Normal",
-      "clutch": "High",
-      "injuryProne": "Medium",
-      "workEthic": "High",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 10,
-        "statA": 134,
-        "statB": 556
-      },
-      "career": {
-        "games": 80,
-        "statA": 3279,
-        "statB": 50
-      }
-    },
-    "photo": "/player_faces/41.png"
-  },
-  {
-    "id": "BUF-MLB-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Kelley Heaney",
-    "jerseyNumber": 45,
-    "position": "MLB",
-    "side": "DEF",
-    "depth": 1,
-    "vitals": {
-      "age": 31,
-      "height": "6'2\"",
-      "weight": 318,
-      "college": "Haagstad",
-      "experience": 3,
-      "archetype": "Balanced",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 109032452,
-      "capHit": 16982108,
-      "deadCap": 3094161,
-      "signingBonus": 18488868,
-      "expiresYear": 2031,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 75,
-      "potential": 78,
-      "schemeFit": 75,
-      "speed": 86,
-      "acceleration": 86,
-      "agility": 83,
-      "strength": 78,
-      "tackle": 92,
-      "pursuit": 95,
-      "manCoverage": 69,
-      "zoneCoverage": 78,
-      "kickPower": 84,
-      "kickAccuracy": 71,
-      "catching": 55,
-      "routeRunning": 65,
-      "release": 73
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "Medium",
-      "workEthic": "Average",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 12,
-        "statA": 23,
-        "statB": 665
-      },
-      "career": {
-        "games": 6,
-        "statA": 3421,
-        "statB": 1225
-      }
-    },
-    "photo": "/player_faces/36.png"
-  },
-  {
-    "id": "BUF-MLB-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Lucas Gulgowski",
-    "jerseyNumber": 92,
-    "position": "MLB",
-    "side": "DEF",
-    "depth": 2,
-    "vitals": {
-      "age": 33,
-      "height": "6'5\"",
-      "weight": 234,
-      "college": "Kobyside",
-      "experience": 11,
-      "archetype": "Power",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 5,
-      "totalValue": 4458208,
-      "capHit": 5211248,
-      "deadCap": 6070378,
-      "signingBonus": 4076658,
-      "expiresYear": 2031,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 71,
-      "potential": 75,
-      "schemeFit": 81,
-      "speed": 71,
-      "acceleration": 94,
-      "agility": 79,
-      "strength": 72,
-      "tackle": 93,
-      "pursuit": 88,
-      "manCoverage": 50,
-      "zoneCoverage": 62,
-      "kickPower": 79,
-      "kickAccuracy": 53,
-      "catching": 84,
-      "routeRunning": 70,
-      "release": 72
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Normal",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "Average",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 1,
-        "statA": 190,
-        "statB": 259
-      },
-      "career": {
-        "games": 43,
-        "statA": 4250,
-        "statB": 4460
-      }
-    },
-    "photo": "/player_faces/14.png"
-  },
-  {
-    "id": "BUF-MLB-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Archie D'Amore",
-    "jerseyNumber": 18,
-    "position": "MLB",
-    "side": "DEF",
-    "depth": 3,
-    "vitals": {
-      "age": 31,
-      "height": "6'2\"",
-      "weight": 226,
-      "college": "Harrisonburg",
-      "experience": 4,
-      "archetype": "Speed",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 37611590,
-      "capHit": 22854791,
-      "deadCap": 9030807,
-      "signingBonus": 16655642,
-      "expiresYear": 2030,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 71,
-      "potential": 75,
-      "schemeFit": 92,
-      "speed": 76,
-      "acceleration": 93,
-      "agility": 77,
-      "strength": 61,
-      "tackle": 73,
-      "pursuit": 86,
-      "manCoverage": 66,
-      "zoneCoverage": 53,
-      "kickPower": 86,
-      "kickAccuracy": 71,
-      "catching": 94,
-      "routeRunning": 70,
-      "release": 94
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Star",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "High",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 14,
-        "statA": 758,
-        "statB": 959
-      },
-      "career": {
-        "games": 2,
-        "statA": 4352,
-        "statB": 3006
-      }
-    },
-    "photo": "/player_faces/40.png"
-  },
-  {
-    "id": "BUF-OLB-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Sam Lesch",
-    "jerseyNumber": 83,
-    "position": "OLB",
-    "side": "DEF",
-    "depth": 1,
-    "vitals": {
-      "age": 24,
-      "height": "6'2\"",
-      "weight": 220,
-      "college": "New Josiane",
-      "experience": 10,
-      "archetype": "Playmaker",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 79482603,
-      "capHit": 19320382,
-      "deadCap": 1452819,
-      "signingBonus": 409115,
-      "expiresYear": 2028,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 61,
-      "potential": 69,
-      "schemeFit": 89,
-      "speed": 91,
-      "acceleration": 70,
-      "agility": 73,
-      "strength": 68,
-      "tackle": 80,
-      "pursuit": 60,
-      "manCoverage": 62,
-      "zoneCoverage": 69,
-      "kickPower": 86,
-      "kickAccuracy": 80,
-      "catching": 67,
-      "routeRunning": 55,
-      "release": 75
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 10,
-        "statA": 363,
-        "statB": 707
-      },
-      "career": {
-        "games": 69,
-        "statA": 4447,
-        "statB": 3464
+        "games": 114,
+        "statA": 145,
+        "statB": 3300
       }
     },
     "photo": "/player_faces/15.png"
   },
   {
-    "id": "BUF-OLB-2",
+    "id": "BUF-P-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Jan Kautzer-Dach Jr.",
-    "jerseyNumber": 21,
-    "position": "OLB",
-    "side": "DEF",
-    "depth": 2,
+    "name": "Spencer Lueilwitz-Langosh",
+    "jerseyNumber": 68,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
     "vitals": {
-      "age": 29,
-      "height": "6'5\"",
-      "weight": 185,
-      "college": "Lake Mandybury",
-      "experience": 9,
-      "archetype": "Field General",
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 192,
+      "college": "Hempstead",
+      "experience": 10,
+      "archetype": "Playmaker",
       "handedness": "Left"
     },
     "contract": {
-      "years": 5,
-      "totalValue": 47441246,
-      "capHit": 1396868,
-      "deadCap": 3056826,
-      "signingBonus": 16070287,
-      "expiresYear": 2031,
-      "contractType": "Standard"
+      "years": 1,
+      "totalValue": 28112216,
+      "capHit": 8881746,
+      "deadCap": 2206001,
+      "signingBonus": 16439879,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
     },
     "ratings": {
-      "overall": 84,
-      "potential": 84,
-      "schemeFit": 76,
-      "speed": 85,
-      "acceleration": 82,
-      "agility": 90,
-      "strength": 61,
-      "tackle": 87,
-      "pursuit": 82,
-      "manCoverage": 60,
-      "zoneCoverage": 88,
-      "kickPower": 80,
-      "kickAccuracy": 93,
-      "catching": 69,
+      "overall": 61,
+      "potential": 62,
+      "schemeFit": 73,
+      "speed": 88,
+      "acceleration": 74,
+      "agility": 74,
+      "strength": 77,
+      "tackle": 86,
+      "pursuit": 72,
+      "manCoverage": 72,
+      "zoneCoverage": 77,
+      "kickPower": 81,
+      "kickAccuracy": 61,
+      "catching": 92,
       "routeRunning": 91,
-      "release": 58
+      "release": 76
     },
     "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "Medium",
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
       "workEthic": "Average",
       "leadership": "Average"
     },
     "stats": {
       "season": {
         "games": 4,
-        "statA": 231,
-        "statB": 424
+        "statA": 721,
+        "statB": 31
       },
       "career": {
-        "games": 100,
-        "statA": 174,
-        "statB": 1782
+        "games": 92,
+        "statA": 3081,
+        "statB": 2598
       }
     },
-    "photo": "/player_faces/34.png"
+    "photo": "/player_faces/7.png"
   },
   {
-    "id": "BUF-OLB-3",
+    "id": "BUF-LS-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Beatrice Bednar",
-    "jerseyNumber": 33,
-    "position": "OLB",
-    "side": "DEF",
-    "depth": 3,
+    "name": "James Balistreri",
+    "jerseyNumber": 82,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
     "vitals": {
-      "age": 33,
-      "height": "6'3\"",
-      "weight": 312,
-      "college": "Donatoborough",
-      "experience": 9,
-      "archetype": "Field General",
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 263,
+      "college": "Fort Jason",
+      "experience": 4,
+      "archetype": "Playmaker",
       "handedness": "Right"
     },
     "contract": {
       "years": 1,
-      "totalValue": 62024859,
-      "capHit": 23198806,
-      "deadCap": 7640378,
-      "signingBonus": 8797659,
+      "totalValue": 59554026,
+      "capHit": 21109179,
+      "deadCap": 7114023,
+      "signingBonus": 4998008,
       "expiresYear": 2027,
-      "contractType": "Extension"
+      "contractType": "Rookie"
     },
     "ratings": {
-      "overall": 79,
-      "potential": 84,
-      "schemeFit": 84,
-      "speed": 83,
-      "acceleration": 88,
-      "agility": 93,
-      "strength": 82,
-      "tackle": 75,
-      "pursuit": 65,
-      "manCoverage": 87,
-      "zoneCoverage": 78,
-      "kickPower": 94,
-      "kickAccuracy": 81,
-      "catching": 54,
-      "routeRunning": 80,
-      "release": 77
+      "overall": 81,
+      "potential": 85,
+      "schemeFit": 74,
+      "speed": 90,
+      "acceleration": 87,
+      "agility": 74,
+      "strength": 83,
+      "tackle": 82,
+      "pursuit": 72,
+      "manCoverage": 83,
+      "zoneCoverage": 81,
+      "kickPower": 95,
+      "kickAccuracy": 69,
+      "catching": 87,
+      "routeRunning": 86,
+      "release": 86
     },
     "traits": {
-      "personality": "Quiet",
+      "personality": "Leader",
       "devTrait": "Normal",
-      "clutch": "Low",
+      "clutch": "Average",
       "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "Average"
+      "workEthic": "Average",
+      "leadership": "Low"
     },
     "stats": {
       "season": {
-        "games": 7,
-        "statA": 453,
-        "statB": 450
+        "games": 17,
+        "statA": 713,
+        "statB": 997
       },
       "career": {
-        "games": 85,
-        "statA": 4401,
-        "statB": 3531
+        "games": 93,
+        "statA": 1118,
+        "statB": 2061
       }
     },
-    "photo": "/player_faces/13.png"
+    "photo": "/player_faces/5.png"
   },
   {
-    "id": "BUF-CB-1",
+    "id": "BUF-KR-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Katie Raynor",
-    "jerseyNumber": 8,
-    "position": "CB",
-    "side": "DEF",
+    "name": "Takumi Fay",
+    "jerseyNumber": 12,
+    "position": "KR",
+    "side": "OFF",
     "depth": 1,
     "vitals": {
       "age": 30,
-      "height": "5'11\"",
+      "height": "5'10\"",
       "weight": 279,
-      "college": "New Camren",
-      "experience": 0,
+      "college": "East Dion",
+      "experience": 12,
       "archetype": "Playmaker",
       "handedness": "Left"
     },
     "contract": {
       "years": 5,
-      "totalValue": 23319340,
-      "capHit": 6090597,
-      "deadCap": 7974164,
-      "signingBonus": 6901156,
+      "totalValue": 104301705,
+      "capHit": 20915616,
+      "deadCap": 7238363,
+      "signingBonus": 12864819,
       "expiresYear": 2031,
-      "contractType": "Standard"
+      "contractType": "Extension"
     },
     "ratings": {
-      "overall": 78,
+      "overall": 73,
       "potential": 81,
-      "schemeFit": 70,
-      "speed": 77,
-      "acceleration": 94,
-      "agility": 75,
-      "strength": 74,
-      "tackle": 77,
-      "pursuit": 87,
-      "manCoverage": 71,
-      "zoneCoverage": 53,
-      "kickPower": 56,
-      "kickAccuracy": 57,
-      "catching": 90,
-      "routeRunning": 71,
-      "release": 53
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Normal",
-      "clutch": "Average",
-      "injuryProne": "Low",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 15,
-        "statA": 342,
-        "statB": 603
-      },
-      "career": {
-        "games": 73,
-        "statA": 1850,
-        "statB": 1744
-      }
-    },
-    "photo": "/player_faces/1.png"
-  },
-  {
-    "id": "BUF-CB-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Miss Lindsay Bayer",
-    "jerseyNumber": 64,
-    "position": "CB",
-    "side": "DEF",
-    "depth": 2,
-    "vitals": {
-      "age": 26,
-      "height": "6'3\"",
-      "weight": 276,
-      "college": "Bonita Springs",
-      "experience": 2,
-      "archetype": "Speed",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 106593276,
-      "capHit": 22341667,
-      "deadCap": 7085410,
-      "signingBonus": 14735452,
-      "expiresYear": 2030,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 74,
-      "potential": 74,
-      "schemeFit": 79,
-      "speed": 82,
-      "acceleration": 94,
-      "agility": 78,
-      "strength": 65,
-      "tackle": 80,
-      "pursuit": 71,
-      "manCoverage": 57,
-      "zoneCoverage": 50,
-      "kickPower": 58,
-      "kickAccuracy": 89,
-      "catching": 67,
-      "routeRunning": 58,
-      "release": 73
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "Medium",
-      "workEthic": "High",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 9,
-        "statA": 783,
-        "statB": 602
-      },
-      "career": {
-        "games": 81,
-        "statA": 4883,
-        "statB": 1322
-      }
-    },
-    "photo": "/player_faces/20.png"
-  },
-  {
-    "id": "BUF-CB-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Luther Marquardt",
-    "jerseyNumber": 27,
-    "position": "CB",
-    "side": "DEF",
-    "depth": 3,
-    "vitals": {
-      "age": 21,
-      "height": "6'4\"",
-      "weight": 249,
-      "college": "North Modestastead",
-      "experience": 2,
-      "archetype": "Power",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 1,
-      "totalValue": 77653604,
-      "capHit": 2627149,
-      "deadCap": 9638379,
-      "signingBonus": 6111301,
-      "expiresYear": 2027,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 75,
-      "potential": 84,
-      "schemeFit": 80,
-      "speed": 78,
-      "acceleration": 84,
-      "agility": 79,
-      "strength": 60,
-      "tackle": 91,
-      "pursuit": 95,
-      "manCoverage": 56,
-      "zoneCoverage": 59,
-      "kickPower": 52,
-      "kickAccuracy": 81,
-      "catching": 65,
-      "routeRunning": 69,
-      "release": 69
+      "schemeFit": 86,
+      "speed": 76,
+      "acceleration": 85,
+      "agility": 81,
+      "strength": 91,
+      "tackle": 81,
+      "pursuit": 69,
+      "manCoverage": 86,
+      "zoneCoverage": 58,
+      "kickPower": 91,
+      "kickAccuracy": 95,
+      "catching": 74,
+      "routeRunning": 70,
+      "release": 54
     },
     "traits": {
       "personality": "Quiet",
       "devTrait": "Star",
-      "clutch": "Low",
-      "injuryProne": "Medium",
-      "workEthic": "Average",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 3,
-        "statA": 701,
-        "statB": 603
-      },
-      "career": {
-        "games": 67,
-        "statA": 4933,
-        "statB": 2066
-      }
-    },
-    "photo": "/player_faces/27.png"
-  },
-  {
-    "id": "BUF-CB-4",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Philip Rosenbaum",
-    "jerseyNumber": 47,
-    "position": "CB",
-    "side": "DEF",
-    "depth": 4,
-    "vitals": {
-      "age": 33,
-      "height": "5'11\"",
-      "weight": 206,
-      "college": "Sarasota",
-      "experience": 10,
-      "archetype": "Playmaker",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 3,
-      "totalValue": 57616061,
-      "capHit": 12892971,
-      "deadCap": 7714368,
-      "signingBonus": 4093353,
-      "expiresYear": 2029,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 74,
-      "potential": 78,
-      "schemeFit": 95,
-      "speed": 75,
-      "acceleration": 79,
-      "agility": 93,
-      "strength": 64,
-      "tackle": 66,
-      "pursuit": 63,
-      "manCoverage": 68,
-      "zoneCoverage": 60,
-      "kickPower": 87,
-      "kickAccuracy": 80,
-      "catching": 63,
-      "routeRunning": 67,
-      "release": 95
-    },
-    "traits": {
-      "personality": "Leader",
-      "devTrait": "Star",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 17,
-        "statA": 357,
-        "statB": 708
-      },
-      "career": {
-        "games": 24,
-        "statA": 3865,
-        "statB": 2734
-      }
-    },
-    "photo": "/player_faces/20.png"
-  },
-  {
-    "id": "BUF-CB-5",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Randolph Hane-Crist",
-    "jerseyNumber": 61,
-    "position": "CB",
-    "side": "DEF",
-    "depth": 5,
-    "vitals": {
-      "age": 24,
-      "height": "6'4\"",
-      "weight": 271,
-      "college": "Keeleystead",
-      "experience": 9,
-      "archetype": "Power",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 86994757,
-      "capHit": 21716350,
-      "deadCap": 5698901,
-      "signingBonus": 16215831,
-      "expiresYear": 2030,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 68,
-      "potential": 75,
-      "schemeFit": 84,
-      "speed": 80,
-      "acceleration": 86,
-      "agility": 76,
-      "strength": 74,
-      "tackle": 79,
-      "pursuit": 90,
-      "manCoverage": 75,
-      "zoneCoverage": 79,
-      "kickPower": 67,
-      "kickAccuracy": 82,
-      "catching": 55,
-      "routeRunning": 84,
-      "release": 75
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Superstar",
       "clutch": "Average",
-      "injuryProne": "Low",
+      "injuryProne": "Medium",
       "workEthic": "Average",
       "leadership": "Low"
     },
     "stats": {
       "season": {
-        "games": 9,
-        "statA": 106,
-        "statB": 842
+        "games": 8,
+        "statA": 92,
+        "statB": 740
       },
       "career": {
-        "games": 59,
-        "statA": 4374,
-        "statB": 4748
+        "games": 18,
+        "statA": 3053,
+        "statB": 919
       }
     },
-    "photo": "/player_faces/4.png"
+    "photo": "/player_faces/29.png"
   },
   {
-    "id": "BUF-CB-6",
+    "id": "BUF-PR-1",
     "team": "BUF",
     "teamName": "BUF",
-    "name": "Henry Pouros",
-    "jerseyNumber": 9,
-    "position": "CB",
-    "side": "DEF",
-    "depth": 6,
-    "vitals": {
-      "age": 22,
-      "height": "5'10\"",
-      "weight": 231,
-      "college": "West Berniebury",
-      "experience": 8,
-      "archetype": "Technical",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 15942150,
-      "capHit": 18142496,
-      "deadCap": 3114588,
-      "signingBonus": 3621791,
-      "expiresYear": 2028,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 61,
-      "potential": 63,
-      "schemeFit": 70,
-      "speed": 85,
-      "acceleration": 80,
-      "agility": 83,
-      "strength": 70,
-      "tackle": 85,
-      "pursuit": 83,
-      "manCoverage": 73,
-      "zoneCoverage": 56,
-      "kickPower": 84,
-      "kickAccuracy": 82,
-      "catching": 90,
-      "routeRunning": 78,
-      "release": 81
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Normal",
-      "clutch": "Low",
-      "injuryProne": "High",
-      "workEthic": "Average",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 1,
-        "statA": 958,
-        "statB": 295
-      },
-      "career": {
-        "games": 62,
-        "statA": 1579,
-        "statB": 1421
-      }
-    },
-    "photo": "/player_faces/38.png"
-  },
-  {
-    "id": "BUF-S-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Dustin Quigley",
-    "jerseyNumber": 90,
-    "position": "S",
-    "side": "DEF",
+    "name": "Kaito Gusikowski",
+    "jerseyNumber": 40,
+    "position": "PR",
+    "side": "OFF",
     "depth": 1,
     "vitals": {
-      "age": 27,
-      "height": "6'3\"",
-      "weight": 227,
-      "college": "Axelville",
-      "experience": 12,
-      "archetype": "Field General",
-      "handedness": "Left"
-    },
-    "contract": {
-      "years": 4,
-      "totalValue": 79681205,
-      "capHit": 2684502,
-      "deadCap": 9992510,
-      "signingBonus": 3788853,
-      "expiresYear": 2030,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 74,
-      "potential": 79,
-      "schemeFit": 82,
-      "speed": 73,
-      "acceleration": 79,
-      "agility": 91,
-      "strength": 70,
-      "tackle": 77,
-      "pursuit": 73,
-      "manCoverage": 65,
-      "zoneCoverage": 75,
-      "kickPower": 61,
-      "kickAccuracy": 50,
-      "catching": 52,
-      "routeRunning": 66,
-      "release": 62
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Superstar",
-      "clutch": "Low",
-      "injuryProne": "High",
-      "workEthic": "High",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 1,
-        "statA": 807,
-        "statB": 937
-      },
-      "career": {
-        "games": 70,
-        "statA": 3021,
-        "statB": 2473
-      }
-    },
-    "photo": "/player_faces/46.png"
-  },
-  {
-    "id": "BUF-S-2",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Peter Kuhn",
-    "jerseyNumber": 60,
-    "position": "S",
-    "side": "DEF",
-    "depth": 2,
-    "vitals": {
-      "age": 22,
-      "height": "6'2\"",
-      "weight": 320,
-      "college": "Glennieborough",
-      "experience": 6,
-      "archetype": "Balanced",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 39651042,
-      "capHit": 17212114,
-      "deadCap": 1696676,
-      "signingBonus": 12585123,
-      "expiresYear": 2028,
-      "contractType": "Standard"
-    },
-    "ratings": {
-      "overall": 63,
-      "potential": 65,
-      "schemeFit": 92,
-      "speed": 95,
-      "acceleration": 76,
-      "agility": 84,
-      "strength": 60,
-      "tackle": 77,
-      "pursuit": 85,
-      "manCoverage": 55,
-      "zoneCoverage": 88,
-      "kickPower": 81,
-      "kickAccuracy": 93,
-      "catching": 58,
-      "routeRunning": 67,
-      "release": 93
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Star",
-      "clutch": "High",
-      "injuryProne": "High",
-      "workEthic": "Low",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 7,
-        "statA": 352,
-        "statB": 444
-      },
-      "career": {
-        "games": 2,
-        "statA": 2161,
-        "statB": 2472
-      }
-    },
-    "photo": "/player_faces/46.png"
-  },
-  {
-    "id": "BUF-S-3",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Dr. Kayla Reichert",
-    "jerseyNumber": 87,
-    "position": "S",
-    "side": "DEF",
-    "depth": 3,
-    "vitals": {
-      "age": 30,
-      "height": "5'10\"",
-      "weight": 329,
-      "college": "Manhattan",
-      "experience": 0,
-      "archetype": "Speed",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 2,
-      "totalValue": 65826210,
-      "capHit": 21104464,
-      "deadCap": 2617294,
-      "signingBonus": 6854687,
-      "expiresYear": 2028,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 74,
-      "potential": 82,
-      "schemeFit": 77,
-      "speed": 81,
-      "acceleration": 74,
-      "agility": 86,
-      "strength": 65,
-      "tackle": 89,
-      "pursuit": 86,
-      "manCoverage": 60,
-      "zoneCoverage": 79,
-      "kickPower": 65,
-      "kickAccuracy": 79,
-      "catching": 73,
-      "routeRunning": 73,
-      "release": 62
-    },
-    "traits": {
-      "personality": "Calm",
-      "devTrait": "Star",
-      "clutch": "High",
-      "injuryProne": "Medium",
-      "workEthic": "Low",
-      "leadership": "High"
-    },
-    "stats": {
-      "season": {
-        "games": 5,
-        "statA": 109,
-        "statB": 280
-      },
-      "career": {
-        "games": 79,
-        "statA": 1490,
-        "statB": 814
-      }
-    },
-    "photo": "/player_faces/23.png"
-  },
-  {
-    "id": "BUF-S-4",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Miss Sandra Nolan",
-    "jerseyNumber": 57,
-    "position": "S",
-    "side": "DEF",
-    "depth": 4,
-    "vitals": {
-      "age": 28,
+      "age": 26,
       "height": "5'9\"",
-      "weight": 258,
-      "college": "Danaland",
+      "weight": 242,
+      "college": "Mosciskiborough",
       "experience": 4,
       "archetype": "Power",
       "handedness": "Left"
     },
     "contract": {
-      "years": 4,
-      "totalValue": 34149609,
-      "capHit": 9675454,
-      "deadCap": 7786945,
-      "signingBonus": 16014783,
-      "expiresYear": 2030,
-      "contractType": "Rookie"
-    },
-    "ratings": {
-      "overall": 73,
-      "potential": 78,
-      "schemeFit": 89,
-      "speed": 89,
-      "acceleration": 77,
-      "agility": 78,
-      "strength": 92,
-      "tackle": 90,
-      "pursuit": 78,
-      "manCoverage": 57,
-      "zoneCoverage": 59,
-      "kickPower": 85,
-      "kickAccuracy": 95,
-      "catching": 83,
-      "routeRunning": 78,
-      "release": 51
-    },
-    "traits": {
-      "personality": "Quiet",
-      "devTrait": "Superstar",
-      "clutch": "High",
-      "injuryProne": "Low",
-      "workEthic": "High",
-      "leadership": "Low"
-    },
-    "stats": {
-      "season": {
-        "games": 10,
-        "statA": 462,
-        "statB": 778
-      },
-      "career": {
-        "games": 93,
-        "statA": 2132,
-        "statB": 674
-      }
-    },
-    "photo": "/player_faces/12.png"
-  },
-  {
-    "id": "BUF-K-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Raul Kerluke DDS",
-    "jerseyNumber": 35,
-    "position": "K",
-    "side": "ST",
-    "depth": 1,
-    "vitals": {
-      "age": 32,
-      "height": "5'9\"",
-      "weight": 204,
-      "college": "Fort Ocie",
-      "experience": 9,
-      "archetype": "Field General",
-      "handedness": "Right"
-    },
-    "contract": {
-      "years": 3,
-      "totalValue": 48011845,
-      "capHit": 1249239,
-      "deadCap": 4774606,
-      "signingBonus": 13602967,
-      "expiresYear": 2029,
-      "contractType": "Extension"
-    },
-    "ratings": {
-      "overall": 73,
-      "potential": 75,
-      "schemeFit": 74,
-      "speed": 77,
-      "acceleration": 83,
-      "agility": 86,
-      "strength": 78,
-      "tackle": 67,
-      "pursuit": 66,
-      "manCoverage": 67,
-      "zoneCoverage": 77,
-      "kickPower": 85,
-      "kickAccuracy": 76,
-      "catching": 52,
-      "routeRunning": 91,
-      "release": 62
-    },
-    "traits": {
-      "personality": "Fiery",
-      "devTrait": "Normal",
-      "clutch": "Average",
-      "injuryProne": "High",
-      "workEthic": "High",
-      "leadership": "Average"
-    },
-    "stats": {
-      "season": {
-        "games": 16,
-        "statA": 207,
-        "statB": 504
-      },
-      "career": {
-        "games": 41,
-        "statA": 1142,
-        "statB": 3568
-      }
-    },
-    "photo": "/player_faces/10.png"
-  },
-  {
-    "id": "BUF-P-1",
-    "team": "BUF",
-    "teamName": "BUF",
-    "name": "Freda King DVM",
-    "jerseyNumber": 10,
-    "position": "P",
-    "side": "ST",
-    "depth": 1,
-    "vitals": {
-      "age": 26,
-      "height": "5'10\"",
-      "weight": 246,
-      "college": "West Vita",
-      "experience": 6,
-      "archetype": "Speed",
-      "handedness": "Right"
-    },
-    "contract": {
       "years": 5,
-      "totalValue": 81724925,
-      "capHit": 1604495,
-      "deadCap": 6360311,
-      "signingBonus": 5895256,
+      "totalValue": 69385679,
+      "capHit": 18473430,
+      "deadCap": 8150445,
+      "signingBonus": 11564149,
       "expiresYear": 2031,
       "contractType": "Rookie"
     },
     "ratings": {
-      "overall": 75,
-      "potential": 85,
-      "schemeFit": 94,
-      "speed": 76,
-      "acceleration": 71,
-      "agility": 93,
-      "strength": 75,
-      "tackle": 61,
-      "pursuit": 80,
-      "manCoverage": 63,
-      "zoneCoverage": 65,
-      "kickPower": 52,
-      "kickAccuracy": 64,
-      "catching": 81,
-      "routeRunning": 71,
-      "release": 79
+      "overall": 60,
+      "potential": 62,
+      "schemeFit": 83,
+      "speed": 92,
+      "acceleration": 70,
+      "agility": 72,
+      "strength": 94,
+      "tackle": 74,
+      "pursuit": 79,
+      "manCoverage": 66,
+      "zoneCoverage": 53,
+      "kickPower": 57,
+      "kickAccuracy": 90,
+      "catching": 67,
+      "routeRunning": 68,
+      "release": 65
     },
     "traits": {
-      "personality": "Leader",
-      "devTrait": "Superstar",
-      "clutch": "Average",
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
       "injuryProne": "High",
-      "workEthic": "Average",
-      "leadership": "Low"
+      "workEthic": "Low",
+      "leadership": "High"
     },
     "stats": {
       "season": {
-        "games": 5,
-        "statA": 693,
-        "statB": 178
+        "games": 14,
+        "statA": 379,
+        "statB": 698
       },
       "career": {
-        "games": 7,
-        "statA": 1076,
-        "statB": 390
+        "games": 86,
+        "statA": 822,
+        "statB": 4267
       }
     },
-    "photo": "/player_faces/8.png"
+    "photo": "/player_faces/42.png"
   }
 ]

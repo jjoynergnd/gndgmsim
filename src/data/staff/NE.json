@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  73,
-               "name":  "Evan Wright"
-           },
-    "OC":  {
-               "rating":  68,
-               "name":  "Evan Wynn"
-           },
-    "DC":  {
-               "rating":  66,
-               "name":  "Chase Wynn"
-           }
-}
+[
+  {
+    "id": "NE-STAFF-1",
+    "team": "NE",
+    "role": "Head Coach",
+    "name": "Austin Bayer",
+    "vitals": {
+      "age": 45,
+      "experience": 32
+    },
+    "ratings": {
+      "leadership": 66,
+      "discipline": 90,
+      "schemeKnowledge": 89,
+      "playerDev": 82,
+      "motivation": 63,
+      "injuryManagement": 54,
+      "conditioning": 67,
+      "analyticsIQ": 58
+    },
+    "contract": {
+      "years": 2,
+      "salary": 516324
+    }
+  },
+  {
+    "id": "NE-STAFF-2",
+    "team": "NE",
+    "role": "Offensive Coordinator",
+    "name": "Luca Lakin",
+    "vitals": {
+      "age": 32,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 61,
+      "discipline": 74,
+      "schemeKnowledge": 72,
+      "playerDev": 74,
+      "motivation": 79,
+      "injuryManagement": 47,
+      "conditioning": 70,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3898817
+    }
+  },
+  {
+    "id": "NE-STAFF-3",
+    "team": "NE",
+    "role": "Defensive Coordinator",
+    "name": "Jesse Borer",
+    "vitals": {
+      "age": 45,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 91,
+      "discipline": 62,
+      "schemeKnowledge": 63,
+      "playerDev": 64,
+      "motivation": 69,
+      "injuryManagement": 62,
+      "conditioning": 45,
+      "analyticsIQ": 64
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3000991
+    }
+  },
+  {
+    "id": "NE-STAFF-4",
+    "team": "NE",
+    "role": "Strength & Conditioning Coach",
+    "name": "Sean Ward",
+    "vitals": {
+      "age": 60,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 66,
+      "schemeKnowledge": 91,
+      "playerDev": 85,
+      "motivation": 61,
+      "injuryManagement": 58,
+      "conditioning": 82,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 5,
+      "salary": 7802568
+    }
+  },
+  {
+    "id": "NE-STAFF-5",
+    "team": "NE",
+    "role": "Physical Therapist",
+    "name": "Bruce Nikolaus",
+    "vitals": {
+      "age": 52,
+      "experience": 12
+    },
+    "ratings": {
+      "leadership": 88,
+      "discipline": 71,
+      "schemeKnowledge": 73,
+      "playerDev": 75,
+      "motivation": 87,
+      "injuryManagement": 89,
+      "conditioning": 63,
+      "analyticsIQ": 66
+    },
+    "contract": {
+      "years": 4,
+      "salary": 7065019
+    }
+  },
+  {
+    "id": "NE-STAFF-6",
+    "team": "NE",
+    "role": "Athletic Trainer",
+    "name": "Ruben Hyatt",
+    "vitals": {
+      "age": 59,
+      "experience": 14
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 65,
+      "schemeKnowledge": 93,
+      "playerDev": 64,
+      "motivation": 94,
+      "injuryManagement": 82,
+      "conditioning": 69,
+      "analyticsIQ": 47
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3862519
+    }
+  },
+  {
+    "id": "NE-STAFF-7",
+    "team": "NE",
+    "role": "Analytics Coordinator",
+    "name": "Calvin Jacobson",
+    "vitals": {
+      "age": 62,
+      "experience": 25
+    },
+    "ratings": {
+      "leadership": 64,
+      "discipline": 80,
+      "schemeKnowledge": 66,
+      "playerDev": 60,
+      "motivation": 75,
+      "injuryManagement": 59,
+      "conditioning": 63,
+      "analyticsIQ": 98
+    },
+    "contract": {
+      "years": 2,
+      "salary": 4308346
+    }
+  }
+]

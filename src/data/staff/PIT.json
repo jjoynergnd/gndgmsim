@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  93,
-               "name":  "Caleb Halford"
-           },
-    "OC":  {
-               "rating":  77,
-               "name":  "Marcus Harrington"
-           },
-    "DC":  {
-               "rating":  87,
-               "name":  "Evan Bennett"
-           }
-}
+[
+  {
+    "id": "PIT-STAFF-1",
+    "team": "PIT",
+    "role": "Head Coach",
+    "name": "Mitchell Crist",
+    "vitals": {
+      "age": 55,
+      "experience": 24
+    },
+    "ratings": {
+      "leadership": 84,
+      "discipline": 63,
+      "schemeKnowledge": 70,
+      "playerDev": 84,
+      "motivation": 63,
+      "injuryManagement": 46,
+      "conditioning": 65,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 5,
+      "salary": 3046687
+    }
+  },
+  {
+    "id": "PIT-STAFF-2",
+    "team": "PIT",
+    "role": "Offensive Coordinator",
+    "name": "Tristan Bruen",
+    "vitals": {
+      "age": 43,
+      "experience": 14
+    },
+    "ratings": {
+      "leadership": 62,
+      "discipline": 85,
+      "schemeKnowledge": 64,
+      "playerDev": 94,
+      "motivation": 92,
+      "injuryManagement": 69,
+      "conditioning": 56,
+      "analyticsIQ": 41
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2747487
+    }
+  },
+  {
+    "id": "PIT-STAFF-3",
+    "team": "PIT",
+    "role": "Defensive Coordinator",
+    "name": "Landon Reilly",
+    "vitals": {
+      "age": 42,
+      "experience": 5
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 78,
+      "schemeKnowledge": 63,
+      "playerDev": 95,
+      "motivation": 83,
+      "injuryManagement": 52,
+      "conditioning": 63,
+      "analyticsIQ": 41
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3189323
+    }
+  },
+  {
+    "id": "PIT-STAFF-4",
+    "team": "PIT",
+    "role": "Strength & Conditioning Coach",
+    "name": "Blake Mante",
+    "vitals": {
+      "age": 30,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 87,
+      "discipline": 65,
+      "schemeKnowledge": 85,
+      "playerDev": 74,
+      "motivation": 75,
+      "injuryManagement": 56,
+      "conditioning": 92,
+      "analyticsIQ": 59
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2154717
+    }
+  },
+  {
+    "id": "PIT-STAFF-5",
+    "team": "PIT",
+    "role": "Physical Therapist",
+    "name": "Mason Yundt",
+    "vitals": {
+      "age": 64,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 93,
+      "discipline": 94,
+      "schemeKnowledge": 71,
+      "playerDev": 94,
+      "motivation": 62,
+      "injuryManagement": 86,
+      "conditioning": 55,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 5,
+      "salary": 2861069
+    }
+  },
+  {
+    "id": "PIT-STAFF-6",
+    "team": "PIT",
+    "role": "Athletic Trainer",
+    "name": "Parker Gusikowski",
+    "vitals": {
+      "age": 48,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 74,
+      "discipline": 78,
+      "schemeKnowledge": 74,
+      "playerDev": 65,
+      "motivation": 78,
+      "injuryManagement": 81,
+      "conditioning": 55,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2663417
+    }
+  },
+  {
+    "id": "PIT-STAFF-7",
+    "team": "PIT",
+    "role": "Analytics Coordinator",
+    "name": "Owen Runte",
+    "vitals": {
+      "age": 47,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 75,
+      "discipline": 62,
+      "schemeKnowledge": 82,
+      "playerDev": 88,
+      "motivation": 71,
+      "injuryManagement": 68,
+      "conditioning": 69,
+      "analyticsIQ": 82
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4360316
+    }
+  }
+]

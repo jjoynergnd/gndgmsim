@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  74,
-               "name":  "Caleb Wright"
-           },
-    "OC":  {
-               "rating":  75,
-               "name":  "Chase Wright"
-           },
-    "DC":  {
-               "rating":  83,
-               "name":  "Malik Coleman"
-           }
-}
+[
+  {
+    "id": "ARI-STAFF-1",
+    "team": "ARI",
+    "role": "Head Coach",
+    "name": "Jeremy Parisian",
+    "vitals": {
+      "age": 59,
+      "experience": 11
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 62,
+      "schemeKnowledge": 64,
+      "playerDev": 80,
+      "motivation": 64,
+      "injuryManagement": 65,
+      "conditioning": 57,
+      "analyticsIQ": 63
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7909795
+    }
+  },
+  {
+    "id": "ARI-STAFF-2",
+    "team": "ARI",
+    "role": "Offensive Coordinator",
+    "name": "Gregory Rippin",
+    "vitals": {
+      "age": 55,
+      "experience": 26
+    },
+    "ratings": {
+      "leadership": 93,
+      "discipline": 85,
+      "schemeKnowledge": 70,
+      "playerDev": 83,
+      "motivation": 63,
+      "injuryManagement": 40,
+      "conditioning": 70,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5338797
+    }
+  },
+  {
+    "id": "ARI-STAFF-3",
+    "team": "ARI",
+    "role": "Defensive Coordinator",
+    "name": "Aaron Brakus",
+    "vitals": {
+      "age": 40,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 62,
+      "schemeKnowledge": 69,
+      "playerDev": 77,
+      "motivation": 83,
+      "injuryManagement": 65,
+      "conditioning": 62,
+      "analyticsIQ": 45
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2512250
+    }
+  },
+  {
+    "id": "ARI-STAFF-4",
+    "team": "ARI",
+    "role": "Strength & Conditioning Coach",
+    "name": "Gabriel Okuneva",
+    "vitals": {
+      "age": 33,
+      "experience": 14
+    },
+    "ratings": {
+      "leadership": 83,
+      "discipline": 83,
+      "schemeKnowledge": 74,
+      "playerDev": 66,
+      "motivation": 88,
+      "injuryManagement": 63,
+      "conditioning": 91,
+      "analyticsIQ": 54
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4653219
+    }
+  },
+  {
+    "id": "ARI-STAFF-5",
+    "team": "ARI",
+    "role": "Physical Therapist",
+    "name": "Robert Little",
+    "vitals": {
+      "age": 30,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 73,
+      "discipline": 86,
+      "schemeKnowledge": 88,
+      "playerDev": 91,
+      "motivation": 68,
+      "injuryManagement": 79,
+      "conditioning": 67,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 4,
+      "salary": 878630
+    }
+  },
+  {
+    "id": "ARI-STAFF-6",
+    "team": "ARI",
+    "role": "Athletic Trainer",
+    "name": "Enzo Macejkovic",
+    "vitals": {
+      "age": 51,
+      "experience": 6
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 80,
+      "schemeKnowledge": 79,
+      "playerDev": 89,
+      "motivation": 69,
+      "injuryManagement": 78,
+      "conditioning": 60,
+      "analyticsIQ": 47
+    },
+    "contract": {
+      "years": 2,
+      "salary": 1517423
+    }
+  },
+  {
+    "id": "ARI-STAFF-7",
+    "team": "ARI",
+    "role": "Analytics Coordinator",
+    "name": "Igor Stehr",
+    "vitals": {
+      "age": 60,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 66,
+      "schemeKnowledge": 89,
+      "playerDev": 63,
+      "motivation": 74,
+      "injuryManagement": 64,
+      "conditioning": 52,
+      "analyticsIQ": 99
+    },
+    "contract": {
+      "years": 2,
+      "salary": 7250000
+    }
+  }
+]

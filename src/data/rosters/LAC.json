@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  90,
-        "name":  "Evan Wright",
-        "id":  "LAC-QB0"
+[
+  {
+    "id": "LAC-QB-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Ren Grady",
+    "jerseyNumber": 32,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 329,
+      "college": "Lynchhaven",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  81,
-        "name":  "Caleb Rourke",
-        "id":  "LAC-RB1"
+    "contract": {
+      "years": 2,
+      "totalValue": 117754916,
+      "capHit": 10701195,
+      "deadCap": 3997244,
+      "signingBonus": 6864110,
+      "expiresYear": 2028,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  70,
-        "name":  "Caleb Harrington",
-        "id":  "LAC-WR2"
+    "ratings": {
+      "overall": 70,
+      "potential": 76,
+      "schemeFit": 77,
+      "speed": 91,
+      "acceleration": 80,
+      "agility": 93,
+      "strength": 83,
+      "tackle": 80,
+      "pursuit": 74,
+      "manCoverage": 68,
+      "zoneCoverage": 74,
+      "kickPower": 62,
+      "kickAccuracy": 83,
+      "catching": 62,
+      "routeRunning": 78,
+      "release": 53,
+      "throwPower": 75,
+      "shortAccuracy": 62,
+      "mediumAccuracy": 82,
+      "deepAccuracy": 73
     },
-    {
-        "position":  "LB",
-        "overall":  87,
-        "name":  "Evan Coleman",
-        "id":  "LAC-LB3"
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  91,
-        "name":  "Xavier Bennett",
-        "id":  "LAC-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 378,
+        "statB": 939
+      },
+      "career": {
+        "games": 23,
+        "statA": 2315,
+        "statB": 779
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "LAC-QB-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Martin Mertz",
+    "jerseyNumber": 53,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 314,
+      "college": "Priceshire",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 3340800,
+      "capHit": 4944636,
+      "deadCap": 6536408,
+      "signingBonus": 3150642,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 93,
+      "schemeFit": 94,
+      "speed": 70,
+      "acceleration": 72,
+      "agility": 91,
+      "strength": 67,
+      "tackle": 74,
+      "pursuit": 68,
+      "manCoverage": 90,
+      "zoneCoverage": 67,
+      "kickPower": 77,
+      "kickAccuracy": 93,
+      "catching": 93,
+      "routeRunning": 57,
+      "release": 77,
+      "throwPower": 92,
+      "shortAccuracy": 74,
+      "mediumAccuracy": 79,
+      "deepAccuracy": 65
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 762,
+        "statB": 141
+      },
+      "career": {
+        "games": 107,
+        "statA": 4476,
+        "statB": 514
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "LAC-QB-3",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Diego Jacobs",
+    "jerseyNumber": 77,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 265,
+      "college": "Amarillo",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 71076778,
+      "capHit": 20129623,
+      "deadCap": 2643507,
+      "signingBonus": 6650851,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 70,
+      "speed": 74,
+      "acceleration": 86,
+      "agility": 85,
+      "strength": 82,
+      "tackle": 77,
+      "pursuit": 90,
+      "manCoverage": 82,
+      "zoneCoverage": 58,
+      "kickPower": 67,
+      "kickAccuracy": 82,
+      "catching": 76,
+      "routeRunning": 66,
+      "release": 57,
+      "throwPower": 78,
+      "shortAccuracy": 78,
+      "mediumAccuracy": 69,
+      "deepAccuracy": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 825,
+        "statB": 299
+      },
+      "career": {
+        "games": 73,
+        "statA": 2303,
+        "statB": 4098
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "LAC-RB-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Adrian Sawayn",
+    "jerseyNumber": 12,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'2\"",
+      "weight": 213,
+      "college": "East Elda",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 3122653,
+      "capHit": 18227594,
+      "deadCap": 9070559,
+      "signingBonus": 7782272,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 71,
+      "schemeFit": 80,
+      "speed": 81,
+      "acceleration": 72,
+      "agility": 85,
+      "strength": 75,
+      "tackle": 78,
+      "pursuit": 67,
+      "manCoverage": 70,
+      "zoneCoverage": 85,
+      "kickPower": 52,
+      "kickAccuracy": 80,
+      "catching": 57,
+      "routeRunning": 69,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 345,
+        "statB": 115
+      },
+      "career": {
+        "games": 1,
+        "statA": 956,
+        "statB": 3838
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LAC-RB-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Lucas Fadel",
+    "jerseyNumber": 16,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 308,
+      "college": "East Virginieville",
+      "experience": 9,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 67783276,
+      "capHit": 22099820,
+      "deadCap": 4423335,
+      "signingBonus": 18043688,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 73,
+      "schemeFit": 86,
+      "speed": 80,
+      "acceleration": 85,
+      "agility": 93,
+      "strength": 77,
+      "tackle": 65,
+      "pursuit": 84,
+      "manCoverage": 78,
+      "zoneCoverage": 73,
+      "kickPower": 81,
+      "kickAccuracy": 88,
+      "catching": 77,
+      "routeRunning": 56,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 387,
+        "statB": 569
+      },
+      "career": {
+        "games": 80,
+        "statA": 3331,
+        "statB": 4059
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "LAC-RB-3",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Ivan Conn",
+    "jerseyNumber": 85,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 319,
+      "college": "Murazikport",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 91390679,
+      "capHit": 5487943,
+      "deadCap": 5099365,
+      "signingBonus": 4829937,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 95,
+      "speed": 95,
+      "acceleration": 79,
+      "agility": 88,
+      "strength": 62,
+      "tackle": 79,
+      "pursuit": 77,
+      "manCoverage": 57,
+      "zoneCoverage": 65,
+      "kickPower": 54,
+      "kickAccuracy": 89,
+      "catching": 93,
+      "routeRunning": 59,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 180,
+        "statB": 215
+      },
+      "career": {
+        "games": 22,
+        "statA": 3711,
+        "statB": 869
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "LAC-RB-4",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Landon Jacobi",
+    "jerseyNumber": 46,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 295,
+      "college": "Harlingen",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 27565769,
+      "capHit": 14322819,
+      "deadCap": 256446,
+      "signingBonus": 7592044,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 89,
+      "schemeFit": 95,
+      "speed": 79,
+      "acceleration": 72,
+      "agility": 87,
+      "strength": 69,
+      "tackle": 66,
+      "pursuit": 64,
+      "manCoverage": 75,
+      "zoneCoverage": 87,
+      "kickPower": 79,
+      "kickAccuracy": 83,
+      "catching": 77,
+      "routeRunning": 95,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 499,
+        "statB": 941
+      },
+      "career": {
+        "games": 90,
+        "statA": 3649,
+        "statB": 2380
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "LAC-WR-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Evan Howe",
+    "jerseyNumber": 12,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 296,
+      "college": "Jennieland",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 112729740,
+      "capHit": 9735393,
+      "deadCap": 7686884,
+      "signingBonus": 4362885,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 71,
+      "schemeFit": 78,
+      "speed": 72,
+      "acceleration": 87,
+      "agility": 82,
+      "strength": 75,
+      "tackle": 67,
+      "pursuit": 81,
+      "manCoverage": 90,
+      "zoneCoverage": 62,
+      "kickPower": 90,
+      "kickAccuracy": 53,
+      "catching": 60,
+      "routeRunning": 94,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 170,
+        "statB": 9
+      },
+      "career": {
+        "games": 36,
+        "statA": 2444,
+        "statB": 4111
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LAC-WR-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Bryan Corkery",
+    "jerseyNumber": 98,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 282,
+      "college": "Lake Savionborough",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 74966082,
+      "capHit": 7267580,
+      "deadCap": 7141996,
+      "signingBonus": 3321350,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 85,
+      "schemeFit": 73,
+      "speed": 83,
+      "acceleration": 93,
+      "agility": 75,
+      "strength": 91,
+      "tackle": 70,
+      "pursuit": 90,
+      "manCoverage": 83,
+      "zoneCoverage": 69,
+      "kickPower": 75,
+      "kickAccuracy": 69,
+      "catching": 78,
+      "routeRunning": 90,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 539,
+        "statB": 902
+      },
+      "career": {
+        "games": 52,
+        "statA": 4390,
+        "statB": 2472
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "LAC-WR-3",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Martin Murray",
+    "jerseyNumber": 13,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "6'5\"",
+      "weight": 303,
+      "college": "South Tyreekworth",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 105074732,
+      "capHit": 4044073,
+      "deadCap": 1702410,
+      "signingBonus": 18542146,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 84,
+      "schemeFit": 83,
+      "speed": 73,
+      "acceleration": 85,
+      "agility": 72,
+      "strength": 86,
+      "tackle": 76,
+      "pursuit": 70,
+      "manCoverage": 57,
+      "zoneCoverage": 84,
+      "kickPower": 94,
+      "kickAccuracy": 60,
+      "catching": 61,
+      "routeRunning": 88,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 661,
+        "statB": 495
+      },
+      "career": {
+        "games": 64,
+        "statA": 1520,
+        "statB": 627
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "LAC-WR-4",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Jisoo Walter",
+    "jerseyNumber": 90,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 296,
+      "college": "Sporerworth",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 48427687,
+      "capHit": 15921217,
+      "deadCap": 3990961,
+      "signingBonus": 16280767,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 71,
+      "schemeFit": 93,
+      "speed": 91,
+      "acceleration": 72,
+      "agility": 86,
+      "strength": 86,
+      "tackle": 65,
+      "pursuit": 77,
+      "manCoverage": 85,
+      "zoneCoverage": 51,
+      "kickPower": 75,
+      "kickAccuracy": 87,
+      "catching": 60,
+      "routeRunning": 54,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 317,
+        "statB": 771
+      },
+      "career": {
+        "games": 52,
+        "statA": 1188,
+        "statB": 545
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "LAC-WR-5",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Sora Schmidt",
+    "jerseyNumber": 33,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 21,
+      "height": "6'1\"",
+      "weight": 238,
+      "college": "Cristmouth",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 45333737,
+      "capHit": 5990802,
+      "deadCap": 7178134,
+      "signingBonus": 4665271,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 86,
+      "schemeFit": 91,
+      "speed": 78,
+      "acceleration": 90,
+      "agility": 83,
+      "strength": 78,
+      "tackle": 88,
+      "pursuit": 67,
+      "manCoverage": 76,
+      "zoneCoverage": 66,
+      "kickPower": 78,
+      "kickAccuracy": 65,
+      "catching": 64,
+      "routeRunning": 75,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 649,
+        "statB": 167
+      },
+      "career": {
+        "games": 54,
+        "statA": 3942,
+        "statB": 4192
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "LAC-WR-6",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Brandon Gorczany",
+    "jerseyNumber": 92,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 292,
+      "college": "Atlanta",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 89704022,
+      "capHit": 1947674,
+      "deadCap": 7559331,
+      "signingBonus": 12605259,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 92,
+      "speed": 79,
+      "acceleration": 94,
+      "agility": 94,
+      "strength": 61,
+      "tackle": 75,
+      "pursuit": 68,
+      "manCoverage": 83,
+      "zoneCoverage": 64,
+      "kickPower": 72,
+      "kickAccuracy": 78,
+      "catching": 67,
+      "routeRunning": 92,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 130,
+        "statB": 133
+      },
+      "career": {
+        "games": 41,
+        "statA": 600,
+        "statB": 1423
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "LAC-WR-7",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Jason Luettgen",
+    "jerseyNumber": 70,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 329,
+      "college": "North Loyal",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 82381886,
+      "capHit": 8567229,
+      "deadCap": 236679,
+      "signingBonus": 3579005,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 76,
+      "schemeFit": 90,
+      "speed": 95,
+      "acceleration": 71,
+      "agility": 72,
+      "strength": 85,
+      "tackle": 86,
+      "pursuit": 64,
+      "manCoverage": 66,
+      "zoneCoverage": 63,
+      "kickPower": 78,
+      "kickAccuracy": 95,
+      "catching": 67,
+      "routeRunning": 55,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 53,
+        "statB": 632
+      },
+      "career": {
+        "games": 104,
+        "statA": 3487,
+        "statB": 4685
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "LAC-TE-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Jesse Thompson",
+    "jerseyNumber": 15,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 242,
+      "college": "East Barrett",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 44902699,
+      "capHit": 12468267,
+      "deadCap": 9535083,
+      "signingBonus": 7204951,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 77,
+      "schemeFit": 89,
+      "speed": 88,
+      "acceleration": 73,
+      "agility": 78,
+      "strength": 72,
+      "tackle": 84,
+      "pursuit": 86,
+      "manCoverage": 82,
+      "zoneCoverage": 78,
+      "kickPower": 65,
+      "kickAccuracy": 94,
+      "catching": 63,
+      "routeRunning": 76,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 725,
+        "statB": 591
+      },
+      "career": {
+        "games": 105,
+        "statA": 422,
+        "statB": 2978
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "LAC-TE-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Steven Heaney-Carter",
+    "jerseyNumber": 80,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'3\"",
+      "weight": 232,
+      "college": "Alhambra",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 106234551,
+      "capHit": 13910840,
+      "deadCap": 5062706,
+      "signingBonus": 12431485,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 75,
+      "schemeFit": 81,
+      "speed": 89,
+      "acceleration": 76,
+      "agility": 72,
+      "strength": 79,
+      "tackle": 95,
+      "pursuit": 74,
+      "manCoverage": 56,
+      "zoneCoverage": 84,
+      "kickPower": 56,
+      "kickAccuracy": 89,
+      "catching": 61,
+      "routeRunning": 53,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 632,
+        "statB": 69
+      },
+      "career": {
+        "games": 77,
+        "statA": 4864,
+        "statB": 3127
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "LAC-TE-3",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Takumi Howe",
+    "jerseyNumber": 50,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 290,
+      "college": "Fort Albaville",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 68643791,
+      "capHit": 5471200,
+      "deadCap": 4395244,
+      "signingBonus": 7300953,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 83,
+      "schemeFit": 90,
+      "speed": 90,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 74,
+      "tackle": 94,
+      "pursuit": 81,
+      "manCoverage": 86,
+      "zoneCoverage": 67,
+      "kickPower": 54,
+      "kickAccuracy": 64,
+      "catching": 50,
+      "routeRunning": 52,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 397,
+        "statB": 82
+      },
+      "career": {
+        "games": 65,
+        "statA": 151,
+        "statB": 438
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "LAC-LT-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Dawson Rice",
+    "jerseyNumber": 39,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 208,
+      "college": "Port Claude",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 96263767,
+      "capHit": 10385055,
+      "deadCap": 4863658,
+      "signingBonus": 17719772,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 88,
+      "schemeFit": 95,
+      "speed": 94,
+      "acceleration": 82,
+      "agility": 85,
+      "strength": 87,
+      "tackle": 94,
+      "pursuit": 62,
+      "manCoverage": 54,
+      "zoneCoverage": 64,
+      "kickPower": 80,
+      "kickAccuracy": 80,
+      "catching": 84,
+      "routeRunning": 59,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 768,
+        "statB": 388
+      },
+      "career": {
+        "games": 58,
+        "statA": 419,
+        "statB": 3046
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "LAC-LT-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Jesse Spencer",
+    "jerseyNumber": 99,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 247,
+      "college": "South Kariview",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 48058491,
+      "capHit": 9950520,
+      "deadCap": 4098034,
+      "signingBonus": 17160143,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 69,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 93,
+      "agility": 93,
+      "strength": 80,
+      "tackle": 89,
+      "pursuit": 88,
+      "manCoverage": 90,
+      "zoneCoverage": 54,
+      "kickPower": 61,
+      "kickAccuracy": 74,
+      "catching": 66,
+      "routeRunning": 90,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 565,
+        "statB": 705
+      },
+      "career": {
+        "games": 120,
+        "statA": 2177,
+        "statB": 1670
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "LAC-LG-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Keith Boyer",
+    "jerseyNumber": 17,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'2\"",
+      "weight": 283,
+      "college": "Watsicafurt",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 113012522,
+      "capHit": 9990575,
+      "deadCap": 5215636,
+      "signingBonus": 12470453,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 79,
+      "speed": 92,
+      "acceleration": 86,
+      "agility": 95,
+      "strength": 66,
+      "tackle": 64,
+      "pursuit": 70,
+      "manCoverage": 81,
+      "zoneCoverage": 72,
+      "kickPower": 50,
+      "kickAccuracy": 72,
+      "catching": 68,
+      "routeRunning": 84,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 615,
+        "statB": 758
+      },
+      "career": {
+        "games": 90,
+        "statA": 677,
+        "statB": 1051
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "LAC-LG-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Keegan Kuhn",
+    "jerseyNumber": 72,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 245,
+      "college": "West Harleyborough",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 102475810,
+      "capHit": 2948882,
+      "deadCap": 6223165,
+      "signingBonus": 17692912,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 85,
+      "schemeFit": 74,
+      "speed": 84,
+      "acceleration": 94,
+      "agility": 74,
+      "strength": 76,
+      "tackle": 66,
+      "pursuit": 83,
+      "manCoverage": 55,
+      "zoneCoverage": 58,
+      "kickPower": 59,
+      "kickAccuracy": 92,
+      "catching": 81,
+      "routeRunning": 90,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 496,
+        "statB": 351
+      },
+      "career": {
+        "games": 114,
+        "statA": 882,
+        "statB": 3544
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "LAC-C-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Scott Bartoletti",
+    "jerseyNumber": 53,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 201,
+      "college": "West Robinworth",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 48427341,
+      "capHit": 24928504,
+      "deadCap": 8586987,
+      "signingBonus": 4121705,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 75,
+      "speed": 82,
+      "acceleration": 78,
+      "agility": 95,
+      "strength": 92,
+      "tackle": 67,
+      "pursuit": 66,
+      "manCoverage": 86,
+      "zoneCoverage": 54,
+      "kickPower": 85,
+      "kickAccuracy": 76,
+      "catching": 95,
+      "routeRunning": 95,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 518,
+        "statB": 496
+      },
+      "career": {
+        "games": 69,
+        "statA": 4145,
+        "statB": 918
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "LAC-C-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Mitchell Kuvalis",
+    "jerseyNumber": 98,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 202,
+      "college": "Leuschkefield",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 61955807,
+      "capHit": 17550124,
+      "deadCap": 9713061,
+      "signingBonus": 10742903,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 67,
+      "schemeFit": 86,
+      "speed": 78,
+      "acceleration": 73,
+      "agility": 86,
+      "strength": 82,
+      "tackle": 89,
+      "pursuit": 77,
+      "manCoverage": 85,
+      "zoneCoverage": 79,
+      "kickPower": 60,
+      "kickAccuracy": 81,
+      "catching": 79,
+      "routeRunning": 78,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 289,
+        "statB": 208
+      },
+      "career": {
+        "games": 45,
+        "statA": 4906,
+        "statB": 1692
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LAC-RG-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Michael Quitzon",
+    "jerseyNumber": 18,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'2\"",
+      "weight": 259,
+      "college": "New Neomashire",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 27452891,
+      "capHit": 16394327,
+      "deadCap": 2893831,
+      "signingBonus": 16028567,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 72,
+      "schemeFit": 88,
+      "speed": 71,
+      "acceleration": 95,
+      "agility": 84,
+      "strength": 87,
+      "tackle": 61,
+      "pursuit": 81,
+      "manCoverage": 76,
+      "zoneCoverage": 52,
+      "kickPower": 92,
+      "kickAccuracy": 93,
+      "catching": 55,
+      "routeRunning": 90,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 253,
+        "statB": 789
+      },
+      "career": {
+        "games": 68,
+        "statA": 1560,
+        "statB": 2561
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "LAC-RG-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "James Jenkins",
+    "jerseyNumber": 15,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'5\"",
+      "weight": 194,
+      "college": "East Alena",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 23031935,
+      "capHit": 21229911,
+      "deadCap": 2248539,
+      "signingBonus": 8274523,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 68,
+      "schemeFit": 85,
+      "speed": 86,
+      "acceleration": 74,
+      "agility": 91,
+      "strength": 82,
+      "tackle": 79,
+      "pursuit": 78,
+      "manCoverage": 83,
+      "zoneCoverage": 51,
+      "kickPower": 91,
+      "kickAccuracy": 66,
+      "catching": 54,
+      "routeRunning": 82,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 483,
+        "statB": 102
+      },
+      "career": {
+        "games": 46,
+        "statA": 3941,
+        "statB": 2186
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "LAC-RT-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Kenji Thiel",
+    "jerseyNumber": 37,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 326,
+      "college": "Kentwood",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 62249210,
+      "capHit": 3579209,
+      "deadCap": 9623613,
+      "signingBonus": 12325111,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 66,
+      "schemeFit": 72,
+      "speed": 73,
+      "acceleration": 93,
+      "agility": 83,
+      "strength": 69,
+      "tackle": 93,
+      "pursuit": 70,
+      "manCoverage": 69,
+      "zoneCoverage": 84,
+      "kickPower": 65,
+      "kickAccuracy": 72,
+      "catching": 76,
+      "routeRunning": 56,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 942,
+        "statB": 179
+      },
+      "career": {
+        "games": 94,
+        "statA": 1035,
+        "statB": 1028
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "LAC-RT-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Kenji Grant",
+    "jerseyNumber": 92,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 215,
+      "college": "Lorain",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 116256606,
+      "capHit": 24932763,
+      "deadCap": 9263819,
+      "signingBonus": 5092525,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 89,
+      "speed": 72,
+      "acceleration": 77,
+      "agility": 73,
+      "strength": 81,
+      "tackle": 73,
+      "pursuit": 71,
+      "manCoverage": 51,
+      "zoneCoverage": 69,
+      "kickPower": 72,
+      "kickAccuracy": 51,
+      "catching": 56,
+      "routeRunning": 89,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 487,
+        "statB": 637
+      },
+      "career": {
+        "games": 37,
+        "statA": 1411,
+        "statB": 1392
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "LAC-LDE-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Viktor Wiza",
+    "jerseyNumber": 81,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 280,
+      "college": "Leolaborough",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 44185721,
+      "capHit": 5796948,
+      "deadCap": 4733610,
+      "signingBonus": 10355176,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 86,
+      "schemeFit": 82,
+      "speed": 80,
+      "acceleration": 76,
+      "agility": 75,
+      "strength": 94,
+      "tackle": 89,
+      "pursuit": 70,
+      "manCoverage": 69,
+      "zoneCoverage": 59,
+      "kickPower": 79,
+      "kickAccuracy": 58,
+      "catching": 52,
+      "routeRunning": 65,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 949,
+        "statB": 9
+      },
+      "career": {
+        "games": 111,
+        "statA": 602,
+        "statB": 2205
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "LAC-LDE-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Sora Dach",
+    "jerseyNumber": 43,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 304,
+      "college": "Ernserberg",
+      "experience": 10,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 112363258,
+      "capHit": 11943364,
+      "deadCap": 8290393,
+      "signingBonus": 8387132,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 84,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 80,
+      "agility": 90,
+      "strength": 74,
+      "tackle": 71,
+      "pursuit": 78,
+      "manCoverage": 55,
+      "zoneCoverage": 60,
+      "kickPower": 78,
+      "kickAccuracy": 68,
+      "catching": 76,
+      "routeRunning": 55,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 859,
+        "statB": 624
+      },
+      "career": {
+        "games": 117,
+        "statA": 3916,
+        "statB": 4863
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "LAC-RDE-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Theo Bartell",
+    "jerseyNumber": 98,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 218,
+      "college": "Tremaynestad",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 87012669,
+      "capHit": 1080864,
+      "deadCap": 1446555,
+      "signingBonus": 16122887,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 81,
+      "schemeFit": 82,
+      "speed": 83,
+      "acceleration": 88,
+      "agility": 82,
+      "strength": 87,
+      "tackle": 81,
+      "pursuit": 82,
+      "manCoverage": 84,
+      "zoneCoverage": 59,
+      "kickPower": 56,
+      "kickAccuracy": 77,
+      "catching": 94,
+      "routeRunning": 52,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 166,
+        "statB": 233
+      },
+      "career": {
+        "games": 80,
+        "statA": 3777,
+        "statB": 3296
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "LAC-RDE-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Marco Bailey",
+    "jerseyNumber": 81,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'2\"",
+      "weight": 295,
+      "college": "Sipesburgh",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 69110813,
+      "capHit": 17327164,
+      "deadCap": 7470928,
+      "signingBonus": 10205614,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 83,
+      "speed": 82,
+      "acceleration": 76,
+      "agility": 93,
+      "strength": 74,
+      "tackle": 65,
+      "pursuit": 67,
+      "manCoverage": 61,
+      "zoneCoverage": 62,
+      "kickPower": 63,
+      "kickAccuracy": 65,
+      "catching": 63,
+      "routeRunning": 63,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 54,
+        "statB": 70
+      },
+      "career": {
+        "games": 24,
+        "statA": 3585,
+        "statB": 4805
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "LAC-DT-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Beckett Hirthe",
+    "jerseyNumber": 66,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'9\"",
+      "weight": 250,
+      "college": "East Lemuel",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 32603526,
+      "capHit": 15690567,
+      "deadCap": 8732487,
+      "signingBonus": 5217584,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 74,
+      "speed": 95,
+      "acceleration": 94,
+      "agility": 73,
+      "strength": 62,
+      "tackle": 81,
+      "pursuit": 68,
+      "manCoverage": 54,
+      "zoneCoverage": 72,
+      "kickPower": 81,
+      "kickAccuracy": 66,
+      "catching": 80,
+      "routeRunning": 92,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 772,
+        "statB": 615
+      },
+      "career": {
+        "games": 88,
+        "statA": 2305,
+        "statB": 1843
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "LAC-DT-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Troy Hilpert",
+    "jerseyNumber": 8,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 263,
+      "college": "Feilworth",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 54720685,
+      "capHit": 21645315,
+      "deadCap": 6923828,
+      "signingBonus": 9640591,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 75,
+      "schemeFit": 78,
+      "speed": 91,
+      "acceleration": 84,
+      "agility": 71,
+      "strength": 92,
+      "tackle": 81,
+      "pursuit": 75,
+      "manCoverage": 75,
+      "zoneCoverage": 69,
+      "kickPower": 82,
+      "kickAccuracy": 56,
+      "catching": 82,
+      "routeRunning": 90,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 465,
+        "statB": 217
+      },
+      "career": {
+        "games": 8,
+        "statA": 4523,
+        "statB": 107
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "LAC-DT-3",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Sergio Kunde",
+    "jerseyNumber": 78,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 281,
+      "college": "Jupiter",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 87964194,
+      "capHit": 9075638,
+      "deadCap": 783949,
+      "signingBonus": 6401102,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 81,
+      "schemeFit": 76,
+      "speed": 76,
+      "acceleration": 71,
+      "agility": 77,
+      "strength": 83,
+      "tackle": 85,
+      "pursuit": 73,
+      "manCoverage": 83,
+      "zoneCoverage": 86,
+      "kickPower": 79,
+      "kickAccuracy": 85,
+      "catching": 57,
+      "routeRunning": 94,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 72,
+        "statB": 892
+      },
+      "career": {
+        "games": 73,
+        "statA": 4210,
+        "statB": 3125
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "LAC-DT-4",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Eugene Adams",
+    "jerseyNumber": 9,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 222,
+      "college": "South Estevan",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 94766597,
+      "capHit": 15743621,
+      "deadCap": 8981312,
+      "signingBonus": 13943604,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 77,
+      "schemeFit": 77,
+      "speed": 76,
+      "acceleration": 85,
+      "agility": 73,
+      "strength": 90,
+      "tackle": 91,
+      "pursuit": 78,
+      "manCoverage": 90,
+      "zoneCoverage": 63,
+      "kickPower": 55,
+      "kickAccuracy": 94,
+      "catching": 87,
+      "routeRunning": 55,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 734,
+        "statB": 618
+      },
+      "career": {
+        "games": 97,
+        "statA": 3756,
+        "statB": 4913
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "LAC-LOLB-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Tristan Bradtke",
+    "jerseyNumber": 97,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'0\"",
+      "weight": 300,
+      "college": "Fort Worth",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 76091400,
+      "capHit": 4235888,
+      "deadCap": 3741417,
+      "signingBonus": 11001016,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 85,
+      "schemeFit": 82,
+      "speed": 72,
+      "acceleration": 72,
+      "agility": 91,
+      "strength": 67,
+      "tackle": 88,
+      "pursuit": 94,
+      "manCoverage": 84,
+      "zoneCoverage": 65,
+      "kickPower": 64,
+      "kickAccuracy": 83,
+      "catching": 82,
+      "routeRunning": 65,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 244,
+        "statB": 397
+      },
+      "career": {
+        "games": 6,
+        "statA": 2172,
+        "statB": 4243
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "LAC-LOLB-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Zachary MacGyver",
+    "jerseyNumber": 34,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'0\"",
+      "weight": 314,
+      "college": "Foreststead",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 28117818,
+      "capHit": 16751274,
+      "deadCap": 470544,
+      "signingBonus": 17509546,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 91,
+      "schemeFit": 70,
+      "speed": 72,
+      "acceleration": 80,
+      "agility": 84,
+      "strength": 65,
+      "tackle": 67,
+      "pursuit": 89,
+      "manCoverage": 90,
+      "zoneCoverage": 69,
+      "kickPower": 66,
+      "kickAccuracy": 73,
+      "catching": 68,
+      "routeRunning": 68,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 171,
+        "statB": 866
+      },
+      "career": {
+        "games": 108,
+        "statA": 2692,
+        "statB": 3028
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "LAC-MLB-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Blake Abbott",
+    "jerseyNumber": 64,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 280,
+      "college": "Davenport",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 86582936,
+      "capHit": 10804486,
+      "deadCap": 6668134,
+      "signingBonus": 14093308,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 70,
+      "speed": 78,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 87,
+      "tackle": 77,
+      "pursuit": 94,
+      "manCoverage": 86,
+      "zoneCoverage": 58,
+      "kickPower": 52,
+      "kickAccuracy": 92,
+      "catching": 61,
+      "routeRunning": 70,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 108,
+        "statB": 608
+      },
+      "career": {
+        "games": 52,
+        "statA": 3961,
+        "statB": 3291
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "LAC-MLB-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Hugo Terry",
+    "jerseyNumber": 90,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 245,
+      "college": "New Esperanzaboro",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 112224699,
+      "capHit": 17112931,
+      "deadCap": 9775869,
+      "signingBonus": 681572,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 75,
+      "schemeFit": 72,
+      "speed": 87,
+      "acceleration": 93,
+      "agility": 70,
+      "strength": 84,
+      "tackle": 63,
+      "pursuit": 62,
+      "manCoverage": 78,
+      "zoneCoverage": 85,
+      "kickPower": 73,
+      "kickAccuracy": 64,
+      "catching": 85,
+      "routeRunning": 94,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 506,
+        "statB": 445
+      },
+      "career": {
+        "games": 23,
+        "statA": 3911,
+        "statB": 2439
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "LAC-ROLB-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Jian Hamill",
+    "jerseyNumber": 3,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'3\"",
+      "weight": 189,
+      "college": "North Dorcasville",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 99555300,
+      "capHit": 19636148,
+      "deadCap": 7965677,
+      "signingBonus": 18523129,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 86,
+      "schemeFit": 82,
+      "speed": 89,
+      "acceleration": 94,
+      "agility": 78,
+      "strength": 86,
+      "tackle": 67,
+      "pursuit": 72,
+      "manCoverage": 66,
+      "zoneCoverage": 89,
+      "kickPower": 75,
+      "kickAccuracy": 71,
+      "catching": 55,
+      "routeRunning": 50,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 254,
+        "statB": 852
+      },
+      "career": {
+        "games": 88,
+        "statA": 1816,
+        "statB": 2898
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "LAC-ROLB-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Leon Schuppe",
+    "jerseyNumber": 85,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'10\"",
+      "weight": 308,
+      "college": "South Effieton",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 49460649,
+      "capHit": 20625420,
+      "deadCap": 9807804,
+      "signingBonus": 13254041,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 93,
+      "schemeFit": 89,
+      "speed": 80,
+      "acceleration": 82,
+      "agility": 80,
+      "strength": 94,
+      "tackle": 91,
+      "pursuit": 66,
+      "manCoverage": 83,
+      "zoneCoverage": 89,
+      "kickPower": 77,
+      "kickAccuracy": 76,
+      "catching": 63,
+      "routeRunning": 62,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 261,
+        "statB": 375
+      },
+      "career": {
+        "games": 42,
+        "statA": 1901,
+        "statB": 2232
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "LAC-CB-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Carl Kessler",
+    "jerseyNumber": 23,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 324,
+      "college": "Fort Kaylin",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 114851742,
+      "capHit": 23035425,
+      "deadCap": 1996753,
+      "signingBonus": 2505026,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 68,
+      "schemeFit": 91,
+      "speed": 78,
+      "acceleration": 76,
+      "agility": 72,
+      "strength": 94,
+      "tackle": 78,
+      "pursuit": 90,
+      "manCoverage": 81,
+      "zoneCoverage": 73,
+      "kickPower": 66,
+      "kickAccuracy": 63,
+      "catching": 50,
+      "routeRunning": 90,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 6,
+        "statB": 542
+      },
+      "career": {
+        "games": 33,
+        "statA": 4435,
+        "statB": 2581
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "LAC-CB-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Louis Durgan-Robel",
+    "jerseyNumber": 37,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'4\"",
+      "weight": 254,
+      "college": "Cape Coral",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 79990441,
+      "capHit": 18789323,
+      "deadCap": 3946365,
+      "signingBonus": 15216375,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 74,
+      "schemeFit": 89,
+      "speed": 75,
+      "acceleration": 86,
+      "agility": 76,
+      "strength": 95,
+      "tackle": 73,
+      "pursuit": 62,
+      "manCoverage": 82,
+      "zoneCoverage": 57,
+      "kickPower": 91,
+      "kickAccuracy": 88,
+      "catching": 77,
+      "routeRunning": 58,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 255,
+        "statB": 534
+      },
+      "career": {
+        "games": 16,
+        "statA": 2209,
+        "statB": 4002
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "LAC-CB-3",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Angelo Grimes",
+    "jerseyNumber": 58,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 21,
+      "height": "6'2\"",
+      "weight": 252,
+      "college": "South Hillaryfield",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 82253451,
+      "capHit": 17596980,
+      "deadCap": 7753359,
+      "signingBonus": 3127278,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 65,
+      "schemeFit": 77,
+      "speed": 89,
+      "acceleration": 84,
+      "agility": 81,
+      "strength": 93,
+      "tackle": 85,
+      "pursuit": 86,
+      "manCoverage": 63,
+      "zoneCoverage": 62,
+      "kickPower": 68,
+      "kickAccuracy": 64,
+      "catching": 95,
+      "routeRunning": 65,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 181,
+        "statB": 2
+      },
+      "career": {
+        "games": 70,
+        "statA": 2442,
+        "statB": 1181
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "LAC-CB-4",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Finn Sawayn",
+    "jerseyNumber": 76,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 255,
+      "college": "Fort Nicolabury",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 58979894,
+      "capHit": 1853917,
+      "deadCap": 249432,
+      "signingBonus": 7034447,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 91,
+      "schemeFit": 74,
+      "speed": 70,
+      "acceleration": 80,
+      "agility": 94,
+      "strength": 84,
+      "tackle": 94,
+      "pursuit": 67,
+      "manCoverage": 54,
+      "zoneCoverage": 64,
+      "kickPower": 74,
+      "kickAccuracy": 80,
+      "catching": 65,
+      "routeRunning": 60,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 871,
+        "statB": 152
+      },
+      "career": {
+        "games": 115,
+        "statA": 4066,
+        "statB": 651
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "LAC-CB-5",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Micah Wolff",
+    "jerseyNumber": 74,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 258,
+      "college": "Brownfort",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 96575895,
+      "capHit": 18033957,
+      "deadCap": 4834873,
+      "signingBonus": 18112052,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 84,
+      "schemeFit": 77,
+      "speed": 72,
+      "acceleration": 77,
+      "agility": 95,
+      "strength": 95,
+      "tackle": 64,
+      "pursuit": 82,
+      "manCoverage": 77,
+      "zoneCoverage": 76,
+      "kickPower": 79,
+      "kickAccuracy": 91,
+      "catching": 77,
+      "routeRunning": 57,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 794,
+        "statB": 103
+      },
+      "career": {
+        "games": 113,
+        "statA": 1674,
+        "statB": 4368
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LAC-CB-6",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Zachary Stehr",
+    "jerseyNumber": 39,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 206,
+      "college": "Fort Jakob",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 63515265,
+      "capHit": 3456979,
+      "deadCap": 1452511,
+      "signingBonus": 13808104,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 90,
+      "speed": 87,
+      "acceleration": 71,
+      "agility": 71,
+      "strength": 73,
+      "tackle": 71,
+      "pursuit": 70,
+      "manCoverage": 80,
+      "zoneCoverage": 67,
+      "kickPower": 73,
+      "kickAccuracy": 93,
+      "catching": 52,
+      "routeRunning": 81,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 0,
+        "statB": 58
+      },
+      "career": {
+        "games": 37,
+        "statA": 1544,
+        "statB": 2300
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "LAC-FS-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Santiago Mohr",
+    "jerseyNumber": 28,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 225,
+      "college": "Novi",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 25117275,
+      "capHit": 14563685,
+      "deadCap": 3645339,
+      "signingBonus": 11725643,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 78,
+      "schemeFit": 95,
+      "speed": 79,
+      "acceleration": 84,
+      "agility": 71,
+      "strength": 60,
+      "tackle": 74,
+      "pursuit": 81,
+      "manCoverage": 53,
+      "zoneCoverage": 57,
+      "kickPower": 66,
+      "kickAccuracy": 78,
+      "catching": 66,
+      "routeRunning": 59,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 280,
+        "statB": 2
+      },
+      "career": {
+        "games": 19,
+        "statA": 2678,
+        "statB": 2310
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "LAC-FS-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "William Bergnaum",
+    "jerseyNumber": 84,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'1\"",
+      "weight": 312,
+      "college": "Stockton",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 106215846,
+      "capHit": 15081280,
+      "deadCap": 9786941,
+      "signingBonus": 12620383,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 68,
+      "schemeFit": 77,
+      "speed": 76,
+      "acceleration": 77,
+      "agility": 72,
+      "strength": 82,
+      "tackle": 85,
+      "pursuit": 69,
+      "manCoverage": 73,
+      "zoneCoverage": 87,
+      "kickPower": 78,
+      "kickAccuracy": 79,
+      "catching": 80,
+      "routeRunning": 69,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 626,
+        "statB": 548
+      },
+      "career": {
+        "games": 58,
+        "statA": 278,
+        "statB": 1257
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LAC-SS-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Bo Erdman",
+    "jerseyNumber": 51,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 221,
+      "college": "Seattle",
+      "experience": 9,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 20834986,
+      "capHit": 21759339,
+      "deadCap": 2853823,
+      "signingBonus": 13264947,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 79,
+      "schemeFit": 74,
+      "speed": 88,
+      "acceleration": 87,
+      "agility": 89,
+      "strength": 61,
+      "tackle": 83,
+      "pursuit": 76,
+      "manCoverage": 76,
+      "zoneCoverage": 58,
+      "kickPower": 86,
+      "kickAccuracy": 60,
+      "catching": 75,
+      "routeRunning": 92,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 738,
+        "statB": 131
+      },
+      "career": {
+        "games": 75,
+        "statA": 3769,
+        "statB": 4084
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "LAC-SS-2",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Charles Gutmann",
+    "jerseyNumber": 54,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 251,
+      "college": "Williamsonstad",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 21380458,
+      "capHit": 538673,
+      "deadCap": 8868851,
+      "signingBonus": 8433450,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 85,
+      "schemeFit": 92,
+      "speed": 85,
+      "acceleration": 84,
+      "agility": 91,
+      "strength": 88,
+      "tackle": 76,
+      "pursuit": 71,
+      "manCoverage": 61,
+      "zoneCoverage": 90,
+      "kickPower": 79,
+      "kickAccuracy": 54,
+      "catching": 90,
+      "routeRunning": 76,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 157,
+        "statB": 596
+      },
+      "career": {
+        "games": 59,
+        "statA": 4207,
+        "statB": 4862
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "LAC-K-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Joseph Beier",
+    "jerseyNumber": 92,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 212,
+      "college": "Lonnieview",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 104292064,
+      "capHit": 9545805,
+      "deadCap": 7170586,
+      "signingBonus": 9397371,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 79,
+      "speed": 84,
+      "acceleration": 80,
+      "agility": 73,
+      "strength": 84,
+      "tackle": 85,
+      "pursuit": 77,
+      "manCoverage": 54,
+      "zoneCoverage": 84,
+      "kickPower": 87,
+      "kickAccuracy": 80,
+      "catching": 82,
+      "routeRunning": 72,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 700,
+        "statB": 688
+      },
+      "career": {
+        "games": 21,
+        "statA": 3106,
+        "statB": 4883
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "LAC-P-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Evan Wilkinson",
+    "jerseyNumber": 25,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 300,
+      "college": "Ceres",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 43536193,
+      "capHit": 8347811,
+      "deadCap": 3077063,
+      "signingBonus": 17583642,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 85,
+      "schemeFit": 72,
+      "speed": 73,
+      "acceleration": 86,
+      "agility": 91,
+      "strength": 73,
+      "tackle": 81,
+      "pursuit": 76,
+      "manCoverage": 59,
+      "zoneCoverage": 81,
+      "kickPower": 94,
+      "kickAccuracy": 86,
+      "catching": 79,
+      "routeRunning": 57,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 941,
+        "statB": 866
+      },
+      "career": {
+        "games": 109,
+        "statA": 538,
+        "statB": 1138
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "LAC-LS-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Albert Hodkiewicz",
+    "jerseyNumber": 97,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 198,
+      "college": "Fadelfort",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 116248548,
+      "capHit": 14367001,
+      "deadCap": 8435453,
+      "signingBonus": 16355857,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 80,
+      "schemeFit": 89,
+      "speed": 94,
+      "acceleration": 95,
+      "agility": 80,
+      "strength": 78,
+      "tackle": 72,
+      "pursuit": 69,
+      "manCoverage": 56,
+      "zoneCoverage": 59,
+      "kickPower": 71,
+      "kickAccuracy": 54,
+      "catching": 61,
+      "routeRunning": 89,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 536,
+        "statB": 57
+      },
+      "career": {
+        "games": 98,
+        "statA": 1259,
+        "statB": 873
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "LAC-KR-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Omar Miller",
+    "jerseyNumber": 13,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 187,
+      "college": "Fort Mathew",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 68108421,
+      "capHit": 3109664,
+      "deadCap": 3228794,
+      "signingBonus": 4611757,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 84,
+      "schemeFit": 72,
+      "speed": 94,
+      "acceleration": 84,
+      "agility": 86,
+      "strength": 70,
+      "tackle": 65,
+      "pursuit": 65,
+      "manCoverage": 50,
+      "zoneCoverage": 77,
+      "kickPower": 84,
+      "kickAccuracy": 73,
+      "catching": 88,
+      "routeRunning": 66,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 608,
+        "statB": 790
+      },
+      "career": {
+        "games": 6,
+        "statA": 4310,
+        "statB": 887
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "LAC-PR-1",
+    "team": "LAC",
+    "teamName": "LAC",
+    "name": "Gregory Wiza",
+    "jerseyNumber": 24,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'1\"",
+      "weight": 319,
+      "college": "Ankundingshire",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 15538107,
+      "capHit": 8261853,
+      "deadCap": 4861589,
+      "signingBonus": 4912089,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 78,
+      "speed": 94,
+      "acceleration": 74,
+      "agility": 72,
+      "strength": 65,
+      "tackle": 76,
+      "pursuit": 62,
+      "manCoverage": 90,
+      "zoneCoverage": 90,
+      "kickPower": 56,
+      "kickAccuracy": 84,
+      "catching": 65,
+      "routeRunning": 50,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 385,
+        "statB": 766
+      },
+      "career": {
+        "games": 55,
+        "statA": 2784,
+        "statB": 2338
+      }
+    },
+    "photo": "/player_faces/25.png"
+  }
 ]

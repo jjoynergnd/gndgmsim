@@ -1,0 +1,1832 @@
+
+
+******************* START OF FILES ***********************
+
+src/screens/TeamPage.jsx:
+
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+
+import { teams } from "../data/teams";
+import seasonState from "../data/season/seasonState.json";
+import { advanceSeason } from "../utils/seasonEngine";
+
+import TeamHeader from "../components/team/TeamHeader";
+import NextActionCard from "../components/season/NextActionCard";
+import TeamTabs from "../components/team/TeamTabs";
+import RosterTable from "../components/team/RosterTable";
+import DepthChart from "../components/team/depthchart/DepthChart.jsx";
+import StaffTable from "../components/team/StaffTable";
+import FinancesPanel from "../components/team/FinancesPanel";
+import StatsPanel from "../components/team/StatsPanel";
+import PlayerModal from "../components/player/PlayerModal";
+import ScheduleTab from "../components/team/schedule/ScheduleTab";
+import DivisionStandings from "../components/standings/DivisionStandings";
+
+// dynamic imports
+const rosterMap = import.meta.glob("../data/rosters/*.json", { eager: true });
+const staffMap = import.meta.glob("../data/staff/*.json", { eager: true });
+const scheduleMap = import.meta.glob("../data/schedules/*.json", { eager: true });
+const metaMap = import.meta.glob("../data/meta/*.json", { eager: true });
+
+const normalize = (obj) => {
+  const out = {};
+  for (const path in obj) {
+    const key = path.split("/").pop().replace(".json", "");
+    out[key] = obj[path].default;
+  }
+  return out;
+};
+
+const rosters = normalize(rosterMap);
+const staff = normalize(staffMap);
+const schedules = normalize(scheduleMap);
+const meta = normalize(metaMap);
+
+const TeamPage = () => {
+  const selectedTeam = useSelector((state) => state.team.selectedTeam);
+  const team = teams.find((t) => t.id === selectedTeam);
+
+  const [tab, setTab] = useState("roster");
+  const [selectedPlayer, setSelectedPlayer] = useState(null);
+
+  const [season, setSeason] = useState(() => {
+    console.log("[TeamPage] Initial season state from JSON:", seasonState);
+    return seasonState;
+  });
+
+  const handlePlayerClick = (player) => setSelectedPlayer(player);
+
+  const canAdvance = true;
+  const warnings = [];
+
+  if (season.warnings?.injuries > 0)
+    warnings.push(`${season.warnings.injuries} injured starters`);
+  if (season.warnings?.depthChartIssues > 0)
+    warnings.push("Depth chart incomplete");
+  if (season.warnings?.capOver)
+    warnings.push("Over the salary cap");
+
+  const handleAdvance = () => {
+    console.log(
+      "[TeamPage] Advance clicked — phase:",
+      season.phase,
+      "week:",
+      season.week,
+      "preseasonWeek:",
+      season.preseasonWeek,
+      "offseasonStep:",
+      season.offseasonStep
+    );
+
+    setSeason((prev) => {
+      const next = advanceSeason(prev, {
+        teams,
+        schedules
+      });
+      console.log("[TeamPage] Season after advanceSeason:", next);
+      return next;
+    });
+  };
+
+
+  // Source of truth for schedule:
+  // 1) Engine-populated league schedules (season.schedules[teamId])
+  // 2) Fallback to static JSON if engine not initialized yet
+  const activeSchedule =
+    season.schedules?.[selectedTeam] || schedules[selectedTeam] || [];
+
+  if (!team) {
+    return <div style={{ padding: "24px" }}>Select a team to begin.</div>;
+  }
+
+  return (
+    <div style={{ paddingBottom: "40px" }}>
+      <TeamHeader
+        team={team}
+        season={season}
+        meta={meta[selectedTeam]}
+      />
+
+      {/* Roadmap removed here to reduce clutter; global shell roadmap remains */}
+
+      <NextActionCard
+        season={season}
+        onAdvance={handleAdvance}
+        canAdvance={canAdvance}
+        warnings={warnings}
+      />
+
+      <div style={{ height: "12px" }} />
+
+      <TeamTabs tab={tab} setTab={setTab} />
+
+      <div style={{ marginTop: "20px" }}>
+        {tab === "roster" && (
+          <RosterTable
+            roster={rosters[selectedTeam]}
+            onPlayerClick={handlePlayerClick}
+          />
+        )}
+
+        {tab === "depthChart" && (
+          <DepthChart
+            roster={rosters[selectedTeam]}
+            onPlayerClick={handlePlayerClick}
+          />
+        )}
+
+        {tab === "staff" && (
+          <StaffTable
+            staff={staff[selectedTeam]}
+            onPlayerClick={handlePlayerClick}
+          />
+        )}
+
+        {tab === "finances" && (
+          <FinancesPanel meta={meta[selectedTeam]} />
+        )}
+
+        {tab === "schedule" && (
+          <ScheduleTab schedule={activeSchedule} />
+        )}
+
+        {tab === "Standings" && (
+          <DivisionStandings
+            teams={teams}
+            userTeam={team}
+            season={season}
+          />
+        )}
+
+        {tab === "stats" && <StatsPanel />}
+      </div>
+
+      <PlayerModal
+        player={selectedPlayer}
+        onClose={() => setSelectedPlayer(null)}
+      />
+    </div>
+  );
+};
+
+export default TeamPage;
+
+
+
+
+
+**********************
+
+
+src/utils/seasonEngine.js:
+
+
+// src/utils/seasonEngine.js
+
+const PRESEASON_WEEKS = 3;
+const REGULAR_SEASON_WEEKS = 18;
+const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
+const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT"];
+
+/* ======================================================
+   PUBLIC API
+====================================================== */
+
+export function advanceSeason(prev, context) {
+  const season = structuredClone(prev);
+
+  // Initialize league once
+  if (!season._initialized) {
+    initializeLeague(season, context);
+  }
+
+  console.log(
+    "[seasonEngine] advanceSeason — phase:",
+    season.phase,
+    "preseasonWeek:",
+    season.preseasonWeek,
+    "week:",
+    season.week,
+    "offseasonStep:",
+    season.offseasonStep
+  );
+
+  switch (season.phase) {
+    case "OFFSEASON":
+      advanceOffseason(season);
+      break;
+
+    case "PRESEASON":
+      simulatePreseasonWeek(season);
+      break;
+
+    case "REGULAR_SEASON":
+      simulateRegularSeasonWeek(season);
+      break;
+
+    case "PLAYOFFS":
+      advancePlayoffs(season);
+      break;
+
+    default:
+      break;
+  }
+
+  return season;
+}
+
+/* ======================================================
+   INITIALIZATION
+====================================================== */
+
+function initializeLeague(season, { teams, schedules }) {
+  console.log("[seasonEngine] initializeLeague — starting with:", season);
+
+  season._initialized = true;
+
+  // ---- STANDINGS ----
+  season.teams = {};
+  teams.forEach((t) => {
+    season.teams[t.id] = {
+      wins: 0,
+      losses: 0,
+      ties: 0,
+      pointsFor: 0,
+      pointsAgainst: 0
+    };
+  });
+
+  // ---- SCHEDULES ----
+  season.schedules = {};
+  teams.forEach((t) => {
+    const raw = schedules[t.id] || [];
+    season.schedules[t.id] = raw.map((g) => ({
+      ...g,
+      played: g.played ?? false,
+      scoreFor: g.scoreFor ?? null,
+      scoreAgainst: g.scoreAgainst ?? null,
+      result: g.result ?? null
+    }));
+  });
+
+  season.gamesByKey = {}; // keyed by `${type}-${week}-${sortedTeamIds}`
+
+  // ---- TIMING ----
+  season.phase = "OFFSEASON";
+  season.offseasonStep = OFFSEASON_STEPS[0];
+
+  season.preseasonWeek = 1; // 1–3
+  season.week = 1; // 1–18
+  season.playoffRound = null;
+
+  season.lastResult = {
+    summary: "League initialized",
+    details: "Offseason — RESIGNINGS"
+  };
+
+  console.log("[seasonEngine] initializeLeague — finished:", season);
+}
+
+/* ======================================================
+   OFFSEASON
+====================================================== */
+
+function advanceOffseason(season) {
+  const idx = OFFSEASON_STEPS.indexOf(season.offseasonStep);
+
+  if (idx < OFFSEASON_STEPS.length - 1) {
+    season.offseasonStep = OFFSEASON_STEPS[idx + 1];
+    season.lastResult = {
+      summary: `${OFFSEASON_STEPS[idx]} complete`,
+      details: ""
+    };
+  } else {
+    season.phase = "PRESEASON";
+    season.offseasonStep = null;
+    season.lastResult = {
+      summary: "Offseason complete",
+      details: "Preseason begins."
+    };
+  }
+}
+
+/* ======================================================
+   PRESEASON
+====================================================== */
+
+function simulatePreseasonWeek(season) {
+  const week = season.preseasonWeek;
+  const key = `PRESEASON-${week}`;
+
+  if (season.gamesByKey[key]) {
+    console.log("[seasonEngine] Preseason week already simulated:", week);
+    advanceFromPreseasonIfDone(season);
+    return;
+  }
+
+  const games = simulateGamesForWeek(season, {
+    week,
+    type: "PRESEASON",
+    affectStandings: false
+  });
+
+  season.gamesByKey[key] = games;
+
+  season.lastResult = {
+    summary: `Preseason Week ${week} complete`,
+    details: `${games.length} games played`
+  };
+
+  if (week < PRESEASON_WEEKS) {
+    season.preseasonWeek += 1;
+  } else {
+    season.phase = "REGULAR_SEASON";
+    season.week = 1;
+    season.lastResult = {
+      summary: "Preseason complete",
+      details: "Regular season begins."
+    };
+  }
+}
+
+function advanceFromPreseasonIfDone(season) {
+  if (season.preseasonWeek >= PRESEASON_WEEKS) {
+    season.phase = "REGULAR_SEASON";
+    season.week = 1;
+    season.lastResult = {
+      summary: "Preseason complete",
+      details: "Regular season begins."
+    };
+  } else {
+    season.preseasonWeek += 1;
+  }
+}
+
+/* ======================================================
+   REGULAR SEASON
+====================================================== */
+
+function simulateRegularSeasonWeek(season) {
+  const week = season.week;
+  const key = `REGULAR_SEASON-${week}`;
+
+  if (season.gamesByKey[key]) {
+    console.log("[seasonEngine] Regular season week already simulated:", week);
+    advanceFromRegularSeasonIfDone(season);
+    return;
+  }
+
+  const games = simulateGamesForWeek(season, {
+    week,
+    type: "REGULAR_SEASON",
+    affectStandings: true
+  });
+
+  season.gamesByKey[key] = games;
+
+  season.lastResult = {
+    summary: `Week ${week} complete`,
+    details: `${games.length} games played`
+  };
+
+  if (week < REGULAR_SEASON_WEEKS) {
+    season.week += 1;
+  } else {
+    season.phase = "PLAYOFFS";
+    season.week = null;
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Regular season complete",
+      details: "Playoffs begin."
+    };
+  }
+}
+
+function advanceFromRegularSeasonIfDone(season) {
+  if (season.week >= REGULAR_SEASON_WEEKS) {
+    season.phase = "PLAYOFFS";
+    season.week = null;
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Regular season complete",
+      details: "Playoffs begin."
+    };
+  } else {
+    season.week += 1;
+  }
+}
+
+/* ======================================================
+   SHARED GAME SIMULATION
+====================================================== */
+
+function simulateGamesForWeek(season, { week, type, affectStandings }) {
+  const games = [];
+  const paired = new Set();
+
+  Object.entries(season.schedules).forEach(([teamId, schedule]) => {
+    const game = schedule.find((g) => g.week === week && g.type === type);
+    if (!game) return;
+
+    // Bye week
+    if (game.result === "BYE" || game.opponent === null) return;
+
+    const opponentId = game.opponent;
+
+    // Canonical pair key: same for both teams
+    const pairKey = `${type}-${week}-${[teamId, opponentId].sort().join("-")}`;
+
+    if (paired.has(pairKey)) return;
+    paired.add(pairKey);
+
+    const home = game.home ? teamId : opponentId;
+    const away = game.home ? opponentId : teamId;
+
+    const result = simulateGame(home, away);
+    games.push(result);
+
+    if (affectStandings) {
+      applyResult(season, result);
+    }
+
+    markGamesPlayed(season, week, type, result);
+  });
+
+  console.log(
+    "[seasonEngine] simulateGamesForWeek",
+    "type:",
+    type,
+    "week:",
+    week,
+    "games:",
+    games.length
+  );
+
+  return games;
+}
+
+/* ======================================================
+   PLAYOFFS (STUB)
+====================================================== */
+
+function advancePlayoffs(season) {
+  const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
+
+  if (idx < PLAYOFF_ROUNDS.length - 1) {
+    season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
+    season.lastResult = {
+      summary: `${PLAYOFF_ROUNDS[idx]} round complete`,
+      details: ""
+    };
+  } else {
+    resetForNextSeason(season);
+  }
+}
+
+/* ======================================================
+   SEASON RESET
+====================================================== */
+
+function resetForNextSeason(season) {
+  season.year += 1;
+
+  Object.values(season.teams).forEach((t) => {
+    t.wins = 0;
+    t.losses = 0;
+    t.ties = 0;
+    t.pointsFor = 0;
+    t.pointsAgainst = 0;
+  });
+
+  Object.values(season.schedules).forEach((schedule) => {
+    schedule.forEach((g) => {
+      g.played = false;
+      g.scoreFor = null;
+      g.scoreAgainst = null;
+      // Preserve BYE marker
+      g.result = g.result === "BYE" ? "BYE" : null;
+    });
+  });
+
+  season.gamesByKey = {};
+  season.phase = "OFFSEASON";
+  season.offseasonStep = OFFSEASON_STEPS[0];
+  season.preseasonWeek = 1;
+  season.week = 1;
+  season.playoffRound = null;
+
+  season.lastResult = {
+    summary: "Season complete",
+    details: `Welcome to the ${season.year} season`
+  };
+}
+
+/* ======================================================
+   GAME SIMULATION
+====================================================== */
+
+function simulateGame(home, away) {
+  const homeScore = rand(17, 38);
+  const awayScore = rand(14, 34);
+
+  return {
+    home,
+    away,
+    homeScore,
+    awayScore
+  };
+}
+
+function applyResult(season, game) {
+  const { home, away, homeScore, awayScore } = game;
+
+  const homeTeam = season.teams[home];
+  const awayTeam = season.teams[away];
+
+  homeTeam.pointsFor += homeScore;
+  homeTeam.pointsAgainst += awayScore;
+  awayTeam.pointsFor += awayScore;
+  awayTeam.pointsAgainst += homeScore;
+
+  if (homeScore > awayScore) {
+    homeTeam.wins++;
+    awayTeam.losses++;
+  } else if (awayScore > homeScore) {
+    awayTeam.wins++;
+    homeTeam.losses++;
+  } else {
+    homeTeam.ties++;
+    awayTeam.ties++;
+  }
+}
+
+function markGamesPlayed(season, week, type, game) {
+  const { home, away, homeScore, awayScore } = game;
+
+  const update = (teamId, scored, allowed) => {
+    const g = season.schedules[teamId].find(
+      (x) => x.week === week && x.type === type
+    );
+    if (!g) return;
+
+    g.played = true;
+    g.scoreFor = scored;
+    g.scoreAgainst = allowed;
+    g.result = scored > allowed ? "W" : scored < allowed ? "L" : "T";
+  };
+
+  update(home, homeScore, awayScore);
+  update(away, awayScore, homeScore);
+}
+
+/* ======================================================
+   HELPERS
+====================================================== */
+
+function rand(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+export function getOffseasonSteps() {
+  return OFFSEASON_STEPS;
+}
+
+export function getPlayoffRounds() {
+  return PLAYOFF_ROUNDS;
+}
+
+
+****************************************
+
+src/data/season/seasonState.json:
+
+{
+  "year": 2026,
+  "phase": "OFFSEASON",
+  "offseasonStep": "RESIGNINGS",
+  "week": 0,
+  "_initialized": false,
+  "warnings": {
+    "injuries": 0,
+    "depthChartIssues": 0,
+    "capOver": false
+  },
+  "lastResult": {
+    "summary": "New franchise loaded",
+    "details": "Offseason — RESIGNINGS"
+  }
+}
+
+
+***********************************
+
+schedule.json example - BAL:
+
+ {
+    "week": 1,
+    "type": "PRESEASON",
+    "opponent": "NO",
+    "home": true,
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 76443,
+    "notes": null
+  },
+  {
+    "week": 2,
+    "type": "PRESEASON",
+    "opponent": "JAX",
+    "home": false,
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 63618,
+    "notes": null
+  },
+  {
+    "week": 3,
+    "type": "PRESEASON",
+    "opponent": "NYJ",
+    "home": true,
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 67968,
+    "notes": null
+  },
+  {
+    "week": 4,
+    "type": "REGULAR_SEASON",
+    "opponent": "DET",
+    "home": false,
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 64834,
+    "notes": null
+  },
+  {
+    "week": 5,
+    "type": "REGULAR_SEASON",
+    "opponent": "PHI",
+    "home": true,
+    "played": false,
+    "scoreFor": null,
+    "scoreAgainst": null,
+    "result": null,
+    "overtime": false,
+    "attendance": 62504,
+    "notes": null
+
+
+**************************************
+
+src/data/teams.js:
+
+export const teams = [
+  // -------------------- AFC NORTH --------------------
+  { id: "BAL", city: "BAL", mascot: "Nightwings", conference: "AFC", division: "North", color: "#5A4FCF" },
+  { id: "CIN", city: "CIN", mascot: "Striped Fury", conference: "AFC", division: "North", color: "#F77F2F" },
+  { id: "CLE", city: "CLE", mascot: "Forge Hounds", conference: "AFC", division: "North", color: "#A65A2E" },
+  { id: "PIT", city: "PIT", mascot: "Ironhammers", conference: "AFC", division: "North", color: "#6E6E6E" },
+
+  // -------------------- AFC EAST --------------------
+  { id: "BUF", city: "BUF", mascot: "Frosthorns", conference: "AFC", division: "East", color: "#3A6FF7" },
+  { id: "MIA", city: "MIA", mascot: "Neon Sharks", conference: "AFC", division: "East", color: "#00C9A7" },
+  { id: "NE",  city: "NE",  mascot: "Liberty Knights", conference: "AFC", division: "East", color: "#34495E" },
+  { id: "NYJ", city: "NYJ", mascot: "Green Flight", conference: "AFC", division: "East", color: "#2ECC71" },
+
+  // -------------------- AFC SOUTH --------------------
+  { id: "HOU", city: "HOU", mascot: "Red Guardians", conference: "AFC", division: "South", color: "#C0392B" },
+  { id: "IND", city: "IND", mascot: "Blue Chargers", conference: "AFC", division: "South", color: "#2E86DE" },
+  { id: "JAX", city: "JAX", mascot: "Jungle Strikers", conference: "AFC", division: "South", color: "#D4A017" },
+  { id: "TEN", city: "TEN", mascot: "Thunder Titans", conference: "AFC", division: "South", color: "#5DADE2" },
+
+  // -------------------- AFC WEST --------------------
+  { id: "DEN", city: "DEN", mascot: "Storm Riders", conference: "AFC", division: "West", color: "#FF7F50" },
+  { id: "KC",  city: "KC",  mascot: "Warforge", conference: "AFC", division: "West", color: "#D63031" },
+  { id: "LV",  city: "LV",  mascot: "Black Spades", conference: "AFC", division: "West", color: "#555555" },
+  { id: "LAC", city: "LAC", mascot: "Volt Surge", conference: "AFC", division: "West", color: "#4DA6FF" },
+
+  // -------------------- NFC NORTH --------------------
+  { id: "CHI", city: "CHI", mascot: "Wind Bears", conference: "NFC", division: "North", color: "#CA6F1E" },
+  { id: "DET", city: "DET", mascot: "Motor Lions", conference: "NFC", division: "North", color: "#5DADE2" },
+  { id: "GB",  city: "GB",  mascot: "Green Guardians", conference: "NFC", division: "North", color: "#27AE60" },
+  { id: "MIN", city: "MIN", mascot: "Storm Vikings", conference: "NFC", division: "North", color: "#8E44AD" },
+
+  // -------------------- NFC EAST --------------------
+  { id: "DAL", city: "DAL", mascot: "Lone Stars", conference: "NFC", division: "East", color: "#2C3E50" },
+  { id: "NYG", city: "NYG", mascot: "Empire Giants", conference: "NFC", division: "East", color: "#3A6FF7" },
+  { id: "PHI", city: "PHI", mascot: "Sky Eagles", conference: "NFC", division: "East", color: "#1ABC9C" },
+  { id: "WAS", city: "WAS", mascot: "Capital Command", conference: "NFC", division: "East", color: "#884EA0" },
+
+  // -------------------- NFC SOUTH --------------------
+  { id: "ATL", city: "ATL", mascot: "Firebirds", conference: "NFC", division: "South", color: "#E74C3C" },
+  { id: "CAR", city: "CAR", mascot: "Panther Claw", conference: "NFC", division: "South", color: "#2980B9" },
+  { id: "NO",  city: "NO",  mascot: "Golden Saints", conference: "NFC", division: "South", color: "#D4AC0D" },
+  { id: "TB",  city: "TB",  mascot: "Bay Pirates", conference: "NFC", division: "South", color: "#C0392B" },
+
+  // -------------------- NFC WEST --------------------
+  { id: "ARI", city: "ARI", mascot: "Red Talons", conference: "NFC", division: "West", color: "#C0392B" },
+  { id: "LAR", city: "LAR", mascot: "Royal Rams", conference: "NFC", division: "West", color: "#F1C40F" },
+  { id: "SF",  city: "SF",  mascot: "Gold Rush", conference: "NFC", division: "West", color: "#D68910" },
+  { id: "SEA", city: "SEA", mascot: "Stormhawks", conference: "NFC", division: "West", color: "#2ECC71" }
+];
+
+
+*************************
+
+src/data/rosters - team.json example -- BAL:
+
+"id": "BAL-QB-1",
+    "team": "BAL",
+    "teamName": "BAL",
+    "name": "Shawn Predovic",
+    "jerseyNumber": 93,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'11\"",
+      "weight": 212,
+      "college": "Odessaview",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 89963480,
+      "capHit": 3452495,
+      "deadCap": 9039754,
+      "signingBonus": 12320653,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 83,
+      "schemeFit": 89,
+      "speed": 71,
+      "acceleration": 91,
+      "agility": 94,
+      "strength": 93,
+      "tackle": 74,
+      "pursuit": 72,
+      "manCoverage": 62,
+      "zoneCoverage": 78,
+      "kickPower": 90,
+      "kickAccuracy": 64,
+      "catching": 94,
+      "routeRunning": 90,
+      "release": 83,
+      "throwPower": 90,
+      "shortAccuracy": 80,
+      "mediumAccuracy": 94,
+      "deepAccuracy": 86
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 102,
+        "statB": 313
+      },
+      "career": {
+        "games": 104,
+        "statA": 3505,
+        "statB": 2111
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+
+
+***************************************
+
+src/components/season/NextActionCard.jsx:
+import React from "react";
+import styles from "./NextActionCard.module.css";
+
+export default function NextActionCard({
+  season,
+  onAdvance,
+  canAdvance = true,
+  warnings = []
+}) {
+  if (!season) return null;
+
+  const { title, subtitle, actionLabel } = getActionConfig(season);
+
+  return (
+    <div className={styles.container}>
+      {/* LEFT COLUMN */}
+      <div className={styles.leftCol}>
+        <div className={styles.title}>{title}</div>
+        <div className={styles.subtitle}>{subtitle}</div>
+
+        {warnings.length > 0 && (
+          <div className={styles.warningBlock}>
+            <div className={styles.warningHeader}>Warnings</div>
+            <ul className={styles.warningList}>
+              {warnings.map((w, i) => (
+                <li key={i}>{w}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+
+      {/* MIDDLE COLUMN (BUTTON) */}
+      <div className={styles.middleCol}>
+        <button
+          className={`${styles.button} ${
+            !canAdvance ? styles.disabled : ""
+          }`}
+          disabled={!canAdvance}
+          onClick={() => canAdvance && onAdvance?.(season)}
+        >
+          {actionLabel}
+        </button>
+      </div>
+
+      {/* RIGHT COLUMN (RESULTS) */}
+      <div className={styles.rightCol}>
+        <div className={styles.resultBlock}>
+          {season.lastResult?.summary && (
+            <div className={styles.resultSummary}>
+              {season.lastResult.summary}
+            </div>
+          )}
+          {season.lastResult?.details && (
+            <div className={styles.resultDetails}>
+              {season.lastResult.details}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function getActionConfig(season) {
+  switch (season.phase) {
+    case "PRESEASON":
+      return {
+        title: `Preseason — Week ${season.preseasonWeek}`,
+        subtitle: `Preseason Week ${season.preseasonWeek}`,
+        actionLabel: `Sim Preseason Week ${season.preseasonWeek}`
+      };
+    case "REGULAR_SEASON":
+      return {
+        title: `Regular Season — Week ${season.week}`,
+        subtitle: `Week ${season.week} Complete`,
+        actionLabel: `Sim Week ${season.week + 1}`
+      };
+    case "PLAYOFFS":
+      return {
+        title: `Playoffs — ${season.playoffRound}`,
+        subtitle: "Win or go home",
+        actionLabel: "Sim Next Round"
+      };
+    case "OFFSEASON":
+      return {
+        title: `Offseason — ${season.offseasonStep}`,
+        subtitle: "Team building phase",
+        actionLabel: "Advance"
+      };
+    default:
+      return {
+        title: "Season",
+        subtitle: "",
+        actionLabel: "Advance"
+      };
+  }
+}
+
+**************************************
+
+NextActionCard.module.css:
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 20px;
+
+  background: linear-gradient(
+    145deg,
+    rgba(0, 212, 255, 0.12),
+    rgba(0, 212, 255, 0.04)
+  );
+  border: 1px solid rgba(0, 212, 255, 0.35);
+  border-radius: 14px;
+  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+/* LEFT COLUMN */
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* WARNINGS BLOCK */
+.warningBlock {
+  margin-top: 6px;
+}
+
+.warningHeader {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2px;
+}
+
+.warningList {
+  margin: 0;
+  padding-left: 16px;
+  color: #ff4444;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* MIDDLE COLUMN */
+.middleCol {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background: #3e4147;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(11, 94, 215, 0.35);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+}
+
+.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* RIGHT COLUMN */
+.rightCol {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resultBlock {
+  text-align: right;
+}
+
+.resultSummary {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.resultDetails {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .rightCol {
+    justify-content: flex-start;
+  }
+
+  .resultBlock {
+    text-align: left;
+  }
+}
+
+
+****************************************
+
+src/components/season/TeamSeasonRoadmap.jsx:
+
+import React from "react";
+import styles from "./TeamSeasonRoadmap.module.css";
+import { getOffseasonSteps, getPlayoffRounds } from "../../utils/seasonEngine";
+
+const PHASES = [
+  { key: "PRESEASON", label: "Preseason" },
+  { key: "REGULAR_SEASON", label: "Regular Season" },
+  { key: "PLAYOFFS", label: "Playoffs" },
+  { key: "OFFSEASON", label: "Offseason" },
+];
+
+export default function TeamSeasonRoadmap({ season, onSelectPhase }) {
+  if (!season) return null;
+
+  const currentIndex = PHASES.findIndex((p) => p.key === season.phase);
+  const offseasonSteps = getOffseasonSteps();
+  const playoffRounds = getPlayoffRounds();
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.title}>Season Progress</div>
+
+      <div className={styles.phases}>
+        {PHASES.map((phase, index) => {
+          const isCompleted = index < currentIndex;
+          const isActive = index === currentIndex;
+
+          return (
+            <div
+              key={phase.key}
+              className={`${styles.phase}
+                ${isCompleted ? styles.completed : ""}
+                ${isActive ? styles.active : ""}
+                ${onSelectPhase ? styles.clickable : ""}
+              `}
+              onClick={() => onSelectPhase?.(phase.key)}
+            >
+              <div className={styles.phaseHeader}>
+                <span>{phase.label}</span>
+
+                {isActive &&
+                  phase.key === "REGULAR_SEASON" &&
+                  season.week && (
+                    <span className={styles.subtle}>Week {season.week}</span>
+                  )}
+
+                {isActive &&
+                  phase.key === "PLAYOFFS" &&
+                  season.playoffRound && (
+                    <span className={styles.subtle}>
+                      {season.playoffRound.replace("_", " ")}
+                    </span>
+                  )}
+
+                {isActive &&
+                  phase.key === "OFFSEASON" &&
+                  season.offseasonStep && (
+                    <span className={styles.subtle}>
+                      {season.offseasonStep.replace("_", " ")}
+                    </span>
+                  )}
+              </div>
+
+              {isActive && phase.key === "OFFSEASON" && (
+                <div className={styles.subSteps}>
+                  {offseasonSteps.map((step) => {
+                    const isStepActive = step === season.offseasonStep;
+                    return (
+                      <div
+                        key={step}
+                        className={`${styles.subStep} ${
+                          isStepActive ? styles.subStepActive : ""
+                        }`}
+                      >
+                        {step.replace("_", " ")}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {isActive && phase.key === "PLAYOFFS" && (
+                <div className={styles.subSteps}>
+                  {playoffRounds.map((round) => {
+                    const isRoundActive = round === season.playoffRound;
+                    return (
+                      <div
+                        key={round}
+                        className={`${styles.subStep} ${
+                          isRoundActive ? styles.subStepActive : ""
+                        }`}
+                      >
+                        {round.replace("_", " ")}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+
+*********************************************
+
+src/components/team/schedule/ScheduleTab.jsx
+
+import React from "react";
+import { teams } from "../../../data/teams";
+
+import styles from "./ScheduleTab.module.css";
+
+function getOpponentLabel(game) {
+  if (game.result === "BYE" || game.opponent === null) {
+    return "BYE WEEK";
+  }
+
+  const oppTeam = teams.find((t) => t.id === game.opponent);
+  const oppName = oppTeam ? `${oppTeam.city} ${oppTeam.mascot}` : game.opponent;
+  const prefix = game.home ? "vs" : "@";
+  return `${prefix} ${oppName}`;
+}
+
+function getWeekLabel(game) {
+  if (game.type === "REGULAR_SEASON") {
+    return `Week ${game.week}`;
+  }
+  // Defensive only; preseason is filtered out.
+  return `Pre ${game.week}`;
+}
+
+function getScoreLabel(game) {
+  if (game.result === "BYE" || game.opponent === null) {
+    return "-";
+  }
+  if (!game.played || game.scoreFor == null || game.scoreAgainst == null) {
+    return "—";
+  }
+  return `${game.scoreFor} - ${game.scoreAgainst}`;
+}
+
+function getResultClass(result) {
+  if (result === "W") return styles.resultWin;
+  if (result === "L") return styles.resultLoss;
+  if (result === "T") return styles.resultTie;
+  if (result === "BYE") return styles.resultBye;
+  return styles.resultNeutral;
+}
+
+export default function ScheduleTab({ schedule }) {
+  if (!schedule || schedule.length === 0) {
+    return <div>No schedule available.</div>;
+  }
+
+  const regularSeasonGames = schedule
+    .filter((g) => g.type === "REGULAR_SEASON")
+    .sort((a, b) => a.week - b.week);
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.headerRow}>
+        <div>Week</div>
+        <div>Matchup</div>
+        <div className={styles.center}>Score</div>
+        <div className={styles.center}>Result</div>
+      </div>
+
+      {regularSeasonGames.map((game, idx) => (
+        <div
+          key={`${game.week}-${game.opponent ?? "BYE"}-${idx}`}
+          className={styles.row}
+        >
+          <div>{getWeekLabel(game)}</div>
+          <div>{getOpponentLabel(game)}</div>
+          <div className={`${styles.center} ${styles.score}`}>
+            {getScoreLabel(game)}
+          </div>
+          <div className={`${styles.center} ${getResultClass(game.result)}`}>
+            {game.result === "BYE" ? "BYE" : game.result || ""}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+
+
+*********************************************
+
+ScheduleTab.module.css:
+.container {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 12px 16px;
+  box-shadow: var(--shadow);
+  font-size: 0.85rem;
+}
+
+.headerRow {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px 70px;
+  padding: 6px 4px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px 70px;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.score {
+  font-weight: 600;
+}
+
+.resultWin {
+  color: #2ecc71;
+  font-weight: 700;
+}
+
+.resultLoss {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+.resultTie {
+  color: #f1c40f;
+  font-weight: 700;
+}
+
+.resultBye {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.resultNeutral {
+  color: var(--color-text-muted);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .headerRow,
+  .row {
+    grid-template-columns: 70px 1fr 70px 60px;
+    font-size: 0.8rem;
+  }
+}
+
+
+
+*****************************************
+
+src/components/standings/DivisionStandings.jsx:
+
+import React from "react";
+
+const containerStyle = {
+  display: "flex",
+  gap: "24px",
+  alignItems: "flex-start"
+};
+
+const conferenceColumnStyle = {
+  flex: 1,
+  borderRadius: "12px",
+  border: "1px solid rgba(255,255,255,0.08)",
+  background: "rgba(0,0,0,0.35)",
+  padding: "12px",
+  boxShadow: "var(--shadow)"
+};
+
+const conferenceTitleStyle = {
+  fontSize: "0.9rem",
+  fontWeight: 700,
+  marginBottom: "8px"
+};
+
+const divisionBlockStyle = {
+  marginBottom: "10px"
+};
+
+const divisionTitleStyle = {
+  fontSize: "0.8rem",
+  fontWeight: 600,
+  color: "var(--color-text-muted)",
+  marginBottom: "4px"
+};
+
+const headerRowStyle = {
+  display: "grid",
+  gridTemplateColumns: "1.6fr 0.6fr 0.6fr 0.6fr",
+  fontSize: "0.75rem",
+  color: "var(--color-text-muted)",
+  padding: "4px 0",
+  borderBottom: "1px solid rgba(255,255,255,0.06)"
+};
+
+const rowStyle = (highlight) => ({
+  display: "grid",
+  gridTemplateColumns: "1.6fr 0.6fr 0.6fr 0.6fr",
+  fontSize: "0.8rem",
+  padding: "4px 0",
+  background: highlight ? "rgba(0,212,255,0.08)" : "transparent",
+  borderBottom: "1px solid rgba(255,255,255,0.04)"
+});
+
+function getRecord(season, teamId) {
+  const rec = season.teams?.[teamId];
+  if (!rec) {
+    return { wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0 };
+  }
+  return rec;
+}
+
+function sortDivisionTeams(season, teamsInDivision) {
+  return [...teamsInDivision].sort((a, b) => {
+    const ra = getRecord(season, a.id);
+    const rb = getRecord(season, b.id);
+
+    // Primary: wins
+    if (rb.wins !== ra.wins) return rb.wins - ra.wins;
+    // Secondary: ties
+    if (rb.ties !== ra.ties) return rb.ties - ra.ties;
+    // Tertiary: point differential
+    const diffA = ra.pointsFor - ra.pointsAgainst;
+    const diffB = rb.pointsFor - rb.pointsAgainst;
+    return diffB - diffA;
+  });
+}
+
+function renderConferenceColumn(conferenceName, teams, season, userTeam) {
+  const divisions = ["North", "East", "South", "West"];
+
+  return (
+    <div style={conferenceColumnStyle}>
+      <div style={conferenceTitleStyle}>{conferenceName}</div>
+
+      {divisions.map((division) => {
+        const divisionTeams = teams.filter(
+          (t) => t.conference === conferenceName && t.division === division
+        );
+        if (divisionTeams.length === 0) return null;
+
+        const sorted = sortDivisionTeams(season, divisionTeams);
+
+        return (
+          <div key={division} style={divisionBlockStyle}>
+            <div style={divisionTitleStyle}>{division}</div>
+            <div style={headerRowStyle}>
+              <div>Team</div>
+              <div style={{ textAlign: "center" }}>W</div>
+              <div style={{ textAlign: "center" }}>L</div>
+              <div style={{ textAlign: "center" }}>T</div>
+            </div>
+            {sorted.map((team) => {
+              const rec = getRecord(season, team.id);
+              const highlight = userTeam && userTeam.id === team.id;
+
+              return (
+                <div key={team.id} style={rowStyle(highlight)}>
+                  <div>
+                    {team.city} {team.mascot}
+                  </div>
+                  <div style={{ textAlign: "center" }}>{rec.wins}</div>
+                  <div style={{ textAlign: "center" }}>{rec.losses}</div>
+                  <div style={{ textAlign: "center" }}>{rec.ties}</div>
+                </div>
+              );
+            })}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+export default function DivisionStandings({ teams, userTeam, season }) {
+  if (!season || !season.teams) {
+    return <div>Standings unavailable.</div>;
+  }
+
+  return (
+    <div style={containerStyle}>
+      {renderConferenceColumn("AFC", teams, season, userTeam)}
+      {renderConferenceColumn("NFC", teams, season, userTeam)}
+    </div>
+  );
+}
+
+
+
+*************************************
+
+DivisionStandings.module.css:
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 14px;
+  padding: 16px;
+  color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.team {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.abbr {
+  font-weight: 800;
+  width: 36px;
+}
+
+.name {
+  opacity: 0.9;
+}
+
+.record {
+  font-weight: 700;
+}
+
+.userRow {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid var(--team-color, #fff);
+}
+
+.cpuRow {
+  opacity: 0.55;
+}
+
+*****************************************
+
+src/components/team/RosterTable.jsx:
+
+
+import React from "react";
+import RosterList from "./roster/RosterList";
+
+const RosterTable = ({ roster, onPlayerClick }) => {
+  return (
+    <div style={{ marginTop: "16px" }}>
+      <RosterList roster={roster} onPlayerClick={onPlayerClick} />
+    </div>
+  );
+};
+
+export default RosterTable;
+
+
+**************************************
+
+src/components/team/roster/RosterList.jsx:
+
+import React from "react";
+import styles from "./RosterList.module.css";
+
+const RosterList = ({ roster, onPlayerClick }) => {
+  if (!roster) return null;
+
+  const groups = {};
+  roster.forEach((p) => {
+    if (!groups[p.position]) groups[p.position] = [];
+    groups[p.position].push(p);
+  });
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <div className={styles.position}>Pos</div>
+        <div className={styles.name}>Name</div>
+        <div className={styles.ovr}>OVR</div>
+        <div className={styles.age}>Age</div>
+      </div>
+
+      {Object.keys(groups).map((pos) => {
+        const groupClass = styles[`groupLabel_${pos}`] || styles.groupLabel;
+
+        // Sort players by OVR descending
+        const sortedPlayers = [...groups[pos]].sort(
+          (a, b) => (b.ratings?.overall ?? 0) - (a.ratings?.overall ?? 0)
+        );
+
+        return (
+          <div key={pos}>
+            <div className={`${styles.groupLabel} ${groupClass}`}>
+              {pos}
+            </div>
+
+            {sortedPlayers.map((player, idx) => {
+              const ovr = player.ratings?.overall ?? "-";
+              const ovrClass =
+                ovr >= 90 ? styles.ovrElite :
+                ovr >= 80 ? styles.ovrGreat :
+                ovr >= 70 ? styles.ovrGood :
+                styles.ovrLow;
+
+              return (
+                <div
+                  key={idx}
+                  className={styles.row}
+                  onClick={() => onPlayerClick?.(player)}
+                >
+                  <div className={styles.position}>{player.position}</div>
+                  <div className={styles.name}>{player.name}</div>
+                  <div className={`${styles.ovr} ${ovrClass}`}>{ovr}</div>
+                  <div className={styles.age}>{player.vitals?.age ?? "-"}</div>
+                </div>
+              );
+            })}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+export default RosterList;
+
+
+******************************************
+
+src/components/team/financesPanel.jsx (if we are tweaking finances tab i would prefer to scaffold similar to the other updated tabs (scr/components/team/finances: FinancesTab and FinancesTab.module.css
+
+Same thing for stats...setup the same way
+
+
+
+src/components/team/TeamHeader.jsx:
+
+import React from "react";
+import styles from "./TeamHeader.module.css";
+
+const TeamHeader = ({ team, season, meta }) => {
+  if (!team || !season) return null;
+
+  const record = season.teams?.[team.id] || {
+    wins: 0,
+    losses: 0,
+    ties: 0
+  };
+
+  const year = season.year ?? 2026;
+
+  console.log("[TeamHeader] meta for team:", team.id, meta);
+
+  const logoSrc = meta?.logo || meta?.logoUrl || null;
+  const capSpace = meta?.capSpace ?? meta?.capRoom ?? null;
+
+  return (
+    <div className={styles.container}>
+      {/* LEFT: LOGO + NAME */}
+      <div className={styles.left}>
+        <div className={styles.logoWrapper}>
+          {logoSrc ? (
+            <img
+              src={logoSrc}
+              alt={`${team.city} ${team.mascot}`}
+              className={styles.logo}
+            />
+          ) : (
+            <div
+              className={styles.logoFallback}
+              style={{ backgroundColor: team.color }}
+            >
+              {team.id}
+            </div>
+          )}
+        </div>
+        <div className={styles.teamInfo}>
+          <div className={styles.teamName}>
+            {team.city} {team.mascot}
+          </div>
+          <div className={styles.subline}>
+            {team.conference} • {team.division}
+          </div>
+        </div>
+      </div>
+
+      {/* MIDDLE: RECORD + YEAR */}
+      <div className={styles.middle}>
+        <div className={styles.record}>
+          {record.wins}-{record.losses}
+          {record.ties ? `-${record.ties}` : ""}
+        </div>
+        <div className={styles.year}>Year {year}</div>
+      </div>
+
+      {/* RIGHT: CAP INFO */}
+      <div className={styles.right}>
+        {capSpace !== null && (
+          <div className={styles.capBlock}>
+            <div className={styles.capLabel}>Cap Space</div>
+            <div className={styles.capValue}>
+              ${Number(capSpace).toLocaleString()}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default TeamHeader;
+
+********************************************8
+
+src/components/team/TeamHeader.module.css:
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 212, 255, 0.12),
+    rgba(0, 212, 255, 0.04)
+  );
+  border: 1px solid rgba(0, 212, 255, 0.35);
+  border-radius: 14px;
+  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+/* LEFT SIDE — LOGO + TEAM NAME */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logoWrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logoFallback {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamName {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.subline {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* MIDDLE — RECORD + YEAR */
+.middle {
+  text-align: center;
+}
+
+.record {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.year {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* RIGHT — CAP SPACE */
+.right {
+  text-align: right;
+}
+
+.capBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.capLabel {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.capValue {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .capBlock {
+    align-items: center;
+  }
+}
+
+
+**************************************
+
+
+
+

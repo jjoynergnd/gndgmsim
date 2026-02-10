@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  73,
-               "name":  "Evan Halford"
-           },
-    "OC":  {
-               "rating":  66,
-               "name":  "Tyrone Foster"
-           },
-    "DC":  {
-               "rating":  74,
-               "name":  "Chase Wright"
-           }
-}
+[
+  {
+    "id": "IND-STAFF-1",
+    "team": "IND",
+    "role": "Head Coach",
+    "name": "Victor Baumbach",
+    "vitals": {
+      "age": 55,
+      "experience": 36
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 93,
+      "schemeKnowledge": 65,
+      "playerDev": 92,
+      "motivation": 94,
+      "injuryManagement": 41,
+      "conditioning": 63,
+      "analyticsIQ": 70
+    },
+    "contract": {
+      "years": 5,
+      "salary": 5458909
+    }
+  },
+  {
+    "id": "IND-STAFF-2",
+    "team": "IND",
+    "role": "Offensive Coordinator",
+    "name": "Chase Lesch-Hane",
+    "vitals": {
+      "age": 33,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 87,
+      "schemeKnowledge": 89,
+      "playerDev": 86,
+      "motivation": 94,
+      "injuryManagement": 45,
+      "conditioning": 53,
+      "analyticsIQ": 59
+    },
+    "contract": {
+      "years": 5,
+      "salary": 934919
+    }
+  },
+  {
+    "id": "IND-STAFF-3",
+    "team": "IND",
+    "role": "Defensive Coordinator",
+    "name": "Michael Weber",
+    "vitals": {
+      "age": 41,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 75,
+      "schemeKnowledge": 72,
+      "playerDev": 71,
+      "motivation": 95,
+      "injuryManagement": 65,
+      "conditioning": 47,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 2,
+      "salary": 6245649
+    }
+  },
+  {
+    "id": "IND-STAFF-4",
+    "team": "IND",
+    "role": "Strength & Conditioning Coach",
+    "name": "Edgar Hane",
+    "vitals": {
+      "age": 37,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 79,
+      "discipline": 75,
+      "schemeKnowledge": 79,
+      "playerDev": 67,
+      "motivation": 65,
+      "injuryManagement": 69,
+      "conditioning": 84,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 3,
+      "salary": 2519668
+    }
+  },
+  {
+    "id": "IND-STAFF-5",
+    "team": "IND",
+    "role": "Physical Therapist",
+    "name": "Jeremy Lebsack",
+    "vitals": {
+      "age": 56,
+      "experience": 38
+    },
+    "ratings": {
+      "leadership": 83,
+      "discipline": 83,
+      "schemeKnowledge": 76,
+      "playerDev": 70,
+      "motivation": 75,
+      "injuryManagement": 90,
+      "conditioning": 58,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 2,
+      "salary": 6671990
+    }
+  },
+  {
+    "id": "IND-STAFF-6",
+    "team": "IND",
+    "role": "Athletic Trainer",
+    "name": "Alberto Gleichner",
+    "vitals": {
+      "age": 40,
+      "experience": 7
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 71,
+      "schemeKnowledge": 71,
+      "playerDev": 76,
+      "motivation": 95,
+      "injuryManagement": 79,
+      "conditioning": 56,
+      "analyticsIQ": 69
+    },
+    "contract": {
+      "years": 3,
+      "salary": 4401614
+    }
+  },
+  {
+    "id": "IND-STAFF-7",
+    "team": "IND",
+    "role": "Analytics Coordinator",
+    "name": "Hyun Hane",
+    "vitals": {
+      "age": 38,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 78,
+      "discipline": 68,
+      "schemeKnowledge": 74,
+      "playerDev": 91,
+      "motivation": 78,
+      "injuryManagement": 70,
+      "conditioning": 59,
+      "analyticsIQ": 81
+    },
+    "contract": {
+      "years": 5,
+      "salary": 6171704
+    }
+  }
+]

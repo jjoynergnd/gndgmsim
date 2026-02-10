@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  91,
-               "name":  "Tyrone Wright"
-           },
-    "OC":  {
-               "rating":  86,
-               "name":  "Xavier Foster"
-           },
-    "DC":  {
-               "rating":  72,
-               "name":  "Andre Rourke"
-           }
-}
+[
+  {
+    "id": "CLE-STAFF-1",
+    "team": "CLE",
+    "role": "Head Coach",
+    "name": "Seamus Ondricka",
+    "vitals": {
+      "age": 44,
+      "experience": 14
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 88,
+      "schemeKnowledge": 84,
+      "playerDev": 81,
+      "motivation": 75,
+      "injuryManagement": 43,
+      "conditioning": 42,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2506389
+    }
+  },
+  {
+    "id": "CLE-STAFF-2",
+    "team": "CLE",
+    "role": "Offensive Coordinator",
+    "name": "Nicholas Wilderman",
+    "vitals": {
+      "age": 55,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 80,
+      "discipline": 92,
+      "schemeKnowledge": 65,
+      "playerDev": 92,
+      "motivation": 75,
+      "injuryManagement": 69,
+      "conditioning": 59,
+      "analyticsIQ": 53
+    },
+    "contract": {
+      "years": 5,
+      "salary": 6364923
+    }
+  },
+  {
+    "id": "CLE-STAFF-3",
+    "team": "CLE",
+    "role": "Defensive Coordinator",
+    "name": "Khalid Cole",
+    "vitals": {
+      "age": 41,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 76,
+      "schemeKnowledge": 74,
+      "playerDev": 63,
+      "motivation": 89,
+      "injuryManagement": 49,
+      "conditioning": 65,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4953197
+    }
+  },
+  {
+    "id": "CLE-STAFF-4",
+    "team": "CLE",
+    "role": "Strength & Conditioning Coach",
+    "name": "Andrew Wisozk",
+    "vitals": {
+      "age": 55,
+      "experience": 15
+    },
+    "ratings": {
+      "leadership": 84,
+      "discipline": 84,
+      "schemeKnowledge": 84,
+      "playerDev": 69,
+      "motivation": 85,
+      "injuryManagement": 59,
+      "conditioning": 81,
+      "analyticsIQ": 47
+    },
+    "contract": {
+      "years": 3,
+      "salary": 6859548
+    }
+  },
+  {
+    "id": "CLE-STAFF-5",
+    "team": "CLE",
+    "role": "Physical Therapist",
+    "name": "Fernando Greenfelder",
+    "vitals": {
+      "age": 33,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 67,
+      "discipline": 94,
+      "schemeKnowledge": 86,
+      "playerDev": 91,
+      "motivation": 60,
+      "injuryManagement": 93,
+      "conditioning": 48,
+      "analyticsIQ": 67
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4074411
+    }
+  },
+  {
+    "id": "CLE-STAFF-6",
+    "team": "CLE",
+    "role": "Athletic Trainer",
+    "name": "Victor Williamson",
+    "vitals": {
+      "age": 50,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 69,
+      "discipline": 73,
+      "schemeKnowledge": 74,
+      "playerDev": 92,
+      "motivation": 92,
+      "injuryManagement": 81,
+      "conditioning": 55,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3428621
+    }
+  },
+  {
+    "id": "CLE-STAFF-7",
+    "team": "CLE",
+    "role": "Analytics Coordinator",
+    "name": "Eric Boyer",
+    "vitals": {
+      "age": 30,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 71,
+      "discipline": 62,
+      "schemeKnowledge": 64,
+      "playerDev": 78,
+      "motivation": 94,
+      "injuryManagement": 43,
+      "conditioning": 69,
+      "analyticsIQ": 98
+    },
+    "contract": {
+      "years": 4,
+      "salary": 5774080
+    }
+  }
+]

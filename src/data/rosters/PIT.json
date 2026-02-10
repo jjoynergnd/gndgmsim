@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  74,
-        "name":  "Caleb Halford",
-        "id":  "PIT-QB0"
+[
+  {
+    "id": "PIT-QB-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Wayne Pollich",
+    "jerseyNumber": 87,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 185,
+      "college": "Lake Katlynn",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
     },
-    {
-        "position":  "RB",
-        "overall":  80,
-        "name":  "Chase Coleman",
-        "id":  "PIT-RB1"
+    "contract": {
+      "years": 4,
+      "totalValue": 95960623,
+      "capHit": 24213449,
+      "deadCap": 619360,
+      "signingBonus": 2688962,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
     },
-    {
-        "position":  "WR",
-        "overall":  91,
-        "name":  "Andre Halford",
-        "id":  "PIT-WR2"
+    "ratings": {
+      "overall": 85,
+      "potential": 91,
+      "schemeFit": 86,
+      "speed": 74,
+      "acceleration": 78,
+      "agility": 86,
+      "strength": 68,
+      "tackle": 80,
+      "pursuit": 95,
+      "manCoverage": 85,
+      "zoneCoverage": 53,
+      "kickPower": 95,
+      "kickAccuracy": 74,
+      "catching": 57,
+      "routeRunning": 80,
+      "release": 88,
+      "throwPower": 71,
+      "shortAccuracy": 93,
+      "mediumAccuracy": 94,
+      "deepAccuracy": 76
     },
-    {
-        "position":  "LB",
-        "overall":  74,
-        "name":  "Marcus Douglas",
-        "id":  "PIT-LB3"
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  71,
-        "name":  "Darius Harrington",
-        "id":  "PIT-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 295,
+        "statB": 420
+      },
+      "career": {
+        "games": 64,
+        "statA": 4153,
+        "statB": 3466
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "PIT-QB-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Roger Daniel",
+    "jerseyNumber": 30,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 191,
+      "college": "Lake Sebastian",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 84466814,
+      "capHit": 9486682,
+      "deadCap": 898379,
+      "signingBonus": 218101,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 86,
+      "speed": 75,
+      "acceleration": 71,
+      "agility": 78,
+      "strength": 93,
+      "tackle": 72,
+      "pursuit": 71,
+      "manCoverage": 75,
+      "zoneCoverage": 86,
+      "kickPower": 59,
+      "kickAccuracy": 80,
+      "catching": 93,
+      "routeRunning": 50,
+      "release": 90,
+      "throwPower": 86,
+      "shortAccuracy": 81,
+      "mediumAccuracy": 90,
+      "deepAccuracy": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 765,
+        "statB": 350
+      },
+      "career": {
+        "games": 112,
+        "statA": 3016,
+        "statB": 3683
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "PIT-QB-3",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Kenji Hyatt",
+    "jerseyNumber": 16,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 237,
+      "college": "Yostport",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 59389274,
+      "capHit": 872656,
+      "deadCap": 8684992,
+      "signingBonus": 6082344,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 78,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 95,
+      "agility": 76,
+      "strength": 65,
+      "tackle": 61,
+      "pursuit": 72,
+      "manCoverage": 69,
+      "zoneCoverage": 86,
+      "kickPower": 63,
+      "kickAccuracy": 92,
+      "catching": 59,
+      "routeRunning": 60,
+      "release": 88,
+      "throwPower": 94,
+      "shortAccuracy": 91,
+      "mediumAccuracy": 81,
+      "deepAccuracy": 89
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 627,
+        "statB": 797
+      },
+      "career": {
+        "games": 99,
+        "statA": 365,
+        "statB": 2791
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "PIT-RB-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Charles Jacobi",
+    "jerseyNumber": 70,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 266,
+      "college": "New Malikaton",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 52193400,
+      "capHit": 13400864,
+      "deadCap": 2375245,
+      "signingBonus": 6551482,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 69,
+      "schemeFit": 93,
+      "speed": 73,
+      "acceleration": 90,
+      "agility": 75,
+      "strength": 81,
+      "tackle": 68,
+      "pursuit": 73,
+      "manCoverage": 76,
+      "zoneCoverage": 77,
+      "kickPower": 76,
+      "kickAccuracy": 88,
+      "catching": 80,
+      "routeRunning": 86,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 260,
+        "statB": 30
+      },
+      "career": {
+        "games": 28,
+        "statA": 736,
+        "statB": 4788
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "PIT-RB-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Billy Hackett",
+    "jerseyNumber": 88,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 253,
+      "college": "Fort Doviestead",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 106189528,
+      "capHit": 6056686,
+      "deadCap": 9295594,
+      "signingBonus": 16572643,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 67,
+      "schemeFit": 79,
+      "speed": 82,
+      "acceleration": 75,
+      "agility": 88,
+      "strength": 70,
+      "tackle": 77,
+      "pursuit": 82,
+      "manCoverage": 62,
+      "zoneCoverage": 72,
+      "kickPower": 95,
+      "kickAccuracy": 53,
+      "catching": 90,
+      "routeRunning": 88,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 438,
+        "statB": 560
+      },
+      "career": {
+        "games": 41,
+        "statA": 1871,
+        "statB": 830
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "PIT-RB-3",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Gavin Murphy",
+    "jerseyNumber": 11,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 201,
+      "college": "New Chadd",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 33693160,
+      "capHit": 3243366,
+      "deadCap": 1322584,
+      "signingBonus": 14804726,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 89,
+      "schemeFit": 91,
+      "speed": 77,
+      "acceleration": 85,
+      "agility": 95,
+      "strength": 83,
+      "tackle": 63,
+      "pursuit": 90,
+      "manCoverage": 52,
+      "zoneCoverage": 76,
+      "kickPower": 61,
+      "kickAccuracy": 63,
+      "catching": 52,
+      "routeRunning": 61,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 31,
+        "statB": 259
+      },
+      "career": {
+        "games": 47,
+        "statA": 2346,
+        "statB": 4404
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "PIT-RB-4",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Hiro Baumbach",
+    "jerseyNumber": 68,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 24,
+      "height": "5'9\"",
+      "weight": 227,
+      "college": "Orvilleport",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 42606328,
+      "capHit": 3444563,
+      "deadCap": 9721185,
+      "signingBonus": 9675695,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 78,
+      "schemeFit": 90,
+      "speed": 79,
+      "acceleration": 87,
+      "agility": 83,
+      "strength": 60,
+      "tackle": 74,
+      "pursuit": 72,
+      "manCoverage": 89,
+      "zoneCoverage": 50,
+      "kickPower": 52,
+      "kickAccuracy": 94,
+      "catching": 82,
+      "routeRunning": 58,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 345,
+        "statB": 319
+      },
+      "career": {
+        "games": 104,
+        "statA": 230,
+        "statB": 320
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "PIT-WR-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Zachary Hills",
+    "jerseyNumber": 78,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 198,
+      "college": "Leonelfort",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 10960400,
+      "capHit": 15290829,
+      "deadCap": 6538701,
+      "signingBonus": 4698893,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 82,
+      "schemeFit": 74,
+      "speed": 78,
+      "acceleration": 73,
+      "agility": 80,
+      "strength": 77,
+      "tackle": 80,
+      "pursuit": 71,
+      "manCoverage": 63,
+      "zoneCoverage": 64,
+      "kickPower": 77,
+      "kickAccuracy": 79,
+      "catching": 86,
+      "routeRunning": 91,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 686,
+        "statB": 845
+      },
+      "career": {
+        "games": 58,
+        "statA": 2818,
+        "statB": 2002
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "PIT-WR-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Charles Maggio",
+    "jerseyNumber": 99,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'0\"",
+      "weight": 207,
+      "college": "New Elveraville",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 37009177,
+      "capHit": 3492467,
+      "deadCap": 6301169,
+      "signingBonus": 16879173,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 77,
+      "schemeFit": 80,
+      "speed": 72,
+      "acceleration": 75,
+      "agility": 80,
+      "strength": 66,
+      "tackle": 81,
+      "pursuit": 61,
+      "manCoverage": 71,
+      "zoneCoverage": 66,
+      "kickPower": 90,
+      "kickAccuracy": 51,
+      "catching": 64,
+      "routeRunning": 76,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 840,
+        "statB": 275
+      },
+      "career": {
+        "games": 1,
+        "statA": 1097,
+        "statB": 1906
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "PIT-WR-3",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Micah Hirthe",
+    "jerseyNumber": 15,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "5'10\"",
+      "weight": 321,
+      "college": "Port Eileenport",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 16818167,
+      "capHit": 20969975,
+      "deadCap": 2936540,
+      "signingBonus": 10207641,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 88,
+      "schemeFit": 71,
+      "speed": 78,
+      "acceleration": 78,
+      "agility": 85,
+      "strength": 75,
+      "tackle": 60,
+      "pursuit": 91,
+      "manCoverage": 60,
+      "zoneCoverage": 70,
+      "kickPower": 95,
+      "kickAccuracy": 91,
+      "catching": 50,
+      "routeRunning": 94,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 546,
+        "statB": 263
+      },
+      "career": {
+        "games": 79,
+        "statA": 3743,
+        "statB": 1721
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "PIT-WR-4",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Connor Davis",
+    "jerseyNumber": 26,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 206,
+      "college": "Santa Clara",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 118767905,
+      "capHit": 14301677,
+      "deadCap": 466444,
+      "signingBonus": 841463,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 71,
+      "schemeFit": 85,
+      "speed": 70,
+      "acceleration": 71,
+      "agility": 81,
+      "strength": 66,
+      "tackle": 84,
+      "pursuit": 70,
+      "manCoverage": 63,
+      "zoneCoverage": 55,
+      "kickPower": 93,
+      "kickAccuracy": 60,
+      "catching": 85,
+      "routeRunning": 63,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 170,
+        "statB": 952
+      },
+      "career": {
+        "games": 111,
+        "statA": 4040,
+        "statB": 2624
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "PIT-WR-5",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Brody Kreiger",
+    "jerseyNumber": 77,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 284,
+      "college": "Keeblerport",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 106516424,
+      "capHit": 18486960,
+      "deadCap": 8570395,
+      "signingBonus": 17412823,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 91,
+      "speed": 91,
+      "acceleration": 89,
+      "agility": 78,
+      "strength": 66,
+      "tackle": 71,
+      "pursuit": 62,
+      "manCoverage": 63,
+      "zoneCoverage": 74,
+      "kickPower": 59,
+      "kickAccuracy": 80,
+      "catching": 84,
+      "routeRunning": 86,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 150,
+        "statB": 278
+      },
+      "career": {
+        "games": 8,
+        "statA": 2713,
+        "statB": 2996
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "PIT-WR-6",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Timothy Pouros",
+    "jerseyNumber": 86,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 228,
+      "college": "North Rettabury",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 13498080,
+      "capHit": 22922690,
+      "deadCap": 7565696,
+      "signingBonus": 15644786,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 94,
+      "speed": 93,
+      "acceleration": 81,
+      "agility": 95,
+      "strength": 76,
+      "tackle": 71,
+      "pursuit": 68,
+      "manCoverage": 81,
+      "zoneCoverage": 77,
+      "kickPower": 52,
+      "kickAccuracy": 94,
+      "catching": 75,
+      "routeRunning": 86,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 168,
+        "statB": 815
+      },
+      "career": {
+        "games": 21,
+        "statA": 2231,
+        "statB": 1473
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "PIT-WR-7",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Kevin Kulas",
+    "jerseyNumber": 68,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 232,
+      "college": "Daviston",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 105298173,
+      "capHit": 8703084,
+      "deadCap": 1956692,
+      "signingBonus": 8962104,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 92,
+      "schemeFit": 79,
+      "speed": 88,
+      "acceleration": 86,
+      "agility": 86,
+      "strength": 86,
+      "tackle": 64,
+      "pursuit": 84,
+      "manCoverage": 54,
+      "zoneCoverage": 62,
+      "kickPower": 69,
+      "kickAccuracy": 79,
+      "catching": 56,
+      "routeRunning": 85,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 604,
+        "statB": 580
+      },
+      "career": {
+        "games": 91,
+        "statA": 3024,
+        "statB": 3179
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "PIT-TE-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Reed Dach",
+    "jerseyNumber": 77,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 215,
+      "college": "New Maybellbury",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 88581049,
+      "capHit": 14765521,
+      "deadCap": 9693059,
+      "signingBonus": 17063972,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 76,
+      "schemeFit": 77,
+      "speed": 88,
+      "acceleration": 93,
+      "agility": 84,
+      "strength": 77,
+      "tackle": 62,
+      "pursuit": 61,
+      "manCoverage": 57,
+      "zoneCoverage": 63,
+      "kickPower": 62,
+      "kickAccuracy": 74,
+      "catching": 81,
+      "routeRunning": 89,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 228,
+        "statB": 957
+      },
+      "career": {
+        "games": 49,
+        "statA": 4067,
+        "statB": 2704
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "PIT-TE-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Ashton Wintheiser",
+    "jerseyNumber": 25,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 294,
+      "college": "Wisokyshire",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 75541303,
+      "capHit": 12499025,
+      "deadCap": 9160094,
+      "signingBonus": 1644954,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 86,
+      "schemeFit": 76,
+      "speed": 91,
+      "acceleration": 85,
+      "agility": 84,
+      "strength": 86,
+      "tackle": 83,
+      "pursuit": 77,
+      "manCoverage": 65,
+      "zoneCoverage": 54,
+      "kickPower": 74,
+      "kickAccuracy": 60,
+      "catching": 79,
+      "routeRunning": 90,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 941,
+        "statB": 948
+      },
+      "career": {
+        "games": 39,
+        "statA": 4983,
+        "statB": 1579
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "PIT-TE-3",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "John Heathcote",
+    "jerseyNumber": 88,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 245,
+      "college": "Lake Peggie",
+      "experience": 3,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 15904006,
+      "capHit": 11028642,
+      "deadCap": 201253,
+      "signingBonus": 16486601,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 72,
+      "schemeFit": 91,
+      "speed": 70,
+      "acceleration": 90,
+      "agility": 79,
+      "strength": 60,
+      "tackle": 92,
+      "pursuit": 79,
+      "manCoverage": 58,
+      "zoneCoverage": 80,
+      "kickPower": 54,
+      "kickAccuracy": 73,
+      "catching": 85,
+      "routeRunning": 93,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 838,
+        "statB": 578
+      },
+      "career": {
+        "games": 48,
+        "statA": 363,
+        "statB": 2847
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "PIT-LT-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Derek Zemlak",
+    "jerseyNumber": 2,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 308,
+      "college": "West Daphne",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 24519732,
+      "capHit": 19335707,
+      "deadCap": 9975504,
+      "signingBonus": 2445504,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 71,
+      "speed": 84,
+      "acceleration": 93,
+      "agility": 85,
+      "strength": 72,
+      "tackle": 85,
+      "pursuit": 87,
+      "manCoverage": 53,
+      "zoneCoverage": 74,
+      "kickPower": 87,
+      "kickAccuracy": 85,
+      "catching": 86,
+      "routeRunning": 73,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 836,
+        "statB": 642
+      },
+      "career": {
+        "games": 76,
+        "statA": 1829,
+        "statB": 4264
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "PIT-LT-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Jonathan Bogisich",
+    "jerseyNumber": 28,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 305,
+      "college": "South Daisy",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 61041759,
+      "capHit": 1268623,
+      "deadCap": 1989505,
+      "signingBonus": 12029649,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 76,
+      "speed": 78,
+      "acceleration": 71,
+      "agility": 82,
+      "strength": 89,
+      "tackle": 87,
+      "pursuit": 88,
+      "manCoverage": 58,
+      "zoneCoverage": 75,
+      "kickPower": 72,
+      "kickAccuracy": 80,
+      "catching": 76,
+      "routeRunning": 79,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 381,
+        "statB": 934
+      },
+      "career": {
+        "games": 34,
+        "statA": 4845,
+        "statB": 2319
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "PIT-LG-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Gavin Tromp",
+    "jerseyNumber": 7,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 281,
+      "college": "Lake Beverly",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 56733068,
+      "capHit": 23885157,
+      "deadCap": 275640,
+      "signingBonus": 16051739,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 85,
+      "schemeFit": 72,
+      "speed": 95,
+      "acceleration": 73,
+      "agility": 80,
+      "strength": 93,
+      "tackle": 63,
+      "pursuit": 77,
+      "manCoverage": 77,
+      "zoneCoverage": 83,
+      "kickPower": 56,
+      "kickAccuracy": 70,
+      "catching": 52,
+      "routeRunning": 51,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 248,
+        "statB": 391
+      },
+      "career": {
+        "games": 41,
+        "statA": 914,
+        "statB": 4436
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "PIT-LG-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Juan Maggio",
+    "jerseyNumber": 46,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'5\"",
+      "weight": 330,
+      "college": "Fort Fletaburgh",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 17267496,
+      "capHit": 22390829,
+      "deadCap": 2418074,
+      "signingBonus": 10908716,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 68,
+      "schemeFit": 72,
+      "speed": 84,
+      "acceleration": 87,
+      "agility": 72,
+      "strength": 65,
+      "tackle": 85,
+      "pursuit": 63,
+      "manCoverage": 50,
+      "zoneCoverage": 82,
+      "kickPower": 57,
+      "kickAccuracy": 53,
+      "catching": 85,
+      "routeRunning": 70,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 197,
+        "statB": 266
+      },
+      "career": {
+        "games": 68,
+        "statA": 145,
+        "statB": 1001
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "PIT-C-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Theo Mraz-Lemke",
+    "jerseyNumber": 6,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 239,
+      "college": "Euless",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 50085401,
+      "capHit": 23543868,
+      "deadCap": 3366966,
+      "signingBonus": 9888873,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 70,
+      "schemeFit": 75,
+      "speed": 72,
+      "acceleration": 74,
+      "agility": 90,
+      "strength": 82,
+      "tackle": 60,
+      "pursuit": 67,
+      "manCoverage": 59,
+      "zoneCoverage": 74,
+      "kickPower": 74,
+      "kickAccuracy": 89,
+      "catching": 88,
+      "routeRunning": 79,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 903,
+        "statB": 912
+      },
+      "career": {
+        "games": 92,
+        "statA": 4413,
+        "statB": 1115
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "PIT-C-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Kevin Oberbrunner",
+    "jerseyNumber": 21,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 216,
+      "college": "Mantecester",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 98224476,
+      "capHit": 8807573,
+      "deadCap": 5501464,
+      "signingBonus": 14559823,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 64,
+      "schemeFit": 90,
+      "speed": 94,
+      "acceleration": 85,
+      "agility": 94,
+      "strength": 85,
+      "tackle": 74,
+      "pursuit": 85,
+      "manCoverage": 87,
+      "zoneCoverage": 70,
+      "kickPower": 86,
+      "kickAccuracy": 62,
+      "catching": 89,
+      "routeRunning": 76,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 340,
+        "statB": 71
+      },
+      "career": {
+        "games": 95,
+        "statA": 1761,
+        "statB": 9
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "PIT-RG-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Frank Shanahan",
+    "jerseyNumber": 5,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 254,
+      "college": "Waipahu",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 33822921,
+      "capHit": 18602942,
+      "deadCap": 6170685,
+      "signingBonus": 3200142,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 87,
+      "speed": 93,
+      "acceleration": 71,
+      "agility": 90,
+      "strength": 83,
+      "tackle": 87,
+      "pursuit": 77,
+      "manCoverage": 81,
+      "zoneCoverage": 88,
+      "kickPower": 85,
+      "kickAccuracy": 92,
+      "catching": 91,
+      "routeRunning": 91,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 439,
+        "statB": 647
+      },
+      "career": {
+        "games": 52,
+        "statA": 4990,
+        "statB": 130
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "PIT-RG-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Louis Dach",
+    "jerseyNumber": 33,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'10\"",
+      "weight": 220,
+      "college": "Hattiesburg",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 6330307,
+      "capHit": 11461636,
+      "deadCap": 3831745,
+      "signingBonus": 3895140,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 79,
+      "schemeFit": 71,
+      "speed": 82,
+      "acceleration": 92,
+      "agility": 74,
+      "strength": 75,
+      "tackle": 80,
+      "pursuit": 94,
+      "manCoverage": 83,
+      "zoneCoverage": 62,
+      "kickPower": 59,
+      "kickAccuracy": 90,
+      "catching": 90,
+      "routeRunning": 87,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 318,
+        "statB": 711
+      },
+      "career": {
+        "games": 4,
+        "statA": 3081,
+        "statB": 2045
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "PIT-RT-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Jose Stamm",
+    "jerseyNumber": 29,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 288,
+      "college": "East Erlingfurt",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 110573372,
+      "capHit": 7599710,
+      "deadCap": 574538,
+      "signingBonus": 1817414,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 88,
+      "schemeFit": 75,
+      "speed": 75,
+      "acceleration": 76,
+      "agility": 73,
+      "strength": 64,
+      "tackle": 65,
+      "pursuit": 79,
+      "manCoverage": 77,
+      "zoneCoverage": 72,
+      "kickPower": 53,
+      "kickAccuracy": 94,
+      "catching": 54,
+      "routeRunning": 78,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 468,
+        "statB": 728
+      },
+      "career": {
+        "games": 80,
+        "statA": 2523,
+        "statB": 2338
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "PIT-RT-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Brian Hand",
+    "jerseyNumber": 36,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 323,
+      "college": "South Marjolaine",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 111835847,
+      "capHit": 7072473,
+      "deadCap": 9147819,
+      "signingBonus": 3202534,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 63,
+      "schemeFit": 71,
+      "speed": 87,
+      "acceleration": 88,
+      "agility": 78,
+      "strength": 72,
+      "tackle": 86,
+      "pursuit": 84,
+      "manCoverage": 72,
+      "zoneCoverage": 82,
+      "kickPower": 85,
+      "kickAccuracy": 67,
+      "catching": 80,
+      "routeRunning": 64,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 477,
+        "statB": 186
+      },
+      "career": {
+        "games": 109,
+        "statA": 3132,
+        "statB": 1910
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "PIT-LDE-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Seamus Howell",
+    "jerseyNumber": 31,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 254,
+      "college": "Abigailtown",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 103485132,
+      "capHit": 2874061,
+      "deadCap": 6379741,
+      "signingBonus": 12200779,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 70,
+      "speed": 81,
+      "acceleration": 76,
+      "agility": 87,
+      "strength": 61,
+      "tackle": 92,
+      "pursuit": 74,
+      "manCoverage": 86,
+      "zoneCoverage": 65,
+      "kickPower": 92,
+      "kickAccuracy": 93,
+      "catching": 72,
+      "routeRunning": 86,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 566,
+        "statB": 999
+      },
+      "career": {
+        "games": 0,
+        "statA": 1108,
+        "statB": 1738
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "PIT-LDE-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Ren Wunsch",
+    "jerseyNumber": 63,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 229,
+      "college": "West Doloresburgh",
+      "experience": 0,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 53591814,
+      "capHit": 1584181,
+      "deadCap": 9321465,
+      "signingBonus": 5457501,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 77,
+      "schemeFit": 80,
+      "speed": 85,
+      "acceleration": 78,
+      "agility": 80,
+      "strength": 80,
+      "tackle": 80,
+      "pursuit": 66,
+      "manCoverage": 52,
+      "zoneCoverage": 54,
+      "kickPower": 86,
+      "kickAccuracy": 53,
+      "catching": 81,
+      "routeRunning": 75,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 499,
+        "statB": 365
+      },
+      "career": {
+        "games": 26,
+        "statA": 3697,
+        "statB": 4945
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "PIT-RDE-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Matteo Fahey",
+    "jerseyNumber": 48,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 329,
+      "college": "West Franceshaven",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 94745068,
+      "capHit": 3070613,
+      "deadCap": 4795221,
+      "signingBonus": 5979380,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 69,
+      "schemeFit": 72,
+      "speed": 70,
+      "acceleration": 80,
+      "agility": 72,
+      "strength": 63,
+      "tackle": 80,
+      "pursuit": 85,
+      "manCoverage": 89,
+      "zoneCoverage": 56,
+      "kickPower": 92,
+      "kickAccuracy": 83,
+      "catching": 91,
+      "routeRunning": 52,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 131,
+        "statB": 882
+      },
+      "career": {
+        "games": 80,
+        "statA": 4459,
+        "statB": 3151
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "PIT-RDE-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Scott Predovic",
+    "jerseyNumber": 76,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 200,
+      "college": "Mayerttown",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 98521462,
+      "capHit": 24401307,
+      "deadCap": 1850584,
+      "signingBonus": 1435771,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 69,
+      "schemeFit": 82,
+      "speed": 71,
+      "acceleration": 92,
+      "agility": 73,
+      "strength": 81,
+      "tackle": 94,
+      "pursuit": 89,
+      "manCoverage": 87,
+      "zoneCoverage": 78,
+      "kickPower": 85,
+      "kickAccuracy": 63,
+      "catching": 82,
+      "routeRunning": 58,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 8,
+        "statB": 659
+      },
+      "career": {
+        "games": 118,
+        "statA": 924,
+        "statB": 3016
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "PIT-DT-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Eamon Trantow",
+    "jerseyNumber": 5,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 259,
+      "college": "Matildaland",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 52854256,
+      "capHit": 23023874,
+      "deadCap": 7695881,
+      "signingBonus": 14070989,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 69,
+      "schemeFit": 88,
+      "speed": 71,
+      "acceleration": 84,
+      "agility": 87,
+      "strength": 82,
+      "tackle": 64,
+      "pursuit": 78,
+      "manCoverage": 69,
+      "zoneCoverage": 57,
+      "kickPower": 85,
+      "kickAccuracy": 53,
+      "catching": 72,
+      "routeRunning": 91,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 545,
+        "statB": 799
+      },
+      "career": {
+        "games": 38,
+        "statA": 1944,
+        "statB": 3156
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "PIT-DT-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Seth Weber",
+    "jerseyNumber": 53,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 312,
+      "college": "East Kavontown",
+      "experience": 9,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 39889185,
+      "capHit": 3036433,
+      "deadCap": 8906543,
+      "signingBonus": 8551844,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 72,
+      "schemeFit": 76,
+      "speed": 73,
+      "acceleration": 92,
+      "agility": 81,
+      "strength": 87,
+      "tackle": 68,
+      "pursuit": 82,
+      "manCoverage": 50,
+      "zoneCoverage": 50,
+      "kickPower": 70,
+      "kickAccuracy": 89,
+      "catching": 92,
+      "routeRunning": 90,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 248,
+        "statB": 663
+      },
+      "career": {
+        "games": 60,
+        "statA": 2225,
+        "statB": 4068
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "PIT-DT-3",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Jian Schultz",
+    "jerseyNumber": 14,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 237,
+      "college": "Owensboro",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 105891487,
+      "capHit": 6570977,
+      "deadCap": 5876335,
+      "signingBonus": 904972,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 89,
+      "schemeFit": 88,
+      "speed": 83,
+      "acceleration": 86,
+      "agility": 92,
+      "strength": 94,
+      "tackle": 88,
+      "pursuit": 84,
+      "manCoverage": 76,
+      "zoneCoverage": 53,
+      "kickPower": 75,
+      "kickAccuracy": 64,
+      "catching": 85,
+      "routeRunning": 51,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 387,
+        "statB": 442
+      },
+      "career": {
+        "games": 56,
+        "statA": 3708,
+        "statB": 1137
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "PIT-DT-4",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Cillian Baumbach",
+    "jerseyNumber": 71,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 28,
+      "height": "6'0\"",
+      "weight": 227,
+      "college": "Abshiremouth",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 75954420,
+      "capHit": 16831393,
+      "deadCap": 3504466,
+      "signingBonus": 1999457,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 95,
+      "schemeFit": 83,
+      "speed": 87,
+      "acceleration": 94,
+      "agility": 74,
+      "strength": 82,
+      "tackle": 78,
+      "pursuit": 89,
+      "manCoverage": 77,
+      "zoneCoverage": 87,
+      "kickPower": 91,
+      "kickAccuracy": 62,
+      "catching": 66,
+      "routeRunning": 53,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 879,
+        "statB": 508
+      },
+      "career": {
+        "games": 1,
+        "statA": 4378,
+        "statB": 3874
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "PIT-LOLB-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Yusuf Cruickshank",
+    "jerseyNumber": 83,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'9\"",
+      "weight": 191,
+      "college": "Lavernton",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 111126758,
+      "capHit": 21084489,
+      "deadCap": 6797028,
+      "signingBonus": 3070835,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 90,
+      "schemeFit": 93,
+      "speed": 90,
+      "acceleration": 72,
+      "agility": 93,
+      "strength": 91,
+      "tackle": 67,
+      "pursuit": 69,
+      "manCoverage": 76,
+      "zoneCoverage": 85,
+      "kickPower": 85,
+      "kickAccuracy": 54,
+      "catching": 82,
+      "routeRunning": 56,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 162,
+        "statB": 582
+      },
+      "career": {
+        "games": 33,
+        "statA": 612,
+        "statB": 4900
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "PIT-LOLB-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Enzo Schmitt",
+    "jerseyNumber": 65,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'0\"",
+      "weight": 201,
+      "college": "Livonia",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 39608568,
+      "capHit": 19259864,
+      "deadCap": 3175875,
+      "signingBonus": 8417615,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 74,
+      "schemeFit": 81,
+      "speed": 83,
+      "acceleration": 77,
+      "agility": 88,
+      "strength": 72,
+      "tackle": 89,
+      "pursuit": 65,
+      "manCoverage": 69,
+      "zoneCoverage": 59,
+      "kickPower": 83,
+      "kickAccuracy": 77,
+      "catching": 93,
+      "routeRunning": 65,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 529,
+        "statB": 715
+      },
+      "career": {
+        "games": 84,
+        "statA": 4277,
+        "statB": 3048
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "PIT-MLB-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Randy Nolan",
+    "jerseyNumber": 1,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'11\"",
+      "weight": 267,
+      "college": "Effertzchester",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 64283267,
+      "capHit": 21076802,
+      "deadCap": 3115095,
+      "signingBonus": 1726239,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 70,
+      "speed": 95,
+      "acceleration": 79,
+      "agility": 83,
+      "strength": 73,
+      "tackle": 90,
+      "pursuit": 64,
+      "manCoverage": 79,
+      "zoneCoverage": 87,
+      "kickPower": 93,
+      "kickAccuracy": 65,
+      "catching": 67,
+      "routeRunning": 90,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 503,
+        "statB": 46
+      },
+      "career": {
+        "games": 54,
+        "statA": 1501,
+        "statB": 1422
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "PIT-MLB-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Dmitri Leannon",
+    "jerseyNumber": 53,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 247,
+      "college": "Winstonton",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 94163218,
+      "capHit": 10822361,
+      "deadCap": 5557828,
+      "signingBonus": 17534144,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 95,
+      "speed": 74,
+      "acceleration": 94,
+      "agility": 94,
+      "strength": 62,
+      "tackle": 81,
+      "pursuit": 86,
+      "manCoverage": 69,
+      "zoneCoverage": 71,
+      "kickPower": 88,
+      "kickAccuracy": 75,
+      "catching": 74,
+      "routeRunning": 95,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 586,
+        "statB": 282
+      },
+      "career": {
+        "games": 85,
+        "statA": 2818,
+        "statB": 4762
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "PIT-ROLB-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Grant Schultz",
+    "jerseyNumber": 65,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "5'9\"",
+      "weight": 247,
+      "college": "Augustfurt",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 17766722,
+      "capHit": 13298039,
+      "deadCap": 1561292,
+      "signingBonus": 18517126,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 85,
+      "schemeFit": 79,
+      "speed": 90,
+      "acceleration": 79,
+      "agility": 80,
+      "strength": 77,
+      "tackle": 77,
+      "pursuit": 86,
+      "manCoverage": 69,
+      "zoneCoverage": 54,
+      "kickPower": 68,
+      "kickAccuracy": 54,
+      "catching": 90,
+      "routeRunning": 56,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 925,
+        "statB": 913
+      },
+      "career": {
+        "games": 19,
+        "statA": 1111,
+        "statB": 2568
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "PIT-ROLB-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Ethan Leffler",
+    "jerseyNumber": 44,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 294,
+      "college": "Greenholttown",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 90507922,
+      "capHit": 20131399,
+      "deadCap": 7143192,
+      "signingBonus": 14355953,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 91,
+      "speed": 94,
+      "acceleration": 82,
+      "agility": 72,
+      "strength": 80,
+      "tackle": 64,
+      "pursuit": 87,
+      "manCoverage": 73,
+      "zoneCoverage": 52,
+      "kickPower": 76,
+      "kickAccuracy": 74,
+      "catching": 83,
+      "routeRunning": 67,
+      "release": 89
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 853,
+        "statB": 793
+      },
+      "career": {
+        "games": 115,
+        "statA": 213,
+        "statB": 3227
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "PIT-CB-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Ashton Wilkinson",
+    "jerseyNumber": 25,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "5'11\"",
+      "weight": 246,
+      "college": "Grantworth",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 30013728,
+      "capHit": 10944042,
+      "deadCap": 1883190,
+      "signingBonus": 10230160,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 87,
+      "speed": 89,
+      "acceleration": 81,
+      "agility": 93,
+      "strength": 74,
+      "tackle": 61,
+      "pursuit": 70,
+      "manCoverage": 80,
+      "zoneCoverage": 67,
+      "kickPower": 74,
+      "kickAccuracy": 57,
+      "catching": 94,
+      "routeRunning": 77,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 39,
+        "statB": 789
+      },
+      "career": {
+        "games": 111,
+        "statA": 383,
+        "statB": 3380
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "PIT-CB-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Keegan Ankunding",
+    "jerseyNumber": 94,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "5'11\"",
+      "weight": 215,
+      "college": "St. Joseph",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 12531865,
+      "capHit": 3714912,
+      "deadCap": 7482558,
+      "signingBonus": 718418,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 72,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 93,
+      "agility": 88,
+      "strength": 81,
+      "tackle": 79,
+      "pursuit": 65,
+      "manCoverage": 60,
+      "zoneCoverage": 77,
+      "kickPower": 81,
+      "kickAccuracy": 56,
+      "catching": 62,
+      "routeRunning": 72,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 870,
+        "statB": 306
+      },
+      "career": {
+        "games": 56,
+        "statA": 2148,
+        "statB": 1016
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "PIT-CB-3",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Kenji Schmeler",
+    "jerseyNumber": 61,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 298,
+      "college": "West Koby",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 109737239,
+      "capHit": 1993344,
+      "deadCap": 2372270,
+      "signingBonus": 8931856,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 72,
+      "schemeFit": 93,
+      "speed": 90,
+      "acceleration": 93,
+      "agility": 95,
+      "strength": 78,
+      "tackle": 73,
+      "pursuit": 72,
+      "manCoverage": 59,
+      "zoneCoverage": 76,
+      "kickPower": 55,
+      "kickAccuracy": 95,
+      "catching": 86,
+      "routeRunning": 52,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 236,
+        "statB": 468
+      },
+      "career": {
+        "games": 3,
+        "statA": 3735,
+        "statB": 2843
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "PIT-CB-4",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Victor Konopelski",
+    "jerseyNumber": 31,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 193,
+      "college": "Wiltontown",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 110063737,
+      "capHit": 24496805,
+      "deadCap": 5910571,
+      "signingBonus": 2636351,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 72,
+      "schemeFit": 77,
+      "speed": 72,
+      "acceleration": 78,
+      "agility": 93,
+      "strength": 80,
+      "tackle": 91,
+      "pursuit": 74,
+      "manCoverage": 77,
+      "zoneCoverage": 71,
+      "kickPower": 69,
+      "kickAccuracy": 71,
+      "catching": 58,
+      "routeRunning": 53,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 86,
+        "statB": 128
+      },
+      "career": {
+        "games": 51,
+        "statA": 4113,
+        "statB": 4744
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "PIT-CB-5",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Griffin Cremin",
+    "jerseyNumber": 70,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 280,
+      "college": "Kaylaboro",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 35035493,
+      "capHit": 5444325,
+      "deadCap": 9877308,
+      "signingBonus": 18062006,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 79,
+      "schemeFit": 74,
+      "speed": 74,
+      "acceleration": 73,
+      "agility": 94,
+      "strength": 82,
+      "tackle": 84,
+      "pursuit": 64,
+      "manCoverage": 62,
+      "zoneCoverage": 61,
+      "kickPower": 91,
+      "kickAccuracy": 52,
+      "catching": 81,
+      "routeRunning": 74,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 731,
+        "statB": 647
+      },
+      "career": {
+        "games": 107,
+        "statA": 1015,
+        "statB": 4688
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "PIT-CB-6",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Louis O'Kon",
+    "jerseyNumber": 6,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 321,
+      "college": "Lubowitzstad",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 68851818,
+      "capHit": 8069208,
+      "deadCap": 6129181,
+      "signingBonus": 1746815,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 85,
+      "schemeFit": 76,
+      "speed": 92,
+      "acceleration": 90,
+      "agility": 82,
+      "strength": 79,
+      "tackle": 88,
+      "pursuit": 83,
+      "manCoverage": 53,
+      "zoneCoverage": 65,
+      "kickPower": 52,
+      "kickAccuracy": 86,
+      "catching": 66,
+      "routeRunning": 69,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 508,
+        "statB": 103
+      },
+      "career": {
+        "games": 34,
+        "statA": 3405,
+        "statB": 3039
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "PIT-FS-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "John Hintz",
+    "jerseyNumber": 93,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 262,
+      "college": "Torphymouth",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 14518286,
+      "capHit": 16196931,
+      "deadCap": 9021080,
+      "signingBonus": 8683373,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 70,
+      "schemeFit": 94,
+      "speed": 92,
+      "acceleration": 71,
+      "agility": 84,
+      "strength": 75,
+      "tackle": 94,
+      "pursuit": 92,
+      "manCoverage": 69,
+      "zoneCoverage": 51,
+      "kickPower": 85,
+      "kickAccuracy": 76,
+      "catching": 61,
+      "routeRunning": 93,
+      "release": 93
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 209,
+        "statB": 28
+      },
+      "career": {
+        "games": 120,
+        "statA": 3136,
+        "statB": 1912
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "PIT-FS-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Eugene Larson",
+    "jerseyNumber": 94,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 303,
+      "college": "Cassinborough",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 33154668,
+      "capHit": 23302776,
+      "deadCap": 431004,
+      "signingBonus": 6427436,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 69,
+      "schemeFit": 94,
+      "speed": 92,
+      "acceleration": 89,
+      "agility": 95,
+      "strength": 81,
+      "tackle": 91,
+      "pursuit": 92,
+      "manCoverage": 67,
+      "zoneCoverage": 57,
+      "kickPower": 60,
+      "kickAccuracy": 70,
+      "catching": 86,
+      "routeRunning": 55,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 99,
+        "statB": 448
+      },
+      "career": {
+        "games": 17,
+        "statA": 2491,
+        "statB": 1148
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "PIT-SS-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Ralph Runte",
+    "jerseyNumber": 44,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'3\"",
+      "weight": 201,
+      "college": "Lake Jonathan",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 8134653,
+      "capHit": 22577086,
+      "deadCap": 6788401,
+      "signingBonus": 7135925,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 93,
+      "schemeFit": 70,
+      "speed": 73,
+      "acceleration": 92,
+      "agility": 76,
+      "strength": 68,
+      "tackle": 75,
+      "pursuit": 81,
+      "manCoverage": 77,
+      "zoneCoverage": 88,
+      "kickPower": 74,
+      "kickAccuracy": 56,
+      "catching": 69,
+      "routeRunning": 94,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 127,
+        "statB": 978
+      },
+      "career": {
+        "games": 117,
+        "statA": 1216,
+        "statB": 4868
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "PIT-SS-2",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Evan Crooks",
+    "jerseyNumber": 36,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 257,
+      "college": "Lake Carmineport",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 67133056,
+      "capHit": 10713137,
+      "deadCap": 2718207,
+      "signingBonus": 12007875,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 66,
+      "schemeFit": 88,
+      "speed": 91,
+      "acceleration": 86,
+      "agility": 76,
+      "strength": 65,
+      "tackle": 80,
+      "pursuit": 77,
+      "manCoverage": 83,
+      "zoneCoverage": 82,
+      "kickPower": 50,
+      "kickAccuracy": 59,
+      "catching": 56,
+      "routeRunning": 76,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 778,
+        "statB": 269
+      },
+      "career": {
+        "games": 98,
+        "statA": 3480,
+        "statB": 4303
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "PIT-K-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Brandon Bode",
+    "jerseyNumber": 61,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'2\"",
+      "weight": 262,
+      "college": "Arturoburgh",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 72479100,
+      "capHit": 11947298,
+      "deadCap": 9656407,
+      "signingBonus": 544207,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 72,
+      "schemeFit": 85,
+      "speed": 84,
+      "acceleration": 77,
+      "agility": 94,
+      "strength": 87,
+      "tackle": 95,
+      "pursuit": 78,
+      "manCoverage": 84,
+      "zoneCoverage": 76,
+      "kickPower": 59,
+      "kickAccuracy": 54,
+      "catching": 76,
+      "routeRunning": 75,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 547,
+        "statB": 533
+      },
+      "career": {
+        "games": 96,
+        "statA": 4185,
+        "statB": 3177
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "PIT-P-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Luke Lueilwitz",
+    "jerseyNumber": 47,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 246,
+      "college": "Lake Leif",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 91306330,
+      "capHit": 13673826,
+      "deadCap": 6158929,
+      "signingBonus": 4663567,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 63,
+      "schemeFit": 84,
+      "speed": 90,
+      "acceleration": 83,
+      "agility": 84,
+      "strength": 92,
+      "tackle": 66,
+      "pursuit": 79,
+      "manCoverage": 53,
+      "zoneCoverage": 87,
+      "kickPower": 66,
+      "kickAccuracy": 91,
+      "catching": 88,
+      "routeRunning": 91,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 347,
+        "statB": 678
+      },
+      "career": {
+        "games": 57,
+        "statA": 320,
+        "statB": 1729
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "PIT-LS-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Daniel Heathcote-Conn",
+    "jerseyNumber": 76,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "5'9\"",
+      "weight": 235,
+      "college": "Gerholdview",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 112874610,
+      "capHit": 6589804,
+      "deadCap": 3165810,
+      "signingBonus": 9323860,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 87,
+      "schemeFit": 90,
+      "speed": 87,
+      "acceleration": 88,
+      "agility": 74,
+      "strength": 90,
+      "tackle": 76,
+      "pursuit": 86,
+      "manCoverage": 68,
+      "zoneCoverage": 81,
+      "kickPower": 65,
+      "kickAccuracy": 74,
+      "catching": 64,
+      "routeRunning": 55,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 732,
+        "statB": 647
+      },
+      "career": {
+        "games": 26,
+        "statA": 116,
+        "statB": 3854
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "PIT-KR-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Grant Pacocha",
+    "jerseyNumber": 14,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 195,
+      "college": "Port Kennastead",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 75043403,
+      "capHit": 24074841,
+      "deadCap": 3376682,
+      "signingBonus": 15135673,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 73,
+      "schemeFit": 72,
+      "speed": 76,
+      "acceleration": 72,
+      "agility": 72,
+      "strength": 76,
+      "tackle": 87,
+      "pursuit": 67,
+      "manCoverage": 59,
+      "zoneCoverage": 70,
+      "kickPower": 81,
+      "kickAccuracy": 74,
+      "catching": 57,
+      "routeRunning": 82,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 360,
+        "statB": 649
+      },
+      "career": {
+        "games": 95,
+        "statA": 4224,
+        "statB": 2045
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "PIT-PR-1",
+    "team": "PIT",
+    "teamName": "PIT",
+    "name": "Edgar Von",
+    "jerseyNumber": 23,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 270,
+      "college": "Jonesside",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 24495894,
+      "capHit": 4846242,
+      "deadCap": 1658160,
+      "signingBonus": 4692172,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 72,
+      "schemeFit": 78,
+      "speed": 76,
+      "acceleration": 71,
+      "agility": 87,
+      "strength": 78,
+      "tackle": 64,
+      "pursuit": 62,
+      "manCoverage": 57,
+      "zoneCoverage": 54,
+      "kickPower": 81,
+      "kickAccuracy": 85,
+      "catching": 65,
+      "routeRunning": 91,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 243,
+        "statB": 454
+      },
+      "career": {
+        "games": 94,
+        "statA": 4350,
+        "statB": 1578
+      }
+    },
+    "photo": "/player_faces/46.png"
+  }
 ]

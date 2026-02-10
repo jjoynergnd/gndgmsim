@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  80,
-               "name":  "Evan Wright"
-           },
-    "OC":  {
-               "rating":  83,
-               "name":  "Caleb Coleman"
-           },
-    "DC":  {
-               "rating":  74,
-               "name":  "Jalen Maddox"
-           }
-}
+[
+  {
+    "id": "DAL-STAFF-1",
+    "team": "DAL",
+    "role": "Head Coach",
+    "name": "Vincent Borer",
+    "vitals": {
+      "age": 43,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 76,
+      "schemeKnowledge": 75,
+      "playerDev": 74,
+      "motivation": 64,
+      "injuryManagement": 70,
+      "conditioning": 59,
+      "analyticsIQ": 42
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5853132
+    }
+  },
+  {
+    "id": "DAL-STAFF-2",
+    "team": "DAL",
+    "role": "Offensive Coordinator",
+    "name": "Kyle Tromp",
+    "vitals": {
+      "age": 65,
+      "experience": 33
+    },
+    "ratings": {
+      "leadership": 74,
+      "discipline": 89,
+      "schemeKnowledge": 80,
+      "playerDev": 70,
+      "motivation": 74,
+      "injuryManagement": 57,
+      "conditioning": 69,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 5,
+      "salary": 6233592
+    }
+  },
+  {
+    "id": "DAL-STAFF-3",
+    "team": "DAL",
+    "role": "Defensive Coordinator",
+    "name": "Brandon Gleason",
+    "vitals": {
+      "age": 31,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 64,
+      "schemeKnowledge": 77,
+      "playerDev": 66,
+      "motivation": 93,
+      "injuryManagement": 44,
+      "conditioning": 52,
+      "analyticsIQ": 46
+    },
+    "contract": {
+      "years": 2,
+      "salary": 1644236
+    }
+  },
+  {
+    "id": "DAL-STAFF-4",
+    "team": "DAL",
+    "role": "Strength & Conditioning Coach",
+    "name": "Henry Hills-Kris",
+    "vitals": {
+      "age": 39,
+      "experience": 8
+    },
+    "ratings": {
+      "leadership": 74,
+      "discipline": 86,
+      "schemeKnowledge": 95,
+      "playerDev": 66,
+      "motivation": 92,
+      "injuryManagement": 41,
+      "conditioning": 75,
+      "analyticsIQ": 60
+    },
+    "contract": {
+      "years": 3,
+      "salary": 3580152
+    }
+  },
+  {
+    "id": "DAL-STAFF-5",
+    "team": "DAL",
+    "role": "Physical Therapist",
+    "name": "Aaron Johnson",
+    "vitals": {
+      "age": 65,
+      "experience": 23
+    },
+    "ratings": {
+      "leadership": 62,
+      "discipline": 79,
+      "schemeKnowledge": 93,
+      "playerDev": 70,
+      "motivation": 79,
+      "injuryManagement": 86,
+      "conditioning": 64,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5727059
+    }
+  },
+  {
+    "id": "DAL-STAFF-6",
+    "team": "DAL",
+    "role": "Athletic Trainer",
+    "name": "Kieran Lakin",
+    "vitals": {
+      "age": 30,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 60,
+      "schemeKnowledge": 81,
+      "playerDev": 93,
+      "motivation": 60,
+      "injuryManagement": 72,
+      "conditioning": 52,
+      "analyticsIQ": 70
+    },
+    "contract": {
+      "years": 4,
+      "salary": 5785429
+    }
+  },
+  {
+    "id": "DAL-STAFF-7",
+    "team": "DAL",
+    "role": "Analytics Coordinator",
+    "name": "Jared Ferry-Emmerich",
+    "vitals": {
+      "age": 63,
+      "experience": 13
+    },
+    "ratings": {
+      "leadership": 66,
+      "discipline": 77,
+      "schemeKnowledge": 60,
+      "playerDev": 86,
+      "motivation": 63,
+      "injuryManagement": 48,
+      "conditioning": 68,
+      "analyticsIQ": 82
+    },
+    "contract": {
+      "years": 3,
+      "salary": 1997858
+    }
+  }
+]

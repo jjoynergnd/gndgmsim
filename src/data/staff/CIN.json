@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  91,
-               "name":  "Chase Maddox"
-           },
-    "OC":  {
-               "rating":  81,
-               "name":  "Logan Reeves"
-           },
-    "DC":  {
-               "rating":  72,
-               "name":  "Caleb Halford"
-           }
-}
+[
+  {
+    "id": "CIN-STAFF-1",
+    "team": "CIN",
+    "role": "Head Coach",
+    "name": "Edward Maggio",
+    "vitals": {
+      "age": 64,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 84,
+      "schemeKnowledge": 92,
+      "playerDev": 64,
+      "motivation": 68,
+      "injuryManagement": 58,
+      "conditioning": 66,
+      "analyticsIQ": 57
+    },
+    "contract": {
+      "years": 2,
+      "salary": 1460660
+    }
+  },
+  {
+    "id": "CIN-STAFF-2",
+    "team": "CIN",
+    "role": "Offensive Coordinator",
+    "name": "Diego Shields",
+    "vitals": {
+      "age": 31,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 76,
+      "discipline": 92,
+      "schemeKnowledge": 88,
+      "playerDev": 83,
+      "motivation": 91,
+      "injuryManagement": 70,
+      "conditioning": 61,
+      "analyticsIQ": 64
+    },
+    "contract": {
+      "years": 5,
+      "salary": 2645116
+    }
+  },
+  {
+    "id": "CIN-STAFF-3",
+    "team": "CIN",
+    "role": "Defensive Coordinator",
+    "name": "Nolan Schmitt",
+    "vitals": {
+      "age": 41,
+      "experience": 31
+    },
+    "ratings": {
+      "leadership": 82,
+      "discipline": 85,
+      "schemeKnowledge": 75,
+      "playerDev": 95,
+      "motivation": 82,
+      "injuryManagement": 46,
+      "conditioning": 41,
+      "analyticsIQ": 70
+    },
+    "contract": {
+      "years": 3,
+      "salary": 5434703
+    }
+  },
+  {
+    "id": "CIN-STAFF-4",
+    "team": "CIN",
+    "role": "Strength & Conditioning Coach",
+    "name": "Vincent Emard",
+    "vitals": {
+      "age": 33,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 64,
+      "discipline": 92,
+      "schemeKnowledge": 60,
+      "playerDev": 61,
+      "motivation": 62,
+      "injuryManagement": 61,
+      "conditioning": 89,
+      "analyticsIQ": 65
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3610333
+    }
+  },
+  {
+    "id": "CIN-STAFF-5",
+    "team": "CIN",
+    "role": "Physical Therapist",
+    "name": "Evan Senger",
+    "vitals": {
+      "age": 43,
+      "experience": 27
+    },
+    "ratings": {
+      "leadership": 60,
+      "discipline": 87,
+      "schemeKnowledge": 73,
+      "playerDev": 91,
+      "motivation": 63,
+      "injuryManagement": 82,
+      "conditioning": 53,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 2,
+      "salary": 2008360
+    }
+  },
+  {
+    "id": "CIN-STAFF-6",
+    "team": "CIN",
+    "role": "Athletic Trainer",
+    "name": "Pablo Rath",
+    "vitals": {
+      "age": 52,
+      "experience": 26
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 77,
+      "schemeKnowledge": 85,
+      "playerDev": 95,
+      "motivation": 82,
+      "injuryManagement": 76,
+      "conditioning": 67,
+      "analyticsIQ": 68
+    },
+    "contract": {
+      "years": 5,
+      "salary": 4077431
+    }
+  },
+  {
+    "id": "CIN-STAFF-7",
+    "team": "CIN",
+    "role": "Analytics Coordinator",
+    "name": "Ronan Swaniawski",
+    "vitals": {
+      "age": 57,
+      "experience": 6
+    },
+    "ratings": {
+      "leadership": 77,
+      "discipline": 71,
+      "schemeKnowledge": 95,
+      "playerDev": 87,
+      "motivation": 71,
+      "injuryManagement": 55,
+      "conditioning": 66,
+      "analyticsIQ": 88
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3165962
+    }
+  }
+]

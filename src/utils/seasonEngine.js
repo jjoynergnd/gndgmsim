@@ -1,172 +1,408 @@
-// Full season loop engine with extension hooks
+// src/utils/seasonEngine.js
 
+const PRESEASON_WEEKS = 3;
+const REGULAR_SEASON_WEEKS = 18;
 const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
-const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT", "PRESEASON"];
+const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT"];
 
-export function advanceSeason(prev, teamContext) {
-  const season = { ...prev };
+/* ======================================================
+   PUBLIC API
+====================================================== */
 
-  // --- HOOKS (future logic) ---
-  runWeekSimulation(season, teamContext);
-  runPlayoffSimulation(season, teamContext);
-  runOffseasonStep(season, teamContext);
+export function advanceSeason(prev, context) {
+  const season = structuredClone(prev);
+
+  // Initialize league once
+  if (!season._initialized) {
+    initializeLeague(season, context);
+  }
+
+  console.log(
+    "[seasonEngine] advanceSeason — phase:",
+    season.phase,
+    "preseasonWeek:",
+    season.preseasonWeek,
+    "week:",
+    season.week,
+    "offseasonStep:",
+    season.offseasonStep
+  );
 
   switch (season.phase) {
-    case "PRESEASON": {
-      season.phase = "REGULAR_SEASON";
-      season.week = 1;
-      season.playoffRound = null;
-      season.offseasonStep = null;
-      season.lastResult = {
-        summary: "Preseason complete",
-        details: "Your roster is set for Week 1."
-      };
-      return season;
-    }
+    case "OFFSEASON":
+      advanceOffseason(season);
+      break;
 
-    case "REGULAR_SEASON": {
-      if (season.week < 18) {
-        season.week += 1;
-      } else {
-        season.phase = "PLAYOFFS";
-        season.playoffRound = PLAYOFF_ROUNDS[0];
-        season.week = null;
-        season.lastResult = {
-          summary: "Regular season complete",
-          details: "Playoffs begin now."
-        };
-      }
-      return season;
-    }
+    case "PRESEASON":
+      simulatePreseasonWeek(season);
+      break;
 
-    case "PLAYOFFS": {
-      const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
-      if (idx >= 0 && idx < PLAYOFF_ROUNDS.length - 1) {
-        season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
-        season.lastResult = {
-          summary: `${PLAYOFF_ROUNDS[idx]} round complete`,
-          details: ""
-        };
-      } else {
-        season.phase = "OFFSEASON";
-        season.playoffRound = null;
-        season.offseasonStep = OFFSEASON_STEPS[0];
-        season.lastResult = {
-          summary: "Season complete",
-          details: "Offseason begins."
-        };
-      }
-      return season;
-    }
+    case "REGULAR_SEASON":
+      simulateRegularSeasonWeek(season);
+      break;
 
-    case "OFFSEASON": {
-      const idx = OFFSEASON_STEPS.indexOf(season.offseasonStep);
-      if (idx >= 0 && idx < OFFSEASON_STEPS.length - 1) {
-        season.offseasonStep = OFFSEASON_STEPS[idx + 1];
-        season.lastResult = {
-          summary: `${OFFSEASON_STEPS[idx]} complete`,
-          details: ""
-        };
-      } else {
-        season.year += 1;
-        season.phase = "PRESEASON";
-        season.week = 0;
-        season.offseasonStep = null;
-        season.playoffRound = null;
-        season.lastResult = {
-          summary: "Offseason complete",
-          details: `Welcome to the ${season.year} season.`
-        };
-      }
-      return season;
-    }
+    case "PLAYOFFS":
+      advancePlayoffs(season);
+      break;
 
     default:
-      return season;
+      break;
+  }
+
+  return season;
+}
+
+/* ======================================================
+   INITIALIZATION
+====================================================== */
+
+function initializeLeague(season, { teams, schedules }) {
+  console.log("[seasonEngine] initializeLeague — starting with:", season);
+
+  season._initialized = true;
+
+  // ---- STANDINGS ----
+  season.teams = {};
+  teams.forEach((t) => {
+    season.teams[t.id] = {
+      wins: 0,
+      losses: 0,
+      ties: 0,
+      pointsFor: 0,
+      pointsAgainst: 0
+    };
+  });
+
+  // ---- SCHEDULES ----
+  season.schedules = {};
+  teams.forEach((t) => {
+    const raw = schedules[t.id] || [];
+    season.schedules[t.id] = raw.map((g) => ({
+      ...g,
+      played: g.played ?? false,
+      scoreFor: g.scoreFor ?? null,
+      scoreAgainst: g.scoreAgainst ?? null,
+      result: g.result ?? null
+    }));
+  });
+
+  season.gamesByKey = {}; // keyed by `${type}-${week}-${sortedTeamIds}`
+
+  // ---- TIMING ----
+  season.phase = "OFFSEASON";
+  season.offseasonStep = OFFSEASON_STEPS[0];
+
+  season.preseasonWeek = 1; // 1–3
+  season.week = 1; // 1–18
+  season.playoffRound = null;
+
+  season.lastResult = {
+    summary: "League initialized",
+    details: "Offseason — RESIGNINGS"
+  };
+
+  console.log("[seasonEngine] initializeLeague — finished:", season);
+}
+
+/* ======================================================
+   OFFSEASON
+====================================================== */
+
+function advanceOffseason(season) {
+  const idx = OFFSEASON_STEPS.indexOf(season.offseasonStep);
+
+  if (idx < OFFSEASON_STEPS.length - 1) {
+    season.offseasonStep = OFFSEASON_STEPS[idx + 1];
+    season.lastResult = {
+      summary: `${OFFSEASON_STEPS[idx]} complete`,
+      details: ""
+    };
+  } else {
+    season.phase = "PRESEASON";
+    season.offseasonStep = null;
+    season.lastResult = {
+      summary: "Offseason complete",
+      details: "Preseason begins."
+    };
   }
 }
 
-// --------------------------------------------------
-// WEEK SIMULATION (Persisted Schedule Results)
-// --------------------------------------------------
-export function runWeekSimulation(SEASON, TEAM_CONTEXT) {
-  if (SEASON.phase !== "REGULAR_SEASON") return;
-  if (!SEASON.week) return;
-  if (!TEAM_CONTEXT) return;
+/* ======================================================
+   PRESEASON
+====================================================== */
 
-  const { roster = [], schedule = [] } = TEAM_CONTEXT;
+function simulatePreseasonWeek(season) {
+  const week = season.preseasonWeek;
+  const key = `PRESEASON-${week}`;
 
-  // Initialize season schedule once (clone source data)
-  if (!SEASON.schedule) {
-    SEASON.schedule = schedule.map((g) => ({ ...g }));
+  if (season.gamesByKey[key]) {
+    console.log("[seasonEngine] Preseason week already simulated:", week);
+    advanceFromPreseasonIfDone(season);
+    return;
   }
 
-  const matchup = SEASON.schedule.find((g) => g.week === SEASON.week);
-  if (!matchup || matchup.played) return;
+  const games = simulateGamesForWeek(season, {
+    week,
+    type: "PRESEASON",
+    affectStandings: false
+  });
 
-  const opponent = matchup.opponent || "Opponent";
-  const isHome = matchup.home ?? true;
+  season.gamesByKey[key] = games;
 
-  // --- Score generation ---
-  const base = 17 + rand(0, 14);
-  const variance = rand(-7, 14);
+  season.lastResult = {
+    summary: `Preseason Week ${week} complete`,
+    details: `${games.length} games played`
+  };
 
-  const scoreFor = base + Math.max(0, variance);
-  const scoreAgainst = base + rand(-10, 10);
+  if (week < PRESEASON_WEEKS) {
+    season.preseasonWeek += 1;
+  } else {
+    season.phase = "REGULAR_SEASON";
+    season.week = 1;
+    season.lastResult = {
+      summary: "Preseason complete",
+      details: "Regular season begins."
+    };
+  }
+}
 
-  const win = scoreFor >= scoreAgainst;
+function advanceFromPreseasonIfDone(season) {
+  if (season.preseasonWeek >= PRESEASON_WEEKS) {
+    season.phase = "REGULAR_SEASON";
+    season.week = 1;
+    season.lastResult = {
+      summary: "Preseason complete",
+      details: "Regular season begins."
+    };
+  } else {
+    season.preseasonWeek += 1;
+  }
+}
 
-  // --- Persist result into schedule ---
-  matchup.played = true;
-  matchup.scoreFor = scoreFor;
-  matchup.scoreAgainst = scoreAgainst;
-  matchup.result = win ? "W" : "L";
+/* ======================================================
+   REGULAR SEASON
+====================================================== */
 
-  // --- Star player selection ---
-  const qb =
-    roster.find(
-      (p) =>
-        p.position === "QB" &&
-        p.depth === 1
-    ) || null;
+function simulateRegularSeasonWeek(season) {
+  const week = season.week;
+  const key = `REGULAR_SEASON-${week}`;
 
-  let star = qb;
-
-  if (!star) {
-    star =
-      roster
-        .filter((p) => p.ratings?.overall >= 85)
-        .sort((a, b) => b.ratings.overall - a.ratings.overall)[0] || null;
+  if (season.gamesByKey[key]) {
+    console.log("[seasonEngine] Regular season week already simulated:", week);
+    advanceFromRegularSeasonIfDone(season);
+    return;
   }
 
-  // --- Narrative ---
-  let details = win
-    ? "A strong team performance sealed the win."
-    : "A tough loss despite some bright spots.";
+  const games = simulateGamesForWeek(season, {
+    week,
+    type: "REGULAR_SEASON",
+    affectStandings: true
+  });
 
-  if (star) {
-    const yards = rand(220, 380);
-    const tds = rand(1, 4);
+  season.gamesByKey[key] = games;
 
-    details = `⭐ ${star.name} led the way with ${yards} yards and ${tds} TDs.`;
+  season.lastResult = {
+    summary: `Week ${week} complete`,
+    details: `${games.length} games played`
+  };
+
+  if (week < REGULAR_SEASON_WEEKS) {
+    season.week += 1;
+  } else {
+    season.phase = "PLAYOFFS";
+    season.week = null;
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Regular season complete",
+      details: "Playoffs begin."
+    };
   }
+}
 
-  SEASON.lastResult = {
-    summary: `${win ? "Win" : "Loss"} — ${scoreFor}-${scoreAgainst} ${
-      isHome ? "vs" : "at"
-    } ${opponent}`,
-    details
+function advanceFromRegularSeasonIfDone(season) {
+  if (season.week >= REGULAR_SEASON_WEEKS) {
+    season.phase = "PLAYOFFS";
+    season.week = null;
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Regular season complete",
+      details: "Playoffs begin."
+    };
+  } else {
+    season.week += 1;
+  }
+}
+
+/* ======================================================
+   SHARED GAME SIMULATION
+====================================================== */
+
+function simulateGamesForWeek(season, { week, type, affectStandings }) {
+  const games = [];
+  const paired = new Set();
+
+  Object.entries(season.schedules).forEach(([teamId, schedule]) => {
+    const game = schedule.find((g) => g.week === week && g.type === type);
+    if (!game) return;
+
+    // Bye week
+    if (game.result === "BYE" || game.opponent === null) return;
+
+    const opponentId = game.opponent;
+
+    // Canonical pair key: same for both teams
+    const pairKey = `${type}-${week}-${[teamId, opponentId].sort().join("-")}`;
+
+    if (paired.has(pairKey)) return;
+    paired.add(pairKey);
+
+    const home = game.home ? teamId : opponentId;
+    const away = game.home ? opponentId : teamId;
+
+    const result = simulateGame(home, away);
+    games.push(result);
+
+    if (affectStandings) {
+      applyResult(season, result);
+    }
+
+    markGamesPlayed(season, week, type, result);
+  });
+
+  console.log(
+    "[seasonEngine] simulateGamesForWeek",
+    "type:",
+    type,
+    "week:",
+    week,
+    "games:",
+    games.length
+  );
+
+  return games;
+}
+
+/* ======================================================
+   PLAYOFFS (STUB)
+====================================================== */
+
+function advancePlayoffs(season) {
+  const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
+
+  if (idx < PLAYOFF_ROUNDS.length - 1) {
+    season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
+    season.lastResult = {
+      summary: `${PLAYOFF_ROUNDS[idx]} round complete`,
+      details: ""
+    };
+  } else {
+    resetForNextSeason(season);
+  }
+}
+
+/* ======================================================
+   SEASON RESET
+====================================================== */
+
+function resetForNextSeason(season) {
+  season.year += 1;
+
+  Object.values(season.teams).forEach((t) => {
+    t.wins = 0;
+    t.losses = 0;
+    t.ties = 0;
+    t.pointsFor = 0;
+    t.pointsAgainst = 0;
+  });
+
+  Object.values(season.schedules).forEach((schedule) => {
+    schedule.forEach((g) => {
+      g.played = false;
+      g.scoreFor = null;
+      g.scoreAgainst = null;
+      // Preserve BYE marker
+      g.result = g.result === "BYE" ? "BYE" : null;
+    });
+  });
+
+  season.gamesByKey = {};
+  season.phase = "OFFSEASON";
+  season.offseasonStep = OFFSEASON_STEPS[0];
+  season.preseasonWeek = 1;
+  season.week = 1;
+  season.playoffRound = null;
+
+  season.lastResult = {
+    summary: "Season complete",
+    details: `Welcome to the ${season.year} season`
   };
 }
 
-// --- FUTURE HOOKS ---
-export function runPlayoffSimulation() {}
-export function runOffseasonStep() {}
-export function runPlayerDevelopment() {}
-export function runCpuRosterLogic() {}
-export function runInjurySimulation() {}
-export function runScouting() {}
-export function runDraftLogic() {}
+/* ======================================================
+   GAME SIMULATION
+====================================================== */
+
+function simulateGame(home, away) {
+  const homeScore = rand(17, 38);
+  const awayScore = rand(14, 34);
+
+  return {
+    home,
+    away,
+    homeScore,
+    awayScore
+  };
+}
+
+function applyResult(season, game) {
+  const { home, away, homeScore, awayScore } = game;
+
+  const homeTeam = season.teams[home];
+  const awayTeam = season.teams[away];
+
+  homeTeam.pointsFor += homeScore;
+  homeTeam.pointsAgainst += awayScore;
+  awayTeam.pointsFor += awayScore;
+  awayTeam.pointsAgainst += homeScore;
+
+  if (homeScore > awayScore) {
+    homeTeam.wins++;
+    awayTeam.losses++;
+  } else if (awayScore > homeScore) {
+    awayTeam.wins++;
+    homeTeam.losses++;
+  } else {
+    homeTeam.ties++;
+    awayTeam.ties++;
+  }
+}
+
+function markGamesPlayed(season, week, type, game) {
+  const { home, away, homeScore, awayScore } = game;
+
+  const update = (teamId, scored, allowed) => {
+    const g = season.schedules[teamId].find(
+      (x) => x.week === week && x.type === type
+    );
+    if (!g) return;
+
+    g.played = true;
+    g.scoreFor = scored;
+    g.scoreAgainst = allowed;
+    g.result = scored > allowed ? "W" : scored < allowed ? "L" : "T";
+  };
+
+  update(home, homeScore, awayScore);
+  update(away, awayScore, homeScore);
+}
+
+/* ======================================================
+   HELPERS
+====================================================== */
+
+function rand(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 export function getOffseasonSteps() {
   return OFFSEASON_STEPS;
@@ -174,9 +410,4 @@ export function getOffseasonSteps() {
 
 export function getPlayoffRounds() {
   return PLAYOFF_ROUNDS;
-}
-
-// --- utils ---
-function rand(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
 }

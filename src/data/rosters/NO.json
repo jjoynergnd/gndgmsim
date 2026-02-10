@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  88,
-        "name":  "Marcus Bennett",
-        "id":  "NO-QB0"
+[
+  {
+    "id": "NO-QB-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Frank Schaefer",
+    "jerseyNumber": 4,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'10\"",
+      "weight": 328,
+      "college": "Hicksville",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
     },
-    {
-        "position":  "RB",
-        "overall":  90,
-        "name":  "Logan Rourke",
-        "id":  "NO-RB1"
+    "contract": {
+      "years": 1,
+      "totalValue": 59809283,
+      "capHit": 5727206,
+      "deadCap": 6401527,
+      "signingBonus": 18486207,
+      "expiresYear": 2027,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  68,
-        "name":  "Jalen Foster",
-        "id":  "NO-WR2"
+    "ratings": {
+      "overall": 68,
+      "potential": 76,
+      "schemeFit": 74,
+      "speed": 73,
+      "acceleration": 89,
+      "agility": 77,
+      "strength": 89,
+      "tackle": 75,
+      "pursuit": 60,
+      "manCoverage": 73,
+      "zoneCoverage": 90,
+      "kickPower": 81,
+      "kickAccuracy": 57,
+      "catching": 75,
+      "routeRunning": 52,
+      "release": 84,
+      "throwPower": 93,
+      "shortAccuracy": 60,
+      "mediumAccuracy": 90,
+      "deepAccuracy": 81
     },
-    {
-        "position":  "LB",
-        "overall":  72,
-        "name":  "Malik Wynn",
-        "id":  "NO-LB3"
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  78,
-        "name":  "Jordan Rourke",
-        "id":  "NO-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 514,
+        "statB": 275
+      },
+      "career": {
+        "games": 7,
+        "statA": 2731,
+        "statB": 3234
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "NO-QB-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Matthew Beier",
+    "jerseyNumber": 29,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'5\"",
+      "weight": 325,
+      "college": "Fort Alessandraview",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 87088404,
+      "capHit": 3286994,
+      "deadCap": 4483444,
+      "signingBonus": 17671942,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 87,
+      "schemeFit": 84,
+      "speed": 95,
+      "acceleration": 82,
+      "agility": 92,
+      "strength": 85,
+      "tackle": 90,
+      "pursuit": 71,
+      "manCoverage": 55,
+      "zoneCoverage": 67,
+      "kickPower": 95,
+      "kickAccuracy": 72,
+      "catching": 50,
+      "routeRunning": 53,
+      "release": 69,
+      "throwPower": 85,
+      "shortAccuracy": 78,
+      "mediumAccuracy": 80,
+      "deepAccuracy": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 820,
+        "statB": 306
+      },
+      "career": {
+        "games": 72,
+        "statA": 518,
+        "statB": 1259
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "NO-QB-3",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Elijah Simonis",
+    "jerseyNumber": 46,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 197,
+      "college": "West Clinton",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 22609246,
+      "capHit": 11045108,
+      "deadCap": 8971917,
+      "signingBonus": 15885415,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 90,
+      "schemeFit": 88,
+      "speed": 76,
+      "acceleration": 85,
+      "agility": 85,
+      "strength": 95,
+      "tackle": 94,
+      "pursuit": 82,
+      "manCoverage": 58,
+      "zoneCoverage": 87,
+      "kickPower": 63,
+      "kickAccuracy": 64,
+      "catching": 62,
+      "routeRunning": 67,
+      "release": 68,
+      "throwPower": 76,
+      "shortAccuracy": 85,
+      "mediumAccuracy": 60,
+      "deepAccuracy": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 297,
+        "statB": 114
+      },
+      "career": {
+        "games": 42,
+        "statA": 3321,
+        "statB": 3401
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "NO-RB-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Oscar Kiehn",
+    "jerseyNumber": 46,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 214,
+      "college": "North Linwood",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 18561512,
+      "capHit": 15447054,
+      "deadCap": 7078834,
+      "signingBonus": 10780751,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 73,
+      "schemeFit": 81,
+      "speed": 75,
+      "acceleration": 86,
+      "agility": 94,
+      "strength": 64,
+      "tackle": 60,
+      "pursuit": 74,
+      "manCoverage": 68,
+      "zoneCoverage": 78,
+      "kickPower": 67,
+      "kickAccuracy": 57,
+      "catching": 76,
+      "routeRunning": 90,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 437,
+        "statB": 263
+      },
+      "career": {
+        "games": 22,
+        "statA": 1962,
+        "statB": 3975
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "NO-RB-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Calvin Koelpin",
+    "jerseyNumber": 76,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'2\"",
+      "weight": 217,
+      "college": "Fort Miles",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 34107562,
+      "capHit": 6744072,
+      "deadCap": 6657167,
+      "signingBonus": 15105409,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 82,
+      "schemeFit": 76,
+      "speed": 94,
+      "acceleration": 73,
+      "agility": 80,
+      "strength": 86,
+      "tackle": 95,
+      "pursuit": 93,
+      "manCoverage": 89,
+      "zoneCoverage": 73,
+      "kickPower": 70,
+      "kickAccuracy": 70,
+      "catching": 64,
+      "routeRunning": 70,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 585,
+        "statB": 55
+      },
+      "career": {
+        "games": 52,
+        "statA": 4125,
+        "statB": 452
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "NO-RB-3",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Dawson Dibbert",
+    "jerseyNumber": 96,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 241,
+      "college": "New Anahimouth",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 114201494,
+      "capHit": 17916677,
+      "deadCap": 6685441,
+      "signingBonus": 365492,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 73,
+      "schemeFit": 94,
+      "speed": 94,
+      "acceleration": 92,
+      "agility": 95,
+      "strength": 66,
+      "tackle": 94,
+      "pursuit": 69,
+      "manCoverage": 71,
+      "zoneCoverage": 83,
+      "kickPower": 82,
+      "kickAccuracy": 91,
+      "catching": 54,
+      "routeRunning": 52,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 90,
+        "statB": 669
+      },
+      "career": {
+        "games": 80,
+        "statA": 4741,
+        "statB": 2946
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "NO-RB-4",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Bo Block",
+    "jerseyNumber": 88,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 202,
+      "college": "Bismarck",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 57819243,
+      "capHit": 11760791,
+      "deadCap": 4841944,
+      "signingBonus": 16015155,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 83,
+      "schemeFit": 82,
+      "speed": 81,
+      "acceleration": 70,
+      "agility": 85,
+      "strength": 87,
+      "tackle": 93,
+      "pursuit": 66,
+      "manCoverage": 73,
+      "zoneCoverage": 75,
+      "kickPower": 66,
+      "kickAccuracy": 90,
+      "catching": 81,
+      "routeRunning": 75,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 559,
+        "statB": 351
+      },
+      "career": {
+        "games": 15,
+        "statA": 1321,
+        "statB": 598
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "NO-WR-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jisoo Greenfelder",
+    "jerseyNumber": 35,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 218,
+      "college": "Lednerport",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 4146300,
+      "capHit": 20959045,
+      "deadCap": 805044,
+      "signingBonus": 10713476,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 85,
+      "speed": 90,
+      "acceleration": 94,
+      "agility": 74,
+      "strength": 81,
+      "tackle": 90,
+      "pursuit": 91,
+      "manCoverage": 70,
+      "zoneCoverage": 89,
+      "kickPower": 79,
+      "kickAccuracy": 79,
+      "catching": 53,
+      "routeRunning": 63,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 847,
+        "statB": 231
+      },
+      "career": {
+        "games": 112,
+        "statA": 594,
+        "statB": 2916
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "NO-WR-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Declan Schowalter",
+    "jerseyNumber": 24,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 288,
+      "college": "Pawtucket",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 31678788,
+      "capHit": 15351364,
+      "deadCap": 9512625,
+      "signingBonus": 1865129,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 75,
+      "schemeFit": 70,
+      "speed": 93,
+      "acceleration": 92,
+      "agility": 85,
+      "strength": 93,
+      "tackle": 91,
+      "pursuit": 80,
+      "manCoverage": 88,
+      "zoneCoverage": 50,
+      "kickPower": 88,
+      "kickAccuracy": 68,
+      "catching": 92,
+      "routeRunning": 60,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 988,
+        "statB": 488
+      },
+      "career": {
+        "games": 113,
+        "statA": 2636,
+        "statB": 903
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "NO-WR-3",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Joon Ferry",
+    "jerseyNumber": 53,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 205,
+      "college": "Dorthaberg",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 80523219,
+      "capHit": 9929847,
+      "deadCap": 1391393,
+      "signingBonus": 10903430,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 85,
+      "speed": 79,
+      "acceleration": 84,
+      "agility": 92,
+      "strength": 68,
+      "tackle": 78,
+      "pursuit": 86,
+      "manCoverage": 71,
+      "zoneCoverage": 79,
+      "kickPower": 65,
+      "kickAccuracy": 84,
+      "catching": 83,
+      "routeRunning": 50,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 717,
+        "statB": 998
+      },
+      "career": {
+        "games": 54,
+        "statA": 4986,
+        "statB": 2975
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "NO-WR-4",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Eric O'Reilly",
+    "jerseyNumber": 29,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 278,
+      "college": "East Abagailstead",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 91119112,
+      "capHit": 10195088,
+      "deadCap": 9917492,
+      "signingBonus": 14186063,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 88,
+      "schemeFit": 95,
+      "speed": 80,
+      "acceleration": 93,
+      "agility": 87,
+      "strength": 95,
+      "tackle": 75,
+      "pursuit": 73,
+      "manCoverage": 85,
+      "zoneCoverage": 69,
+      "kickPower": 78,
+      "kickAccuracy": 94,
+      "catching": 60,
+      "routeRunning": 73,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 289,
+        "statB": 576
+      },
+      "career": {
+        "games": 102,
+        "statA": 1885,
+        "statB": 4643
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "NO-WR-5",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Carl Parker",
+    "jerseyNumber": 83,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 279,
+      "college": "Erickview",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 30199417,
+      "capHit": 21358627,
+      "deadCap": 2771750,
+      "signingBonus": 8700469,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 85,
+      "schemeFit": 89,
+      "speed": 77,
+      "acceleration": 72,
+      "agility": 86,
+      "strength": 77,
+      "tackle": 67,
+      "pursuit": 92,
+      "manCoverage": 81,
+      "zoneCoverage": 54,
+      "kickPower": 53,
+      "kickAccuracy": 70,
+      "catching": 68,
+      "routeRunning": 61,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 415,
+        "statB": 538
+      },
+      "career": {
+        "games": 70,
+        "statA": 4768,
+        "statB": 4134
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "NO-WR-6",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jeffrey Mitchell",
+    "jerseyNumber": 47,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 328,
+      "college": "Rozellafurt",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 76581162,
+      "capHit": 15150960,
+      "deadCap": 9429991,
+      "signingBonus": 13598704,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 89,
+      "schemeFit": 84,
+      "speed": 90,
+      "acceleration": 73,
+      "agility": 82,
+      "strength": 83,
+      "tackle": 92,
+      "pursuit": 60,
+      "manCoverage": 58,
+      "zoneCoverage": 50,
+      "kickPower": 91,
+      "kickAccuracy": 79,
+      "catching": 69,
+      "routeRunning": 66,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 325,
+        "statB": 588
+      },
+      "career": {
+        "games": 78,
+        "statA": 2051,
+        "statB": 2761
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "NO-WR-7",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Mitchell Grimes",
+    "jerseyNumber": 72,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 33,
+      "height": "6'1\"",
+      "weight": 265,
+      "college": "New Britain",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 53859730,
+      "capHit": 10264108,
+      "deadCap": 5655120,
+      "signingBonus": 3996048,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 78,
+      "schemeFit": 70,
+      "speed": 77,
+      "acceleration": 78,
+      "agility": 77,
+      "strength": 72,
+      "tackle": 75,
+      "pursuit": 67,
+      "manCoverage": 58,
+      "zoneCoverage": 54,
+      "kickPower": 61,
+      "kickAccuracy": 55,
+      "catching": 63,
+      "routeRunning": 76,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 9,
+        "statB": 100
+      },
+      "career": {
+        "games": 115,
+        "statA": 1547,
+        "statB": 4118
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "NO-TE-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Joe Crona",
+    "jerseyNumber": 31,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 309,
+      "college": "Fort Celine",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 47239631,
+      "capHit": 2529957,
+      "deadCap": 1077739,
+      "signingBonus": 7276794,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 89,
+      "schemeFit": 72,
+      "speed": 94,
+      "acceleration": 82,
+      "agility": 92,
+      "strength": 83,
+      "tackle": 73,
+      "pursuit": 64,
+      "manCoverage": 53,
+      "zoneCoverage": 57,
+      "kickPower": 86,
+      "kickAccuracy": 84,
+      "catching": 84,
+      "routeRunning": 50,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 966,
+        "statB": 191
+      },
+      "career": {
+        "games": 40,
+        "statA": 65,
+        "statB": 120
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "NO-TE-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Nolan Miller",
+    "jerseyNumber": 85,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 284,
+      "college": "West Reilly",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 66203141,
+      "capHit": 23480202,
+      "deadCap": 7441897,
+      "signingBonus": 19627795,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 79,
+      "schemeFit": 75,
+      "speed": 73,
+      "acceleration": 87,
+      "agility": 74,
+      "strength": 95,
+      "tackle": 61,
+      "pursuit": 62,
+      "manCoverage": 70,
+      "zoneCoverage": 89,
+      "kickPower": 94,
+      "kickAccuracy": 73,
+      "catching": 63,
+      "routeRunning": 84,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 893,
+        "statB": 755
+      },
+      "career": {
+        "games": 69,
+        "statA": 2823,
+        "statB": 3685
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "NO-TE-3",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Keegan Ryan",
+    "jerseyNumber": 85,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 218,
+      "college": "North Rosario",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 97273730,
+      "capHit": 6865313,
+      "deadCap": 3469677,
+      "signingBonus": 440417,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 92,
+      "schemeFit": 95,
+      "speed": 70,
+      "acceleration": 90,
+      "agility": 82,
+      "strength": 77,
+      "tackle": 69,
+      "pursuit": 79,
+      "manCoverage": 61,
+      "zoneCoverage": 89,
+      "kickPower": 56,
+      "kickAccuracy": 50,
+      "catching": 90,
+      "routeRunning": 71,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 389,
+        "statB": 931
+      },
+      "career": {
+        "games": 50,
+        "statA": 3009,
+        "statB": 4254
+      }
+    },
+    "photo": "/player_faces/30.png"
+  },
+  {
+    "id": "NO-LT-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "William Daniel",
+    "jerseyNumber": 52,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 293,
+      "college": "Dale City",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 15443615,
+      "capHit": 17068172,
+      "deadCap": 5826346,
+      "signingBonus": 14180348,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 75,
+      "speed": 82,
+      "acceleration": 91,
+      "agility": 76,
+      "strength": 72,
+      "tackle": 72,
+      "pursuit": 79,
+      "manCoverage": 54,
+      "zoneCoverage": 86,
+      "kickPower": 53,
+      "kickAccuracy": 95,
+      "catching": 89,
+      "routeRunning": 81,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 46,
+        "statB": 236
+      },
+      "career": {
+        "games": 103,
+        "statA": 471,
+        "statB": 85
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "NO-LT-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Justin Wisozk",
+    "jerseyNumber": 19,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'0\"",
+      "weight": 280,
+      "college": "New Curtis",
+      "experience": 8,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 107474231,
+      "capHit": 2795712,
+      "deadCap": 362395,
+      "signingBonus": 2363881,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 89,
+      "schemeFit": 71,
+      "speed": 92,
+      "acceleration": 85,
+      "agility": 85,
+      "strength": 95,
+      "tackle": 77,
+      "pursuit": 76,
+      "manCoverage": 51,
+      "zoneCoverage": 82,
+      "kickPower": 56,
+      "kickAccuracy": 67,
+      "catching": 58,
+      "routeRunning": 60,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 248,
+        "statB": 483
+      },
+      "career": {
+        "games": 23,
+        "statA": 594,
+        "statB": 90
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "NO-LG-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Julian Hyatt-Torphy",
+    "jerseyNumber": 65,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'9\"",
+      "weight": 246,
+      "college": "Robbiechester",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 57056444,
+      "capHit": 21524691,
+      "deadCap": 5209233,
+      "signingBonus": 3158660,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 93,
+      "schemeFit": 82,
+      "speed": 95,
+      "acceleration": 72,
+      "agility": 86,
+      "strength": 63,
+      "tackle": 76,
+      "pursuit": 63,
+      "manCoverage": 88,
+      "zoneCoverage": 66,
+      "kickPower": 89,
+      "kickAccuracy": 82,
+      "catching": 51,
+      "routeRunning": 74,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 756,
+        "statB": 438
+      },
+      "career": {
+        "games": 71,
+        "statA": 2578,
+        "statB": 1767
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "NO-LG-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Aaron Harvey",
+    "jerseyNumber": 44,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 329,
+      "college": "West Landenchester",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 60747188,
+      "capHit": 20931010,
+      "deadCap": 5244806,
+      "signingBonus": 16717350,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 79,
+      "schemeFit": 79,
+      "speed": 80,
+      "acceleration": 78,
+      "agility": 77,
+      "strength": 84,
+      "tackle": 81,
+      "pursuit": 94,
+      "manCoverage": 72,
+      "zoneCoverage": 68,
+      "kickPower": 84,
+      "kickAccuracy": 50,
+      "catching": 52,
+      "routeRunning": 91,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 706,
+        "statB": 162
+      },
+      "career": {
+        "games": 111,
+        "statA": 3390,
+        "statB": 4985
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "NO-C-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jeremy Hermann-Emmerich",
+    "jerseyNumber": 36,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 322,
+      "college": "New Dereckburgh",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 102273737,
+      "capHit": 22565725,
+      "deadCap": 5241491,
+      "signingBonus": 13802814,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 70,
+      "schemeFit": 94,
+      "speed": 82,
+      "acceleration": 87,
+      "agility": 85,
+      "strength": 75,
+      "tackle": 92,
+      "pursuit": 70,
+      "manCoverage": 78,
+      "zoneCoverage": 82,
+      "kickPower": 70,
+      "kickAccuracy": 92,
+      "catching": 74,
+      "routeRunning": 70,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 104,
+        "statB": 558
+      },
+      "career": {
+        "games": 96,
+        "statA": 2746,
+        "statB": 496
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "NO-C-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jared Witting",
+    "jerseyNumber": 56,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 202,
+      "college": "Mitchellton",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 91772287,
+      "capHit": 15801564,
+      "deadCap": 9976992,
+      "signingBonus": 5845482,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 75,
+      "schemeFit": 91,
+      "speed": 81,
+      "acceleration": 73,
+      "agility": 78,
+      "strength": 67,
+      "tackle": 93,
+      "pursuit": 71,
+      "manCoverage": 78,
+      "zoneCoverage": 83,
+      "kickPower": 56,
+      "kickAccuracy": 57,
+      "catching": 50,
+      "routeRunning": 86,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 193,
+        "statB": 60
+      },
+      "career": {
+        "games": 3,
+        "statA": 1012,
+        "statB": 1378
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "NO-RG-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Khalid Jacobi",
+    "jerseyNumber": 51,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 222,
+      "college": "Burleson",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 83227086,
+      "capHit": 6246869,
+      "deadCap": 5937703,
+      "signingBonus": 3749859,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 75,
+      "schemeFit": 87,
+      "speed": 72,
+      "acceleration": 91,
+      "agility": 79,
+      "strength": 91,
+      "tackle": 61,
+      "pursuit": 70,
+      "manCoverage": 65,
+      "zoneCoverage": 84,
+      "kickPower": 51,
+      "kickAccuracy": 64,
+      "catching": 84,
+      "routeRunning": 54,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 865,
+        "statB": 662
+      },
+      "career": {
+        "games": 108,
+        "statA": 4483,
+        "statB": 1164
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "NO-RG-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Reed Kertzmann",
+    "jerseyNumber": 94,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "5'10\"",
+      "weight": 202,
+      "college": "Providence",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 1872233,
+      "capHit": 18374306,
+      "deadCap": 7584419,
+      "signingBonus": 8639267,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 62,
+      "schemeFit": 73,
+      "speed": 75,
+      "acceleration": 90,
+      "agility": 72,
+      "strength": 60,
+      "tackle": 88,
+      "pursuit": 79,
+      "manCoverage": 81,
+      "zoneCoverage": 55,
+      "kickPower": 85,
+      "kickAccuracy": 79,
+      "catching": 88,
+      "routeRunning": 79,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 787,
+        "statB": 71
+      },
+      "career": {
+        "games": 40,
+        "statA": 2870,
+        "statB": 2520
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "NO-RT-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Dominic Raynor",
+    "jerseyNumber": 86,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 296,
+      "college": "Redmond",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 84321859,
+      "capHit": 17217667,
+      "deadCap": 7353838,
+      "signingBonus": 12815582,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 74,
+      "schemeFit": 95,
+      "speed": 86,
+      "acceleration": 95,
+      "agility": 90,
+      "strength": 93,
+      "tackle": 76,
+      "pursuit": 88,
+      "manCoverage": 60,
+      "zoneCoverage": 60,
+      "kickPower": 84,
+      "kickAccuracy": 61,
+      "catching": 51,
+      "routeRunning": 76,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 204,
+        "statB": 266
+      },
+      "career": {
+        "games": 38,
+        "statA": 3906,
+        "statB": 2152
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "NO-RT-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Micah Wiza",
+    "jerseyNumber": 58,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'0\"",
+      "weight": 266,
+      "college": "Moore",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 69913982,
+      "capHit": 14791496,
+      "deadCap": 8664485,
+      "signingBonus": 9536228,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 89,
+      "schemeFit": 74,
+      "speed": 76,
+      "acceleration": 89,
+      "agility": 84,
+      "strength": 91,
+      "tackle": 66,
+      "pursuit": 73,
+      "manCoverage": 73,
+      "zoneCoverage": 85,
+      "kickPower": 66,
+      "kickAccuracy": 94,
+      "catching": 80,
+      "routeRunning": 88,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 364,
+        "statB": 588
+      },
+      "career": {
+        "games": 99,
+        "statA": 1739,
+        "statB": 4372
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "NO-LDE-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Diego Torp",
+    "jerseyNumber": 71,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'5\"",
+      "weight": 275,
+      "college": "West Damienland",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 81360734,
+      "capHit": 14433893,
+      "deadCap": 2169606,
+      "signingBonus": 11432691,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 80,
+      "schemeFit": 76,
+      "speed": 82,
+      "acceleration": 71,
+      "agility": 88,
+      "strength": 85,
+      "tackle": 93,
+      "pursuit": 92,
+      "manCoverage": 75,
+      "zoneCoverage": 53,
+      "kickPower": 56,
+      "kickAccuracy": 78,
+      "catching": 50,
+      "routeRunning": 61,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 416,
+        "statB": 127
+      },
+      "career": {
+        "games": 107,
+        "statA": 287,
+        "statB": 2516
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "NO-LDE-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Yuri Hartmann",
+    "jerseyNumber": 14,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'1\"",
+      "weight": 241,
+      "college": "Elijahfield",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 84928860,
+      "capHit": 8111047,
+      "deadCap": 491054,
+      "signingBonus": 7851284,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 77,
+      "schemeFit": 95,
+      "speed": 94,
+      "acceleration": 76,
+      "agility": 84,
+      "strength": 91,
+      "tackle": 63,
+      "pursuit": 75,
+      "manCoverage": 77,
+      "zoneCoverage": 61,
+      "kickPower": 57,
+      "kickAccuracy": 52,
+      "catching": 54,
+      "routeRunning": 56,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 679,
+        "statB": 916
+      },
+      "career": {
+        "games": 35,
+        "statA": 3860,
+        "statB": 2326
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "NO-RDE-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Brandon Luettgen",
+    "jerseyNumber": 84,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 256,
+      "college": "West Haylie",
+      "experience": 12,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 4365294,
+      "capHit": 17058771,
+      "deadCap": 308454,
+      "signingBonus": 15794646,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 88,
+      "speed": 81,
+      "acceleration": 73,
+      "agility": 83,
+      "strength": 62,
+      "tackle": 78,
+      "pursuit": 85,
+      "manCoverage": 86,
+      "zoneCoverage": 79,
+      "kickPower": 88,
+      "kickAccuracy": 84,
+      "catching": 52,
+      "routeRunning": 72,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 31,
+        "statB": 361
+      },
+      "career": {
+        "games": 118,
+        "statA": 1495,
+        "statB": 1944
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "NO-RDE-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Samir Barrows",
+    "jerseyNumber": 13,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 279,
+      "college": "East Brice",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 119927851,
+      "capHit": 11363671,
+      "deadCap": 8673591,
+      "signingBonus": 14731297,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 73,
+      "schemeFit": 84,
+      "speed": 82,
+      "acceleration": 75,
+      "agility": 79,
+      "strength": 83,
+      "tackle": 87,
+      "pursuit": 76,
+      "manCoverage": 72,
+      "zoneCoverage": 59,
+      "kickPower": 73,
+      "kickAccuracy": 58,
+      "catching": 95,
+      "routeRunning": 53,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 224,
+        "statB": 167
+      },
+      "career": {
+        "games": 119,
+        "statA": 1537,
+        "statB": 1002
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "NO-DT-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Andrew Frami",
+    "jerseyNumber": 45,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 239,
+      "college": "Fort Petrafort",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 20399039,
+      "capHit": 2367693,
+      "deadCap": 4276020,
+      "signingBonus": 9190957,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 70,
+      "schemeFit": 91,
+      "speed": 77,
+      "acceleration": 79,
+      "agility": 82,
+      "strength": 89,
+      "tackle": 77,
+      "pursuit": 86,
+      "manCoverage": 85,
+      "zoneCoverage": 75,
+      "kickPower": 79,
+      "kickAccuracy": 64,
+      "catching": 83,
+      "routeRunning": 70,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 423,
+        "statB": 402
+      },
+      "career": {
+        "games": 76,
+        "statA": 924,
+        "statB": 2740
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "NO-DT-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Andrei Bartoletti-Green",
+    "jerseyNumber": 94,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 204,
+      "college": "Fountainebleau",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 65295869,
+      "capHit": 21355881,
+      "deadCap": 8614626,
+      "signingBonus": 15262441,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 74,
+      "schemeFit": 71,
+      "speed": 84,
+      "acceleration": 71,
+      "agility": 93,
+      "strength": 95,
+      "tackle": 64,
+      "pursuit": 68,
+      "manCoverage": 51,
+      "zoneCoverage": 89,
+      "kickPower": 54,
+      "kickAccuracy": 57,
+      "catching": 92,
+      "routeRunning": 89,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 752,
+        "statB": 395
+      },
+      "career": {
+        "games": 20,
+        "statA": 2139,
+        "statB": 4498
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "NO-DT-3",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Robert Blick",
+    "jerseyNumber": 31,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 273,
+      "college": "South Trent",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 61671053,
+      "capHit": 23367161,
+      "deadCap": 7914466,
+      "signingBonus": 11312484,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 77,
+      "schemeFit": 88,
+      "speed": 85,
+      "acceleration": 88,
+      "agility": 74,
+      "strength": 68,
+      "tackle": 70,
+      "pursuit": 86,
+      "manCoverage": 84,
+      "zoneCoverage": 73,
+      "kickPower": 66,
+      "kickAccuracy": 76,
+      "catching": 88,
+      "routeRunning": 61,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 882,
+        "statB": 596
+      },
+      "career": {
+        "games": 63,
+        "statA": 485,
+        "statB": 4074
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "NO-DT-4",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Carl Kuhlman",
+    "jerseyNumber": 98,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 307,
+      "college": "Kaneport",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 58446513,
+      "capHit": 22122745,
+      "deadCap": 4941661,
+      "signingBonus": 12770847,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 61,
+      "schemeFit": 77,
+      "speed": 71,
+      "acceleration": 77,
+      "agility": 76,
+      "strength": 91,
+      "tackle": 62,
+      "pursuit": 74,
+      "manCoverage": 65,
+      "zoneCoverage": 87,
+      "kickPower": 61,
+      "kickAccuracy": 72,
+      "catching": 76,
+      "routeRunning": 66,
+      "release": 84
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 988,
+        "statB": 287
+      },
+      "career": {
+        "games": 57,
+        "statA": 3432,
+        "statB": 4637
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "NO-LOLB-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Richard Bayer",
+    "jerseyNumber": 69,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 206,
+      "college": "North Larissashire",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 41273475,
+      "capHit": 6384604,
+      "deadCap": 2392084,
+      "signingBonus": 17558957,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 73,
+      "schemeFit": 93,
+      "speed": 87,
+      "acceleration": 75,
+      "agility": 92,
+      "strength": 71,
+      "tackle": 85,
+      "pursuit": 78,
+      "manCoverage": 63,
+      "zoneCoverage": 66,
+      "kickPower": 65,
+      "kickAccuracy": 62,
+      "catching": 85,
+      "routeRunning": 72,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 476,
+        "statB": 741
+      },
+      "career": {
+        "games": 36,
+        "statA": 1556,
+        "statB": 4303
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "NO-LOLB-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Christian Collier",
+    "jerseyNumber": 73,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 259,
+      "college": "North Edytheville",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 29195150,
+      "capHit": 3241125,
+      "deadCap": 2853003,
+      "signingBonus": 3056957,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 90,
+      "schemeFit": 74,
+      "speed": 80,
+      "acceleration": 74,
+      "agility": 92,
+      "strength": 75,
+      "tackle": 91,
+      "pursuit": 94,
+      "manCoverage": 63,
+      "zoneCoverage": 77,
+      "kickPower": 61,
+      "kickAccuracy": 68,
+      "catching": 89,
+      "routeRunning": 57,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 91,
+        "statB": 890
+      },
+      "career": {
+        "games": 15,
+        "statA": 3879,
+        "statB": 138
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "NO-MLB-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Mateo Ankunding",
+    "jerseyNumber": 87,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "5'9\"",
+      "weight": 202,
+      "college": "Racine",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 56040361,
+      "capHit": 18490473,
+      "deadCap": 2107116,
+      "signingBonus": 4168677,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 83,
+      "schemeFit": 72,
+      "speed": 86,
+      "acceleration": 72,
+      "agility": 90,
+      "strength": 70,
+      "tackle": 89,
+      "pursuit": 67,
+      "manCoverage": 79,
+      "zoneCoverage": 73,
+      "kickPower": 77,
+      "kickAccuracy": 73,
+      "catching": 81,
+      "routeRunning": 56,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 557,
+        "statB": 475
+      },
+      "career": {
+        "games": 62,
+        "statA": 4400,
+        "statB": 450
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "NO-MLB-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Zaid Nikolaus",
+    "jerseyNumber": 86,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'4\"",
+      "weight": 210,
+      "college": "Everardoberg",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 114553202,
+      "capHit": 24489638,
+      "deadCap": 8675023,
+      "signingBonus": 2516843,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 90,
+      "speed": 82,
+      "acceleration": 86,
+      "agility": 70,
+      "strength": 71,
+      "tackle": 92,
+      "pursuit": 66,
+      "manCoverage": 87,
+      "zoneCoverage": 65,
+      "kickPower": 92,
+      "kickAccuracy": 72,
+      "catching": 77,
+      "routeRunning": 95,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 389,
+        "statB": 441
+      },
+      "career": {
+        "games": 76,
+        "statA": 3027,
+        "statB": 258
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "NO-ROLB-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Daichi Heidenreich",
+    "jerseyNumber": 79,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 276,
+      "college": "Luettgenside",
+      "experience": 3,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 33664293,
+      "capHit": 11370400,
+      "deadCap": 5416415,
+      "signingBonus": 7567346,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 77,
+      "schemeFit": 76,
+      "speed": 94,
+      "acceleration": 85,
+      "agility": 84,
+      "strength": 81,
+      "tackle": 63,
+      "pursuit": 62,
+      "manCoverage": 82,
+      "zoneCoverage": 77,
+      "kickPower": 87,
+      "kickAccuracy": 94,
+      "catching": 50,
+      "routeRunning": 65,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 840,
+        "statB": 882
+      },
+      "career": {
+        "games": 34,
+        "statA": 3178,
+        "statB": 4893
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "NO-ROLB-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Beckett McGlynn",
+    "jerseyNumber": 17,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 326,
+      "college": "West Nova",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 13802135,
+      "capHit": 12181431,
+      "deadCap": 2957753,
+      "signingBonus": 11125566,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 72,
+      "schemeFit": 81,
+      "speed": 91,
+      "acceleration": 86,
+      "agility": 76,
+      "strength": 95,
+      "tackle": 91,
+      "pursuit": 81,
+      "manCoverage": 52,
+      "zoneCoverage": 90,
+      "kickPower": 67,
+      "kickAccuracy": 70,
+      "catching": 75,
+      "routeRunning": 70,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 7,
+        "statB": 489
+      },
+      "career": {
+        "games": 28,
+        "statA": 3621,
+        "statB": 3451
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "NO-CB-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Sawyer Lind",
+    "jerseyNumber": 14,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 218,
+      "college": "Lake Wilton",
+      "experience": 7,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 63100460,
+      "capHit": 22156447,
+      "deadCap": 786508,
+      "signingBonus": 10251455,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 86,
+      "schemeFit": 95,
+      "speed": 76,
+      "acceleration": 74,
+      "agility": 77,
+      "strength": 89,
+      "tackle": 73,
+      "pursuit": 66,
+      "manCoverage": 85,
+      "zoneCoverage": 60,
+      "kickPower": 51,
+      "kickAccuracy": 81,
+      "catching": 79,
+      "routeRunning": 85,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 994,
+        "statB": 71
+      },
+      "career": {
+        "games": 17,
+        "statA": 4973,
+        "statB": 1401
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "NO-CB-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jonathan Hintz",
+    "jerseyNumber": 27,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 273,
+      "college": "Gagehaven",
+      "experience": 4,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 11537429,
+      "capHit": 21118808,
+      "deadCap": 1668633,
+      "signingBonus": 9129626,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 75,
+      "schemeFit": 93,
+      "speed": 86,
+      "acceleration": 82,
+      "agility": 95,
+      "strength": 66,
+      "tackle": 64,
+      "pursuit": 69,
+      "manCoverage": 73,
+      "zoneCoverage": 55,
+      "kickPower": 57,
+      "kickAccuracy": 72,
+      "catching": 66,
+      "routeRunning": 50,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 190,
+        "statB": 340
+      },
+      "career": {
+        "games": 8,
+        "statA": 358,
+        "statB": 3960
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "NO-CB-3",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Ren Wolff",
+    "jerseyNumber": 54,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 209,
+      "college": "San Marcos",
+      "experience": 2,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 53123097,
+      "capHit": 24057888,
+      "deadCap": 1434498,
+      "signingBonus": 12746408,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 70,
+      "schemeFit": 77,
+      "speed": 80,
+      "acceleration": 70,
+      "agility": 76,
+      "strength": 93,
+      "tackle": 62,
+      "pursuit": 89,
+      "manCoverage": 80,
+      "zoneCoverage": 58,
+      "kickPower": 84,
+      "kickAccuracy": 57,
+      "catching": 61,
+      "routeRunning": 55,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 756,
+        "statB": 210
+      },
+      "career": {
+        "games": 110,
+        "statA": 2754,
+        "statB": 1095
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NO-CB-4",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Calvin Larkin",
+    "jerseyNumber": 28,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 23,
+      "height": "6'1\"",
+      "weight": 301,
+      "college": "Kundeton",
+      "experience": 10,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 29673456,
+      "capHit": 4564967,
+      "deadCap": 738590,
+      "signingBonus": 6376311,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 78,
+      "schemeFit": 92,
+      "speed": 85,
+      "acceleration": 83,
+      "agility": 94,
+      "strength": 79,
+      "tackle": 61,
+      "pursuit": 64,
+      "manCoverage": 54,
+      "zoneCoverage": 68,
+      "kickPower": 83,
+      "kickAccuracy": 54,
+      "catching": 77,
+      "routeRunning": 79,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 157,
+        "statB": 567
+      },
+      "career": {
+        "games": 106,
+        "statA": 144,
+        "statB": 2865
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "NO-CB-5",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Gerald Stark",
+    "jerseyNumber": 7,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 27,
+      "height": "6'2\"",
+      "weight": 201,
+      "college": "Lake Bernadette",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 34625750,
+      "capHit": 19685160,
+      "deadCap": 6018814,
+      "signingBonus": 12733246,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 77,
+      "schemeFit": 85,
+      "speed": 77,
+      "acceleration": 95,
+      "agility": 80,
+      "strength": 75,
+      "tackle": 74,
+      "pursuit": 60,
+      "manCoverage": 72,
+      "zoneCoverage": 65,
+      "kickPower": 80,
+      "kickAccuracy": 84,
+      "catching": 72,
+      "routeRunning": 77,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 181,
+        "statB": 499
+      },
+      "career": {
+        "games": 83,
+        "statA": 1063,
+        "statB": 2066
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "NO-CB-6",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Bo Goldner",
+    "jerseyNumber": 60,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 323,
+      "college": "Elenaport",
+      "experience": 2,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 95204481,
+      "capHit": 16226159,
+      "deadCap": 499802,
+      "signingBonus": 12477969,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 71,
+      "schemeFit": 76,
+      "speed": 82,
+      "acceleration": 86,
+      "agility": 91,
+      "strength": 61,
+      "tackle": 72,
+      "pursuit": 80,
+      "manCoverage": 71,
+      "zoneCoverage": 68,
+      "kickPower": 82,
+      "kickAccuracy": 67,
+      "catching": 51,
+      "routeRunning": 67,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 736,
+        "statB": 470
+      },
+      "career": {
+        "games": 43,
+        "statA": 2533,
+        "statB": 1390
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "NO-FS-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Theo Oberbrunner",
+    "jerseyNumber": 95,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'0\"",
+      "weight": 217,
+      "college": "Castle Rock",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 1489103,
+      "capHit": 19554949,
+      "deadCap": 9058772,
+      "signingBonus": 5507883,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 77,
+      "schemeFit": 76,
+      "speed": 81,
+      "acceleration": 84,
+      "agility": 93,
+      "strength": 73,
+      "tackle": 79,
+      "pursuit": 87,
+      "manCoverage": 67,
+      "zoneCoverage": 54,
+      "kickPower": 57,
+      "kickAccuracy": 82,
+      "catching": 81,
+      "routeRunning": 90,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 130,
+        "statB": 850
+      },
+      "career": {
+        "games": 48,
+        "statA": 1934,
+        "statB": 4551
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "NO-FS-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jason Thompson",
+    "jerseyNumber": 80,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 316,
+      "college": "Texas City",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 28179915,
+      "capHit": 7153111,
+      "deadCap": 3774477,
+      "signingBonus": 1381450,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 83,
+      "schemeFit": 95,
+      "speed": 79,
+      "acceleration": 92,
+      "agility": 83,
+      "strength": 83,
+      "tackle": 88,
+      "pursuit": 80,
+      "manCoverage": 62,
+      "zoneCoverage": 54,
+      "kickPower": 72,
+      "kickAccuracy": 78,
+      "catching": 64,
+      "routeRunning": 51,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 636,
+        "statB": 274
+      },
+      "career": {
+        "games": 32,
+        "statA": 474,
+        "statB": 2176
+      }
+    },
+    "photo": "/player_faces/50.png"
+  },
+  {
+    "id": "NO-SS-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Ren Durgan",
+    "jerseyNumber": 72,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 294,
+      "college": "East Vestachester",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 112721385,
+      "capHit": 5684307,
+      "deadCap": 2718607,
+      "signingBonus": 12640469,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 91,
+      "schemeFit": 80,
+      "speed": 81,
+      "acceleration": 79,
+      "agility": 92,
+      "strength": 91,
+      "tackle": 73,
+      "pursuit": 69,
+      "manCoverage": 90,
+      "zoneCoverage": 65,
+      "kickPower": 95,
+      "kickAccuracy": 53,
+      "catching": 51,
+      "routeRunning": 67,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 917,
+        "statB": 898
+      },
+      "career": {
+        "games": 80,
+        "statA": 2854,
+        "statB": 4829
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "NO-SS-2",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Mark Spinka",
+    "jerseyNumber": 31,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'0\"",
+      "weight": 254,
+      "college": "Lillastead",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 26206875,
+      "capHit": 21900218,
+      "deadCap": 3312626,
+      "signingBonus": 325364,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 88,
+      "schemeFit": 86,
+      "speed": 80,
+      "acceleration": 95,
+      "agility": 89,
+      "strength": 62,
+      "tackle": 72,
+      "pursuit": 86,
+      "manCoverage": 51,
+      "zoneCoverage": 75,
+      "kickPower": 71,
+      "kickAccuracy": 57,
+      "catching": 72,
+      "routeRunning": 83,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 370,
+        "statB": 969
+      },
+      "career": {
+        "games": 86,
+        "statA": 1432,
+        "statB": 1535
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "NO-K-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Beckett Reichel",
+    "jerseyNumber": 59,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'5\"",
+      "weight": 227,
+      "college": "Hilllport",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 6295069,
+      "capHit": 24929709,
+      "deadCap": 9478311,
+      "signingBonus": 11100335,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 85,
+      "schemeFit": 74,
+      "speed": 79,
+      "acceleration": 95,
+      "agility": 93,
+      "strength": 83,
+      "tackle": 80,
+      "pursuit": 68,
+      "manCoverage": 74,
+      "zoneCoverage": 78,
+      "kickPower": 89,
+      "kickAccuracy": 65,
+      "catching": 54,
+      "routeRunning": 81,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 391,
+        "statB": 757
+      },
+      "career": {
+        "games": 45,
+        "statA": 3839,
+        "statB": 3352
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "NO-P-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Seamus Stokes",
+    "jerseyNumber": 60,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 232,
+      "college": "North Adelle",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 59667810,
+      "capHit": 18448909,
+      "deadCap": 564780,
+      "signingBonus": 4856476,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 72,
+      "schemeFit": 75,
+      "speed": 75,
+      "acceleration": 95,
+      "agility": 85,
+      "strength": 76,
+      "tackle": 79,
+      "pursuit": 88,
+      "manCoverage": 84,
+      "zoneCoverage": 77,
+      "kickPower": 92,
+      "kickAccuracy": 55,
+      "catching": 73,
+      "routeRunning": 93,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 443,
+        "statB": 973
+      },
+      "career": {
+        "games": 43,
+        "statA": 2578,
+        "statB": 1378
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "NO-LS-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Raul Hayes",
+    "jerseyNumber": 87,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 273,
+      "college": "D'Amoreview",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 94647847,
+      "capHit": 19744924,
+      "deadCap": 9064296,
+      "signingBonus": 14906216,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 68,
+      "schemeFit": 71,
+      "speed": 87,
+      "acceleration": 78,
+      "agility": 74,
+      "strength": 65,
+      "tackle": 78,
+      "pursuit": 61,
+      "manCoverage": 70,
+      "zoneCoverage": 56,
+      "kickPower": 86,
+      "kickAccuracy": 70,
+      "catching": 72,
+      "routeRunning": 63,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 344,
+        "statB": 966
+      },
+      "career": {
+        "games": 54,
+        "statA": 4839,
+        "statB": 1162
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "NO-KR-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Tariq Bartell",
+    "jerseyNumber": 33,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 277,
+      "college": "Mayerville",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 43383051,
+      "capHit": 19363993,
+      "deadCap": 232563,
+      "signingBonus": 10573802,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 93,
+      "schemeFit": 76,
+      "speed": 95,
+      "acceleration": 85,
+      "agility": 72,
+      "strength": 71,
+      "tackle": 79,
+      "pursuit": 93,
+      "manCoverage": 52,
+      "zoneCoverage": 68,
+      "kickPower": 61,
+      "kickAccuracy": 69,
+      "catching": 77,
+      "routeRunning": 59,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 631,
+        "statB": 169
+      },
+      "career": {
+        "games": 63,
+        "statA": 1402,
+        "statB": 4523
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "NO-PR-1",
+    "team": "NO",
+    "teamName": "NO",
+    "name": "Jerry Buckridge",
+    "jerseyNumber": 5,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'11\"",
+      "weight": 229,
+      "college": "New Blake",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 111678174,
+      "capHit": 19509630,
+      "deadCap": 619369,
+      "signingBonus": 7482933,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 84,
+      "schemeFit": 85,
+      "speed": 84,
+      "acceleration": 92,
+      "agility": 86,
+      "strength": 65,
+      "tackle": 78,
+      "pursuit": 88,
+      "manCoverage": 50,
+      "zoneCoverage": 54,
+      "kickPower": 69,
+      "kickAccuracy": 63,
+      "catching": 59,
+      "routeRunning": 73,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 304,
+        "statB": 770
+      },
+      "career": {
+        "games": 117,
+        "statA": 4752,
+        "statB": 2811
+      }
+    },
+    "photo": "/player_faces/44.png"
+  }
 ]

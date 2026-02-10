@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  91,
-        "name":  "Jordan Wynn",
-        "id":  "DAL-QB0"
+[
+  {
+    "id": "DAL-QB-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Austin Leffler",
+    "jerseyNumber": 27,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 219,
+      "college": "Arecibo",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  68,
-        "name":  "Tyrone Bennett",
-        "id":  "DAL-RB1"
+    "contract": {
+      "years": 2,
+      "totalValue": 16781744,
+      "capHit": 15637393,
+      "deadCap": 1000167,
+      "signingBonus": 10375346,
+      "expiresYear": 2028,
+      "contractType": "Extension"
     },
-    {
-        "position":  "WR",
-        "overall":  80,
-        "name":  "Logan Bennett",
-        "id":  "DAL-WR2"
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 89,
+      "speed": 87,
+      "acceleration": 85,
+      "agility": 94,
+      "strength": 87,
+      "tackle": 86,
+      "pursuit": 76,
+      "manCoverage": 79,
+      "zoneCoverage": 85,
+      "kickPower": 78,
+      "kickAccuracy": 74,
+      "catching": 67,
+      "routeRunning": 92,
+      "release": 76,
+      "throwPower": 72,
+      "shortAccuracy": 62,
+      "mediumAccuracy": 92,
+      "deepAccuracy": 70
     },
-    {
-        "position":  "LB",
-        "overall":  88,
-        "name":  "Tyrone Maddox",
-        "id":  "DAL-LB3"
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  75,
-        "name":  "Tyrone Coleman",
-        "id":  "DAL-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 502,
+        "statB": 671
+      },
+      "career": {
+        "games": 19,
+        "statA": 4627,
+        "statB": 3998
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "DAL-QB-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Joel Monahan",
+    "jerseyNumber": 49,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 308,
+      "college": "Aspen Hill",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 91363220,
+      "capHit": 18179701,
+      "deadCap": 5116692,
+      "signingBonus": 12613238,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 78,
+      "schemeFit": 84,
+      "speed": 88,
+      "acceleration": 75,
+      "agility": 72,
+      "strength": 93,
+      "tackle": 92,
+      "pursuit": 74,
+      "manCoverage": 87,
+      "zoneCoverage": 78,
+      "kickPower": 68,
+      "kickAccuracy": 87,
+      "catching": 50,
+      "routeRunning": 51,
+      "release": 74,
+      "throwPower": 82,
+      "shortAccuracy": 74,
+      "mediumAccuracy": 78,
+      "deepAccuracy": 62
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 238,
+        "statB": 201
+      },
+      "career": {
+        "games": 103,
+        "statA": 801,
+        "statB": 201
+      }
+    },
+    "photo": "/player_faces/49.png"
+  },
+  {
+    "id": "DAL-QB-3",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Zachary Bogan",
+    "jerseyNumber": 45,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 186,
+      "college": "East Luisacester",
+      "experience": 12,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 82687055,
+      "capHit": 3721727,
+      "deadCap": 6668777,
+      "signingBonus": 7478310,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 90,
+      "schemeFit": 87,
+      "speed": 89,
+      "acceleration": 70,
+      "agility": 84,
+      "strength": 68,
+      "tackle": 72,
+      "pursuit": 92,
+      "manCoverage": 83,
+      "zoneCoverage": 82,
+      "kickPower": 89,
+      "kickAccuracy": 50,
+      "catching": 85,
+      "routeRunning": 73,
+      "release": 55,
+      "throwPower": 77,
+      "shortAccuracy": 69,
+      "mediumAccuracy": 62,
+      "deepAccuracy": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 835,
+        "statB": 845
+      },
+      "career": {
+        "games": 6,
+        "statA": 4500,
+        "statB": 3806
+      }
+    },
+    "photo": "/player_faces/25.png"
+  },
+  {
+    "id": "DAL-RB-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Leon Mills",
+    "jerseyNumber": 14,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 241,
+      "college": "Cary",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 96803411,
+      "capHit": 4162651,
+      "deadCap": 2231119,
+      "signingBonus": 11695292,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 63,
+      "schemeFit": 93,
+      "speed": 81,
+      "acceleration": 77,
+      "agility": 81,
+      "strength": 83,
+      "tackle": 76,
+      "pursuit": 65,
+      "manCoverage": 52,
+      "zoneCoverage": 84,
+      "kickPower": 63,
+      "kickAccuracy": 89,
+      "catching": 90,
+      "routeRunning": 95,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 82,
+        "statB": 673
+      },
+      "career": {
+        "games": 28,
+        "statA": 4360,
+        "statB": 925
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "DAL-RB-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Samir Kuvalis",
+    "jerseyNumber": 74,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 228,
+      "college": "Rolfsonland",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 3481306,
+      "capHit": 8492433,
+      "deadCap": 7282891,
+      "signingBonus": 4305773,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 84,
+      "schemeFit": 79,
+      "speed": 77,
+      "acceleration": 73,
+      "agility": 74,
+      "strength": 83,
+      "tackle": 63,
+      "pursuit": 73,
+      "manCoverage": 57,
+      "zoneCoverage": 82,
+      "kickPower": 93,
+      "kickAccuracy": 68,
+      "catching": 82,
+      "routeRunning": 58,
+      "release": 74
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 780,
+        "statB": 618
+      },
+      "career": {
+        "games": 77,
+        "statA": 2187,
+        "statB": 2923
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "DAL-RB-3",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Cooper Buckridge",
+    "jerseyNumber": 16,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 241,
+      "college": "Kirlinport",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 31301704,
+      "capHit": 10488088,
+      "deadCap": 8034215,
+      "signingBonus": 17994073,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 65,
+      "schemeFit": 74,
+      "speed": 86,
+      "acceleration": 91,
+      "agility": 91,
+      "strength": 71,
+      "tackle": 68,
+      "pursuit": 71,
+      "manCoverage": 76,
+      "zoneCoverage": 56,
+      "kickPower": 93,
+      "kickAccuracy": 87,
+      "catching": 76,
+      "routeRunning": 75,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 417,
+        "statB": 87
+      },
+      "career": {
+        "games": 0,
+        "statA": 245,
+        "statB": 476
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "DAL-RB-4",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Frank Rippin",
+    "jerseyNumber": 47,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 29,
+      "height": "6'2\"",
+      "weight": 324,
+      "college": "West Brendonchester",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 31088025,
+      "capHit": 9679112,
+      "deadCap": 1469008,
+      "signingBonus": 584447,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 78,
+      "schemeFit": 89,
+      "speed": 74,
+      "acceleration": 73,
+      "agility": 92,
+      "strength": 82,
+      "tackle": 84,
+      "pursuit": 61,
+      "manCoverage": 57,
+      "zoneCoverage": 72,
+      "kickPower": 84,
+      "kickAccuracy": 50,
+      "catching": 71,
+      "routeRunning": 74,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 392,
+        "statB": 771
+      },
+      "career": {
+        "games": 88,
+        "statA": 4560,
+        "statB": 4865
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "DAL-WR-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Andre Hegmann",
+    "jerseyNumber": 91,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "5'9\"",
+      "weight": 320,
+      "college": "Port Leonorfurt",
+      "experience": 1,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 20041102,
+      "capHit": 4376728,
+      "deadCap": 1730849,
+      "signingBonus": 2100055,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 85,
+      "speed": 85,
+      "acceleration": 87,
+      "agility": 81,
+      "strength": 63,
+      "tackle": 84,
+      "pursuit": 88,
+      "manCoverage": 51,
+      "zoneCoverage": 56,
+      "kickPower": 80,
+      "kickAccuracy": 60,
+      "catching": 92,
+      "routeRunning": 60,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 63,
+        "statB": 432
+      },
+      "career": {
+        "games": 66,
+        "statA": 1139,
+        "statB": 1280
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "DAL-WR-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Andres Hamill",
+    "jerseyNumber": 52,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 203,
+      "college": "Bauchport",
+      "experience": 4,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 69004743,
+      "capHit": 4599978,
+      "deadCap": 8500458,
+      "signingBonus": 6966387,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 77,
+      "schemeFit": 81,
+      "speed": 72,
+      "acceleration": 89,
+      "agility": 84,
+      "strength": 93,
+      "tackle": 86,
+      "pursuit": 70,
+      "manCoverage": 85,
+      "zoneCoverage": 61,
+      "kickPower": 59,
+      "kickAccuracy": 79,
+      "catching": 52,
+      "routeRunning": 77,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 34,
+        "statB": 116
+      },
+      "career": {
+        "games": 18,
+        "statA": 2591,
+        "statB": 1726
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "DAL-WR-3",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Jacob Quigley",
+    "jerseyNumber": 43,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 300,
+      "college": "East Maureenville",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 44801437,
+      "capHit": 5303284,
+      "deadCap": 7455800,
+      "signingBonus": 11415691,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 79,
+      "schemeFit": 82,
+      "speed": 82,
+      "acceleration": 85,
+      "agility": 70,
+      "strength": 84,
+      "tackle": 69,
+      "pursuit": 93,
+      "manCoverage": 82,
+      "zoneCoverage": 53,
+      "kickPower": 51,
+      "kickAccuracy": 57,
+      "catching": 65,
+      "routeRunning": 55,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 618,
+        "statB": 223
+      },
+      "career": {
+        "games": 76,
+        "statA": 1024,
+        "statB": 3575
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "DAL-WR-4",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Gavin Medhurst",
+    "jerseyNumber": 16,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'2\"",
+      "weight": 294,
+      "college": "Port Katherine",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 117327386,
+      "capHit": 21293640,
+      "deadCap": 292701,
+      "signingBonus": 1237975,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 82,
+      "schemeFit": 90,
+      "speed": 89,
+      "acceleration": 93,
+      "agility": 78,
+      "strength": 93,
+      "tackle": 71,
+      "pursuit": 75,
+      "manCoverage": 65,
+      "zoneCoverage": 87,
+      "kickPower": 90,
+      "kickAccuracy": 87,
+      "catching": 93,
+      "routeRunning": 70,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 863,
+        "statB": 675
+      },
+      "career": {
+        "games": 4,
+        "statA": 4193,
+        "statB": 914
+      }
+    },
+    "photo": "/player_faces/47.png"
+  },
+  {
+    "id": "DAL-WR-5",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Xavier Robel",
+    "jerseyNumber": 87,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 284,
+      "college": "Brakuston",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 107535141,
+      "capHit": 9188589,
+      "deadCap": 3876596,
+      "signingBonus": 4334707,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 83,
+      "schemeFit": 73,
+      "speed": 80,
+      "acceleration": 85,
+      "agility": 79,
+      "strength": 87,
+      "tackle": 83,
+      "pursuit": 75,
+      "manCoverage": 85,
+      "zoneCoverage": 52,
+      "kickPower": 81,
+      "kickAccuracy": 65,
+      "catching": 51,
+      "routeRunning": 55,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 592,
+        "statB": 519
+      },
+      "career": {
+        "games": 9,
+        "statA": 4748,
+        "statB": 4603
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "DAL-WR-6",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Arthur Hauck",
+    "jerseyNumber": 11,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 325,
+      "college": "Euniceshire",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 76818664,
+      "capHit": 17436781,
+      "deadCap": 7778893,
+      "signingBonus": 15220368,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 80,
+      "schemeFit": 95,
+      "speed": 77,
+      "acceleration": 89,
+      "agility": 92,
+      "strength": 71,
+      "tackle": 93,
+      "pursuit": 89,
+      "manCoverage": 62,
+      "zoneCoverage": 87,
+      "kickPower": 57,
+      "kickAccuracy": 72,
+      "catching": 89,
+      "routeRunning": 68,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 300,
+        "statB": 764
+      },
+      "career": {
+        "games": 0,
+        "statA": 4645,
+        "statB": 469
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "DAL-WR-7",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Finn Glover",
+    "jerseyNumber": 26,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 310,
+      "college": "New Dinoton",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 9134891,
+      "capHit": 19101915,
+      "deadCap": 2491902,
+      "signingBonus": 13546853,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 91,
+      "schemeFit": 91,
+      "speed": 84,
+      "acceleration": 70,
+      "agility": 83,
+      "strength": 75,
+      "tackle": 70,
+      "pursuit": 90,
+      "manCoverage": 53,
+      "zoneCoverage": 69,
+      "kickPower": 58,
+      "kickAccuracy": 92,
+      "catching": 95,
+      "routeRunning": 70,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 733,
+        "statB": 761
+      },
+      "career": {
+        "games": 2,
+        "statA": 1427,
+        "statB": 620
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "DAL-TE-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Yuri Runolfsdottir",
+    "jerseyNumber": 39,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 232,
+      "college": "Andersonberg",
+      "experience": 11,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 8111550,
+      "capHit": 1598388,
+      "deadCap": 7294446,
+      "signingBonus": 4632442,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 64,
+      "schemeFit": 76,
+      "speed": 70,
+      "acceleration": 80,
+      "agility": 72,
+      "strength": 73,
+      "tackle": 90,
+      "pursuit": 90,
+      "manCoverage": 69,
+      "zoneCoverage": 63,
+      "kickPower": 59,
+      "kickAccuracy": 57,
+      "catching": 51,
+      "routeRunning": 94,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 331,
+        "statB": 218
+      },
+      "career": {
+        "games": 66,
+        "statA": 2531,
+        "statB": 4802
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "DAL-TE-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Bobby Skiles",
+    "jerseyNumber": 11,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 29,
+      "height": "6'3\"",
+      "weight": 302,
+      "college": "San Mateo",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 36498699,
+      "capHit": 24605475,
+      "deadCap": 5310450,
+      "signingBonus": 14751694,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 65,
+      "schemeFit": 79,
+      "speed": 71,
+      "acceleration": 88,
+      "agility": 94,
+      "strength": 86,
+      "tackle": 83,
+      "pursuit": 75,
+      "manCoverage": 59,
+      "zoneCoverage": 66,
+      "kickPower": 90,
+      "kickAccuracy": 75,
+      "catching": 54,
+      "routeRunning": 80,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 289,
+        "statB": 991
+      },
+      "career": {
+        "games": 1,
+        "statA": 1796,
+        "statB": 581
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "DAL-TE-3",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Raul Wiegand",
+    "jerseyNumber": 69,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 323,
+      "college": "East Clementinestead",
+      "experience": 1,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 6426514,
+      "capHit": 6136048,
+      "deadCap": 989519,
+      "signingBonus": 18109797,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 87,
+      "speed": 78,
+      "acceleration": 87,
+      "agility": 76,
+      "strength": 86,
+      "tackle": 76,
+      "pursuit": 83,
+      "manCoverage": 87,
+      "zoneCoverage": 80,
+      "kickPower": 57,
+      "kickAccuracy": 54,
+      "catching": 55,
+      "routeRunning": 71,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 194,
+        "statB": 245
+      },
+      "career": {
+        "games": 88,
+        "statA": 1621,
+        "statB": 3088
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "DAL-LT-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Porter Ratke",
+    "jerseyNumber": 44,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "5'9\"",
+      "weight": 313,
+      "college": "East Stefaniehaven",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 87711300,
+      "capHit": 24233898,
+      "deadCap": 8045950,
+      "signingBonus": 19446476,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 75,
+      "schemeFit": 89,
+      "speed": 86,
+      "acceleration": 80,
+      "agility": 71,
+      "strength": 70,
+      "tackle": 64,
+      "pursuit": 82,
+      "manCoverage": 63,
+      "zoneCoverage": 51,
+      "kickPower": 67,
+      "kickAccuracy": 67,
+      "catching": 80,
+      "routeRunning": 52,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 913,
+        "statB": 188
+      },
+      "career": {
+        "games": 0,
+        "statA": 4774,
+        "statB": 1289
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "DAL-LT-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Ronald Medhurst",
+    "jerseyNumber": 28,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 294,
+      "college": "Pollichview",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 29266483,
+      "capHit": 13877460,
+      "deadCap": 6936187,
+      "signingBonus": 15939443,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 62,
+      "schemeFit": 71,
+      "speed": 93,
+      "acceleration": 92,
+      "agility": 73,
+      "strength": 65,
+      "tackle": 65,
+      "pursuit": 75,
+      "manCoverage": 77,
+      "zoneCoverage": 60,
+      "kickPower": 59,
+      "kickAccuracy": 85,
+      "catching": 64,
+      "routeRunning": 67,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 242,
+        "statB": 121
+      },
+      "career": {
+        "games": 81,
+        "statA": 228,
+        "statB": 3988
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "DAL-LG-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Dennis Beer",
+    "jerseyNumber": 27,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 243,
+      "college": "South Pearlville",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 112711615,
+      "capHit": 20442711,
+      "deadCap": 295636,
+      "signingBonus": 5058426,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 73,
+      "speed": 77,
+      "acceleration": 95,
+      "agility": 88,
+      "strength": 67,
+      "tackle": 76,
+      "pursuit": 66,
+      "manCoverage": 50,
+      "zoneCoverage": 62,
+      "kickPower": 65,
+      "kickAccuracy": 71,
+      "catching": 83,
+      "routeRunning": 53,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 342,
+        "statB": 264
+      },
+      "career": {
+        "games": 108,
+        "statA": 3859,
+        "statB": 142
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "DAL-LG-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Quentin Stark",
+    "jerseyNumber": 6,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'2\"",
+      "weight": 282,
+      "college": "Port Edwinashire",
+      "experience": 5,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 106436446,
+      "capHit": 10636982,
+      "deadCap": 8481837,
+      "signingBonus": 724569,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 69,
+      "schemeFit": 82,
+      "speed": 76,
+      "acceleration": 80,
+      "agility": 89,
+      "strength": 88,
+      "tackle": 84,
+      "pursuit": 84,
+      "manCoverage": 86,
+      "zoneCoverage": 85,
+      "kickPower": 94,
+      "kickAccuracy": 94,
+      "catching": 52,
+      "routeRunning": 50,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 607,
+        "statB": 104
+      },
+      "career": {
+        "games": 28,
+        "statA": 3346,
+        "statB": 3091
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "DAL-C-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Charles Rosenbaum",
+    "jerseyNumber": 38,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 321,
+      "college": "North Mavisville",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 65213886,
+      "capHit": 18308093,
+      "deadCap": 7771878,
+      "signingBonus": 3939079,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 93,
+      "schemeFit": 88,
+      "speed": 81,
+      "acceleration": 83,
+      "agility": 80,
+      "strength": 85,
+      "tackle": 82,
+      "pursuit": 65,
+      "manCoverage": 83,
+      "zoneCoverage": 73,
+      "kickPower": 80,
+      "kickAccuracy": 65,
+      "catching": 65,
+      "routeRunning": 81,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 659,
+        "statB": 487
+      },
+      "career": {
+        "games": 74,
+        "statA": 3517,
+        "statB": 1194
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "DAL-C-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Oscar Veum",
+    "jerseyNumber": 28,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 293,
+      "college": "New Bailee",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 78066382,
+      "capHit": 12695997,
+      "deadCap": 2636659,
+      "signingBonus": 7359328,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 78,
+      "schemeFit": 74,
+      "speed": 80,
+      "acceleration": 87,
+      "agility": 76,
+      "strength": 80,
+      "tackle": 89,
+      "pursuit": 79,
+      "manCoverage": 76,
+      "zoneCoverage": 86,
+      "kickPower": 57,
+      "kickAccuracy": 71,
+      "catching": 70,
+      "routeRunning": 86,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 760,
+        "statB": 673
+      },
+      "career": {
+        "games": 94,
+        "statA": 2576,
+        "statB": 4728
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "DAL-RG-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Porter Mitchell",
+    "jerseyNumber": 84,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 253,
+      "college": "Raynorhaven",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 97266951,
+      "capHit": 10853868,
+      "deadCap": 8169437,
+      "signingBonus": 1899467,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 88,
+      "speed": 79,
+      "acceleration": 81,
+      "agility": 86,
+      "strength": 93,
+      "tackle": 69,
+      "pursuit": 69,
+      "manCoverage": 79,
+      "zoneCoverage": 50,
+      "kickPower": 53,
+      "kickAccuracy": 88,
+      "catching": 56,
+      "routeRunning": 90,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 453,
+        "statB": 258
+      },
+      "career": {
+        "games": 63,
+        "statA": 4271,
+        "statB": 2451
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "DAL-RG-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Preston Parker",
+    "jerseyNumber": 65,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 216,
+      "college": "Haverhill",
+      "experience": 1,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 80278964,
+      "capHit": 23218525,
+      "deadCap": 3662092,
+      "signingBonus": 14771343,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 80,
+      "schemeFit": 88,
+      "speed": 82,
+      "acceleration": 87,
+      "agility": 83,
+      "strength": 80,
+      "tackle": 72,
+      "pursuit": 92,
+      "manCoverage": 82,
+      "zoneCoverage": 69,
+      "kickPower": 89,
+      "kickAccuracy": 64,
+      "catching": 74,
+      "routeRunning": 82,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 696,
+        "statB": 362
+      },
+      "career": {
+        "games": 4,
+        "statA": 407,
+        "statB": 355
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "DAL-RT-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Tyler Auer",
+    "jerseyNumber": 94,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'2\"",
+      "weight": 227,
+      "college": "Candidofield",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 105651987,
+      "capHit": 22271164,
+      "deadCap": 3509385,
+      "signingBonus": 8945218,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 81,
+      "schemeFit": 90,
+      "speed": 92,
+      "acceleration": 85,
+      "agility": 88,
+      "strength": 65,
+      "tackle": 69,
+      "pursuit": 66,
+      "manCoverage": 83,
+      "zoneCoverage": 50,
+      "kickPower": 74,
+      "kickAccuracy": 57,
+      "catching": 75,
+      "routeRunning": 80,
+      "release": 85
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 700,
+        "statB": 481
+      },
+      "career": {
+        "games": 118,
+        "statA": 4657,
+        "statB": 3309
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "DAL-RT-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Kevin Labadie",
+    "jerseyNumber": 8,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 324,
+      "college": "Fort Daynamouth",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 54034027,
+      "capHit": 23733589,
+      "deadCap": 6636292,
+      "signingBonus": 17048194,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 91,
+      "schemeFit": 83,
+      "speed": 86,
+      "acceleration": 82,
+      "agility": 89,
+      "strength": 73,
+      "tackle": 78,
+      "pursuit": 64,
+      "manCoverage": 78,
+      "zoneCoverage": 70,
+      "kickPower": 57,
+      "kickAccuracy": 93,
+      "catching": 87,
+      "routeRunning": 82,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 573,
+        "statB": 8
+      },
+      "career": {
+        "games": 114,
+        "statA": 1889,
+        "statB": 2274
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "DAL-LDE-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Ethan Keeling",
+    "jerseyNumber": 5,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'10\"",
+      "weight": 223,
+      "college": "Isabellastead",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 78150162,
+      "capHit": 6882711,
+      "deadCap": 1663816,
+      "signingBonus": 1345488,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 81,
+      "schemeFit": 94,
+      "speed": 87,
+      "acceleration": 86,
+      "agility": 81,
+      "strength": 72,
+      "tackle": 84,
+      "pursuit": 75,
+      "manCoverage": 78,
+      "zoneCoverage": 61,
+      "kickPower": 94,
+      "kickAccuracy": 88,
+      "catching": 94,
+      "routeRunning": 92,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 626,
+        "statB": 358
+      },
+      "career": {
+        "games": 57,
+        "statA": 3027,
+        "statB": 1670
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "DAL-LDE-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Bo Schmeler",
+    "jerseyNumber": 35,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 264,
+      "college": "New Reychester",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 96984266,
+      "capHit": 16411230,
+      "deadCap": 4638487,
+      "signingBonus": 18989870,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 78,
+      "schemeFit": 72,
+      "speed": 73,
+      "acceleration": 89,
+      "agility": 88,
+      "strength": 89,
+      "tackle": 73,
+      "pursuit": 70,
+      "manCoverage": 75,
+      "zoneCoverage": 83,
+      "kickPower": 56,
+      "kickAccuracy": 67,
+      "catching": 86,
+      "routeRunning": 71,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 474,
+        "statB": 755
+      },
+      "career": {
+        "games": 113,
+        "statA": 1357,
+        "statB": 4312
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "DAL-RDE-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Pavel Bartoletti",
+    "jerseyNumber": 44,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 191,
+      "college": "Esperanzaberg",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 86628496,
+      "capHit": 15290427,
+      "deadCap": 4296281,
+      "signingBonus": 271227,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 86,
+      "schemeFit": 86,
+      "speed": 76,
+      "acceleration": 94,
+      "agility": 73,
+      "strength": 75,
+      "tackle": 93,
+      "pursuit": 80,
+      "manCoverage": 56,
+      "zoneCoverage": 63,
+      "kickPower": 83,
+      "kickAccuracy": 63,
+      "catching": 90,
+      "routeRunning": 51,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 811,
+        "statB": 881
+      },
+      "career": {
+        "games": 113,
+        "statA": 2904,
+        "statB": 3474
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "DAL-RDE-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Nikolai Harvey",
+    "jerseyNumber": 48,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "5'10\"",
+      "weight": 260,
+      "college": "Llewellynworth",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 20557651,
+      "capHit": 11589961,
+      "deadCap": 9619415,
+      "signingBonus": 16843722,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 91,
+      "speed": 90,
+      "acceleration": 73,
+      "agility": 94,
+      "strength": 62,
+      "tackle": 66,
+      "pursuit": 73,
+      "manCoverage": 60,
+      "zoneCoverage": 64,
+      "kickPower": 95,
+      "kickAccuracy": 94,
+      "catching": 58,
+      "routeRunning": 60,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 381,
+        "statB": 48
+      },
+      "career": {
+        "games": 119,
+        "statA": 2291,
+        "statB": 2928
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "DAL-DT-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "George Waters",
+    "jerseyNumber": 52,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 267,
+      "college": "Camillashire",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 100781731,
+      "capHit": 11754618,
+      "deadCap": 7482324,
+      "signingBonus": 19267053,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 78,
+      "speed": 92,
+      "acceleration": 82,
+      "agility": 92,
+      "strength": 88,
+      "tackle": 91,
+      "pursuit": 77,
+      "manCoverage": 52,
+      "zoneCoverage": 63,
+      "kickPower": 75,
+      "kickAccuracy": 50,
+      "catching": 53,
+      "routeRunning": 60,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 758,
+        "statB": 929
+      },
+      "career": {
+        "games": 25,
+        "statA": 3727,
+        "statB": 2402
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "DAL-DT-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Zaid Gutkowski",
+    "jerseyNumber": 5,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 317,
+      "college": "Virginieboro",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 102949566,
+      "capHit": 1363322,
+      "deadCap": 6501291,
+      "signingBonus": 9956254,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 87,
+      "schemeFit": 89,
+      "speed": 90,
+      "acceleration": 92,
+      "agility": 93,
+      "strength": 82,
+      "tackle": 91,
+      "pursuit": 94,
+      "manCoverage": 70,
+      "zoneCoverage": 66,
+      "kickPower": 92,
+      "kickAccuracy": 68,
+      "catching": 55,
+      "routeRunning": 88,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 417,
+        "statB": 262
+      },
+      "career": {
+        "games": 41,
+        "statA": 4022,
+        "statB": 741
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "DAL-DT-3",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Igor Stracke",
+    "jerseyNumber": 88,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 272,
+      "college": "Gorczanyside",
+      "experience": 7,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 62062371,
+      "capHit": 24775784,
+      "deadCap": 5704716,
+      "signingBonus": 4264828,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 70,
+      "speed": 83,
+      "acceleration": 79,
+      "agility": 85,
+      "strength": 80,
+      "tackle": 94,
+      "pursuit": 63,
+      "manCoverage": 76,
+      "zoneCoverage": 69,
+      "kickPower": 77,
+      "kickAccuracy": 51,
+      "catching": 82,
+      "routeRunning": 93,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 462,
+        "statB": 532
+      },
+      "career": {
+        "games": 42,
+        "statA": 56,
+        "statB": 399
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "DAL-DT-4",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Yusuf Casper",
+    "jerseyNumber": 84,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "5'11\"",
+      "weight": 295,
+      "college": "East Elliot",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 37570752,
+      "capHit": 4949930,
+      "deadCap": 8506814,
+      "signingBonus": 12630769,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 82,
+      "schemeFit": 87,
+      "speed": 81,
+      "acceleration": 83,
+      "agility": 95,
+      "strength": 78,
+      "tackle": 73,
+      "pursuit": 60,
+      "manCoverage": 67,
+      "zoneCoverage": 66,
+      "kickPower": 83,
+      "kickAccuracy": 52,
+      "catching": 63,
+      "routeRunning": 87,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 636,
+        "statB": 874
+      },
+      "career": {
+        "games": 59,
+        "statA": 3713,
+        "statB": 2180
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "DAL-LOLB-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Brent Klocko",
+    "jerseyNumber": 80,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 283,
+      "college": "Jessicaville",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 23275203,
+      "capHit": 14860075,
+      "deadCap": 2222513,
+      "signingBonus": 2189809,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 86,
+      "schemeFit": 76,
+      "speed": 81,
+      "acceleration": 77,
+      "agility": 86,
+      "strength": 73,
+      "tackle": 85,
+      "pursuit": 86,
+      "manCoverage": 76,
+      "zoneCoverage": 76,
+      "kickPower": 57,
+      "kickAccuracy": 76,
+      "catching": 86,
+      "routeRunning": 82,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 368,
+        "statB": 257
+      },
+      "career": {
+        "games": 90,
+        "statA": 2048,
+        "statB": 2769
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "DAL-LOLB-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Adrian Torphy",
+    "jerseyNumber": 13,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 302,
+      "college": "West Jacintheview",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 53214348,
+      "capHit": 14254590,
+      "deadCap": 3054833,
+      "signingBonus": 6836040,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 88,
+      "schemeFit": 76,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 70,
+      "strength": 93,
+      "tackle": 87,
+      "pursuit": 71,
+      "manCoverage": 61,
+      "zoneCoverage": 75,
+      "kickPower": 64,
+      "kickAccuracy": 51,
+      "catching": 53,
+      "routeRunning": 64,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 519,
+        "statB": 704
+      },
+      "career": {
+        "games": 30,
+        "statA": 4979,
+        "statB": 3872
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "DAL-MLB-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Micah Heathcote",
+    "jerseyNumber": 53,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 198,
+      "college": "Lorain",
+      "experience": 0,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 111708476,
+      "capHit": 7541457,
+      "deadCap": 9421041,
+      "signingBonus": 19113161,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 79,
+      "schemeFit": 81,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 81,
+      "strength": 86,
+      "tackle": 66,
+      "pursuit": 88,
+      "manCoverage": 69,
+      "zoneCoverage": 79,
+      "kickPower": 82,
+      "kickAccuracy": 82,
+      "catching": 70,
+      "routeRunning": 83,
+      "release": 81
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 96,
+        "statB": 715
+      },
+      "career": {
+        "games": 92,
+        "statA": 2371,
+        "statB": 3791
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "DAL-MLB-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Anton Abshire",
+    "jerseyNumber": 8,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 278,
+      "college": "Redwood City",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 51352517,
+      "capHit": 8355428,
+      "deadCap": 6965147,
+      "signingBonus": 19365709,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 79,
+      "schemeFit": 91,
+      "speed": 73,
+      "acceleration": 93,
+      "agility": 78,
+      "strength": 74,
+      "tackle": 73,
+      "pursuit": 82,
+      "manCoverage": 79,
+      "zoneCoverage": 80,
+      "kickPower": 61,
+      "kickAccuracy": 51,
+      "catching": 81,
+      "routeRunning": 88,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 424,
+        "statB": 702
+      },
+      "career": {
+        "games": 96,
+        "statA": 601,
+        "statB": 4953
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "DAL-ROLB-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Nathan Romaguera",
+    "jerseyNumber": 97,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'0\"",
+      "weight": 293,
+      "college": "Goldnerfield",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 55531788,
+      "capHit": 6271074,
+      "deadCap": 3261055,
+      "signingBonus": 631943,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 82,
+      "schemeFit": 82,
+      "speed": 78,
+      "acceleration": 80,
+      "agility": 89,
+      "strength": 67,
+      "tackle": 85,
+      "pursuit": 68,
+      "manCoverage": 54,
+      "zoneCoverage": 62,
+      "kickPower": 95,
+      "kickAccuracy": 73,
+      "catching": 53,
+      "routeRunning": 82,
+      "release": 53
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 587,
+        "statB": 662
+      },
+      "career": {
+        "games": 57,
+        "statA": 242,
+        "statB": 3609
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "DAL-ROLB-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Rowan Conroy",
+    "jerseyNumber": 30,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "5'9\"",
+      "weight": 285,
+      "college": "Purdystead",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 54835817,
+      "capHit": 21040338,
+      "deadCap": 8648511,
+      "signingBonus": 872527,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 77,
+      "schemeFit": 92,
+      "speed": 79,
+      "acceleration": 76,
+      "agility": 87,
+      "strength": 87,
+      "tackle": 87,
+      "pursuit": 68,
+      "manCoverage": 53,
+      "zoneCoverage": 68,
+      "kickPower": 71,
+      "kickAccuracy": 91,
+      "catching": 59,
+      "routeRunning": 90,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 290,
+        "statB": 14
+      },
+      "career": {
+        "games": 76,
+        "statA": 1397,
+        "statB": 4452
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "DAL-CB-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Easton McKenzie",
+    "jerseyNumber": 76,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 267,
+      "college": "Langworthfort",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 31007009,
+      "capHit": 21063964,
+      "deadCap": 6210794,
+      "signingBonus": 6957730,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 83,
+      "acceleration": 91,
+      "agility": 89,
+      "strength": 95,
+      "tackle": 66,
+      "pursuit": 71,
+      "manCoverage": 58,
+      "zoneCoverage": 59,
+      "kickPower": 67,
+      "kickAccuracy": 69,
+      "catching": 60,
+      "routeRunning": 80,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 77,
+        "statB": 121
+      },
+      "career": {
+        "games": 49,
+        "statA": 830,
+        "statB": 4388
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "DAL-CB-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Anthony Nicolas",
+    "jerseyNumber": 50,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 271,
+      "college": "North Cordie",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 95835480,
+      "capHit": 19569263,
+      "deadCap": 5490029,
+      "signingBonus": 19077453,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 90,
+      "speed": 84,
+      "acceleration": 95,
+      "agility": 80,
+      "strength": 74,
+      "tackle": 61,
+      "pursuit": 79,
+      "manCoverage": 66,
+      "zoneCoverage": 61,
+      "kickPower": 82,
+      "kickAccuracy": 91,
+      "catching": 52,
+      "routeRunning": 87,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 593,
+        "statB": 674
+      },
+      "career": {
+        "games": 69,
+        "statA": 1572,
+        "statB": 1748
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "DAL-CB-3",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Aaron Powlowski",
+    "jerseyNumber": 74,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 233,
+      "college": "Skilesfield",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 35700726,
+      "capHit": 11119381,
+      "deadCap": 947824,
+      "signingBonus": 6086954,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 83,
+      "speed": 75,
+      "acceleration": 79,
+      "agility": 88,
+      "strength": 86,
+      "tackle": 75,
+      "pursuit": 61,
+      "manCoverage": 57,
+      "zoneCoverage": 89,
+      "kickPower": 65,
+      "kickAccuracy": 91,
+      "catching": 84,
+      "routeRunning": 82,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 123,
+        "statB": 627
+      },
+      "career": {
+        "games": 61,
+        "statA": 4025,
+        "statB": 3156
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "DAL-CB-4",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Victor Morar",
+    "jerseyNumber": 87,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 22,
+      "height": "5'10\"",
+      "weight": 215,
+      "college": "Fort Lauderdale",
+      "experience": 7,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 96863128,
+      "capHit": 15448966,
+      "deadCap": 1203109,
+      "signingBonus": 11092901,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 65,
+      "schemeFit": 86,
+      "speed": 73,
+      "acceleration": 85,
+      "agility": 82,
+      "strength": 91,
+      "tackle": 81,
+      "pursuit": 94,
+      "manCoverage": 50,
+      "zoneCoverage": 88,
+      "kickPower": 91,
+      "kickAccuracy": 50,
+      "catching": 67,
+      "routeRunning": 95,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 166,
+        "statB": 590
+      },
+      "career": {
+        "games": 101,
+        "statA": 1251,
+        "statB": 3353
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "DAL-CB-5",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Willie Wehner",
+    "jerseyNumber": 18,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 295,
+      "college": "Amosmouth",
+      "experience": 10,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 77239111,
+      "capHit": 9973272,
+      "deadCap": 3288121,
+      "signingBonus": 9593169,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 85,
+      "schemeFit": 86,
+      "speed": 80,
+      "acceleration": 82,
+      "agility": 80,
+      "strength": 63,
+      "tackle": 71,
+      "pursuit": 64,
+      "manCoverage": 63,
+      "zoneCoverage": 59,
+      "kickPower": 57,
+      "kickAccuracy": 75,
+      "catching": 54,
+      "routeRunning": 75,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 205,
+        "statB": 72
+      },
+      "career": {
+        "games": 90,
+        "statA": 4861,
+        "statB": 3309
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "DAL-CB-6",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Gavin Casper",
+    "jerseyNumber": 58,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 30,
+      "height": "6'4\"",
+      "weight": 245,
+      "college": "North Keaton",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 66218949,
+      "capHit": 4134409,
+      "deadCap": 7062616,
+      "signingBonus": 17715431,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 63,
+      "schemeFit": 91,
+      "speed": 75,
+      "acceleration": 82,
+      "agility": 94,
+      "strength": 66,
+      "tackle": 61,
+      "pursuit": 87,
+      "manCoverage": 83,
+      "zoneCoverage": 74,
+      "kickPower": 67,
+      "kickAccuracy": 57,
+      "catching": 68,
+      "routeRunning": 83,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 901,
+        "statB": 790
+      },
+      "career": {
+        "games": 79,
+        "statA": 2565,
+        "statB": 1332
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "DAL-FS-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Micah Kulas",
+    "jerseyNumber": 1,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 242,
+      "college": "West Mozellstad",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 11305536,
+      "capHit": 2919183,
+      "deadCap": 1034764,
+      "signingBonus": 1046938,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 81,
+      "schemeFit": 82,
+      "speed": 90,
+      "acceleration": 90,
+      "agility": 83,
+      "strength": 89,
+      "tackle": 92,
+      "pursuit": 92,
+      "manCoverage": 50,
+      "zoneCoverage": 50,
+      "kickPower": 84,
+      "kickAccuracy": 50,
+      "catching": 79,
+      "routeRunning": 66,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 935,
+        "statB": 908
+      },
+      "career": {
+        "games": 117,
+        "statA": 2435,
+        "statB": 2929
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "DAL-FS-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Alexander Feil",
+    "jerseyNumber": 78,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 302,
+      "college": "Youngstown",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 76897938,
+      "capHit": 12618249,
+      "deadCap": 4668860,
+      "signingBonus": 18483150,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 74,
+      "speed": 80,
+      "acceleration": 82,
+      "agility": 85,
+      "strength": 81,
+      "tackle": 69,
+      "pursuit": 92,
+      "manCoverage": 50,
+      "zoneCoverage": 88,
+      "kickPower": 83,
+      "kickAccuracy": 70,
+      "catching": 86,
+      "routeRunning": 57,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 592,
+        "statB": 480
+      },
+      "career": {
+        "games": 28,
+        "statA": 4019,
+        "statB": 4053
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "DAL-SS-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Preston Hane",
+    "jerseyNumber": 33,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'5\"",
+      "weight": 329,
+      "college": "West Marisastead",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 19571434,
+      "capHit": 8053762,
+      "deadCap": 2425207,
+      "signingBonus": 2627752,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 74,
+      "schemeFit": 94,
+      "speed": 72,
+      "acceleration": 91,
+      "agility": 86,
+      "strength": 79,
+      "tackle": 65,
+      "pursuit": 92,
+      "manCoverage": 52,
+      "zoneCoverage": 75,
+      "kickPower": 95,
+      "kickAccuracy": 65,
+      "catching": 89,
+      "routeRunning": 90,
+      "release": 66
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 415,
+        "statB": 778
+      },
+      "career": {
+        "games": 8,
+        "statA": 4057,
+        "statB": 1893
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "DAL-SS-2",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Shawn Waelchi-Kulas",
+    "jerseyNumber": 20,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'9\"",
+      "weight": 248,
+      "college": "Fort Alden",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 86621492,
+      "capHit": 7120289,
+      "deadCap": 7593783,
+      "signingBonus": 16895635,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 88,
+      "schemeFit": 94,
+      "speed": 88,
+      "acceleration": 79,
+      "agility": 80,
+      "strength": 66,
+      "tackle": 66,
+      "pursuit": 61,
+      "manCoverage": 81,
+      "zoneCoverage": 68,
+      "kickPower": 88,
+      "kickAccuracy": 86,
+      "catching": 56,
+      "routeRunning": 90,
+      "release": 71
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 401,
+        "statB": 926
+      },
+      "career": {
+        "games": 70,
+        "statA": 4791,
+        "statB": 2721
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "DAL-K-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Patrick Kshlerin",
+    "jerseyNumber": 90,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 228,
+      "college": "Kobefield",
+      "experience": 10,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 33808304,
+      "capHit": 7686215,
+      "deadCap": 7498335,
+      "signingBonus": 11103718,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 78,
+      "schemeFit": 70,
+      "speed": 94,
+      "acceleration": 81,
+      "agility": 90,
+      "strength": 89,
+      "tackle": 85,
+      "pursuit": 89,
+      "manCoverage": 57,
+      "zoneCoverage": 64,
+      "kickPower": 88,
+      "kickAccuracy": 90,
+      "catching": 83,
+      "routeRunning": 83,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 600,
+        "statB": 503
+      },
+      "career": {
+        "games": 74,
+        "statA": 1862,
+        "statB": 4746
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "DAL-P-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Hector Robel",
+    "jerseyNumber": 33,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 326,
+      "college": "Auershire",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 54194537,
+      "capHit": 24448434,
+      "deadCap": 2246960,
+      "signingBonus": 15800068,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 71,
+      "schemeFit": 82,
+      "speed": 70,
+      "acceleration": 91,
+      "agility": 88,
+      "strength": 71,
+      "tackle": 92,
+      "pursuit": 60,
+      "manCoverage": 64,
+      "zoneCoverage": 90,
+      "kickPower": 92,
+      "kickAccuracy": 58,
+      "catching": 51,
+      "routeRunning": 93,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 194,
+        "statB": 996
+      },
+      "career": {
+        "games": 118,
+        "statA": 4893,
+        "statB": 3088
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "DAL-LS-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Douglas McCullough",
+    "jerseyNumber": 7,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 266,
+      "college": "Laurenborough",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 47816326,
+      "capHit": 19745305,
+      "deadCap": 3090372,
+      "signingBonus": 6957486,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 85,
+      "schemeFit": 76,
+      "speed": 75,
+      "acceleration": 77,
+      "agility": 80,
+      "strength": 81,
+      "tackle": 92,
+      "pursuit": 71,
+      "manCoverage": 66,
+      "zoneCoverage": 82,
+      "kickPower": 85,
+      "kickAccuracy": 68,
+      "catching": 58,
+      "routeRunning": 89,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 642,
+        "statB": 329
+      },
+      "career": {
+        "games": 6,
+        "statA": 986,
+        "statB": 4522
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "DAL-KR-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Cooper Dach",
+    "jerseyNumber": 46,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 292,
+      "college": "Gulgowskimouth",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 110370482,
+      "capHit": 4266063,
+      "deadCap": 7242364,
+      "signingBonus": 8976040,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 85,
+      "schemeFit": 78,
+      "speed": 90,
+      "acceleration": 86,
+      "agility": 90,
+      "strength": 93,
+      "tackle": 74,
+      "pursuit": 91,
+      "manCoverage": 50,
+      "zoneCoverage": 60,
+      "kickPower": 54,
+      "kickAccuracy": 88,
+      "catching": 91,
+      "routeRunning": 57,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 79,
+        "statB": 648
+      },
+      "career": {
+        "games": 28,
+        "statA": 4302,
+        "statB": 2019
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "DAL-PR-1",
+    "team": "DAL",
+    "teamName": "DAL",
+    "name": "Calvin Turcotte",
+    "jerseyNumber": 86,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'9\"",
+      "weight": 205,
+      "college": "Luzstad",
+      "experience": 5,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 68108252,
+      "capHit": 7839646,
+      "deadCap": 4649284,
+      "signingBonus": 6946190,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 76,
+      "schemeFit": 85,
+      "speed": 81,
+      "acceleration": 76,
+      "agility": 76,
+      "strength": 60,
+      "tackle": 67,
+      "pursuit": 73,
+      "manCoverage": 63,
+      "zoneCoverage": 84,
+      "kickPower": 79,
+      "kickAccuracy": 68,
+      "catching": 69,
+      "routeRunning": 76,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 996,
+        "statB": 250
+      },
+      "career": {
+        "games": 31,
+        "statA": 3074,
+        "statB": 4339
+      }
+    },
+    "photo": "/player_faces/23.png"
+  }
 ]

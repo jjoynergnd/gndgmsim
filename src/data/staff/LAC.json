@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  71,
-               "name":  "Logan Halford"
-           },
-    "OC":  {
-               "rating":  82,
-               "name":  "Logan Wright"
-           },
-    "DC":  {
-               "rating":  78,
-               "name":  "Marcus Wright"
-           }
-}
+[
+  {
+    "id": "LAC-STAFF-1",
+    "team": "LAC",
+    "role": "Head Coach",
+    "name": "Dominic Dach",
+    "vitals": {
+      "age": 59,
+      "experience": 4
+    },
+    "ratings": {
+      "leadership": 89,
+      "discipline": 74,
+      "schemeKnowledge": 61,
+      "playerDev": 80,
+      "motivation": 69,
+      "injuryManagement": 58,
+      "conditioning": 67,
+      "analyticsIQ": 52
+    },
+    "contract": {
+      "years": 2,
+      "salary": 4378602
+    }
+  },
+  {
+    "id": "LAC-STAFF-2",
+    "team": "LAC",
+    "role": "Offensive Coordinator",
+    "name": "Jacob Witting",
+    "vitals": {
+      "age": 62,
+      "experience": 31
+    },
+    "ratings": {
+      "leadership": 81,
+      "discipline": 80,
+      "schemeKnowledge": 73,
+      "playerDev": 81,
+      "motivation": 75,
+      "injuryManagement": 42,
+      "conditioning": 48,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 5,
+      "salary": 5029089
+    }
+  },
+  {
+    "id": "LAC-STAFF-3",
+    "team": "LAC",
+    "role": "Defensive Coordinator",
+    "name": "Santiago Hansen",
+    "vitals": {
+      "age": 34,
+      "experience": 36
+    },
+    "ratings": {
+      "leadership": 92,
+      "discipline": 76,
+      "schemeKnowledge": 70,
+      "playerDev": 83,
+      "motivation": 93,
+      "injuryManagement": 66,
+      "conditioning": 56,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 4,
+      "salary": 4224812
+    }
+  },
+  {
+    "id": "LAC-STAFF-4",
+    "team": "LAC",
+    "role": "Strength & Conditioning Coach",
+    "name": "Randy Halvorson",
+    "vitals": {
+      "age": 55,
+      "experience": 16
+    },
+    "ratings": {
+      "leadership": 94,
+      "discipline": 78,
+      "schemeKnowledge": 91,
+      "playerDev": 83,
+      "motivation": 78,
+      "injuryManagement": 66,
+      "conditioning": 78,
+      "analyticsIQ": 47
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2027886
+    }
+  },
+  {
+    "id": "LAC-STAFF-5",
+    "team": "LAC",
+    "role": "Physical Therapist",
+    "name": "Eugene Turcotte",
+    "vitals": {
+      "age": 44,
+      "experience": 9
+    },
+    "ratings": {
+      "leadership": 64,
+      "discipline": 69,
+      "schemeKnowledge": 91,
+      "playerDev": 81,
+      "motivation": 65,
+      "injuryManagement": 77,
+      "conditioning": 45,
+      "analyticsIQ": 43
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3560257
+    }
+  },
+  {
+    "id": "LAC-STAFF-6",
+    "team": "LAC",
+    "role": "Athletic Trainer",
+    "name": "Eamon Stiedemann",
+    "vitals": {
+      "age": 32,
+      "experience": 15
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 83,
+      "schemeKnowledge": 92,
+      "playerDev": 95,
+      "motivation": 78,
+      "injuryManagement": 73,
+      "conditioning": 49,
+      "analyticsIQ": 62
+    },
+    "contract": {
+      "years": 2,
+      "salary": 5117276
+    }
+  },
+  {
+    "id": "LAC-STAFF-7",
+    "team": "LAC",
+    "role": "Analytics Coordinator",
+    "name": "Holden Okuneva",
+    "vitals": {
+      "age": 64,
+      "experience": 19
+    },
+    "ratings": {
+      "leadership": 90,
+      "discipline": 82,
+      "schemeKnowledge": 66,
+      "playerDev": 76,
+      "motivation": 76,
+      "injuryManagement": 44,
+      "conditioning": 56,
+      "analyticsIQ": 99
+    },
+    "contract": {
+      "years": 5,
+      "salary": 7941333
+    }
+  }
+]

@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  85,
-        "name":  "Tyrone Halford",
-        "id":  "NYJ-QB0"
+[
+  {
+    "id": "NYJ-QB-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Kenji O'Hara",
+    "jerseyNumber": 54,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'11\"",
+      "weight": 322,
+      "college": "Tillmanfurt",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  79,
-        "name":  "Andre Coleman",
-        "id":  "NYJ-RB1"
+    "contract": {
+      "years": 5,
+      "totalValue": 111258581,
+      "capHit": 1759113,
+      "deadCap": 1826220,
+      "signingBonus": 17283759,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
     },
-    {
-        "position":  "WR",
-        "overall":  91,
-        "name":  "Tyrone Wright",
-        "id":  "NYJ-WR2"
+    "ratings": {
+      "overall": 64,
+      "potential": 67,
+      "schemeFit": 78,
+      "speed": 75,
+      "acceleration": 85,
+      "agility": 80,
+      "strength": 61,
+      "tackle": 74,
+      "pursuit": 80,
+      "manCoverage": 84,
+      "zoneCoverage": 56,
+      "kickPower": 76,
+      "kickAccuracy": 74,
+      "catching": 83,
+      "routeRunning": 85,
+      "release": 92,
+      "throwPower": 79,
+      "shortAccuracy": 63,
+      "mediumAccuracy": 83,
+      "deepAccuracy": 90
     },
-    {
-        "position":  "LB",
-        "overall":  68,
-        "name":  "Malik Harrington",
-        "id":  "NYJ-LB3"
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
     },
-    {
-        "position":  "CB",
-        "overall":  90,
-        "name":  "Andre Harrington",
-        "id":  "NYJ-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 394,
+        "statB": 461
+      },
+      "career": {
+        "games": 52,
+        "statA": 2794,
+        "statB": 1162
+      }
+    },
+    "photo": "/player_faces/14.png"
+  },
+  {
+    "id": "NYJ-QB-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Richard Parker",
+    "jerseyNumber": 80,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 236,
+      "college": "Schummcester",
+      "experience": 7,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 105364802,
+      "capHit": 17618604,
+      "deadCap": 8155353,
+      "signingBonus": 10474080,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 85,
+      "schemeFit": 90,
+      "speed": 72,
+      "acceleration": 76,
+      "agility": 92,
+      "strength": 75,
+      "tackle": 94,
+      "pursuit": 94,
+      "manCoverage": 60,
+      "zoneCoverage": 78,
+      "kickPower": 64,
+      "kickAccuracy": 51,
+      "catching": 91,
+      "routeRunning": 62,
+      "release": 84,
+      "throwPower": 76,
+      "shortAccuracy": 86,
+      "mediumAccuracy": 82,
+      "deepAccuracy": 65
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 285,
+        "statB": 137
+      },
+      "career": {
+        "games": 44,
+        "statA": 1340,
+        "statB": 3773
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "NYJ-QB-3",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Juan Klein",
+    "jerseyNumber": 12,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 27,
+      "height": "5'10\"",
+      "weight": 193,
+      "college": "South King",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 44749604,
+      "capHit": 24924348,
+      "deadCap": 5581034,
+      "signingBonus": 6241463,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 70,
+      "schemeFit": 80,
+      "speed": 83,
+      "acceleration": 88,
+      "agility": 92,
+      "strength": 76,
+      "tackle": 78,
+      "pursuit": 95,
+      "manCoverage": 62,
+      "zoneCoverage": 78,
+      "kickPower": 74,
+      "kickAccuracy": 76,
+      "catching": 81,
+      "routeRunning": 75,
+      "release": 85,
+      "throwPower": 70,
+      "shortAccuracy": 80,
+      "mediumAccuracy": 86,
+      "deepAccuracy": 77
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 213,
+        "statB": 829
+      },
+      "career": {
+        "games": 50,
+        "statA": 4060,
+        "statB": 3565
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NYJ-RB-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Beckett Lynch",
+    "jerseyNumber": 66,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 21,
+      "height": "6'4\"",
+      "weight": 203,
+      "college": "Port Murphyfort",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 67148285,
+      "capHit": 16438561,
+      "deadCap": 8562615,
+      "signingBonus": 9098609,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 82,
+      "schemeFit": 85,
+      "speed": 90,
+      "acceleration": 70,
+      "agility": 86,
+      "strength": 69,
+      "tackle": 78,
+      "pursuit": 91,
+      "manCoverage": 61,
+      "zoneCoverage": 60,
+      "kickPower": 51,
+      "kickAccuracy": 58,
+      "catching": 88,
+      "routeRunning": 64,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 288,
+        "statB": 252
+      },
+      "career": {
+        "games": 32,
+        "statA": 31,
+        "statB": 2184
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NYJ-RB-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Lawrence Goyette",
+    "jerseyNumber": 68,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'2\"",
+      "weight": 206,
+      "college": "Mission Viejo",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 47678277,
+      "capHit": 19508625,
+      "deadCap": 9671788,
+      "signingBonus": 3816133,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 70,
+      "schemeFit": 91,
+      "speed": 71,
+      "acceleration": 87,
+      "agility": 71,
+      "strength": 71,
+      "tackle": 87,
+      "pursuit": 95,
+      "manCoverage": 80,
+      "zoneCoverage": 77,
+      "kickPower": 85,
+      "kickAccuracy": 93,
+      "catching": 64,
+      "routeRunning": 88,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 483,
+        "statB": 417
+      },
+      "career": {
+        "games": 19,
+        "statA": 3289,
+        "statB": 3948
+      }
+    },
+    "photo": "/player_faces/43.png"
+  },
+  {
+    "id": "NYJ-RB-3",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Adrian Predovic",
+    "jerseyNumber": 43,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 271,
+      "college": "Briceland",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 17741763,
+      "capHit": 7860905,
+      "deadCap": 4415024,
+      "signingBonus": 11474189,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 74,
+      "schemeFit": 75,
+      "speed": 91,
+      "acceleration": 94,
+      "agility": 91,
+      "strength": 93,
+      "tackle": 89,
+      "pursuit": 78,
+      "manCoverage": 73,
+      "zoneCoverage": 63,
+      "kickPower": 58,
+      "kickAccuracy": 92,
+      "catching": 68,
+      "routeRunning": 71,
+      "release": 57
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 543,
+        "statB": 393
+      },
+      "career": {
+        "games": 68,
+        "statA": 2664,
+        "statB": 1902
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NYJ-RB-4",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Chen Spinka",
+    "jerseyNumber": 55,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "5'9\"",
+      "weight": 241,
+      "college": "Whiteberg",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 18552626,
+      "capHit": 13105129,
+      "deadCap": 4072747,
+      "signingBonus": 890847,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 63,
+      "potential": 67,
+      "schemeFit": 91,
+      "speed": 89,
+      "acceleration": 72,
+      "agility": 71,
+      "strength": 64,
+      "tackle": 85,
+      "pursuit": 77,
+      "manCoverage": 57,
+      "zoneCoverage": 67,
+      "kickPower": 61,
+      "kickAccuracy": 65,
+      "catching": 76,
+      "routeRunning": 51,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 840,
+        "statB": 717
+      },
+      "career": {
+        "games": 49,
+        "statA": 2070,
+        "statB": 2903
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "NYJ-WR-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Theo Cassin",
+    "jerseyNumber": 6,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 278,
+      "college": "Fargo",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 5113948,
+      "capHit": 3832808,
+      "deadCap": 3344974,
+      "signingBonus": 4605970,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 91,
+      "schemeFit": 94,
+      "speed": 92,
+      "acceleration": 79,
+      "agility": 95,
+      "strength": 64,
+      "tackle": 77,
+      "pursuit": 65,
+      "manCoverage": 72,
+      "zoneCoverage": 69,
+      "kickPower": 81,
+      "kickAccuracy": 52,
+      "catching": 64,
+      "routeRunning": 58,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 970,
+        "statB": 763
+      },
+      "career": {
+        "games": 109,
+        "statA": 1466,
+        "statB": 617
+      }
+    },
+    "photo": "/player_faces/6.png"
+  },
+  {
+    "id": "NYJ-WR-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Douglas Watsica",
+    "jerseyNumber": 86,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'4\"",
+      "weight": 274,
+      "college": "Lake Terrence",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 57428640,
+      "capHit": 12054829,
+      "deadCap": 824451,
+      "signingBonus": 17847976,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 81,
+      "schemeFit": 70,
+      "speed": 81,
+      "acceleration": 78,
+      "agility": 77,
+      "strength": 69,
+      "tackle": 82,
+      "pursuit": 65,
+      "manCoverage": 71,
+      "zoneCoverage": 82,
+      "kickPower": 88,
+      "kickAccuracy": 71,
+      "catching": 76,
+      "routeRunning": 51,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 731,
+        "statB": 913
+      },
+      "career": {
+        "games": 39,
+        "statA": 2995,
+        "statB": 3264
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "NYJ-WR-3",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Mateo Powlowski",
+    "jerseyNumber": 99,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 205,
+      "college": "East Okey",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 39841201,
+      "capHit": 22478346,
+      "deadCap": 7524976,
+      "signingBonus": 19829637,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 80,
+      "schemeFit": 83,
+      "speed": 92,
+      "acceleration": 83,
+      "agility": 81,
+      "strength": 79,
+      "tackle": 72,
+      "pursuit": 84,
+      "manCoverage": 64,
+      "zoneCoverage": 62,
+      "kickPower": 73,
+      "kickAccuracy": 68,
+      "catching": 70,
+      "routeRunning": 83,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 24,
+        "statB": 415
+      },
+      "career": {
+        "games": 114,
+        "statA": 1388,
+        "statB": 4994
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "NYJ-WR-4",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Bobby Mills",
+    "jerseyNumber": 23,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 322,
+      "college": "MacGyvercester",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 21898389,
+      "capHit": 1233330,
+      "deadCap": 271728,
+      "signingBonus": 14195654,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 76,
+      "schemeFit": 77,
+      "speed": 91,
+      "acceleration": 87,
+      "agility": 76,
+      "strength": 72,
+      "tackle": 68,
+      "pursuit": 60,
+      "manCoverage": 80,
+      "zoneCoverage": 69,
+      "kickPower": 81,
+      "kickAccuracy": 73,
+      "catching": 91,
+      "routeRunning": 86,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 550,
+        "statB": 557
+      },
+      "career": {
+        "games": 7,
+        "statA": 3815,
+        "statB": 2954
+      }
+    },
+    "photo": "/player_faces/46.png"
+  },
+  {
+    "id": "NYJ-WR-5",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Willie Carter",
+    "jerseyNumber": 48,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 269,
+      "college": "Aylaview",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 90327861,
+      "capHit": 12804838,
+      "deadCap": 395224,
+      "signingBonus": 16646816,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 91,
+      "schemeFit": 93,
+      "speed": 87,
+      "acceleration": 79,
+      "agility": 80,
+      "strength": 94,
+      "tackle": 72,
+      "pursuit": 88,
+      "manCoverage": 60,
+      "zoneCoverage": 83,
+      "kickPower": 83,
+      "kickAccuracy": 75,
+      "catching": 75,
+      "routeRunning": 89,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 153,
+        "statB": 205
+      },
+      "career": {
+        "games": 62,
+        "statA": 2310,
+        "statB": 157
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "NYJ-WR-6",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Vincent Fadel",
+    "jerseyNumber": 65,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'3\"",
+      "weight": 188,
+      "college": "New Abigayle",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 49524290,
+      "capHit": 7938584,
+      "deadCap": 7325944,
+      "signingBonus": 6991295,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 74,
+      "schemeFit": 73,
+      "speed": 84,
+      "acceleration": 90,
+      "agility": 74,
+      "strength": 60,
+      "tackle": 94,
+      "pursuit": 79,
+      "manCoverage": 79,
+      "zoneCoverage": 88,
+      "kickPower": 64,
+      "kickAccuracy": 72,
+      "catching": 62,
+      "routeRunning": 95,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 257,
+        "statB": 518
+      },
+      "career": {
+        "games": 61,
+        "statA": 1079,
+        "statB": 4525
+      }
+    },
+    "photo": "/player_faces/42.png"
+  },
+  {
+    "id": "NYJ-WR-7",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Knox Gulgowski",
+    "jerseyNumber": 19,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 262,
+      "college": "Fort Burley",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 99427587,
+      "capHit": 17409961,
+      "deadCap": 4658111,
+      "signingBonus": 16952759,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 84,
+      "potential": 86,
+      "schemeFit": 82,
+      "speed": 72,
+      "acceleration": 92,
+      "agility": 93,
+      "strength": 84,
+      "tackle": 66,
+      "pursuit": 79,
+      "manCoverage": 85,
+      "zoneCoverage": 69,
+      "kickPower": 82,
+      "kickAccuracy": 55,
+      "catching": 74,
+      "routeRunning": 74,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 832,
+        "statB": 355
+      },
+      "career": {
+        "games": 110,
+        "statA": 3287,
+        "statB": 498
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "NYJ-TE-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Eric Gusikowski",
+    "jerseyNumber": 28,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 320,
+      "college": "West Yazminview",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 78825901,
+      "capHit": 9878848,
+      "deadCap": 9996472,
+      "signingBonus": 16979372,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 70,
+      "schemeFit": 85,
+      "speed": 91,
+      "acceleration": 81,
+      "agility": 79,
+      "strength": 80,
+      "tackle": 69,
+      "pursuit": 77,
+      "manCoverage": 53,
+      "zoneCoverage": 67,
+      "kickPower": 71,
+      "kickAccuracy": 75,
+      "catching": 64,
+      "routeRunning": 78,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 129,
+        "statB": 549
+      },
+      "career": {
+        "games": 58,
+        "statA": 3344,
+        "statB": 1430
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "NYJ-TE-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Douglas Romaguera",
+    "jerseyNumber": 70,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 292,
+      "college": "Rosieshire",
+      "experience": 8,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 24273983,
+      "capHit": 18300681,
+      "deadCap": 6882356,
+      "signingBonus": 5028961,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 76,
+      "schemeFit": 86,
+      "speed": 92,
+      "acceleration": 72,
+      "agility": 91,
+      "strength": 84,
+      "tackle": 68,
+      "pursuit": 65,
+      "manCoverage": 81,
+      "zoneCoverage": 53,
+      "kickPower": 63,
+      "kickAccuracy": 73,
+      "catching": 59,
+      "routeRunning": 52,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 293,
+        "statB": 705
+      },
+      "career": {
+        "games": 113,
+        "statA": 305,
+        "statB": 613
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "NYJ-TE-3",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Alan Torp",
+    "jerseyNumber": 41,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'3\"",
+      "weight": 285,
+      "college": "New Zachery",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 113452140,
+      "capHit": 18391020,
+      "deadCap": 7706610,
+      "signingBonus": 15474278,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 77,
+      "schemeFit": 86,
+      "speed": 79,
+      "acceleration": 92,
+      "agility": 77,
+      "strength": 66,
+      "tackle": 79,
+      "pursuit": 76,
+      "manCoverage": 79,
+      "zoneCoverage": 77,
+      "kickPower": 94,
+      "kickAccuracy": 66,
+      "catching": 50,
+      "routeRunning": 81,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 125,
+        "statB": 191
+      },
+      "career": {
+        "games": 66,
+        "statA": 87,
+        "statB": 4665
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "NYJ-LT-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Riku Glover",
+    "jerseyNumber": 34,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 319,
+      "college": "Myrtleton",
+      "experience": 11,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 117119230,
+      "capHit": 24869303,
+      "deadCap": 3039807,
+      "signingBonus": 6821267,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 69,
+      "schemeFit": 85,
+      "speed": 90,
+      "acceleration": 70,
+      "agility": 72,
+      "strength": 61,
+      "tackle": 81,
+      "pursuit": 81,
+      "manCoverage": 65,
+      "zoneCoverage": 89,
+      "kickPower": 94,
+      "kickAccuracy": 81,
+      "catching": 61,
+      "routeRunning": 62,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 465,
+        "statB": 424
+      },
+      "career": {
+        "games": 67,
+        "statA": 3417,
+        "statB": 4705
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "NYJ-LT-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Timothy Zemlak",
+    "jerseyNumber": 18,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 321,
+      "college": "Bradtkeberg",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 17617041,
+      "capHit": 22782876,
+      "deadCap": 8967850,
+      "signingBonus": 11935108,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 90,
+      "speed": 80,
+      "acceleration": 83,
+      "agility": 84,
+      "strength": 90,
+      "tackle": 83,
+      "pursuit": 67,
+      "manCoverage": 73,
+      "zoneCoverage": 60,
+      "kickPower": 91,
+      "kickAccuracy": 81,
+      "catching": 61,
+      "routeRunning": 82,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 217,
+        "statB": 809
+      },
+      "career": {
+        "games": 28,
+        "statA": 3613,
+        "statB": 56
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "NYJ-LG-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Sung Langworth",
+    "jerseyNumber": 66,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'5\"",
+      "weight": 264,
+      "college": "Bednarport",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 103955598,
+      "capHit": 8518776,
+      "deadCap": 1256188,
+      "signingBonus": 14075099,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 73,
+      "speed": 94,
+      "acceleration": 72,
+      "agility": 79,
+      "strength": 90,
+      "tackle": 84,
+      "pursuit": 61,
+      "manCoverage": 60,
+      "zoneCoverage": 56,
+      "kickPower": 69,
+      "kickAccuracy": 82,
+      "catching": 80,
+      "routeRunning": 86,
+      "release": 77
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 652,
+        "statB": 410
+      },
+      "career": {
+        "games": 100,
+        "statA": 3239,
+        "statB": 3511
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "NYJ-LG-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Finn Keeling",
+    "jerseyNumber": 41,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 291,
+      "college": "The Villages",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 9095139,
+      "capHit": 9690475,
+      "deadCap": 8741048,
+      "signingBonus": 9729194,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 83,
+      "schemeFit": 73,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 94,
+      "strength": 85,
+      "tackle": 89,
+      "pursuit": 65,
+      "manCoverage": 51,
+      "zoneCoverage": 60,
+      "kickPower": 89,
+      "kickAccuracy": 63,
+      "catching": 94,
+      "routeRunning": 90,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 1,
+        "statB": 499
+      },
+      "career": {
+        "games": 51,
+        "statA": 255,
+        "statB": 681
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "NYJ-C-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Mateo Batz",
+    "jerseyNumber": 28,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'5\"",
+      "weight": 245,
+      "college": "Cary",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 20403378,
+      "capHit": 20169969,
+      "deadCap": 4313206,
+      "signingBonus": 7961180,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 80,
+      "schemeFit": 93,
+      "speed": 87,
+      "acceleration": 95,
+      "agility": 84,
+      "strength": 63,
+      "tackle": 93,
+      "pursuit": 62,
+      "manCoverage": 52,
+      "zoneCoverage": 85,
+      "kickPower": 58,
+      "kickAccuracy": 67,
+      "catching": 55,
+      "routeRunning": 85,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 462,
+        "statB": 39
+      },
+      "career": {
+        "games": 23,
+        "statA": 3112,
+        "statB": 3071
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "NYJ-C-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "James Davis",
+    "jerseyNumber": 93,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "5'9\"",
+      "weight": 306,
+      "college": "Donnellyshire",
+      "experience": 6,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 17413369,
+      "capHit": 17129919,
+      "deadCap": 7903738,
+      "signingBonus": 4747964,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 72,
+      "schemeFit": 71,
+      "speed": 87,
+      "acceleration": 75,
+      "agility": 85,
+      "strength": 87,
+      "tackle": 79,
+      "pursuit": 75,
+      "manCoverage": 64,
+      "zoneCoverage": 62,
+      "kickPower": 86,
+      "kickAccuracy": 64,
+      "catching": 92,
+      "routeRunning": 82,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 691,
+        "statB": 605
+      },
+      "career": {
+        "games": 101,
+        "statA": 2215,
+        "statB": 3300
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "NYJ-RG-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Sean Hudson-Runolfsson",
+    "jerseyNumber": 6,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "5'10\"",
+      "weight": 315,
+      "college": "East Forrest",
+      "experience": 9,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 75671077,
+      "capHit": 9180632,
+      "deadCap": 5724541,
+      "signingBonus": 7490370,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 73,
+      "schemeFit": 88,
+      "speed": 87,
+      "acceleration": 75,
+      "agility": 90,
+      "strength": 94,
+      "tackle": 90,
+      "pursuit": 67,
+      "manCoverage": 63,
+      "zoneCoverage": 53,
+      "kickPower": 77,
+      "kickAccuracy": 94,
+      "catching": 89,
+      "routeRunning": 62,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 580,
+        "statB": 23
+      },
+      "career": {
+        "games": 29,
+        "statA": 1493,
+        "statB": 3912
+      }
+    },
+    "photo": "/player_faces/31.png"
+  },
+  {
+    "id": "NYJ-RG-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Joshua Hane",
+    "jerseyNumber": 80,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "5'9\"",
+      "weight": 256,
+      "college": "Swaniawskihaven",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 40312007,
+      "capHit": 4502287,
+      "deadCap": 853347,
+      "signingBonus": 11547900,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 75,
+      "schemeFit": 94,
+      "speed": 93,
+      "acceleration": 91,
+      "agility": 70,
+      "strength": 86,
+      "tackle": 78,
+      "pursuit": 72,
+      "manCoverage": 50,
+      "zoneCoverage": 85,
+      "kickPower": 79,
+      "kickAccuracy": 87,
+      "catching": 79,
+      "routeRunning": 53,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 620,
+        "statB": 298
+      },
+      "career": {
+        "games": 10,
+        "statA": 4288,
+        "statB": 3384
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "NYJ-RT-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Colton Mertz",
+    "jerseyNumber": 5,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'4\"",
+      "weight": 292,
+      "college": "Port Princefield",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 47214420,
+      "capHit": 17933429,
+      "deadCap": 6750296,
+      "signingBonus": 12924523,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 67,
+      "schemeFit": 72,
+      "speed": 87,
+      "acceleration": 85,
+      "agility": 93,
+      "strength": 67,
+      "tackle": 75,
+      "pursuit": 87,
+      "manCoverage": 90,
+      "zoneCoverage": 75,
+      "kickPower": 50,
+      "kickAccuracy": 74,
+      "catching": 83,
+      "routeRunning": 67,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 690,
+        "statB": 766
+      },
+      "career": {
+        "games": 87,
+        "statA": 1317,
+        "statB": 333
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "NYJ-RT-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Luke Champlin",
+    "jerseyNumber": 93,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 245,
+      "college": "Dianaville",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 3513126,
+      "capHit": 12831818,
+      "deadCap": 6686546,
+      "signingBonus": 15370798,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 70,
+      "schemeFit": 80,
+      "speed": 71,
+      "acceleration": 84,
+      "agility": 78,
+      "strength": 76,
+      "tackle": 60,
+      "pursuit": 74,
+      "manCoverage": 87,
+      "zoneCoverage": 51,
+      "kickPower": 83,
+      "kickAccuracy": 79,
+      "catching": 70,
+      "routeRunning": 93,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 276,
+        "statB": 92
+      },
+      "career": {
+        "games": 5,
+        "statA": 1439,
+        "statB": 1531
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NYJ-LDE-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Derek Cole",
+    "jerseyNumber": 99,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'1\"",
+      "weight": 300,
+      "college": "New Ronaldo",
+      "experience": 9,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 3972233,
+      "capHit": 3163152,
+      "deadCap": 1394987,
+      "signingBonus": 2339834,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 72,
+      "potential": 72,
+      "schemeFit": 73,
+      "speed": 95,
+      "acceleration": 95,
+      "agility": 70,
+      "strength": 83,
+      "tackle": 82,
+      "pursuit": 60,
+      "manCoverage": 81,
+      "zoneCoverage": 85,
+      "kickPower": 93,
+      "kickAccuracy": 62,
+      "catching": 55,
+      "routeRunning": 71,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 327,
+        "statB": 701
+      },
+      "career": {
+        "games": 78,
+        "statA": 1560,
+        "statB": 863
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NYJ-LDE-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Larry Rempel",
+    "jerseyNumber": 80,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 250,
+      "college": "Salem",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 80967769,
+      "capHit": 6159796,
+      "deadCap": 1779685,
+      "signingBonus": 9718917,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 79,
+      "potential": 86,
+      "schemeFit": 82,
+      "speed": 81,
+      "acceleration": 80,
+      "agility": 75,
+      "strength": 62,
+      "tackle": 87,
+      "pursuit": 94,
+      "manCoverage": 56,
+      "zoneCoverage": 59,
+      "kickPower": 56,
+      "kickAccuracy": 52,
+      "catching": 80,
+      "routeRunning": 79,
+      "release": 91
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 241,
+        "statB": 406
+      },
+      "career": {
+        "games": 10,
+        "statA": 4480,
+        "statB": 73
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "NYJ-RDE-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Shawn Beatty",
+    "jerseyNumber": 83,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 219,
+      "college": "Terenceton",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 111975356,
+      "capHit": 13287365,
+      "deadCap": 9941491,
+      "signingBonus": 12005453,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 90,
+      "schemeFit": 82,
+      "speed": 87,
+      "acceleration": 95,
+      "agility": 86,
+      "strength": 86,
+      "tackle": 83,
+      "pursuit": 62,
+      "manCoverage": 57,
+      "zoneCoverage": 53,
+      "kickPower": 59,
+      "kickAccuracy": 57,
+      "catching": 75,
+      "routeRunning": 58,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 262,
+        "statB": 166
+      },
+      "career": {
+        "games": 23,
+        "statA": 4216,
+        "statB": 2836
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "NYJ-RDE-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Yusuf Rogahn",
+    "jerseyNumber": 58,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 324,
+      "college": "New Rickburgh",
+      "experience": 5,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 18286128,
+      "capHit": 10827819,
+      "deadCap": 4352393,
+      "signingBonus": 14228250,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 81,
+      "schemeFit": 76,
+      "speed": 86,
+      "acceleration": 89,
+      "agility": 70,
+      "strength": 82,
+      "tackle": 67,
+      "pursuit": 68,
+      "manCoverage": 79,
+      "zoneCoverage": 88,
+      "kickPower": 66,
+      "kickAccuracy": 59,
+      "catching": 60,
+      "routeRunning": 78,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 799,
+        "statB": 940
+      },
+      "career": {
+        "games": 64,
+        "statA": 4631,
+        "statB": 1591
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "NYJ-DT-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Malik Funk",
+    "jerseyNumber": 52,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 25,
+      "height": "6'4\"",
+      "weight": 226,
+      "college": "Valdosta",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 85628934,
+      "capHit": 22021731,
+      "deadCap": 5997288,
+      "signingBonus": 16362936,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 80,
+      "speed": 90,
+      "acceleration": 80,
+      "agility": 75,
+      "strength": 64,
+      "tackle": 67,
+      "pursuit": 82,
+      "manCoverage": 78,
+      "zoneCoverage": 60,
+      "kickPower": 95,
+      "kickAccuracy": 53,
+      "catching": 55,
+      "routeRunning": 77,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 862,
+        "statB": 560
+      },
+      "career": {
+        "games": 33,
+        "statA": 3960,
+        "statB": 2549
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "NYJ-DT-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Bruce Douglas",
+    "jerseyNumber": 80,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 25,
+      "height": "6'3\"",
+      "weight": 309,
+      "college": "D'Amoreworth",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 92503128,
+      "capHit": 11850586,
+      "deadCap": 7025814,
+      "signingBonus": 477238,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 88,
+      "schemeFit": 74,
+      "speed": 86,
+      "acceleration": 88,
+      "agility": 74,
+      "strength": 67,
+      "tackle": 65,
+      "pursuit": 69,
+      "manCoverage": 54,
+      "zoneCoverage": 64,
+      "kickPower": 62,
+      "kickAccuracy": 52,
+      "catching": 82,
+      "routeRunning": 91,
+      "release": 63
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 544,
+        "statB": 249
+      },
+      "career": {
+        "games": 71,
+        "statA": 4109,
+        "statB": 1556
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "NYJ-DT-3",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Bobby Davis",
+    "jerseyNumber": 68,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 218,
+      "college": "West Hubertbury",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 9661598,
+      "capHit": 1354264,
+      "deadCap": 3507120,
+      "signingBonus": 15562981,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 89,
+      "schemeFit": 83,
+      "speed": 82,
+      "acceleration": 80,
+      "agility": 80,
+      "strength": 64,
+      "tackle": 86,
+      "pursuit": 86,
+      "manCoverage": 87,
+      "zoneCoverage": 63,
+      "kickPower": 73,
+      "kickAccuracy": 59,
+      "catching": 65,
+      "routeRunning": 77,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 629,
+        "statB": 901
+      },
+      "career": {
+        "games": 62,
+        "statA": 4945,
+        "statB": 355
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "NYJ-DT-4",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Nathan Kling",
+    "jerseyNumber": 30,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 28,
+      "height": "6'3\"",
+      "weight": 263,
+      "college": "Nataliaburgh",
+      "experience": 2,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 109768306,
+      "capHit": 16758127,
+      "deadCap": 6974623,
+      "signingBonus": 2858464,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 74,
+      "schemeFit": 82,
+      "speed": 83,
+      "acceleration": 92,
+      "agility": 77,
+      "strength": 67,
+      "tackle": 84,
+      "pursuit": 81,
+      "manCoverage": 63,
+      "zoneCoverage": 76,
+      "kickPower": 72,
+      "kickAccuracy": 54,
+      "catching": 76,
+      "routeRunning": 59,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 83,
+        "statB": 18
+      },
+      "career": {
+        "games": 81,
+        "statA": 542,
+        "statB": 2133
+      }
+    },
+    "photo": "/player_faces/28.png"
+  },
+  {
+    "id": "NYJ-LOLB-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Luke White",
+    "jerseyNumber": 77,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'2\"",
+      "weight": 201,
+      "college": "Palm Beach Gardens",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 93217407,
+      "capHit": 12038909,
+      "deadCap": 2458763,
+      "signingBonus": 1469157,
+      "expiresYear": 2027,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 88,
+      "schemeFit": 90,
+      "speed": 86,
+      "acceleration": 75,
+      "agility": 79,
+      "strength": 93,
+      "tackle": 69,
+      "pursuit": 82,
+      "manCoverage": 54,
+      "zoneCoverage": 73,
+      "kickPower": 58,
+      "kickAccuracy": 67,
+      "catching": 77,
+      "routeRunning": 63,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 740,
+        "statB": 460
+      },
+      "career": {
+        "games": 119,
+        "statA": 2307,
+        "statB": 2381
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "NYJ-LOLB-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Thomas Kilback",
+    "jerseyNumber": 25,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 212,
+      "college": "Chicopee",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 52469264,
+      "capHit": 731976,
+      "deadCap": 7023071,
+      "signingBonus": 1357810,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 81,
+      "schemeFit": 78,
+      "speed": 71,
+      "acceleration": 87,
+      "agility": 70,
+      "strength": 86,
+      "tackle": 66,
+      "pursuit": 73,
+      "manCoverage": 69,
+      "zoneCoverage": 90,
+      "kickPower": 91,
+      "kickAccuracy": 71,
+      "catching": 52,
+      "routeRunning": 70,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 538,
+        "statB": 374
+      },
+      "career": {
+        "games": 112,
+        "statA": 2140,
+        "statB": 4014
+      }
+    },
+    "photo": "/player_faces/5.png"
+  },
+  {
+    "id": "NYJ-MLB-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Seth Gulgowski",
+    "jerseyNumber": 74,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "6'4\"",
+      "weight": 242,
+      "college": "Douglasbury",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 116274938,
+      "capHit": 11341672,
+      "deadCap": 5077664,
+      "signingBonus": 16698433,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 71,
+      "schemeFit": 85,
+      "speed": 71,
+      "acceleration": 79,
+      "agility": 85,
+      "strength": 72,
+      "tackle": 62,
+      "pursuit": 68,
+      "manCoverage": 79,
+      "zoneCoverage": 56,
+      "kickPower": 89,
+      "kickAccuracy": 52,
+      "catching": 80,
+      "routeRunning": 74,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 234,
+        "statB": 429
+      },
+      "career": {
+        "games": 103,
+        "statA": 2713,
+        "statB": 982
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "NYJ-MLB-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Tyler Powlowski",
+    "jerseyNumber": 57,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 228,
+      "college": "Lake Fernando",
+      "experience": 0,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 107920074,
+      "capHit": 15333616,
+      "deadCap": 5394520,
+      "signingBonus": 5443701,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 74,
+      "schemeFit": 85,
+      "speed": 94,
+      "acceleration": 79,
+      "agility": 89,
+      "strength": 84,
+      "tackle": 81,
+      "pursuit": 74,
+      "manCoverage": 88,
+      "zoneCoverage": 72,
+      "kickPower": 74,
+      "kickAccuracy": 51,
+      "catching": 71,
+      "routeRunning": 69,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 647,
+        "statB": 82
+      },
+      "career": {
+        "games": 58,
+        "statA": 1111,
+        "statB": 738
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "NYJ-ROLB-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Owen Senger",
+    "jerseyNumber": 71,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "6'4\"",
+      "weight": 212,
+      "college": "Pacochaside",
+      "experience": 1,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 9084032,
+      "capHit": 22182393,
+      "deadCap": 6697278,
+      "signingBonus": 15460964,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 77,
+      "schemeFit": 73,
+      "speed": 90,
+      "acceleration": 76,
+      "agility": 87,
+      "strength": 65,
+      "tackle": 67,
+      "pursuit": 92,
+      "manCoverage": 68,
+      "zoneCoverage": 61,
+      "kickPower": 91,
+      "kickAccuracy": 83,
+      "catching": 78,
+      "routeRunning": 95,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 851,
+        "statB": 419
+      },
+      "career": {
+        "games": 94,
+        "statA": 3692,
+        "statB": 2627
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "NYJ-ROLB-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Kieran Klein",
+    "jerseyNumber": 65,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 219,
+      "college": "Hageneston",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 60137260,
+      "capHit": 4119383,
+      "deadCap": 5518699,
+      "signingBonus": 6803687,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 71,
+      "speed": 78,
+      "acceleration": 70,
+      "agility": 82,
+      "strength": 91,
+      "tackle": 90,
+      "pursuit": 84,
+      "manCoverage": 75,
+      "zoneCoverage": 56,
+      "kickPower": 56,
+      "kickAccuracy": 69,
+      "catching": 72,
+      "routeRunning": 65,
+      "release": 75
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 361,
+        "statB": 28
+      },
+      "career": {
+        "games": 90,
+        "statA": 1449,
+        "statB": 4322
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "NYJ-CB-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Andres Jerde",
+    "jerseyNumber": 98,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 268,
+      "college": "Elyria",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 64802063,
+      "capHit": 19984581,
+      "deadCap": 6753315,
+      "signingBonus": 12372243,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 79,
+      "schemeFit": 90,
+      "speed": 82,
+      "acceleration": 95,
+      "agility": 82,
+      "strength": 88,
+      "tackle": 83,
+      "pursuit": 91,
+      "manCoverage": 64,
+      "zoneCoverage": 66,
+      "kickPower": 56,
+      "kickAccuracy": 82,
+      "catching": 93,
+      "routeRunning": 70,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 730,
+        "statB": 97
+      },
+      "career": {
+        "games": 63,
+        "statA": 4398,
+        "statB": 695
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "NYJ-CB-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Paul Cremin-King",
+    "jerseyNumber": 36,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'3\"",
+      "weight": 255,
+      "college": "Colorado Springs",
+      "experience": 0,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 75205013,
+      "capHit": 7917557,
+      "deadCap": 4731096,
+      "signingBonus": 919556,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 68,
+      "potential": 76,
+      "schemeFit": 92,
+      "speed": 94,
+      "acceleration": 70,
+      "agility": 94,
+      "strength": 72,
+      "tackle": 85,
+      "pursuit": 84,
+      "manCoverage": 56,
+      "zoneCoverage": 88,
+      "kickPower": 76,
+      "kickAccuracy": 50,
+      "catching": 78,
+      "routeRunning": 61,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 784,
+        "statB": 617
+      },
+      "career": {
+        "games": 59,
+        "statA": 4060,
+        "statB": 1653
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "NYJ-CB-3",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Billy Connelly",
+    "jerseyNumber": 72,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "6'2\"",
+      "weight": 262,
+      "college": "Kraigburgh",
+      "experience": 12,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 78800802,
+      "capHit": 5585949,
+      "deadCap": 4362795,
+      "signingBonus": 11065097,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 85,
+      "schemeFit": 82,
+      "speed": 85,
+      "acceleration": 88,
+      "agility": 87,
+      "strength": 83,
+      "tackle": 71,
+      "pursuit": 63,
+      "manCoverage": 55,
+      "zoneCoverage": 87,
+      "kickPower": 92,
+      "kickAccuracy": 72,
+      "catching": 77,
+      "routeRunning": 69,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 975,
+        "statB": 934
+      },
+      "career": {
+        "games": 33,
+        "statA": 2881,
+        "statB": 576
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "NYJ-CB-4",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Knox Wehner-Terry",
+    "jerseyNumber": 14,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 25,
+      "height": "5'9\"",
+      "weight": 311,
+      "college": "Port Bianka",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 116296269,
+      "capHit": 4529588,
+      "deadCap": 8604917,
+      "signingBonus": 9222152,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 85,
+      "schemeFit": 74,
+      "speed": 91,
+      "acceleration": 80,
+      "agility": 80,
+      "strength": 80,
+      "tackle": 85,
+      "pursuit": 93,
+      "manCoverage": 71,
+      "zoneCoverage": 80,
+      "kickPower": 87,
+      "kickAccuracy": 89,
+      "catching": 90,
+      "routeRunning": 63,
+      "release": 70
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 655,
+        "statB": 713
+      },
+      "career": {
+        "games": 27,
+        "statA": 547,
+        "statB": 14
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "NYJ-CB-5",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Terry Heaney",
+    "jerseyNumber": 33,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 261,
+      "college": "Bartholomeshire",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 22984717,
+      "capHit": 921253,
+      "deadCap": 6074797,
+      "signingBonus": 19622443,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 81,
+      "schemeFit": 70,
+      "speed": 91,
+      "acceleration": 79,
+      "agility": 93,
+      "strength": 92,
+      "tackle": 75,
+      "pursuit": 93,
+      "manCoverage": 75,
+      "zoneCoverage": 75,
+      "kickPower": 70,
+      "kickAccuracy": 79,
+      "catching": 64,
+      "routeRunning": 64,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 839,
+        "statB": 564
+      },
+      "career": {
+        "games": 102,
+        "statA": 586,
+        "statB": 3466
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "NYJ-CB-6",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Joe O'Kon",
+    "jerseyNumber": 90,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 29,
+      "height": "6'2\"",
+      "weight": 279,
+      "college": "Victoria",
+      "experience": 5,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 65959342,
+      "capHit": 10245377,
+      "deadCap": 8720609,
+      "signingBonus": 6954256,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 68,
+      "schemeFit": 82,
+      "speed": 72,
+      "acceleration": 81,
+      "agility": 82,
+      "strength": 84,
+      "tackle": 66,
+      "pursuit": 76,
+      "manCoverage": 83,
+      "zoneCoverage": 52,
+      "kickPower": 95,
+      "kickAccuracy": 54,
+      "catching": 54,
+      "routeRunning": 63,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 341,
+        "statB": 566
+      },
+      "career": {
+        "games": 38,
+        "statA": 1057,
+        "statB": 4456
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "NYJ-FS-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Frank Mayer",
+    "jerseyNumber": 21,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "6'5\"",
+      "weight": 274,
+      "college": "Florence-Graham",
+      "experience": 6,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 85556755,
+      "capHit": 5979469,
+      "deadCap": 6987588,
+      "signingBonus": 16811584,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 80,
+      "schemeFit": 94,
+      "speed": 91,
+      "acceleration": 94,
+      "agility": 83,
+      "strength": 67,
+      "tackle": 90,
+      "pursuit": 63,
+      "manCoverage": 59,
+      "zoneCoverage": 58,
+      "kickPower": 77,
+      "kickAccuracy": 63,
+      "catching": 63,
+      "routeRunning": 77,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 697,
+        "statB": 946
+      },
+      "career": {
+        "games": 85,
+        "statA": 4564,
+        "statB": 24
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "NYJ-FS-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Devin Goodwin",
+    "jerseyNumber": 63,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'1\"",
+      "weight": 216,
+      "college": "Ezraland",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 25045781,
+      "capHit": 3971964,
+      "deadCap": 8732148,
+      "signingBonus": 14385568,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 65,
+      "schemeFit": 72,
+      "speed": 88,
+      "acceleration": 79,
+      "agility": 87,
+      "strength": 65,
+      "tackle": 90,
+      "pursuit": 63,
+      "manCoverage": 68,
+      "zoneCoverage": 51,
+      "kickPower": 69,
+      "kickAccuracy": 77,
+      "catching": 72,
+      "routeRunning": 68,
+      "release": 50
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 224,
+        "statB": 538
+      },
+      "career": {
+        "games": 89,
+        "statA": 4867,
+        "statB": 2688
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "NYJ-SS-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Rowan Ward",
+    "jerseyNumber": 28,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 193,
+      "college": "Laronview",
+      "experience": 9,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 61693359,
+      "capHit": 19971160,
+      "deadCap": 340396,
+      "signingBonus": 9371403,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 78,
+      "schemeFit": 74,
+      "speed": 73,
+      "acceleration": 83,
+      "agility": 76,
+      "strength": 69,
+      "tackle": 75,
+      "pursuit": 65,
+      "manCoverage": 82,
+      "zoneCoverage": 61,
+      "kickPower": 64,
+      "kickAccuracy": 58,
+      "catching": 65,
+      "routeRunning": 63,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 278,
+        "statB": 158
+      },
+      "career": {
+        "games": 86,
+        "statA": 514,
+        "statB": 1026
+      }
+    },
+    "photo": "/player_faces/45.png"
+  },
+  {
+    "id": "NYJ-SS-2",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Mason Borer",
+    "jerseyNumber": 10,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 26,
+      "height": "5'9\"",
+      "weight": 218,
+      "college": "Yeseniaton",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 78637344,
+      "capHit": 24512410,
+      "deadCap": 1281969,
+      "signingBonus": 19803303,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 83,
+      "schemeFit": 79,
+      "speed": 90,
+      "acceleration": 73,
+      "agility": 72,
+      "strength": 79,
+      "tackle": 61,
+      "pursuit": 61,
+      "manCoverage": 74,
+      "zoneCoverage": 89,
+      "kickPower": 50,
+      "kickAccuracy": 74,
+      "catching": 82,
+      "routeRunning": 70,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 4,
+        "statB": 729
+      },
+      "career": {
+        "games": 44,
+        "statA": 4597,
+        "statB": 3349
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "NYJ-K-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Ivan Schmitt",
+    "jerseyNumber": 5,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "5'10\"",
+      "weight": 210,
+      "college": "Fort Larryhaven",
+      "experience": 5,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 46615811,
+      "capHit": 22649763,
+      "deadCap": 2708358,
+      "signingBonus": 1500804,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 80,
+      "schemeFit": 74,
+      "speed": 92,
+      "acceleration": 88,
+      "agility": 76,
+      "strength": 78,
+      "tackle": 69,
+      "pursuit": 80,
+      "manCoverage": 63,
+      "zoneCoverage": 87,
+      "kickPower": 54,
+      "kickAccuracy": 88,
+      "catching": 60,
+      "routeRunning": 57,
+      "release": 72
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 908,
+        "statB": 418
+      },
+      "career": {
+        "games": 100,
+        "statA": 2207,
+        "statB": 3012
+      }
+    },
+    "photo": "/player_faces/20.png"
+  },
+  {
+    "id": "NYJ-P-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Joon Deckow",
+    "jerseyNumber": 37,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 29,
+      "height": "6'4\"",
+      "weight": 207,
+      "college": "Lacyview",
+      "experience": 10,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 1353102,
+      "capHit": 9751083,
+      "deadCap": 9297517,
+      "signingBonus": 9032159,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 71,
+      "schemeFit": 77,
+      "speed": 72,
+      "acceleration": 75,
+      "agility": 92,
+      "strength": 81,
+      "tackle": 83,
+      "pursuit": 67,
+      "manCoverage": 64,
+      "zoneCoverage": 87,
+      "kickPower": 69,
+      "kickAccuracy": 64,
+      "catching": 65,
+      "routeRunning": 79,
+      "release": 86
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 872,
+        "statB": 477
+      },
+      "career": {
+        "games": 100,
+        "statA": 3474,
+        "statB": 793
+      }
+    },
+    "photo": "/player_faces/38.png"
+  },
+  {
+    "id": "NYJ-LS-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Austin Kessler",
+    "jerseyNumber": 20,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 216,
+      "college": "Dooleycester",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 92114311,
+      "capHit": 2207376,
+      "deadCap": 9374716,
+      "signingBonus": 18234149,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 88,
+      "schemeFit": 83,
+      "speed": 81,
+      "acceleration": 84,
+      "agility": 80,
+      "strength": 86,
+      "tackle": 72,
+      "pursuit": 62,
+      "manCoverage": 85,
+      "zoneCoverage": 75,
+      "kickPower": 83,
+      "kickAccuracy": 86,
+      "catching": 68,
+      "routeRunning": 95,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 146,
+        "statB": 428
+      },
+      "career": {
+        "games": 14,
+        "statA": 2583,
+        "statB": 2761
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "NYJ-KR-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Micah Kreiger",
+    "jerseyNumber": 31,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 33,
+      "height": "5'9\"",
+      "weight": 239,
+      "college": "East Rosieburgh",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 50029301,
+      "capHit": 11661077,
+      "deadCap": 8885667,
+      "signingBonus": 18037272,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 65,
+      "schemeFit": 76,
+      "speed": 77,
+      "acceleration": 94,
+      "agility": 80,
+      "strength": 89,
+      "tackle": 95,
+      "pursuit": 91,
+      "manCoverage": 85,
+      "zoneCoverage": 59,
+      "kickPower": 54,
+      "kickAccuracy": 62,
+      "catching": 50,
+      "routeRunning": 89,
+      "release": 56
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 587,
+        "statB": 55
+      },
+      "career": {
+        "games": 85,
+        "statA": 4739,
+        "statB": 953
+      }
+    },
+    "photo": "/player_faces/17.png"
+  },
+  {
+    "id": "NYJ-PR-1",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "name": "Alan Altenwerth",
+    "jerseyNumber": 13,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'9\"",
+      "weight": 318,
+      "college": "Dawsonfurt",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 20968174,
+      "capHit": 5808560,
+      "deadCap": 8520262,
+      "signingBonus": 16422832,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 70,
+      "speed": 85,
+      "acceleration": 85,
+      "agility": 94,
+      "strength": 66,
+      "tackle": 74,
+      "pursuit": 87,
+      "manCoverage": 67,
+      "zoneCoverage": 50,
+      "kickPower": 77,
+      "kickAccuracy": 81,
+      "catching": 75,
+      "routeRunning": 83,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 805,
+        "statB": 162
+      },
+      "career": {
+        "games": 51,
+        "statA": 4146,
+        "statB": 3286
+      }
+    },
+    "photo": "/player_faces/12.png"
+  }
 ]

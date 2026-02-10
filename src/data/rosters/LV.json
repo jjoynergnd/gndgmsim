@@ -1,32 +1,3766 @@
-﻿[
-    {
-        "position":  "QB",
-        "overall":  90,
-        "name":  "Xavier Bennett",
-        "id":  "LV-QB0"
+[
+  {
+    "id": "LV-QB-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Oscar Tillman",
+    "jerseyNumber": 64,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'4\"",
+      "weight": 269,
+      "college": "Keatonburgh",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Left"
     },
-    {
-        "position":  "RB",
-        "overall":  89,
-        "name":  "Chase Rourke",
-        "id":  "LV-RB1"
+    "contract": {
+      "years": 1,
+      "totalValue": 78411416,
+      "capHit": 18731644,
+      "deadCap": 9458300,
+      "signingBonus": 12298796,
+      "expiresYear": 2027,
+      "contractType": "Standard"
     },
-    {
-        "position":  "WR",
-        "overall":  83,
-        "name":  "Xavier Foster",
-        "id":  "LV-WR2"
+    "ratings": {
+      "overall": 63,
+      "potential": 64,
+      "schemeFit": 80,
+      "speed": 75,
+      "acceleration": 77,
+      "agility": 81,
+      "strength": 60,
+      "tackle": 81,
+      "pursuit": 87,
+      "manCoverage": 58,
+      "zoneCoverage": 61,
+      "kickPower": 71,
+      "kickAccuracy": 85,
+      "catching": 58,
+      "routeRunning": 84,
+      "release": 55,
+      "throwPower": 78,
+      "shortAccuracy": 79,
+      "mediumAccuracy": 89,
+      "deepAccuracy": 63
     },
-    {
-        "position":  "LB",
-        "overall":  68,
-        "name":  "Logan Halford",
-        "id":  "LV-LB3"
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
     },
-    {
-        "position":  "CB",
-        "overall":  76,
-        "name":  "Jalen Douglas",
-        "id":  "LV-CB4"
-    }
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 958,
+        "statB": 882
+      },
+      "career": {
+        "games": 83,
+        "statA": 516,
+        "statB": 2676
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "LV-QB-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Sergei Hartmann",
+    "jerseyNumber": 82,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 34,
+      "height": "6'0\"",
+      "weight": 192,
+      "college": "North Wavaton",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 39547659,
+      "capHit": 14355998,
+      "deadCap": 2484929,
+      "signingBonus": 16489416,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 78,
+      "schemeFit": 85,
+      "speed": 90,
+      "acceleration": 74,
+      "agility": 74,
+      "strength": 63,
+      "tackle": 89,
+      "pursuit": 86,
+      "manCoverage": 54,
+      "zoneCoverage": 72,
+      "kickPower": 92,
+      "kickAccuracy": 56,
+      "catching": 85,
+      "routeRunning": 92,
+      "release": 67,
+      "throwPower": 86,
+      "shortAccuracy": 64,
+      "mediumAccuracy": 68,
+      "deepAccuracy": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 940,
+        "statB": 541
+      },
+      "career": {
+        "games": 59,
+        "statA": 1342,
+        "statB": 4407
+      }
+    },
+    "photo": "/player_faces/19.png"
+  },
+  {
+    "id": "LV-QB-3",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Igor Jacobi",
+    "jerseyNumber": 91,
+    "position": "QB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 25,
+      "height": "6'1\"",
+      "weight": 266,
+      "college": "South Cathyshire",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 54497193,
+      "capHit": 9395081,
+      "deadCap": 4488419,
+      "signingBonus": 10591211,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 70,
+      "schemeFit": 86,
+      "speed": 77,
+      "acceleration": 90,
+      "agility": 87,
+      "strength": 91,
+      "tackle": 79,
+      "pursuit": 80,
+      "manCoverage": 79,
+      "zoneCoverage": 66,
+      "kickPower": 94,
+      "kickAccuracy": 56,
+      "catching": 95,
+      "routeRunning": 64,
+      "release": 71,
+      "throwPower": 80,
+      "shortAccuracy": 93,
+      "mediumAccuracy": 75,
+      "deepAccuracy": 76
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 522,
+        "statB": 823
+      },
+      "career": {
+        "games": 84,
+        "statA": 366,
+        "statB": 3768
+      }
+    },
+    "photo": "/player_faces/10.png"
+  },
+  {
+    "id": "LV-RB-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Nolan Moore",
+    "jerseyNumber": 32,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'10\"",
+      "weight": 191,
+      "college": "Philipstad",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 3982060,
+      "capHit": 24239802,
+      "deadCap": 2475580,
+      "signingBonus": 12274897,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 77,
+      "schemeFit": 89,
+      "speed": 72,
+      "acceleration": 91,
+      "agility": 84,
+      "strength": 83,
+      "tackle": 77,
+      "pursuit": 78,
+      "manCoverage": 75,
+      "zoneCoverage": 68,
+      "kickPower": 87,
+      "kickAccuracy": 78,
+      "catching": 84,
+      "routeRunning": 93,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 340,
+        "statB": 978
+      },
+      "career": {
+        "games": 92,
+        "statA": 2016,
+        "statB": 1535
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "LV-RB-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Joshua Hudson",
+    "jerseyNumber": 60,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'1\"",
+      "weight": 313,
+      "college": "Bridgeport",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 16096552,
+      "capHit": 9553113,
+      "deadCap": 9699992,
+      "signingBonus": 14521857,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 64,
+      "schemeFit": 84,
+      "speed": 72,
+      "acceleration": 84,
+      "agility": 86,
+      "strength": 78,
+      "tackle": 91,
+      "pursuit": 93,
+      "manCoverage": 82,
+      "zoneCoverage": 81,
+      "kickPower": 56,
+      "kickAccuracy": 92,
+      "catching": 63,
+      "routeRunning": 66,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 894,
+        "statB": 417
+      },
+      "career": {
+        "games": 22,
+        "statA": 1961,
+        "statB": 433
+      }
+    },
+    "photo": "/player_faces/26.png"
+  },
+  {
+    "id": "LV-RB-3",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Gavin Zieme",
+    "jerseyNumber": 68,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 206,
+      "college": "Monterey Park",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 35974179,
+      "capHit": 21560321,
+      "deadCap": 8951815,
+      "signingBonus": 6911841,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 89,
+      "schemeFit": 83,
+      "speed": 76,
+      "acceleration": 80,
+      "agility": 90,
+      "strength": 70,
+      "tackle": 68,
+      "pursuit": 84,
+      "manCoverage": 88,
+      "zoneCoverage": 56,
+      "kickPower": 71,
+      "kickAccuracy": 51,
+      "catching": 54,
+      "routeRunning": 59,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 859,
+        "statB": 432
+      },
+      "career": {
+        "games": 82,
+        "statA": 4792,
+        "statB": 2270
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "LV-RB-4",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Mikhail Cole",
+    "jerseyNumber": 23,
+    "position": "RB",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 33,
+      "height": "6'0\"",
+      "weight": 317,
+      "college": "Harrisburg",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 8860230,
+      "capHit": 3461645,
+      "deadCap": 6249014,
+      "signingBonus": 9458527,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 66,
+      "schemeFit": 87,
+      "speed": 86,
+      "acceleration": 81,
+      "agility": 94,
+      "strength": 95,
+      "tackle": 65,
+      "pursuit": 62,
+      "manCoverage": 68,
+      "zoneCoverage": 84,
+      "kickPower": 84,
+      "kickAccuracy": 86,
+      "catching": 69,
+      "routeRunning": 74,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 434,
+        "statB": 996
+      },
+      "career": {
+        "games": 60,
+        "statA": 200,
+        "statB": 2651
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "LV-WR-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Anthony Dietrich",
+    "jerseyNumber": 23,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "5'10\"",
+      "weight": 329,
+      "college": "New Joana",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 46797817,
+      "capHit": 15221343,
+      "deadCap": 5049254,
+      "signingBonus": 9724112,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 68,
+      "schemeFit": 79,
+      "speed": 75,
+      "acceleration": 83,
+      "agility": 87,
+      "strength": 94,
+      "tackle": 86,
+      "pursuit": 93,
+      "manCoverage": 83,
+      "zoneCoverage": 54,
+      "kickPower": 86,
+      "kickAccuracy": 66,
+      "catching": 81,
+      "routeRunning": 76,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 597,
+        "statB": 427
+      },
+      "career": {
+        "games": 39,
+        "statA": 1217,
+        "statB": 4291
+      }
+    },
+    "photo": "/player_faces/12.png"
+  },
+  {
+    "id": "LV-WR-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Nicholas O'Hara",
+    "jerseyNumber": 54,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "6'3\"",
+      "weight": 296,
+      "college": "Fort Martine",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 21752765,
+      "capHit": 7395318,
+      "deadCap": 9237241,
+      "signingBonus": 17401635,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 68,
+      "schemeFit": 78,
+      "speed": 82,
+      "acceleration": 95,
+      "agility": 86,
+      "strength": 95,
+      "tackle": 80,
+      "pursuit": 74,
+      "manCoverage": 50,
+      "zoneCoverage": 51,
+      "kickPower": 75,
+      "kickAccuracy": 56,
+      "catching": 78,
+      "routeRunning": 72,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 772,
+        "statB": 22
+      },
+      "career": {
+        "games": 61,
+        "statA": 3567,
+        "statB": 1327
+      }
+    },
+    "photo": "/player_faces/8.png"
+  },
+  {
+    "id": "LV-WR-3",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Carter Little",
+    "jerseyNumber": 26,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 29,
+      "height": "5'10\"",
+      "weight": 237,
+      "college": "West Elfrieda",
+      "experience": 11,
+      "archetype": "Technical",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 2420112,
+      "capHit": 23699235,
+      "deadCap": 2550999,
+      "signingBonus": 14290023,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 75,
+      "schemeFit": 95,
+      "speed": 73,
+      "acceleration": 81,
+      "agility": 83,
+      "strength": 67,
+      "tackle": 62,
+      "pursuit": 67,
+      "manCoverage": 89,
+      "zoneCoverage": 89,
+      "kickPower": 71,
+      "kickAccuracy": 88,
+      "catching": 54,
+      "routeRunning": 55,
+      "release": 68
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 236,
+        "statB": 845
+      },
+      "career": {
+        "games": 68,
+        "statA": 1813,
+        "statB": 120
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "LV-WR-4",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Samuel Bednar",
+    "jerseyNumber": 53,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'1\"",
+      "weight": 255,
+      "college": "Yakima",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 99391201,
+      "capHit": 11652692,
+      "deadCap": 9681944,
+      "signingBonus": 4820039,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 78,
+      "schemeFit": 88,
+      "speed": 93,
+      "acceleration": 83,
+      "agility": 76,
+      "strength": 63,
+      "tackle": 81,
+      "pursuit": 74,
+      "manCoverage": 61,
+      "zoneCoverage": 69,
+      "kickPower": 71,
+      "kickAccuracy": 87,
+      "catching": 73,
+      "routeRunning": 86,
+      "release": 59
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 531,
+        "statB": 365
+      },
+      "career": {
+        "games": 74,
+        "statA": 3889,
+        "statB": 3594
+      }
+    },
+    "photo": "/player_faces/23.png"
+  },
+  {
+    "id": "LV-WR-5",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Nolan Greenholt",
+    "jerseyNumber": 59,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 5,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 284,
+      "college": "Mosefield",
+      "experience": 11,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 82724403,
+      "capHit": 15045269,
+      "deadCap": 5754972,
+      "signingBonus": 15614544,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 84,
+      "schemeFit": 87,
+      "speed": 95,
+      "acceleration": 74,
+      "agility": 86,
+      "strength": 78,
+      "tackle": 75,
+      "pursuit": 69,
+      "manCoverage": 85,
+      "zoneCoverage": 73,
+      "kickPower": 63,
+      "kickAccuracy": 92,
+      "catching": 80,
+      "routeRunning": 91,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 8,
+        "statA": 233,
+        "statB": 370
+      },
+      "career": {
+        "games": 117,
+        "statA": 4261,
+        "statB": 206
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "LV-WR-6",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Zane Mante",
+    "jerseyNumber": 99,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 6,
+    "vitals": {
+      "age": 26,
+      "height": "6'0\"",
+      "weight": 211,
+      "college": "Kristofercester",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 89410331,
+      "capHit": 3088036,
+      "deadCap": 7574997,
+      "signingBonus": 16740449,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 84,
+      "schemeFit": 82,
+      "speed": 92,
+      "acceleration": 85,
+      "agility": 79,
+      "strength": 82,
+      "tackle": 78,
+      "pursuit": 93,
+      "manCoverage": 51,
+      "zoneCoverage": 86,
+      "kickPower": 83,
+      "kickAccuracy": 69,
+      "catching": 82,
+      "routeRunning": 68,
+      "release": 73
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 13,
+        "statA": 287,
+        "statB": 841
+      },
+      "career": {
+        "games": 31,
+        "statA": 1476,
+        "statB": 2213
+      }
+    },
+    "photo": "/player_faces/32.png"
+  },
+  {
+    "id": "LV-WR-7",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Andrew Bailey",
+    "jerseyNumber": 35,
+    "position": "WR",
+    "side": "OFF",
+    "depth": 7,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 281,
+      "college": "Fort Marjolaine",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 88685537,
+      "capHit": 13936241,
+      "deadCap": 4836590,
+      "signingBonus": 7569634,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 82,
+      "potential": 85,
+      "schemeFit": 94,
+      "speed": 80,
+      "acceleration": 93,
+      "agility": 74,
+      "strength": 81,
+      "tackle": 83,
+      "pursuit": 69,
+      "manCoverage": 72,
+      "zoneCoverage": 88,
+      "kickPower": 91,
+      "kickAccuracy": 66,
+      "catching": 68,
+      "routeRunning": 71,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 729,
+        "statB": 766
+      },
+      "career": {
+        "games": 95,
+        "statA": 1400,
+        "statB": 3339
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LV-TE-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Finn Murphy",
+    "jerseyNumber": 58,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "6'2\"",
+      "weight": 211,
+      "college": "Casas Adobes",
+      "experience": 8,
+      "archetype": "Speed",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 61365270,
+      "capHit": 23801980,
+      "deadCap": 430399,
+      "signingBonus": 17680702,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 71,
+      "schemeFit": 78,
+      "speed": 92,
+      "acceleration": 78,
+      "agility": 91,
+      "strength": 84,
+      "tackle": 75,
+      "pursuit": 79,
+      "manCoverage": 62,
+      "zoneCoverage": 86,
+      "kickPower": 60,
+      "kickAccuracy": 56,
+      "catching": 52,
+      "routeRunning": 79,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 571,
+        "statB": 760
+      },
+      "career": {
+        "games": 33,
+        "statA": 237,
+        "statB": 1337
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LV-TE-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Reed Okuneva",
+    "jerseyNumber": 96,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 242,
+      "college": "Fort Christiana",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 38193979,
+      "capHit": 11191717,
+      "deadCap": 3197958,
+      "signingBonus": 12527404,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 61,
+      "schemeFit": 74,
+      "speed": 88,
+      "acceleration": 77,
+      "agility": 70,
+      "strength": 77,
+      "tackle": 84,
+      "pursuit": 65,
+      "manCoverage": 63,
+      "zoneCoverage": 87,
+      "kickPower": 89,
+      "kickAccuracy": 74,
+      "catching": 77,
+      "routeRunning": 62,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 792,
+        "statB": 376
+      },
+      "career": {
+        "games": 88,
+        "statA": 4544,
+        "statB": 1564
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "LV-TE-3",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Nikolai Terry",
+    "jerseyNumber": 63,
+    "position": "TE",
+    "side": "OFF",
+    "depth": 3,
+    "vitals": {
+      "age": 32,
+      "height": "6'5\"",
+      "weight": 232,
+      "college": "Tomasaworth",
+      "experience": 3,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 63514702,
+      "capHit": 10370565,
+      "deadCap": 1927841,
+      "signingBonus": 3027075,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 71,
+      "schemeFit": 85,
+      "speed": 95,
+      "acceleration": 85,
+      "agility": 94,
+      "strength": 94,
+      "tackle": 90,
+      "pursuit": 79,
+      "manCoverage": 77,
+      "zoneCoverage": 83,
+      "kickPower": 60,
+      "kickAccuracy": 94,
+      "catching": 93,
+      "routeRunning": 79,
+      "release": 67
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 896,
+        "statB": 997
+      },
+      "career": {
+        "games": 6,
+        "statA": 76,
+        "statB": 2056
+      }
+    },
+    "photo": "/player_faces/27.png"
+  },
+  {
+    "id": "LV-LT-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Trevor Bogisich",
+    "jerseyNumber": 77,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 240,
+      "college": "Coachella",
+      "experience": 6,
+      "archetype": "Playmaker",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 69441336,
+      "capHit": 24303654,
+      "deadCap": 651532,
+      "signingBonus": 15776417,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 61,
+      "potential": 69,
+      "schemeFit": 88,
+      "speed": 72,
+      "acceleration": 72,
+      "agility": 79,
+      "strength": 77,
+      "tackle": 81,
+      "pursuit": 60,
+      "manCoverage": 82,
+      "zoneCoverage": 57,
+      "kickPower": 54,
+      "kickAccuracy": 66,
+      "catching": 61,
+      "routeRunning": 95,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 561,
+        "statB": 589
+      },
+      "career": {
+        "games": 42,
+        "statA": 51,
+        "statB": 2260
+      }
+    },
+    "photo": "/player_faces/1.png"
+  },
+  {
+    "id": "LV-LT-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Daichi Cartwright",
+    "jerseyNumber": 8,
+    "position": "LT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'0\"",
+      "weight": 291,
+      "college": "Port Brandomouth",
+      "experience": 10,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 40270530,
+      "capHit": 3146905,
+      "deadCap": 1188391,
+      "signingBonus": 11132598,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 87,
+      "schemeFit": 90,
+      "speed": 79,
+      "acceleration": 88,
+      "agility": 88,
+      "strength": 87,
+      "tackle": 82,
+      "pursuit": 92,
+      "manCoverage": 58,
+      "zoneCoverage": 68,
+      "kickPower": 62,
+      "kickAccuracy": 69,
+      "catching": 95,
+      "routeRunning": 92,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 589,
+        "statB": 975
+      },
+      "career": {
+        "games": 35,
+        "statA": 788,
+        "statB": 2807
+      }
+    },
+    "photo": "/player_faces/37.png"
+  },
+  {
+    "id": "LV-LG-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Raymond Hessel",
+    "jerseyNumber": 97,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'2\"",
+      "weight": 330,
+      "college": "Fort Adella",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 75683791,
+      "capHit": 8582577,
+      "deadCap": 9510094,
+      "signingBonus": 11705951,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 70,
+      "potential": 73,
+      "schemeFit": 94,
+      "speed": 77,
+      "acceleration": 90,
+      "agility": 74,
+      "strength": 76,
+      "tackle": 66,
+      "pursuit": 81,
+      "manCoverage": 78,
+      "zoneCoverage": 90,
+      "kickPower": 87,
+      "kickAccuracy": 56,
+      "catching": 69,
+      "routeRunning": 88,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 667,
+        "statB": 833
+      },
+      "career": {
+        "games": 14,
+        "statA": 1845,
+        "statB": 646
+      }
+    },
+    "photo": "/player_faces/34.png"
+  },
+  {
+    "id": "LV-LG-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Joshua Mertz",
+    "jerseyNumber": 35,
+    "position": "LG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "6'2\"",
+      "weight": 220,
+      "college": "North Vitaville",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 107489559,
+      "capHit": 9006635,
+      "deadCap": 4900737,
+      "signingBonus": 4511778,
+      "expiresYear": 2029,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 65,
+      "schemeFit": 72,
+      "speed": 73,
+      "acceleration": 79,
+      "agility": 90,
+      "strength": 65,
+      "tackle": 61,
+      "pursuit": 91,
+      "manCoverage": 69,
+      "zoneCoverage": 69,
+      "kickPower": 57,
+      "kickAccuracy": 65,
+      "catching": 83,
+      "routeRunning": 93,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 1000,
+        "statB": 926
+      },
+      "career": {
+        "games": 120,
+        "statA": 544,
+        "statB": 1759
+      }
+    },
+    "photo": "/player_faces/3.png"
+  },
+  {
+    "id": "LV-C-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Ibrahim Botsford",
+    "jerseyNumber": 4,
+    "position": "C",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 260,
+      "college": "Rowetown",
+      "experience": 1,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 9107587,
+      "capHit": 8308160,
+      "deadCap": 6283007,
+      "signingBonus": 13722224,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 75,
+      "schemeFit": 76,
+      "speed": 89,
+      "acceleration": 79,
+      "agility": 81,
+      "strength": 77,
+      "tackle": 86,
+      "pursuit": 69,
+      "manCoverage": 59,
+      "zoneCoverage": 72,
+      "kickPower": 63,
+      "kickAccuracy": 88,
+      "catching": 93,
+      "routeRunning": 68,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 422,
+        "statB": 936
+      },
+      "career": {
+        "games": 105,
+        "statA": 975,
+        "statB": 4657
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "LV-C-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Harold Green",
+    "jerseyNumber": 78,
+    "position": "C",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'4\"",
+      "weight": 281,
+      "college": "Maritzaview",
+      "experience": 12,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 68280938,
+      "capHit": 24167376,
+      "deadCap": 3962455,
+      "signingBonus": 6500071,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 69,
+      "schemeFit": 85,
+      "speed": 77,
+      "acceleration": 88,
+      "agility": 71,
+      "strength": 70,
+      "tackle": 94,
+      "pursuit": 89,
+      "manCoverage": 76,
+      "zoneCoverage": 51,
+      "kickPower": 67,
+      "kickAccuracy": 78,
+      "catching": 95,
+      "routeRunning": 60,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 179,
+        "statB": 551
+      },
+      "career": {
+        "games": 117,
+        "statA": 4029,
+        "statB": 883
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LV-RG-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Carl Huels",
+    "jerseyNumber": 69,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 216,
+      "college": "Dietrichtown",
+      "experience": 9,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 9313128,
+      "capHit": 11692388,
+      "deadCap": 785615,
+      "signingBonus": 7076857,
+      "expiresYear": 2029,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 73,
+      "schemeFit": 87,
+      "speed": 77,
+      "acceleration": 78,
+      "agility": 93,
+      "strength": 89,
+      "tackle": 93,
+      "pursuit": 93,
+      "manCoverage": 69,
+      "zoneCoverage": 90,
+      "kickPower": 90,
+      "kickAccuracy": 72,
+      "catching": 65,
+      "routeRunning": 82,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 965,
+        "statB": 612
+      },
+      "career": {
+        "games": 33,
+        "statA": 637,
+        "statB": 4527
+      }
+    },
+    "photo": "/player_faces/16.png"
+  },
+  {
+    "id": "LV-RG-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Nathan Bogisich",
+    "jerseyNumber": 50,
+    "position": "RG",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 27,
+      "height": "6'4\"",
+      "weight": 285,
+      "college": "Archibaldborough",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 73142035,
+      "capHit": 18444542,
+      "deadCap": 4421611,
+      "signingBonus": 10407799,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 90,
+      "schemeFit": 79,
+      "speed": 79,
+      "acceleration": 80,
+      "agility": 71,
+      "strength": 74,
+      "tackle": 86,
+      "pursuit": 85,
+      "manCoverage": 83,
+      "zoneCoverage": 68,
+      "kickPower": 55,
+      "kickAccuracy": 91,
+      "catching": 62,
+      "routeRunning": 87,
+      "release": 94
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 919,
+        "statB": 167
+      },
+      "career": {
+        "games": 76,
+        "statA": 4220,
+        "statB": 2988
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LV-RT-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Mitchell Konopelski",
+    "jerseyNumber": 18,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 34,
+      "height": "5'11\"",
+      "weight": 203,
+      "college": "Miloberg",
+      "experience": 8,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 10614779,
+      "capHit": 11717499,
+      "deadCap": 4040972,
+      "signingBonus": 9429315,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 73,
+      "potential": 81,
+      "schemeFit": 95,
+      "speed": 86,
+      "acceleration": 70,
+      "agility": 71,
+      "strength": 92,
+      "tackle": 87,
+      "pursuit": 89,
+      "manCoverage": 85,
+      "zoneCoverage": 66,
+      "kickPower": 90,
+      "kickAccuracy": 88,
+      "catching": 93,
+      "routeRunning": 55,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 425,
+        "statB": 187
+      },
+      "career": {
+        "games": 32,
+        "statA": 4388,
+        "statB": 2662
+      }
+    },
+    "photo": "/player_faces/33.png"
+  },
+  {
+    "id": "LV-RT-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Chase Murphy",
+    "jerseyNumber": 4,
+    "position": "RT",
+    "side": "OFF",
+    "depth": 2,
+    "vitals": {
+      "age": 24,
+      "height": "6'0\"",
+      "weight": 229,
+      "college": "New Joanville",
+      "experience": 7,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 106034361,
+      "capHit": 23726578,
+      "deadCap": 8376442,
+      "signingBonus": 15852827,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 85,
+      "potential": 86,
+      "schemeFit": 94,
+      "speed": 76,
+      "acceleration": 89,
+      "agility": 84,
+      "strength": 75,
+      "tackle": 88,
+      "pursuit": 92,
+      "manCoverage": 72,
+      "zoneCoverage": 75,
+      "kickPower": 76,
+      "kickAccuracy": 92,
+      "catching": 92,
+      "routeRunning": 87,
+      "release": 64
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 3,
+        "statA": 215,
+        "statB": 353
+      },
+      "career": {
+        "games": 5,
+        "statA": 1262,
+        "statB": 4673
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LV-LDE-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Bryan Dare",
+    "jerseyNumber": 50,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'3\"",
+      "weight": 255,
+      "college": "Jaycecester",
+      "experience": 6,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 28112269,
+      "capHit": 9926575,
+      "deadCap": 1463288,
+      "signingBonus": 18617024,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 69,
+      "potential": 71,
+      "schemeFit": 90,
+      "speed": 82,
+      "acceleration": 82,
+      "agility": 89,
+      "strength": 61,
+      "tackle": 73,
+      "pursuit": 68,
+      "manCoverage": 81,
+      "zoneCoverage": 83,
+      "kickPower": 92,
+      "kickAccuracy": 79,
+      "catching": 54,
+      "routeRunning": 87,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 367,
+        "statB": 958
+      },
+      "career": {
+        "games": 56,
+        "statA": 333,
+        "statB": 1205
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LV-LDE-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Carter Trantow",
+    "jerseyNumber": 31,
+    "position": "LDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 31,
+      "height": "6'4\"",
+      "weight": 252,
+      "college": "Treutelburgh",
+      "experience": 11,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 78387725,
+      "capHit": 19111435,
+      "deadCap": 1311293,
+      "signingBonus": 5704785,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 74,
+      "schemeFit": 78,
+      "speed": 90,
+      "acceleration": 73,
+      "agility": 82,
+      "strength": 60,
+      "tackle": 65,
+      "pursuit": 87,
+      "manCoverage": 51,
+      "zoneCoverage": 78,
+      "kickPower": 63,
+      "kickAccuracy": 65,
+      "catching": 59,
+      "routeRunning": 51,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 16,
+        "statA": 4,
+        "statB": 986
+      },
+      "career": {
+        "games": 50,
+        "statA": 1191,
+        "statB": 1384
+      }
+    },
+    "photo": "/player_faces/39.png"
+  },
+  {
+    "id": "LV-RDE-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Charles Runolfsdottir",
+    "jerseyNumber": 69,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "5'9\"",
+      "weight": 203,
+      "college": "Willyworth",
+      "experience": 6,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 75041313,
+      "capHit": 2434954,
+      "deadCap": 5248465,
+      "signingBonus": 4526098,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 83,
+      "schemeFit": 74,
+      "speed": 74,
+      "acceleration": 72,
+      "agility": 87,
+      "strength": 63,
+      "tackle": 79,
+      "pursuit": 60,
+      "manCoverage": 68,
+      "zoneCoverage": 61,
+      "kickPower": 89,
+      "kickAccuracy": 61,
+      "catching": 94,
+      "routeRunning": 56,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 12,
+        "statA": 878,
+        "statB": 468
+      },
+      "career": {
+        "games": 17,
+        "statA": 1219,
+        "statB": 2075
+      }
+    },
+    "photo": "/player_faces/29.png"
+  },
+  {
+    "id": "LV-RDE-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Alan O'Hara",
+    "jerseyNumber": 97,
+    "position": "RDE",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "5'10\"",
+      "weight": 200,
+      "college": "New Britain",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 119889045,
+      "capHit": 11549826,
+      "deadCap": 2463997,
+      "signingBonus": 3200295,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 81,
+      "potential": 88,
+      "schemeFit": 70,
+      "speed": 70,
+      "acceleration": 90,
+      "agility": 74,
+      "strength": 69,
+      "tackle": 81,
+      "pursuit": 70,
+      "manCoverage": 72,
+      "zoneCoverage": 56,
+      "kickPower": 66,
+      "kickAccuracy": 65,
+      "catching": 82,
+      "routeRunning": 59,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 25,
+        "statB": 739
+      },
+      "career": {
+        "games": 41,
+        "statA": 708,
+        "statB": 3387
+      }
+    },
+    "photo": "/player_faces/9.png"
+  },
+  {
+    "id": "LV-DT-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Diego Berge",
+    "jerseyNumber": 15,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "5'11\"",
+      "weight": 233,
+      "college": "Pompano Beach",
+      "experience": 0,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 33257663,
+      "capHit": 17079890,
+      "deadCap": 4490675,
+      "signingBonus": 14574567,
+      "expiresYear": 2027,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 78,
+      "potential": 88,
+      "schemeFit": 74,
+      "speed": 91,
+      "acceleration": 95,
+      "agility": 70,
+      "strength": 74,
+      "tackle": 83,
+      "pursuit": 79,
+      "manCoverage": 55,
+      "zoneCoverage": 65,
+      "kickPower": 92,
+      "kickAccuracy": 95,
+      "catching": 73,
+      "routeRunning": 88,
+      "release": 83
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 710,
+        "statB": 577
+      },
+      "career": {
+        "games": 82,
+        "statA": 2948,
+        "statB": 4523
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "LV-DT-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Pablo Rolfson",
+    "jerseyNumber": 31,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 21,
+      "height": "6'3\"",
+      "weight": 267,
+      "college": "Lake Percivalburgh",
+      "experience": 4,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 20188525,
+      "capHit": 2480847,
+      "deadCap": 5378311,
+      "signingBonus": 16559735,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 71,
+      "speed": 95,
+      "acceleration": 74,
+      "agility": 93,
+      "strength": 83,
+      "tackle": 65,
+      "pursuit": 77,
+      "manCoverage": 78,
+      "zoneCoverage": 88,
+      "kickPower": 66,
+      "kickAccuracy": 85,
+      "catching": 52,
+      "routeRunning": 71,
+      "release": 82
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 837,
+        "statB": 337
+      },
+      "career": {
+        "games": 77,
+        "statA": 4265,
+        "statB": 2121
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "LV-DT-3",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Damien Kuphal",
+    "jerseyNumber": 36,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 24,
+      "height": "6'4\"",
+      "weight": 297,
+      "college": "Irvine",
+      "experience": 12,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 19074521,
+      "capHit": 15990812,
+      "deadCap": 5856174,
+      "signingBonus": 1880634,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 67,
+      "schemeFit": 80,
+      "speed": 79,
+      "acceleration": 93,
+      "agility": 73,
+      "strength": 76,
+      "tackle": 60,
+      "pursuit": 78,
+      "manCoverage": 70,
+      "zoneCoverage": 61,
+      "kickPower": 88,
+      "kickAccuracy": 76,
+      "catching": 85,
+      "routeRunning": 53,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 507,
+        "statB": 820
+      },
+      "career": {
+        "games": 27,
+        "statA": 1393,
+        "statB": 1253
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "LV-DT-4",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Pavel White",
+    "jerseyNumber": 99,
+    "position": "DT",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 21,
+      "height": "6'1\"",
+      "weight": 262,
+      "college": "Burleson",
+      "experience": 7,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 97080819,
+      "capHit": 24711427,
+      "deadCap": 9794869,
+      "signingBonus": 6946596,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 64,
+      "schemeFit": 73,
+      "speed": 77,
+      "acceleration": 90,
+      "agility": 83,
+      "strength": 77,
+      "tackle": 68,
+      "pursuit": 72,
+      "manCoverage": 81,
+      "zoneCoverage": 77,
+      "kickPower": 66,
+      "kickAccuracy": 66,
+      "catching": 69,
+      "routeRunning": 70,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 691,
+        "statB": 899
+      },
+      "career": {
+        "games": 20,
+        "statA": 1107,
+        "statB": 1205
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "LV-LOLB-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Takumi Kassulke-Hansen",
+    "jerseyNumber": 79,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 26,
+      "height": "6'2\"",
+      "weight": 305,
+      "college": "Dickihaven",
+      "experience": 5,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 106333981,
+      "capHit": 1919903,
+      "deadCap": 9367935,
+      "signingBonus": 13453027,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 65,
+      "potential": 67,
+      "schemeFit": 86,
+      "speed": 74,
+      "acceleration": 72,
+      "agility": 94,
+      "strength": 61,
+      "tackle": 77,
+      "pursuit": 93,
+      "manCoverage": 60,
+      "zoneCoverage": 81,
+      "kickPower": 64,
+      "kickAccuracy": 83,
+      "catching": 90,
+      "routeRunning": 72,
+      "release": 92
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 750,
+        "statB": 859
+      },
+      "career": {
+        "games": 102,
+        "statA": 2836,
+        "statB": 3127
+      }
+    },
+    "photo": "/player_faces/15.png"
+  },
+  {
+    "id": "LV-LOLB-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Ivan Huels",
+    "jerseyNumber": 20,
+    "position": "LOLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "6'2\"",
+      "weight": 287,
+      "college": "East Kip",
+      "experience": 2,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 12891996,
+      "capHit": 24698618,
+      "deadCap": 7261089,
+      "signingBonus": 1023738,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 62,
+      "schemeFit": 77,
+      "speed": 77,
+      "acceleration": 87,
+      "agility": 79,
+      "strength": 88,
+      "tackle": 93,
+      "pursuit": 90,
+      "manCoverage": 59,
+      "zoneCoverage": 84,
+      "kickPower": 72,
+      "kickAccuracy": 78,
+      "catching": 80,
+      "routeRunning": 56,
+      "release": 65
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 765,
+        "statB": 298
+      },
+      "career": {
+        "games": 54,
+        "statA": 1446,
+        "statB": 41
+      }
+    },
+    "photo": "/player_faces/11.png"
+  },
+  {
+    "id": "LV-MLB-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Cooper Gorczany",
+    "jerseyNumber": 10,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 308,
+      "college": "St. Cloud",
+      "experience": 12,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 108575122,
+      "capHit": 23070541,
+      "deadCap": 904204,
+      "signingBonus": 6854526,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 74,
+      "schemeFit": 95,
+      "speed": 95,
+      "acceleration": 74,
+      "agility": 71,
+      "strength": 84,
+      "tackle": 87,
+      "pursuit": 92,
+      "manCoverage": 80,
+      "zoneCoverage": 69,
+      "kickPower": 73,
+      "kickAccuracy": 77,
+      "catching": 69,
+      "routeRunning": 61,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 1,
+        "statA": 829,
+        "statB": 428
+      },
+      "career": {
+        "games": 43,
+        "statA": 3089,
+        "statB": 281
+      }
+    },
+    "photo": "/player_faces/13.png"
+  },
+  {
+    "id": "LV-MLB-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Christopher Lindgren",
+    "jerseyNumber": 26,
+    "position": "MLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 33,
+      "height": "5'11\"",
+      "weight": 326,
+      "college": "Hilllhaven",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 60100023,
+      "capHit": 9128372,
+      "deadCap": 3907062,
+      "signingBonus": 19403589,
+      "expiresYear": 2028,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 83,
+      "potential": 91,
+      "schemeFit": 90,
+      "speed": 73,
+      "acceleration": 91,
+      "agility": 86,
+      "strength": 92,
+      "tackle": 94,
+      "pursuit": 95,
+      "manCoverage": 51,
+      "zoneCoverage": 67,
+      "kickPower": 67,
+      "kickAccuracy": 63,
+      "catching": 64,
+      "routeRunning": 59,
+      "release": 58
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 2,
+        "statA": 863,
+        "statB": 174
+      },
+      "career": {
+        "games": 61,
+        "statA": 1915,
+        "statB": 2621
+      }
+    },
+    "photo": "/player_faces/18.png"
+  },
+  {
+    "id": "LV-ROLB-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Ryan Barton",
+    "jerseyNumber": 41,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 32,
+      "height": "6'3\"",
+      "weight": 289,
+      "college": "Libbieview",
+      "experience": 11,
+      "archetype": "Balanced",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 50941085,
+      "capHit": 4438765,
+      "deadCap": 7291558,
+      "signingBonus": 6480445,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 63,
+      "schemeFit": 81,
+      "speed": 81,
+      "acceleration": 94,
+      "agility": 82,
+      "strength": 92,
+      "tackle": 94,
+      "pursuit": 78,
+      "manCoverage": 72,
+      "zoneCoverage": 81,
+      "kickPower": 77,
+      "kickAccuracy": 80,
+      "catching": 68,
+      "routeRunning": 58,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 16,
+        "statB": 793
+      },
+      "career": {
+        "games": 39,
+        "statA": 4304,
+        "statB": 2160
+      }
+    },
+    "photo": "/player_faces/21.png"
+  },
+  {
+    "id": "LV-ROLB-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Alan Price",
+    "jerseyNumber": 52,
+    "position": "ROLB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 22,
+      "height": "5'9\"",
+      "weight": 232,
+      "college": "Fort Federicoberg",
+      "experience": 0,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 16284857,
+      "capHit": 5235628,
+      "deadCap": 4049894,
+      "signingBonus": 9757379,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 65,
+      "schemeFit": 84,
+      "speed": 93,
+      "acceleration": 74,
+      "agility": 91,
+      "strength": 91,
+      "tackle": 71,
+      "pursuit": 90,
+      "manCoverage": 58,
+      "zoneCoverage": 61,
+      "kickPower": 68,
+      "kickAccuracy": 94,
+      "catching": 63,
+      "routeRunning": 64,
+      "release": 88
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 235,
+        "statB": 527
+      },
+      "career": {
+        "games": 54,
+        "statA": 881,
+        "statB": 2026
+      }
+    },
+    "photo": "/player_faces/36.png"
+  },
+  {
+    "id": "LV-CB-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Keith Senger",
+    "jerseyNumber": 89,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'1\"",
+      "weight": 234,
+      "college": "West Maziecester",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 1,
+      "totalValue": 51685504,
+      "capHit": 19071194,
+      "deadCap": 6164926,
+      "signingBonus": 13709416,
+      "expiresYear": 2027,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 67,
+      "schemeFit": 76,
+      "speed": 95,
+      "acceleration": 73,
+      "agility": 74,
+      "strength": 67,
+      "tackle": 77,
+      "pursuit": 84,
+      "manCoverage": 85,
+      "zoneCoverage": 62,
+      "kickPower": 59,
+      "kickAccuracy": 77,
+      "catching": 89,
+      "routeRunning": 88,
+      "release": 78
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 11,
+        "statA": 642,
+        "statB": 803
+      },
+      "career": {
+        "games": 68,
+        "statA": 2605,
+        "statB": 2666
+      }
+    },
+    "photo": "/player_faces/41.png"
+  },
+  {
+    "id": "LV-CB-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Brendan Breitenberg",
+    "jerseyNumber": 59,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 245,
+      "college": "Lake Alicemouth",
+      "experience": 1,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 3,
+      "totalValue": 87357648,
+      "capHit": 4023367,
+      "deadCap": 7359399,
+      "signingBonus": 7630084,
+      "expiresYear": 2029,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 62,
+      "potential": 71,
+      "schemeFit": 91,
+      "speed": 80,
+      "acceleration": 94,
+      "agility": 76,
+      "strength": 77,
+      "tackle": 61,
+      "pursuit": 82,
+      "manCoverage": 73,
+      "zoneCoverage": 84,
+      "kickPower": 82,
+      "kickAccuracy": 63,
+      "catching": 91,
+      "routeRunning": 68,
+      "release": 51
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Average",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 455,
+        "statB": 424
+      },
+      "career": {
+        "games": 94,
+        "statA": 4583,
+        "statB": 367
+      }
+    },
+    "photo": "/player_faces/2.png"
+  },
+  {
+    "id": "LV-CB-3",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Jason Spencer",
+    "jerseyNumber": 19,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 3,
+    "vitals": {
+      "age": 30,
+      "height": "6'5\"",
+      "weight": 196,
+      "college": "Davionfort",
+      "experience": 3,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 118855964,
+      "capHit": 10267486,
+      "deadCap": 752790,
+      "signingBonus": 2432714,
+      "expiresYear": 2028,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 69,
+      "schemeFit": 71,
+      "speed": 94,
+      "acceleration": 73,
+      "agility": 88,
+      "strength": 71,
+      "tackle": 85,
+      "pursuit": 68,
+      "manCoverage": 76,
+      "zoneCoverage": 84,
+      "kickPower": 74,
+      "kickAccuracy": 73,
+      "catching": 89,
+      "routeRunning": 79,
+      "release": 69
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 47,
+        "statB": 274
+      },
+      "career": {
+        "games": 96,
+        "statA": 1030,
+        "statB": 1357
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "LV-CB-4",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Porter Sanford",
+    "jerseyNumber": 20,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 4,
+    "vitals": {
+      "age": 27,
+      "height": "6'5\"",
+      "weight": 189,
+      "college": "South Hunter",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 31194685,
+      "capHit": 12244938,
+      "deadCap": 3280325,
+      "signingBonus": 14396327,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 80,
+      "potential": 89,
+      "schemeFit": 81,
+      "speed": 76,
+      "acceleration": 84,
+      "agility": 70,
+      "strength": 73,
+      "tackle": 64,
+      "pursuit": 85,
+      "manCoverage": 65,
+      "zoneCoverage": 52,
+      "kickPower": 50,
+      "kickAccuracy": 74,
+      "catching": 85,
+      "routeRunning": 69,
+      "release": 62
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Superstar",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 9,
+        "statA": 55,
+        "statB": 74
+      },
+      "career": {
+        "games": 28,
+        "statA": 4718,
+        "statB": 837
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "LV-CB-5",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Spencer Mann",
+    "jerseyNumber": 14,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 5,
+    "vitals": {
+      "age": 27,
+      "height": "6'0\"",
+      "weight": 189,
+      "college": "Port Jedediah",
+      "experience": 3,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 112137289,
+      "capHit": 5955492,
+      "deadCap": 206127,
+      "signingBonus": 974981,
+      "expiresYear": 2031,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 84,
+      "schemeFit": 91,
+      "speed": 81,
+      "acceleration": 77,
+      "agility": 83,
+      "strength": 85,
+      "tackle": 77,
+      "pursuit": 76,
+      "manCoverage": 55,
+      "zoneCoverage": 59,
+      "kickPower": 80,
+      "kickAccuracy": 50,
+      "catching": 69,
+      "routeRunning": 58,
+      "release": 90
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 15,
+        "statA": 965,
+        "statB": 48
+      },
+      "career": {
+        "games": 119,
+        "statA": 4639,
+        "statB": 1135
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "LV-CB-6",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Sora Hermann",
+    "jerseyNumber": 76,
+    "position": "CB",
+    "side": "DEF",
+    "depth": 6,
+    "vitals": {
+      "age": 30,
+      "height": "6'3\"",
+      "weight": 227,
+      "college": "South Ramona",
+      "experience": 2,
+      "archetype": "Technical",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 3303258,
+      "capHit": 24093576,
+      "deadCap": 5694150,
+      "signingBonus": 12249212,
+      "expiresYear": 2030,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 77,
+      "potential": 83,
+      "schemeFit": 79,
+      "speed": 83,
+      "acceleration": 82,
+      "agility": 95,
+      "strength": 95,
+      "tackle": 95,
+      "pursuit": 84,
+      "manCoverage": 70,
+      "zoneCoverage": 72,
+      "kickPower": 75,
+      "kickAccuracy": 68,
+      "catching": 55,
+      "routeRunning": 57,
+      "release": 52
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 5,
+        "statA": 494,
+        "statB": 126
+      },
+      "career": {
+        "games": 83,
+        "statA": 3426,
+        "statB": 829
+      }
+    },
+    "photo": "/player_faces/4.png"
+  },
+  {
+    "id": "LV-FS-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Jordan Tremblay",
+    "jerseyNumber": 28,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 306,
+      "college": "Fort Rhett",
+      "experience": 6,
+      "archetype": "Speed",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 44118489,
+      "capHit": 13670163,
+      "deadCap": 6328982,
+      "signingBonus": 15047224,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 74,
+      "potential": 76,
+      "schemeFit": 77,
+      "speed": 73,
+      "acceleration": 70,
+      "agility": 80,
+      "strength": 70,
+      "tackle": 92,
+      "pursuit": 73,
+      "manCoverage": 76,
+      "zoneCoverage": 83,
+      "kickPower": 61,
+      "kickAccuracy": 78,
+      "catching": 61,
+      "routeRunning": 57,
+      "release": 61
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "Low",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 230,
+        "statB": 491
+      },
+      "career": {
+        "games": 36,
+        "statA": 1025,
+        "statB": 2814
+      }
+    },
+    "photo": "/player_faces/48.png"
+  },
+  {
+    "id": "LV-FS-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Porter Parker",
+    "jerseyNumber": 87,
+    "position": "FS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 28,
+      "height": "5'9\"",
+      "weight": 290,
+      "college": "New Deltashire",
+      "experience": 3,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 117470383,
+      "capHit": 16833295,
+      "deadCap": 7764147,
+      "signingBonus": 1622277,
+      "expiresYear": 2031,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 64,
+      "potential": 71,
+      "schemeFit": 72,
+      "speed": 78,
+      "acceleration": 73,
+      "agility": 75,
+      "strength": 77,
+      "tackle": 94,
+      "pursuit": 89,
+      "manCoverage": 53,
+      "zoneCoverage": 86,
+      "kickPower": 85,
+      "kickAccuracy": 59,
+      "catching": 59,
+      "routeRunning": 81,
+      "release": 79
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 14,
+        "statA": 820,
+        "statB": 991
+      },
+      "career": {
+        "games": 36,
+        "statA": 520,
+        "statB": 1235
+      }
+    },
+    "photo": "/player_faces/44.png"
+  },
+  {
+    "id": "LV-SS-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Quentin Kiehn",
+    "jerseyNumber": 7,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 1,
+    "vitals": {
+      "age": 24,
+      "height": "6'5\"",
+      "weight": 214,
+      "college": "Dickinsoncester",
+      "experience": 4,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 116203804,
+      "capHit": 13774668,
+      "deadCap": 6802102,
+      "signingBonus": 7117172,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 75,
+      "potential": 82,
+      "schemeFit": 82,
+      "speed": 83,
+      "acceleration": 78,
+      "agility": 71,
+      "strength": 68,
+      "tackle": 86,
+      "pursuit": 70,
+      "manCoverage": 58,
+      "zoneCoverage": 61,
+      "kickPower": 66,
+      "kickAccuracy": 76,
+      "catching": 61,
+      "routeRunning": 65,
+      "release": 76
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 17,
+        "statA": 506,
+        "statB": 962
+      },
+      "career": {
+        "games": 86,
+        "statA": 2253,
+        "statB": 3139
+      }
+    },
+    "photo": "/player_faces/24.png"
+  },
+  {
+    "id": "LV-SS-2",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Christian Aufderhar",
+    "jerseyNumber": 82,
+    "position": "SS",
+    "side": "DEF",
+    "depth": 2,
+    "vitals": {
+      "age": 32,
+      "height": "6'1\"",
+      "weight": 312,
+      "college": "North Laura",
+      "experience": 8,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 18093010,
+      "capHit": 22466655,
+      "deadCap": 3844100,
+      "signingBonus": 4220443,
+      "expiresYear": 2030,
+      "contractType": "Standard"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 84,
+      "schemeFit": 75,
+      "speed": 94,
+      "acceleration": 73,
+      "agility": 90,
+      "strength": 87,
+      "tackle": 68,
+      "pursuit": 94,
+      "manCoverage": 67,
+      "zoneCoverage": 88,
+      "kickPower": 67,
+      "kickAccuracy": 75,
+      "catching": 78,
+      "routeRunning": 91,
+      "release": 80
+    },
+    "traits": {
+      "personality": "Calm",
+      "devTrait": "Star",
+      "clutch": "High",
+      "injuryProne": "Medium",
+      "workEthic": "High",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 784,
+        "statB": 565
+      },
+      "career": {
+        "games": 63,
+        "statA": 4264,
+        "statB": 2167
+      }
+    },
+    "photo": "/player_faces/35.png"
+  },
+  {
+    "id": "LV-K-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Sean Hauck",
+    "jerseyNumber": 92,
+    "position": "K",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 22,
+      "height": "5'11\"",
+      "weight": 251,
+      "college": "Port Malindacester",
+      "experience": 2,
+      "archetype": "Playmaker",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 4,
+      "totalValue": 102233886,
+      "capHit": 22277827,
+      "deadCap": 1229383,
+      "signingBonus": 10786765,
+      "expiresYear": 2030,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 71,
+      "potential": 73,
+      "schemeFit": 87,
+      "speed": 71,
+      "acceleration": 84,
+      "agility": 91,
+      "strength": 76,
+      "tackle": 77,
+      "pursuit": 76,
+      "manCoverage": 50,
+      "zoneCoverage": 54,
+      "kickPower": 63,
+      "kickAccuracy": 69,
+      "catching": 71,
+      "routeRunning": 80,
+      "release": 55
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Normal",
+      "clutch": "Low",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Low"
+    },
+    "stats": {
+      "season": {
+        "games": 7,
+        "statA": 433,
+        "statB": 85
+      },
+      "career": {
+        "games": 10,
+        "statA": 4250,
+        "statB": 540
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "LV-P-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Khalid Renner",
+    "jerseyNumber": 39,
+    "position": "P",
+    "side": "ST",
+    "depth": 1,
+    "vitals": {
+      "age": 31,
+      "height": "6'2\"",
+      "weight": 187,
+      "college": "Santa Clarita",
+      "experience": 9,
+      "archetype": "Field General",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 56509942,
+      "capHit": 17655332,
+      "deadCap": 875657,
+      "signingBonus": 19355237,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 66,
+      "potential": 76,
+      "schemeFit": 87,
+      "speed": 93,
+      "acceleration": 74,
+      "agility": 77,
+      "strength": 64,
+      "tackle": 62,
+      "pursuit": 88,
+      "manCoverage": 83,
+      "zoneCoverage": 85,
+      "kickPower": 74,
+      "kickAccuracy": 74,
+      "catching": 82,
+      "routeRunning": 68,
+      "release": 87
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Star",
+      "clutch": "Low",
+      "injuryProne": "Low",
+      "workEthic": "High",
+      "leadership": "High"
+    },
+    "stats": {
+      "season": {
+        "games": 4,
+        "statA": 590,
+        "statB": 668
+      },
+      "career": {
+        "games": 64,
+        "statA": 3249,
+        "statB": 3996
+      }
+    },
+    "photo": "/player_faces/7.png"
+  },
+  {
+    "id": "LV-LS-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Xavier Swift",
+    "jerseyNumber": 45,
+    "position": "LS",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 27,
+      "height": "6'3\"",
+      "weight": 300,
+      "college": "Fort Merlin",
+      "experience": 4,
+      "archetype": "Field General",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 59560695,
+      "capHit": 7168339,
+      "deadCap": 554839,
+      "signingBonus": 12646705,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 76,
+      "potential": 80,
+      "schemeFit": 74,
+      "speed": 71,
+      "acceleration": 74,
+      "agility": 75,
+      "strength": 75,
+      "tackle": 76,
+      "pursuit": 73,
+      "manCoverage": 66,
+      "zoneCoverage": 63,
+      "kickPower": 86,
+      "kickAccuracy": 95,
+      "catching": 60,
+      "routeRunning": 56,
+      "release": 95
+    },
+    "traits": {
+      "personality": "Leader",
+      "devTrait": "Superstar",
+      "clutch": "Low",
+      "injuryProne": "Medium",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 6,
+        "statA": 911,
+        "statB": 188
+      },
+      "career": {
+        "games": 89,
+        "statA": 3302,
+        "statB": 2642
+      }
+    },
+    "photo": "/player_faces/40.png"
+  },
+  {
+    "id": "LV-KR-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Callum Jaskolski",
+    "jerseyNumber": 22,
+    "position": "KR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 23,
+      "height": "5'11\"",
+      "weight": 191,
+      "college": "South Emileborough",
+      "experience": 4,
+      "archetype": "Power",
+      "handedness": "Right"
+    },
+    "contract": {
+      "years": 5,
+      "totalValue": 35818897,
+      "capHit": 10886434,
+      "deadCap": 2232290,
+      "signingBonus": 16244040,
+      "expiresYear": 2031,
+      "contractType": "Rookie"
+    },
+    "ratings": {
+      "overall": 67,
+      "potential": 76,
+      "schemeFit": 70,
+      "speed": 81,
+      "acceleration": 83,
+      "agility": 77,
+      "strength": 68,
+      "tackle": 68,
+      "pursuit": 75,
+      "manCoverage": 65,
+      "zoneCoverage": 64,
+      "kickPower": 88,
+      "kickAccuracy": 82,
+      "catching": 73,
+      "routeRunning": 81,
+      "release": 60
+    },
+    "traits": {
+      "personality": "Fiery",
+      "devTrait": "Normal",
+      "clutch": "High",
+      "injuryProne": "Low",
+      "workEthic": "Average",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 10,
+        "statA": 141,
+        "statB": 777
+      },
+      "career": {
+        "games": 64,
+        "statA": 3753,
+        "statB": 114
+      }
+    },
+    "photo": "/player_faces/22.png"
+  },
+  {
+    "id": "LV-PR-1",
+    "team": "LV",
+    "teamName": "LV",
+    "name": "Mikhail Friesen",
+    "jerseyNumber": 78,
+    "position": "PR",
+    "side": "OFF",
+    "depth": 1,
+    "vitals": {
+      "age": 28,
+      "height": "6'2\"",
+      "weight": 234,
+      "college": "Dinochester",
+      "experience": 8,
+      "archetype": "Balanced",
+      "handedness": "Left"
+    },
+    "contract": {
+      "years": 2,
+      "totalValue": 62164647,
+      "capHit": 10915964,
+      "deadCap": 7849873,
+      "signingBonus": 11261228,
+      "expiresYear": 2028,
+      "contractType": "Extension"
+    },
+    "ratings": {
+      "overall": 60,
+      "potential": 70,
+      "schemeFit": 95,
+      "speed": 72,
+      "acceleration": 75,
+      "agility": 76,
+      "strength": 60,
+      "tackle": 71,
+      "pursuit": 86,
+      "manCoverage": 64,
+      "zoneCoverage": 82,
+      "kickPower": 75,
+      "kickAccuracy": 77,
+      "catching": 86,
+      "routeRunning": 69,
+      "release": 54
+    },
+    "traits": {
+      "personality": "Quiet",
+      "devTrait": "Normal",
+      "clutch": "Average",
+      "injuryProne": "High",
+      "workEthic": "Low",
+      "leadership": "Average"
+    },
+    "stats": {
+      "season": {
+        "games": 0,
+        "statA": 52,
+        "statB": 36
+      },
+      "career": {
+        "games": 16,
+        "statA": 2717,
+        "statB": 4733
+      }
+    },
+    "photo": "/player_faces/2.png"
+  }
 ]

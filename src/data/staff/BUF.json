@@ -1,14 +1,170 @@
-﻿{
-    "HC":  {
-               "rating":  89,
-               "name":  "Tyrone Maddox"
-           },
-    "OC":  {
-               "rating":  72,
-               "name":  "Evan Maddox"
-           },
-    "DC":  {
-               "rating":  81,
-               "name":  "Jordan Harrington"
-           }
-}
+[
+  {
+    "id": "BUF-STAFF-1",
+    "team": "BUF",
+    "role": "Head Coach",
+    "name": "Yusuf Beatty",
+    "vitals": {
+      "age": 37,
+      "experience": 12
+    },
+    "ratings": {
+      "leadership": 61,
+      "discipline": 86,
+      "schemeKnowledge": 67,
+      "playerDev": 90,
+      "motivation": 68,
+      "injuryManagement": 69,
+      "conditioning": 61,
+      "analyticsIQ": 63
+    },
+    "contract": {
+      "years": 2,
+      "salary": 3199997
+    }
+  },
+  {
+    "id": "BUF-STAFF-2",
+    "team": "BUF",
+    "role": "Offensive Coordinator",
+    "name": "Liang Jaskolski",
+    "vitals": {
+      "age": 35,
+      "experience": 29
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 95,
+      "schemeKnowledge": 63,
+      "playerDev": 60,
+      "motivation": 69,
+      "injuryManagement": 47,
+      "conditioning": 51,
+      "analyticsIQ": 47
+    },
+    "contract": {
+      "years": 2,
+      "salary": 4457467
+    }
+  },
+  {
+    "id": "BUF-STAFF-3",
+    "team": "BUF",
+    "role": "Defensive Coordinator",
+    "name": "Calvin Fahey",
+    "vitals": {
+      "age": 34,
+      "experience": 17
+    },
+    "ratings": {
+      "leadership": 65,
+      "discipline": 86,
+      "schemeKnowledge": 87,
+      "playerDev": 64,
+      "motivation": 87,
+      "injuryManagement": 58,
+      "conditioning": 43,
+      "analyticsIQ": 61
+    },
+    "contract": {
+      "years": 4,
+      "salary": 3793067
+    }
+  },
+  {
+    "id": "BUF-STAFF-4",
+    "team": "BUF",
+    "role": "Strength & Conditioning Coach",
+    "name": "Gabriel Stracke",
+    "vitals": {
+      "age": 49,
+      "experience": 39
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 64,
+      "schemeKnowledge": 93,
+      "playerDev": 83,
+      "motivation": 94,
+      "injuryManagement": 46,
+      "conditioning": 94,
+      "analyticsIQ": 58
+    },
+    "contract": {
+      "years": 2,
+      "salary": 691732
+    }
+  },
+  {
+    "id": "BUF-STAFF-5",
+    "team": "BUF",
+    "role": "Physical Therapist",
+    "name": "Quentin Braun",
+    "vitals": {
+      "age": 48,
+      "experience": 3
+    },
+    "ratings": {
+      "leadership": 85,
+      "discipline": 71,
+      "schemeKnowledge": 69,
+      "playerDev": 67,
+      "motivation": 76,
+      "injuryManagement": 72,
+      "conditioning": 60,
+      "analyticsIQ": 49
+    },
+    "contract": {
+      "years": 3,
+      "salary": 7806161
+    }
+  },
+  {
+    "id": "BUF-STAFF-6",
+    "team": "BUF",
+    "role": "Athletic Trainer",
+    "name": "Michael Reynolds",
+    "vitals": {
+      "age": 40,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 73,
+      "discipline": 69,
+      "schemeKnowledge": 84,
+      "playerDev": 94,
+      "motivation": 92,
+      "injuryManagement": 86,
+      "conditioning": 55,
+      "analyticsIQ": 59
+    },
+    "contract": {
+      "years": 4,
+      "salary": 2939452
+    }
+  },
+  {
+    "id": "BUF-STAFF-7",
+    "team": "BUF",
+    "role": "Analytics Coordinator",
+    "name": "Benjamin Kunde",
+    "vitals": {
+      "age": 52,
+      "experience": 21
+    },
+    "ratings": {
+      "leadership": 72,
+      "discipline": 72,
+      "schemeKnowledge": 82,
+      "playerDev": 80,
+      "motivation": 61,
+      "injuryManagement": 57,
+      "conditioning": 55,
+      "analyticsIQ": 94
+    },
+    "contract": {
+      "years": 5,
+      "salary": 721579
+    }
+  }
+]
