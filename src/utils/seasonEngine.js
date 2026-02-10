@@ -161,7 +161,7 @@ function simulatePreseasonWeek(season) {
     season.week = 1;
     season.lastResult = {
       summary: "Preseason complete",
-      details: "Regular season begins."
+      details: "Ready to begin Week 1."
     };
   }
 }
@@ -172,7 +172,7 @@ function advanceFromPreseasonIfDone(season) {
     season.week = 1;
     season.lastResult = {
       summary: "Preseason complete",
-      details: "Regular season begins."
+      details: "Ready to begin Week 1."
     };
   } else {
     season.preseasonWeek += 1;

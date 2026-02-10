@@ -2,71 +2,72 @@
   display: flex;
   gap: 24px;
   align-items: flex-start;
+  color: #fff;
 }
 
 .conferenceColumn {
   flex: 1;
+  background-color: #0f111a;
+  padding: 20px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(0, 0, 0, 0.35);
-  padding: 12px;
   box-shadow: var(--shadow);
-  font-size: 0.82rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .conferenceTitle {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
+  padding-bottom: 4px;
 }
 
 .divisionBlock {
-  margin-bottom: 10px;
+  background: #141625;
+  padding: 12px;
+  border-radius: 10px;
 }
 
 .divisionTitle {
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-text-muted);
-  margin-bottom: 4px;
+  color: #00d4ff;
+  margin-bottom: 6px;
 }
 
 .headerRow {
   display: grid;
   grid-template-columns: 1.6fr 0.6fr 0.6fr 0.6fr;
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
-  padding: 4px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  color: #a0a0a0;
+  font-weight: 600;
 }
 
 .row {
   display: grid;
   grid-template-columns: 1.6fr 0.6fr 0.6fr 0.6fr;
-  font-size: 0.8rem;
-  padding: 4px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.2s ease;
 }
 
-.row:last-child {
-  border-bottom: none;
+.row:hover {
+  background: rgba(0, 212, 255, 0.08);
 }
 
 .rowHighlight {
-  background: rgba(0, 212, 255, 0.08);
+  background: rgba(0, 212, 255, 0.15);
 }
 
 .center {
   text-align: center;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-  }
-
-  .conferenceColumn {
-    width: 100%;
   }
 }

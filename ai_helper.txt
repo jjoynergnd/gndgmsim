@@ -181,7 +181,6 @@ export default TeamPage;
 
 src/utils/seasonEngine.js:
 
-
 // src/utils/seasonEngine.js
 
 const PRESEASON_WEEKS = 3;
@@ -345,7 +344,7 @@ function simulatePreseasonWeek(season) {
     season.week = 1;
     season.lastResult = {
       summary: "Preseason complete",
-      details: "Regular season begins."
+      details: "Ready to begin Week 1."
     };
   }
 }
@@ -356,7 +355,7 @@ function advanceFromPreseasonIfDone(season) {
     season.week = 1;
     season.lastResult = {
       summary: "Preseason complete",
-      details: "Regular season begins."
+      details: "Ready to begin Week 1."
     };
   } else {
     season.preseasonWeek += 1;
@@ -823,6 +822,7 @@ src/data/rosters - team.json example -- BAL:
 ***************************************
 
 src/components/season/NextActionCard.jsx:
+
 import React from "react";
 import styles from "./NextActionCard.module.css";
 
@@ -855,12 +855,10 @@ export default function NextActionCard({
         )}
       </div>
 
-      {/* MIDDLE COLUMN (BUTTON) */}
+      {/* MIDDLE COLUMN */}
       <div className={styles.middleCol}>
         <button
-          className={`${styles.button} ${
-            !canAdvance ? styles.disabled : ""
-          }`}
+          className={`${styles.button} ${!canAdvance ? styles.disabled : ""}`}
           disabled={!canAdvance}
           onClick={() => canAdvance && onAdvance?.(season)}
         >
@@ -868,7 +866,7 @@ export default function NextActionCard({
         </button>
       </div>
 
-      {/* RIGHT COLUMN (RESULTS) */}
+      {/* RIGHT COLUMN */}
       <div className={styles.rightCol}>
         <div className={styles.resultBlock}>
           {season.lastResult?.summary && (
@@ -895,24 +893,34 @@ function getActionConfig(season) {
         subtitle: `Preseason Week ${season.preseasonWeek}`,
         actionLabel: `Sim Preseason Week ${season.preseasonWeek}`
       };
-    case "REGULAR_SEASON":
+
+    case "REGULAR_SEASON": {
+      const prevWeekKey = `REGULAR_SEASON-${season.week - 1}`;
+      const hasPrevWeek = season.gamesByKey?.[prevWeekKey];
+
       return {
         title: `Regular Season — Week ${season.week}`,
-        subtitle: `Week ${season.week} Complete`,
-        actionLabel: `Sim Week ${season.week + 1}`
+        subtitle: hasPrevWeek
+          ? `Week ${season.week - 1} Complete`
+          : `Ready to begin Week ${season.week}`,
+        actionLabel: `Sim Week ${season.week}`
       };
+    }
+
     case "PLAYOFFS":
       return {
         title: `Playoffs — ${season.playoffRound}`,
         subtitle: "Win or go home",
         actionLabel: "Sim Next Round"
       };
+
     case "OFFSEASON":
       return {
         title: `Offseason — ${season.offseasonStep}`,
         subtitle: "Team building phase",
         actionLabel: "Advance"
       };
+
     default:
       return {
         title: "Season",
@@ -1162,39 +1170,25 @@ src/components/team/schedule/ScheduleTab.jsx
 
 import React from "react";
 import { teams } from "../../../data/teams";
-
 import styles from "./ScheduleTab.module.css";
 
 function getOpponentLabel(game) {
-  if (game.result === "BYE" || game.opponent === null) {
-    return "BYE WEEK";
-  }
+  if (game.result === "BYE" || game.opponent === null) return "BYE WEEK";
 
   const oppTeam = teams.find((t) => t.id === game.opponent);
   const oppName = oppTeam ? `${oppTeam.city} ${oppTeam.mascot}` : game.opponent;
   const prefix = game.home ? "vs" : "@";
+
   return `${prefix} ${oppName}`;
 }
 
-function getWeekLabel(game) {
-  if (game.type === "REGULAR_SEASON") {
-    return `Week ${game.week}`;
-  }
-  // Defensive only; preseason is filtered out.
-  return `Pre ${game.week}`;
-}
-
 function getScoreLabel(game) {
-  if (game.result === "BYE" || game.opponent === null) {
-    return "-";
-  }
-  if (!game.played || game.scoreFor == null || game.scoreAgainst == null) {
-    return "—";
-  }
+  if (game.result === "BYE" || game.opponent === null) return "-";
+  if (!game.played) return "—";
   return `${game.scoreFor} - ${game.scoreAgainst}`;
 }
 
-function getResultClass(result) {
+function getResultClass(result, styles) {
   if (result === "W") return styles.resultWin;
   if (result === "L") return styles.resultLoss;
   if (result === "T") return styles.resultTie;
@@ -1225,12 +1219,17 @@ export default function ScheduleTab({ schedule }) {
           key={`${game.week}-${game.opponent ?? "BYE"}-${idx}`}
           className={styles.row}
         >
-          <div>{getWeekLabel(game)}</div>
+          <div>Week {game.week}</div>
           <div>{getOpponentLabel(game)}</div>
           <div className={`${styles.center} ${styles.score}`}>
             {getScoreLabel(game)}
           </div>
-          <div className={`${styles.center} ${getResultClass(game.result)}`}>
+          <div
+            className={`${styles.center} ${getResultClass(
+              game.result,
+              styles
+            )}`}
+          >
             {game.result === "BYE" ? "BYE" : game.result || ""}
           </div>
         </div>
@@ -1244,33 +1243,36 @@ export default function ScheduleTab({ schedule }) {
 *********************************************
 
 ScheduleTab.module.css:
+
 .container {
+  padding: 20px;
+  background-color: #0f111a;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(0, 0, 0, 0.35);
-  padding: 12px 16px;
-  box-shadow: var(--shadow);
-  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #fff;
 }
 
 .headerRow {
   display: grid;
   grid-template-columns: 80px 1fr 80px 70px;
-  padding: 6px 4px;
-  font-size: 0.78rem;
-  color: var(--color-text-muted);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 8px;
+  border-bottom: 2px solid #00d4ff;
+  font-weight: 700;
+  color: #00d4ff;
 }
 
 .row {
   display: grid;
   grid-template-columns: 80px 1fr 80px 70px;
-  padding: 8px 4px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.2s ease;
 }
 
-.row:last-child {
-  border-bottom: none;
+.row:hover {
+  background: rgba(0, 212, 255, 0.08);
 }
 
 .center {
@@ -1278,7 +1280,7 @@ ScheduleTab.module.css:
 }
 
 .score {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .resultWin {
@@ -1297,22 +1299,14 @@ ScheduleTab.module.css:
 }
 
 .resultBye {
-  color: var(--color-text-muted);
+  color: #a0a0a0;
   font-weight: 600;
 }
 
 .resultNeutral {
-  color: var(--color-text-muted);
+  color: #a0a0a0;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .headerRow,
-  .row {
-    grid-template-columns: 70px 1fr 70px 60px;
-    font-size: 0.8rem;
-  }
-}
 
 
 
@@ -1321,63 +1315,16 @@ ScheduleTab.module.css:
 src/components/standings/DivisionStandings.jsx:
 
 import React from "react";
-
-const containerStyle = {
-  display: "flex",
-  gap: "24px",
-  alignItems: "flex-start"
-};
-
-const conferenceColumnStyle = {
-  flex: 1,
-  borderRadius: "12px",
-  border: "1px solid rgba(255,255,255,0.08)",
-  background: "rgba(0,0,0,0.35)",
-  padding: "12px",
-  boxShadow: "var(--shadow)"
-};
-
-const conferenceTitleStyle = {
-  fontSize: "0.9rem",
-  fontWeight: 700,
-  marginBottom: "8px"
-};
-
-const divisionBlockStyle = {
-  marginBottom: "10px"
-};
-
-const divisionTitleStyle = {
-  fontSize: "0.8rem",
-  fontWeight: 600,
-  color: "var(--color-text-muted)",
-  marginBottom: "4px"
-};
-
-const headerRowStyle = {
-  display: "grid",
-  gridTemplateColumns: "1.6fr 0.6fr 0.6fr 0.6fr",
-  fontSize: "0.75rem",
-  color: "var(--color-text-muted)",
-  padding: "4px 0",
-  borderBottom: "1px solid rgba(255,255,255,0.06)"
-};
-
-const rowStyle = (highlight) => ({
-  display: "grid",
-  gridTemplateColumns: "1.6fr 0.6fr 0.6fr 0.6fr",
-  fontSize: "0.8rem",
-  padding: "4px 0",
-  background: highlight ? "rgba(0,212,255,0.08)" : "transparent",
-  borderBottom: "1px solid rgba(255,255,255,0.04)"
-});
+import styles from "./DivisionStandings.module.css";
 
 function getRecord(season, teamId) {
-  const rec = season.teams?.[teamId];
-  if (!rec) {
-    return { wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0 };
-  }
-  return rec;
+  return season.teams?.[teamId] || {
+    wins: 0,
+    losses: 0,
+    ties: 0,
+    pointsFor: 0,
+    pointsAgainst: 0
+  };
 }
 
 function sortDivisionTeams(season, teamsInDivision) {
@@ -1385,13 +1332,12 @@ function sortDivisionTeams(season, teamsInDivision) {
     const ra = getRecord(season, a.id);
     const rb = getRecord(season, b.id);
 
-    // Primary: wins
     if (rb.wins !== ra.wins) return rb.wins - ra.wins;
-    // Secondary: ties
     if (rb.ties !== ra.ties) return rb.ties - ra.ties;
-    // Tertiary: point differential
+
     const diffA = ra.pointsFor - ra.pointsAgainst;
     const diffB = rb.pointsFor - rb.pointsAgainst;
+
     return diffB - diffA;
   });
 }
@@ -1400,38 +1346,44 @@ function renderConferenceColumn(conferenceName, teams, season, userTeam) {
   const divisions = ["North", "East", "South", "West"];
 
   return (
-    <div style={conferenceColumnStyle}>
-      <div style={conferenceTitleStyle}>{conferenceName}</div>
+    <div className={styles.conferenceColumn}>
+      <div className={styles.conferenceTitle}>{conferenceName}</div>
 
       {divisions.map((division) => {
         const divisionTeams = teams.filter(
           (t) => t.conference === conferenceName && t.division === division
         );
+
         if (divisionTeams.length === 0) return null;
 
         const sorted = sortDivisionTeams(season, divisionTeams);
 
         return (
-          <div key={division} style={divisionBlockStyle}>
-            <div style={divisionTitleStyle}>{division}</div>
-            <div style={headerRowStyle}>
+          <div key={division} className={styles.divisionBlock}>
+            <div className={styles.divisionTitle}>{division}</div>
+
+            <div className={styles.headerRow}>
               <div>Team</div>
-              <div style={{ textAlign: "center" }}>W</div>
-              <div style={{ textAlign: "center" }}>L</div>
-              <div style={{ textAlign: "center" }}>T</div>
+              <div className={styles.center}>W</div>
+              <div className={styles.center}>L</div>
+              <div className={styles.center}>T</div>
             </div>
+
             {sorted.map((team) => {
               const rec = getRecord(season, team.id);
               const highlight = userTeam && userTeam.id === team.id;
 
               return (
-                <div key={team.id} style={rowStyle(highlight)}>
-                  <div>
-                    {team.city} {team.mascot}
-                  </div>
-                  <div style={{ textAlign: "center" }}>{rec.wins}</div>
-                  <div style={{ textAlign: "center" }}>{rec.losses}</div>
-                  <div style={{ textAlign: "center" }}>{rec.ties}</div>
+                <div
+                  key={team.id}
+                  className={`${styles.row} ${
+                    highlight ? styles.rowHighlight : ""
+                  }`}
+                >
+                  <div>{team.city} {team.mascot}</div>
+                  <div className={styles.center}>{rec.wins}</div>
+                  <div className={styles.center}>{rec.losses}</div>
+                  <div className={styles.center}>{rec.ties}</div>
                 </div>
               );
             })}
@@ -1448,7 +1400,7 @@ export default function DivisionStandings({ teams, userTeam, season }) {
   }
 
   return (
-    <div style={containerStyle}>
+    <div className={styles.container}>
       {renderConferenceColumn("AFC", teams, season, userTeam)}
       {renderConferenceColumn("NFC", teams, season, userTeam)}
     </div>
@@ -1457,74 +1409,83 @@ export default function DivisionStandings({ teams, userTeam, season }) {
 
 
 
+
 *************************************
 
 DivisionStandings.module.css:
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  gap: 20px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  color: #fff;
 }
 
-.card {
-  background: #1e1e1e;
-  border-radius: 14px;
-  padding: 16px;
-  color: white;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-}
-
-.header {
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  margin-bottom: 12px;
-  color: #ffffff;
-  opacity: 0.85;
-}
-
-.table {
+.conferenceColumn {
+  flex: 1;
+  background-color: #0f111a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 16px;
+}
+
+.conferenceTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
+  padding-bottom: 4px;
+}
+
+.divisionBlock {
+  background: #141625;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.divisionTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #00d4ff;
+  margin-bottom: 6px;
+}
+
+.headerRow {
+  display: grid;
+  grid-template-columns: 1.6fr 0.6fr 0.6fr 0.6fr;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  color: #a0a0a0;
+  font-weight: 600;
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 12px;
-  border-radius: 10px;
-  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1.6fr 0.6fr 0.6fr 0.6fr;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.2s ease;
 }
 
-.team {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+.row:hover {
+  background: rgba(0, 212, 255, 0.08);
 }
 
-.abbr {
-  font-weight: 800;
-  width: 36px;
+.rowHighlight {
+  background: rgba(0, 212, 255, 0.15);
 }
 
-.name {
-  opacity: 0.9;
+.center {
+  text-align: center;
 }
 
-.record {
-  font-weight: 700;
-}
-
-.userRow {
-  background: rgba(255, 255, 255, 0.08);
-  border-left: 4px solid var(--team-color, #fff);
-}
-
-.cpuRow {
-  opacity: 0.55;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 *****************************************

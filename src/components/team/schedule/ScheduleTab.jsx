@@ -1,38 +1,24 @@
 import React from "react";
 import { teams } from "../../../data/teams";
-
 import styles from "./ScheduleTab.module.css";
 
 function getOpponentLabel(game) {
-  if (game.result === "BYE" || game.opponent === null) {
-    return "BYE WEEK";
-  }
+  if (game.result === "BYE" || game.opponent === null) return "BYE WEEK";
 
   const oppTeam = teams.find((t) => t.id === game.opponent);
   const oppName = oppTeam ? `${oppTeam.city} ${oppTeam.mascot}` : game.opponent;
   const prefix = game.home ? "vs" : "@";
+
   return `${prefix} ${oppName}`;
 }
 
-function getWeekLabel(game) {
-  if (game.type === "REGULAR_SEASON") {
-    return `Week ${game.week}`;
-  }
-  // Defensive only; preseason is filtered out.
-  return `Pre ${game.week}`;
-}
-
 function getScoreLabel(game) {
-  if (game.result === "BYE" || game.opponent === null) {
-    return "-";
-  }
-  if (!game.played || game.scoreFor == null || game.scoreAgainst == null) {
-    return "—";
-  }
+  if (game.result === "BYE" || game.opponent === null) return "-";
+  if (!game.played) return "—";
   return `${game.scoreFor} - ${game.scoreAgainst}`;
 }
 
-function getResultClass(result) {
+function getResultClass(result, styles) {
   if (result === "W") return styles.resultWin;
   if (result === "L") return styles.resultLoss;
   if (result === "T") return styles.resultTie;
@@ -63,12 +49,17 @@ export default function ScheduleTab({ schedule }) {
           key={`${game.week}-${game.opponent ?? "BYE"}-${idx}`}
           className={styles.row}
         >
-          <div>{getWeekLabel(game)}</div>
+          <div>Week {game.week}</div>
           <div>{getOpponentLabel(game)}</div>
           <div className={`${styles.center} ${styles.score}`}>
             {getScoreLabel(game)}
           </div>
-          <div className={`${styles.center} ${getResultClass(game.result)}`}>
+          <div
+            className={`${styles.center} ${getResultClass(
+              game.result,
+              styles
+            )}`}
+          >
             {game.result === "BYE" ? "BYE" : game.result || ""}
           </div>
         </div>

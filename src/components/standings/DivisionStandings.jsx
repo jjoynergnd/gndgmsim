@@ -2,11 +2,13 @@ import React from "react";
 import styles from "./DivisionStandings.module.css";
 
 function getRecord(season, teamId) {
-  const rec = season.teams?.[teamId];
-  if (!rec) {
-    return { wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0 };
-  }
-  return rec;
+  return season.teams?.[teamId] || {
+    wins: 0,
+    losses: 0,
+    ties: 0,
+    pointsFor: 0,
+    pointsAgainst: 0
+  };
 }
 
 function sortDivisionTeams(season, teamsInDivision) {
@@ -19,6 +21,7 @@ function sortDivisionTeams(season, teamsInDivision) {
 
     const diffA = ra.pointsFor - ra.pointsAgainst;
     const diffB = rb.pointsFor - rb.pointsAgainst;
+
     return diffB - diffA;
   });
 }
@@ -34,6 +37,7 @@ function renderConferenceColumn(conferenceName, teams, season, userTeam) {
         const divisionTeams = teams.filter(
           (t) => t.conference === conferenceName && t.division === division
         );
+
         if (divisionTeams.length === 0) return null;
 
         const sorted = sortDivisionTeams(season, divisionTeams);
@@ -41,12 +45,14 @@ function renderConferenceColumn(conferenceName, teams, season, userTeam) {
         return (
           <div key={division} className={styles.divisionBlock}>
             <div className={styles.divisionTitle}>{division}</div>
+
             <div className={styles.headerRow}>
               <div>Team</div>
               <div className={styles.center}>W</div>
               <div className={styles.center}>L</div>
               <div className={styles.center}>T</div>
             </div>
+
             {sorted.map((team) => {
               const rec = getRecord(season, team.id);
               const highlight = userTeam && userTeam.id === team.id;
@@ -58,9 +64,7 @@ function renderConferenceColumn(conferenceName, teams, season, userTeam) {
                     highlight ? styles.rowHighlight : ""
                   }`}
                 >
-                  <div>
-                    {team.city} {team.mascot}
-                  </div>
+                  <div>{team.city} {team.mascot}</div>
                   <div className={styles.center}>{rec.wins}</div>
                   <div className={styles.center}>{rec.losses}</div>
                   <div className={styles.center}>{rec.ties}</div>

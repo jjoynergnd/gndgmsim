@@ -30,12 +30,10 @@ export default function NextActionCard({
         )}
       </div>
 
-      {/* MIDDLE COLUMN (BUTTON) */}
+      {/* MIDDLE COLUMN */}
       <div className={styles.middleCol}>
         <button
-          className={`${styles.button} ${
-            !canAdvance ? styles.disabled : ""
-          }`}
+          className={`${styles.button} ${!canAdvance ? styles.disabled : ""}`}
           disabled={!canAdvance}
           onClick={() => canAdvance && onAdvance?.(season)}
         >
@@ -43,7 +41,7 @@ export default function NextActionCard({
         </button>
       </div>
 
-      {/* RIGHT COLUMN (RESULTS) */}
+      {/* RIGHT COLUMN */}
       <div className={styles.rightCol}>
         <div className={styles.resultBlock}>
           {season.lastResult?.summary && (
@@ -70,24 +68,34 @@ function getActionConfig(season) {
         subtitle: `Preseason Week ${season.preseasonWeek}`,
         actionLabel: `Sim Preseason Week ${season.preseasonWeek}`
       };
-    case "REGULAR_SEASON":
+
+    case "REGULAR_SEASON": {
+      const prevWeekKey = `REGULAR_SEASON-${season.week - 1}`;
+      const hasPrevWeek = season.gamesByKey?.[prevWeekKey];
+
       return {
         title: `Regular Season — Week ${season.week}`,
-        subtitle: `Week ${season.week} Complete`,
-        actionLabel: `Sim Week ${season.week + 1}`
+        subtitle: hasPrevWeek
+          ? `Week ${season.week - 1} Complete`
+          : `Ready to begin Week ${season.week}`,
+        actionLabel: `Sim Week ${season.week}`
       };
+    }
+
     case "PLAYOFFS":
       return {
         title: `Playoffs — ${season.playoffRound}`,
         subtitle: "Win or go home",
         actionLabel: "Sim Next Round"
       };
+
     case "OFFSEASON":
       return {
         title: `Offseason — ${season.offseasonStep}`,
         subtitle: "Team building phase",
         actionLabel: "Advance"
       };
+
     default:
       return {
         title: "Season",
