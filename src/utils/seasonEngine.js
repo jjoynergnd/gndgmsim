@@ -2,6 +2,7 @@
 
 import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
 
+
 const PRESEASON_WEEKS = 3;
 const REGULAR_SEASON_WEEKS = 18;
 const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
@@ -289,11 +290,9 @@ function simulateGamesForWeek(season, { week, type, affectStandings }) {
 ====================================================== */
 
 function advancePlayoffs(season) {
-  // First time entering playoffs
   if (!season.playoffs?.initialized) {
     initializePlayoffs(season);
-    season.playoffs.initialized = true;
-
+    season.playoffRound = PLAYOFF_ROUNDS[0];
     season.lastResult = {
       summary: "Playoffs begin",
       details: "Wildcard round set."
@@ -301,25 +300,24 @@ function advancePlayoffs(season) {
     return;
   }
 
-  // Simulate the current round
-  const finished = simulatePlayoffRound(season);
-
-  if (!finished) {
-    // Round still in progress (shouldn't happen with current design)
-    return;
-  }
+  const summary = simulatePlayoffRound(season);
 
   const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
   const isLast = idx === PLAYOFF_ROUNDS.length - 1;
 
   if (!isLast) {
+    const prevRound = season.playoffRound;
     season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
     season.lastResult = {
-      summary: `${PLAYOFF_ROUNDS[idx]} complete`,
-      details: ""
+      summary: `${prevRound.replace("_", " ")} complete`,
+      details: summary
     };
   } else {
-    // SUPER BOWL just finished
+    const finalSummary = summary || "Super Bowl complete.";
+    season.lastResult = {
+      summary: "Season complete",
+      details: finalSummary
+    };
     resetForNextSeason(season);
   }
 }

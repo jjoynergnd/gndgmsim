@@ -51,21 +51,27 @@ export default function PlayoffsTab({ season, userTeamId }) {
 
   // Build user team playoff run
   const userRun = [];
-  Object.keys(bracket).forEach((round) => {
-    bracket[round].forEach((g) => {
-      if (g.home === userTeamId || g.away === userTeamId) {
-        userRun.push({ round, game: g });
-      }
+  ["WILDCARD", "DIVISIONAL", "CONFERENCE"].forEach((round) => {
+    ["AFC", "NFC"].forEach((conf) => {
+      const games = bracket[round]?.[conf] || [];
+      games.forEach((g) => {
+        if (g.home === userTeamId || g.away === userTeamId) {
+          userRun.push({ round, game: g });
+        }
+      });
     });
   });
+
+  const sbGame = bracket.SUPER_BOWL?.GAME;
+  if (sbGame && (sbGame.home === userTeamId || sbGame.away === userTeamId)) {
+    userRun.push({ round: "SUPER_BOWL", game: sbGame });
+  }
 
   return (
     <div className={styles.container}>
       {userRun.length > 0 && (
         <div className={styles.userRunBox}>
-          <div className={styles.userRunHeader}>
-            Your Playoff Run
-          </div>
+          <div className={styles.userRunHeader}>Your Playoff Run</div>
           {userRun.map(({ round, game }) => (
             <div key={game.id} className={styles.userRunRow}>
               <strong>{round.replace("_", " ")}:</strong>
@@ -82,17 +88,50 @@ export default function PlayoffsTab({ season, userTeamId }) {
         </div>
       )}
 
-      {Object.keys(bracket).map((roundKey) => (
-        <div key={roundKey} className={styles.roundSection}>
-          <div className={styles.roundHeader}>
-            {roundKey.replace("_", " ")}
-          </div>
+      <div className={styles.bracketGrid}>
+        {/* AFC side */}
+        <div className={styles.confColumn}>
+          <div className={styles.confHeader}>AFC</div>
 
-          <div className={styles.roundGrid}>
-            {bracket[roundKey].map((g) => renderGame(g))}
+          {["WILDCARD", "DIVISIONAL", "CONFERENCE"].map((round) => (
+            <div key={round} className={styles.roundSection}>
+              <div className={styles.roundHeader}>
+                {round.replace("_", " ")}
+              </div>
+              <div className={styles.roundGrid}>
+                {(bracket[round]?.AFC || []).map((g) => renderGame(g))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Super Bowl center */}
+        <div className={styles.centerColumn}>
+          <div className={styles.confHeader}>SUPER BOWL</div>
+          <div className={styles.roundSection}>
+            <div className={styles.roundHeader}>Championship</div>
+            <div className={styles.roundGrid}>
+              {sbGame ? renderGame(sbGame) : <div>No matchup yet.</div>}
+            </div>
           </div>
         </div>
-      ))}
+
+        {/* NFC side */}
+        <div className={styles.confColumn}>
+          <div className={styles.confHeader}>NFC</div>
+
+          {["WILDCARD", "DIVISIONAL", "CONFERENCE"].map((round) => (
+            <div key={round} className={styles.roundSection}>
+              <div className={styles.roundHeader}>
+                {round.replace("_", " ")}
+              </div>
+              <div className={styles.roundGrid}>
+                {(bracket[round]?.NFC || []).map((g) => renderGame(g))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

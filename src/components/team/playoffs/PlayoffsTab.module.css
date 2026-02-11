@@ -68,10 +68,39 @@
   font-weight: 700;
 }
 
+.bracketGrid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 20px;
+}
+
+.confColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.centerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.confHeader {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00d4ff;
+  margin-bottom: 4px;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
-  .roundGrid {
+  .bracketGrid {
     grid-template-columns: 1fr;
+  }
+  .centerColumn {
+    align-items: stretch;
   }
 }
 
