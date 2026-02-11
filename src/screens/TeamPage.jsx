@@ -16,6 +16,8 @@ import StatsPanel from "../components/team/StatsPanel";
 import PlayerModal from "../components/player/PlayerModal";
 import ScheduleTab from "../components/team/schedule/ScheduleTab";
 import DivisionStandings from "../components/standings/DivisionStandings";
+import PlayoffsTab from "../components/team/playoffs/PlayoffsTab";
+
 
 // dynamic imports
 const rosterMap = import.meta.glob("../data/rosters/*.json", { eager: true });
@@ -152,6 +154,14 @@ const TeamPage = () => {
             season={season}
           />
         )}
+
+        {tab === "playoffs" && (
+          <PlayoffsTab
+            season={season}
+            userTeamId={selectedTeam}
+          />
+        )}
+
 
         {tab === "stats" && <StatsPanel />}
       </div>

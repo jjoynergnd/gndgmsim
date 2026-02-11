@@ -1,0 +1,104 @@
+/* src/components/team/playoffs/PlayoffsTab.module.css */
+
+.container {
+  padding: 20px;
+  background-color: #0f111a;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #fff;
+}
+
+/* ROUND HEADER */
+.roundSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.roundHeader {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
+  padding-bottom: 4px;
+}
+
+/* GAME GRID */
+.roundGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.gameBox {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: background 0.2s ease;
+}
+
+.gameBox:hover {
+  background: rgba(0, 212, 255, 0.08);
+}
+
+.teamRow {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.seed {
+  color: #00d4ff;
+  font-weight: 700;
+}
+
+.score {
+  text-align: right;
+  font-weight: 700;
+}
+
+.winner {
+  color: #2ecc71;
+  font-weight: 700;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .roundGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.userTeam {
+  background: rgba(0, 212, 255, 0.15);
+  border-left: 3px solid #00d4ff;
+}
+
+.userRunBox {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.userRunHeader {
+  font-weight: 700;
+  color: #00d4ff;
+  margin-bottom: 6px;
+}
+
+.userRunRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.userRunScore {
+  font-weight: 700;
+}

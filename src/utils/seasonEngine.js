@@ -1,5 +1,7 @@
 // src/utils/seasonEngine.js
 
+import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
+
 const PRESEASON_WEEKS = 3;
 const REGULAR_SEASON_WEEKS = 18;
 const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
@@ -287,18 +289,41 @@ function simulateGamesForWeek(season, { week, type, affectStandings }) {
 ====================================================== */
 
 function advancePlayoffs(season) {
-  const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
+  // First time entering playoffs
+  if (!season.playoffs?.initialized) {
+    initializePlayoffs(season);
+    season.playoffs.initialized = true;
 
-  if (idx < PLAYOFF_ROUNDS.length - 1) {
+    season.lastResult = {
+      summary: "Playoffs begin",
+      details: "Wildcard round set."
+    };
+    return;
+  }
+
+  // Simulate the current round
+  const finished = simulatePlayoffRound(season);
+
+  if (!finished) {
+    // Round still in progress (shouldn't happen with current design)
+    return;
+  }
+
+  const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
+  const isLast = idx === PLAYOFF_ROUNDS.length - 1;
+
+  if (!isLast) {
     season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
     season.lastResult = {
-      summary: `${PLAYOFF_ROUNDS[idx]} round complete`,
+      summary: `${PLAYOFF_ROUNDS[idx]} complete`,
       details: ""
     };
   } else {
+    // SUPER BOWL just finished
     resetForNextSeason(season);
   }
 }
+
 
 /* ======================================================
    SEASON RESET

@@ -1,50 +1,30 @@
+// src/components/team/TeamTabs.jsx
 import React from "react";
+import styles from "./TeamTabs.module.css";
 
-const tabs = ["roster", "depthChart", "staff", "finances", "schedule", "Standings","stats"];
+export default function TeamTabs({ tab, setTab }) {
+  const tabs = [
+    { key: "roster", label: "Roster" },
+    { key: "depthChart", label: "Depth Chart" },
+    { key: "staff", label: "Staff" },
+    { key: "finances", label: "Finances" },
+    { key: "schedule", label: "Schedule" },
+    { key: "Standings", label: "Standings" },
+    { key: "playoffs", label: "Playoffs" }, // NEW TAB
+    { key: "stats", label: "Stats" }
+  ];
 
-const TeamTabs = ({ tab, setTab }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "24px",
-        marginBottom: "20px",
-        borderBottom: "2px solid #e2e2e2",
-        paddingBottom: "10px",
-        paddingTop: "6px",
-      }}
-    >
-      {tabs.map((t) => {
-        const active = tab === t;
-
-        // Convert tab key → readable label
-        const label =
-          t === "depthChart"
-            ? "Depth Chart"
-            : t.charAt(0).toUpperCase() + t.slice(1);
-
-        return (
-          <div
-            key={t}
-            onClick={() => setTab(t)}
-            style={{
-              cursor: "pointer",
-              fontWeight: active ? 700 : 500,
-              fontSize: "16px",
-              paddingBottom: "8px",
-              borderBottom: active
-                ? "3px solid var(--color-accent)"
-                : "3px solid transparent",
-              color: active ? "var(--color-accent)" : "#444",
-              transition: "0.2s ease",
-            }}
-          >
-            {label}
-          </div>
-        );
-      })}
+    <div className={styles.tabRow}>
+      {tabs.map((t) => (
+        <div
+          key={t.key}
+          className={`${styles.tab} ${tab === t.key ? styles.active : ""}`}
+          onClick={() => setTab(t.key)}
+        >
+          {t.label}
+        </div>
+      ))}
     </div>
   );
-};
-
-export default TeamTabs;
+}
