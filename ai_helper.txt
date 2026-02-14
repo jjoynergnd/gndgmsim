@@ -184,447 +184,336 @@ export default TeamPage;
 
 
 
+
+
 **********************
 
 
 src/utils/seasonEngine.js:
 
-// src/utils/seasonEngine.js
+// src/utils/playoffEngine.js
+import { teams } from "../data/teams";
 
-import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
+// ---------- helpers ----------
 
-
-const PRESEASON_WEEKS = 3;
-const REGULAR_SEASON_WEEKS = 18;
-const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
-const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT"];
-
-/* ======================================================
-   PUBLIC API
-====================================================== */
-
-export function advanceSeason(prev, context) {
-  const season = structuredClone(prev);
-
-  // Initialize league once
-  if (!season._initialized) {
-    initializeLeague(season, context);
-  }
-
-  console.log(
-    "[seasonEngine] advanceSeason — phase:",
-    season.phase,
-    "preseasonWeek:",
-    season.preseasonWeek,
-    "week:",
-    season.week,
-    "offseasonStep:",
-    season.offseasonStep
-  );
-
-  switch (season.phase) {
-    case "OFFSEASON":
-      advanceOffseason(season);
-      break;
-
-    case "PRESEASON":
-      simulatePreseasonWeek(season);
-      break;
-
-    case "REGULAR_SEASON":
-      simulateRegularSeasonWeek(season);
-      break;
-
-    case "PLAYOFFS":
-      advancePlayoffs(season);
-      break;
-
-    default:
-      break;
-  }
-
-  return season;
+function sortStandings(a, b) {
+  if (b.wins !== a.wins) return b.wins - a.wins;
+  const diffA = a.pointsFor - a.pointsAgainst;
+  const diffB = b.pointsFor - b.pointsAgainst;
+  return diffB - diffA;
 }
-
-/* ======================================================
-   INITIALIZATION
-====================================================== */
-
-function initializeLeague(season, { teams, schedules }) {
-  console.log("[seasonEngine] initializeLeague — starting with:", season);
-
-  season._initialized = true;
-
-  // ---- STANDINGS ----
-  season.teams = {};
-  teams.forEach((t) => {
-    season.teams[t.id] = {
-      wins: 0,
-      losses: 0,
-      ties: 0,
-      pointsFor: 0,
-      pointsAgainst: 0
-    };
-  });
-
-  // ---- SCHEDULES ----
-  season.schedules = {};
-  teams.forEach((t) => {
-    const raw = schedules[t.id] || [];
-    season.schedules[t.id] = raw.map((g) => ({
-      ...g,
-      played: g.played ?? false,
-      scoreFor: g.scoreFor ?? null,
-      scoreAgainst: g.scoreAgainst ?? null,
-      result: g.result ?? null
-    }));
-  });
-
-  season.gamesByKey = {}; // keyed by `${type}-${week}-${sortedTeamIds}`
-
-  // ---- TIMING ----
-  season.phase = "OFFSEASON";
-  season.offseasonStep = OFFSEASON_STEPS[0];
-
-  season.preseasonWeek = 1; // 1–3
-  season.week = 1; // 1–18
-  season.playoffRound = null;
-
-  season.lastResult = {
-    summary: "League initialized",
-    details: "Offseason — RESIGNINGS"
-  };
-
-  console.log("[seasonEngine] initializeLeague — finished:", season);
-}
-
-/* ======================================================
-   OFFSEASON
-====================================================== */
-
-function advanceOffseason(season) {
-  const idx = OFFSEASON_STEPS.indexOf(season.offseasonStep);
-
-  if (idx < OFFSEASON_STEPS.length - 1) {
-    season.offseasonStep = OFFSEASON_STEPS[idx + 1];
-    season.lastResult = {
-      summary: `${OFFSEASON_STEPS[idx]} complete`,
-      details: ""
-    };
-  } else {
-    season.phase = "PRESEASON";
-    season.offseasonStep = null;
-    season.lastResult = {
-      summary: "Offseason complete",
-      details: "Preseason begins."
-    };
-  }
-}
-
-/* ======================================================
-   PRESEASON
-====================================================== */
-
-function simulatePreseasonWeek(season) {
-  const week = season.preseasonWeek;
-  const key = `PRESEASON-${week}`;
-
-  if (season.gamesByKey[key]) {
-    console.log("[seasonEngine] Preseason week already simulated:", week);
-    advanceFromPreseasonIfDone(season);
-    return;
-  }
-
-  const games = simulateGamesForWeek(season, {
-    week,
-    type: "PRESEASON",
-    affectStandings: false
-  });
-
-  season.gamesByKey[key] = games;
-
-  season.lastResult = {
-    summary: `Preseason Week ${week} complete`,
-    details: `${games.length} games played`
-  };
-
-  if (week < PRESEASON_WEEKS) {
-    season.preseasonWeek += 1;
-  } else {
-    season.phase = "REGULAR_SEASON";
-    season.week = 1;
-    season.lastResult = {
-      summary: "Preseason complete",
-      details: "Ready to begin Week 1."
-    };
-  }
-}
-
-function advanceFromPreseasonIfDone(season) {
-  if (season.preseasonWeek >= PRESEASON_WEEKS) {
-    season.phase = "REGULAR_SEASON";
-    season.week = 1;
-    season.lastResult = {
-      summary: "Preseason complete",
-      details: "Ready to begin Week 1."
-    };
-  } else {
-    season.preseasonWeek += 1;
-  }
-}
-
-/* ======================================================
-   REGULAR SEASON
-====================================================== */
-
-function simulateRegularSeasonWeek(season) {
-  const week = season.week;
-  const key = `REGULAR_SEASON-${week}`;
-
-  if (season.gamesByKey[key]) {
-    console.log("[seasonEngine] Regular season week already simulated:", week);
-    advanceFromRegularSeasonIfDone(season);
-    return;
-  }
-
-  const games = simulateGamesForWeek(season, {
-    week,
-    type: "REGULAR_SEASON",
-    affectStandings: true
-  });
-
-  season.gamesByKey[key] = games;
-
-  season.lastResult = {
-    summary: `Week ${week} complete`,
-    details: `${games.length} games played`
-  };
-
-  if (week < REGULAR_SEASON_WEEKS) {
-    season.week += 1;
-  } else {
-    season.phase = "PLAYOFFS";
-    season.week = null;
-    season.playoffRound = PLAYOFF_ROUNDS[0];
-    season.lastResult = {
-      summary: "Regular season complete",
-      details: "Playoffs begin."
-    };
-  }
-}
-
-function advanceFromRegularSeasonIfDone(season) {
-  if (season.week >= REGULAR_SEASON_WEEKS) {
-    season.phase = "PLAYOFFS";
-    season.week = null;
-    season.playoffRound = PLAYOFF_ROUNDS[0];
-    season.lastResult = {
-      summary: "Regular season complete",
-      details: "Playoffs begin."
-    };
-  } else {
-    season.week += 1;
-  }
-}
-
-/* ======================================================
-   SHARED GAME SIMULATION
-====================================================== */
-
-function simulateGamesForWeek(season, { week, type, affectStandings }) {
-  const games = [];
-  const paired = new Set();
-
-  Object.entries(season.schedules).forEach(([teamId, schedule]) => {
-    const game = schedule.find((g) => g.week === week && g.type === type);
-    if (!game) return;
-
-    // Bye week
-    if (game.result === "BYE" || game.opponent === null) return;
-
-    const opponentId = game.opponent;
-
-    // Canonical pair key: same for both teams
-    const pairKey = `${type}-${week}-${[teamId, opponentId].sort().join("-")}`;
-
-    if (paired.has(pairKey)) return;
-    paired.add(pairKey);
-
-    const home = game.home ? teamId : opponentId;
-    const away = game.home ? opponentId : teamId;
-
-    const result = simulateGame(home, away);
-    games.push(result);
-
-    if (affectStandings) {
-      applyResult(season, result);
-    }
-
-    markGamesPlayed(season, week, type, result);
-  });
-
-  console.log(
-    "[seasonEngine] simulateGamesForWeek",
-    "type:",
-    type,
-    "week:",
-    week,
-    "games:",
-    games.length
-  );
-
-  return games;
-}
-
-/* ======================================================
-   PLAYOFFS (STUB)
-====================================================== */
-
-function advancePlayoffs(season) {
-  if (!season.playoffs?.initialized) {
-    initializePlayoffs(season);
-    season.playoffRound = PLAYOFF_ROUNDS[0];
-    season.lastResult = {
-      summary: "Playoffs begin",
-      details: "Wildcard round set."
-    };
-    return;
-  }
-
-  const summary = simulatePlayoffRound(season);
-
-  const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
-  const isLast = idx === PLAYOFF_ROUNDS.length - 1;
-
-  if (!isLast) {
-    const prevRound = season.playoffRound;
-    season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
-    season.lastResult = {
-      summary: `${prevRound.replace("_", " ")} complete`,
-      details: summary
-    };
-  } else {
-    const finalSummary = summary || "Super Bowl complete.";
-    season.lastResult = {
-      summary: "Season complete",
-      details: finalSummary
-    };
-    resetForNextSeason(season);
-  }
-}
-
-
-/* ======================================================
-   SEASON RESET
-====================================================== */
-
-function resetForNextSeason(season) {
-  season.year += 1;
-
-  Object.values(season.teams).forEach((t) => {
-    t.wins = 0;
-    t.losses = 0;
-    t.ties = 0;
-    t.pointsFor = 0;
-    t.pointsAgainst = 0;
-  });
-
-  Object.values(season.schedules).forEach((schedule) => {
-    schedule.forEach((g) => {
-      g.played = false;
-      g.scoreFor = null;
-      g.scoreAgainst = null;
-      // Preserve BYE marker
-      g.result = g.result === "BYE" ? "BYE" : null;
-    });
-  });
-
-  season.gamesByKey = {};
-  season.phase = "OFFSEASON";
-  season.offseasonStep = OFFSEASON_STEPS[0];
-  season.preseasonWeek = 1;
-  season.week = 1;
-  season.playoffRound = null;
-
-  season.lastResult = {
-    summary: "Season complete",
-    details: `Welcome to the ${season.year} season`
-  };
-}
-
-/* ======================================================
-   GAME SIMULATION
-====================================================== */
-
-function simulateGame(home, away) {
-  const homeScore = rand(17, 38);
-  const awayScore = rand(14, 34);
-
-  return {
-    home,
-    away,
-    homeScore,
-    awayScore
-  };
-}
-
-function applyResult(season, game) {
-  const { home, away, homeScore, awayScore } = game;
-
-  const homeTeam = season.teams[home];
-  const awayTeam = season.teams[away];
-
-  homeTeam.pointsFor += homeScore;
-  homeTeam.pointsAgainst += awayScore;
-  awayTeam.pointsFor += awayScore;
-  awayTeam.pointsAgainst += homeScore;
-
-  if (homeScore > awayScore) {
-    homeTeam.wins++;
-    awayTeam.losses++;
-  } else if (awayScore > homeScore) {
-    awayTeam.wins++;
-    homeTeam.losses++;
-  } else {
-    homeTeam.ties++;
-    awayTeam.ties++;
-  }
-}
-
-function markGamesPlayed(season, week, type, game) {
-  const { home, away, homeScore, awayScore } = game;
-
-  const update = (teamId, scored, allowed) => {
-    const g = season.schedules[teamId].find(
-      (x) => x.week === week && x.type === type
-    );
-    if (!g) return;
-
-    g.played = true;
-    g.scoreFor = scored;
-    g.scoreAgainst = allowed;
-    g.result = scored > allowed ? "W" : scored < allowed ? "L" : "T";
-  };
-
-  update(home, homeScore, awayScore);
-  update(away, awayScore, homeScore);
-}
-
-/* ======================================================
-   HELPERS
-====================================================== */
 
 function rand(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-export function getOffseasonSteps() {
-  return OFFSEASON_STEPS;
+function simulateGame(home, away) {
+  const homeScore = rand(17, 38);
+  const awayScore = rand(14, 34);
+  return { home, away, homeScore, awayScore };
 }
 
-export function getPlayoffRounds() {
-  return PLAYOFF_ROUNDS;
+function getConference(teamId) {
+  const t = teams.find((x) => x.id === teamId);
+  return t?.conference || null;
 }
+
+// ---------- initialization ----------
+
+export function initializePlayoffs(season) {
+  const standings = Object.entries(season.teams).map(([id, rec]) => ({
+    id,
+    ...rec
+  }));
+
+  const byConf = { AFC: [], NFC: [] };
+  standings.forEach((t) => {
+    const meta = teams.find((x) => x.id === t.id);
+    if (!meta) return;
+    byConf[meta.conference].push(t);
+  });
+
+  byConf.AFC.sort(sortStandings);
+  byConf.NFC.sort(sortStandings);
+
+  const seedsAFC = byConf.AFC.slice(0, 7).map((t, i) => ({
+    id: t.id,
+    seed: i + 1
+  }));
+  const seedsNFC = byConf.NFC.slice(0, 7).map((t, i) => ({
+    id: t.id,
+    seed: i + 1
+  }));
+
+  season.playoffs = {
+    initialized: true,
+    seedsByConference: {
+      AFC: seedsAFC,
+      NFC: seedsNFC
+    },
+    bracket: {
+      WILDCARD: {
+        AFC: buildWildcardRound(seedsAFC, "AFC"),
+        NFC: buildWildcardRound(seedsNFC, "NFC")
+      },
+      DIVISIONAL: {
+        AFC: [],
+        NFC: []
+      },
+      CONFERENCE: {
+        AFC: [],
+        NFC: []
+      },
+      SUPER_BOWL: {
+        GAME: null
+      }
+    }
+  };
+}
+
+function buildWildcardRound(seeds, conf) {
+  // seeds[0] is #1 (bye)
+  const s2 = seeds[1];
+  const s3 = seeds[2];
+  const s4 = seeds[3];
+  const s5 = seeds[4];
+  const s6 = seeds[5];
+  const s7 = seeds[6];
+
+  const makeGame = (high, low, idx) => ({
+    id: `${conf}-WC-${idx}`,
+    round: "WILDCARD",
+    conference: conf,
+    home: high.id,
+    away: low.id,
+    homeSeed: high.seed,
+    awaySeed: low.seed,
+    played: false,
+    homeScore: null,
+    awayScore: null,
+    winner: null
+  });
+
+  return [
+    makeGame(s2, s7, 1),
+    makeGame(s3, s6, 2),
+    makeGame(s4, s5, 3)
+  ];
+}
+
+// ---------- round simulation ----------
+
+export function simulatePlayoffRound(season) {
+  const round = season.playoffRound;
+  const { bracket, seedsByConference } = season.playoffs;
+
+  if (round === "WILDCARD") {
+    const results = [];
+
+    ["AFC", "NFC"].forEach((conf) => {
+      const games = bracket.WILDCARD[conf];
+      games.forEach((g) => {
+        if (g.played) return;
+        const res = simulateGame(g.home, g.away);
+        g.played = true;
+        g.homeScore = res.homeScore;
+        g.awayScore = res.awayScore;
+        g.winner = res.homeScore > res.awayScore ? g.home : g.away;
+        results.push(formatResultLine(g));
+      });
+
+      // build divisional for this conference
+      const seed1 = seedsByConference[conf].find((s) => s.seed === 1);
+      const winners = games.map((g) => {
+        const seed = seedsByConference[conf].find((s) => s.id === g.winner);
+        return seed;
+      });
+
+      const divisionalGames = buildDivisionalRound(seed1, winners, conf);
+      bracket.DIVISIONAL[conf] = divisionalGames;
+    });
+
+    return results.join("  ");
+  }
+
+  if (round === "DIVISIONAL") {
+    const results = [];
+
+    ["AFC", "NFC"].forEach((conf) => {
+      const games = bracket.DIVISIONAL[conf];
+      const winners = [];
+
+      games.forEach((g) => {
+        if (g.played) return;
+        const res = simulateGame(g.home, g.away);
+        g.played = true;
+        g.homeScore = res.homeScore;
+        g.awayScore = res.awayScore;
+        g.winner = res.homeScore > res.awayScore ? g.home : g.away;
+        winners.push(g.winner);
+        results.push(formatResultLine(g));
+      });
+
+      // build conference championship for this conference
+      if (winners.length === 2) {
+        const [t1, t2] = winners;
+        const s1 = season.playoffs.seedsByConference[conf].find(
+          (s) => s.id === t1
+        );
+        const s2 = season.playoffs.seedsByConference[conf].find(
+          (s) => s.id === t2
+        );
+
+        bracket.CONFERENCE[conf] = [
+          {
+            id: `${conf}-CONF-1`,
+            round: "CONFERENCE",
+            conference: conf,
+            home: s1.seed < s2.seed ? t1 : t2,
+            away: s1.seed < s2.seed ? t2 : t1,
+            homeSeed: s1.seed < s2.seed ? s1.seed : s2.seed,
+            awaySeed: s1.seed < s2.seed ? s2.seed : s1.seed,
+            played: false,
+            homeScore: null,
+            awayScore: null,
+            winner: null
+          }
+        ];
+      }
+    });
+
+    return results.join("  ");
+  }
+
+  if (round === "CONFERENCE") {
+    const results = [];
+    const confWinners = {};
+
+    ["AFC", "NFC"].forEach((conf) => {
+      const games = bracket.CONFERENCE[conf];
+      games.forEach((g) => {
+        if (g.played) return;
+        const res = simulateGame(g.home, g.away);
+        g.played = true;
+        g.homeScore = res.homeScore;
+        g.awayScore = res.awayScore;
+        g.winner = res.homeScore > res.awayScore ? g.home : g.away;
+        confWinners[conf] = g.winner;
+        results.push(formatResultLine(g));
+      });
+    });
+
+    // build Super Bowl
+    if (confWinners.AFC && confWinners.NFC) {
+      const afcSeed = season.playoffs.seedsByConference.AFC.find(
+        (s) => s.id === confWinners.AFC
+      );
+      const nfcSeed = season.playoffs.seedsByConference.NFC.find(
+        (s) => s.id === confWinners.NFC
+      );
+
+      season.playoffs.bracket.SUPER_BOWL.GAME = {
+        id: "SB-1",
+        round: "SUPER_BOWL",
+        conference: "CROSS",
+        home: afcSeed.seed <= nfcSeed.seed ? confWinners.AFC : confWinners.NFC,
+        away: afcSeed.seed <= nfcSeed.seed ? confWinners.NFC : confWinners.AFC,
+        homeSeed: afcSeed.seed <= nfcSeed.seed ? afcSeed.seed : nfcSeed.seed,
+        awaySeed: afcSeed.seed <= nfcSeed.seed ? nfcSeed.seed : afcSeed.seed,
+        played: false,
+        homeScore: null,
+        awayScore: null,
+        winner: null
+      };
+    }
+
+    return results.join("  ");
+  }
+
+  if (round === "SUPER_BOWL") {
+    const g = season.playoffs.bracket.SUPER_BOWL.GAME;
+    if (!g || g.played) return "";
+
+    const res = simulateGame(g.home, g.away);
+    g.played = true;
+    g.homeScore = res.homeScore;
+    g.awayScore = res.awayScore;
+    g.winner = res.homeScore > res.awayScore ? g.home : g.away;
+
+    season.playoffs.champion = g.winner;
+
+    return formatResultLine(g);
+  }
+
+  return "";
+}
+
+function buildDivisionalRound(seed1, wildcardWinners, conf) {
+  // wildcardWinners: array of { id, seed }
+  const seeds = wildcardWinners.map((s) => s.seed).sort((a, b) => a - b);
+  // lowest remaining seed plays #1
+  const lowestSeed = seeds[0];
+  const otherSeeds = seeds.slice(1);
+
+  const lowestTeam = wildcardWinners.find((s) => s.seed === lowestSeed);
+  const [sA, sB] = otherSeeds;
+  const teamA = wildcardWinners.find((s) => s.seed === sA);
+  const teamB = wildcardWinners.find((s) => s.seed === sB);
+
+  const games = [];
+
+  // Game 1: #1 vs lowest remaining
+  games.push({
+    id: `${conf}-DIV-1`,
+    round: "DIVISIONAL",
+    conference: conf,
+    home: seed1.id,
+    away: lowestTeam.id,
+    homeSeed: seed1.seed,
+    awaySeed: lowestTeam.seed,
+    played: false,
+    homeScore: null,
+    awayScore: null,
+    winner: null
+  });
+
+  // Game 2: other two winners
+  games.push({
+    id: `${conf}-DIV-2`,
+    round: "DIVISIONAL",
+    conference: conf,
+    home: teamA.seed < teamB.seed ? teamA.id : teamB.id,
+    away: teamA.seed < teamB.seed ? teamB.id : teamA.id,
+    homeSeed: teamA.seed < teamB.seed ? teamA.seed : teamB.seed,
+    awaySeed: teamA.seed < teamB.seed ? teamB.seed : teamA.seed,
+    played: false,
+    homeScore: null,
+    awayScore: null,
+    winner: null
+  });
+
+  return games;
+}
+
+function formatResultLine(game) {
+  const homeConf = getConference(game.home);
+  
+  const homeTeam = teams.find((t) => t.id === game.home);
+  const awayTeam = teams.find((t) => t.id === game.away);
+
+  const homeName = homeTeam
+    ? `${homeTeam.city} ${homeTeam.mascot}`
+    : game.home;
+  const awayName = awayTeam
+    ? `${awayTeam.city} ${awayTeam.mascot}`
+    : game.away;
+
+  return `${homeConf || ""} ${game.round}: ${homeName} ${game.homeScore} - ${awayName} ${game.awayScore}`;
+}
+
+
+
+
 
 
 ****************************************
@@ -960,6 +849,10 @@ function getActionConfig(season) {
       };
   }
 }
+
+
+
+
 
 **************************************
 
@@ -2757,4 +2650,50 @@ src/components/team/playoffs/PlayoffsTab.module.css:
   font-weight: 700;
 }
 
+******************************
 
+
+src/data/teams.js:
+
+export const teams = [
+  // -------------------- AFC NORTH --------------------
+  { id: "BAL", city: "BAL", mascot: "Night Wings", conference: "AFC", division: "North", color: "#5A4FCF" },
+  { id: "CIN", city: "CIN", mascot: "Striped Fury", conference: "AFC", division: "North", color: "#F77F2F" },
+  { id: "CLE", city: "CLE", mascot: "Forge Hounds", conference: "AFC", division: "North", color: "#A65A2E" },
+  { id: "PIT", city: "PIT", mascot: "Iron Hammers", conference: "AFC", division: "North", color: "#6E6E6E" },
+  // -------------------- AFC EAST --------------------
+  { id: "BUF", city: "BUF", mascot: "Frost Horns", conference: "AFC", division: "East", color: "#3A6FF7" },
+  { id: "MIA", city: "MIA", mascot: "Neon Sharks", conference: "AFC", division: "East", color: "#00C9A7" },
+  { id: "NE",  city: "NE",  mascot: "Rebel Rousers", conference: "AFC", division: "East", color: "#34495E" },
+  { id: "NYJ", city: "NYJ", mascot: "Green Flight", conference: "AFC", division: "East", color: "#2ECC71" },
+  // -------------------- AFC SOUTH --------------------
+  { id: "HOU", city: "HOU", mascot: "Red Guardians", conference: "AFC", division: "South", color: "#C0392B" },
+  { id: "IND", city: "IND", mascot: "Blue Chargers", conference: "AFC", division: "South", color: "#2E86DE" },
+  { id: "JAX", city: "JAX", mascot: "Jungle Strikers", conference: "AFC", division: "South", color: "#D4A017" },
+  { id: "TEN", city: "TEN", mascot: "Rail Breakers", conference: "AFC", division: "South", color: "#5DADE2" },
+  // -------------------- AFC WEST --------------------
+  { id: "DEN", city: "DEN", mascot: "Storm Riders", conference: "AFC", division: "West", color: "#FF7F50" },
+  { id: "KC",  city: "KC",  mascot: "War Herd", conference: "AFC", division: "West", color: "#D63031" },
+  { id: "LV",  city: "LV",  mascot: "Black Spades", conference: "AFC", division: "West", color: "#555555" },
+  { id: "LAC", city: "LAC", mascot: "Volt Surge", conference: "AFC", division: "West", color: "#4DA6FF" },
+  // -------------------- NFC NORTH --------------------
+  { id: "CHI", city: "CHI", mascot: "War Dogs", conference: "NFC", division: "North", color: "#CA6F1E" },
+  { id: "DET", city: "DET", mascot: "Motown Maulers", conference: "NFC", division: "North", color: "#5DADE2" },
+  { id: "GB",  city: "GB",  mascot: "Green Machine", conference: "NFC", division: "North", color: "#27AE60" },
+  { id: "MIN", city: "MIN", mascot: "Ice Wardens", conference: "NFC", division: "North", color: "#8E44AD" },
+  // -------------------- NFC EAST --------------------
+  { id: "DAL", city: "DAL", mascot: "Lone Stars", conference: "NFC", division: "East", color: "#2C3E50" },
+  { id: "NYG", city: "NYG", mascot: "Empire Guardians", conference: "NFC", division: "East", color: "#3A6FF7" },
+  { id: "PHI", city: "PHI", mascot: "Liberty Reign", conference: "NFC", division: "East", color: "#1ABC9C" },
+  { id: "WAS", city: "WAS", mascot: "Capital Command", conference: "NFC", division: "East", color: "#884EA0" },
+  // -------------------- NFC SOUTH --------------------
+  { id: "ATL", city: "ATL", mascot: "Fire Birds", conference: "NFC", division: "South", color: "#E74C3C" },
+  { id: "CAR", city: "CAR", mascot: "Black Claws", conference: "NFC", division: "South", color: "#2980B9" },
+  { id: "NO",  city: "NO",  mascot: "Bayou Reapers", conference: "NFC", division: "South", color: "#D4AC0D" },
+  { id: "TB",  city: "TB",  mascot: "Bay Pirates", conference: "NFC", division: "South", color: "#C0392B" },
+  // -------------------- NFC WEST --------------------
+  { id: "ARI", city: "ARI", mascot: "Red Talons", conference: "NFC", division: "West", color: "#C0392B" },
+  { id: "LAR", city: "LAR", mascot: "Coast Crashers", conference: "NFC", division: "West", color: "#F1C40F" },
+  { id: "SF",  city: "SF",  mascot: "Gold Rush", conference: "NFC", division: "West", color: "#D68910" },
+  { id: "SEA", city: "SEA", mascot: "Rain Makers", conference: "NFC", division: "West", color: "#2ECC71" }
+];

@@ -78,8 +78,11 @@ const TeamPage = () => {
     setSeason((prev) => {
       const next = advanceSeason(prev, {
         teams,
-        schedules
+        schedules,
+        rosters,
+        staff
       });
+
       console.log("[TeamPage] Season after advanceSeason:", next);
       return next;
     });

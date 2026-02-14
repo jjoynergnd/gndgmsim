@@ -1,12 +1,30 @@
 // src/utils/seasonEngine.js
 
 import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
-
+import { generateSeasonSchedule } from "./scheduleGenerator";
+import { simulateWeightedGame } from "./gameSim";
 
 const PRESEASON_WEEKS = 3;
 const REGULAR_SEASON_WEEKS = 18;
 const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
 const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT"];
+
+/* ======================================================
+   HELPERS (COACH RATINGS)
+====================================================== */
+
+function extractCoachRatings(staffByTeam) {
+  const out = {};
+  if (!staffByTeam) return out;
+
+  for (const teamId in staffByTeam) {
+    const coaches = staffByTeam[teamId] || [];
+    const headCoach = coaches.find((c) => c.role === "HC");
+    out[teamId] = headCoach?.ratings?.overall ?? 75;
+  }
+
+  return out;
+}
 
 /* ======================================================
    PUBLIC API
@@ -15,7 +33,7 @@ const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT"];
 export function advanceSeason(prev, context) {
   const season = structuredClone(prev);
 
-  // Initialize league once
+  // Initialize league once per season
   if (!season._initialized) {
     initializeLeague(season, context);
   }
@@ -37,11 +55,11 @@ export function advanceSeason(prev, context) {
       break;
 
     case "PRESEASON":
-      simulatePreseasonWeek(season);
+      simulatePreseasonWeek(season, context);
       break;
 
     case "REGULAR_SEASON":
-      simulateRegularSeasonWeek(season);
+      simulateRegularSeasonWeek(season, context);
       break;
 
     case "PLAYOFFS":
@@ -62,6 +80,27 @@ export function advanceSeason(prev, context) {
 function initializeLeague(season, { teams, schedules }) {
   console.log("[seasonEngine] initializeLeague — starting with:", season);
 
+  // ---- SCHEDULES ----
+  if (season.year > 2026) {
+    console.log(
+      `[seasonEngine] Generating procedural schedule for ${season.year}`
+    );
+    season.schedules = generateSeasonSchedule(season.year);
+  } else {
+    console.log("[seasonEngine] Using static 2026 schedule JSON");
+    season.schedules = {};
+    teams.forEach((t) => {
+      const raw = schedules[t.id] || [];
+      season.schedules[t.id] = raw.map((g) => ({
+        ...g,
+        played: g.played ?? false,
+        scoreFor: g.scoreFor ?? null,
+        scoreAgainst: g.scoreAgainst ?? null,
+        result: g.result ?? null
+      }));
+    });
+  }
+
   season._initialized = true;
 
   // ---- STANDINGS ----
@@ -74,19 +113,6 @@ function initializeLeague(season, { teams, schedules }) {
       pointsFor: 0,
       pointsAgainst: 0
     };
-  });
-
-  // ---- SCHEDULES ----
-  season.schedules = {};
-  teams.forEach((t) => {
-    const raw = schedules[t.id] || [];
-    season.schedules[t.id] = raw.map((g) => ({
-      ...g,
-      played: g.played ?? false,
-      scoreFor: g.scoreFor ?? null,
-      scoreAgainst: g.scoreAgainst ?? null,
-      result: g.result ?? null
-    }));
   });
 
   season.gamesByKey = {}; // keyed by `${type}-${week}-${sortedTeamIds}`
@@ -134,7 +160,7 @@ function advanceOffseason(season) {
    PRESEASON
 ====================================================== */
 
-function simulatePreseasonWeek(season) {
+function simulatePreseasonWeek(season, context) {
   const week = season.preseasonWeek;
   const key = `PRESEASON-${week}`;
 
@@ -144,11 +170,15 @@ function simulatePreseasonWeek(season) {
     return;
   }
 
-  const games = simulateGamesForWeek(season, {
-    week,
-    type: "PRESEASON",
-    affectStandings: false
-  });
+  const games = simulateGamesForWeek(
+    season,
+    {
+      week,
+      type: "PRESEASON",
+      affectStandings: false
+    },
+    context
+  );
 
   season.gamesByKey[key] = games;
 
@@ -186,7 +216,7 @@ function advanceFromPreseasonIfDone(season) {
    REGULAR SEASON
 ====================================================== */
 
-function simulateRegularSeasonWeek(season) {
+function simulateRegularSeasonWeek(season, context) {
   const week = season.week;
   const key = `REGULAR_SEASON-${week}`;
 
@@ -196,11 +226,15 @@ function simulateRegularSeasonWeek(season) {
     return;
   }
 
-  const games = simulateGamesForWeek(season, {
-    week,
-    type: "REGULAR_SEASON",
-    affectStandings: true
-  });
+  const games = simulateGamesForWeek(
+    season,
+    {
+      week,
+      type: "REGULAR_SEASON",
+      affectStandings: true
+    },
+    context
+  );
 
   season.gamesByKey[key] = games;
 
@@ -240,9 +274,12 @@ function advanceFromRegularSeasonIfDone(season) {
    SHARED GAME SIMULATION
 ====================================================== */
 
-function simulateGamesForWeek(season, { week, type, affectStandings }) {
+function simulateGamesForWeek(season, { week, type, affectStandings }, context) {
   const games = [];
   const paired = new Set();
+
+  const coachRatingsByTeam = extractCoachRatings(context?.staff);
+  const rostersByTeam = context?.rosters || {};
 
   Object.entries(season.schedules).forEach(([teamId, schedule]) => {
     const game = schedule.find((g) => g.week === week && g.type === type);
@@ -254,15 +291,22 @@ function simulateGamesForWeek(season, { week, type, affectStandings }) {
     const opponentId = game.opponent;
 
     // Canonical pair key: same for both teams
-    const pairKey = `${type}-${week}-${[teamId, opponentId].sort().join("-")}`;
-
+    const pairKey = `${type}-${week}-${[teamId, opponentId]
+      .sort()
+      .join("-")}`;
     if (paired.has(pairKey)) return;
     paired.add(pairKey);
 
     const home = game.home ? teamId : opponentId;
     const away = game.home ? opponentId : teamId;
 
-    const result = simulateGame(home, away);
+    const result = simulateGame(
+      home,
+      away,
+      rostersByTeam,
+      coachRatingsByTeam
+    );
+
     games.push(result);
 
     if (affectStandings) {
@@ -286,7 +330,7 @@ function simulateGamesForWeek(season, { week, type, affectStandings }) {
 }
 
 /* ======================================================
-   PLAYOFFS (STUB)
+   PLAYOFFS
 ====================================================== */
 
 function advancePlayoffs(season) {
@@ -301,7 +345,6 @@ function advancePlayoffs(season) {
   }
 
   const summary = simulatePlayoffRound(season);
-
   const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
   const isLast = idx === PLAYOFF_ROUNDS.length - 1;
 
@@ -322,7 +365,6 @@ function advancePlayoffs(season) {
   }
 }
 
-
 /* ======================================================
    SEASON RESET
 ====================================================== */
@@ -338,17 +380,10 @@ function resetForNextSeason(season) {
     t.pointsAgainst = 0;
   });
 
-  Object.values(season.schedules).forEach((schedule) => {
-    schedule.forEach((g) => {
-      g.played = false;
-      g.scoreFor = null;
-      g.scoreAgainst = null;
-      // Preserve BYE marker
-      g.result = g.result === "BYE" ? "BYE" : null;
-    });
-  });
-
+  // We let initializeLeague rebuild schedules for the new year
   season.gamesByKey = {};
+  season._initialized = false;
+
   season.phase = "OFFSEASON";
   season.offseasonStep = OFFSEASON_STEPS[0];
   season.preseasonWeek = 1;
@@ -365,15 +400,20 @@ function resetForNextSeason(season) {
    GAME SIMULATION
 ====================================================== */
 
-function simulateGame(home, away) {
-  const homeScore = rand(17, 38);
-  const awayScore = rand(14, 34);
+function simulateGame(home, away, rostersByTeam, coachRatingsByTeam) {
+  const result = simulateWeightedGame({
+    homeTeamId: home,
+    awayTeamId: away,
+    rostersByTeam,
+    coachRatingsByTeam,
+    chaosStdDev: 5
+  });
 
   return {
     home,
     away,
-    homeScore,
-    awayScore
+    homeScore: result.homeScore,
+    awayScore: result.awayScore
   };
 }
 
@@ -420,12 +460,8 @@ function markGamesPlayed(season, week, type, game) {
 }
 
 /* ======================================================
-   HELPERS
+   EXPORTED HELPERS
 ====================================================== */
-
-function rand(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 
 export function getOffseasonSteps() {
   return OFFSEASON_STEPS;
