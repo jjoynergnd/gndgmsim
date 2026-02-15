@@ -79,29 +79,13 @@ export function advanceSeason(prev, context) {
    INITIALIZATION
 ====================================================== */
 
-function initializeLeague(season, { teams, schedules }) {
+function initializeLeague(season, { teams }) {
   console.log("[seasonEngine] initializeLeague — starting with:", season);
 
   // ---- SCHEDULES ----
-  if (season.year > 2026) {
-    console.log(
-      `[seasonEngine] Generating procedural schedule for ${season.year}`
-    );
-    season.schedules = generateSeasonSchedule(season.year);
-  } else {
-    console.log("[seasonEngine] Using static 2026 schedule JSON");
-    season.schedules = {};
-    teams.forEach((t) => {
-      const raw = schedules[t.id] || [];
-      season.schedules[t.id] = raw.map((g) => ({
-        ...g,
-        played: g.played ?? false,
-        scoreFor: g.scoreFor ?? null,
-        scoreAgainst: g.scoreAgainst ?? null,
-        result: g.result ?? null
-      }));
-    });
-  }
+  console.log(`[seasonEngine] Generating procedural schedule for ${season.year}`);
+  season.schedules = generateSeasonSchedule(season.year);
+
 
   season._initialized = true;
 
@@ -442,6 +426,7 @@ function simulateGame(home, away, rostersByTeam, coachRatingsByTeam) {
     awayScore: result.awayScore
   };
 }
+
 
 
 function applyResult(season, game) {

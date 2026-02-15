@@ -84,8 +84,11 @@ const TeamPage = () => {
     setSeason((prev) => {
       const next = advanceSeason(prev, {
         teams,
-        schedules
+        schedules,
+        rosters,
+        staff
       });
+
       console.log("[TeamPage] Season after advanceSeason:", next);
       return next;
     });
@@ -191,324 +194,489 @@ export default TeamPage;
 
 src/utils/seasonEngine.js:
 
-// src/utils/playoffEngine.js
-import { teams } from "../data/teams";
+// src/utils/seasonEngine.js
 
-// ---------- helpers ----------
+import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
+import { generateSeasonSchedule } from "./scheduleGenerator";
+import { simulateWeightedGame } from "./gameSim";
+const DEBUG_GAME_SIM = true;   // set to false to silence logs
 
-function sortStandings(a, b) {
-  if (b.wins !== a.wins) return b.wins - a.wins;
-  const diffA = a.pointsFor - a.pointsAgainst;
-  const diffB = b.pointsFor - b.pointsAgainst;
-  return diffB - diffA;
+
+const PRESEASON_WEEKS = 3;
+const REGULAR_SEASON_WEEKS = 18;
+const PLAYOFF_ROUNDS = ["WILDCARD", "DIVISIONAL", "CONFERENCE", "SUPER_BOWL"];
+const OFFSEASON_STEPS = ["RESIGNINGS", "FREE_AGENCY", "DRAFT"];
+
+/* ======================================================
+   HELPERS (COACH RATINGS)
+====================================================== */
+
+function extractCoachRatings(staffByTeam) {
+  const out = {};
+  if (!staffByTeam) return out;
+
+  for (const teamId in staffByTeam) {
+    const coaches = staffByTeam[teamId] || [];
+    const headCoach = coaches.find((c) => c.role === "HC");
+    out[teamId] = headCoach?.ratings?.overall ?? 75;
+  }
+
+  return out;
 }
 
-function rand(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+/* ======================================================
+   PUBLIC API
+====================================================== */
+
+export function advanceSeason(prev, context) {
+  const season = structuredClone(prev);
+
+  // Initialize league once per season
+  if (!season._initialized) {
+    initializeLeague(season, context);
+  }
+
+  console.log(
+    "[seasonEngine] advanceSeason — phase:",
+    season.phase,
+    "preseasonWeek:",
+    season.preseasonWeek,
+    "week:",
+    season.week,
+    "offseasonStep:",
+    season.offseasonStep
+  );
+
+  switch (season.phase) {
+    case "OFFSEASON":
+      advanceOffseason(season);
+      break;
+
+    case "PRESEASON":
+      simulatePreseasonWeek(season, context);
+      break;
+
+    case "REGULAR_SEASON":
+      simulateRegularSeasonWeek(season, context);
+      break;
+
+    case "PLAYOFFS":
+      advancePlayoffs(season);
+      break;
+
+    default:
+      break;
+  }
+
+  return season;
 }
 
-function simulateGame(home, away) {
-  const homeScore = rand(17, 38);
-  const awayScore = rand(14, 34);
-  return { home, away, homeScore, awayScore };
-}
+/* ======================================================
+   INITIALIZATION
+====================================================== */
 
-function getConference(teamId) {
-  const t = teams.find((x) => x.id === teamId);
-  return t?.conference || null;
-}
+function initializeLeague(season, { teams }) {
+  console.log("[seasonEngine] initializeLeague — starting with:", season);
 
-// ---------- initialization ----------
+  // ---- SCHEDULES ----
+  console.log(`[seasonEngine] Generating procedural schedule for ${season.year}`);
+  season.schedules = generateSeasonSchedule(season.year);
 
-export function initializePlayoffs(season) {
-  const standings = Object.entries(season.teams).map(([id, rec]) => ({
-    id,
-    ...rec
-  }));
 
-  const byConf = { AFC: [], NFC: [] };
-  standings.forEach((t) => {
-    const meta = teams.find((x) => x.id === t.id);
-    if (!meta) return;
-    byConf[meta.conference].push(t);
+  season._initialized = true;
+
+  // ---- STANDINGS ----
+  season.teams = {};
+  teams.forEach((t) => {
+    season.teams[t.id] = {
+      wins: 0,
+      losses: 0,
+      ties: 0,
+      pointsFor: 0,
+      pointsAgainst: 0
+    };
   });
 
-  byConf.AFC.sort(sortStandings);
-  byConf.NFC.sort(sortStandings);
+  season.gamesByKey = {}; // keyed by `${type}-${week}-${sortedTeamIds}`
 
-  const seedsAFC = byConf.AFC.slice(0, 7).map((t, i) => ({
-    id: t.id,
-    seed: i + 1
-  }));
-  const seedsNFC = byConf.NFC.slice(0, 7).map((t, i) => ({
-    id: t.id,
-    seed: i + 1
-  }));
+  // ---- TIMING ----
+  season.phase = "OFFSEASON";
+  season.offseasonStep = OFFSEASON_STEPS[0];
 
-  season.playoffs = {
-    initialized: true,
-    seedsByConference: {
-      AFC: seedsAFC,
-      NFC: seedsNFC
-    },
-    bracket: {
-      WILDCARD: {
-        AFC: buildWildcardRound(seedsAFC, "AFC"),
-        NFC: buildWildcardRound(seedsNFC, "NFC")
-      },
-      DIVISIONAL: {
-        AFC: [],
-        NFC: []
-      },
-      CONFERENCE: {
-        AFC: [],
-        NFC: []
-      },
-      SUPER_BOWL: {
-        GAME: null
-      }
-    }
+  season.preseasonWeek = 1; // 1–3
+  season.week = 1; // 1–18
+  season.playoffRound = null;
+
+  season.lastResult = {
+    summary: "League initialized",
+    details: "Offseason — RESIGNINGS"
   };
+
+  console.log("[seasonEngine] initializeLeague — finished:", season);
 }
 
-function buildWildcardRound(seeds, conf) {
-  // seeds[0] is #1 (bye)
-  const s2 = seeds[1];
-  const s3 = seeds[2];
-  const s4 = seeds[3];
-  const s5 = seeds[4];
-  const s6 = seeds[5];
-  const s7 = seeds[6];
+/* ======================================================
+   OFFSEASON
+====================================================== */
 
-  const makeGame = (high, low, idx) => ({
-    id: `${conf}-WC-${idx}`,
-    round: "WILDCARD",
-    conference: conf,
-    home: high.id,
-    away: low.id,
-    homeSeed: high.seed,
-    awaySeed: low.seed,
-    played: false,
-    homeScore: null,
-    awayScore: null,
-    winner: null
-  });
+function advanceOffseason(season) {
+  const idx = OFFSEASON_STEPS.indexOf(season.offseasonStep);
 
-  return [
-    makeGame(s2, s7, 1),
-    makeGame(s3, s6, 2),
-    makeGame(s4, s5, 3)
-  ];
+  if (idx < OFFSEASON_STEPS.length - 1) {
+    season.offseasonStep = OFFSEASON_STEPS[idx + 1];
+    season.lastResult = {
+      summary: `${OFFSEASON_STEPS[idx]} complete`,
+      details: ""
+    };
+  } else {
+    season.phase = "PRESEASON";
+    season.offseasonStep = null;
+    season.lastResult = {
+      summary: "Offseason complete",
+      details: "Preseason begins."
+    };
+  }
 }
 
-// ---------- round simulation ----------
+/* ======================================================
+   PRESEASON
+====================================================== */
 
-export function simulatePlayoffRound(season) {
-  const round = season.playoffRound;
-  const { bracket, seedsByConference } = season.playoffs;
+function simulatePreseasonWeek(season, context) {
+  const week = season.preseasonWeek;
+  const key = `PRESEASON-${week}`;
 
-  if (round === "WILDCARD") {
-    const results = [];
-
-    ["AFC", "NFC"].forEach((conf) => {
-      const games = bracket.WILDCARD[conf];
-      games.forEach((g) => {
-        if (g.played) return;
-        const res = simulateGame(g.home, g.away);
-        g.played = true;
-        g.homeScore = res.homeScore;
-        g.awayScore = res.awayScore;
-        g.winner = res.homeScore > res.awayScore ? g.home : g.away;
-        results.push(formatResultLine(g));
-      });
-
-      // build divisional for this conference
-      const seed1 = seedsByConference[conf].find((s) => s.seed === 1);
-      const winners = games.map((g) => {
-        const seed = seedsByConference[conf].find((s) => s.id === g.winner);
-        return seed;
-      });
-
-      const divisionalGames = buildDivisionalRound(seed1, winners, conf);
-      bracket.DIVISIONAL[conf] = divisionalGames;
-    });
-
-    return results.join("  ");
+  if (season.gamesByKey[key]) {
+    console.log("[seasonEngine] Preseason week already simulated:", week);
+    advanceFromPreseasonIfDone(season);
+    return;
   }
 
-  if (round === "DIVISIONAL") {
-    const results = [];
+  const games = simulateGamesForWeek(
+    season,
+    {
+      week,
+      type: "PRESEASON",
+      affectStandings: false
+    },
+    context
+  );
 
-    ["AFC", "NFC"].forEach((conf) => {
-      const games = bracket.DIVISIONAL[conf];
-      const winners = [];
+  season.gamesByKey[key] = games;
 
-      games.forEach((g) => {
-        if (g.played) return;
-        const res = simulateGame(g.home, g.away);
-        g.played = true;
-        g.homeScore = res.homeScore;
-        g.awayScore = res.awayScore;
-        g.winner = res.homeScore > res.awayScore ? g.home : g.away;
-        winners.push(g.winner);
-        results.push(formatResultLine(g));
-      });
+  season.lastResult = {
+    summary: `Preseason Week ${week} complete`,
+    details: `${games.length} games played`
+  };
 
-      // build conference championship for this conference
-      if (winners.length === 2) {
-        const [t1, t2] = winners;
-        const s1 = season.playoffs.seedsByConference[conf].find(
-          (s) => s.id === t1
-        );
-        const s2 = season.playoffs.seedsByConference[conf].find(
-          (s) => s.id === t2
-        );
+  if (week < PRESEASON_WEEKS) {
+    season.preseasonWeek += 1;
+  } else {
+    season.phase = "REGULAR_SEASON";
+    season.week = 1;
+    season.lastResult = {
+      summary: "Preseason complete",
+      details: "Ready to begin Week 1."
+    };
+  }
+}
 
-        bracket.CONFERENCE[conf] = [
-          {
-            id: `${conf}-CONF-1`,
-            round: "CONFERENCE",
-            conference: conf,
-            home: s1.seed < s2.seed ? t1 : t2,
-            away: s1.seed < s2.seed ? t2 : t1,
-            homeSeed: s1.seed < s2.seed ? s1.seed : s2.seed,
-            awaySeed: s1.seed < s2.seed ? s2.seed : s1.seed,
-            played: false,
-            homeScore: null,
-            awayScore: null,
-            winner: null
-          }
-        ];
-      }
-    });
+function advanceFromPreseasonIfDone(season) {
+  if (season.preseasonWeek >= PRESEASON_WEEKS) {
+    season.phase = "REGULAR_SEASON";
+    season.week = 1;
+    season.lastResult = {
+      summary: "Preseason complete",
+      details: "Ready to begin Week 1."
+    };
+  } else {
+    season.preseasonWeek += 1;
+  }
+}
 
-    return results.join("  ");
+/* ======================================================
+   REGULAR SEASON
+====================================================== */
+
+function simulateRegularSeasonWeek(season, context) {
+  const week = season.week;
+  const key = `REGULAR_SEASON-${week}`;
+
+  if (season.gamesByKey[key]) {
+    console.log("[seasonEngine] Regular season week already simulated:", week);
+    advanceFromRegularSeasonIfDone(season);
+    return;
   }
 
-  if (round === "CONFERENCE") {
-    const results = [];
-    const confWinners = {};
+  const games = simulateGamesForWeek(
+    season,
+    {
+      week,
+      type: "REGULAR_SEASON",
+      affectStandings: true
+    },
+    context
+  );
 
-    ["AFC", "NFC"].forEach((conf) => {
-      const games = bracket.CONFERENCE[conf];
-      games.forEach((g) => {
-        if (g.played) return;
-        const res = simulateGame(g.home, g.away);
-        g.played = true;
-        g.homeScore = res.homeScore;
-        g.awayScore = res.awayScore;
-        g.winner = res.homeScore > res.awayScore ? g.home : g.away;
-        confWinners[conf] = g.winner;
-        results.push(formatResultLine(g));
-      });
-    });
+  season.gamesByKey[key] = games;
 
-    // build Super Bowl
-    if (confWinners.AFC && confWinners.NFC) {
-      const afcSeed = season.playoffs.seedsByConference.AFC.find(
-        (s) => s.id === confWinners.AFC
-      );
-      const nfcSeed = season.playoffs.seedsByConference.NFC.find(
-        (s) => s.id === confWinners.NFC
-      );
+  season.lastResult = {
+    summary: `Week ${week} complete`,
+    details: `${games.length} games played`
+  };
 
-      season.playoffs.bracket.SUPER_BOWL.GAME = {
-        id: "SB-1",
-        round: "SUPER_BOWL",
-        conference: "CROSS",
-        home: afcSeed.seed <= nfcSeed.seed ? confWinners.AFC : confWinners.NFC,
-        away: afcSeed.seed <= nfcSeed.seed ? confWinners.NFC : confWinners.AFC,
-        homeSeed: afcSeed.seed <= nfcSeed.seed ? afcSeed.seed : nfcSeed.seed,
-        awaySeed: afcSeed.seed <= nfcSeed.seed ? nfcSeed.seed : afcSeed.seed,
-        played: false,
-        homeScore: null,
-        awayScore: null,
-        winner: null
-      };
+  if (week < REGULAR_SEASON_WEEKS) {
+    season.week += 1;
+  } else {
+    season.phase = "PLAYOFFS";
+    season.week = null;
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Regular season complete",
+      details: "Playoffs begin."
+    };
+  }
+}
+
+function advanceFromRegularSeasonIfDone(season) {
+  if (season.week >= REGULAR_SEASON_WEEKS) {
+    season.phase = "PLAYOFFS";
+    season.week = null;
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Regular season complete",
+      details: "Playoffs begin."
+    };
+  } else {
+    season.week += 1;
+  }
+}
+
+/* ======================================================
+   SHARED GAME SIMULATION
+====================================================== */
+
+function simulateGamesForWeek(season, { week, type, affectStandings }, context) {
+  const games = [];
+  const paired = new Set();
+
+  const coachRatingsByTeam = extractCoachRatings(context?.staff);
+  const rostersByTeam = context?.rosters || {};
+
+  Object.entries(season.schedules).forEach(([teamId, schedule]) => {
+    const game = schedule.find((g) => g.week === week && g.type === type);
+    if (!game) return;
+
+    // Bye week
+    if (game.result === "BYE" || game.opponent === null) return;
+
+    const opponentId = game.opponent;
+
+    // Canonical pair key: same for both teams
+    const pairKey = `${type}-${week}-${[teamId, opponentId]
+      .sort()
+      .join("-")}`;
+    if (paired.has(pairKey)) return;
+    paired.add(pairKey);
+
+    const home = game.home ? teamId : opponentId;
+    const away = game.home ? opponentId : teamId;
+
+    const result = simulateGame(
+      home,
+      away,
+      rostersByTeam,
+      coachRatingsByTeam
+    );
+
+    games.push(result);
+
+    if (affectStandings) {
+      applyResult(season, result);
     }
 
-    return results.join("  ");
-  }
-
-  if (round === "SUPER_BOWL") {
-    const g = season.playoffs.bracket.SUPER_BOWL.GAME;
-    if (!g || g.played) return "";
-
-    const res = simulateGame(g.home, g.away);
-    g.played = true;
-    g.homeScore = res.homeScore;
-    g.awayScore = res.awayScore;
-    g.winner = res.homeScore > res.awayScore ? g.home : g.away;
-
-    season.playoffs.champion = g.winner;
-
-    return formatResultLine(g);
-  }
-
-  return "";
-}
-
-function buildDivisionalRound(seed1, wildcardWinners, conf) {
-  // wildcardWinners: array of { id, seed }
-  const seeds = wildcardWinners.map((s) => s.seed).sort((a, b) => a - b);
-  // lowest remaining seed plays #1
-  const lowestSeed = seeds[0];
-  const otherSeeds = seeds.slice(1);
-
-  const lowestTeam = wildcardWinners.find((s) => s.seed === lowestSeed);
-  const [sA, sB] = otherSeeds;
-  const teamA = wildcardWinners.find((s) => s.seed === sA);
-  const teamB = wildcardWinners.find((s) => s.seed === sB);
-
-  const games = [];
-
-  // Game 1: #1 vs lowest remaining
-  games.push({
-    id: `${conf}-DIV-1`,
-    round: "DIVISIONAL",
-    conference: conf,
-    home: seed1.id,
-    away: lowestTeam.id,
-    homeSeed: seed1.seed,
-    awaySeed: lowestTeam.seed,
-    played: false,
-    homeScore: null,
-    awayScore: null,
-    winner: null
+    markGamesPlayed(season, week, type, result);
   });
 
-  // Game 2: other two winners
-  games.push({
-    id: `${conf}-DIV-2`,
-    round: "DIVISIONAL",
-    conference: conf,
-    home: teamA.seed < teamB.seed ? teamA.id : teamB.id,
-    away: teamA.seed < teamB.seed ? teamB.id : teamA.id,
-    homeSeed: teamA.seed < teamB.seed ? teamA.seed : teamB.seed,
-    awaySeed: teamA.seed < teamB.seed ? teamB.seed : teamA.seed,
-    played: false,
-    homeScore: null,
-    awayScore: null,
-    winner: null
-  });
+  console.log(
+    "[seasonEngine] simulateGamesForWeek",
+    "type:",
+    type,
+    "week:",
+    week,
+    "games:",
+    games.length
+  );
 
   return games;
 }
 
-function formatResultLine(game) {
-  const homeConf = getConference(game.home);
-  
-  const homeTeam = teams.find((t) => t.id === game.home);
-  const awayTeam = teams.find((t) => t.id === game.away);
+/* ======================================================
+   PLAYOFFS
+====================================================== */
 
-  const homeName = homeTeam
-    ? `${homeTeam.city} ${homeTeam.mascot}`
-    : game.home;
-  const awayName = awayTeam
-    ? `${awayTeam.city} ${awayTeam.mascot}`
-    : game.away;
+function advancePlayoffs(season) {
+  if (!season.playoffs?.initialized) {
+    initializePlayoffs(season);
+    season.playoffRound = PLAYOFF_ROUNDS[0];
+    season.lastResult = {
+      summary: "Playoffs begin",
+      details: "Wildcard round set."
+    };
+    return;
+  }
 
-  return `${homeConf || ""} ${game.round}: ${homeName} ${game.homeScore} - ${awayName} ${game.awayScore}`;
+  const summary = simulatePlayoffRound(season);
+  const idx = PLAYOFF_ROUNDS.indexOf(season.playoffRound);
+  const isLast = idx === PLAYOFF_ROUNDS.length - 1;
+
+  if (!isLast) {
+    const prevRound = season.playoffRound;
+    season.playoffRound = PLAYOFF_ROUNDS[idx + 1];
+    season.lastResult = {
+      summary: `${prevRound.replace("_", " ")} complete`,
+      details: summary
+    };
+  } else {
+    const finalSummary = summary || "Super Bowl complete.";
+    season.lastResult = {
+      summary: "Season complete",
+      details: finalSummary
+    };
+    resetForNextSeason(season);
+  }
+}
+
+/* ======================================================
+   SEASON RESET
+====================================================== */
+
+function resetForNextSeason(season) {
+  season.year += 1;
+
+  Object.values(season.teams).forEach((t) => {
+    t.wins = 0;
+    t.losses = 0;
+    t.ties = 0;
+    t.pointsFor = 0;
+    t.pointsAgainst = 0;
+  });
+
+  // We let initializeLeague rebuild schedules for the new year
+  season.gamesByKey = {};
+  season._initialized = false;
+
+  season.phase = "OFFSEASON";
+  season.offseasonStep = OFFSEASON_STEPS[0];
+  season.preseasonWeek = 1;
+  season.week = 1;
+  season.playoffRound = null;
+
+  season.lastResult = {
+    summary: "Season complete",
+    details: `Welcome to the ${season.year} season`
+  };
+}
+
+/* ======================================================
+   GAME SIMULATION
+====================================================== */
+
+function simulateGame(home, away, rostersByTeam, coachRatingsByTeam) {
+  const result = simulateWeightedGame({
+    homeTeamId: home,
+    awayTeamId: away,
+    rostersByTeam,
+    coachRatingsByTeam,
+    chaosStdDev: 5
+  });
+
+  if (DEBUG_GAME_SIM) {
+    const homeStrength = result.homeStrength.toFixed(1);
+    const awayStrength = result.awayStrength.toFixed(1);
+    const diff = (result.homeStrength - result.awayStrength).toFixed(1);
+
+    const homeQB =
+      (rostersByTeam[home]?.find((p) => p.position === "QB")?.ratings?.overall ??
+        0);
+    const awayQB =
+      (rostersByTeam[away]?.find((p) => p.position === "QB")?.ratings?.overall ??
+        0);
+
+    const qbDiff = homeQB - awayQB;
+
+    console.log(
+      `GAME SIM: ${home} (${homeStrength}) vs ${away} (${awayStrength}) → diff ${diff}`
+    );
+    console.log(`QB diff: ${qbDiff}`);
+    console.log(
+      `Winner: ${result.homeScore > result.awayScore ? home : away} (${result.homeScore}-${result.awayScore})`
+    );
+    console.log("--------------------------------------------------");
+  }
+
+  return {
+    home,
+    away,
+    homeScore: result.homeScore,
+    awayScore: result.awayScore
+  };
+}
+
+
+
+function applyResult(season, game) {
+  const { home, away, homeScore, awayScore } = game;
+
+  const homeTeam = season.teams[home];
+  const awayTeam = season.teams[away];
+
+  homeTeam.pointsFor += homeScore;
+  homeTeam.pointsAgainst += awayScore;
+  awayTeam.pointsFor += awayScore;
+  awayTeam.pointsAgainst += homeScore;
+
+  if (homeScore > awayScore) {
+    homeTeam.wins++;
+    awayTeam.losses++;
+  } else if (awayScore > homeScore) {
+    awayTeam.wins++;
+    homeTeam.losses++;
+  } else {
+    homeTeam.ties++;
+    awayTeam.ties++;
+  }
+}
+
+function markGamesPlayed(season, week, type, game) {
+  const { home, away, homeScore, awayScore } = game;
+
+  const update = (teamId, scored, allowed) => {
+    const g = season.schedules[teamId].find(
+      (x) => x.week === week && x.type === type
+    );
+    if (!g) return;
+
+    g.played = true;
+    g.scoreFor = scored;
+    g.scoreAgainst = allowed;
+    g.result = scored > allowed ? "W" : scored < allowed ? "L" : "T";
+  };
+
+  update(home, homeScore, awayScore);
+  update(away, awayScore, homeScore);
+}
+
+/* ======================================================
+   EXPORTED HELPERS
+====================================================== */
+
+export function getOffseasonSteps() {
+  return OFFSEASON_STEPS;
+}
+
+export function getPlayoffRounds() {
+  return PLAYOFF_ROUNDS;
 }
 
 
@@ -1161,7 +1329,6 @@ export default function ScheduleTab({ schedule }) {
     </div>
   );
 }
-
 
 
 *********************************************
@@ -2697,3 +2864,1069 @@ export const teams = [
   { id: "SF",  city: "SF",  mascot: "Gold Rush", conference: "NFC", division: "West", color: "#D68910" },
   { id: "SEA", city: "SEA", mascot: "Rain Makers", conference: "NFC", division: "West", color: "#2ECC71" }
 ];
+
+
+*****************************************************8
+
+
+src/utils/scheduleGenerator.js:
+
+// src/utils/scheduleGenerator.js
+
+import { teams } from "../data/teams";
+
+/**
+ * PUBLIC API
+ * Deterministic, NFL-style schedule generator.
+ * - 17 games + 1 bye per team
+ * - 6 division games (home/away vs 3 rivals)
+ * - 4 intraconference rotation games
+ * - 4 interconference rotation games
+ * - 2 strength-of-schedule games (same-place, same conference)
+ * - 1 cross-conference 17th game (same-place, different division than inter-rotation)
+ * - No duplicate non-division opponents
+ * - No back-to-back vs same opponent
+ * - 18 weeks, exactly 1 bye per team
+ */
+export function generateSeasonSchedule(year) {
+  const divisions = buildDivisionStructure();
+  const ranks = buildDivisionRanks(divisions); // pseudo-standings, deterministic
+
+  // 1) Build opponent lists (no weeks yet)
+  const schedule = {};
+  teams.forEach((t) => {
+    schedule[t.id] = [];
+  });
+
+  // Division games (6)
+  addDivisionGames(schedule, divisions);
+
+  // Intra-conference rotation (4)
+  addIntraConferenceRotationGames(schedule, divisions, year);
+
+  // Inter-conference rotation (4)
+  addInterConferenceRotationGames(schedule, divisions, year);
+
+  // Strength-of-schedule (2)
+  addStrengthOfScheduleGames(schedule, divisions, ranks, year);
+
+  // 17th game (1)
+  addSeventeenthGame(schedule, divisions, ranks, year);
+
+  // 2) Assign weeks + byes
+  assignWeeksAndByes(schedule, year);
+
+  // 3) Sort each team schedule by week
+  for (const teamId in schedule) {
+    schedule[teamId].sort((a, b) => a.week - b.week);
+  }
+
+  return schedule;
+}
+
+/* ======================================================
+   DIVISION / RANK HELPERS
+====================================================== */
+
+function buildDivisionStructure() {
+  const divisions = {
+    AFC: {
+      North: [],
+      East: [],
+      South: [],
+      West: []
+    },
+    NFC: {
+      North: [],
+      East: [],
+      South: [],
+      West: []
+    }
+  };
+
+  teams.forEach((t) => {
+    divisions[t.conference][t.division].push(t.id);
+  });
+
+  // Ensure deterministic ordering
+  for (const conf of ["AFC", "NFC"]) {
+    for (const div of ["North", "East", "South", "West"]) {
+      divisions[conf][div].sort();
+    }
+  }
+
+  return divisions;
+}
+
+// Pseudo-standings: alphabetical order within division = prior-year rank
+// rank 0 = 1st place, 1 = 2nd, etc.
+function buildDivisionRanks(divisions) {
+  const ranks = {};
+  for (const conf of ["AFC", "NFC"]) {
+    ranks[conf] = {};
+    for (const div of ["North", "East", "South", "West"]) {
+      const list = divisions[conf][div];
+      ranks[conf][div] = {};
+      list.forEach((teamId, idx) => {
+        ranks[conf][div][teamId] = idx; // 0–3
+      });
+    }
+  }
+  return ranks;
+}
+
+/* ======================================================
+   GAME CREATION HELPERS
+====================================================== */
+
+function createEmptyGame({ week = null, type = "REGULAR_SEASON", opponent, home }) {
+  return {
+    week,
+    type,
+    opponent,
+    home,
+    played: false,
+    scoreFor: null,
+    scoreAgainst: null,
+    result: null,
+    overtime: false,
+    attendance: null,
+    notes: null
+  };
+}
+
+function addGamePair(schedule, homeTeam, awayTeam) {
+  // Home entry
+  schedule[homeTeam].push(
+    createEmptyGame({
+      opponent: awayTeam,
+      home: true
+    })
+  );
+  // Away entry
+  schedule[awayTeam].push(
+    createEmptyGame({
+      opponent: homeTeam,
+      home: false
+    })
+  );
+}
+
+/* ======================================================
+   DIVISION GAMES (6 per team)
+====================================================== */
+
+function addDivisionGames(schedule, divisions) {
+  for (const conf of ["AFC", "NFC"]) {
+    for (const div of ["North", "East", "South", "West"]) {
+      const list = divisions[conf][div]; // 4 teams
+      // Round-robin, home/away
+      for (let i = 0; i < list.length; i++) {
+        for (let j = i + 1; j < list.length; j++) {
+          const t1 = list[i];
+          const t2 = list[j];
+          // One game with t1 home, one with t2 home
+          addGamePair(schedule, t1, t2);
+          addGamePair(schedule, t2, t1);
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================
+   ROTATION TABLES
+   - These are structural, not tied to real NFL years,
+     but follow the same formula: 3-year intra, 4-year inter.
+====================================================== */
+
+// Intra-conference rotation (3-year cycle)
+// For each yearIndex (0,1,2), define pairings within a conference.
+const INTRA_ROTATION = {
+  AFC: [
+    // yearIndex 0
+    {
+      North: "East",
+      East: "North",
+      South: "West",
+      West: "South"
+    },
+    // yearIndex 1
+    {
+      North: "South",
+      South: "North",
+      East: "West",
+      West: "East"
+    },
+    // yearIndex 2
+    {
+      North: "West",
+      West: "North",
+      East: "South",
+      South: "East"
+    }
+  ],
+  NFC: [
+    // yearIndex 0
+    {
+      North: "East",
+      East: "North",
+      South: "West",
+      West: "South"
+    },
+    // yearIndex 1
+    {
+      North: "South",
+      South: "North",
+      East: "West",
+      West: "East"
+    },
+    // yearIndex 2
+    {
+      North: "West",
+      West: "North",
+      East: "South",
+      South: "East"
+    }
+  ]
+};
+
+// Inter-conference rotation (4-year cycle)
+// Pair each AFC division with an NFC division.
+const INTER_ROTATION = [
+  // yearIndex 0
+  {
+    AFC: {
+      North: "North",
+      East: "East",
+      South: "South",
+      West: "West"
+    },
+    NFC: {
+      North: "North",
+      East: "East",
+      South: "South",
+      West: "West"
+    }
+  },
+  // yearIndex 1
+  {
+    AFC: {
+      North: "East",
+      East: "South",
+      South: "West",
+      West: "North"
+    },
+    NFC: {
+      North: "West",
+      East: "North",
+      South: "East",
+      West: "South"
+    }
+  },
+  // yearIndex 2
+  {
+    AFC: {
+      North: "South",
+      East: "West",
+      South: "North",
+      West: "East"
+    },
+    NFC: {
+      North: "South",
+      East: "North",
+      South: "West",
+      West: "East"
+    }
+  },
+  // yearIndex 3
+  {
+    AFC: {
+      North: "West",
+      East: "North",
+      South: "East",
+      West: "South"
+    },
+    NFC: {
+      North: "East",
+      East: "South",
+      South: "North",
+      West: "West"
+    }
+  }
+];
+
+// 17th game cross-conference division mapping (4-year cycle)
+// Must be different from that year's INTER_ROTATION division.
+const EXTRA17_ROTATION = [
+  // yearIndex 0
+  {
+    AFC: {
+      North: "South",
+      East: "West",
+      South: "North",
+      West: "East"
+    },
+    NFC: {
+      North: "South",
+      East: "West",
+      South: "North",
+      West: "East"
+    }
+  },
+  // yearIndex 1
+  {
+    AFC: {
+      North: "West",
+      East: "North",
+      South: "East",
+      West: "South"
+    },
+    NFC: {
+      North: "East",
+      East: "South",
+      South: "North",
+      West: "West"
+    }
+  },
+  // yearIndex 2
+  {
+    AFC: {
+      North: "East",
+      East: "South",
+      South: "West",
+      West: "North"
+    },
+    NFC: {
+      North: "West",
+      East: "North",
+      South: "East",
+      West: "South"
+    }
+  },
+  // yearIndex 3
+  {
+    AFC: {
+      North: "North",
+      East: "East",
+      South: "South",
+      West: "West"
+    },
+    NFC: {
+      North: "North",
+      East: "East",
+      South: "South",
+      West: "West"
+    }
+  }
+];
+
+function getIntraRotationYearIndex(year) {
+  // 3-year cycle starting at 2026
+  return (year - 2026) % 3;
+}
+
+function getInterRotationYearIndex(year) {
+  // 4-year cycle starting at 2026
+  return (year - 2026) % 4;
+}
+
+/* ======================================================
+   INTRA-CONFERENCE ROTATION GAMES (4 per team)
+====================================================== */
+
+function addIntraConferenceRotationGames(schedule, divisions, year) {
+  const idx = getIntraRotationYearIndex(year);
+
+  for (const conf of ["AFC", "NFC"]) {
+    const mapping = INTRA_ROTATION[conf][idx];
+
+    // To avoid double-processing, only handle when division name is "North" or "East"
+    // and let the mapping handle the symmetric partner.
+    for (const div of ["North", "East", "South", "West"]) {
+      const partnerDiv = mapping[div];
+      if (!partnerDiv) continue;
+
+      // Process each pair only once
+      if (!shouldProcessDivisionPair(div, partnerDiv)) continue;
+
+      const divTeams = divisions[conf][div];
+      const partnerTeams = divisions[conf][partnerDiv];
+
+      // Full bipartite: each team plays all 4 teams in the other division
+      for (let i = 0; i < divTeams.length; i++) {
+        for (let j = 0; j < partnerTeams.length; j++) {
+          const t1 = divTeams[i];
+          const t2 = partnerTeams[j];
+
+          // Deterministic home/away: alternate by indices + year
+          const homeFirst =
+            ((i + j + year) % 2 === 0) ? t1 : t2;
+          const awayFirst = homeFirst === t1 ? t2 : t1;
+
+          addGamePair(schedule, homeFirst, awayFirst);
+        }
+      }
+    }
+  }
+}
+
+function shouldProcessDivisionPair(divA, divB) {
+  // Ensure each unordered pair is processed once
+  const order = ["North", "East", "South", "West"];
+  const idxA = order.indexOf(divA);
+  const idxB = order.indexOf(divB);
+  return idxA < idxB;
+}
+
+/* ======================================================
+   INTER-CONFERENCE ROTATION GAMES (4 per team)
+====================================================== */
+
+function addInterConferenceRotationGames(schedule, divisions, year) {
+  const idx = getInterRotationYearIndex(year);
+  const mapping = INTER_ROTATION[idx];
+
+  // AFC vs NFC
+  for (const afcDiv of ["North", "East", "South", "West"]) {
+    const nfcDiv = mapping.AFC[afcDiv];
+    const afcTeams = divisions.AFC[afcDiv];
+    const nfcTeams = divisions.NFC[nfcDiv];
+
+    // Full bipartite: each AFC team plays all 4 NFC teams
+    for (let i = 0; i < afcTeams.length; i++) {
+      for (let j = 0; j < nfcTeams.length; j++) {
+        const afcTeam = afcTeams[i];
+        const nfcTeam = nfcTeams[j];
+
+        // Deterministic home/away: alternate by indices + year
+        const homeFirst =
+          ((i + j + year) % 2 === 0) ? afcTeam : nfcTeam;
+        const awayFirst = homeFirst === afcTeam ? nfcTeam : afcTeam;
+
+        addGamePair(schedule, homeFirst, awayFirst);
+      }
+    }
+  }
+}
+
+/* ======================================================
+   STRENGTH-OF-SCHEDULE GAMES (2 per team)
+   - Same-place finishers from the two divisions in the
+     same conference that are NOT the intra-rotation division.
+   - Uses pseudo-ranks (alphabetical) as prior-year standings.
+====================================================== */
+
+function addStrengthOfScheduleGames(schedule, divisions, ranks, year) {
+  const intraIdx = getIntraRotationYearIndex(year);
+
+  for (const conf of ["AFC", "NFC"]) {
+    const intraMap = INTRA_ROTATION[conf][intraIdx];
+
+    const allDivs = ["North", "East", "South", "West"];
+
+    for (const div of allDivs) {
+      const intraPartner = intraMap[div];
+      const otherDivs = allDivs.filter(
+        (d) => d !== div && d !== intraPartner
+      ); // 2 divisions
+
+      const baseTeams = divisions[conf][div];
+
+      baseTeams.forEach((teamId) => {
+        const rank = ranks[conf][div][teamId]; // 0–3
+
+        otherDivs.forEach((otherDiv, idx) => {
+          const otherTeams = divisions[conf][otherDiv];
+          const opponentId = otherTeams[rank];
+
+          // Deterministic home/away: alternate by idx + year
+          const homeFirst =
+            ((rank + idx + year) % 2 === 0) ? teamId : opponentId;
+          const awayFirst = homeFirst === teamId ? opponentId : teamId;
+
+          // To avoid duplicates, only create if teamId is "lexicographically smaller"
+          if (teamId < opponentId) {
+            addGamePair(schedule, homeFirst, awayFirst);
+          }
+        });
+      });
+    }
+  }
+}
+
+/* ======================================================
+   17th GAME (1 per team)
+   - Cross-conference, same-place finisher
+   - Division mapping from EXTRA17_ROTATION
+====================================================== */
+
+function addSeventeenthGame(schedule, divisions, ranks, year) {
+  const idx = getInterRotationYearIndex(year);
+  const mapping = EXTRA17_ROTATION[idx];
+
+  // AFC side
+  for (const afcDiv of ["North", "East", "South", "West"]) {
+    const nfcDiv = mapping.AFC[afcDiv];
+    const afcTeams = divisions.AFC[afcDiv];
+    const nfcTeams = divisions.NFC[nfcDiv];
+
+    afcTeams.forEach((afcTeamId) => {
+      const rank = ranks.AFC[afcDiv][afcTeamId];
+      const nfcTeamId = nfcTeams[rank];
+
+      // Deterministic home/away:
+      // Let AFC host in even years, NFC host in odd years
+      const afcHosts = year % 2 === 0;
+      const homeFirst = afcHosts ? afcTeamId : nfcTeamId;
+      const awayFirst = afcHosts ? nfcTeamId : afcTeamId;
+
+      // Avoid duplicates: only create if AFC team id < NFC team id
+      const keyA = `A-${afcTeamId}`;
+      const keyB = `N-${nfcTeamId}`;
+      if (keyA < keyB) {
+        addGamePair(schedule, homeFirst, awayFirst);
+      }
+    });
+  }
+}
+
+/* ======================================================
+   WEEK + BYE ASSIGNMENT
+   - 18 weeks
+   - 17 games + 1 bye per team
+   - No back-to-back vs same opponent when possible
+====================================================== */
+
+function assignWeeksAndByes(schedule, year) {
+  const teamIds = Object.keys(schedule).sort();
+
+  // Precompute bye weeks (5–14) deterministically
+  const byeWeeks = {};
+  teamIds.forEach((teamId, idx) => {
+    const bye = 5 + ((year + idx) % 10); // 5–14
+    byeWeeks[teamId] = bye;
+  });
+
+  // Build list of unique matchups
+  const games = [];
+  const seenPairs = new Set();
+
+  for (const teamId of teamIds) {
+    schedule[teamId].forEach((g) => {
+      if (g.type !== "REGULAR_SEASON" || g.opponent == null) return;
+      const pairKey = makePairKey(teamId, g.opponent);
+      if (seenPairs.has(pairKey)) return;
+      seenPairs.add(pairKey);
+
+      // Determine canonical home/away from one of the entries
+      const homeEntry = schedule[teamId].find(
+        (x) =>
+          x.opponent === g.opponent &&
+          x.type === "REGULAR_SEASON" &&
+          x.home === true
+      );
+      const homeTeam = homeEntry ? teamId : g.opponent;
+      const awayTeam = homeEntry ? g.opponent : teamId;
+
+      games.push({
+        home: homeTeam,
+        away: awayTeam,
+        week: null
+      });
+    });
+  }
+
+  // Deterministic ordering of games
+  games.sort((a, b) => {
+    const ka = `${a.home}-${a.away}`;
+    const kb = `${b.home}-${b.away}`;
+    return ka.localeCompare(kb);
+  });
+
+  // Track per-team week occupancy and last opponent
+  const teamWeek = {};
+  const lastOpponentByWeek = {};
+  teamIds.forEach((id) => {
+    teamWeek[id] = {};
+    lastOpponentByWeek[id] = {};
+  });
+
+  const TOTAL_WEEKS = 18;
+
+  // Greedy assignment: for each game, find earliest valid week
+  for (const game of games) {
+    let assigned = false;
+
+    for (let week = 1; week <= TOTAL_WEEKS; week++) {
+      const home = game.home;
+      const away = game.away;
+
+      if (week === byeWeeks[home] || week === byeWeeks[away]) continue;
+      if (teamWeek[home][week] || teamWeek[away][week]) continue;
+
+      const prevWeek = week - 1;
+      if (
+        prevWeek >= 1 &&
+        (lastOpponentByWeek[home][prevWeek] === away ||
+          lastOpponentByWeek[away][prevWeek] === home)
+      ) {
+        // Would create back-to-back vs same opponent; try another week
+        continue;
+      }
+
+      // Assign
+      game.week = week;
+      teamWeek[home][week] = true;
+      teamWeek[away][week] = true;
+      lastOpponentByWeek[home][week] = away;
+      lastOpponentByWeek[away][week] = home;
+      assigned = true;
+      break;
+    }
+
+    // Fallback: if we couldn't avoid back-to-back, place it anywhere free
+    if (!assigned) {
+      for (let week = 1; week <= TOTAL_WEEKS; week++) {
+        const home = game.home;
+        const away = game.away;
+
+        if (week === byeWeeks[home] || week === byeWeeks[away]) continue;
+        if (teamWeek[home][week] || teamWeek[away][week]) continue;
+
+        game.week = week;
+        teamWeek[home][week] = true;
+        teamWeek[away][week] = true;
+        lastOpponentByWeek[home][week] = away;
+        lastOpponentByWeek[away][week] = home;
+        assigned = true;
+        break;
+      }
+    }
+
+    if (!assigned) {
+      // This should be extremely rare; if it happens, we just drop the game.
+      // But with 18 weeks and 17 games, the greedy algorithm should succeed.
+      console.warn(
+        "[scheduleGenerator] Failed to assign week for game:",
+        game.home,
+        "vs",
+        game.away
+      );
+    }
+  }
+
+  // Now write weeks back into each team's schedule and add BYE entries
+  for (const teamId of teamIds) {
+    const byeWeek = byeWeeks[teamId];
+
+    // Map opponent -> list of weeks for this team
+    const gameWeeksByOpponent = {};
+
+    games.forEach((g) => {
+      if (g.week == null) return;
+      if (g.home === teamId || g.away === teamId) {
+        const opp = g.home === teamId ? g.away : g.home;
+        if (!gameWeeksByOpponent[opp]) gameWeeksByOpponent[opp] = [];
+        gameWeeksByOpponent[opp].push(g.week);
+      }
+    });
+
+    // Assign weeks to schedule entries
+    schedule[teamId].forEach((g) => {
+      if (g.type !== "REGULAR_SEASON" || g.opponent == null) return;
+      const opp = g.opponent;
+      const list = gameWeeksByOpponent[opp] || [];
+      if (list.length === 0) return;
+      const week = list.shift();
+      g.week = week;
+    });
+
+    // Add BYE entry
+    schedule[teamId].push({
+      week: byeWeek,
+      type: "REGULAR_SEASON",
+      opponent: null,
+      home: true,
+      played: false,
+      scoreFor: null,
+      scoreAgainst: null,
+      result: "BYE",
+      overtime: false,
+      attendance: null,
+      notes: null
+    });
+  }
+}
+
+function makePairKey(a, b) {
+  return [a, b].sort().join("-");
+}
+
+
+/* ======================================================
+   SCHEDULE TEST HARNESS (runs every season initialization)
+   Prints one clean summary line per team.
+====================================================== */
+
+function runScheduleTest(schedule, divisions, year) {
+  console.log(`\n===== SCHEDULE TEST — YEAR ${year} =====`);
+
+  const teams = Object.keys(schedule).sort();
+
+  for (const teamId of teams) {
+    const result = analyzeTeamSchedule(teamId, schedule, divisions, year);
+    const prefix = `[SCHEDULE TEST] ${teamId} —`;
+
+    if (result.ok) {
+      console.log(
+        `${prefix} OK ` +
+          `(div ${result.div}, intra ${result.intra}, inter ${result.inter}, sos ${result.sos}, extra ${result.extra})`
+      );
+    } else {
+      console.log(`${prefix} ERROR: ${result.error}`);
+    }
+  }
+
+  console.log("===== END SCHEDULE TEST =====\n");
+}
+
+function analyzeTeamSchedule(teamId, schedule, divisions, year) {
+  const games = schedule[teamId].filter((g) => g.type === "REGULAR_SEASON" && g.opponent);
+
+  const divInfo = findTeamDivision(teamId, divisions);
+  const { conference, division } = divInfo;
+
+
+  // Count categories
+  let div = 0;
+  let intra = 0;
+  let inter = 0;
+  let sos = 0;
+  let extra = 0;
+
+  const seen = new Set();
+
+  for (const g of games) {
+    const opp = g.opponent;
+
+    // Duplicate check
+    const key = [teamId, opp].sort().join("-");
+    if (seen.has(key)) {
+      return { ok: false, error: `duplicate opponent ${opp}` };
+    }
+    seen.add(key);
+
+    const oppInfo = findTeamDivision(opp, divisions);
+
+    if (oppInfo.conference === conference && oppInfo.division === division) {
+      div++;
+    } else if (oppInfo.conference === conference) {
+      // Same conference, different division
+      // Need to determine if this division was the intra-rotation partner
+      const intraPartner = getIntraPartner(conference, division, year);
+      if (oppInfo.division === intraPartner) {
+        intra++;
+      } else {
+        sos++;
+      }
+    } else {
+      // Opponent is in the other conference
+      const interPartner = getInterPartner(conference, division, year);
+      const extraPartner = getExtra17Partner(conference, division, year);
+
+      if (oppInfo.division === interPartner) {
+        inter++;
+      } else if (oppInfo.division === extraPartner) {
+        extra++;
+      } else {
+        return { ok: false, error: `unexpected cross-conference opponent ${opp}` };
+      }
+    }
+  }
+
+  // Validate counts
+  if (div !== 6) return { ok: false, error: `division count ${div} != 6` };
+  if (intra !== 4) return { ok: false, error: `intra count ${intra} != 4` };
+  if (inter !== 4) return { ok: false, error: `inter count ${inter} != 4` };
+  if (sos !== 2) return { ok: false, error: `sos count ${sos} != 2` };
+  if (extra !== 1) return { ok: false, error: `extra count ${extra} != 1` };
+
+  return { ok: true, div, intra, inter, sos, extra };
+}
+
+function findTeamDivision(teamId, divisions) {
+  for (const conf of ["AFC", "NFC"]) {
+    for (const div of ["North", "East", "South", "West"]) {
+      if (divisions[conf][div].includes(teamId)) {
+        return { conference: conf, division: div };
+      }
+    }
+  }
+  throw new Error("Team not found in divisions: " + teamId);
+}
+
+// These three helpers must match your rotation tables in the generator:
+function getIntraPartner(conf, div, year) {
+  const idx = (year - 2026) % 3;
+  const map = {
+    0: { North: "East", East: "North", South: "West", West: "South" },
+    1: { North: "South", South: "North", East: "West", West: "East" },
+    2: { North: "West", West: "North", East: "South", South: "East" }
+  };
+  return map[idx][div];
+}
+
+function getInterPartner(conf, div, year) {
+  const idx = (year - 2026) % 4;
+  const map = {
+    0: { North: "North", East: "East", South: "South", West: "West" },
+    1: { North: "East", East: "South", South: "West", West: "North" },
+    2: { North: "South", East: "West", South: "North", West: "East" },
+    3: { North: "West", East: "North", South: "East", West: "South" }
+  };
+  return map[idx][div];
+}
+
+function getExtra17Partner(conf, div, year) {
+  const idx = (year - 2026) % 4;
+  const map = {
+    0: { North: "South", East: "West", South: "North", West: "East" },
+    1: { North: "West", East: "North", South: "East", West: "South" },
+    2: { North: "East", East: "South", South: "West", West: "North" },
+    3: { North: "North", East: "East", South: "South", West: "West" }
+  };
+  return map[idx][div];
+}
+
+/* ======================================================
+   SCHEDULE TEST HARNESS WRAPPER (lint-safe)
+   Runs every time generateSeasonSchedule() is called.
+====================================================== */
+
+export function runScheduleTestWrapper(schedule, year) {
+  try {
+    const divisions = buildDivisionStructure();
+    runScheduleTest(schedule, divisions, year);
+  } catch (err) {
+    console.error("[SCHEDULE TEST] Harness error:", err);
+  }
+}
+
+
+
+
+**************************************************************************
+
+
+src/utils/gamesim.js:
+
+// src/utils/gameSim.js
+//
+// Roster- and coach-weighted game simulation.
+// This file is intentionally engine-agnostic: it does NOT import React or seasonEngine.
+// You pass in the data it needs from wherever you call it.
+
+function avgOverall(players) {
+  if (!players || players.length === 0) return 0;
+  const sum = players.reduce((s, p) => s + (p.ratings?.overall ?? 0), 0);
+  return sum / players.length;
+}
+
+function pickStarter(players, position) {
+  if (!players) return null;
+  const filtered = players.filter(
+    (p) => p.position === position && (p.depth === 1 || p.depth === 0 || p.depth == null)
+  );
+  if (filtered.length === 0) return null;
+  // If multiple "starters", just take the highest overall
+  return filtered.reduce((best, p) =>
+    (p.ratings?.overall ?? 0) > (best.ratings?.overall ?? 0) ? p : best
+  );
+}
+
+function filterByPosition(roster, positions) {
+  if (!roster) return [];
+  return roster.filter((p) => positions.includes(p.position));
+}
+
+// Simple Box–Muller normal distribution
+function randomNormal(mean = 0, stdDev = 1) {
+  let u = 0,
+    v = 0;
+  while (u === 0) u = Math.random();
+  while (v === 0) v = Math.random();
+  const z = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+  return mean + z * stdDev;
+}
+
+function computeTeamStrength({ roster, coachRating = 75, isHome = false }) {
+  if (!roster || roster.length === 0) {
+    // Failsafe: treat as expansion-level team
+    return 60 + (coachRating - 75) * 0.2 + (isHome ? 1.0 : 0);
+  }
+
+  const qb = pickStarter(roster, "QB");
+  const rbs = filterByPosition(roster, ["RB", "HB", "FB"]);
+  const wrs = filterByPosition(roster, ["WR"]);
+  const tes = filterByPosition(roster, ["TE"]);
+  const ol = filterByPosition(roster, ["LT", "LG", "C", "RG", "RT", "OL"]);
+
+  const dl = filterByPosition(roster, ["DE", "DT", "DL"]);
+  const lbs = filterByPosition(roster, ["LB", "MLB", "OLB"]);
+  const cbs = filterByPosition(roster, ["CB"]);
+  const ss = filterByPosition(roster, ["SS", "FS", "S"]);
+
+  const ks = filterByPosition(roster, ["K"]);
+  const ps = filterByPosition(roster, ["P"]);
+
+  const offenseRating =
+    (qb?.ratings?.overall ?? 60) * 0.30 +
+    avgOverall(rbs) * 0.08 +
+    avgOverall(wrs) * 0.18 +
+    (tes[0]?.ratings?.overall ?? avgOverall(tes)) * 0.06 +
+    avgOverall(ol) * 0.20;
+
+  const defenseRating =
+    avgOverall(dl) * 0.07 +
+    avgOverall(lbs) * 0.07 +
+    avgOverall(cbs) * 0.08 +
+    avgOverall(ss) * 0.06;
+
+  const specialRating =
+    ((ks[0]?.ratings?.overall ?? avgOverall(ks)) +
+      (ps[0]?.ratings?.overall ?? avgOverall(ps))) /
+    2 *
+    0.02;
+
+  const baseStrength = offenseRating + defenseRating + specialRating;
+
+  // Coach influence: 0–100 → ±5 points swing
+  const coachAdj = (coachRating - 75) * 0.2;
+
+  // Home field: small but meaningful bump
+  const homeAdj = isHome ? 2.0 : 0.0;
+
+  return baseStrength + coachAdj + homeAdj;
+}
+
+/**
+ * simulateWeightedGame
+ *
+ * @param {Object} params
+ * @param {string} params.homeTeamId
+ * @param {string} params.awayTeamId
+ * @param {Object<string,Array>} params.rostersByTeam - map of teamId → roster array
+ * @param {Object<string,number>} [params.coachRatingsByTeam] - map of teamId → coach overall (0–100)
+ * @param {number} [params.chaosStdDev=5] - higher = more upsets/variance
+ *
+ * @returns {{
+ *   homeScore: number,
+ *   awayScore: number,
+ *   homeStrength: number,
+ *   awayStrength: number,
+ *   upset: boolean
+ * }}
+ */
+export function simulateWeightedGame({
+  homeTeamId,
+  awayTeamId,
+  rostersByTeam,
+  coachRatingsByTeam = {},
+  chaosStdDev = 5
+}) {
+  const homeRoster = rostersByTeam[homeTeamId] || [];
+  const awayRoster = rostersByTeam[awayTeamId] || [];
+
+  const homeCoach = coachRatingsByTeam[homeTeamId] ?? 75;
+  const awayCoach = coachRatingsByTeam[awayTeamId] ?? 75;
+
+  const homeStrength = computeTeamStrength({
+    roster: homeRoster,
+    coachRating: homeCoach,
+    isHome: true
+  });
+
+  const awayStrength = computeTeamStrength({
+    roster: awayRoster,
+    coachRating: awayCoach,
+    isHome: false
+  });
+
+  // Add randomness around each strength
+  const homeScoreRaw = homeStrength / 4 + randomNormal(0, chaosStdDev);
+  const awayScoreRaw = awayStrength / 4 + randomNormal(0, chaosStdDev);
+
+  // Clamp and round to football-ish scores
+  const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
+  let homeScore = Math.round(clamp(homeScoreRaw, 10, 45));
+  let awayScore = Math.round(clamp(awayScoreRaw, 10, 45));
+
+  // Avoid ties for now (you can relax this later)
+  if (homeScore === awayScore) {
+    if (Math.random() < 0.5) homeScore += 3;
+    else awayScore += 3;
+  }
+
+  const favored =
+    homeStrength === awayStrength
+      ? null
+      : homeStrength > awayStrength
+      ? "HOME"
+      : "AWAY";
+
+  const actualWinner =
+    homeScore === awayScore ? null : homeScore > awayScore ? "HOME" : "AWAY";
+
+  const upset =
+    favored !== null && actualWinner !== null && favored !== actualWinner;
+
+  return {
+    homeScore,
+    awayScore,
+    homeStrength,
+    awayStrength,
+    upset
+  };
+}
+
+
+***************************************************
+
+
+src/components/team/TeamTabs.jsx:
+
+// src/components/team/TeamTabs.jsx
+import React from "react";
+import styles from "./TeamTabs.module.css";
+
+export default function TeamTabs({ tab, setTab }) {
+  const tabs = [
+    { key: "roster", label: "Roster" },
+    { key: "depthChart", label: "Depth Chart" },
+    { key: "staff", label: "Staff" },
+    { key: "finances", label: "Finances" },
+    { key: "schedule", label: "Schedule" },
+    { key: "Standings", label: "Standings" },
+    { key: "playoffs", label: "Playoffs" }, // NEW TAB
+    { key: "stats", label: "Stats" }
+  ];
+
+  return (
+    <div className={styles.tabRow}>
+      {tabs.map((t) => (
+        <div
+          key={t.key}
+          className={`${styles.tab} ${tab === t.key ? styles.active : ""}`}
+          onClick={() => setTab(t.key)}
+        >
+          {t.label}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+
+********************************************************************8
+
