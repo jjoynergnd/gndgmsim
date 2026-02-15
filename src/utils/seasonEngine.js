@@ -3,6 +3,8 @@
 import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
 import { generateSeasonSchedule } from "./scheduleGenerator";
 import { simulateWeightedGame } from "./gameSim";
+const DEBUG_GAME_SIM = true;   // set to false to silence logs
+
 
 const PRESEASON_WEEKS = 3;
 const REGULAR_SEASON_WEEKS = 18;
@@ -409,6 +411,30 @@ function simulateGame(home, away, rostersByTeam, coachRatingsByTeam) {
     chaosStdDev: 5
   });
 
+  if (DEBUG_GAME_SIM) {
+    const homeStrength = result.homeStrength.toFixed(1);
+    const awayStrength = result.awayStrength.toFixed(1);
+    const diff = (result.homeStrength - result.awayStrength).toFixed(1);
+
+    const homeQB =
+      (rostersByTeam[home]?.find((p) => p.position === "QB")?.ratings?.overall ??
+        0);
+    const awayQB =
+      (rostersByTeam[away]?.find((p) => p.position === "QB")?.ratings?.overall ??
+        0);
+
+    const qbDiff = homeQB - awayQB;
+
+    console.log(
+      `GAME SIM: ${home} (${homeStrength}) vs ${away} (${awayStrength}) → diff ${diff}`
+    );
+    console.log(`QB diff: ${qbDiff}`);
+    console.log(
+      `Winner: ${result.homeScore > result.awayScore ? home : away} (${result.homeScore}-${result.awayScore})`
+    );
+    console.log("--------------------------------------------------");
+  }
+
   return {
     home,
     away,
@@ -416,6 +442,7 @@ function simulateGame(home, away, rostersByTeam, coachRatingsByTeam) {
     awayScore: result.awayScore
   };
 }
+
 
 function applyResult(season, game) {
   const { home, away, homeScore, awayScore } = game;
