@@ -3,8 +3,8 @@
 import { initializePlayoffs, simulatePlayoffRound } from "./playoffEngine";
 import { generateSeasonSchedule } from "./scheduleGenerator";
 import { simulateWeightedGame } from "./gameSim";
-const DEBUG_GAME_SIM = true;   // set to false to silence logs
 
+const DEBUG_GAME_SIM = true; // set to false to silence logs
 
 const PRESEASON_WEEKS = 3;
 const REGULAR_SEASON_WEEKS = 18;
@@ -86,6 +86,34 @@ function initializeLeague(season, { teams }) {
   console.log(`[seasonEngine] Generating procedural schedule for ${season.year}`);
   season.schedules = generateSeasonSchedule(season.year);
 
+  // ===== DEBUG: PRINT BAL SCHEDULE =====
+  try {
+    const balSchedule = season.schedules["BAL"];
+
+    console.log("===== DEBUG: BAL SCHEDULE FOR", season.year, "=====");
+
+    balSchedule
+      .slice()
+      .sort((a, b) => {
+        const typeOrder = { PRESEASON: 0, REGULAR_SEASON: 1 };
+        const tA = typeOrder[a.type] ?? 99;
+        const tB = typeOrder[b.type] ?? 99;
+        if (tA !== tB) return tA - tB;
+        return (a.week ?? 0) - (b.week ?? 0);
+      })
+      .forEach((g) => {
+        console.log(
+          `${g.type.padEnd(15)}  Week ${String(g.week).padEnd(2)}  vs ${
+            g.opponent
+          }  home=${g.home}`
+        );
+      });
+
+    console.log("===============================================");
+  } catch (err) {
+    console.log("DEBUG PRINT FAILED:", err);
+  }
+  // ===== END DEBUG =====
 
   season._initialized = true;
 

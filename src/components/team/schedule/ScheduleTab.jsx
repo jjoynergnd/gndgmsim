@@ -31,12 +31,15 @@ export default function ScheduleTab({ schedule }) {
     return <div>No schedule available.</div>;
   }
 
+  // Only show regular season games
   const regularSeasonGames = schedule
     .filter((g) => g.type === "REGULAR_SEASON")
     .sort((a, b) => a.week - b.week);
 
   return (
     <div className={styles.container}>
+      <div className={styles.sectionHeader}>Regular Season</div>
+
       <div className={styles.headerRow}>
         <div>Week</div>
         <div>Matchup</div>
@@ -46,7 +49,7 @@ export default function ScheduleTab({ schedule }) {
 
       {regularSeasonGames.map((game, idx) => (
         <div
-          key={`${game.week}-${game.opponent ?? "BYE"}-${idx}`}
+          key={`REG-${game.week}-${game.opponent ?? "BYE"}-${idx}`}
           className={styles.row}
         >
           <div>Week {game.week}</div>

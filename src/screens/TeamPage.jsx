@@ -3,11 +3,13 @@ import { useSelector } from "react-redux";
 
 import { teams } from "../data/teams";
 import seasonState from "../data/season/seasonState.json";
+
 import { advanceSeason } from "../utils/seasonEngine";
 
 import TeamHeader from "../components/team/TeamHeader";
 import NextActionCard from "../components/season/NextActionCard";
 import TeamTabs from "../components/team/TeamTabs";
+
 import RosterTable from "../components/team/RosterTable";
 import DepthChart from "../components/team/depthchart/DepthChart.jsx";
 import StaffTable from "../components/team/StaffTable";
@@ -18,11 +20,9 @@ import ScheduleTab from "../components/team/schedule/ScheduleTab";
 import DivisionStandings from "../components/standings/DivisionStandings";
 import PlayoffsTab from "../components/team/playoffs/PlayoffsTab";
 
-
 // dynamic imports
 const rosterMap = import.meta.glob("../data/rosters/*.json", { eager: true });
 const staffMap = import.meta.glob("../data/staff/*.json", { eager: true });
-const scheduleMap = import.meta.glob("../data/schedules/*.json", { eager: true });
 const metaMap = import.meta.glob("../data/meta/*.json", { eager: true });
 
 const normalize = (obj) => {
@@ -36,7 +36,6 @@ const normalize = (obj) => {
 
 const rosters = normalize(rosterMap);
 const staff = normalize(staffMap);
-const schedules = normalize(scheduleMap);
 const meta = normalize(metaMap);
 
 const TeamPage = () => {
@@ -78,22 +77,17 @@ const TeamPage = () => {
     setSeason((prev) => {
       const next = advanceSeason(prev, {
         teams,
-        schedules,
         rosters,
         staff
       });
-
       console.log("[TeamPage] Season after advanceSeason:", next);
       return next;
     });
   };
 
-
-  // Source of truth for schedule:
-  // 1) Engine-populated league schedules (season.schedules[teamId])
-  // 2) Fallback to static JSON if engine not initialized yet
+  // NEW: Always use procedural schedule. Never fallback to static JSON.
   const activeSchedule =
-    season.schedules?.[selectedTeam] || schedules[selectedTeam] || [];
+    season.schedules?.[selectedTeam] ?? [];
 
   if (!team) {
     return <div style={{ padding: "24px" }}>Select a team to begin.</div>;
@@ -106,8 +100,6 @@ const TeamPage = () => {
         season={season}
         meta={meta[selectedTeam]}
       />
-
-      {/* Roadmap removed here to reduce clutter; global shell roadmap remains */}
 
       <NextActionCard
         season={season}
@@ -164,7 +156,6 @@ const TeamPage = () => {
             userTeamId={selectedTeam}
           />
         )}
-
 
         {tab === "stats" && <StatsPanel />}
       </div>
