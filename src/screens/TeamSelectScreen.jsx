@@ -3,8 +3,16 @@ import { teams } from "../data/teams";
 import { useDispatch, useSelector } from "react-redux";
 import { setPendingTeam, confirmTeam, clearPendingTeam } from "../state/teamSlice";
 
+import { useNavigate } from "react-router-dom";
+
+// NEW: orchestrator + mock league state
+import { startOffseason } from "../engine/offseason/offseasonOrchestrator";
+import { mockLeagueState } from "../mock/mockLeagueState";
+
 const TeamSelectScreen = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+
   const pendingTeam = useSelector((state) => state.team.pendingTeam);
 
   const handleSelect = (teamId) => {
@@ -154,8 +162,9 @@ const TeamSelectScreen = () => {
               Change Team
             </button>
 
+            {/* UPDATED CONTINUE BUTTON */}
             <button
-              onClick={() => dispatch(confirmTeam())}
+              onClick={() => { console.log("CONTINUE CLICKED", selectedTeam); dispatch(confirmTeam()); startOffseason(selectedTeam.id, mockLeagueState); console.log("OFFSEASON STARTED"); navigate("/offseason"); }}
               style={{
                 padding: "10px 16px",
                 borderRadius: "6px",
