@@ -14,7 +14,6 @@ export default function TeamStatusCard({ state }) {
 
   return (
     <div style={styles.card}>
-      {/* Top row: evenly spaced metrics + team needs on the right */}
       <div style={styles.topRow}>
         <div style={styles.item}>
           <span style={styles.label}>Cap Space</span>
@@ -33,7 +32,6 @@ export default function TeamStatusCard({ state }) {
           <strong>{expiringContracts.length}</strong>
         </div>
 
-        {/* Team Needs moved to top-right */}
         <div style={styles.needsBlock}>
           <span style={styles.label}>Team Needs</span>
           <div style={styles.needsRow}>
@@ -41,8 +39,16 @@ export default function TeamStatusCard({ state }) {
               <span style={styles.noNeeds}>None identified</span>
             ) : (
               teamNeeds.map((need) => (
-                <div key={need} style={styles.needChip}>
-                  {need}
+                <div key={need.position} style={styles.needChip}>
+                  <span style={styles.needPos}>{need.position}</span>
+                  <div style={styles.severityBarRow}>
+                    {buildSeverityBars(need.score).map((bar, idx) => (
+                      <span
+                        key={idx}
+                        style={styles.severityDot(bar.filled, bar.color)}
+                      />
+                    ))}
+                  </div>
                 </div>
               ))
             )}
@@ -53,6 +59,28 @@ export default function TeamStatusCard({ state }) {
   );
 }
 
+function buildSeverityBars(score) {
+  // Map score to 0–5
+  const clamped = Math.max(0, Math.min(score, 1.5));
+  const filledCount = Math.round((clamped / 1.5) * 5);
+
+  const color =
+    clamped > 1.1
+      ? "#FCA5A5" // critical
+      : clamped > 0.8
+      ? "#FDBA74" // high
+      : clamped > 0.5
+      ? "#FDE68A" // medium
+      : clamped > 0.2
+      ? "#A7F3D0" // low
+      : "#E5E7EB"; // very low
+
+  return Array.from({ length: 5 }).map((_, i) => ({
+    filled: i < filledCount,
+    color,
+  }));
+}
+
 const styles = {
   card: {
     backgroundColor: "#FFFFFF",
@@ -60,7 +88,6 @@ const styles = {
     borderRadius: 10,
     boxShadow: "0 1px 3px rgba(0,0,0,0.06)",
   },
-
   topRow: {
     display: "flex",
     justifyContent: "space-between",
@@ -68,19 +95,16 @@ const styles = {
     flexWrap: "wrap",
     gap: 20,
   },
-
   item: {
     display: "flex",
     flexDirection: "column",
     minWidth: 120,
   },
-
   label: {
     fontSize: 12,
     color: "#6B7280",
     marginBottom: 2,
   },
-
   cap: (health) => ({
     color:
       health === "GREEN"
@@ -90,28 +114,43 @@ const styles = {
         : "#DC2626",
     fontSize: 15,
   }),
-
   needsBlock: {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-end",
-    minWidth: 160,
+    minWidth: 200,
   },
-
   needsRow: {
     display: "flex",
-    gap: 6,
+    gap: 8,
     flexWrap: "wrap",
     justifyContent: "flex-end",
   },
-
   needChip: {
-    backgroundColor: "#F3F4F6",
-    padding: "3px 8px",
-    borderRadius: 6,
+    display: "flex",
+    alignItems: "center",
+    gap: 6,
+    backgroundColor: "#F9FAFB",
+    padding: "4px 8px",
+    borderRadius: 999,
+    border: "1px solid #E5E7EB",
     fontSize: 12,
   },
-
+  needPos: {
+    fontWeight: 600,
+    color: "#111827",
+  },
+  severityBarRow: {
+    display: "flex",
+    gap: 2,
+    alignItems: "center",
+  },
+  severityDot: (filled, color) => ({
+    width: 6,
+    height: 2,
+    borderRadius: 999,
+    backgroundColor: filled ? color : "#E5E7EB",
+  }),
   noNeeds: {
     fontSize: 13,
     color: "#6B7280",

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function ExtendPlayerModal({ player, options, onClose, onConfirm }) {
+export default function ExtendPlayerModal({ player, options, year, onClose, onConfirm }) {
   const [extendType, setExtendType] = useState("EXTEND_RESTRUCTURE"); // or "EXTEND_ONLY"
   const [yearsToAdd, setYearsToAdd] = useState(2);
   const [apy, setApy] = useState(options.marketApy);
@@ -15,12 +15,19 @@ export default function ExtendPlayerModal({ player, options, onClose, onConfirm 
         <div style={styles.header}>
           <div style={styles.playerName}>{player.name}</div>
           <div style={styles.playerMeta}>
-            {player.position} • Age {player.age}
+            {player.position} • Age {player.vitals?.age ?? "-"}
           </div>
           <div style={styles.capHits}>
-            2026: ${player.capHit2026}M • 2027: ${player.capHit2027}M
+            {year}: $
+            {((player.contract?.capHits?.[year] || 0) / 1_000_000).toFixed(1)}M •{" "}
+            {year + 1}: $
+            {(
+              (player.contract?.capHits?.[year + 1] || 0) / 1_000_000
+            ).toFixed(1)}
+            M
           </div>
         </div>
+
 
         {/* EXTENSION TYPE */}
         <div style={styles.section}>
