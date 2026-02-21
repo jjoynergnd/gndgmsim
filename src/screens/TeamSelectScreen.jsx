@@ -6,7 +6,7 @@ import { setPendingTeam, confirmTeam, clearPendingTeam } from "../state/teamSlic
 import { useNavigate } from "react-router-dom";
 
 // NEW: orchestrator + mock league state
-import { startOffseason } from "../engine/offseason/offseasonOrchestrator";
+import { offseason } from "../engine/offseason/masterOrchestrator";
 import { mockLeagueState } from "../mock/mockLeagueState";
 
 const TeamSelectScreen = () => {
@@ -164,7 +164,15 @@ const TeamSelectScreen = () => {
 
             {/* UPDATED CONTINUE BUTTON */}
             <button
-              onClick={() => { console.log("CONTINUE CLICKED", selectedTeam); dispatch(confirmTeam()); startOffseason(selectedTeam.id, mockLeagueState); console.log("OFFSEASON STARTED"); navigate("/offseason"); }}
+              onClick={() => {
+                console.log("CONTINUE CLICKED", selectedTeam);
+                dispatch(confirmTeam());
+                offseason.start(selectedTeam.id, mockLeagueState);
+                console.log("OFFSEASON STARTED");
+                navigate("/offseason");
+              }}
+
+
               style={{
                 padding: "10px 16px",
                 borderRadius: "6px",

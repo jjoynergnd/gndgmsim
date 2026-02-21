@@ -66,14 +66,15 @@ function buildSeverityBars(score) {
 
   const color =
     clamped > 1.1
-      ? "#FCA5A5" // critical
+      ? "#F87171" // critical
       : clamped > 0.8
-      ? "#FDBA74" // high
+      ? "#FB923C" // high
       : clamped > 0.5
-      ? "#FDE68A" // medium
+      ? "#FACC15" // medium
       : clamped > 0.2
-      ? "#A7F3D0" // low
-      : "#E5E7EB"; // very low
+      ? "#34D399" // low
+      : "#D1D5DB"; // very low
+
 
   return Array.from({ length: 5 }).map((_, i) => ({
     filled: i < filledCount,
@@ -115,17 +116,18 @@ const styles = {
     fontSize: 15,
   }),
   needsBlock: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "flex-end",
-    minWidth: 200,
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  minWidth: 220,
   },
   needsRow: {
     display: "flex",
     gap: 8,
     flexWrap: "wrap",
-    justifyContent: "flex-end",
+    justifyContent: "center",
   },
+
   needChip: {
     display: "flex",
     alignItems: "center",

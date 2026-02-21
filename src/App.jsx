@@ -7,28 +7,27 @@ import TeamSelectScreen from "./screens/TeamSelectScreen";
 import TeamPage from "./screens/TeamPage";
 
 import OffseasonHub from "./components/Offseason/OffseasonHub";
-import {
-  getState as getOffseasonState,
-  isOffseasonStarted,
-} from "./engine/offseason/offseasonOrchestrator";
+
+// NEW: import the new orchestrator
+import { offseason } from "./engine/offseason/masterOrchestrator";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
 /*
-  IMPORTANT:
-  We wrap the offseason guard inside a component instead of
-  evaluating it directly inside the Route definition.
-
-  This prevents a render-timing race where navigation occurs
-  before the orchestrator singleton is visible to React.
+  Updated OffseasonRoute:
+  Uses the NEW orchestrator instead of the old one.
 */
 function OffseasonRoute() {
-  if (!isOffseasonStarted()) {
+  const state = offseason.getState();
+
+  // If no phase is set, offseason hasn't started
+  if (!state || !state.phase) {
     return <Navigate to="/" replace />;
   }
 
-  return <OffseasonHub state={getOffseasonState()} />;
+  return <OffseasonHub />;
 }
+
 
 function App() {
   console.log("APP RENDER START");

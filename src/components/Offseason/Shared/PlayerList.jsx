@@ -5,7 +5,6 @@ import PlayerRow from "./PlayerRow";
 
 export default function PlayerList({
   players,
-  suggestionsMap,
   onAction,
   year,
   cutOptions,
@@ -29,7 +28,14 @@ export default function PlayerList({
   const filteredSortedPlayers = useMemo(() => {
     let list = [...players];
 
-    if (filterPos !== "ALL") {
+    const offensePositions = ["QB", "RB", "WR", "TE", "LT", "LG", "C", "RG", "RT"];
+    const defensePositions = ["CB", "S", "LB", "DT", "DE", "EDGE"];
+
+    if (filterPos === "OFF") {
+      list = list.filter((p) => offensePositions.includes(p.position));
+    } else if (filterPos === "DEF") {
+      list = list.filter((p) => defensePositions.includes(p.position));
+    } else if (filterPos !== "ALL") {
       list = list.filter((p) => p.position === filterPos);
     }
 
@@ -42,10 +48,8 @@ export default function PlayerList({
       const aRatings = a.ratings || {};
       const bRatings = b.ratings || {};
 
-      const aCap =
-        a.contract?.capHits?.[year] || 0;
-      const bCap =
-        b.contract?.capHits?.[year] || 0;
+      const aCap = a.contract?.capHits?.[year] || 0;
+      const bCap = b.contract?.capHits?.[year] || 0;
 
       const aOvr = aRatings.overall || 0;
       const bOvr = bRatings.overall || 0;
@@ -99,76 +103,86 @@ export default function PlayerList({
     return list;
   }, [players, filterPos, search, sortKey, sortDir, year]);
 
-  const positions = Array.from(
-    new Set(players.map((p) => p.position))
-  ).sort();
+  const positions = Array.from(new Set(players.map((p) => p.position))).sort();
 
   return (
     <div style={styles.card}>
-      <div style={styles.headerBar}>
-        <h3 style={styles.title}>Players Under Contract</h3>
-        <div style={styles.controls}>
-          <input
-            type="text"
-            placeholder="Search name..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            style={styles.search}
-          />
-          <select
-            value={filterPos}
-            onChange={(e) => setFilterPos(e.target.value)}
-            style={styles.select}
-          >
-            <option value="ALL">All Pos</option>
-            {positions.map((pos) => (
-              <option key={pos} value={pos}>
-                {pos}
-              </option>
-            ))}
-          </select>
-        </div>
-      </div>
-
+      {/* FULL sticky header (title + controls + column headers) */}
       <div style={styles.stickyHeader}>
+        <div style={styles.headerBar}>
+          <h3 style={styles.title}>Players Under Contract</h3>
+
+          <div style={styles.controls}>
+            <input
+              type="text"
+              placeholder="Search name..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              style={styles.search}
+            />
+
+            <select
+              value={filterPos}
+              onChange={(e) => setFilterPos(e.target.value)}
+              style={styles.select}
+            >
+              <option value="ALL">All Pos</option>
+              <option value="OFF">All Off</option>
+              <option value="DEF">All Def</option>
+              {positions.map((pos) => (
+                <option key={pos} value={pos}>
+                  {pos}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+
         <div style={styles.tableHeader}>
           <span style={styles.colActions}>Actions</span>
+
           <span
             style={styles.colCenterClickable}
             onClick={() => handleSort("ovr")}
           >
             OVR
           </span>
+
           <span
             style={styles.colNameClickable}
             onClick={() => handleSort("name")}
           >
             Name
           </span>
+
           <span
             style={styles.colCenterClickable}
             onClick={() => handleSort("pos")}
           >
             Pos
           </span>
+
           <span
             style={styles.colCenterClickable}
             onClick={() => handleSort("age")}
           >
             Age
           </span>
+
           <span
             style={styles.colCenterClickable}
             onClick={() => handleSort("remaining")}
           >
             Remaining
           </span>
+
           <span
             style={styles.colCenterClickable}
             onClick={() => handleSort("capHit")}
           >
             Cap Hit
           </span>
+
           <span style={styles.colCenter}>Dead $</span>
           <span style={styles.colCenter}>Save</span>
           <span style={styles.colCenter}>Restruct</span>
@@ -180,7 +194,6 @@ export default function PlayerList({
           <PlayerRow
             key={p.id}
             player={p}
-            suggestion={suggestionsMap[p.id]}
             onAction={onAction}
             year={year}
             cutOptions={cutOptions?.[p.id]}
@@ -203,6 +216,17 @@ const styles = {
     display: "flex",
     flexDirection: "column",
   },
+
+  /* FULL sticky header */
+  stickyHeader: {
+    position: "sticky",
+    top: 0,
+    zIndex: 20,
+    backgroundColor: "#F1FBFA",
+    borderBottom: "1px solid #DDEEEE",
+    paddingBottom: 6,
+  },
+
   headerBar: {
     padding: "10px 20px 6px 20px",
     display: "flex",
@@ -210,22 +234,26 @@ const styles = {
     alignItems: "center",
     gap: 12,
   },
+
   title: {
     margin: 0,
     fontSize: 16,
     fontWeight: 600,
   },
+
   controls: {
     display: "flex",
     gap: 8,
     alignItems: "center",
   },
+
   search: {
     padding: "4px 8px",
     borderRadius: 6,
     border: "1px solid #E5E7EB",
     fontSize: 12,
   },
+
   select: {
     padding: "4px 8px",
     borderRadius: 6,
@@ -233,16 +261,9 @@ const styles = {
     fontSize: 12,
     backgroundColor: "#F9FAFB",
   },
-  stickyHeader: {
-    position: "sticky",
-    top: 0,
-    zIndex: 10,
-    backgroundColor: "#F1FBFA",
-    borderTop: "1px solid #E5E7EB",
-    borderBottom: "1px solid #DDEEEE",
-    padding: "4px 20px 4px 20px",
-  },
+
   tableHeader: {
+    padding: "4px 20px 8px 20px",
     display: "grid",
     gridTemplateColumns:
       "0.9fr 0.7fr 2fr 0.7fr 0.7fr 0.9fr 1fr 1fr 1fr 1fr",
@@ -251,26 +272,31 @@ const styles = {
     fontWeight: 700,
     alignItems: "center",
   },
+
   colNameClickable: {
     paddingLeft: 4,
     textAlign: "left",
     borderRight: "1px solid #E3F0EF",
     cursor: "pointer",
   },
+
   colActions: {
     textAlign: "left",
     paddingLeft: 4,
     borderRight: "1px solid #E3F0EF",
   },
+
   colCenter: {
     textAlign: "center",
     borderRight: "1px solid #E3F0EF",
   },
+
   colCenterClickable: {
     textAlign: "center",
     borderRight: "1px solid #E3F0EF",
     cursor: "pointer",
   },
+
   scrollArea: {
     maxHeight: "70vh",
     overflowY: "auto",

@@ -4,10 +4,6 @@ import React from "react";
 
 export default function OffseasonLayout({
   children,
-  teamMeta,
-  capSummary,
-  phase,
-  year,
 }) {
   return (
     <div className="offseason-layout" style={styles.container}>

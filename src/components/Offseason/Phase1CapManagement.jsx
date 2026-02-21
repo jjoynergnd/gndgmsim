@@ -1,6 +1,7 @@
 // src/components/offseason/Phase1CapManagement.jsx
 
 import React, { useState } from "react";
+import { offseason } from "../../engine/offseason/masterOrchestrator";
 
 import TeamStatusCard from "./Shared/TeamStatusCard";
 import PlayerList from "./Shared/PlayerList";
@@ -10,7 +11,14 @@ import RestructurePlayerModal from "./Modals/RestructurePlayerModal";
 import CutPlayerModal from "./Modals/CutPlayerModal";
 import TagPlayerModal from "./Modals/TagPlayerModal";
 
-export default function Phase1CapManagement({ state }) {
+export default function Phase1CapManagement() {
+  // Force re-render when actions mutate orchestrator state
+  const [, setRefresh] = useState(0);
+  const triggerRefresh = () => setRefresh((r) => r + 1);
+
+  // Always pull fresh state from orchestrator
+  const state = offseason.getState();
+
   const {
     suggestions,
     playersUnderContract,
@@ -40,12 +48,15 @@ export default function Phase1CapManagement({ state }) {
     }));
   };
 
+  // Build suggestions map for PlayerList
   const suggestionsMap = {};
-  suggestions.cutCandidates.forEach((p) => (suggestionsMap[p.playerId] = "CUT"));
-  suggestions.restructureCandidates.forEach(
+  suggestions.cutCandidates?.forEach(
+    (p) => (suggestionsMap[p.playerId] = "CUT")
+  );
+  suggestions.restructureCandidates?.forEach(
     (p) => (suggestionsMap[p.playerId] = "RESTRUCTURE")
   );
-  suggestions.resignPriority.forEach(
+  suggestions.resignPriority?.forEach(
     (p) => (suggestionsMap[p.playerId] = "EXTEND")
   );
 
@@ -67,6 +78,7 @@ export default function Phase1CapManagement({ state }) {
         />
       </div>
 
+      {/* EXTEND */}
       {activeModal === "EXTEND" && selectedPlayer && (
         <ExtendPlayerModal
           player={selectedPlayer}
@@ -76,11 +88,13 @@ export default function Phase1CapManagement({ state }) {
           onConfirm={(data) => {
             state.applyExtension(selectedPlayer.id, data);
             markLastAction(selectedPlayer.id, "EXTEND");
+            triggerRefresh();
             closeModal();
           }}
         />
       )}
 
+      {/* RESTRUCTURE */}
       {activeModal === "RESTRUCTURE" && selectedPlayer && (
         <RestructurePlayerModal
           player={selectedPlayer}
@@ -90,11 +104,13 @@ export default function Phase1CapManagement({ state }) {
           onConfirm={(data) => {
             state.applyRestructure(selectedPlayer.id, data);
             markLastAction(selectedPlayer.id, "RESTRUCTURE");
+            triggerRefresh();
             closeModal();
           }}
         />
       )}
 
+      {/* CUT */}
       {activeModal === "CUT" && selectedPlayer && (
         <CutPlayerModal
           player={selectedPlayer}
@@ -104,11 +120,13 @@ export default function Phase1CapManagement({ state }) {
           onConfirm={(data) => {
             state.applyCut(selectedPlayer.id, data);
             markLastAction(selectedPlayer.id, "CUT");
+            triggerRefresh();
             closeModal();
           }}
         />
       )}
 
+      {/* TAG */}
       {activeModal === "TAG" && selectedPlayer && (
         <TagPlayerModal
           player={selectedPlayer}
@@ -118,6 +136,7 @@ export default function Phase1CapManagement({ state }) {
           onConfirm={() => {
             state.applyTag(selectedPlayer.id);
             markLastAction(selectedPlayer.id, "TAG");
+            triggerRefresh();
             closeModal();
           }}
         />

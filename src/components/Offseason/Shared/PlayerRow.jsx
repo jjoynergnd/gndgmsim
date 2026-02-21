@@ -10,12 +10,7 @@ export default function PlayerRow({
   restructureOptions,
   lastAction,
 }) {
-  const icons = {
-    CUT: "✂️",
-    RESTRUCTURE: "🔄",
-    EXTEND: "✍️",
-    TAG: "🏷️",
-  };
+  
 
   const formatM = (value) => {
     if (value === null || value === undefined || Number.isNaN(value)) return "-";
@@ -33,7 +28,16 @@ export default function PlayerRow({
   let deadDisplay = "-";
   let saveDisplay = "-";
 
-  if (cutOptions) {
+  // prefer persisted values from orchestrator if present
+  if (player.lastDeadMoney != null) {
+    deadDisplay = formatM(player.lastDeadMoney);
+  }
+  if (player.lastSavings != null) {
+    saveDisplay = formatM(player.lastSavings);
+  }
+
+  // fallback to cutOptions if no persisted values
+  if (cutOptions && player.lastSavings == null && player.lastDeadMoney == null) {
     const opt =
       effectiveCutType === "POST_JUNE"
         ? cutOptions.postJune
@@ -41,6 +45,7 @@ export default function PlayerRow({
     deadDisplay = formatM(opt.deadMoney);
     saveDisplay = formatM(opt.savings);
   }
+
 
   const restructDisplay = restructureOptions
     ? formatM(restructureOptions.standard.capSavings)
