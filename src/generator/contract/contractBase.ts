@@ -1,9 +1,21 @@
+// src/generator/contract/contractBase.ts
+
 import { POSITION_BASE_SALARY } from "./positionBaseSalaries.js";
 import { POSITIONS } from "../config/positions.js";
 import type { Position } from "../config/positions.js";
 
-export interface BaseContract {
+export interface ContractYearBreakdown {
+  year: number;
   salary: number;
+  bonusProrated: number;
+  capHit: number;
+}
+
+export interface Contract {
+  years: number;
+  totalValue: number;
+  apy: number;
+  yearBreakdown: ContractYearBreakdown[];
 }
 
 function getOVRFactor(ovr: number): number {
@@ -17,10 +29,10 @@ function getOVRFactor(ovr: number): number {
 }
 
 function getAgeFactor(age: number): number {
-  if (age >= 25 && age <= 28) return 3.0;   // prime
-  if (age >= 22 && age <= 24) return 1.0;   // pre-prime
-  if (age >= 29 && age <= 31) return 1.2;   // post-prime
-  return 0.8;                                // 32+
+  if (age >= 25 && age <= 28) return 3.0; // prime
+  if (age >= 22 && age <= 24) return 1.0; // pre-prime
+  if (age >= 29 && age <= 31) return 1.2; // post-prime
+  return 0.8; // 32+
 }
 
 function getPositionFactor(position: Position): number {
@@ -40,19 +52,40 @@ function getPositionFactor(position: Position): number {
   }
 }
 
+// For now: still 1-year deals, but using the multi-year shape.
 export function generateBaseContract(player: {
   position: Position;
   ovr: number;
   age: number;
-}): BaseContract {
+  year: number;
+}): Contract {
+  console.log("DEBUG CONTRACT INPUT:", player);
   const family = POSITIONS[player.position].family;
-  const base = POSITION_BASE_SALARY[family] ?? 600000;
+  const base = POSITION_BASE_SALARY[family] ?? 600_000;
 
   const ovrFactor = getOVRFactor(player.ovr);
   const ageFactor = getAgeFactor(player.age);
   const posFactor = getPositionFactor(player.position);
 
-  const salary = Math.round(base * ovrFactor * ageFactor * posFactor);
+  const rawSalary = Math.round(base * ovrFactor * ageFactor * posFactor);
 
-  return { salary };
+  const years = 1;
+  const totalValue = rawSalary;
+  const apy = totalValue / years;
+
+  const yearBreakdown: ContractYearBreakdown[] = [ 
+    { 
+      year: player.year,
+      salary: rawSalary, 
+      bonusProrated: 0, 
+      capHit: rawSalary 
+    } 
+  ];
+
+  return {
+    years,
+    totalValue,
+    apy,
+    yearBreakdown
+  };
 }

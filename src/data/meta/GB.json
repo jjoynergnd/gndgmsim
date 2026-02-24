@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 360902743,
-    "capSpace": -55902743,
-    "deadMoney": 0
-  }
+  "teamId": "GB",
+  "year": 2026,
+  "totalSalary": 268983400,
+  "leagueCap": 305000000,
+  "capSpace": 36016600
 }

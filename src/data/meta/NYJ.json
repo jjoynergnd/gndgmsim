@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 355824005,
-    "capSpace": -50824005,
-    "deadMoney": 0
-  }
+  "teamId": "NYJ",
+  "year": 2026,
+  "totalSalary": 215362400,
+  "leagueCap": 305000000,
+  "capSpace": 89637600
 }

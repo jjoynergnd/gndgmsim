@@ -1,4 +1,7 @@
 {
   "teamId": "PIT",
-  "totalSalary": 248722600
+  "year": 2026,
+  "totalSalary": 222766800,
+  "leagueCap": 305000000,
+  "capSpace": 82233200
 }

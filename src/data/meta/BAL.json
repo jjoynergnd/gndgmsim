@@ -1,4 +1,7 @@
 {
   "teamId": "BAL",
-  "totalSalary": 235780200
+  "year": 2026,
+  "totalSalary": 289985600,
+  "leagueCap": 305000000,
+  "capSpace": 15014400
 }

@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 353499841,
-    "capSpace": -48499841,
-    "deadMoney": 0
-  }
+  "teamId": "HOU",
+  "year": 2026,
+  "totalSalary": 298018400,
+  "leagueCap": 305000000,
+  "capSpace": 6981600
 }

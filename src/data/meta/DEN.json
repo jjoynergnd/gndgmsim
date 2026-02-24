@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 265129770,
-    "capSpace": 39870230,
-    "deadMoney": 0
-  }
+  "teamId": "DEN",
+  "year": 2026,
+  "totalSalary": 266001200,
+  "leagueCap": 305000000,
+  "capSpace": 38998800
 }

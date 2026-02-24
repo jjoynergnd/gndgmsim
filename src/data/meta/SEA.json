@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 344512565,
-    "capSpace": -39512565,
-    "deadMoney": 0
-  }
+  "teamId": "SEA",
+  "year": 2026,
+  "totalSalary": 288707200,
+  "leagueCap": 305000000,
+  "capSpace": 16292800
 }

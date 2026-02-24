@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 348804079,
-    "capSpace": -43804079,
-    "deadMoney": 0
-  }
+  "teamId": "KC",
+  "year": 2026,
+  "totalSalary": 322016200,
+  "leagueCap": 305000000,
+  "capSpace": -17016200
 }

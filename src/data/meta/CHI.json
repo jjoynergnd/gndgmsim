@@ -1,4 +1,7 @@
 {
   "teamId": "CHI",
-  "totalSalary": 231003800
+  "year": 2026,
+  "totalSalary": 281322800,
+  "leagueCap": 305000000,
+  "capSpace": 23677200
 }

@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 342465678,
-    "capSpace": -37465678,
-    "deadMoney": 0
-  }
+  "teamId": "NE",
+  "year": 2026,
+  "totalSalary": 205779400,
+  "leagueCap": 305000000,
+  "capSpace": 99220600
 }

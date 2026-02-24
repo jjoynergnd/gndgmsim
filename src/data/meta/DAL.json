@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 319579680,
-    "capSpace": -14579680,
-    "deadMoney": 0
-  }
+  "teamId": "DAL",
+  "year": 2026,
+  "totalSalary": 259181400,
+  "leagueCap": 305000000,
+  "capSpace": 45818600
 }

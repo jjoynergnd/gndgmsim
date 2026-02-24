@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 309835949,
-    "capSpace": -4835949,
-    "deadMoney": 0
-  }
+  "teamId": "BUF",
+  "year": 2026,
+  "totalSalary": 329443800,
+  "leagueCap": 305000000,
+  "capSpace": -24443800
 }

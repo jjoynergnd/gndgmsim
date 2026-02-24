@@ -1,4 +1,7 @@
 {
   "teamId": "SF",
-  "totalSalary": 263465400
+  "year": 2026,
+  "totalSalary": 224280600,
+  "leagueCap": 305000000,
+  "capSpace": 80719400
 }

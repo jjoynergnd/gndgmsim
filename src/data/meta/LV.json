@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 332259868,
-    "capSpace": -27259868,
-    "deadMoney": 0
-  }
+  "teamId": "LV",
+  "year": 2026,
+  "totalSalary": 288733200,
+  "leagueCap": 305000000,
+  "capSpace": 16266800
 }

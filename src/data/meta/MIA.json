@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 366490618,
-    "capSpace": -61490618,
-    "deadMoney": 0
-  }
+  "teamId": "MIA",
+  "year": 2026,
+  "totalSalary": 222691000,
+  "leagueCap": 305000000,
+  "capSpace": 82309000
 }

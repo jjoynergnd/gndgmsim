@@ -1,4 +1,7 @@
 {
   "teamId": "ARI",
-  "totalSalary": 266061600
+  "year": 2026,
+  "totalSalary": 242293200,
+  "leagueCap": 305000000,
+  "capSpace": 62706800
 }

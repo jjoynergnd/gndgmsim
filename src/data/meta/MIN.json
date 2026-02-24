@@ -1,9 +1,7 @@
 {
-  "cap": {
-    "year": 2026,
-    "capLimit": 305000000,
-    "capUsed": 312868058,
-    "capSpace": -7868058,
-    "deadMoney": 0
-  }
+  "teamId": "MIN",
+  "year": 2026,
+  "totalSalary": 236557800,
+  "leagueCap": 305000000,
+  "capSpace": 68442200
 }

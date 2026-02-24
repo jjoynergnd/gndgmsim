@@ -1,149 +1,46 @@
 [
   {
-    "id": "f1440ab0-f9cc-46f8-b5b8-5974778936f9",
-    "position": "QB",
-    "age": 32,
-    "height": 73,
-    "weight": 216,
-    "college": "Wisconsin",
-    "injuryProneness": 75,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 7,
-    "workEthic": 63,
-    "coachability": 62,
-    "competitiveness": 40,
-    "tier": "solid",
-    "archetype": "scrambler",
-    "ratings": {
-      "speed": 80,
-      "acceleration": 68,
-      "agility": 75,
-      "strength": 71,
-      "awareness": 65,
-      "throwPower": 84,
-      "throwAccuracyShort": 83,
-      "throwAccuracyMid": 76,
-      "throwAccuracyDeep": 67,
-      "throwOnRun": 73,
-      "playAction": 87,
-      "overall": 76
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 76,
-        "label": "Strong Fit"
-      },
-      "vertical": {
-        "score": 76,
-        "label": "Strong Fit"
-      },
-      "spread": {
-        "score": 76,
-        "label": "Strong Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 75,
-        "label": "Strong Fit"
-      },
-      "play_action": {
-        "score": 76,
-        "label": "Strong Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 9600000
-    }
-  },
-  {
-    "id": "55f3ca6e-a019-4c4d-9a1c-892e5f350ff6",
+    "id": "33d6bd30-8250-4db0-a1d5-e4184ccf9b74",
     "position": "QB",
     "age": 33,
-    "height": 76,
-    "weight": 213,
-    "college": "Stanford",
+    "height": 75,
+    "weight": 240,
+    "college": "Syracuse",
     "injuryProneness": 71,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 12,
-    "workEthic": 69,
-    "coachability": 65,
-    "competitiveness": 56,
+    "accruedSeasons": 11,
+    "workEthic": 53,
+    "coachability": 92,
+    "competitiveness": 80,
     "tier": "solid",
-    "archetype": "scrambler",
+    "archetype": "field_general",
     "ratings": {
-      "speed": 82,
+      "speed": 81,
       "acceleration": 69,
-      "agility": 80,
-      "strength": 77,
-      "awareness": 57,
-      "throwPower": 73,
-      "throwAccuracyShort": 85,
-      "throwAccuracyMid": 78,
-      "throwAccuracyDeep": 79,
-      "throwOnRun": 77,
-      "playAction": 74,
-      "overall": 75
+      "agility": 75,
+      "strength": 80,
+      "awareness": 71,
+      "throwPower": 85,
+      "throwAccuracyShort": 80,
+      "throwAccuracyMid": 74,
+      "throwAccuracyDeep": 85,
+      "throwOnRun": 75,
+      "playAction": 73,
+      "overall": 77
     },
     "schemeFits": {
       "west_coast": {
-        "score": 74,
-        "label": "Adequate Fit"
+        "score": 75,
+        "label": "Strong Fit"
       },
       "vertical": {
-        "score": 72,
-        "label": "Adequate Fit"
+        "score": 80,
+        "label": "Strong Fit"
       },
       "spread": {
-        "score": 78,
+        "score": 76,
         "label": "Strong Fit"
       },
       "power_run": {
@@ -155,12 +52,12 @@
         "label": "Adequate Fit"
       },
       "rpo": {
-        "score": 77,
+        "score": 75,
         "label": "Strong Fit"
       },
       "play_action": {
-        "score": 73,
-        "label": "Adequate Fit"
+        "score": 75,
+        "label": "Strong Fit"
       },
       "four_three_over": {
         "score": 50,
@@ -206,268 +103,64 @@
     }
   },
   {
-    "id": "813133e9-86f0-41fa-9956-b9bdc9c992ca",
+    "id": "e14d64e1-16ad-4304-a4b5-1e30a476e265",
     "position": "QB",
-    "age": 30,
-    "height": 75,
-    "weight": 233,
-    "college": "Texas State",
-    "injuryProneness": 78,
+    "age": 27,
+    "height": 74,
+    "weight": 228,
+    "college": "Eastern Michigan",
+    "injuryProneness": 77,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 8,
+    "accruedSeasons": 4,
     "workEthic": 49,
-    "coachability": 67,
-    "competitiveness": 61,
+    "coachability": 95,
+    "competitiveness": 44,
     "tier": "solid",
     "archetype": "scrambler",
     "ratings": {
-      "speed": 72,
-      "acceleration": 78,
-      "agility": 80,
-      "strength": 70,
-      "awareness": 44,
-      "throwPower": 69,
-      "throwAccuracyShort": 74,
-      "throwAccuracyMid": 78,
-      "throwAccuracyDeep": 75,
+      "speed": 69,
+      "acceleration": 74,
+      "agility": 75,
+      "strength": 71,
+      "awareness": 72,
+      "throwPower": 88,
+      "throwAccuracyShort": 78,
+      "throwAccuracyMid": 80,
+      "throwAccuracyDeep": 74,
       "throwOnRun": 89,
-      "playAction": 78,
-      "overall": 71
+      "playAction": 75,
+      "overall": 79
     },
     "schemeFits": {
       "west_coast": {
-        "score": 71,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 68,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 75,
-        "label": "Strong Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 76,
-        "label": "Strong Fit"
-      },
-      "play_action": {
-        "score": 71,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 7200000
-    }
-  },
-  {
-    "id": "10d54421-be70-448c-99fe-6a31f077df18",
-    "position": "HB",
-    "age": 24,
-    "height": 70,
-    "weight": 201,
-    "college": "North Dakota State",
-    "injuryProneness": 75,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 2,
-    "workEthic": 55,
-    "coachability": 94,
-    "competitiveness": 88,
-    "tier": "star",
-    "archetype": "elusive_back",
-    "ratings": {
-      "speed": 86,
-      "acceleration": 86,
-      "agility": 98,
-      "strength": 75,
-      "awareness": 59,
-      "breakTackle": 96,
-      "trucking": 64,
-      "elusiveness": 76,
-      "ballSecurity": 76,
-      "catching": 54,
-      "overall": 84
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 73,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
         "score": 78,
         "label": "Strong Fit"
       },
-      "zone_run": {
-        "score": 88,
-        "label": "Strong Fit"
-      },
-      "rpo": {
-        "score": 89,
-        "label": "Strong Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "A",
-      "ceilingBoost": 10,
-      "volatility": 0.35
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 2560000
-    }
-  },
-  {
-    "id": "dfe21cc2-e9db-4228-99ce-1e32bd5cdea1",
-    "position": "HB",
-    "age": 25,
-    "height": 72,
-    "weight": 231,
-    "college": "Texas A&M",
-    "injuryProneness": 70,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 1,
-    "workEthic": 64,
-    "coachability": 94,
-    "competitiveness": 57,
-    "tier": "solid",
-    "archetype": "power_back",
-    "ratings": {
-      "speed": 80,
-      "acceleration": 85,
-      "agility": 82,
-      "strength": 74,
-      "awareness": 79,
-      "breakTackle": 76,
-      "trucking": 71,
-      "elusiveness": 85,
-      "ballSecurity": 74,
-      "catching": 53,
-      "overall": 78
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 73,
-        "label": "Adequate Fit"
-      },
       "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
+        "score": 78,
+        "label": "Strong Fit"
       },
       "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
+        "score": 79,
+        "label": "Strong Fit"
       },
       "power_run": {
-        "score": 74,
+        "score": 50,
         "label": "Adequate Fit"
       },
       "zone_run": {
-        "score": 82,
-        "label": "Strong Fit"
+        "score": 50,
+        "label": "Adequate Fit"
       },
       "rpo": {
-        "score": 82,
+        "score": 78,
         "label": "Strong Fit"
       },
       "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
+        "score": 75,
+        "label": "Strong Fit"
       },
       "four_three_over": {
         "score": 50,
@@ -509,43 +202,146 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 5760000
+      "salary": 36000000
     }
   },
   {
-    "id": "9894ef2d-1793-4da4-a3ab-f990dafd4558",
+    "id": "b35a499f-8305-4331-809d-2f79e434d6ee",
+    "position": "QB",
+    "age": 30,
+    "height": 74,
+    "weight": 223,
+    "college": "Northern Illinois",
+    "injuryProneness": 71,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 8,
+    "workEthic": 89,
+    "coachability": 93,
+    "competitiveness": 52,
+    "tier": "solid",
+    "archetype": "field_general",
+    "ratings": {
+      "speed": 78,
+      "acceleration": 75,
+      "agility": 66,
+      "strength": 71,
+      "awareness": 65,
+      "throwPower": 89,
+      "throwAccuracyShort": 77,
+      "throwAccuracyMid": 74,
+      "throwAccuracyDeep": 75,
+      "throwOnRun": 79,
+      "playAction": 78,
+      "overall": 76
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 73,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 78,
+        "label": "Strong Fit"
+      },
+      "spread": {
+        "score": 73,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 73,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 74,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 14400000
+    }
+  },
+  {
+    "id": "52d51f20-6a13-483b-b627-8d2e999b1c73",
     "position": "HB",
-    "age": 31,
-    "height": 71,
-    "weight": 200,
-    "college": "USC",
-    "injuryProneness": 75,
+    "age": 30,
+    "height": 73,
+    "weight": 204,
+    "college": "Wake Forest",
+    "injuryProneness": 61,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
     "accruedSeasons": 9,
-    "workEthic": 46,
-    "coachability": 87,
-    "competitiveness": 83,
+    "workEthic": 45,
+    "coachability": 44,
+    "competitiveness": 42,
     "tier": "solid",
     "archetype": "power_back",
     "ratings": {
-      "speed": 87,
-      "acceleration": 91,
-      "agility": 95,
-      "strength": 86,
-      "awareness": 61,
-      "breakTackle": 81,
-      "trucking": 78,
+      "speed": 88,
+      "acceleration": 82,
+      "agility": 83,
+      "strength": 81,
+      "awareness": 56,
+      "breakTackle": 79,
+      "trucking": 77,
       "elusiveness": 73,
-      "ballSecurity": 67,
-      "catching": 71,
-      "overall": 79
+      "ballSecurity": 77,
+      "catching": 48,
+      "overall": 78
     },
     "schemeFits": {
       "west_coast": {
-        "score": 76,
-        "label": "Strong Fit"
+        "score": 67,
+        "label": "Adequate Fit"
       },
       "vertical": {
         "score": 50,
@@ -556,15 +352,15 @@
         "label": "Adequate Fit"
       },
       "power_run": {
-        "score": 79,
+        "score": 78,
         "label": "Strong Fit"
       },
       "zone_run": {
-        "score": 85,
+        "score": 79,
         "label": "Strong Fit"
       },
       "rpo": {
-        "score": 86,
+        "score": 79,
         "label": "Strong Fit"
       },
       "play_action": {
@@ -615,39 +411,39 @@
     }
   },
   {
-    "id": "91972261-a545-453a-b21c-711cbfc6f139",
+    "id": "9dc85800-5963-4658-9eca-63f54346dbe1",
     "position": "HB",
-    "age": 27,
-    "height": 69,
-    "weight": 213,
-    "college": "Indiana",
-    "injuryProneness": 99,
+    "age": 30,
+    "height": 70,
+    "weight": 210,
+    "college": "William & Mary",
+    "injuryProneness": 83,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 5,
-    "workEthic": 53,
-    "coachability": 52,
-    "competitiveness": 82,
+    "accruedSeasons": 9,
+    "workEthic": 67,
+    "coachability": 53,
+    "competitiveness": 73,
     "tier": "solid",
-    "archetype": "elusive_back",
+    "archetype": "power_back",
     "ratings": {
-      "speed": 93,
-      "acceleration": 99,
-      "agility": 98,
-      "strength": 66,
-      "awareness": 59,
-      "breakTackle": 61,
-      "trucking": 75,
-      "elusiveness": 83,
-      "ballSecurity": 70,
-      "catching": 72,
-      "overall": 79
+      "speed": 85,
+      "acceleration": 86,
+      "agility": 78,
+      "strength": 82,
+      "awareness": 61,
+      "breakTackle": 77,
+      "trucking": 80,
+      "elusiveness": 67,
+      "ballSecurity": 60,
+      "catching": 68,
+      "overall": 75
     },
     "schemeFits": {
       "west_coast": {
-        "score": 77,
-        "label": "Strong Fit"
+        "score": 72,
+        "label": "Adequate Fit"
       },
       "vertical": {
         "score": 50,
@@ -658,15 +454,219 @@
         "label": "Adequate Fit"
       },
       "power_run": {
-        "score": 68,
-        "label": "Adequate Fit"
+        "score": 77,
+        "label": "Strong Fit"
       },
       "zone_run": {
-        "score": 86,
+        "score": 77,
         "label": "Strong Fit"
       },
       "rpo": {
-        "score": 87,
+        "score": 77,
+        "label": "Strong Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 2304000
+    }
+  },
+  {
+    "id": "4bc846df-547e-47e7-8594-6e2af95e4356",
+    "position": "HB",
+    "age": 24,
+    "height": 71,
+    "weight": 213,
+    "college": "William & Mary",
+    "injuryProneness": 85,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 2,
+    "workEthic": 71,
+    "coachability": 66,
+    "competitiveness": 93,
+    "tier": "solid",
+    "archetype": "power_back",
+    "ratings": {
+      "speed": 91,
+      "acceleration": 90,
+      "agility": 78,
+      "strength": 86,
+      "awareness": 62,
+      "breakTackle": 67,
+      "trucking": 77,
+      "elusiveness": 75,
+      "ballSecurity": 68,
+      "catching": 63,
+      "overall": 77
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 72,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 74,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 78,
+        "label": "Strong Fit"
+      },
+      "rpo": {
+        "score": 79,
+        "label": "Strong Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "B",
+      "ceilingBoost": 7,
+      "volatility": 0.3
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1920000
+    }
+  },
+  {
+    "id": "96048563-0910-4166-8c55-9f2498ec8c5f",
+    "position": "HB",
+    "age": 25,
+    "height": 69,
+    "weight": 215,
+    "college": "Youngstown State",
+    "injuryProneness": 97,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 2,
+    "workEthic": 90,
+    "coachability": 73,
+    "competitiveness": 41,
+    "tier": "solid",
+    "archetype": "power_back",
+    "ratings": {
+      "speed": 95,
+      "acceleration": 93,
+      "agility": 82,
+      "strength": 75,
+      "awareness": 64,
+      "breakTackle": 59,
+      "trucking": 71,
+      "elusiveness": 83,
+      "ballSecurity": 64,
+      "catching": 60,
+      "overall": 76
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 73,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 67,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 80,
+        "label": "Strong Fit"
+      },
+      "rpo": {
+        "score": 81,
         "label": "Strong Fit"
       },
       "play_action": {
@@ -717,39 +717,39 @@
     }
   },
   {
-    "id": "842833cb-95b1-443a-9569-73f338df77bf",
+    "id": "5a12d724-ae38-47f0-94d4-90e1c8e661e0",
     "position": "FB",
-    "age": 27,
-    "height": 72,
-    "weight": 227,
-    "college": "Mississippi State",
-    "injuryProneness": 61,
+    "age": 28,
+    "height": 69,
+    "weight": 222,
+    "college": "Missouri",
+    "injuryProneness": 88,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 4,
-    "workEthic": 91,
-    "coachability": 86,
-    "competitiveness": 83,
-    "tier": "depth",
-    "archetype": "power_back",
+    "accruedSeasons": 3,
+    "workEthic": 55,
+    "coachability": 47,
+    "competitiveness": 59,
+    "tier": "solid",
+    "archetype": "elusive_back",
     "ratings": {
-      "speed": 73,
-      "acceleration": 75,
-      "agility": 71,
-      "strength": 62,
-      "awareness": 43,
-      "breakTackle": 66,
-      "trucking": 79,
-      "elusiveness": 64,
-      "ballSecurity": 65,
-      "catching": 57,
-      "passBlock": 70,
-      "passBlockFootwork": 74,
+      "speed": 78,
+      "acceleration": 70,
+      "agility": 68,
+      "strength": 48,
+      "awareness": 65,
+      "breakTackle": 82,
+      "trucking": 77,
+      "elusiveness": 52,
+      "ballSecurity": 64,
+      "catching": 75,
+      "passBlock": 50,
+      "passBlockFootwork": 62,
       "runBlock": 68,
-      "runBlockFootwork": 64,
-      "impactBlock": 74,
-      "overall": 66
+      "runBlockFootwork": 55,
+      "impactBlock": 83,
+      "overall": 73
     },
     "schemeFits": {
       "west_coast": {
@@ -820,47 +820,150 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 1440000
+      "salary": 2880000
     }
   },
   {
-    "id": "4ff279a4-e65b-4e10-b1a3-0564127086a0",
+    "id": "8cbaaddb-10fa-42ed-be69-244e30b52837",
     "position": "WR_X",
-    "age": 28,
-    "height": 73,
-    "weight": 205,
-    "college": "UAB",
-    "injuryProneness": 76,
+    "age": 23,
+    "height": 72,
+    "weight": 216,
+    "college": "Colorado",
+    "injuryProneness": 85,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 4,
-    "workEthic": 93,
-    "coachability": 41,
-    "competitiveness": 60,
+    "accruedSeasons": 0,
+    "workEthic": 55,
+    "coachability": 88,
+    "competitiveness": 61,
+    "tier": "star",
+    "archetype": "possession",
+    "ratings": {
+      "speed": 91,
+      "acceleration": 86,
+      "agility": 87,
+      "strength": 56,
+      "awareness": 77,
+      "routeRunningShort": 75,
+      "routeRunningMid": 71,
+      "routeRunningDeep": 75,
+      "release": 92,
+      "catchInTraffic": 99,
+      "spectacularCatch": 79,
+      "overall": 88
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 86,
+        "label": "Strong Fit"
+      },
+      "vertical": {
+        "score": 83,
+        "label": "Strong Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 81,
+        "label": "Strong Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "A",
+      "ceilingBoost": 10,
+      "volatility": 0.35
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 11000000
+    }
+  },
+  {
+    "id": "e0a202ff-ac0e-4442-8d7d-22676456b869",
+    "position": "WR_X",
+    "age": 31,
+    "height": 74,
+    "weight": 207,
+    "college": "Arizona State",
+    "injuryProneness": 57,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 9,
+    "workEthic": 57,
+    "coachability": 90,
+    "competitiveness": 47,
     "tier": "star",
     "archetype": "deep_threat",
     "ratings": {
       "speed": 99,
-      "acceleration": 91,
-      "agility": 82,
-      "strength": 66,
-      "awareness": 78,
-      "routeRunningShort": 79,
-      "routeRunningMid": 77,
-      "routeRunningDeep": 84,
-      "release": 76,
-      "catchInTraffic": 73,
-      "spectacularCatch": 84,
+      "acceleration": 92,
+      "agility": 80,
+      "strength": 65,
+      "awareness": 66,
+      "routeRunningShort": 67,
+      "routeRunningMid": 69,
+      "routeRunningDeep": 89,
+      "release": 91,
+      "catchInTraffic": 72,
+      "spectacularCatch": 72,
       "overall": 85
     },
     "schemeFits": {
       "west_coast": {
-        "score": 77,
-        "label": "Strong Fit"
+        "score": 74,
+        "label": "Adequate Fit"
       },
       "vertical": {
-        "score": 86,
+        "score": 89,
         "label": "Strong Fit"
       },
       "spread": {
@@ -923,352 +1026,352 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 33000000
-    }
-  },
-  {
-    "id": "6fc090bc-a1d7-4bef-bf24-7885f4f9d47c",
-    "position": "WR_X",
-    "age": 34,
-    "height": 74,
-    "weight": 214,
-    "college": "Bowling Green",
-    "injuryProneness": 79,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 11,
-    "workEthic": 73,
-    "coachability": 59,
-    "competitiveness": 45,
-    "tier": "star",
-    "archetype": "deep_threat",
-    "ratings": {
-      "speed": 99,
-      "acceleration": 85,
-      "agility": 82,
-      "strength": 74,
-      "awareness": 67,
-      "routeRunningShort": 70,
-      "routeRunningMid": 73,
-      "routeRunningDeep": 96,
-      "release": 71,
-      "catchInTraffic": 72,
-      "spectacularCatch": 88,
-      "overall": 86
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 70,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 90,
-        "label": "Perfect Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 82,
-        "label": "Strong Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 8800000
-    }
-  },
-  {
-    "id": "9ff24cd3-1712-457c-85ad-0e25578a333b",
-    "position": "WR_Z",
-    "age": 25,
-    "height": 73,
-    "weight": 214,
-    "college": "Missouri",
-    "injuryProneness": 87,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 1,
-    "workEthic": 77,
-    "coachability": 91,
-    "competitiveness": 94,
-    "tier": "solid",
-    "archetype": "deep_threat",
-    "ratings": {
-      "speed": 96,
-      "acceleration": 96,
-      "agility": 94,
-      "strength": 63,
-      "awareness": 65,
-      "routeRunningShort": 84,
-      "routeRunningMid": 64,
-      "routeRunningDeep": 84,
-      "release": 63,
-      "catchInTraffic": 71,
-      "spectacularCatch": 82,
-      "overall": 77
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 75,
-        "label": "Strong Fit"
-      },
-      "vertical": {
-        "score": 82,
-        "label": "Strong Fit"
-      },
-      "spread": {
-        "score": 80,
-        "label": "Strong Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 19800000
-    }
-  },
-  {
-    "id": "083bf23c-c771-4c76-a16e-f8b0f36d082c",
-    "position": "WR_Z",
-    "age": 31,
-    "height": 74,
-    "weight": 204,
-    "college": "Memphis",
-    "injuryProneness": 80,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 76,
-    "coachability": 72,
-    "competitiveness": 42,
-    "tier": "star",
-    "archetype": "deep_threat",
-    "ratings": {
-      "speed": 99,
-      "acceleration": 89,
-      "agility": 93,
-      "strength": 66,
-      "awareness": 67,
-      "routeRunningShort": 90,
-      "routeRunningMid": 75,
-      "routeRunningDeep": 94,
-      "release": 79,
-      "catchInTraffic": 76,
-      "spectacularCatch": 83,
-      "overall": 88
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 83,
-        "label": "Strong Fit"
-      },
-      "vertical": {
-        "score": 90,
-        "label": "Perfect Fit"
-      },
-      "spread": {
-        "score": 86,
-        "label": "Strong Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
-    },
-    "developmentHistory": [],
-    "contract": {
       "salary": 13200000
     }
   },
   {
-    "id": "b5bd38f6-80ce-407b-8cc8-2b064d7088b8",
+    "id": "a252ab3f-da90-4dec-8d70-2813aeef41f9",
+    "position": "WR_Z",
+    "age": 28,
+    "height": 73,
+    "weight": 214,
+    "college": "Marshall",
+    "injuryProneness": 57,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 3,
+    "workEthic": 77,
+    "coachability": 67,
+    "competitiveness": 46,
+    "tier": "star",
+    "archetype": "deep_threat",
+    "ratings": {
+      "speed": 99,
+      "acceleration": 96,
+      "agility": 91,
+      "strength": 73,
+      "awareness": 65,
+      "routeRunningShort": 76,
+      "routeRunningMid": 75,
+      "routeRunningDeep": 91,
+      "release": 82,
+      "catchInTraffic": 77,
+      "spectacularCatch": 77,
+      "overall": 88
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 79,
+        "label": "Strong Fit"
+      },
+      "vertical": {
+        "score": 89,
+        "label": "Strong Fit"
+      },
+      "spread": {
+        "score": 85,
+        "label": "Strong Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "B",
+      "ceilingBoost": 7,
+      "volatility": 0.3
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 33000000
+    }
+  },
+  {
+    "id": "553359e1-3c06-4a24-9b9e-70a7ec3357f3",
+    "position": "WR_Z",
+    "age": 28,
+    "height": 70,
+    "weight": 200,
+    "college": "Bowling Green",
+    "injuryProneness": 82,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 4,
+    "workEthic": 72,
+    "coachability": 62,
+    "competitiveness": 50,
+    "tier": "star",
+    "archetype": "deep_threat",
+    "ratings": {
+      "speed": 99,
+      "acceleration": 99,
+      "agility": 94,
+      "strength": 80,
+      "awareness": 70,
+      "routeRunningShort": 77,
+      "routeRunningMid": 84,
+      "routeRunningDeep": 94,
+      "release": 75,
+      "catchInTraffic": 78,
+      "spectacularCatch": 82,
+      "overall": 90
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 81,
+        "label": "Strong Fit"
+      },
+      "vertical": {
+        "score": 89,
+        "label": "Strong Fit"
+      },
+      "spread": {
+        "score": 88,
+        "label": "Strong Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "B",
+      "ceilingBoost": 7,
+      "volatility": 0.3
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 49500000
+    }
+  },
+  {
+    "id": "769f182a-5284-4e80-a0b7-6ebb6163f95a",
+    "position": "WR_SLOT",
+    "age": 24,
+    "height": 70,
+    "weight": 186,
+    "college": "Georgia",
+    "injuryProneness": 52,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 1,
+    "workEthic": 75,
+    "coachability": 78,
+    "competitiveness": 48,
+    "tier": "solid",
+    "archetype": "possession",
+    "ratings": {
+      "speed": 85,
+      "acceleration": 92,
+      "agility": 93,
+      "strength": 75,
+      "awareness": 57,
+      "routeRunningShort": 78,
+      "routeRunningMid": 85,
+      "routeRunningDeep": 76,
+      "release": 68,
+      "catchInTraffic": 67,
+      "spectacularCatch": 60,
+      "overall": 79
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 80,
+        "label": "Strong Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 82,
+        "label": "Strong Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 82,
+        "label": "Strong Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "B",
+      "ceilingBoost": 7,
+      "volatility": 0.3
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 6600000
+    }
+  },
+  {
+    "id": "3f6c5514-4e4c-45d9-ac1c-7eb22faa64d0",
     "position": "WR_SLOT",
     "age": 29,
-    "height": 69,
-    "weight": 185,
-    "college": "South Carolina",
+    "height": 71,
+    "weight": 183,
+    "college": "Clemson",
     "injuryProneness": 85,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
     "accruedSeasons": 8,
-    "workEthic": 74,
-    "coachability": 83,
-    "competitiveness": 51,
+    "workEthic": 42,
+    "coachability": 59,
+    "competitiveness": 41,
     "tier": "star",
     "archetype": "deep_threat",
     "ratings": {
-      "speed": 91,
-      "acceleration": 96,
-      "agility": 96,
-      "strength": 71,
-      "awareness": 60,
-      "routeRunningShort": 77,
-      "routeRunningMid": 86,
-      "routeRunningDeep": 78,
-      "release": 80,
-      "catchInTraffic": 77,
-      "spectacularCatch": 68,
-      "overall": 86
+      "speed": 87,
+      "acceleration": 97,
+      "agility": 90,
+      "strength": 60,
+      "awareness": 58,
+      "routeRunningShort": 71,
+      "routeRunningMid": 59,
+      "routeRunningDeep": 61,
+      "release": 74,
+      "catchInTraffic": 79,
+      "spectacularCatch": 76,
+      "overall": 83
     },
     "schemeFits": {
       "west_coast": {
-        "score": 82,
+        "score": 78,
         "label": "Strong Fit"
       },
       "vertical": {
@@ -1276,7 +1379,7 @@
         "label": "Adequate Fit"
       },
       "spread": {
-        "score": 84,
+        "score": 81,
         "label": "Strong Fit"
       },
       "power_run": {
@@ -1288,7 +1391,7 @@
         "label": "Adequate Fit"
       },
       "rpo": {
-        "score": 84,
+        "score": 81,
         "label": "Strong Fit"
       },
       "play_action": {
@@ -1335,243 +1438,38 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 13200000
+      "salary": 10560000
     }
   },
   {
-    "id": "f039c74c-5dba-4cd8-acd8-6435aba9e143",
-    "position": "WR_SLOT",
-    "age": 32,
-    "height": 71,
-    "weight": 201,
-    "college": "Louisiana",
-    "injuryProneness": 61,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 94,
-    "coachability": 94,
-    "competitiveness": 42,
-    "tier": "star",
-    "archetype": "deep_threat",
-    "ratings": {
-      "speed": 86,
-      "acceleration": 94,
-      "agility": 91,
-      "strength": 92,
-      "awareness": 69,
-      "routeRunningShort": 78,
-      "routeRunningMid": 73,
-      "routeRunningDeep": 65,
-      "release": 76,
-      "catchInTraffic": 88,
-      "spectacularCatch": 75,
-      "overall": 87
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 83,
-        "label": "Strong Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 84,
-        "label": "Strong Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 84,
-        "label": "Strong Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 8800000
-    }
-  },
-  {
-    "id": "eee22355-c337-4f19-9f8b-6eca35c12a59",
+    "id": "d39d489f-d0ba-45ad-bc29-d1732ad73d57",
     "position": "TE",
-    "age": 32,
-    "height": 73,
-    "weight": 253,
-    "college": "Houston",
-    "injuryProneness": 75,
+    "age": 31,
+    "height": 76,
+    "weight": 225,
+    "college": "Louisville",
+    "injuryProneness": 53,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
     "accruedSeasons": 7,
-    "workEthic": 42,
-    "coachability": 59,
-    "competitiveness": 44,
-    "tier": "star",
-    "archetype": "blocking_te",
-    "ratings": {
-      "speed": 80,
-      "acceleration": 84,
-      "agility": 79,
-      "strength": 91,
-      "awareness": 74,
-      "routeRunningShort": 68,
-      "routeRunningMid": 79,
-      "catchInTraffic": 88,
-      "spectacularCatch": 75,
-      "impactBlock": 93,
-      "overall": 86
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 80,
-        "label": "Strong Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 77,
-        "label": "Strong Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 5760000
-    }
-  },
-  {
-    "id": "7d3182d0-5f2d-45ea-bd1c-24b62c225b6e",
-    "position": "TE",
-    "age": 28,
-    "height": 79,
-    "weight": 276,
-    "college": "Pitt",
-    "injuryProneness": 55,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 5,
-    "workEthic": 47,
-    "coachability": 75,
-    "competitiveness": 79,
+    "workEthic": 83,
+    "coachability": 70,
+    "competitiveness": 86,
     "tier": "solid",
-    "archetype": "blocking_te",
+    "archetype": "receiving_te",
     "ratings": {
-      "speed": 79,
-      "acceleration": 90,
-      "agility": 73,
-      "strength": 69,
-      "awareness": 61,
-      "routeRunningShort": 77,
-      "routeRunningMid": 61,
-      "catchInTraffic": 74,
-      "spectacularCatch": 76,
-      "impactBlock": 83,
-      "overall": 74
+      "speed": 83,
+      "acceleration": 94,
+      "agility": 76,
+      "strength": 80,
+      "awareness": 63,
+      "routeRunningShort": 80,
+      "routeRunningMid": 78,
+      "catchInTraffic": 75,
+      "spectacularCatch": 81,
+      "impactBlock": 78,
+      "overall": 77
     },
     "schemeFits": {
       "west_coast": {
@@ -1579,8 +1477,8 @@
         "label": "Adequate Fit"
       },
       "vertical": {
-        "score": 69,
-        "label": "Adequate Fit"
+        "score": 75,
+        "label": "Strong Fit"
       },
       "spread": {
         "score": 50,
@@ -1599,8 +1497,8 @@
         "label": "Adequate Fit"
       },
       "play_action": {
-        "score": 73,
-        "label": "Adequate Fit"
+        "score": 75,
+        "label": "Strong Fit"
       },
       "four_three_over": {
         "score": 50,
@@ -1642,37 +1540,37 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 6480000
+      "salary": 5184000
     }
   },
   {
-    "id": "b6087f0b-7cfa-47c9-8b8f-802835a640e4",
+    "id": "57dbf1e4-6256-4b7a-9b25-00a6d6ef41c7",
     "position": "TE",
-    "age": 27,
-    "height": 75,
-    "weight": 270,
-    "college": "Ball State",
-    "injuryProneness": 53,
+    "age": 25,
+    "height": 78,
+    "weight": 248,
+    "college": "Auburn",
+    "injuryProneness": 80,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 3,
-    "workEthic": 68,
-    "coachability": 67,
-    "competitiveness": 45,
+    "accruedSeasons": 1,
+    "workEthic": 82,
+    "coachability": 68,
+    "competitiveness": 58,
     "tier": "solid",
     "archetype": "receiving_te",
     "ratings": {
-      "speed": 77,
-      "acceleration": 68,
-      "agility": 78,
-      "strength": 72,
-      "awareness": 71,
-      "routeRunningShort": 77,
-      "routeRunningMid": 68,
-      "catchInTraffic": 80,
-      "spectacularCatch": 91,
-      "impactBlock": 73,
+      "speed": 80,
+      "acceleration": 89,
+      "agility": 69,
+      "strength": 67,
+      "awareness": 61,
+      "routeRunningShort": 85,
+      "routeRunningMid": 75,
+      "catchInTraffic": 85,
+      "spectacularCatch": 83,
+      "impactBlock": 77,
       "overall": 78
     },
     "schemeFits": {
@@ -1681,7 +1579,7 @@
         "label": "Adequate Fit"
       },
       "vertical": {
-        "score": 79,
+        "score": 78,
         "label": "Strong Fit"
       },
       "spread": {
@@ -1748,442 +1646,136 @@
     }
   },
   {
-    "id": "87b41dec-f636-424c-baff-536be7d79dc2",
-    "position": "LT",
-    "age": 27,
-    "height": 78,
-    "weight": 315,
-    "college": "New Mexico",
-    "injuryProneness": 36,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 4,
-    "workEthic": 90,
-    "coachability": 66,
-    "competitiveness": 55,
-    "tier": "depth",
-    "archetype": "pass_protector",
-    "ratings": {
-      "speed": 58,
-      "acceleration": 57,
-      "agility": 53,
-      "strength": 65,
-      "awareness": 54,
-      "passBlock": 56,
-      "passBlockFootwork": 73,
-      "runBlock": 69,
-      "runBlockFootwork": 72,
-      "impactBlock": 73,
-      "overall": 63
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 64,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 2160000
-    }
-  },
-  {
-    "id": "65750f0b-2016-4ff7-b20f-13ff6ed67401",
-    "position": "LT",
-    "age": 31,
-    "height": 79,
-    "weight": 345,
-    "college": "Montana",
-    "injuryProneness": 75,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 7,
-    "workEthic": 65,
-    "coachability": 72,
-    "competitiveness": 89,
-    "tier": "depth",
-    "archetype": "pass_protector",
-    "ratings": {
-      "speed": 46,
-      "acceleration": 64,
-      "agility": 48,
-      "strength": 72,
-      "awareness": 51,
-      "passBlock": 63,
-      "passBlockFootwork": 74,
-      "runBlock": 51,
-      "runBlockFootwork": 59,
-      "impactBlock": 71,
-      "overall": 62
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 53,
-        "label": "Poor Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "F",
-      "ceilingBoost": 0,
-      "volatility": 0.15
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 864000
-    }
-  },
-  {
-    "id": "720c69f8-4197-4697-8836-c2bbba1c14b2",
-    "position": "LG",
-    "age": 25,
-    "height": 75,
-    "weight": 323,
-    "college": "Kansas State",
-    "injuryProneness": 81,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 2,
-    "workEthic": 83,
-    "coachability": 64,
-    "competitiveness": 60,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 51,
-      "acceleration": 60,
-      "agility": 50,
-      "strength": 64,
-      "awareness": 68,
-      "passBlock": 69,
-      "passBlockFootwork": 70,
-      "runBlock": 60,
-      "runBlockFootwork": 69,
-      "impactBlock": 62,
-      "overall": 63
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 64,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 62,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 2160000
-    }
-  },
-  {
-    "id": "965ef8a5-5615-475e-ab93-2fa5843fa250",
-    "position": "LG",
-    "age": 33,
-    "height": 75,
-    "weight": 308,
-    "college": "Ball State",
-    "injuryProneness": 83,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 12,
-    "workEthic": 46,
-    "coachability": 90,
-    "competitiveness": 72,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 52,
-      "acceleration": 55,
-      "agility": 50,
-      "strength": 56,
-      "awareness": 64,
-      "passBlock": 62,
-      "passBlockFootwork": 63,
-      "runBlock": 65,
-      "runBlockFootwork": 67,
-      "impactBlock": 71,
-      "overall": 62
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 64,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 62,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "F",
-      "ceilingBoost": 0,
-      "volatility": 0.15
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 576000
-    }
-  },
-  {
-    "id": "09466b53-ffff-49bf-9c41-b727aae4f76d",
-    "position": "C",
+    "id": "4859df68-2f09-4fe2-a62d-84ab2498b482",
+    "position": "TE",
     "age": 24,
-    "height": 75,
-    "weight": 307,
-    "college": "Duke",
-    "injuryProneness": 40,
+    "height": 79,
+    "weight": 237,
+    "college": "South Dakota State",
+    "injuryProneness": 70,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
     "accruedSeasons": 1,
-    "workEthic": 47,
-    "coachability": 53,
-    "competitiveness": 84,
+    "workEthic": 40,
+    "coachability": 78,
+    "competitiveness": 83,
+    "tier": "star",
+    "archetype": "blocking_te",
+    "ratings": {
+      "speed": 75,
+      "acceleration": 80,
+      "agility": 71,
+      "strength": 87,
+      "awareness": 63,
+      "routeRunningShort": 73,
+      "routeRunningMid": 62,
+      "catchInTraffic": 82,
+      "spectacularCatch": 73,
+      "impactBlock": 97,
+      "overall": 84
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 72,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 74,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "A",
+      "ceilingBoost": 10,
+      "volatility": 0.35
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 5760000
+    }
+  },
+  {
+    "id": "e9a6019c-1f85-4b2d-abc8-973eae0922d9",
+    "position": "LT",
+    "age": 22,
+    "height": 78,
+    "weight": 319,
+    "college": "South Florida",
+    "injuryProneness": 86,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 75,
+    "coachability": 64,
+    "competitiveness": 62,
     "tier": "depth",
     "archetype": "pass_protector",
     "ratings": {
-      "speed": 52,
-      "acceleration": 56,
-      "agility": 55,
-      "strength": 59,
-      "awareness": 58,
-      "passBlock": 71,
-      "passBlockFootwork": 65,
-      "runBlock": 70,
-      "runBlockFootwork": 64,
-      "impactBlock": 57,
-      "overall": 62
+      "speed": 55,
+      "acceleration": 64,
+      "agility": 52,
+      "strength": 52,
+      "awareness": 66,
+      "passBlock": 55,
+      "passBlockFootwork": 57,
+      "runBlock": 71,
+      "runBlockFootwork": 71,
+      "impactBlock": 56,
+      "overall": 58
     },
     "schemeFits": {
       "west_coast": {
@@ -2203,7 +1795,7 @@
         "label": "Adequate Fit"
       },
       "zone_run": {
-        "score": 50,
+        "score": 66,
         "label": "Adequate Fit"
       },
       "rpo": {
@@ -2258,34 +1850,34 @@
     }
   },
   {
-    "id": "696274ff-17ec-4cda-ad40-397091acfd05",
-    "position": "C",
-    "age": 29,
-    "height": 75,
-    "weight": 310,
-    "college": "Delaware",
-    "injuryProneness": 44,
+    "id": "d741991b-4e97-4da2-9f64-85d96ef6b2ac",
+    "position": "LT",
+    "age": 27,
+    "height": 79,
+    "weight": 309,
+    "college": "Boise State",
+    "injuryProneness": 81,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 80,
-    "coachability": 53,
-    "competitiveness": 88,
+    "accruedSeasons": 5,
+    "workEthic": 86,
+    "coachability": 89,
+    "competitiveness": 72,
     "tier": "depth",
     "archetype": "pass_protector",
     "ratings": {
-      "speed": 49,
-      "acceleration": 58,
-      "agility": 52,
-      "strength": 59,
-      "awareness": 65,
-      "passBlock": 65,
-      "passBlockFootwork": 64,
-      "runBlock": 59,
-      "runBlockFootwork": 73,
-      "impactBlock": 57,
-      "overall": 60
+      "speed": 57,
+      "acceleration": 62,
+      "agility": 51,
+      "strength": 68,
+      "awareness": 63,
+      "passBlock": 58,
+      "passBlockFootwork": 56,
+      "runBlock": 61,
+      "runBlockFootwork": 80,
+      "impactBlock": 56,
+      "overall": 59
     },
     "schemeFits": {
       "west_coast": {
@@ -2305,7 +1897,7 @@
         "label": "Adequate Fit"
       },
       "zone_run": {
-        "score": 50,
+        "score": 65,
         "label": "Adequate Fit"
       },
       "rpo": {
@@ -2356,38 +1948,38 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 864000
+      "salary": 2160000
     }
   },
   {
-    "id": "eb6656fc-7cb5-41b9-86f6-33c013c53f61",
-    "position": "RG",
-    "age": 25,
+    "id": "bf591df5-079c-4cfe-b437-0e52998b2f44",
+    "position": "LG",
+    "age": 31,
     "height": 76,
-    "weight": 312,
-    "college": "UNLV",
-    "injuryProneness": 75,
+    "weight": 290,
+    "college": "SMU",
+    "injuryProneness": 82,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 1,
-    "workEthic": 47,
-    "coachability": 63,
-    "competitiveness": 70,
+    "accruedSeasons": 6,
+    "workEthic": 45,
+    "coachability": 53,
+    "competitiveness": 85,
     "tier": "depth",
     "archetype": "power_rusher",
     "ratings": {
-      "speed": 52,
-      "acceleration": 56,
-      "agility": 51,
+      "speed": 54,
+      "acceleration": 63,
+      "agility": 52,
       "strength": 68,
-      "awareness": 66,
-      "passBlock": 65,
-      "passBlockFootwork": 69,
-      "runBlock": 73,
-      "runBlockFootwork": 67,
-      "impactBlock": 62,
-      "overall": 67
+      "awareness": 67,
+      "passBlock": 59,
+      "passBlockFootwork": 67,
+      "runBlock": 74,
+      "runBlockFootwork": 63,
+      "impactBlock": 61,
+      "overall": 65
     },
     "schemeFits": {
       "west_coast": {
@@ -2403,7 +1995,211 @@
         "label": "Adequate Fit"
       },
       "power_run": {
-        "score": 70,
+        "score": 69,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 64,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1620000
+    }
+  },
+  {
+    "id": "9529eae1-aa67-4fa9-9735-3bdd73d46988",
+    "position": "LG",
+    "age": 31,
+    "height": 74,
+    "weight": 325,
+    "college": "Middle Tennessee",
+    "injuryProneness": 57,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 8,
+    "workEthic": 90,
+    "coachability": 44,
+    "competitiveness": 71,
+    "tier": "depth",
+    "archetype": "power_rusher",
+    "ratings": {
+      "speed": 48,
+      "acceleration": 58,
+      "agility": 57,
+      "strength": 66,
+      "awareness": 71,
+      "passBlock": 63,
+      "passBlockFootwork": 61,
+      "runBlock": 67,
+      "runBlockFootwork": 61,
+      "impactBlock": 68,
+      "overall": 62
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 65,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "F",
+      "ceilingBoost": 0,
+      "volatility": 0.15
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 864000
+    }
+  },
+  {
+    "id": "c43dc74b-fd1a-405c-b7b5-b475bc2ece62",
+    "position": "C",
+    "age": 25,
+    "height": 74,
+    "weight": 291,
+    "college": "Nebraska",
+    "injuryProneness": 71,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 2,
+    "workEthic": 69,
+    "coachability": 60,
+    "competitiveness": 48,
+    "tier": "depth",
+    "archetype": "pass_protector",
+    "ratings": {
+      "speed": 45,
+      "acceleration": 45,
+      "agility": 47,
+      "strength": 63,
+      "awareness": 67,
+      "passBlock": 57,
+      "passBlockFootwork": 74,
+      "runBlock": 62,
+      "runBlockFootwork": 73,
+      "impactBlock": 55,
+      "overall": 59
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
         "label": "Adequate Fit"
       },
       "zone_run": {
@@ -2458,242 +2254,38 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 4050000
+      "salary": 2160000
     }
   },
   {
-    "id": "497a06c0-a86e-4732-b186-1cab20db4aad",
-    "position": "RG",
-    "age": 29,
-    "height": 76,
-    "weight": 324,
-    "college": "Duke",
-    "injuryProneness": 61,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 7,
-    "workEthic": 71,
-    "coachability": 79,
-    "competitiveness": 60,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 54,
-      "acceleration": 53,
-      "agility": 54,
-      "strength": 59,
-      "awareness": 69,
-      "passBlock": 71,
-      "passBlockFootwork": 59,
-      "runBlock": 68,
-      "runBlockFootwork": 57,
-      "impactBlock": 63,
-      "overall": 62
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 63,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 864000
-    }
-  },
-  {
-    "id": "5f40af13-5ab1-4218-8636-bc0aa5fe99cf",
-    "position": "RT",
-    "age": 33,
-    "height": 75,
-    "weight": 329,
-    "college": "Louisiana Tech",
-    "injuryProneness": 53,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 12,
-    "workEthic": 75,
-    "coachability": 65,
-    "competitiveness": 74,
-    "tier": "depth",
-    "archetype": "pass_protector",
-    "ratings": {
-      "speed": 52,
-      "acceleration": 59,
-      "agility": 46,
-      "strength": 51,
-      "awareness": 54,
-      "passBlock": 64,
-      "passBlockFootwork": 69,
-      "runBlock": 61,
-      "runBlockFootwork": 76,
-      "impactBlock": 59,
-      "overall": 63
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "F",
-      "ceilingBoost": 0,
-      "volatility": 0.15
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 576000
-    }
-  },
-  {
-    "id": "0507899f-ea44-42b5-a173-ebca5e49d712",
-    "position": "RT",
+    "id": "63067f8f-0867-4196-bdef-4604679bec49",
+    "position": "C",
     "age": 28,
-    "height": 80,
-    "weight": 315,
-    "college": "Pitt",
-    "injuryProneness": 43,
+    "height": 75,
+    "weight": 293,
+    "college": "Old Dominion",
+    "injuryProneness": 70,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 4,
-    "workEthic": 69,
-    "coachability": 92,
-    "competitiveness": 47,
+    "accruedSeasons": 5,
+    "workEthic": 57,
+    "coachability": 77,
+    "competitiveness": 48,
     "tier": "depth",
     "archetype": "pass_protector",
     "ratings": {
-      "speed": 57,
-      "acceleration": 59,
-      "agility": 56,
-      "strength": 66,
-      "awareness": 73,
-      "passBlock": 63,
-      "passBlockFootwork": 64,
-      "runBlock": 62,
-      "runBlockFootwork": 61,
-      "impactBlock": 68,
-      "overall": 61
+      "speed": 51,
+      "acceleration": 55,
+      "agility": 50,
+      "strength": 78,
+      "awareness": 66,
+      "passBlock": 73,
+      "passBlockFootwork": 59,
+      "runBlock": 53,
+      "runBlockFootwork": 66,
+      "impactBlock": 57,
+      "overall": 62
     },
     "schemeFits": {
       "west_coast": {
@@ -2768,951 +2360,33 @@
     }
   },
   {
-    "id": "77c8e8ac-c97e-4b14-991d-f7c7fe7a500b",
-    "position": "EDGE",
-    "age": 29,
-    "height": 74,
-    "weight": 247,
-    "college": "Arkansas",
-    "injuryProneness": 77,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 95,
-    "coachability": 59,
-    "competitiveness": 62,
-    "tier": "solid",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 67,
-      "acceleration": 82,
-      "agility": 76,
-      "strength": 67,
-      "awareness": 77,
-      "blockShed": 77,
-      "powerMoves": 70,
-      "finesseMoves": 77,
-      "pursuit": 70,
-      "tackling": 70,
-      "overall": 73
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 73,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 72,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 71,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 3960000
-    }
-  },
-  {
-    "id": "26276b12-f14b-4a28-9ed2-e3e3462d3cc5",
-    "position": "EDGE",
-    "age": 24,
-    "height": 76,
-    "weight": 251,
-    "college": "Wyoming",
-    "injuryProneness": 73,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 2,
-    "workEthic": 55,
-    "coachability": 56,
-    "competitiveness": 41,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 82,
-      "acceleration": 78,
-      "agility": 72,
-      "strength": 77,
-      "awareness": 56,
-      "blockShed": 72,
-      "powerMoves": 63,
-      "finesseMoves": 69,
-      "pursuit": 76,
-      "tackling": 57,
-      "overall": 68
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 74,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 72,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 73,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 1650000
-    }
-  },
-  {
-    "id": "429b217d-7798-43ee-9221-e38aae299849",
-    "position": "EDGE",
-    "age": 31,
-    "height": 76,
-    "weight": 246,
-    "college": "Florida International",
-    "injuryProneness": 76,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 43,
-    "coachability": 62,
-    "competitiveness": 72,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 86,
-      "acceleration": 76,
-      "agility": 74,
-      "strength": 60,
-      "awareness": 67,
-      "blockShed": 64,
-      "powerMoves": 84,
-      "finesseMoves": 48,
-      "pursuit": 56,
-      "tackling": 49,
-      "overall": 62
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 62,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 67,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 68,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 1056000
-    }
-  },
-  {
-    "id": "b5ae68a5-3174-4460-8e8a-5177c0bff759",
-    "position": "DE",
+    "id": "c0d15281-43d1-4d3f-b34c-95969996e8d6",
+    "position": "RG",
     "age": 33,
-    "height": 77,
-    "weight": 278,
-    "college": "Washington State",
+    "height": 80,
+    "weight": 295,
+    "college": "BYU",
     "injuryProneness": 71,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 12,
-    "workEthic": 55,
-    "coachability": 49,
-    "competitiveness": 88,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 74,
-      "acceleration": 77,
-      "agility": 70,
-      "strength": 75,
-      "awareness": 65,
-      "blockShed": 67,
-      "powerMoves": 69,
-      "finesseMoves": 72,
-      "pursuit": 57,
-      "tackling": 54,
-      "overall": 64
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 67,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 704000
-    }
-  },
-  {
-    "id": "8fe08dcd-f437-4e9b-aaf7-cdb8db29e667",
-    "position": "DE",
-    "age": 32,
-    "height": 76,
-    "weight": 275,
-    "college": "North Carolina",
-    "injuryProneness": 77,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 51,
-    "coachability": 43,
-    "competitiveness": 82,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 56,
-      "acceleration": 81,
-      "agility": 62,
-      "strength": 55,
-      "awareness": 71,
-      "blockShed": 48,
-      "powerMoves": 71,
-      "finesseMoves": 71,
-      "pursuit": 58,
-      "tackling": 85,
-      "overall": 60
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 58,
-        "label": "Poor Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 704000
-    }
-  },
-  {
-    "id": "fc305e5b-7470-4491-81f0-7397e5502715",
-    "position": "DE",
-    "age": 21,
-    "height": 79,
-    "weight": 291,
-    "college": "San Diego State",
-    "injuryProneness": 79,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 0,
-    "workEthic": 70,
-    "coachability": 53,
-    "competitiveness": 87,
-    "tier": "depth",
-    "archetype": "power_rusher",
-    "ratings": {
-      "speed": 67,
-      "acceleration": 75,
-      "agility": 60,
-      "strength": 64,
-      "awareness": 78,
-      "blockShed": 63,
-      "powerMoves": 64,
-      "finesseMoves": 56,
-      "pursuit": 66,
-      "tackling": 62,
-      "overall": 62
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 64,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 704000
-    }
-  },
-  {
-    "id": "cc502604-2328-46c6-8db3-3cd7f596e0a0",
-    "position": "DT_NT",
-    "age": 26,
-    "height": 74,
-    "weight": 335,
-    "college": "Air Force",
-    "injuryProneness": 84,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 4,
-    "workEthic": 66,
-    "coachability": 78,
-    "competitiveness": 81,
-    "tier": "depth",
-    "archetype": "run_stopper",
-    "ratings": {
-      "speed": 52,
-      "acceleration": 51,
-      "agility": 47,
-      "strength": 55,
-      "awareness": 67,
-      "blockShed": 64,
-      "powerMoves": 69,
-      "finesseMoves": 67,
-      "pursuit": 71,
-      "tackling": 59,
-      "overall": 61
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 63,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 62,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 2640000
-    }
-  },
-  {
-    "id": "1f3c49ff-c7a9-4cc9-b05b-cd4e7c7c1357",
-    "position": "DT_NT",
-    "age": 26,
-    "height": 75,
-    "weight": 324,
-    "college": "South Alabama",
-    "injuryProneness": 94,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 5,
-    "workEthic": 74,
-    "coachability": 48,
-    "competitiveness": 53,
-    "tier": "fringe",
-    "archetype": "run_stopper",
-    "ratings": {
-      "speed": 49,
-      "acceleration": 56,
-      "agility": 47,
-      "strength": 65,
-      "awareness": 70,
-      "blockShed": 55,
-      "powerMoves": 45,
-      "finesseMoves": 62,
-      "pursuit": 65,
-      "tackling": 69,
-      "overall": 54
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 58,
-        "label": "Poor Fit"
-      },
-      "three_four_base": {
-        "score": 59,
-        "label": "Poor Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 2640000
-    }
-  },
-  {
-    "id": "ed973da8-42e6-4825-b380-ede602e345dc",
-    "position": "DT_3T",
-    "age": 27,
-    "height": 74,
-    "weight": 292,
-    "college": "Washington State",
-    "injuryProneness": 69,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 5,
-    "workEthic": 64,
-    "coachability": 71,
-    "competitiveness": 75,
-    "tier": "depth",
-    "archetype": "run_stopper",
-    "ratings": {
-      "speed": 48,
-      "acceleration": 74,
-      "agility": 69,
-      "strength": 58,
-      "awareness": 56,
-      "blockShed": 56,
-      "powerMoves": 82,
-      "finesseMoves": 66,
-      "pursuit": 71,
-      "tackling": 51,
-      "overall": 66
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 71,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 4950000
-    }
-  },
-  {
-    "id": "453cbed2-3487-4b17-ba72-b8de14e56d54",
-    "position": "DT_3T",
-    "age": 24,
-    "height": 75,
-    "weight": 304,
-    "college": "Ohio",
-    "injuryProneness": 79,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 2,
-    "workEthic": 72,
-    "coachability": 64,
-    "competitiveness": 66,
+    "accruedSeasons": 11,
+    "workEthic": 44,
+    "coachability": 63,
+    "competitiveness": 58,
     "tier": "solid",
-    "archetype": "run_stopper",
+    "archetype": "power_rusher",
     "ratings": {
-      "speed": 54,
-      "acceleration": 58,
-      "agility": 61,
-      "strength": 63,
-      "awareness": 69,
-      "blockShed": 62,
-      "powerMoves": 82,
-      "finesseMoves": 60,
-      "pursuit": 69,
-      "tackling": 85,
+      "speed": 53,
+      "acceleration": 49,
+      "agility": 51,
+      "strength": 75,
+      "awareness": 59,
+      "passBlock": 75,
+      "passBlockFootwork": 72,
+      "runBlock": 76,
+      "runBlockFootwork": 58,
+      "impactBlock": 58,
       "overall": 71
     },
     "schemeFits": {
@@ -3729,7 +2403,7 @@
         "label": "Adequate Fit"
       },
       "power_run": {
-        "score": 50,
+        "score": 69,
         "label": "Adequate Fit"
       },
       "zone_run": {
@@ -3745,7 +2419,7 @@
         "label": "Adequate Fit"
       },
       "four_three_over": {
-        "score": 70,
+        "score": 50,
         "label": "Adequate Fit"
       },
       "four_three_under": {
@@ -3778,43 +2452,247 @@
       }
     },
     "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 3300000
+      "salary": 2160000
     }
   },
   {
-    "id": "8b09de04-b6a9-439f-a18d-338e94d1b38c",
-    "position": "MLB",
-    "age": 34,
-    "height": 75,
-    "weight": 242,
-    "college": "Iowa",
-    "injuryProneness": 51,
+    "id": "5129cb1f-9698-4f11-bafd-5469a776f9c7",
+    "position": "RG",
+    "age": 25,
+    "height": 78,
+    "weight": 327,
+    "college": "Colorado State",
+    "injuryProneness": 41,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 10,
-    "workEthic": 70,
-    "coachability": 44,
-    "competitiveness": 80,
+    "accruedSeasons": 2,
+    "workEthic": 49,
+    "coachability": 73,
+    "competitiveness": 70,
     "tier": "depth",
-    "archetype": "run_stopper",
+    "archetype": "power_rusher",
     "ratings": {
-      "speed": 77,
-      "acceleration": 77,
-      "agility": 69,
-      "strength": 67,
-      "awareness": 84,
-      "tackling": 60,
-      "pursuit": 69,
-      "zoneCoverage": 68,
-      "manCoverage": 71,
-      "blockShed": 66,
+      "speed": 53,
+      "acceleration": 53,
+      "agility": 52,
+      "strength": 56,
+      "awareness": 54,
+      "passBlock": 60,
+      "passBlockFootwork": 64,
+      "runBlock": 69,
+      "runBlockFootwork": 56,
+      "impactBlock": 66,
+      "overall": 60
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 61,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 2160000
+    }
+  },
+  {
+    "id": "8c03584c-27db-4efa-b3bc-6466f132a01d",
+    "position": "RT",
+    "age": 33,
+    "height": 77,
+    "weight": 338,
+    "college": "Eastern Washington",
+    "injuryProneness": 43,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 11,
+    "workEthic": 44,
+    "coachability": 40,
+    "competitiveness": 80,
+    "tier": "solid",
+    "archetype": "pass_protector",
+    "ratings": {
+      "speed": 51,
+      "acceleration": 64,
+      "agility": 52,
+      "strength": 73,
+      "awareness": 63,
+      "passBlock": 65,
+      "passBlockFootwork": 85,
+      "runBlock": 59,
+      "runBlockFootwork": 71,
+      "impactBlock": 60,
+      "overall": 70
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 2160000
+    }
+  },
+  {
+    "id": "8eb51970-acdf-40ed-b865-ba736aa9dcbc",
+    "position": "RT",
+    "age": 21,
+    "height": 78,
+    "weight": 313,
+    "college": "Western Kentucky",
+    "injuryProneness": 46,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 82,
+    "coachability": 53,
+    "competitiveness": 69,
+    "tier": "depth",
+    "archetype": "pass_protector",
+    "ratings": {
+      "speed": 51,
+      "acceleration": 54,
+      "agility": 51,
+      "strength": 56,
+      "awareness": 73,
+      "passBlock": 73,
+      "passBlockFootwork": 64,
+      "runBlock": 76,
+      "runBlockFootwork": 67,
+      "impactBlock": 62,
       "overall": 67
     },
     "schemeFits": {
@@ -3859,7 +2737,7 @@
         "label": "Adequate Fit"
       },
       "three_four_hybrid": {
-        "score": 71,
+        "score": 50,
         "label": "Adequate Fit"
       },
       "nickel_heavy": {
@@ -3875,7 +2753,7 @@
         "label": "Adequate Fit"
       },
       "blitz_heavy": {
-        "score": 69,
+        "score": 50,
         "label": "Adequate Fit"
       }
     },
@@ -3886,37 +2764,751 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 864000
+      "salary": 1080000
     }
   },
   {
-    "id": "b5cfdb18-711a-4142-ba16-ba15a30e75e3",
-    "position": "MLB",
-    "age": 34,
-    "height": 76,
-    "weight": 243,
-    "college": "South Alabama",
-    "injuryProneness": 92,
+    "id": "00dff9a4-f7d0-4e71-9c49-a7520ac74eb7",
+    "position": "EDGE",
+    "age": 25,
+    "height": 78,
+    "weight": 276,
+    "college": "TCU",
+    "injuryProneness": 56,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 10,
-    "workEthic": 80,
-    "coachability": 58,
-    "competitiveness": 48,
+    "accruedSeasons": 2,
+    "workEthic": 54,
+    "coachability": 91,
+    "competitiveness": 68,
     "tier": "depth",
-    "archetype": "coverage",
+    "archetype": "power_rusher",
     "ratings": {
-      "speed": 83,
-      "acceleration": 73,
-      "agility": 74,
-      "strength": 83,
-      "awareness": 78,
-      "tackling": 63,
-      "pursuit": 65,
-      "zoneCoverage": 70,
-      "manCoverage": 63,
+      "speed": 76,
+      "acceleration": 77,
+      "agility": 76,
+      "strength": 66,
+      "awareness": 59,
+      "blockShed": 71,
+      "powerMoves": 75,
+      "finesseMoves": 58,
+      "pursuit": 47,
+      "tackling": 64,
+      "overall": 63
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 65,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 2640000
+    }
+  },
+  {
+    "id": "ce4f4c08-3944-49ed-a153-9369c97db88f",
+    "position": "EDGE",
+    "age": 27,
+    "height": 72,
+    "weight": 251,
+    "college": "Texas State",
+    "injuryProneness": 82,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 5,
+    "workEthic": 81,
+    "coachability": 52,
+    "competitiveness": 77,
+    "tier": "depth",
+    "archetype": "power_rusher",
+    "ratings": {
+      "speed": 75,
+      "acceleration": 70,
+      "agility": 79,
+      "strength": 67,
+      "awareness": 57,
+      "blockShed": 68,
+      "powerMoves": 77,
+      "finesseMoves": 64,
+      "pursuit": 74,
+      "tackling": 57,
+      "overall": 67
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 70,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 72,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 72,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 4950000
+    }
+  },
+  {
+    "id": "c6292247-e27f-4973-9782-e11446a90b58",
+    "position": "EDGE",
+    "age": 31,
+    "height": 72,
+    "weight": 248,
+    "college": "Montana State",
+    "injuryProneness": 50,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 8,
+    "workEthic": 83,
+    "coachability": 65,
+    "competitiveness": 69,
+    "tier": "depth",
+    "archetype": "power_rusher",
+    "ratings": {
+      "speed": 72,
+      "acceleration": 83,
+      "agility": 73,
+      "strength": 56,
+      "awareness": 62,
       "blockShed": 65,
+      "powerMoves": 80,
+      "finesseMoves": 60,
+      "pursuit": 53,
+      "tackling": 61,
+      "overall": 63
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 66,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 66,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1056000
+    }
+  },
+  {
+    "id": "63dbab39-1dbc-40c5-b415-94a2905c20c7",
+    "position": "DE",
+    "age": 22,
+    "height": 74,
+    "weight": 273,
+    "college": "Montana State",
+    "injuryProneness": 57,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 68,
+    "coachability": 88,
+    "competitiveness": 42,
+    "tier": "depth",
+    "archetype": "power_rusher",
+    "ratings": {
+      "speed": 71,
+      "acceleration": 80,
+      "agility": 71,
+      "strength": 55,
+      "awareness": 74,
+      "blockShed": 80,
+      "powerMoves": 66,
+      "finesseMoves": 67,
+      "pursuit": 60,
+      "tackling": 60,
+      "overall": 64
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 67,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 880000
+    }
+  },
+  {
+    "id": "7a0a64ec-26d5-493f-8b2b-09b02ea5aa47",
+    "position": "DE",
+    "age": 32,
+    "height": 76,
+    "weight": 284,
+    "college": "Fresno State",
+    "injuryProneness": 76,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 9,
+    "workEthic": 88,
+    "coachability": 52,
+    "competitiveness": 45,
+    "tier": "depth",
+    "archetype": "power_rusher",
+    "ratings": {
+      "speed": 73,
+      "acceleration": 75,
+      "agility": 66,
+      "strength": 64,
+      "awareness": 77,
+      "blockShed": 63,
+      "powerMoves": 69,
+      "finesseMoves": 67,
+      "pursuit": 55,
+      "tackling": 62,
+      "overall": 61
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 704000
+    }
+  },
+  {
+    "id": "4875a936-670d-44ba-b3c5-e6ebcd44a748",
+    "position": "DE",
+    "age": 25,
+    "height": 77,
+    "weight": 280,
+    "college": "Charlotte",
+    "injuryProneness": 75,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 1,
+    "workEthic": 74,
+    "coachability": 69,
+    "competitiveness": 82,
+    "tier": "depth",
+    "archetype": "power_rusher",
+    "ratings": {
+      "speed": 77,
+      "acceleration": 75,
+      "agility": 55,
+      "strength": 68,
+      "awareness": 69,
+      "blockShed": 72,
+      "powerMoves": 61,
+      "finesseMoves": 72,
+      "pursuit": 62,
+      "tackling": 65,
+      "overall": 64
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 66,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 2640000
+    }
+  },
+  {
+    "id": "1894f45e-f887-4100-9fe0-a23c06753fd9",
+    "position": "DT_NT",
+    "age": 21,
+    "height": 73,
+    "weight": 336,
+    "college": "Nebraska",
+    "injuryProneness": 51,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 53,
+    "coachability": 73,
+    "competitiveness": 93,
+    "tier": "depth",
+    "archetype": "run_stopper",
+    "ratings": {
+      "speed": 46,
+      "acceleration": 52,
+      "agility": 48,
+      "strength": 56,
+      "awareness": 68,
+      "blockShed": 66,
+      "powerMoves": 66,
+      "finesseMoves": 70,
+      "pursuit": 45,
+      "tackling": 60,
+      "overall": 58
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 60,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 60,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 704000
+    }
+  },
+  {
+    "id": "4216f951-2c3a-4f6b-bb27-bdb4e0d0bd2c",
+    "position": "DT_NT",
+    "age": 34,
+    "height": 73,
+    "weight": 311,
+    "college": "North Texas",
+    "injuryProneness": 81,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 11,
+    "workEthic": 43,
+    "coachability": 56,
+    "competitiveness": 76,
+    "tier": "depth",
+    "archetype": "run_stopper",
+    "ratings": {
+      "speed": 44,
+      "acceleration": 54,
+      "agility": 54,
+      "strength": 68,
+      "awareness": 68,
+      "blockShed": 63,
+      "powerMoves": 73,
+      "finesseMoves": 73,
+      "pursuit": 69,
+      "tackling": 63,
       "overall": 65
     },
     "schemeFits": {
@@ -3953,113 +3545,11 @@
         "label": "Adequate Fit"
       },
       "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 69,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
         "score": 67,
         "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 864000
-    }
-  },
-  {
-    "id": "0a7e34b9-08a9-49d9-aed7-34480864fbab",
-    "position": "OLB",
-    "age": 33,
-    "height": 74,
-    "weight": 234,
-    "college": "Penn State",
-    "injuryProneness": 58,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 10,
-    "workEthic": 53,
-    "coachability": 60,
-    "competitiveness": 88,
-    "tier": "depth",
-    "archetype": "run_stopper",
-    "ratings": {
-      "speed": 87,
-      "acceleration": 80,
-      "agility": 77,
-      "strength": 65,
-      "awareness": 80,
-      "tackling": 61,
-      "pursuit": 73,
-      "zoneCoverage": 62,
-      "manCoverage": 62,
-      "blockShed": 61,
-      "overall": 64
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
       },
       "three_four_base": {
-        "score": 64,
+        "score": 67,
         "label": "Adequate Fit"
       },
       "three_four_hybrid": {
@@ -4090,38 +3580,242 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 460800
+      "salary": 1320000
     }
   },
   {
-    "id": "37053141-6247-4ad9-89fb-32bfcba00335",
-    "position": "OLB",
+    "id": "cfc6e9c7-f1e2-4c4f-86bc-17f611bdc4e7",
+    "position": "DT_3T",
     "age": 22,
-    "height": 73,
-    "weight": 218,
-    "college": "Maryland",
-    "injuryProneness": 72,
+    "height": 75,
+    "weight": 303,
+    "college": "Stanford",
+    "injuryProneness": 59,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
     "accruedSeasons": 0,
-    "workEthic": 94,
-    "coachability": 46,
-    "competitiveness": 85,
+    "workEthic": 42,
+    "coachability": 51,
+    "competitiveness": 54,
+    "tier": "depth",
+    "archetype": "run_stopper",
+    "ratings": {
+      "speed": 61,
+      "acceleration": 59,
+      "agility": 51,
+      "strength": 76,
+      "awareness": 76,
+      "blockShed": 64,
+      "powerMoves": 63,
+      "finesseMoves": 67,
+      "pursuit": 58,
+      "tackling": 77,
+      "overall": 63
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 880000
+    }
+  },
+  {
+    "id": "a43efb32-40c5-47ec-abfc-d6b850cd0d58",
+    "position": "DT_3T",
+    "age": 26,
+    "height": 73,
+    "weight": 310,
+    "college": "Iowa State",
+    "injuryProneness": 76,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 3,
+    "workEthic": 40,
+    "coachability": 87,
+    "competitiveness": 55,
+    "tier": "depth",
+    "archetype": "run_stopper",
+    "ratings": {
+      "speed": 64,
+      "acceleration": 66,
+      "agility": 61,
+      "strength": 65,
+      "awareness": 54,
+      "blockShed": 63,
+      "powerMoves": 76,
+      "finesseMoves": 58,
+      "pursuit": 60,
+      "tackling": 58,
+      "overall": 63
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 66,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 2640000
+    }
+  },
+  {
+    "id": "8f11bfd4-e578-4ab4-a169-6988feb3258b",
+    "position": "MLB",
+    "age": 26,
+    "height": 77,
+    "weight": 236,
+    "college": "Nevada",
+    "injuryProneness": 96,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 4,
+    "workEthic": 62,
+    "coachability": 71,
+    "competitiveness": 70,
     "tier": "depth",
     "archetype": "coverage",
     "ratings": {
-      "speed": 75,
-      "acceleration": 73,
-      "agility": 68,
-      "strength": 69,
-      "awareness": 52,
-      "tackling": 52,
-      "pursuit": 65,
-      "zoneCoverage": 67,
-      "manCoverage": 70,
-      "blockShed": 70,
-      "overall": 61
+      "speed": 79,
+      "acceleration": 87,
+      "agility": 78,
+      "strength": 59,
+      "awareness": 69,
+      "tackling": 56,
+      "pursuit": 59,
+      "zoneCoverage": 64,
+      "manCoverage": 54,
+      "blockShed": 65,
+      "overall": 59
     },
     "schemeFits": {
       "west_coast": {
@@ -4161,7 +3855,313 @@
         "label": "Adequate Fit"
       },
       "three_four_base": {
-        "score": 63,
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 62,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 62,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1728000
+    }
+  },
+  {
+    "id": "ba544b7b-6951-4073-abc5-8b1c13ebffd3",
+    "position": "MLB",
+    "age": 25,
+    "height": 74,
+    "weight": 236,
+    "college": "Kentucky",
+    "injuryProneness": 54,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 1,
+    "workEthic": 69,
+    "coachability": 93,
+    "competitiveness": 48,
+    "tier": "depth",
+    "archetype": "run_stopper",
+    "ratings": {
+      "speed": 78,
+      "acceleration": 75,
+      "agility": 70,
+      "strength": 73,
+      "awareness": 73,
+      "tackling": 69,
+      "pursuit": 62,
+      "zoneCoverage": 59,
+      "manCoverage": 82,
+      "blockShed": 74,
+      "overall": 67
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 66,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 69,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 3240000
+    }
+  },
+  {
+    "id": "edd49132-7b61-4f13-ab83-f4c369a5f867",
+    "position": "OLB",
+    "age": 29,
+    "height": 76,
+    "weight": 259,
+    "college": "Miami",
+    "injuryProneness": 50,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 9,
+    "workEthic": 91,
+    "coachability": 95,
+    "competitiveness": 90,
+    "tier": "depth",
+    "archetype": "coverage",
+    "ratings": {
+      "speed": 82,
+      "acceleration": 81,
+      "agility": 76,
+      "strength": 60,
+      "awareness": 60,
+      "tackling": 64,
+      "pursuit": 62,
+      "zoneCoverage": 63,
+      "manCoverage": 55,
+      "blockShed": 58,
+      "overall": 59
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 61,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 691200
+    }
+  },
+  {
+    "id": "5ff56bd3-6d5d-475c-8d0c-ba7fc3df6d60",
+    "position": "OLB",
+    "age": 23,
+    "height": 78,
+    "weight": 229,
+    "college": "Buffalo",
+    "injuryProneness": 65,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 62,
+    "coachability": 86,
+    "competitiveness": 40,
+    "tier": "depth",
+    "archetype": "run_stopper",
+    "ratings": {
+      "speed": 75,
+      "acceleration": 77,
+      "agility": 72,
+      "strength": 68,
+      "awareness": 65,
+      "tackling": 67,
+      "pursuit": 60,
+      "zoneCoverage": 67,
+      "manCoverage": 71,
+      "blockShed": 61,
+      "overall": 62
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 62,
         "label": "Adequate Fit"
       },
       "three_four_hybrid": {
@@ -4196,135 +4196,33 @@
     }
   },
   {
-    "id": "099a5eaa-a294-4008-a904-76b1c6e4b2f6",
+    "id": "8b1172f0-7add-4cad-891b-9237465f6261",
     "position": "OLB",
-    "age": 30,
+    "age": 23,
     "height": 73,
-    "weight": 248,
-    "college": "Georgia",
-    "injuryProneness": 89,
+    "weight": 234,
+    "college": "Fresno State",
+    "injuryProneness": 52,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 9,
-    "workEthic": 63,
-    "coachability": 56,
-    "competitiveness": 74,
+    "accruedSeasons": 0,
+    "workEthic": 52,
+    "coachability": 95,
+    "competitiveness": 62,
     "tier": "depth",
     "archetype": "run_stopper",
     "ratings": {
-      "speed": 75,
-      "acceleration": 75,
-      "agility": 78,
-      "strength": 76,
-      "awareness": 64,
-      "tackling": 66,
-      "pursuit": 73,
-      "zoneCoverage": 60,
-      "manCoverage": 72,
-      "blockShed": 65,
-      "overall": 65
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 66,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 1296000
-    }
-  },
-  {
-    "id": "70f71067-f97f-425b-9f45-4600faf12df3",
-    "position": "CB",
-    "age": 32,
-    "height": 73,
-    "weight": 187,
-    "college": "Coastal Carolina",
-    "injuryProneness": 56,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 93,
-    "coachability": 73,
-    "competitiveness": 50,
-    "tier": "depth",
-    "archetype": "ball_hawk",
-    "ratings": {
-      "speed": 97,
-      "acceleration": 96,
-      "agility": 94,
-      "strength": 72,
-      "awareness": 67,
-      "manCoverage": 59,
-      "zoneCoverage": 70,
-      "press": 62,
-      "playRecognition": 70,
-      "tackling": 74,
+      "speed": 86,
+      "acceleration": 93,
+      "agility": 80,
+      "strength": 61,
+      "awareness": 76,
+      "tackling": 71,
+      "pursuit": 58,
+      "zoneCoverage": 69,
+      "manCoverage": 71,
+      "blockShed": 72,
       "overall": 66
     },
     "schemeFits": {
@@ -4365,7 +4263,7 @@
         "label": "Adequate Fit"
       },
       "three_four_base": {
-        "score": 50,
+        "score": 65,
         "label": "Adequate Fit"
       },
       "three_four_hybrid": {
@@ -4373,11 +4271,11 @@
         "label": "Adequate Fit"
       },
       "nickel_heavy": {
-        "score": 68,
+        "score": 50,
         "label": "Adequate Fit"
       },
       "man_match": {
-        "score": 69,
+        "score": 50,
         "label": "Adequate Fit"
       },
       "zone_match": {
@@ -4390,44 +4288,44 @@
       }
     },
     "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
+      "grade": "B",
+      "ceilingBoost": 7,
+      "volatility": 0.3
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 972000
+      "salary": 1080000
     }
   },
   {
-    "id": "c242558b-9fb8-4680-97ad-67552345bfe2",
+    "id": "aaa1bbcd-6f64-47d1-b723-339a6c8ae706",
     "position": "CB",
-    "age": 22,
+    "age": 27,
     "height": 72,
-    "weight": 179,
-    "college": "Liberty",
-    "injuryProneness": 63,
+    "weight": 198,
+    "college": "New Mexico State",
+    "injuryProneness": 59,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 0,
-    "workEthic": 52,
+    "accruedSeasons": 3,
+    "workEthic": 73,
     "coachability": 83,
-    "competitiveness": 80,
-    "tier": "developmental",
+    "competitiveness": 75,
+    "tier": "depth",
     "archetype": "coverage",
     "ratings": {
-      "speed": 97,
-      "acceleration": 99,
-      "agility": 91,
-      "strength": 56,
-      "awareness": 73,
-      "manCoverage": 66,
-      "zoneCoverage": 65,
-      "press": 70,
-      "playRecognition": 70,
-      "tackling": 64,
-      "overall": 71
+      "speed": 95,
+      "acceleration": 91,
+      "agility": 84,
+      "strength": 66,
+      "awareness": 69,
+      "manCoverage": 64,
+      "zoneCoverage": 72,
+      "press": 76,
+      "playRecognition": 52,
+      "tackling": 60,
+      "overall": 68
     },
     "schemeFits": {
       "west_coast": {
@@ -4479,7 +4377,7 @@
         "label": "Adequate Fit"
       },
       "man_match": {
-        "score": 74,
+        "score": 73,
         "label": "Adequate Fit"
       },
       "zone_match": {
@@ -4492,145 +4390,43 @@
       }
     },
     "potential": {
-      "grade": "A",
-      "ceilingBoost": 10,
-      "volatility": 0.35
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 2430000
+      "salary": 3645000
     }
   },
   {
-    "id": "e2c40a8b-5130-45a1-b583-956be6816515",
+    "id": "63d5c92f-b64c-4868-b78e-41c5e870a071",
     "position": "CB",
-    "age": 25,
+    "age": 32,
     "height": 73,
-    "weight": 199,
-    "college": "Texas A&M",
-    "injuryProneness": 54,
+    "weight": 193,
+    "college": "Houston",
+    "injuryProneness": 66,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 2,
-    "workEthic": 54,
-    "coachability": 56,
-    "competitiveness": 47,
-    "tier": "developmental",
-    "archetype": "ball_hawk",
-    "ratings": {
-      "speed": 92,
-      "acceleration": 91,
-      "agility": 92,
-      "strength": 64,
-      "awareness": 63,
-      "manCoverage": 62,
-      "zoneCoverage": 53,
-      "press": 56,
-      "playRecognition": 57,
-      "tackling": 91,
-      "overall": 62
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 61,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 66,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "A",
-      "ceilingBoost": 10,
-      "volatility": 0.35
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 1944000
-    }
-  },
-  {
-    "id": "dc44dab5-2796-4860-88ff-0a7676ed64f3",
-    "position": "CB",
-    "age": 25,
-    "height": 71,
-    "weight": 206,
-    "college": "Arizona State",
-    "injuryProneness": 68,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 2,
-    "workEthic": 90,
-    "coachability": 79,
-    "competitiveness": 95,
-    "tier": "developmental",
+    "accruedSeasons": 9,
+    "workEthic": 47,
+    "coachability": 53,
+    "competitiveness": 75,
+    "tier": "solid",
     "archetype": "coverage",
     "ratings": {
-      "speed": 96,
-      "acceleration": 97,
-      "agility": 94,
-      "strength": 59,
-      "awareness": 47,
-      "manCoverage": 66,
-      "zoneCoverage": 74,
-      "press": 77,
-      "playRecognition": 54,
-      "tackling": 52,
+      "speed": 99,
+      "acceleration": 93,
+      "agility": 82,
+      "strength": 72,
+      "awareness": 55,
+      "manCoverage": 62,
+      "zoneCoverage": 76,
+      "press": 67,
+      "playRecognition": 71,
+      "tackling": 71,
       "overall": 72
     },
     "schemeFits": {
@@ -4679,11 +4475,11 @@
         "label": "Adequate Fit"
       },
       "nickel_heavy": {
-        "score": 71,
+        "score": 72,
         "label": "Adequate Fit"
       },
       "man_match": {
-        "score": 74,
+        "score": 72,
         "label": "Adequate Fit"
       },
       "zone_match": {
@@ -4696,111 +4492,9 @@
       }
     },
     "potential": {
-      "grade": "A",
-      "ceilingBoost": 10,
-      "volatility": 0.35
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 7290000
-    }
-  },
-  {
-    "id": "76ffa27e-0e73-4db2-8415-196cb6fd647f",
-    "position": "NCB",
-    "age": 21,
-    "height": 71,
-    "weight": 196,
-    "college": "Coastal Carolina",
-    "injuryProneness": 54,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 0,
-    "workEthic": 82,
-    "coachability": 80,
-    "competitiveness": 44,
-    "tier": "developmental",
-    "archetype": "ball_hawk",
-    "ratings": {
-      "speed": 91,
-      "acceleration": 99,
-      "agility": 96,
-      "strength": 64,
-      "awareness": 74,
-      "manCoverage": 67,
-      "zoneCoverage": 58,
-      "press": 59,
-      "playRecognition": 69,
-      "tackling": 72,
-      "overall": 74
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 77,
-        "label": "Strong Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "A",
-      "ceilingBoost": 10,
-      "volatility": 0.35
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
     },
     "developmentHistory": [],
     "contract": {
@@ -4808,34 +4502,34 @@
     }
   },
   {
-    "id": "4d7217e4-9b7e-4078-ac2a-4b6a24c7dd06",
-    "position": "NCB",
-    "age": 34,
-    "height": 70,
-    "weight": 199,
-    "college": "Washington",
-    "injuryProneness": 48,
+    "id": "e968fdf4-f02d-4c6e-a764-ffa350ae76db",
+    "position": "CB",
+    "age": 29,
+    "height": 69,
+    "weight": 181,
+    "college": "Arkansas",
+    "injuryProneness": 84,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 12,
-    "workEthic": 48,
-    "coachability": 70,
-    "competitiveness": 76,
-    "tier": "solid",
-    "archetype": "coverage",
+    "accruedSeasons": 6,
+    "workEthic": 45,
+    "coachability": 68,
+    "competitiveness": 60,
+    "tier": "depth",
+    "archetype": "ball_hawk",
     "ratings": {
       "speed": 89,
       "acceleration": 89,
-      "agility": 96,
-      "strength": 70,
-      "awareness": 67,
-      "manCoverage": 72,
-      "zoneCoverage": 62,
-      "press": 66,
+      "agility": 92,
+      "strength": 62,
+      "awareness": 53,
+      "manCoverage": 61,
+      "zoneCoverage": 65,
+      "press": 72,
       "playRecognition": 65,
-      "tackling": 57,
-      "overall": 75
+      "tackling": 56,
+      "overall": 66
     },
     "schemeFits": {
       "west_coast": {
@@ -4883,8 +4577,212 @@
         "label": "Adequate Fit"
       },
       "nickel_heavy": {
-        "score": 78,
+        "score": 68,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 70,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1458000
+    }
+  },
+  {
+    "id": "bb0c6969-7aea-4261-b3bd-3092d4d7ce52",
+    "position": "CB",
+    "age": 32,
+    "height": 71,
+    "weight": 192,
+    "college": "UAB",
+    "injuryProneness": 83,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 8,
+    "workEthic": 83,
+    "coachability": 47,
+    "competitiveness": 78,
+    "tier": "solid",
+    "archetype": "coverage",
+    "ratings": {
+      "speed": 95,
+      "acceleration": 99,
+      "agility": 97,
+      "strength": 49,
+      "awareness": 78,
+      "manCoverage": 67,
+      "zoneCoverage": 59,
+      "press": 78,
+      "playRecognition": 74,
+      "tackling": 59,
+      "overall": 71
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 71,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 77,
         "label": "Strong Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1944000
+    }
+  },
+  {
+    "id": "56c38c27-b19e-44ef-b9a7-7469594fa17f",
+    "position": "NCB",
+    "age": 28,
+    "height": 69,
+    "weight": 178,
+    "college": "Appalachian State",
+    "injuryProneness": 60,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 5,
+    "workEthic": 43,
+    "coachability": 92,
+    "competitiveness": 69,
+    "tier": "depth",
+    "archetype": "coverage",
+    "ratings": {
+      "speed": 88,
+      "acceleration": 89,
+      "agility": 88,
+      "strength": 54,
+      "awareness": 58,
+      "manCoverage": 55,
+      "zoneCoverage": 62,
+      "press": 65,
+      "playRecognition": 62,
+      "tackling": 55,
+      "overall": 66
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 71,
+        "label": "Adequate Fit"
       },
       "man_match": {
         "score": 50,
@@ -4906,38 +4804,140 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 3888000
+      "salary": 3645000
     }
   },
   {
-    "id": "f4652223-1865-4251-997d-3236683c8c20",
-    "position": "FS",
-    "age": 23,
-    "height": 75,
-    "weight": 198,
-    "college": "Arizona",
-    "injuryProneness": 59,
+    "id": "58bf5bea-92c1-4cd4-99b2-09bc78a0887b",
+    "position": "NCB",
+    "age": 31,
+    "height": 71,
+    "weight": 188,
+    "college": "Montana",
+    "injuryProneness": 62,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 0,
-    "workEthic": 73,
-    "coachability": 45,
-    "competitiveness": 64,
-    "tier": "developmental",
+    "accruedSeasons": 7,
+    "workEthic": 44,
+    "coachability": 79,
+    "competitiveness": 68,
+    "tier": "depth",
     "archetype": "ball_hawk",
     "ratings": {
-      "speed": 85,
-      "acceleration": 93,
-      "agility": 84,
-      "strength": 69,
-      "awareness": 70,
-      "manCoverage": 64,
-      "zoneCoverage": 63,
-      "press": 72,
-      "playRecognition": 67,
-      "tackling": 62,
-      "overall": 68
+      "speed": 89,
+      "acceleration": 99,
+      "agility": 89,
+      "strength": 68,
+      "awareness": 53,
+      "manCoverage": 62,
+      "zoneCoverage": 57,
+      "press": 64,
+      "playRecognition": 58,
+      "tackling": 65,
+      "overall": 66
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 71,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1458000
+    }
+  },
+  {
+    "id": "4252a1e3-ffbf-43d0-b0f0-709c3bb7c734",
+    "position": "FS",
+    "age": 32,
+    "height": 73,
+    "weight": 197,
+    "college": "Charlotte",
+    "injuryProneness": 67,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 7,
+    "workEthic": 81,
+    "coachability": 84,
+    "competitiveness": 64,
+    "tier": "depth",
+    "archetype": "coverage",
+    "ratings": {
+      "speed": 76,
+      "acceleration": 91,
+      "agility": 86,
+      "strength": 57,
+      "awareness": 77,
+      "manCoverage": 68,
+      "zoneCoverage": 55,
+      "press": 75,
+      "playRecognition": 65,
+      "tackling": 63,
+      "overall": 62
     },
     "schemeFits": {
       "west_coast": {
@@ -4993,7 +4993,109 @@
         "label": "Adequate Fit"
       },
       "zone_match": {
-        "score": 69,
+        "score": 63,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 518400
+    }
+  },
+  {
+    "id": "d22902a8-2e5e-4445-9acf-f4248389b670",
+    "position": "FS",
+    "age": 23,
+    "height": 74,
+    "weight": 213,
+    "college": "North Carolina",
+    "injuryProneness": 47,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 72,
+    "coachability": 49,
+    "competitiveness": 94,
+    "tier": "developmental",
+    "archetype": "ball_hawk",
+    "ratings": {
+      "speed": 88,
+      "acceleration": 93,
+      "agility": 88,
+      "strength": 69,
+      "awareness": 74,
+      "manCoverage": 61,
+      "zoneCoverage": 63,
+      "press": 58,
+      "playRecognition": 52,
+      "tackling": 48,
+      "overall": 62
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 63,
         "label": "Adequate Fit"
       },
       "blitz_heavy": {
@@ -5008,140 +5110,38 @@
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 1215000
+      "salary": 648000
     }
   },
   {
-    "id": "1fde2284-d6e0-4efc-9eec-f5459f646484",
-    "position": "FS",
-    "age": 34,
-    "height": 72,
-    "weight": 195,
-    "college": "Wake Forest",
-    "injuryProneness": 84,
+    "id": "c5b33040-3c17-4b4b-b902-0646c0ffbe9a",
+    "position": "SS",
+    "age": 26,
+    "height": 69,
+    "weight": 214,
+    "college": "North Carolina",
+    "injuryProneness": 87,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 11,
-    "workEthic": 52,
-    "coachability": 70,
-    "competitiveness": 91,
+    "accruedSeasons": 3,
+    "workEthic": 47,
+    "coachability": 62,
+    "competitiveness": 87,
     "tier": "depth",
-    "archetype": "ball_hawk",
+    "archetype": "coverage",
     "ratings": {
       "speed": 85,
-      "acceleration": 97,
-      "agility": 87,
-      "strength": 59,
-      "awareness": 67,
-      "manCoverage": 66,
-      "zoneCoverage": 70,
-      "press": 52,
-      "playRecognition": 65,
-      "tackling": 67,
-      "overall": 68
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 71,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "C",
-      "ceilingBoost": 4,
-      "volatility": 0.25
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 972000
-    }
-  },
-  {
-    "id": "ee4933fd-ecda-448d-bcb3-12a11a00d401",
-    "position": "SS",
-    "age": 34,
-    "height": 72,
-    "weight": 215,
-    "college": "Kent State",
-    "injuryProneness": 93,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 11,
-    "workEthic": 66,
-    "coachability": 69,
-    "competitiveness": 55,
-    "tier": "depth",
-    "archetype": "ball_hawk",
-    "ratings": {
-      "speed": 89,
-      "acceleration": 91,
-      "agility": 85,
-      "strength": 61,
-      "awareness": 74,
-      "manCoverage": 72,
-      "zoneCoverage": 64,
-      "press": 71,
-      "playRecognition": 73,
-      "tackling": 66,
-      "overall": 65
+      "acceleration": 79,
+      "agility": 90,
+      "strength": 69,
+      "awareness": 66,
+      "manCoverage": 58,
+      "zoneCoverage": 73,
+      "press": 63,
+      "playRecognition": 68,
+      "tackling": 68,
+      "overall": 66
     },
     "schemeFits": {
       "west_coast": {
@@ -5206,44 +5206,44 @@
       }
     },
     "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 972000
+      "salary": 3645000
     }
   },
   {
-    "id": "63f2409e-f198-454f-932d-8c3294d9ab29",
+    "id": "b766db6c-3cf3-4827-8db4-7f43a9cc39ef",
     "position": "SS",
-    "age": 31,
-    "height": 71,
-    "weight": 210,
-    "college": "Fresno State",
-    "injuryProneness": 49,
+    "age": 23,
+    "height": 73,
+    "weight": 217,
+    "college": "Ohio State",
+    "injuryProneness": 72,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 86,
-    "coachability": 50,
-    "competitiveness": 59,
-    "tier": "depth",
-    "archetype": "ball_hawk",
+    "accruedSeasons": 0,
+    "workEthic": 41,
+    "coachability": 90,
+    "competitiveness": 47,
+    "tier": "developmental",
+    "archetype": "coverage",
     "ratings": {
-      "speed": 85,
-      "acceleration": 77,
-      "agility": 87,
-      "strength": 63,
-      "awareness": 49,
-      "manCoverage": 88,
-      "zoneCoverage": 67,
-      "press": 56,
-      "playRecognition": 56,
-      "tackling": 57,
-      "overall": 62
+      "speed": 84,
+      "acceleration": 91,
+      "agility": 81,
+      "strength": 67,
+      "awareness": 83,
+      "manCoverage": 69,
+      "zoneCoverage": 70,
+      "press": 72,
+      "playRecognition": 66,
+      "tackling": 66,
+      "overall": 68
     },
     "schemeFits": {
       "west_coast": {
@@ -5299,7 +5299,7 @@
         "label": "Adequate Fit"
       },
       "zone_match": {
-        "score": 65,
+        "score": 68,
         "label": "Adequate Fit"
       },
       "blitz_heavy": {
@@ -5308,334 +5308,39 @@
       }
     },
     "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
+      "grade": "A",
+      "ceilingBoost": 10,
+      "volatility": 0.35
     },
     "developmentHistory": [],
     "contract": {
-      "salary": 777600
+      "salary": 1215000
     }
   },
   {
-    "id": "6733c4ec-7c03-40bd-a7b5-c7445f669f0b",
+    "id": "22de677b-087a-47e6-89a5-8dc9434a5cc8",
     "position": "K",
-    "age": 27,
-    "height": 71,
-    "weight": 193,
-    "college": "Louisville",
-    "injuryProneness": 45,
+    "age": 23,
+    "height": 74,
+    "weight": 195,
+    "college": "Florida Atlantic",
+    "injuryProneness": 34,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 4,
-    "workEthic": 84,
-    "coachability": 46,
-    "competitiveness": 66,
-    "tier": "fringe",
-    "ratings": {
-      "speed": 65,
-      "acceleration": 66,
-      "agility": 68,
-      "strength": 77,
-      "awareness": 59,
-      "kickPower": 60,
-      "kickAccuracy": 57,
-      "overall": 55
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "D",
-      "ceilingBoost": 2,
-      "volatility": 0.2
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 432000
-    }
-  },
-  {
-    "id": "02caf6ec-6a61-4314-8e47-47dd64b7e9e1",
-    "position": "P",
-    "age": 26,
-    "height": 77,
-    "weight": 197,
-    "college": "Arizona",
-    "injuryProneness": 36,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 3,
-    "workEthic": 76,
-    "coachability": 56,
-    "competitiveness": 78,
+    "accruedSeasons": 0,
+    "workEthic": 87,
+    "coachability": 49,
+    "competitiveness": 68,
     "tier": "solid",
     "ratings": {
-      "speed": 65,
-      "acceleration": 60,
-      "agility": 66,
-      "strength": 78,
-      "awareness": 55,
-      "puntPower": 66,
-      "puntAccuracy": 85,
-      "overall": 76
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "B",
-      "ceilingBoost": 7,
-      "volatility": 0.3
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 3240000
-    }
-  },
-  {
-    "id": "d5277974-c905-4b96-a84e-021382d5055b",
-    "position": "LS",
-    "age": 31,
-    "height": 75,
-    "weight": 255,
-    "college": "Virginia Tech",
-    "injuryProneness": 35,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 8,
-    "workEthic": 81,
-    "coachability": 82,
-    "competitiveness": 94,
-    "tier": "fringe",
-    "ratings": {
-      "speed": 55,
-      "acceleration": 57,
-      "agility": 52,
-      "strength": 56,
-      "awareness": 82,
-      "snapAccuracy": 66,
-      "snapSpeed": 50,
-      "overall": 56
-    },
-    "schemeFits": {
-      "west_coast": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "vertical": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "spread": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "power_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_run": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "rpo": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "play_action": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_over": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "four_three_under": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_base": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "three_four_hybrid": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "nickel_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "man_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "zone_match": {
-        "score": 50,
-        "label": "Adequate Fit"
-      },
-      "blitz_heavy": {
-        "score": 50,
-        "label": "Adequate Fit"
-      }
-    },
-    "potential": {
-      "grade": "F",
-      "ceilingBoost": 0,
-      "volatility": 0.15
-    },
-    "developmentHistory": [],
-    "contract": {
-      "salary": 172800
-    }
-  },
-  {
-    "id": "b66850ef-7db0-463b-a0a9-2b90d91d92f4",
-    "position": "KR",
-    "age": 24,
-    "height": 72,
-    "weight": 197,
-    "college": "Auburn",
-    "injuryProneness": 54,
-    "injuryHistory": [],
-    "injuryStatus": "Healthy",
-    "rosterStatus": "Active",
-    "accruedSeasons": 1,
-    "workEthic": 58,
-    "coachability": 63,
-    "competitiveness": 52,
-    "tier": "solid",
-    "archetype": "elusive_back",
-    "ratings": {
-      "speed": 98,
-      "acceleration": 97,
-      "agility": 93,
-      "strength": 60,
-      "awareness": 61,
-      "returnAbility": 58,
-      "ballSecurity": 56,
+      "speed": 63,
+      "acceleration": 63,
+      "agility": 67,
+      "strength": 55,
+      "awareness": 58,
+      "kickPower": 72,
+      "kickAccuracy": 83,
       "overall": 78
     },
     "schemeFits": {
@@ -5711,31 +5416,30 @@
     }
   },
   {
-    "id": "f1c61731-7dd9-41fc-8b50-cd1628a7fa11",
-    "position": "PR",
-    "age": 21,
-    "height": 70,
-    "weight": 188,
-    "college": "Stanford",
-    "injuryProneness": 57,
+    "id": "3a8de60d-80ff-47fc-81a6-4ef0767ee674",
+    "position": "P",
+    "age": 30,
+    "height": 73,
+    "weight": 212,
+    "college": "Navy",
+    "injuryProneness": 68,
     "injuryHistory": [],
     "injuryStatus": "Healthy",
     "rosterStatus": "Active",
-    "accruedSeasons": 0,
-    "workEthic": 84,
-    "coachability": 54,
-    "competitiveness": 83,
-    "tier": "solid",
-    "archetype": "deep_threat",
+    "accruedSeasons": 6,
+    "workEthic": 51,
+    "coachability": 74,
+    "competitiveness": 43,
+    "tier": "fringe",
     "ratings": {
-      "speed": 89,
-      "acceleration": 98,
-      "agility": 92,
-      "strength": 68,
-      "awareness": 54,
-      "returnAbility": 62,
-      "ballSecurity": 75,
-      "overall": 79
+      "speed": 65,
+      "acceleration": 56,
+      "agility": 68,
+      "strength": 55,
+      "awareness": 48,
+      "puntPower": 53,
+      "puntAccuracy": 60,
+      "overall": 53
     },
     "schemeFits": {
       "west_coast": {
@@ -5800,9 +5504,305 @@
       }
     },
     "potential": {
-      "grade": "A",
-      "ceilingBoost": 10,
-      "volatility": 0.35
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 172800
+    }
+  },
+  {
+    "id": "d8e49427-63e7-490b-83c2-e2af1b30aa17",
+    "position": "LS",
+    "age": 21,
+    "height": 74,
+    "weight": 228,
+    "college": "Toledo",
+    "injuryProneness": 35,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 0,
+    "workEthic": 50,
+    "coachability": 64,
+    "competitiveness": 61,
+    "tier": "fringe",
+    "ratings": {
+      "speed": 55,
+      "acceleration": 61,
+      "agility": 60,
+      "strength": 54,
+      "awareness": 59,
+      "snapAccuracy": 56,
+      "snapSpeed": 55,
+      "overall": 52
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "D",
+      "ceilingBoost": 2,
+      "volatility": 0.2
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 115200
+    }
+  },
+  {
+    "id": "f0918808-06c4-4fd9-8fa8-1afaf721a872",
+    "position": "KR",
+    "age": 30,
+    "height": 71,
+    "weight": 197,
+    "college": "Florida State",
+    "injuryProneness": 90,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 6,
+    "workEthic": 57,
+    "coachability": 75,
+    "competitiveness": 55,
+    "tier": "star",
+    "archetype": "elusive_back",
+    "ratings": {
+      "speed": 98,
+      "acceleration": 99,
+      "agility": 97,
+      "strength": 57,
+      "awareness": 69,
+      "returnAbility": 62,
+      "ballSecurity": 77,
+      "overall": 83
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "B",
+      "ceilingBoost": 7,
+      "volatility": 0.3
+    },
+    "developmentHistory": [],
+    "contract": {
+      "salary": 1728000
+    }
+  },
+  {
+    "id": "fa706e51-8599-405d-ab30-8932542dd307",
+    "position": "PR",
+    "age": 34,
+    "height": 69,
+    "weight": 195,
+    "college": "NC State",
+    "injuryProneness": 62,
+    "injuryHistory": [],
+    "injuryStatus": "Healthy",
+    "rosterStatus": "Active",
+    "accruedSeasons": 10,
+    "workEthic": 84,
+    "coachability": 61,
+    "competitiveness": 41,
+    "tier": "solid",
+    "archetype": "elusive_back",
+    "ratings": {
+      "speed": 95,
+      "acceleration": 91,
+      "agility": 91,
+      "strength": 61,
+      "awareness": 66,
+      "returnAbility": 64,
+      "ballSecurity": 70,
+      "overall": 78
+    },
+    "schemeFits": {
+      "west_coast": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "vertical": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "spread": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "power_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_run": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "rpo": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "play_action": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_over": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "four_three_under": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_base": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "three_four_hybrid": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "nickel_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "man_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "zone_match": {
+        "score": 50,
+        "label": "Adequate Fit"
+      },
+      "blitz_heavy": {
+        "score": 50,
+        "label": "Adequate Fit"
+      }
+    },
+    "potential": {
+      "grade": "C",
+      "ceilingBoost": 4,
+      "volatility": 0.25
     },
     "developmentHistory": [],
     "contract": {

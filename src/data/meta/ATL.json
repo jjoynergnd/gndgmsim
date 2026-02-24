@@ -1,4 +1,7 @@
 {
   "teamId": "ATL",
-  "totalSalary": 241738400
+  "year": 2026,
+  "totalSalary": 278163400,
+  "leagueCap": 305000000,
+  "capSpace": 26836600
 }

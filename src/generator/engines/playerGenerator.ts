@@ -10,8 +10,8 @@ import { assignPotential } from "./playerPotential.js";
 import type { PotentialProfile } from "./playerPotential.js";
 import { COLLEGES } from "../config/colleges.js";
 
-// NEW — baseline contract generator
 import { generateBaseContract } from "../contract/contractBase.js";
+import type { Contract } from "../contract/contractBase.js";
 
 export interface Player {
   id: string;
@@ -58,9 +58,7 @@ export interface Player {
     notes?: string;
   }>;
 
-  contract: {
-    salary: number;
-  };
+  contract: Contract;
 }
 
 function clamp(value: number, min: number, max: number) {
@@ -75,7 +73,7 @@ function deriveAccruedSeasons(age: number): number {
   return randInt(10, 12);
 }
 
-export function generatePlayer(position: Position): Player {
+export function generatePlayer(position: Position, year: number): Player {
   const profile = PHYSICAL_PROFILES[position];
 
   const height = Math.round(clamp(gaussian(profile.heightMean, profile.heightStd), 65, 85));
@@ -139,15 +137,24 @@ export function generatePlayer(position: Position): Player {
     coachability,
     competitiveness,
     developmentHistory: [],
-    contract: { salary: 0 }
+    contract: {
+      years: 1,
+      totalValue: 0,
+      apy: 0,
+      yearBreakdown: []
+    }
   });
 
- // NEW — baseline contract (OVR + age + position only)
-const contract = generateBaseContract({
-  position,
-  ovr: footballProfile.ratings.overall,
-  age
-});
+  const contractInput = {
+    position,
+    ovr: footballProfile.ratings.overall,
+    age,
+    year
+  };
+
+  console.log("DEBUG FROM PLAYER GENERATOR:", contractInput);
+
+  const contract = generateBaseContract(contractInput);
 
 
   return {
