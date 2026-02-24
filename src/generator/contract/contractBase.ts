@@ -2,6 +2,7 @@
 
 import { POSITION_BASE_SALARY } from "./positionBaseSalaries.js";
 import { POSITIONS } from "../config/positions.js";
+import { SALARY_CURVES, scaleCurve } from "../config/contractCurves.js";
 import type { Position } from "../config/positions.js";
 
 // -----------------------------
@@ -20,6 +21,7 @@ export interface Contract {
   apy: number;
   signingBonus: number;
   totalGuarantees: number;
+  structureType: string;
   yearBreakdown: ContractYearBreakdown[];
 }
 
@@ -107,21 +109,16 @@ function applyHardConstraints(age: number, ovr: number, years: number): number {
   let minYears = 1;
   let maxYears = Math.max(1, 36 - age);
 
-  if (ovr >= 90 && age <= 27) {
-    minYears = 4;
-  }
-
-  if (age >= 32) {
-    maxYears = Math.min(maxYears, 2);
-  }
+  if (ovr >= 90 && age <= 27) minYears = 4;
+  if (age >= 32) maxYears = Math.min(maxYears, 2);
 
   return Math.min(maxYears, Math.max(minYears, years));
 }
 
 // -----------------------------
-// Signing Bonus Logic (Corrected)
+// Signing Bonus Logic
 // -----------------------------
-const DEFAULT_BONUS_PCT = 0.20; // 20%
+const DEFAULT_BONUS_PCT = 0.20;
 
 // -----------------------------
 // Main Contract Generator
@@ -141,42 +138,67 @@ export function generateBaseContract(player: {
   const ageFactor = getAgeFactor(player.age);
   const posFactor = getPositionFactor(player.position);
 
-  // This is the intended cap hit per year (pre‑bonus world)
   const baseCapHit = Math.round(base * ovrFactor * ageFactor * posFactor);
 
-  // -----------------------------
-  // Determine Contract Length
-  // -----------------------------
+  // Determine contract length
   const expected = getExpectedLength(player.age, player.ovr);
   const varied = applyWeightedVariation(expected);
   const years = applyHardConstraints(player.age, player.ovr, varied);
 
-  // -----------------------------
-  // Corrected Bonus Math
-  // -----------------------------
+  // Signing bonus + proration
   const totalValue = baseCapHit * years;
-
   const signingBonus = Math.round(totalValue * DEFAULT_BONUS_PCT);
   const bonusProrated = Math.round(signingBonus / years);
 
-  // Salary is reduced so capHit stays equal to baseCapHit
-  const salary = baseCapHit - bonusProrated;
+  // Salary curve selection
+  const structureType = "balanced";
+  const curve = scaleCurve(SALARY_CURVES[structureType], years);
 
-  const totalGuarantees = signingBonus;
-
-  // -----------------------------
-  // Build Multi-Year Breakdown
-  // -----------------------------
+  // Build year breakdown
   const yearBreakdown: ContractYearBreakdown[] = [];
+
+  const salaryPool = totalValue - signingBonus;
 
   for (let i = 0; i < years; i++) {
     const y = player.year + i;
+
+    // 🔍 DEBUG: 1-year contract salary investigation
+    if (years === 1) {
+      console.log("🔍 1-YEAR DEBUG", {
+        playerId: player.position,
+        baseCapHit,
+        totalValue,
+        signingBonus,
+        salaryPool,
+        curve,
+        curve_i: curve[i],
+        computedSalary: salaryPool * curve[i]
+      });
+    }
+
+    const salary = Math.round(salaryPool * curve[i]);
+
+    // ❌ DEBUG: catch NaN salary immediately
+    if (Number.isNaN(salary)) {
+      console.log("❌ SALARY NAN DETECTED", {
+        playerId: player.position,
+        baseCapHit,
+        totalValue,
+        signingBonus,
+        salaryPool,
+        curve,
+        curve_i: curve[i],
+        computedSalary: salaryPool * curve[i]
+      });
+    }
+
+    const capHit = salary + bonusProrated;
 
     yearBreakdown.push({
       year: y,
       salary,
       bonusProrated,
-      capHit: baseCapHit, // unchanged from pre‑bonus world
+      capHit,
     });
   }
 
@@ -187,7 +209,8 @@ export function generateBaseContract(player: {
     totalValue,
     apy,
     signingBonus,
-    totalGuarantees,
+    totalGuarantees: signingBonus,
+    structureType,
     yearBreakdown,
   };
 }

@@ -16,11 +16,27 @@ export function getTeamTotalSalary(roster: any[], year: number): number {
     // New multi-year shape
     if (contract.yearBreakdown && Array.isArray(contract.yearBreakdown)) {
       const entry = contract.yearBreakdown.find((y: any) => y.year === year);
+
       if (entry) {
-        return sum + (entry.capHit ?? entry.salary ?? 0);
+        const value = entry.capHit ?? entry.salary ?? 0;
+
+        // 🔥 DEBUG: catch NaN immediately
+        if (Number.isNaN(value)) {
+          console.log("❌ NaN DETECTED:", {
+            playerId: p.id,
+            position: p.position,
+            year,
+            entry,
+            contract
+          });
+        }
+
+        return sum + value;
       }
+
       return sum;
     }
+
 
     // Backwards compatibility: old single-year { salary } shape
     if (typeof contract.salary === "number") {
