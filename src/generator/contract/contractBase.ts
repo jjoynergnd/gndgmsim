@@ -4,6 +4,9 @@ import { POSITION_BASE_SALARY } from "./positionBaseSalaries.js";
 import { POSITIONS } from "../config/positions.js";
 import type { Position } from "../config/positions.js";
 
+// -----------------------------
+// Contract Types
+// -----------------------------
 export interface ContractYearBreakdown {
   year: number;
   salary: number;
@@ -18,6 +21,23 @@ export interface Contract {
   yearBreakdown: ContractYearBreakdown[];
 }
 
+// -----------------------------
+// Utility: Weighted Random Pick
+// -----------------------------
+function weightedPick<T extends { weight: number }>(items: T[]): T {
+  const total = items.reduce((s, i) => s + i.weight, 0);
+  let r = Math.random() * total;
+
+  for (const item of items) {
+    if (r < item.weight) return item;
+    r -= item.weight;
+  }
+  return items[items.length - 1];
+}
+
+// -----------------------------
+// Salary Factor Helpers
+// -----------------------------
 function getOVRFactor(ovr: number): number {
   if (ovr >= 90) return 15.0;
   if (ovr >= 85) return 10.0;
@@ -29,10 +49,10 @@ function getOVRFactor(ovr: number): number {
 }
 
 function getAgeFactor(age: number): number {
-  if (age >= 25 && age <= 28) return 3.0; // prime
-  if (age >= 22 && age <= 24) return 1.0; // pre-prime
-  if (age >= 29 && age <= 31) return 1.2; // post-prime
-  return 0.8; // 32+
+  if (age >= 25 && age <= 28) return 3.0;
+  if (age >= 22 && age <= 24) return 1.0;
+  if (age >= 29 && age <= 31) return 1.2;
+  return 0.8;
 }
 
 function getPositionFactor(position: Position): number {
@@ -52,7 +72,57 @@ function getPositionFactor(position: Position): number {
   }
 }
 
-// For now: still 1-year deals, but using the multi-year shape.
+// -----------------------------
+// NEW: Contract Length Logic
+// -----------------------------
+function getExpectedLength(age: number, ovr: number): number {
+  let expected = 1;
+
+  // Age windows
+  if (age >= 21 && age <= 24) expected = 5;
+  else if (age >= 25 && age <= 27) expected = 4;
+  else if (age >= 28 && age <= 30) expected = 3;
+  else if (age >= 31 && age <= 33) expected = 2;
+  else expected = 1;
+
+  // OVR modifiers
+  if (ovr >= 90) expected += 1;
+  if (ovr < 75) expected -= 1;
+
+  return Math.max(1, expected);
+}
+
+function applyWeightedVariation(expected: number): number {
+  const options = [
+    { years: expected - 1, weight: 2 },
+    { years: expected,     weight: 4 },
+    { years: expected + 1, weight: 2 },
+  ];
+
+  const picked = weightedPick(options).years;
+  return Math.max(1, picked);
+}
+
+function applyHardConstraints(age: number, ovr: number, years: number): number {
+  let minYears = 1;
+  let maxYears = Math.max(1, 36 - age);
+
+  // Superstar rule
+  if (ovr >= 90 && age <= 27) {
+    minYears = 4;
+  }
+
+  // Veteran rule
+  if (age >= 32) {
+    maxYears = Math.min(maxYears, 2);
+  }
+
+  return Math.min(maxYears, Math.max(minYears, years));
+}
+
+// -----------------------------
+// Main Contract Generator
+// -----------------------------
 export function generateBaseContract(player: {
   position: Position;
   ovr: number;
@@ -60,6 +130,7 @@ export function generateBaseContract(player: {
   year: number;
 }): Contract {
   console.log("DEBUG CONTRACT INPUT:", player);
+
   const family = POSITIONS[player.position].family;
   const base = POSITION_BASE_SALARY[family] ?? 600_000;
 
@@ -69,23 +140,36 @@ export function generateBaseContract(player: {
 
   const rawSalary = Math.round(base * ovrFactor * ageFactor * posFactor);
 
-  const years = 1;
-  const totalValue = rawSalary;
-  const apy = totalValue / years;
+  // -----------------------------
+  // NEW: Determine Contract Length
+  // -----------------------------
+  const expected = getExpectedLength(player.age, player.ovr);
+  const varied = applyWeightedVariation(expected);
+  const years = applyHardConstraints(player.age, player.ovr, varied);
 
-  const yearBreakdown: ContractYearBreakdown[] = [ 
-    { 
-      year: player.year,
-      salary: rawSalary, 
-      bonusProrated: 0, 
-      capHit: rawSalary 
-    } 
-  ];
+  // -----------------------------
+  // Build Multi-Year Breakdown
+  // -----------------------------
+  const yearBreakdown: ContractYearBreakdown[] = [];
+
+  for (let i = 0; i < years; i++) {
+    const y = player.year + i;
+
+    yearBreakdown.push({
+      year: y,
+      salary: rawSalary,
+      bonusProrated: 0,
+      capHit: rawSalary,
+    });
+  }
+
+  const totalValue = rawSalary * years;
+  const apy = totalValue / years;
 
   return {
     years,
     totalValue,
     apy,
-    yearBreakdown
+    yearBreakdown,
   };
 }
