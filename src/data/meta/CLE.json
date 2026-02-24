@@ -1,6 +1,7 @@
-﻿{
-    "record":  "0-0",
-    "fanMorale":  58,
-    "capSpaceDisplay":  ".3M",
-    "capSpace":  70300000
+{
+  "teamId": "CLE",
+  "year": 2026,
+  "totalSalary": 258329200,
+  "leagueCap": 305000000,
+  "capSpace": 46670800
 }

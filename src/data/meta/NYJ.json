@@ -1,6 +1,9 @@
-﻿{
-    "record":  "0-0",
-    "fanMorale":  77,
-    "capSpaceDisplay":  ".8M",
-    "capSpace":  38800000
+{
+  "cap": {
+    "year": 2026,
+    "capLimit": 305000000,
+    "capUsed": 355824005,
+    "capSpace": -50824005,
+    "deadMoney": 0
+  }
 }

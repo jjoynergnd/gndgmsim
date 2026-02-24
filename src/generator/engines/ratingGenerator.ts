@@ -7,64 +7,89 @@ import { POSITION_ARCHETYPES } from "../config/archetypes.js";
 import { OVERALL_FORMULAS } from "../config/overallFormulas.js";
 import {
   PlayerTier,
-  TIER_WEIGHTS,
   TIER_OVR_MODIFIERS
 } from "../config/tiers.js";
+import { ATHLETIC_CAPS } from "../config/athleticCaps.js";
 import type { Position } from "../config/positions.js";
 
 // ------------------------------------------------------
-// Weighted tier selection (new scouting-based tiers)
+// Compute raw OVR (before tier modifier)
 // ------------------------------------------------------
-function weightedTier(): PlayerTier {
-  const entries = Object.entries(TIER_WEIGHTS);
-  const total = entries.reduce((sum, [, w]) => sum + w, 0);
-
-  let r = Math.random() * total;
-  for (const [tier, weight] of entries) {
-    r -= weight;
-    if (r <= 0) return tier as PlayerTier;
-  }
-  return "solid"; // fallback
-}
-
-// ------------------------------------------------------
-// Compute attribute-based OVR using position weights
-// ------------------------------------------------------
-function computeOVR(position: Position, ratings: Record<string, number>, tier: PlayerTier): number {
+function computeRawOVR(position: Position, ratings: Record<string, number>): number {
   const weights = OVERALL_FORMULAS[position];
   let total = 0;
   let weightSum = 0;
 
   for (const [attr, weight] of Object.entries(weights)) {
+    const w = weight as number;
     const value = ratings[attr] ?? 60;
-    total += value * weight;
-    weightSum += weight;
+    total += value * w;
+    weightSum += w;
   }
 
-  // Normalize to 0–100 scale
-  const rawOVR = total / weightSum;
+  return total / weightSum;
+}
 
-  // Apply tier modifier (soft influence)
-  const modified = rawOVR + TIER_OVR_MODIFIERS[tier];
+// ------------------------------------------------------
+// Tier assignment based on raw OVR + developmental logic
+// ------------------------------------------------------
+function assignTierFromOVR(
+  rawOVR: number,
+  ratings: Record<string, number>,
+  age: number
+): PlayerTier {
 
-  // Clamp + round (Option A)
-  return clamp(Math.round(modified), 40, 99);
+  // --- Developmental logic ---
+  const athleticAvg =
+    ((ratings.speed ?? 60) +
+      (ratings.acceleration ?? 60) +
+      (ratings.agility ?? 60)) / 3;
+
+  const technicalAvg =
+    ((ratings.awareness ?? 60) +
+      (ratings.blockShed ?? 60) +
+      (ratings.powerMoves ?? 60) +
+      (ratings.finesseMoves ?? 60) +
+      (ratings.throwAccuracyShort ?? 60)) / 5;
+
+  const isDevelopmental =
+    age <= 25 &&          // NEW: age cap
+    rawOVR < 75 &&        // NEW: OVR ceiling
+    athleticAvg >= 80 &&
+    technicalAvg <= 65;
+
+  if (isDevelopmental) return "developmental";
+
+  // --- OVR-driven tiers ---
+  if (rawOVR >= 90) return "superstar";
+  if (rawOVR >= 80) return "star";
+  if (rawOVR >= 70) return "solid";
+  if (rawOVR >= 60) return "depth";
+  return "fringe";
 }
 
 // ------------------------------------------------------
 // Main rating generator
 // ------------------------------------------------------
-export function generateRatings(position: Position) {
-  const tier = weightedTier();
+export function generateRatings(position: Position, age: number) {
   const archetype = pickOne(POSITION_ARCHETYPES[position]);
   const blueprint = RATING_BLUEPRINTS[position];
+  const athletic = ATHLETIC_CAPS[position];
 
   const ratings: Record<string, number> = {};
 
   // ------------------------------------------------------
-  // 1. Generate base ratings
+  // 1. Generate base ratings (with athletic caps)
   // ------------------------------------------------------
   for (const attr of blueprint.attributes) {
+    // Athletic attributes override blueprint defaults
+    if (athletic[attr as keyof typeof athletic]) {
+      const cap = athletic[attr as keyof typeof athletic];
+      ratings[attr] = roll(cap.mean, cap.std);
+      continue;
+    }
+
+    // Non-athletic attributes use blueprint or fallback
     const base = blueprint.base[attr] ?? { mean: 65, std: 8 };
     ratings[attr] = roll(base.mean, base.std);
   }
@@ -78,9 +103,25 @@ export function generateRatings(position: Position) {
   }
 
   // ------------------------------------------------------
-  // 3. Compute attribute-based OVR (new system)
+  // 3. Compute raw OVR (before tier)
   // ------------------------------------------------------
-  ratings.overall = computeOVR(position, ratings, tier);
+  const rawOVR = computeRawOVR(position, ratings);
+
+  // ------------------------------------------------------
+  // 4. Assign tier based on raw OVR + age
+  // ------------------------------------------------------
+  const tier = assignTierFromOVR(rawOVR, ratings, age);
+
+  // ------------------------------------------------------
+  // 5. Apply tier modifier → final OVR
+  // ------------------------------------------------------
+  const finalOVR = clamp(
+    Math.round(rawOVR + TIER_OVR_MODIFIERS[tier]),
+    40,
+    99
+  );
+
+  ratings.overall = finalOVR;
 
   return {
     tier,
