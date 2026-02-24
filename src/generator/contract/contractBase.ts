@@ -18,6 +18,8 @@ export interface Contract {
   years: number;
   totalValue: number;
   apy: number;
+  signingBonus: number;
+  totalGuarantees: number;
   yearBreakdown: ContractYearBreakdown[];
 }
 
@@ -73,19 +75,17 @@ function getPositionFactor(position: Position): number {
 }
 
 // -----------------------------
-// NEW: Contract Length Logic
+// Contract Length Logic
 // -----------------------------
 function getExpectedLength(age: number, ovr: number): number {
   let expected = 1;
 
-  // Age windows
   if (age >= 21 && age <= 24) expected = 5;
   else if (age >= 25 && age <= 27) expected = 4;
   else if (age >= 28 && age <= 30) expected = 3;
   else if (age >= 31 && age <= 33) expected = 2;
   else expected = 1;
 
-  // OVR modifiers
   if (ovr >= 90) expected += 1;
   if (ovr < 75) expected -= 1;
 
@@ -107,18 +107,21 @@ function applyHardConstraints(age: number, ovr: number, years: number): number {
   let minYears = 1;
   let maxYears = Math.max(1, 36 - age);
 
-  // Superstar rule
   if (ovr >= 90 && age <= 27) {
     minYears = 4;
   }
 
-  // Veteran rule
   if (age >= 32) {
     maxYears = Math.min(maxYears, 2);
   }
 
   return Math.min(maxYears, Math.max(minYears, years));
 }
+
+// -----------------------------
+// Signing Bonus Logic (Corrected)
+// -----------------------------
+const DEFAULT_BONUS_PCT = 0.20; // 20%
 
 // -----------------------------
 // Main Contract Generator
@@ -138,14 +141,28 @@ export function generateBaseContract(player: {
   const ageFactor = getAgeFactor(player.age);
   const posFactor = getPositionFactor(player.position);
 
-  const rawSalary = Math.round(base * ovrFactor * ageFactor * posFactor);
+  // This is the intended cap hit per year (pre‑bonus world)
+  const baseCapHit = Math.round(base * ovrFactor * ageFactor * posFactor);
 
   // -----------------------------
-  // NEW: Determine Contract Length
+  // Determine Contract Length
   // -----------------------------
   const expected = getExpectedLength(player.age, player.ovr);
   const varied = applyWeightedVariation(expected);
   const years = applyHardConstraints(player.age, player.ovr, varied);
+
+  // -----------------------------
+  // Corrected Bonus Math
+  // -----------------------------
+  const totalValue = baseCapHit * years;
+
+  const signingBonus = Math.round(totalValue * DEFAULT_BONUS_PCT);
+  const bonusProrated = Math.round(signingBonus / years);
+
+  // Salary is reduced so capHit stays equal to baseCapHit
+  const salary = baseCapHit - bonusProrated;
+
+  const totalGuarantees = signingBonus;
 
   // -----------------------------
   // Build Multi-Year Breakdown
@@ -157,19 +174,20 @@ export function generateBaseContract(player: {
 
     yearBreakdown.push({
       year: y,
-      salary: rawSalary,
-      bonusProrated: 0,
-      capHit: rawSalary,
+      salary,
+      bonusProrated,
+      capHit: baseCapHit, // unchanged from pre‑bonus world
     });
   }
 
-  const totalValue = rawSalary * years;
   const apy = totalValue / years;
 
   return {
     years,
     totalValue,
     apy,
+    signingBonus,
+    totalGuarantees,
     yearBreakdown,
   };
 }

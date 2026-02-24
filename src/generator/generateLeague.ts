@@ -44,7 +44,7 @@ function generateSingleTeam(teamId: string, year = 2026) {
 
   const rosterPath = path.join(ROSTER_DIR, `${teamId}.json`);
   writeJSON(rosterPath, roster);
-  console.log(`✔️ Roster written → ${rosterPath}`);
+  
 
   const totalSalary = getTeamTotalSalary(roster, year);
   const leagueCap = getLeagueCap(year);
