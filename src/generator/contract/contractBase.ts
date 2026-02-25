@@ -23,6 +23,18 @@ export interface Contract {
   totalGuarantees: number;
   structureType: string;
   yearBreakdown: ContractYearBreakdown[];
+
+  // ---- Metadata ----
+  contractStyle: "balanced" | "team_friendly" | "player_friendly";
+  voidYears: number;
+  optionYears: number;
+  guaranteedSalary: number;
+  riskLevel: "low" | "medium" | "high";
+  notes: string;
+
+  isTeamFriendly: boolean;
+  isPlayerFriendly: boolean;
+  isBalanced: boolean;
 }
 
 // -----------------------------
@@ -37,6 +49,66 @@ function weightedPick<T extends { weight: number }>(items: T[]): T {
     r -= item.weight;
   }
   return items[items.length - 1];
+}
+
+// -----------------------------
+// Tier-Driven Deal Type Logic
+// -----------------------------
+const TIER_WEIGHTS: Record<
+  string,
+  { type: "team_friendly" | "balanced" | "player_friendly"; weight: number }[]
+> = {
+  superstar: [
+    { type: "team_friendly", weight: 1 },
+    { type: "balanced", weight: 3 },
+    { type: "player_friendly", weight: 6 },
+  ],
+  star: [
+    { type: "team_friendly", weight: 2 },
+    { type: "balanced", weight: 4 },
+    { type: "player_friendly", weight: 4 },
+  ],
+  solid: [
+    { type: "team_friendly", weight: 2.5 },
+    { type: "balanced", weight: 5 },
+    { type: "player_friendly", weight: 2.5 },
+  ],
+  developmental: [
+    { type: "team_friendly", weight: 4 },
+    { type: "balanced", weight: 5 },
+    { type: "player_friendly", weight: 1 },
+  ],
+  depth: [
+    { type: "team_friendly", weight: 5 },
+    { type: "balanced", weight: 4.5 },
+    { type: "player_friendly", weight: 0.5 },
+  ],
+  fringe: [
+    { type: "team_friendly", weight: 6 },
+    { type: "balanced", weight: 4 },
+    { type: "player_friendly", weight: 0 },
+  ],
+};
+
+// NFL-accurate curve mapping
+const DEAL_TYPE_CONFIG = {
+  team_friendly: {
+    bonusPct: 0.10,
+    curve: "backloaded" as const,
+  },
+  balanced: {
+    bonusPct: 0.20,
+    curve: "balanced" as const,
+  },
+  player_friendly: {
+    bonusPct: 0.35,
+    curve: "frontloaded" as const,
+  },
+};
+
+function pickDealTypeByTier(tier: string): "team_friendly" | "balanced" | "player_friendly" {
+  const weights = TIER_WEIGHTS[tier] ?? TIER_WEIGHTS["solid"];
+  return weightedPick(weights).type;
 }
 
 // -----------------------------
@@ -116,11 +188,6 @@ function applyHardConstraints(age: number, ovr: number, years: number): number {
 }
 
 // -----------------------------
-// Signing Bonus Logic
-// -----------------------------
-const DEFAULT_BONUS_PCT = 0.20;
-
-// -----------------------------
 // Main Contract Generator
 // -----------------------------
 export function generateBaseContract(player: {
@@ -128,6 +195,7 @@ export function generateBaseContract(player: {
   ovr: number;
   age: number;
   year: number;
+  tier: string;
 }): Contract {
   console.log("DEBUG CONTRACT INPUT:", player);
 
@@ -145,53 +213,35 @@ export function generateBaseContract(player: {
   const varied = applyWeightedVariation(expected);
   const years = applyHardConstraints(player.age, player.ovr, varied);
 
+  // -----------------------------
+  // Deal Type Selection (Tier-Driven)
+  // -----------------------------
+  let dealType: "team_friendly" | "balanced" | "player_friendly";
+
+  if (years === 1) {
+    dealType = "balanced";
+  } else {
+    dealType = pickDealTypeByTier(player.tier);
+  }
+
+  const { bonusPct, curve: structureType } = DEAL_TYPE_CONFIG[dealType];
+
   // Signing bonus + proration
   const totalValue = baseCapHit * years;
-  const signingBonus = Math.round(totalValue * DEFAULT_BONUS_PCT);
+  const signingBonus = Math.round(totalValue * bonusPct);
   const bonusProrated = Math.round(signingBonus / years);
 
   // Salary curve selection
-  const structureType = "balanced";
   const curve = scaleCurve(SALARY_CURVES[structureType], years);
 
   // Build year breakdown
   const yearBreakdown: ContractYearBreakdown[] = [];
-
   const salaryPool = totalValue - signingBonus;
 
   for (let i = 0; i < years; i++) {
     const y = player.year + i;
 
-    // 🔍 DEBUG: 1-year contract salary investigation
-    if (years === 1) {
-      console.log("🔍 1-YEAR DEBUG", {
-        playerId: player.position,
-        baseCapHit,
-        totalValue,
-        signingBonus,
-        salaryPool,
-        curve,
-        curve_i: curve[i],
-        computedSalary: salaryPool * curve[i]
-      });
-    }
-
     const salary = Math.round(salaryPool * curve[i]);
-
-    // ❌ DEBUG: catch NaN salary immediately
-    if (Number.isNaN(salary)) {
-      console.log("❌ SALARY NAN DETECTED", {
-        playerId: player.position,
-        baseCapHit,
-        totalValue,
-        signingBonus,
-        salaryPool,
-        curve,
-        curve_i: curve[i],
-        computedSalary: salaryPool * curve[i]
-      });
-    }
-
     const capHit = salary + bonusProrated;
 
     yearBreakdown.push({
@@ -204,6 +254,13 @@ export function generateBaseContract(player: {
 
   const apy = totalValue / years;
 
+  // Metadata
+  const voidYears = 0;
+  const optionYears = 0;
+  const guaranteedSalary = signingBonus;
+  const riskLevel = "medium";
+  const notes = "";
+
   return {
     years,
     totalValue,
@@ -212,5 +269,16 @@ export function generateBaseContract(player: {
     totalGuarantees: signingBonus,
     structureType,
     yearBreakdown,
+
+    contractStyle: dealType,
+    voidYears,
+    optionYears,
+    guaranteedSalary,
+    riskLevel,
+    notes,
+
+    isTeamFriendly: dealType === "team_friendly",
+    isPlayerFriendly: dealType === "player_friendly",
+    isBalanced: dealType === "balanced",
   };
 }
