@@ -13,6 +13,22 @@ export interface ContractYearBreakdown {
   salary: number;
   bonusProrated: number;
   capHit: number;
+
+  // Added for Option C
+  capSavings: number;
+  capSavingsPostJune1: number;
+}
+
+export interface DeadMoneyYear {
+  year: number;
+  bonus: number;
+  salary: number;
+  total: number;
+}
+
+export interface PostJune1DeadMoney {
+  currentYear: number;
+  nextYear: number;
 }
 
 export interface Contract {
@@ -35,6 +51,15 @@ export interface Contract {
   isTeamFriendly: boolean;
   isPlayerFriendly: boolean;
   isBalanced: boolean;
+
+  // ---- Dead Money Metadata ----
+  deadMoney: DeadMoneyYear[];
+  postJune1: PostJune1DeadMoney;
+
+  // ---- Cap Savings Metadata (Option C) ----
+  capSavingsByYear: number[];
+  capSavingsPostJune1ByYear: number[];
+  cuttableYear: number | null;
 }
 
 // -----------------------------
@@ -188,6 +213,39 @@ function applyHardConstraints(age: number, ovr: number, years: number): number {
 }
 
 // -----------------------------
+// Dead Money Computation
+// -----------------------------
+function computeDeadMoney(
+  yearBreakdown: ContractYearBreakdown[],
+  guaranteedSalary: number,
+  signingBonus: number
+): { deadMoney: DeadMoneyYear[]; postJune1: PostJune1DeadMoney } {
+  const years = yearBreakdown.length;
+  const bonusProrated = Math.round(signingBonus / years);
+
+  const deadMoney: DeadMoneyYear[] = [];
+
+  for (let i = 0; i < years; i++) {
+    const remainingBonus = bonusProrated * (years - i);
+    const guaranteedForYear = i === 0 ? guaranteedSalary - signingBonus : 0;
+
+    deadMoney.push({
+      year: yearBreakdown[i].year,
+      bonus: remainingBonus,
+      salary: guaranteedForYear,
+      total: remainingBonus + guaranteedForYear,
+    });
+  }
+
+  const postJune1 = {
+    currentYear: bonusProrated + (guaranteedSalary - signingBonus),
+    nextYear: signingBonus - bonusProrated,
+  };
+
+  return { deadMoney, postJune1 };
+}
+
+// -----------------------------
 // Main Contract Generator
 // -----------------------------
 export function generateBaseContract(player: {
@@ -197,8 +255,6 @@ export function generateBaseContract(player: {
   year: number;
   tier: string;
 }): Contract {
-  console.log("DEBUG CONTRACT INPUT:", player);
-
   const family = POSITIONS[player.position].family;
   const base = POSITION_BASE_SALARY[family] ?? 600_000;
 
@@ -208,14 +264,10 @@ export function generateBaseContract(player: {
 
   const baseCapHit = Math.round(base * ovrFactor * ageFactor * posFactor);
 
-  // Determine contract length
   const expected = getExpectedLength(player.age, player.ovr);
   const varied = applyWeightedVariation(expected);
   const years = applyHardConstraints(player.age, player.ovr, varied);
 
-  // -----------------------------
-  // Deal Type Selection (Tier-Driven)
-  // -----------------------------
   let dealType: "team_friendly" | "balanced" | "player_friendly";
 
   if (years === 1) {
@@ -226,15 +278,12 @@ export function generateBaseContract(player: {
 
   const { bonusPct, curve: structureType } = DEAL_TYPE_CONFIG[dealType];
 
-  // Signing bonus + proration
   const totalValue = baseCapHit * years;
   const signingBonus = Math.round(totalValue * bonusPct);
   const bonusProrated = Math.round(signingBonus / years);
 
-  // Salary curve selection
   const curve = scaleCurve(SALARY_CURVES[structureType], years);
 
-  // Build year breakdown
   const yearBreakdown: ContractYearBreakdown[] = [];
   const salaryPool = totalValue - signingBonus;
 
@@ -249,14 +298,13 @@ export function generateBaseContract(player: {
       salary,
       bonusProrated,
       capHit,
+      capSavings: 0,
+      capSavingsPostJune1: 0,
     });
   }
 
   const apy = totalValue / years;
 
-  // -----------------------------
-  // Guaranteed Salary Logic
-  // -----------------------------
   const year1Salary = yearBreakdown[0]?.salary ?? 0;
   const year2Salary = yearBreakdown[1]?.salary ?? 0;
 
@@ -275,8 +323,6 @@ export function generateBaseContract(player: {
     case "developmental":
       guaranteedSalaryBase = year1Salary * 0.25;
       break;
-    case "depth":
-    case "fringe":
     default:
       guaranteedSalaryBase = 0;
       break;
@@ -284,7 +330,41 @@ export function generateBaseContract(player: {
 
   const guaranteedSalary = Math.round(guaranteedSalaryBase + signingBonus);
 
-  // Metadata
+  const { deadMoney, postJune1 } = computeDeadMoney(
+    yearBreakdown,
+    guaranteedSalary,
+    signingBonus
+  );
+
+  // -----------------------------
+  // Cap Savings Computation (Option C)
+  // -----------------------------
+  const capSavingsByYear: number[] = [];
+  const capSavingsPostJune1ByYear: number[] = [];
+
+  for (let i = 0; i < years; i++) {
+    const capHit = yearBreakdown[i].capHit;
+    const dead = deadMoney[i].total;
+
+    const savings = capHit - dead;
+    const savingsPostJune1 = capHit - postJune1.currentYear;
+
+    yearBreakdown[i].capSavings = savings;
+    yearBreakdown[i].capSavingsPostJune1 = savingsPostJune1;
+
+    capSavingsByYear.push(savings);
+    capSavingsPostJune1ByYear.push(savingsPostJune1);
+  }
+
+  // First year where cap savings > 0
+  let cuttableYear: number | null = null;
+  for (let i = 0; i < years; i++) {
+    if (capSavingsByYear[i] > 0) {
+      cuttableYear = yearBreakdown[i].year;
+      break;
+    }
+  }
+
   const voidYears = 0;
   const optionYears = 0;
   const riskLevel: "low" | "medium" | "high" = "medium";
@@ -309,5 +389,12 @@ export function generateBaseContract(player: {
     isTeamFriendly: dealType === "team_friendly",
     isPlayerFriendly: dealType === "player_friendly",
     isBalanced: dealType === "balanced",
+
+    deadMoney,
+    postJune1,
+
+    capSavingsByYear,
+    capSavingsPostJune1ByYear,
+    cuttableYear,
   };
 }
