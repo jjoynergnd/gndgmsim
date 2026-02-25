@@ -254,11 +254,40 @@ export function generateBaseContract(player: {
 
   const apy = totalValue / years;
 
+  // -----------------------------
+  // Guaranteed Salary Logic
+  // -----------------------------
+  const year1Salary = yearBreakdown[0]?.salary ?? 0;
+  const year2Salary = yearBreakdown[1]?.salary ?? 0;
+
+  let guaranteedSalaryBase = 0;
+
+  switch (player.tier) {
+    case "superstar":
+      guaranteedSalaryBase = year1Salary + year2Salary * 0.5;
+      break;
+    case "star":
+      guaranteedSalaryBase = year1Salary + year2Salary * 0.25;
+      break;
+    case "solid":
+      guaranteedSalaryBase = year1Salary * 0.5;
+      break;
+    case "developmental":
+      guaranteedSalaryBase = year1Salary * 0.25;
+      break;
+    case "depth":
+    case "fringe":
+    default:
+      guaranteedSalaryBase = 0;
+      break;
+  }
+
+  const guaranteedSalary = Math.round(guaranteedSalaryBase + signingBonus);
+
   // Metadata
   const voidYears = 0;
   const optionYears = 0;
-  const guaranteedSalary = signingBonus;
-  const riskLevel = "medium";
+  const riskLevel: "low" | "medium" | "high" = "medium";
   const notes = "";
 
   return {
@@ -266,7 +295,7 @@ export function generateBaseContract(player: {
     totalValue,
     apy,
     signingBonus,
-    totalGuarantees: signingBonus,
+    totalGuarantees: guaranteedSalary,
     structureType,
     yearBreakdown,
 
