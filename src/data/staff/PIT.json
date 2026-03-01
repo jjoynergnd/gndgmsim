@@ -1,170 +1,183 @@
 [
   {
-    "id": "PIT-STAFF-1",
-    "team": "PIT",
-    "role": "Head Coach",
-    "name": "Mitchell Crist",
-    "vitals": {
-      "age": 55,
-      "experience": 24
-    },
-    "ratings": {
-      "leadership": 84,
-      "discipline": 63,
-      "schemeKnowledge": 70,
-      "playerDev": 84,
-      "motivation": 63,
-      "injuryManagement": 46,
-      "conditioning": 65,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 5,
-      "salary": 3046687
-    }
+    "id": "dff79ef6-0cf3-448a-af4d-582630be11b7",
+    "firstName": "Victor",
+    "lastName": "Howell",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 59,
+    "yearsExperience": 7,
+    "type": "hybrid",
+    "leadership": 64,
+    "culture": 94,
+    "strategy": 69,
+    "playerDevelopment": 98,
+    "discipline": 88,
+    "schemeOffense": "power_run",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 91,
+    "staffManagement": 97
   },
   {
-    "id": "PIT-STAFF-2",
-    "team": "PIT",
-    "role": "Offensive Coordinator",
-    "name": "Tristan Bruen",
-    "vitals": {
-      "age": 43,
-      "experience": 14
-    },
-    "ratings": {
-      "leadership": 62,
-      "discipline": 85,
-      "schemeKnowledge": 64,
-      "playerDev": 94,
-      "motivation": 92,
-      "injuryManagement": 69,
-      "conditioning": 56,
-      "analyticsIQ": 41
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2747487
-    }
+    "id": "9cdfbfe1-9e88-4577-a7a6-73a6fabbb51a",
+    "firstName": "Geoffrey",
+    "lastName": "Cummerata-Johnson",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 65,
+    "yearsExperience": 6,
+    "playCalling": 68,
+    "qbDevelopment": 98,
+    "skillPlayerDevelopment": 78,
+    "offensiveSchemeKnowledge": 85,
+    "runGameDesign": 89,
+    "passGameDesign": 66,
+    "creativity": 67,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "PIT-STAFF-3",
-    "team": "PIT",
-    "role": "Defensive Coordinator",
-    "name": "Landon Reilly",
-    "vitals": {
-      "age": 42,
-      "experience": 5
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 78,
-      "schemeKnowledge": 63,
-      "playerDev": 95,
-      "motivation": 83,
-      "injuryManagement": 52,
-      "conditioning": 63,
-      "analyticsIQ": 41
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3189323
-    }
+    "id": "79b683cc-79a4-47fe-84eb-1ec56ba761cb",
+    "firstName": "Wendell",
+    "lastName": "Lesch",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 39,
+    "yearsExperience": 21,
+    "playCalling": 87,
+    "frontSevenDevelopment": 98,
+    "secondaryDevelopment": 71,
+    "defensiveSchemeKnowledge": 60,
+    "blitzDesign": 92,
+    "coverageDesign": 94,
+    "discipline": 70,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "PIT-STAFF-4",
-    "team": "PIT",
-    "role": "Strength & Conditioning Coach",
-    "name": "Blake Mante",
-    "vitals": {
-      "age": 30,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 87,
-      "discipline": 65,
-      "schemeKnowledge": 85,
-      "playerDev": 74,
-      "motivation": 75,
-      "injuryManagement": 56,
-      "conditioning": 92,
-      "analyticsIQ": 59
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2154717
-    }
+    "id": "569a1c38-6d25-465a-84fb-552422161f2f",
+    "firstName": "Lynn",
+    "lastName": "Pollich-Predovic",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 49,
+    "yearsExperience": 13,
+    "injuryPrevention": 80,
+    "recoverySpeed": 86,
+    "conditioning": 64,
+    "strengthTraining": 69,
+    "speedTraining": 73,
+    "workEthicBoost": 85
   },
   {
-    "id": "PIT-STAFF-5",
-    "team": "PIT",
-    "role": "Physical Therapist",
-    "name": "Mason Yundt",
-    "vitals": {
-      "age": 64,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 93,
-      "discipline": 94,
-      "schemeKnowledge": 71,
-      "playerDev": 94,
-      "motivation": 62,
-      "injuryManagement": 86,
-      "conditioning": 55,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 5,
-      "salary": 2861069
-    }
+    "id": "98083c88-2c0c-4dfb-93de-be9fb1185622",
+    "firstName": "Rodolfo",
+    "lastName": "Barton",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 65,
+    "yearsExperience": 10,
+    "diagnosisAccuracy": 61,
+    "rehabQuality": 75,
+    "injuryRiskAssessment": 64,
+    "returnToPlayConservatism": 63,
+    "longTermHealthManagement": 70
   },
   {
-    "id": "PIT-STAFF-6",
-    "team": "PIT",
-    "role": "Athletic Trainer",
-    "name": "Parker Gusikowski",
-    "vitals": {
-      "age": 48,
-      "experience": 7
-    },
-    "ratings": {
-      "leadership": 74,
-      "discipline": 78,
-      "schemeKnowledge": 74,
-      "playerDev": 65,
-      "motivation": 78,
-      "injuryManagement": 81,
-      "conditioning": 55,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2663417
-    }
+    "id": "9c000064-b33c-47bd-b67e-9ebc83acfd81",
+    "firstName": "Jessie",
+    "lastName": "Wisozk",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 64,
+    "yearsExperience": 6,
+    "proEvaluation": 73,
+    "contractInsight": 61,
+    "tradeValueAssessment": 73,
+    "rosterConstruction": 66,
+    "schemeFitAwareness": 74,
+    "developmentProjection": 91
   },
   {
-    "id": "PIT-STAFF-7",
-    "team": "PIT",
-    "role": "Analytics Coordinator",
-    "name": "Owen Runte",
-    "vitals": {
-      "age": 47,
-      "experience": 3
-    },
-    "ratings": {
-      "leadership": 75,
-      "discipline": 62,
-      "schemeKnowledge": 82,
-      "playerDev": 88,
-      "motivation": 71,
-      "injuryManagement": 68,
-      "conditioning": 69,
-      "analyticsIQ": 82
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4360316
-    }
+    "id": "cd8f9447-7ab5-437f-bd2a-95e8561dc008",
+    "firstName": "Nelson",
+    "lastName": "Herzog",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 65,
+    "yearsExperience": 23,
+    "draftBoardManagement": 77,
+    "prospectEvaluation": 96,
+    "combineInterpretation": 97,
+    "positionalNeedsAwareness": 70,
+    "scoutingAccuracy": 70,
+    "regionalCoordination": 90
+  },
+  {
+    "id": "2b20bdc7-ed5b-46a6-81f8-0e6fe06e1f2a",
+    "firstName": "Omar",
+    "lastName": "Pfannerstill",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 39,
+    "yearsExperience": 24,
+    "regionalKnowledge": 70,
+    "positionalStrengths": 65,
+    "evaluationAccuracy": 87,
+    "intangiblesAssessment": 72,
+    "schemeFitProjection": 71
+  },
+  {
+    "id": "b2b4e59a-0932-4758-8c61-8e5110637afa",
+    "firstName": "Orville",
+    "lastName": "Hane",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 35,
+    "yearsExperience": 6,
+    "regionalKnowledge": 62,
+    "positionalStrengths": 60,
+    "evaluationAccuracy": 80,
+    "intangiblesAssessment": 60,
+    "schemeFitProjection": 69
+  },
+  {
+    "id": "578efe6c-a635-4cab-b681-3caa534e6657",
+    "firstName": "Garry",
+    "lastName": "Ward",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 49,
+    "yearsExperience": 15,
+    "modelingQuality": 86,
+    "fourthDownAggressiveness": 56,
+    "riskManagement": 82,
+    "contractValuation": 77,
+    "injuryRiskModeling": 66,
+    "tendencyAnalysis": 89
+  },
+  {
+    "id": "208219e9-cd81-419b-b13e-b60d6deb6b95",
+    "firstName": "Dallas",
+    "lastName": "Willms",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 38,
+    "yearsExperience": 18,
+    "mechanicsTraining": 68,
+    "decisionMakingTraining": 73,
+    "accuracyDevelopment": 79,
+    "pocketPresenceDevelopment": 79,
+    "leadershipMentoring": 99,
+    "filmStudyImpact": 78
   }
 ]

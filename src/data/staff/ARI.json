@@ -1,170 +1,183 @@
 [
   {
-    "id": "ARI-STAFF-1",
-    "team": "ARI",
-    "role": "Head Coach",
-    "name": "Jeremy Parisian",
-    "vitals": {
-      "age": 59,
-      "experience": 11
-    },
-    "ratings": {
-      "leadership": 60,
-      "discipline": 62,
-      "schemeKnowledge": 64,
-      "playerDev": 80,
-      "motivation": 64,
-      "injuryManagement": 65,
-      "conditioning": 57,
-      "analyticsIQ": 63
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7909795
-    }
+    "id": "15409ef6-bef8-47b3-8b51-eca4f93a1870",
+    "firstName": "Lorenzo",
+    "lastName": "Hoeger",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 54,
+    "yearsExperience": 11,
+    "type": "ceo",
+    "leadership": 92,
+    "culture": 96,
+    "strategy": 78,
+    "playerDevelopment": 79,
+    "discipline": 61,
+    "schemeOffense": "spread",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 66,
+    "staffManagement": 68
   },
   {
-    "id": "ARI-STAFF-2",
-    "team": "ARI",
-    "role": "Offensive Coordinator",
-    "name": "Gregory Rippin",
-    "vitals": {
-      "age": 55,
-      "experience": 26
-    },
-    "ratings": {
-      "leadership": 93,
-      "discipline": 85,
-      "schemeKnowledge": 70,
-      "playerDev": 83,
-      "motivation": 63,
-      "injuryManagement": 40,
-      "conditioning": 70,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5338797
-    }
+    "id": "a9a03af2-3541-4c66-bc92-8c76cef43bb7",
+    "firstName": "Orville",
+    "lastName": "Walsh",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 42,
+    "yearsExperience": 19,
+    "playCalling": 82,
+    "qbDevelopment": 92,
+    "skillPlayerDevelopment": 72,
+    "offensiveSchemeKnowledge": 90,
+    "runGameDesign": 66,
+    "passGameDesign": 93,
+    "creativity": 68,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "ARI-STAFF-3",
-    "team": "ARI",
-    "role": "Defensive Coordinator",
-    "name": "Aaron Brakus",
-    "vitals": {
-      "age": 40,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 62,
-      "schemeKnowledge": 69,
-      "playerDev": 77,
-      "motivation": 83,
-      "injuryManagement": 65,
-      "conditioning": 62,
-      "analyticsIQ": 45
-    },
-    "contract": {
-      "years": 2,
-      "salary": 2512250
-    }
+    "id": "5117dacd-5da8-43be-91c0-2b2a20fd8e57",
+    "firstName": "Manuel",
+    "lastName": "Boehm",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 49,
+    "yearsExperience": 7,
+    "playCalling": 73,
+    "frontSevenDevelopment": 60,
+    "secondaryDevelopment": 68,
+    "defensiveSchemeKnowledge": 71,
+    "blitzDesign": 65,
+    "coverageDesign": 63,
+    "discipline": 92,
+    "schemePreference": "four_three"
   },
   {
-    "id": "ARI-STAFF-4",
-    "team": "ARI",
-    "role": "Strength & Conditioning Coach",
-    "name": "Gabriel Okuneva",
-    "vitals": {
-      "age": 33,
-      "experience": 14
-    },
-    "ratings": {
-      "leadership": 83,
-      "discipline": 83,
-      "schemeKnowledge": 74,
-      "playerDev": 66,
-      "motivation": 88,
-      "injuryManagement": 63,
-      "conditioning": 91,
-      "analyticsIQ": 54
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4653219
-    }
+    "id": "ad7c014d-ccc0-495c-b9cc-afc75681e620",
+    "firstName": "Sherman",
+    "lastName": "Reichel",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 58,
+    "yearsExperience": 7,
+    "injuryPrevention": 99,
+    "recoverySpeed": 86,
+    "conditioning": 70,
+    "strengthTraining": 79,
+    "speedTraining": 81,
+    "workEthicBoost": 60
   },
   {
-    "id": "ARI-STAFF-5",
-    "team": "ARI",
-    "role": "Physical Therapist",
-    "name": "Robert Little",
-    "vitals": {
-      "age": 30,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 73,
-      "discipline": 86,
-      "schemeKnowledge": 88,
-      "playerDev": 91,
-      "motivation": 68,
-      "injuryManagement": 79,
-      "conditioning": 67,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 4,
-      "salary": 878630
-    }
+    "id": "14e61cad-9634-439f-ada1-b6a904a68295",
+    "firstName": "Eddie",
+    "lastName": "Harber",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 35,
+    "yearsExperience": 20,
+    "diagnosisAccuracy": 90,
+    "rehabQuality": 91,
+    "injuryRiskAssessment": 67,
+    "returnToPlayConservatism": 45,
+    "longTermHealthManagement": 83
   },
   {
-    "id": "ARI-STAFF-6",
-    "team": "ARI",
-    "role": "Athletic Trainer",
-    "name": "Enzo Macejkovic",
-    "vitals": {
-      "age": 51,
-      "experience": 6
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 80,
-      "schemeKnowledge": 79,
-      "playerDev": 89,
-      "motivation": 69,
-      "injuryManagement": 78,
-      "conditioning": 60,
-      "analyticsIQ": 47
-    },
-    "contract": {
-      "years": 2,
-      "salary": 1517423
-    }
+    "id": "c4bb0a1f-d81a-4ea9-ab46-2cd72659ca74",
+    "firstName": "Robin",
+    "lastName": "Smitham",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 51,
+    "yearsExperience": 12,
+    "proEvaluation": 87,
+    "contractInsight": 91,
+    "tradeValueAssessment": 88,
+    "rosterConstruction": 78,
+    "schemeFitAwareness": 69,
+    "developmentProjection": 71
   },
   {
-    "id": "ARI-STAFF-7",
-    "team": "ARI",
-    "role": "Analytics Coordinator",
-    "name": "Igor Stehr",
-    "vitals": {
-      "age": 60,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 66,
-      "schemeKnowledge": 89,
-      "playerDev": 63,
-      "motivation": 74,
-      "injuryManagement": 64,
-      "conditioning": 52,
-      "analyticsIQ": 99
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7250000
-    }
+    "id": "0fc0f744-066d-4148-8505-28b9e6c6d827",
+    "firstName": "Ross",
+    "lastName": "Bins",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 46,
+    "yearsExperience": 13,
+    "draftBoardManagement": 88,
+    "prospectEvaluation": 80,
+    "combineInterpretation": 78,
+    "positionalNeedsAwareness": 60,
+    "scoutingAccuracy": 69,
+    "regionalCoordination": 98
+  },
+  {
+    "id": "83bd342f-7b9e-4697-9b42-c0ce3d4aacd9",
+    "firstName": "Terrance",
+    "lastName": "Kulas",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 48,
+    "yearsExperience": 12,
+    "regionalKnowledge": 86,
+    "positionalStrengths": 93,
+    "evaluationAccuracy": 95,
+    "intangiblesAssessment": 76,
+    "schemeFitProjection": 90
+  },
+  {
+    "id": "304607f2-f91d-444d-8997-6f320f3550f1",
+    "firstName": "Travis",
+    "lastName": "Zboncak",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 54,
+    "yearsExperience": 11,
+    "regionalKnowledge": 72,
+    "positionalStrengths": 62,
+    "evaluationAccuracy": 94,
+    "intangiblesAssessment": 83,
+    "schemeFitProjection": 94
+  },
+  {
+    "id": "c76f6023-3481-4493-8704-0dcb9b9fa041",
+    "firstName": "Erik",
+    "lastName": "Hudson",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 44,
+    "yearsExperience": 17,
+    "modelingQuality": 93,
+    "fourthDownAggressiveness": 68,
+    "riskManagement": 64,
+    "contractValuation": 72,
+    "injuryRiskModeling": 84,
+    "tendencyAnalysis": 97
+  },
+  {
+    "id": "d3c154ef-8931-4429-865d-ee1947bd2d52",
+    "firstName": "Jorge",
+    "lastName": "Wolf",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 35,
+    "yearsExperience": 7,
+    "mechanicsTraining": 96,
+    "decisionMakingTraining": 78,
+    "accuracyDevelopment": 82,
+    "pocketPresenceDevelopment": 84,
+    "leadershipMentoring": 64,
+    "filmStudyImpact": 62
   }
 ]

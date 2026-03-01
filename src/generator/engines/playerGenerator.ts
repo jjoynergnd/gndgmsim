@@ -10,6 +10,9 @@ import { assignPotential } from "./playerPotential.js";
 import type { PotentialProfile } from "./playerPotential.js";
 import { COLLEGES } from "../config/colleges.js";
 
+// -----------------------------
+// UPDATED IMPORTS (MODULAR CONTRACT ENGINE)
+// -----------------------------
 import { generateBaseContract } from "../contract/contractBase.js";
 import type { Contract } from "../contract/contractBase.js";
 
@@ -142,20 +145,18 @@ export function generatePlayer(position: Position, year: number): Player {
       totalValue: 0,
       apy: 0,
       yearBreakdown: []
-    }
+    } as any
   });
 
   const contractInput = {
     position,
     ovr: footballProfile.ratings.overall,
     age,
-    year
+    year,
+    tier: footballProfile.tier
   };
 
-  console.log("DEBUG FROM PLAYER GENERATOR:", contractInput);
-
   const contract = generateBaseContract(contractInput);
-
 
   return {
     id: crypto.randomUUID(),

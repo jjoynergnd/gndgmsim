@@ -1,170 +1,183 @@
 [
   {
-    "id": "WAS-STAFF-1",
-    "team": "WAS",
-    "role": "Head Coach",
-    "name": "Maxwell Dare",
-    "vitals": {
-      "age": 61,
-      "experience": 9
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 90,
-      "schemeKnowledge": 65,
-      "playerDev": 70,
-      "motivation": 68,
-      "injuryManagement": 44,
-      "conditioning": 54,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 4,
-      "salary": 6704516
-    }
+    "id": "372357fb-e222-4e56-bd76-9db354266b74",
+    "firstName": "Steve",
+    "lastName": "Runolfsson",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 40,
+    "yearsExperience": 15,
+    "type": "ceo",
+    "leadership": 95,
+    "culture": 75,
+    "strategy": 95,
+    "playerDevelopment": 91,
+    "discipline": 90,
+    "schemeOffense": "zone_run",
+    "schemeDefense": "three_four",
+    "schemeFlexibility": 52,
+    "staffManagement": 60
   },
   {
-    "id": "WAS-STAFF-2",
-    "team": "WAS",
-    "role": "Offensive Coordinator",
-    "name": "Louis Aufderhar",
-    "vitals": {
-      "age": 64,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 71,
-      "schemeKnowledge": 73,
-      "playerDev": 65,
-      "motivation": 73,
-      "injuryManagement": 55,
-      "conditioning": 65,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 5,
-      "salary": 719635
-    }
+    "id": "c4835a21-7418-4d7a-adf2-659ba03809de",
+    "firstName": "Gustavo",
+    "lastName": "Goodwin",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 42,
+    "yearsExperience": 6,
+    "playCalling": 83,
+    "qbDevelopment": 80,
+    "skillPlayerDevelopment": 79,
+    "offensiveSchemeKnowledge": 60,
+    "runGameDesign": 86,
+    "passGameDesign": 84,
+    "creativity": 92,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "WAS-STAFF-3",
-    "team": "WAS",
-    "role": "Defensive Coordinator",
-    "name": "Jacob Mante",
-    "vitals": {
-      "age": 63,
-      "experience": 28
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 69,
-      "schemeKnowledge": 62,
-      "playerDev": 94,
-      "motivation": 80,
-      "injuryManagement": 45,
-      "conditioning": 66,
-      "analyticsIQ": 48
-    },
-    "contract": {
-      "years": 5,
-      "salary": 1830164
-    }
+    "id": "9432d144-2e07-4e05-afd9-73ede975ccf7",
+    "firstName": "Ruben",
+    "lastName": "Roob",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 66,
+    "yearsExperience": 21,
+    "playCalling": 81,
+    "frontSevenDevelopment": 61,
+    "secondaryDevelopment": 81,
+    "defensiveSchemeKnowledge": 92,
+    "blitzDesign": 91,
+    "coverageDesign": 77,
+    "discipline": 60,
+    "schemePreference": "four_three"
   },
   {
-    "id": "WAS-STAFF-4",
-    "team": "WAS",
-    "role": "Strength & Conditioning Coach",
-    "name": "Mason Rolfson",
-    "vitals": {
-      "age": 65,
-      "experience": 11
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 75,
-      "schemeKnowledge": 77,
-      "playerDev": 77,
-      "motivation": 83,
-      "injuryManagement": 61,
-      "conditioning": 90,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 5,
-      "salary": 1040777
-    }
+    "id": "311a80d1-af60-48b3-9cbd-792cbc262a2a",
+    "firstName": "Ira",
+    "lastName": "Marquardt",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 64,
+    "yearsExperience": 15,
+    "injuryPrevention": 76,
+    "recoverySpeed": 90,
+    "conditioning": 62,
+    "strengthTraining": 87,
+    "speedTraining": 68,
+    "workEthicBoost": 88
   },
   {
-    "id": "WAS-STAFF-5",
-    "team": "WAS",
-    "role": "Physical Therapist",
-    "name": "Knox Altenwerth",
-    "vitals": {
-      "age": 43,
-      "experience": 22
-    },
-    "ratings": {
-      "leadership": 63,
-      "discipline": 78,
-      "schemeKnowledge": 87,
-      "playerDev": 86,
-      "motivation": 64,
-      "injuryManagement": 90,
-      "conditioning": 46,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7047819
-    }
+    "id": "4a86a3a7-dba6-4978-b4ed-9dd12c538d7d",
+    "firstName": "Frederick",
+    "lastName": "Rosenbaum",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 68,
+    "yearsExperience": 29,
+    "diagnosisAccuracy": 78,
+    "rehabQuality": 90,
+    "injuryRiskAssessment": 75,
+    "returnToPlayConservatism": 50,
+    "longTermHealthManagement": 62
   },
   {
-    "id": "WAS-STAFF-6",
-    "team": "WAS",
-    "role": "Athletic Trainer",
-    "name": "Harold Jacobs",
-    "vitals": {
-      "age": 43,
-      "experience": 28
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 63,
-      "schemeKnowledge": 95,
-      "playerDev": 72,
-      "motivation": 83,
-      "injuryManagement": 79,
-      "conditioning": 43,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3459900
-    }
+    "id": "e85787f8-51f5-40c9-aafc-60aec03c7c57",
+    "firstName": "Dana",
+    "lastName": "Willms",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 62,
+    "yearsExperience": 18,
+    "proEvaluation": 63,
+    "contractInsight": 98,
+    "tradeValueAssessment": 91,
+    "rosterConstruction": 85,
+    "schemeFitAwareness": 96,
+    "developmentProjection": 93
   },
   {
-    "id": "WAS-STAFF-7",
-    "team": "WAS",
-    "role": "Analytics Coordinator",
-    "name": "Justin Bayer",
-    "vitals": {
-      "age": 65,
-      "experience": 9
-    },
-    "ratings": {
-      "leadership": 70,
-      "discipline": 77,
-      "schemeKnowledge": 70,
-      "playerDev": 76,
-      "motivation": 78,
-      "injuryManagement": 62,
-      "conditioning": 49,
-      "analyticsIQ": 98
-    },
-    "contract": {
-      "years": 2,
-      "salary": 2727793
-    }
+    "id": "027608dc-a58b-490a-bfc2-a7c8931f2665",
+    "firstName": "Enrique",
+    "lastName": "Gutmann",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 39,
+    "yearsExperience": 7,
+    "draftBoardManagement": 83,
+    "prospectEvaluation": 90,
+    "combineInterpretation": 87,
+    "positionalNeedsAwareness": 69,
+    "scoutingAccuracy": 96,
+    "regionalCoordination": 96
+  },
+  {
+    "id": "93799c12-3652-40d6-8a9f-96a8f2fe5de1",
+    "firstName": "Maurice",
+    "lastName": "Collins",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 40,
+    "yearsExperience": 7,
+    "regionalKnowledge": 64,
+    "positionalStrengths": 84,
+    "evaluationAccuracy": 60,
+    "intangiblesAssessment": 88,
+    "schemeFitProjection": 96
+  },
+  {
+    "id": "18666ab5-15c8-432c-8aac-59882980779b",
+    "firstName": "Elias",
+    "lastName": "West",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 63,
+    "yearsExperience": 21,
+    "regionalKnowledge": 99,
+    "positionalStrengths": 62,
+    "evaluationAccuracy": 83,
+    "intangiblesAssessment": 74,
+    "schemeFitProjection": 74
+  },
+  {
+    "id": "2863250e-1da5-4038-9e0e-9c0850e119ba",
+    "firstName": "Abraham",
+    "lastName": "Schinner",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 37,
+    "yearsExperience": 26,
+    "modelingQuality": 92,
+    "fourthDownAggressiveness": 57,
+    "riskManagement": 78,
+    "contractValuation": 72,
+    "injuryRiskModeling": 86,
+    "tendencyAnalysis": 98
+  },
+  {
+    "id": "50a3fc0e-ae2e-41eb-9770-2f2bf221235b",
+    "firstName": "Dwight",
+    "lastName": "Bergnaum",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 36,
+    "yearsExperience": 25,
+    "mechanicsTraining": 99,
+    "decisionMakingTraining": 92,
+    "accuracyDevelopment": 80,
+    "pocketPresenceDevelopment": 86,
+    "leadershipMentoring": 98,
+    "filmStudyImpact": 68
   }
 ]

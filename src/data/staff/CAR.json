@@ -1,170 +1,183 @@
 [
   {
-    "id": "CAR-STAFF-1",
-    "team": "CAR",
-    "role": "Head Coach",
-    "name": "Philip Emmerich",
-    "vitals": {
-      "age": 46,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 66,
-      "discipline": 93,
-      "schemeKnowledge": 91,
-      "playerDev": 85,
-      "motivation": 86,
-      "injuryManagement": 48,
-      "conditioning": 49,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2793533
-    }
+    "id": "879002cc-2d29-46af-aa20-f8ba064ddbd7",
+    "firstName": "Dan",
+    "lastName": "Turcotte",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 39,
+    "yearsExperience": 13,
+    "type": "strategist",
+    "leadership": 96,
+    "culture": 90,
+    "strategy": 88,
+    "playerDevelopment": 65,
+    "discipline": 67,
+    "schemeOffense": "zone_run",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 79,
+    "staffManagement": 88
   },
   {
-    "id": "CAR-STAFF-2",
-    "team": "CAR",
-    "role": "Offensive Coordinator",
-    "name": "James Reichel",
-    "vitals": {
-      "age": 33,
-      "experience": 36
-    },
-    "ratings": {
-      "leadership": 78,
-      "discipline": 88,
-      "schemeKnowledge": 60,
-      "playerDev": 70,
-      "motivation": 70,
-      "injuryManagement": 50,
-      "conditioning": 47,
-      "analyticsIQ": 45
-    },
-    "contract": {
-      "years": 2,
-      "salary": 1793269
-    }
+    "id": "f71242fb-be06-4b31-b0c8-0bcfd318286f",
+    "firstName": "Travis",
+    "lastName": "Langosh",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 61,
+    "yearsExperience": 14,
+    "playCalling": 91,
+    "qbDevelopment": 99,
+    "skillPlayerDevelopment": 95,
+    "offensiveSchemeKnowledge": 88,
+    "runGameDesign": 93,
+    "passGameDesign": 90,
+    "creativity": 64,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "CAR-STAFF-3",
-    "team": "CAR",
-    "role": "Defensive Coordinator",
-    "name": "Adrian Zboncak",
-    "vitals": {
-      "age": 45,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 80,
-      "schemeKnowledge": 90,
-      "playerDev": 95,
-      "motivation": 82,
-      "injuryManagement": 56,
-      "conditioning": 57,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4370887
-    }
+    "id": "48379082-2df4-4039-953f-fc41dcba6d0e",
+    "firstName": "Terry",
+    "lastName": "Maggio",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 35,
+    "yearsExperience": 23,
+    "playCalling": 90,
+    "frontSevenDevelopment": 99,
+    "secondaryDevelopment": 86,
+    "defensiveSchemeKnowledge": 98,
+    "blitzDesign": 61,
+    "coverageDesign": 82,
+    "discipline": 67,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "CAR-STAFF-4",
-    "team": "CAR",
-    "role": "Strength & Conditioning Coach",
-    "name": "Zachary DuBuque",
-    "vitals": {
-      "age": 32,
-      "experience": 4
-    },
-    "ratings": {
-      "leadership": 62,
-      "discipline": 60,
-      "schemeKnowledge": 76,
-      "playerDev": 70,
-      "motivation": 78,
-      "injuryManagement": 61,
-      "conditioning": 87,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 5,
-      "salary": 599120
-    }
+    "id": "2699a31e-4850-4ab5-844f-9c1a87813bcb",
+    "firstName": "Alonzo",
+    "lastName": "Upton",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 51,
+    "yearsExperience": 25,
+    "injuryPrevention": 61,
+    "recoverySpeed": 75,
+    "conditioning": 84,
+    "strengthTraining": 83,
+    "speedTraining": 63,
+    "workEthicBoost": 94
   },
   {
-    "id": "CAR-STAFF-5",
-    "team": "CAR",
-    "role": "Physical Therapist",
-    "name": "Sung Hickle",
-    "vitals": {
-      "age": 52,
-      "experience": 29
-    },
-    "ratings": {
-      "leadership": 70,
-      "discipline": 74,
-      "schemeKnowledge": 84,
-      "playerDev": 80,
-      "motivation": 88,
-      "injuryManagement": 84,
-      "conditioning": 56,
-      "analyticsIQ": 55
-    },
-    "contract": {
-      "years": 5,
-      "salary": 768405
-    }
+    "id": "b3196b02-e100-4659-9a4d-46596f0d98f6",
+    "firstName": "Neil",
+    "lastName": "Orn",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 53,
+    "yearsExperience": 18,
+    "diagnosisAccuracy": 93,
+    "rehabQuality": 99,
+    "injuryRiskAssessment": 95,
+    "returnToPlayConservatism": 79,
+    "longTermHealthManagement": 94
   },
   {
-    "id": "CAR-STAFF-6",
-    "team": "CAR",
-    "role": "Athletic Trainer",
-    "name": "Yusuf D'Amore",
-    "vitals": {
-      "age": 65,
-      "experience": 29
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 91,
-      "schemeKnowledge": 69,
-      "playerDev": 63,
-      "motivation": 95,
-      "injuryManagement": 79,
-      "conditioning": 58,
-      "analyticsIQ": 56
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2177512
-    }
+    "id": "0e557756-49b6-4c74-a1af-1fdc9a20c9ab",
+    "firstName": "Jeremy",
+    "lastName": "Gusikowski-Berge",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 49,
+    "yearsExperience": 24,
+    "proEvaluation": 96,
+    "contractInsight": 84,
+    "tradeValueAssessment": 72,
+    "rosterConstruction": 96,
+    "schemeFitAwareness": 96,
+    "developmentProjection": 77
   },
   {
-    "id": "CAR-STAFF-7",
-    "team": "CAR",
-    "role": "Analytics Coordinator",
-    "name": "Bruce Champlin",
-    "vitals": {
-      "age": 47,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 79,
-      "discipline": 79,
-      "schemeKnowledge": 90,
-      "playerDev": 61,
-      "motivation": 63,
-      "injuryManagement": 45,
-      "conditioning": 59,
-      "analyticsIQ": 81
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7282312
-    }
+    "id": "dee69ba9-8ce6-4f5a-9c56-e47cbd53cd2d",
+    "firstName": "Hugo",
+    "lastName": "Mayert",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 55,
+    "yearsExperience": 9,
+    "draftBoardManagement": 76,
+    "prospectEvaluation": 70,
+    "combineInterpretation": 61,
+    "positionalNeedsAwareness": 62,
+    "scoutingAccuracy": 70,
+    "regionalCoordination": 84
+  },
+  {
+    "id": "6f6baa29-f932-4707-8016-e9881b32dbc7",
+    "firstName": "Gerald",
+    "lastName": "Pagac",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 51,
+    "yearsExperience": 23,
+    "regionalKnowledge": 82,
+    "positionalStrengths": 70,
+    "evaluationAccuracy": 71,
+    "intangiblesAssessment": 92,
+    "schemeFitProjection": 87
+  },
+  {
+    "id": "45ab5ab3-7cc6-4f22-8cd9-ed3bf6646daa",
+    "firstName": "Alexander",
+    "lastName": "Beier",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 68,
+    "yearsExperience": 27,
+    "regionalKnowledge": 77,
+    "positionalStrengths": 62,
+    "evaluationAccuracy": 81,
+    "intangiblesAssessment": 95,
+    "schemeFitProjection": 76
+  },
+  {
+    "id": "451bab37-5f69-4526-ac70-76a3721fa613",
+    "firstName": "Harvey",
+    "lastName": "Sawayn",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 60,
+    "yearsExperience": 10,
+    "modelingQuality": 96,
+    "fourthDownAggressiveness": 96,
+    "riskManagement": 73,
+    "contractValuation": 70,
+    "injuryRiskModeling": 75,
+    "tendencyAnalysis": 98
+  },
+  {
+    "id": "9f7fc11e-78ec-4b23-8c56-8f7d61d17e04",
+    "firstName": "Philip",
+    "lastName": "Ritchie",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 61,
+    "yearsExperience": 22,
+    "mechanicsTraining": 98,
+    "decisionMakingTraining": 97,
+    "accuracyDevelopment": 67,
+    "pocketPresenceDevelopment": 85,
+    "leadershipMentoring": 66,
+    "filmStudyImpact": 66
   }
 ]

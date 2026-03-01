@@ -1,170 +1,183 @@
 [
   {
-    "id": "DAL-STAFF-1",
-    "team": "DAL",
-    "role": "Head Coach",
-    "name": "Vincent Borer",
-    "vitals": {
-      "age": 43,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 76,
-      "schemeKnowledge": 75,
-      "playerDev": 74,
-      "motivation": 64,
-      "injuryManagement": 70,
-      "conditioning": 59,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5853132
-    }
+    "id": "48814e5d-b253-4995-bf59-4df7b0b59e6a",
+    "firstName": "Marty",
+    "lastName": "Hamill",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 48,
+    "yearsExperience": 18,
+    "type": "mastermind",
+    "leadership": 81,
+    "culture": 67,
+    "strategy": 90,
+    "playerDevelopment": 89,
+    "discipline": 99,
+    "schemeOffense": "power_run",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 53,
+    "staffManagement": 77
   },
   {
-    "id": "DAL-STAFF-2",
-    "team": "DAL",
-    "role": "Offensive Coordinator",
-    "name": "Kyle Tromp",
-    "vitals": {
-      "age": 65,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 74,
-      "discipline": 89,
-      "schemeKnowledge": 80,
-      "playerDev": 70,
-      "motivation": 74,
-      "injuryManagement": 57,
-      "conditioning": 69,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 5,
-      "salary": 6233592
-    }
+    "id": "1955442f-4d30-48f2-8e51-2afb924ad63c",
+    "firstName": "Kevin",
+    "lastName": "Ebert",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 42,
+    "yearsExperience": 27,
+    "playCalling": 66,
+    "qbDevelopment": 88,
+    "skillPlayerDevelopment": 74,
+    "offensiveSchemeKnowledge": 70,
+    "runGameDesign": 84,
+    "passGameDesign": 68,
+    "creativity": 69,
+    "schemePreference": "vertical"
   },
   {
-    "id": "DAL-STAFF-3",
-    "team": "DAL",
-    "role": "Defensive Coordinator",
-    "name": "Brandon Gleason",
-    "vitals": {
-      "age": 31,
-      "experience": 3
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 64,
-      "schemeKnowledge": 77,
-      "playerDev": 66,
-      "motivation": 93,
-      "injuryManagement": 44,
-      "conditioning": 52,
-      "analyticsIQ": 46
-    },
-    "contract": {
-      "years": 2,
-      "salary": 1644236
-    }
+    "id": "3303c6be-e8ce-4306-b418-0c4b2e6e591e",
+    "firstName": "Roger",
+    "lastName": "Hauck",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 64,
+    "yearsExperience": 22,
+    "playCalling": 99,
+    "frontSevenDevelopment": 92,
+    "secondaryDevelopment": 67,
+    "defensiveSchemeKnowledge": 67,
+    "blitzDesign": 85,
+    "coverageDesign": 91,
+    "discipline": 78,
+    "schemePreference": "three_four"
   },
   {
-    "id": "DAL-STAFF-4",
-    "team": "DAL",
-    "role": "Strength & Conditioning Coach",
-    "name": "Henry Hills-Kris",
-    "vitals": {
-      "age": 39,
-      "experience": 8
-    },
-    "ratings": {
-      "leadership": 74,
-      "discipline": 86,
-      "schemeKnowledge": 95,
-      "playerDev": 66,
-      "motivation": 92,
-      "injuryManagement": 41,
-      "conditioning": 75,
-      "analyticsIQ": 60
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3580152
-    }
+    "id": "a21d09db-4d0e-4b32-97c2-bc55840c90b9",
+    "firstName": "Bert",
+    "lastName": "Schmitt",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 67,
+    "yearsExperience": 29,
+    "injuryPrevention": 72,
+    "recoverySpeed": 75,
+    "conditioning": 76,
+    "strengthTraining": 63,
+    "speedTraining": 81,
+    "workEthicBoost": 64
   },
   {
-    "id": "DAL-STAFF-5",
-    "team": "DAL",
-    "role": "Physical Therapist",
-    "name": "Aaron Johnson",
-    "vitals": {
-      "age": 65,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 62,
-      "discipline": 79,
-      "schemeKnowledge": 93,
-      "playerDev": 70,
-      "motivation": 79,
-      "injuryManagement": 86,
-      "conditioning": 64,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5727059
-    }
+    "id": "91edd967-4c2a-4f6d-8ecb-d9cf9d16da89",
+    "firstName": "Ernesto",
+    "lastName": "Christiansen",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 56,
+    "yearsExperience": 17,
+    "diagnosisAccuracy": 74,
+    "rehabQuality": 76,
+    "injuryRiskAssessment": 76,
+    "returnToPlayConservatism": 70,
+    "longTermHealthManagement": 68
   },
   {
-    "id": "DAL-STAFF-6",
-    "team": "DAL",
-    "role": "Athletic Trainer",
-    "name": "Kieran Lakin",
-    "vitals": {
-      "age": 30,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 60,
-      "schemeKnowledge": 81,
-      "playerDev": 93,
-      "motivation": 60,
-      "injuryManagement": 72,
-      "conditioning": 52,
-      "analyticsIQ": 70
-    },
-    "contract": {
-      "years": 4,
-      "salary": 5785429
-    }
+    "id": "b67d4a8f-fdd3-4f18-85ea-a82a4ffdef2f",
+    "firstName": "Wendell",
+    "lastName": "Johnston",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 44,
+    "yearsExperience": 15,
+    "proEvaluation": 79,
+    "contractInsight": 74,
+    "tradeValueAssessment": 69,
+    "rosterConstruction": 73,
+    "schemeFitAwareness": 84,
+    "developmentProjection": 73
   },
   {
-    "id": "DAL-STAFF-7",
-    "team": "DAL",
-    "role": "Analytics Coordinator",
-    "name": "Jared Ferry-Emmerich",
-    "vitals": {
-      "age": 63,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 66,
-      "discipline": 77,
-      "schemeKnowledge": 60,
-      "playerDev": 86,
-      "motivation": 63,
-      "injuryManagement": 48,
-      "conditioning": 68,
-      "analyticsIQ": 82
-    },
-    "contract": {
-      "years": 3,
-      "salary": 1997858
-    }
+    "id": "f8370573-e9a1-4d17-88ed-14debccbb277",
+    "firstName": "Guillermo",
+    "lastName": "Stokes",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 53,
+    "yearsExperience": 23,
+    "draftBoardManagement": 78,
+    "prospectEvaluation": 91,
+    "combineInterpretation": 82,
+    "positionalNeedsAwareness": 62,
+    "scoutingAccuracy": 89,
+    "regionalCoordination": 64
+  },
+  {
+    "id": "2c583799-368a-4a0d-8395-c1e4384ca01a",
+    "firstName": "Javier",
+    "lastName": "McCullough",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 65,
+    "yearsExperience": 15,
+    "regionalKnowledge": 75,
+    "positionalStrengths": 66,
+    "evaluationAccuracy": 80,
+    "intangiblesAssessment": 68,
+    "schemeFitProjection": 85
+  },
+  {
+    "id": "063373ba-5186-4783-baba-9e2cdaf3186c",
+    "firstName": "Edmund",
+    "lastName": "Stiedemann",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 46,
+    "yearsExperience": 11,
+    "regionalKnowledge": 70,
+    "positionalStrengths": 93,
+    "evaluationAccuracy": 89,
+    "intangiblesAssessment": 62,
+    "schemeFitProjection": 66
+  },
+  {
+    "id": "49d31191-3c95-4625-be04-31cb0ccb661c",
+    "firstName": "Trevor",
+    "lastName": "Rempel",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 35,
+    "yearsExperience": 11,
+    "modelingQuality": 91,
+    "fourthDownAggressiveness": 49,
+    "riskManagement": 96,
+    "contractValuation": 97,
+    "injuryRiskModeling": 94,
+    "tendencyAnalysis": 74
+  },
+  {
+    "id": "0603780e-a31e-49d6-95ae-91b188e5214b",
+    "firstName": "Earl",
+    "lastName": "Schroeder",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 58,
+    "yearsExperience": 13,
+    "mechanicsTraining": 75,
+    "decisionMakingTraining": 71,
+    "accuracyDevelopment": 89,
+    "pocketPresenceDevelopment": 92,
+    "leadershipMentoring": 75,
+    "filmStudyImpact": 81
   }
 ]

@@ -1,170 +1,183 @@
 [
   {
-    "id": "CHI-STAFF-1",
-    "team": "CHI",
-    "role": "Head Coach",
-    "name": "Jerry Ratke",
-    "vitals": {
-      "age": 48,
-      "experience": 3
-    },
-    "ratings": {
-      "leadership": 66,
-      "discipline": 65,
-      "schemeKnowledge": 92,
-      "playerDev": 74,
-      "motivation": 67,
-      "injuryManagement": 43,
-      "conditioning": 65,
-      "analyticsIQ": 64
-    },
-    "contract": {
-      "years": 5,
-      "salary": 3464642
-    }
+    "id": "e034203b-bee7-423a-ab9d-e4b941f7fc9c",
+    "firstName": "Andrew",
+    "lastName": "Ernser",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 65,
+    "yearsExperience": 25,
+    "type": "ceo",
+    "leadership": 83,
+    "culture": 77,
+    "strategy": 90,
+    "playerDevelopment": 84,
+    "discipline": 68,
+    "schemeOffense": "vertical",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 72,
+    "staffManagement": 92
   },
   {
-    "id": "CHI-STAFF-2",
-    "team": "CHI",
-    "role": "Offensive Coordinator",
-    "name": "Andrei Reichert",
-    "vitals": {
-      "age": 34,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 88,
-      "schemeKnowledge": 67,
-      "playerDev": 61,
-      "motivation": 68,
-      "injuryManagement": 56,
-      "conditioning": 47,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5023811
-    }
+    "id": "9191ed10-c09e-4800-a03b-d9eef83b3408",
+    "firstName": "Craig",
+    "lastName": "Thompson-Crist",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 53,
+    "yearsExperience": 22,
+    "playCalling": 95,
+    "qbDevelopment": 99,
+    "skillPlayerDevelopment": 66,
+    "offensiveSchemeKnowledge": 75,
+    "runGameDesign": 63,
+    "passGameDesign": 68,
+    "creativity": 84,
+    "schemePreference": "vertical"
   },
   {
-    "id": "CHI-STAFF-3",
-    "team": "CHI",
-    "role": "Defensive Coordinator",
-    "name": "Derek Howe",
-    "vitals": {
-      "age": 54,
-      "experience": 22
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 83,
-      "schemeKnowledge": 64,
-      "playerDev": 77,
-      "motivation": 75,
-      "injuryManagement": 50,
-      "conditioning": 66,
-      "analyticsIQ": 53
-    },
-    "contract": {
-      "years": 5,
-      "salary": 3576026
-    }
+    "id": "6580ff3c-d00e-46c2-adac-a396759017b4",
+    "firstName": "Calvin",
+    "lastName": "Larson",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 60,
+    "yearsExperience": 23,
+    "playCalling": 90,
+    "frontSevenDevelopment": 84,
+    "secondaryDevelopment": 81,
+    "defensiveSchemeKnowledge": 87,
+    "blitzDesign": 83,
+    "coverageDesign": 71,
+    "discipline": 99,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "CHI-STAFF-4",
-    "team": "CHI",
-    "role": "Strength & Conditioning Coach",
-    "name": "Caleb Blanda",
-    "vitals": {
-      "age": 56,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 69,
-      "schemeKnowledge": 61,
-      "playerDev": 74,
-      "motivation": 91,
-      "injuryManagement": 53,
-      "conditioning": 93,
-      "analyticsIQ": 56
-    },
-    "contract": {
-      "years": 5,
-      "salary": 1275017
-    }
+    "id": "1e9eabd1-e21d-4c94-9cca-5e9713ae422b",
+    "firstName": "Neil",
+    "lastName": "Towne",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 49,
+    "yearsExperience": 25,
+    "injuryPrevention": 88,
+    "recoverySpeed": 68,
+    "conditioning": 75,
+    "strengthTraining": 93,
+    "speedTraining": 67,
+    "workEthicBoost": 87
   },
   {
-    "id": "CHI-STAFF-5",
-    "team": "CHI",
-    "role": "Physical Therapist",
-    "name": "Hunter Grant-Heathcote",
-    "vitals": {
-      "age": 49,
-      "experience": 24
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 66,
-      "schemeKnowledge": 84,
-      "playerDev": 78,
-      "motivation": 74,
-      "injuryManagement": 74,
-      "conditioning": 59,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4880422
-    }
+    "id": "21b72b11-681f-4ab0-9eff-dce4df643072",
+    "firstName": "Troy",
+    "lastName": "Jerde",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 67,
+    "yearsExperience": 20,
+    "diagnosisAccuracy": 89,
+    "rehabQuality": 65,
+    "injuryRiskAssessment": 95,
+    "returnToPlayConservatism": 89,
+    "longTermHealthManagement": 62
   },
   {
-    "id": "CHI-STAFF-6",
-    "team": "CHI",
-    "role": "Athletic Trainer",
-    "name": "Benjamin Kuphal",
-    "vitals": {
-      "age": 42,
-      "experience": 37
-    },
-    "ratings": {
-      "leadership": 61,
-      "discipline": 74,
-      "schemeKnowledge": 65,
-      "playerDev": 68,
-      "motivation": 62,
-      "injuryManagement": 91,
-      "conditioning": 60,
-      "analyticsIQ": 60
-    },
-    "contract": {
-      "years": 4,
-      "salary": 5067561
-    }
+    "id": "30481fcf-20f7-4b45-b51e-632219c95d36",
+    "firstName": "Lawrence",
+    "lastName": "Torphy",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 36,
+    "yearsExperience": 8,
+    "proEvaluation": 88,
+    "contractInsight": 63,
+    "tradeValueAssessment": 64,
+    "rosterConstruction": 99,
+    "schemeFitAwareness": 82,
+    "developmentProjection": 94
   },
   {
-    "id": "CHI-STAFF-7",
-    "team": "CHI",
-    "role": "Analytics Coordinator",
-    "name": "Cormac Brown",
-    "vitals": {
-      "age": 41,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 75,
-      "discipline": 92,
-      "schemeKnowledge": 95,
-      "playerDev": 74,
-      "motivation": 89,
-      "injuryManagement": 68,
-      "conditioning": 45,
-      "analyticsIQ": 82
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4063037
-    }
+    "id": "a72cd337-2821-40cc-a447-cd9d982456f1",
+    "firstName": "Ron",
+    "lastName": "Brakus",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 45,
+    "yearsExperience": 5,
+    "draftBoardManagement": 77,
+    "prospectEvaluation": 88,
+    "combineInterpretation": 86,
+    "positionalNeedsAwareness": 78,
+    "scoutingAccuracy": 85,
+    "regionalCoordination": 71
+  },
+  {
+    "id": "69fefe83-fae4-40e1-9621-f150e1e5b4c4",
+    "firstName": "Austin",
+    "lastName": "Effertz",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 52,
+    "yearsExperience": 28,
+    "regionalKnowledge": 82,
+    "positionalStrengths": 68,
+    "evaluationAccuracy": 78,
+    "intangiblesAssessment": 84,
+    "schemeFitProjection": 82
+  },
+  {
+    "id": "27752014-90ab-413c-97d6-65effef4b87d",
+    "firstName": "Keith",
+    "lastName": "Rodriguez",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 68,
+    "yearsExperience": 9,
+    "regionalKnowledge": 83,
+    "positionalStrengths": 99,
+    "evaluationAccuracy": 93,
+    "intangiblesAssessment": 79,
+    "schemeFitProjection": 99
+  },
+  {
+    "id": "da710257-8f98-49b4-b210-13d6d6537f75",
+    "firstName": "Dwight",
+    "lastName": "Nader",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 65,
+    "yearsExperience": 11,
+    "modelingQuality": 93,
+    "fourthDownAggressiveness": 88,
+    "riskManagement": 86,
+    "contractValuation": 72,
+    "injuryRiskModeling": 62,
+    "tendencyAnalysis": 65
+  },
+  {
+    "id": "918774b9-e7c1-44dd-8bed-7ba8552bd5c7",
+    "firstName": "Nathan",
+    "lastName": "Keebler",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 61,
+    "yearsExperience": 19,
+    "mechanicsTraining": 69,
+    "decisionMakingTraining": 76,
+    "accuracyDevelopment": 60,
+    "pocketPresenceDevelopment": 94,
+    "leadershipMentoring": 87,
+    "filmStudyImpact": 80
   }
 ]

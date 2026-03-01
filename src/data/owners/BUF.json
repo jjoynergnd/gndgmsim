@@ -1,0 +1,13 @@
+{
+  "type": "patient",
+  "patience": 8,
+  "spendingAggression": 6,
+  "involvementLevel": 4,
+  "priorities": {
+    "wins": 7,
+    "playoffs": 6,
+    "finances": 5,
+    "playerDevelopment": 8,
+    "morale": 6
+  }
+}

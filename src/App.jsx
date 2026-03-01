@@ -1,57 +1,74 @@
 // src/App.jsx
 import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+
 import Sidebar from "./components/Sidebar";
 import Layout from "./components/Layout";
 
 import TeamSelectScreen from "./screens/TeamSelectScreen";
 import TeamPage from "./screens/TeamPage";
-
-import OffseasonHub from "./components/Offseason/OffseasonHub";
-
-// NEW: import the new orchestrator
-import { offseason } from "./engine/offseason/masterOrchestrator";
-
-import { Routes, Route, Navigate } from "react-router-dom";
+import GMpage from "./screens/OwnerGM/GMpage";
 
 /*
-  Updated OffseasonRoute:
-  Uses the NEW orchestrator instead of the old one.
+|----------------------------------------------------------------------
+| App Architecture
+|
+| Onboarding Routes:
+|   - No sidebar
+|
+| App Routes:
+|   - Sidebar enabled
+|----------------------------------------------------------------------
 */
-function OffseasonRoute() {
-  const state = offseason.getState();
-
-  // If no phase is set, offseason hasn't started
-  if (!state || !state.phase) {
-    return <Navigate to="/" replace />;
-  }
-
-  return <OffseasonHub />;
-}
-
 
 function App() {
-  console.log("APP RENDER START");
-
   return (
-    <div style={{ display: "flex", height: "100vh", width: "100vw" }}>
-      <Sidebar />
+    <Routes>
 
-      <Layout>
-        <Routes>
-          {/* TEAM SELECT */}
-          <Route path="/" element={<TeamSelectScreen />} />
+      {/* -------------------------------- */}
+      {/* ONBOARDING — TEAM SELECT */}
+      {/* -------------------------------- */}
+      <Route
+        path="/"
+        element={
+          <Layout variant="onboarding">
+            <TeamSelectScreen />
+          </Layout>
+        }
+      />
 
-          {/* TEAM PAGE */}
-          <Route path="/team" element={<TeamPage />} />
+      {/* -------------------------------- */}
+      {/* ONBOARDING — OWNER/GM PAGE */}
+      {/* -------------------------------- */}
+      <Route
+        path="/gm/:teamId"
+        element={
+          <Layout variant="onboarding">
+            <GMpage />
+          </Layout>
+        }
+      />
 
-          {/* OFFSEASON HUB */}
-          <Route path="/offseason" element={<OffseasonRoute />} />
+      {/* -------------------------------- */}
+      {/* MAIN APP (WITH SIDEBAR) */}
+      {/* -------------------------------- */}
+      <Route
+        path="/team/:teamId"
+        element={
+          <div style={{ display: "flex", height: "100vh", width: "100vw" }}>
+            <Sidebar />
 
-          {/* FALLBACK */}
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </Layout>
-    </div>
+            <Layout>
+              <TeamPage />
+            </Layout>
+          </div>
+        }
+      />
+
+      {/* FALLBACK */}
+      <Route path="*" element={<Navigate to="/" replace />} />
+
+    </Routes>
   );
 }
 

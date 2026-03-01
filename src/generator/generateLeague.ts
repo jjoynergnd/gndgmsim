@@ -38,9 +38,6 @@ function generateSingleTeam(teamId: string, year = 2026) {
   console.log(`\n=== Generating roster for ${teamId} (${year}) ===\n`);
 
   const roster = generateTeamRoster(teamId, year);
-  console.log("DEBUG roster length:", roster.length);
-
-  console.log("DEBUG FIRST CONTRACT:", roster[0]?.contract);
 
   const rosterPath = path.join(ROSTER_DIR, `${teamId}.json`);
   writeJSON(rosterPath, roster);

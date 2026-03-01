@@ -1,170 +1,183 @@
 [
   {
-    "id": "SEA-STAFF-1",
-    "team": "SEA",
-    "role": "Head Coach",
-    "name": "Colton Brown",
-    "vitals": {
-      "age": 61,
-      "experience": 18
-    },
-    "ratings": {
-      "leadership": 88,
-      "discipline": 92,
-      "schemeKnowledge": 61,
-      "playerDev": 88,
-      "motivation": 80,
-      "injuryManagement": 50,
-      "conditioning": 42,
-      "analyticsIQ": 53
-    },
-    "contract": {
-      "years": 4,
-      "salary": 1103566
-    }
+    "id": "1a976a65-a16a-43e5-9b6b-4bb17c2a01da",
+    "firstName": "Bryan",
+    "lastName": "Conroy",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 39,
+    "yearsExperience": 29,
+    "type": "mastermind",
+    "leadership": 80,
+    "culture": 70,
+    "strategy": 78,
+    "playerDevelopment": 62,
+    "discipline": 60,
+    "schemeOffense": "vertical",
+    "schemeDefense": "nickel_heavy",
+    "schemeFlexibility": 77,
+    "staffManagement": 87
   },
   {
-    "id": "SEA-STAFF-2",
-    "team": "SEA",
-    "role": "Offensive Coordinator",
-    "name": "Nikolai Kautzer-Walker",
-    "vitals": {
-      "age": 62,
-      "experience": 37
-    },
-    "ratings": {
-      "leadership": 60,
-      "discipline": 65,
-      "schemeKnowledge": 66,
-      "playerDev": 87,
-      "motivation": 69,
-      "injuryManagement": 46,
-      "conditioning": 52,
-      "analyticsIQ": 70
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5346423
-    }
+    "id": "a20fcea7-f9f4-41c9-a78d-bddcee23ae17",
+    "firstName": "Ed",
+    "lastName": "Hilll",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 50,
+    "yearsExperience": 27,
+    "playCalling": 68,
+    "qbDevelopment": 68,
+    "skillPlayerDevelopment": 72,
+    "offensiveSchemeKnowledge": 68,
+    "runGameDesign": 77,
+    "passGameDesign": 97,
+    "creativity": 83,
+    "schemePreference": "spread"
   },
   {
-    "id": "SEA-STAFF-3",
-    "team": "SEA",
-    "role": "Defensive Coordinator",
-    "name": "Holden Walter",
-    "vitals": {
-      "age": 58,
-      "experience": 10
-    },
-    "ratings": {
-      "leadership": 79,
-      "discipline": 81,
-      "schemeKnowledge": 61,
-      "playerDev": 74,
-      "motivation": 61,
-      "injuryManagement": 59,
-      "conditioning": 42,
-      "analyticsIQ": 54
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3944690
-    }
+    "id": "938ba5ca-4f4c-4ff5-aaa0-720d80546f6f",
+    "firstName": "Roland",
+    "lastName": "Ullrich",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 68,
+    "yearsExperience": 18,
+    "playCalling": 88,
+    "frontSevenDevelopment": 87,
+    "secondaryDevelopment": 67,
+    "defensiveSchemeKnowledge": 77,
+    "blitzDesign": 71,
+    "coverageDesign": 77,
+    "discipline": 96,
+    "schemePreference": "four_three"
   },
   {
-    "id": "SEA-STAFF-4",
-    "team": "SEA",
-    "role": "Strength & Conditioning Coach",
-    "name": "Eric Armstrong",
-    "vitals": {
-      "age": 42,
-      "experience": 12
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 84,
-      "schemeKnowledge": 77,
-      "playerDev": 90,
-      "motivation": 93,
-      "injuryManagement": 66,
-      "conditioning": 80,
-      "analyticsIQ": 66
-    },
-    "contract": {
-      "years": 5,
-      "salary": 4770515
-    }
+    "id": "743e523f-6941-44ea-9c17-0d25892b1cb3",
+    "firstName": "Amos",
+    "lastName": "Weber",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 52,
+    "yearsExperience": 27,
+    "injuryPrevention": 95,
+    "recoverySpeed": 98,
+    "conditioning": 94,
+    "strengthTraining": 95,
+    "speedTraining": 72,
+    "workEthicBoost": 64
   },
   {
-    "id": "SEA-STAFF-5",
-    "team": "SEA",
-    "role": "Physical Therapist",
-    "name": "Anton Gerlach",
-    "vitals": {
-      "age": 64,
-      "experience": 3
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 68,
-      "schemeKnowledge": 84,
-      "playerDev": 67,
-      "motivation": 73,
-      "injuryManagement": 84,
-      "conditioning": 40,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3392018
-    }
+    "id": "3b2c50d2-4edd-4e9a-a74d-c60c088b839b",
+    "firstName": "Gary",
+    "lastName": "Ledner",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 41,
+    "yearsExperience": 23,
+    "diagnosisAccuracy": 64,
+    "rehabQuality": 75,
+    "injuryRiskAssessment": 63,
+    "returnToPlayConservatism": 43,
+    "longTermHealthManagement": 65
   },
   {
-    "id": "SEA-STAFF-6",
-    "team": "SEA",
-    "role": "Athletic Trainer",
-    "name": "Yusuf Jacobi",
-    "vitals": {
-      "age": 32,
-      "experience": 30
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 80,
-      "schemeKnowledge": 68,
-      "playerDev": 82,
-      "motivation": 63,
-      "injuryManagement": 79,
-      "conditioning": 53,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3183501
-    }
+    "id": "f1c0fe69-d81b-4850-ae82-4695e4f0ba9b",
+    "firstName": "Alex",
+    "lastName": "Conroy",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 58,
+    "yearsExperience": 8,
+    "proEvaluation": 81,
+    "contractInsight": 88,
+    "tradeValueAssessment": 77,
+    "rosterConstruction": 81,
+    "schemeFitAwareness": 73,
+    "developmentProjection": 94
   },
   {
-    "id": "SEA-STAFF-7",
-    "team": "SEA",
-    "role": "Analytics Coordinator",
-    "name": "Nolan Herzog",
-    "vitals": {
-      "age": 60,
-      "experience": 5
-    },
-    "ratings": {
-      "leadership": 75,
-      "discipline": 65,
-      "schemeKnowledge": 85,
-      "playerDev": 62,
-      "motivation": 79,
-      "injuryManagement": 46,
-      "conditioning": 62,
-      "analyticsIQ": 81
-    },
-    "contract": {
-      "years": 5,
-      "salary": 4247699
-    }
+    "id": "0b796bcf-ec41-4ba6-a198-9fa5d4516781",
+    "firstName": "Toby",
+    "lastName": "Krajcik",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 64,
+    "yearsExperience": 22,
+    "draftBoardManagement": 80,
+    "prospectEvaluation": 93,
+    "combineInterpretation": 89,
+    "positionalNeedsAwareness": 86,
+    "scoutingAccuracy": 65,
+    "regionalCoordination": 64
+  },
+  {
+    "id": "1a1c3d7d-6023-489f-b57b-f4cbc7c20153",
+    "firstName": "Arnold",
+    "lastName": "Lowe",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 57,
+    "yearsExperience": 30,
+    "regionalKnowledge": 85,
+    "positionalStrengths": 64,
+    "evaluationAccuracy": 68,
+    "intangiblesAssessment": 95,
+    "schemeFitProjection": 88
+  },
+  {
+    "id": "3de23876-bb0e-489f-8fe3-f5914bb80ccd",
+    "firstName": "Dexter",
+    "lastName": "Thiel",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 36,
+    "yearsExperience": 8,
+    "regionalKnowledge": 77,
+    "positionalStrengths": 94,
+    "evaluationAccuracy": 61,
+    "intangiblesAssessment": 63,
+    "schemeFitProjection": 95
+  },
+  {
+    "id": "6b134fd3-51a2-45c2-8ef1-4bed31999aed",
+    "firstName": "Orlando",
+    "lastName": "Koch",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 52,
+    "yearsExperience": 16,
+    "modelingQuality": 95,
+    "fourthDownAggressiveness": 96,
+    "riskManagement": 84,
+    "contractValuation": 91,
+    "injuryRiskModeling": 96,
+    "tendencyAnalysis": 71
+  },
+  {
+    "id": "09e8838b-5ca3-46cd-a0a6-26789b9cf9b4",
+    "firstName": "Bruce",
+    "lastName": "Gutmann",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 65,
+    "yearsExperience": 24,
+    "mechanicsTraining": 79,
+    "decisionMakingTraining": 93,
+    "accuracyDevelopment": 61,
+    "pocketPresenceDevelopment": 93,
+    "leadershipMentoring": 70,
+    "filmStudyImpact": 62
   }
 ]

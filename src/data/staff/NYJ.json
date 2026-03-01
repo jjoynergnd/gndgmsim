@@ -1,170 +1,183 @@
 [
   {
-    "id": "NYJ-STAFF-1",
-    "team": "NYJ",
-    "role": "Head Coach",
-    "name": "Joshua Huel",
-    "vitals": {
-      "age": 30,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 91,
-      "discipline": 85,
-      "schemeKnowledge": 90,
-      "playerDev": 78,
-      "motivation": 68,
-      "injuryManagement": 49,
-      "conditioning": 68,
-      "analyticsIQ": 57
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2045621
-    }
+    "id": "cfbd47af-e06f-4f56-9c2d-bc008fc2ae73",
+    "firstName": "Kevin",
+    "lastName": "Pagac",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 54,
+    "yearsExperience": 19,
+    "type": "ceo",
+    "leadership": 79,
+    "culture": 74,
+    "strategy": 73,
+    "playerDevelopment": 92,
+    "discipline": 68,
+    "schemeOffense": "vertical",
+    "schemeDefense": "hybrid",
+    "schemeFlexibility": 65,
+    "staffManagement": 95
   },
   {
-    "id": "NYJ-STAFF-2",
-    "team": "NYJ",
-    "role": "Offensive Coordinator",
-    "name": "Cillian Baumbach",
-    "vitals": {
-      "age": 33,
-      "experience": 36
-    },
-    "ratings": {
-      "leadership": 73,
-      "discipline": 85,
-      "schemeKnowledge": 87,
-      "playerDev": 84,
-      "motivation": 69,
-      "injuryManagement": 42,
-      "conditioning": 69,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7020450
-    }
+    "id": "49c7cbf8-85f7-4aed-b9fd-02a3077feda1",
+    "firstName": "Charles",
+    "lastName": "Thiel",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 67,
+    "yearsExperience": 20,
+    "playCalling": 87,
+    "qbDevelopment": 97,
+    "skillPlayerDevelopment": 77,
+    "offensiveSchemeKnowledge": 82,
+    "runGameDesign": 97,
+    "passGameDesign": 71,
+    "creativity": 71,
+    "schemePreference": "spread"
   },
   {
-    "id": "NYJ-STAFF-3",
-    "team": "NYJ",
-    "role": "Defensive Coordinator",
-    "name": "Evan Hills",
-    "vitals": {
-      "age": 37,
-      "experience": 32
-    },
-    "ratings": {
-      "leadership": 60,
-      "discipline": 79,
-      "schemeKnowledge": 64,
-      "playerDev": 60,
-      "motivation": 70,
-      "injuryManagement": 61,
-      "conditioning": 53,
-      "analyticsIQ": 60
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3877589
-    }
+    "id": "f98c07c9-f645-4852-be42-58beb911b790",
+    "firstName": "Jean",
+    "lastName": "Braun-Weimann",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 62,
+    "yearsExperience": 17,
+    "playCalling": 89,
+    "frontSevenDevelopment": 94,
+    "secondaryDevelopment": 99,
+    "defensiveSchemeKnowledge": 84,
+    "blitzDesign": 95,
+    "coverageDesign": 98,
+    "discipline": 82,
+    "schemePreference": "three_four"
   },
   {
-    "id": "NYJ-STAFF-4",
-    "team": "NYJ",
-    "role": "Strength & Conditioning Coach",
-    "name": "Leon Hermann",
-    "vitals": {
-      "age": 32,
-      "experience": 11
-    },
-    "ratings": {
-      "leadership": 69,
-      "discipline": 92,
-      "schemeKnowledge": 85,
-      "playerDev": 88,
-      "motivation": 84,
-      "injuryManagement": 43,
-      "conditioning": 92,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 2,
-      "salary": 6645367
-    }
+    "id": "c6b04aec-84dd-4b70-8da3-ea3c0c4fcbcd",
+    "firstName": "Timmy",
+    "lastName": "Romaguera",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 39,
+    "yearsExperience": 30,
+    "injuryPrevention": 81,
+    "recoverySpeed": 83,
+    "conditioning": 85,
+    "strengthTraining": 61,
+    "speedTraining": 68,
+    "workEthicBoost": 93
   },
   {
-    "id": "NYJ-STAFF-5",
-    "team": "NYJ",
-    "role": "Physical Therapist",
-    "name": "Dennis White",
-    "vitals": {
-      "age": 50,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 76,
-      "schemeKnowledge": 75,
-      "playerDev": 87,
-      "motivation": 84,
-      "injuryManagement": 88,
-      "conditioning": 57,
-      "analyticsIQ": 48
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4005509
-    }
+    "id": "4579342d-26ce-4134-b89c-11a8881257e6",
+    "firstName": "Grady",
+    "lastName": "Dickens",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 45,
+    "yearsExperience": 7,
+    "diagnosisAccuracy": 81,
+    "rehabQuality": 73,
+    "injuryRiskAssessment": 77,
+    "returnToPlayConservatism": 81,
+    "longTermHealthManagement": 68
   },
   {
-    "id": "NYJ-STAFF-6",
-    "team": "NYJ",
-    "role": "Athletic Trainer",
-    "name": "Raul Ferry",
-    "vitals": {
-      "age": 35,
-      "experience": 31
-    },
-    "ratings": {
-      "leadership": 69,
-      "discipline": 83,
-      "schemeKnowledge": 61,
-      "playerDev": 84,
-      "motivation": 70,
-      "injuryManagement": 91,
-      "conditioning": 56,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7167259
-    }
+    "id": "772b4374-f045-4a39-b862-da75fc16e483",
+    "firstName": "Tracy",
+    "lastName": "Doyle",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 57,
+    "yearsExperience": 30,
+    "proEvaluation": 94,
+    "contractInsight": 66,
+    "tradeValueAssessment": 92,
+    "rosterConstruction": 68,
+    "schemeFitAwareness": 84,
+    "developmentProjection": 84
   },
   {
-    "id": "NYJ-STAFF-7",
-    "team": "NYJ",
-    "role": "Analytics Coordinator",
-    "name": "Seth Goyette",
-    "vitals": {
-      "age": 58,
-      "experience": 10
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 74,
-      "schemeKnowledge": 82,
-      "playerDev": 95,
-      "motivation": 73,
-      "injuryManagement": 69,
-      "conditioning": 51,
-      "analyticsIQ": 99
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7304999
-    }
+    "id": "cd9d0fed-4b51-45d2-b33c-ed76b5438f6d",
+    "firstName": "Cary",
+    "lastName": "Koelpin",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 59,
+    "yearsExperience": 18,
+    "draftBoardManagement": 93,
+    "prospectEvaluation": 70,
+    "combineInterpretation": 94,
+    "positionalNeedsAwareness": 88,
+    "scoutingAccuracy": 65,
+    "regionalCoordination": 91
+  },
+  {
+    "id": "01c1b378-3f11-462a-98c6-3b6ca207b934",
+    "firstName": "Clay",
+    "lastName": "Schmidt",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 65,
+    "yearsExperience": 7,
+    "regionalKnowledge": 83,
+    "positionalStrengths": 93,
+    "evaluationAccuracy": 81,
+    "intangiblesAssessment": 89,
+    "schemeFitProjection": 74
+  },
+  {
+    "id": "270801d3-35d1-46bf-98f2-8f537ab3abb0",
+    "firstName": "Wilson",
+    "lastName": "D'Amore",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 63,
+    "yearsExperience": 28,
+    "regionalKnowledge": 62,
+    "positionalStrengths": 64,
+    "evaluationAccuracy": 94,
+    "intangiblesAssessment": 72,
+    "schemeFitProjection": 75
+  },
+  {
+    "id": "8f4ac8a1-bba2-40f3-9869-4e09ddfc82d3",
+    "firstName": "Lee",
+    "lastName": "Buckridge",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 45,
+    "yearsExperience": 12,
+    "modelingQuality": 92,
+    "fourthDownAggressiveness": 46,
+    "riskManagement": 62,
+    "contractValuation": 89,
+    "injuryRiskModeling": 73,
+    "tendencyAnalysis": 60
+  },
+  {
+    "id": "2a840552-6401-42df-a3be-8e2887a41b98",
+    "firstName": "Leslie",
+    "lastName": "Predovic",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 53,
+    "yearsExperience": 6,
+    "mechanicsTraining": 77,
+    "decisionMakingTraining": 86,
+    "accuracyDevelopment": 75,
+    "pocketPresenceDevelopment": 89,
+    "leadershipMentoring": 94,
+    "filmStudyImpact": 81
   }
 ]

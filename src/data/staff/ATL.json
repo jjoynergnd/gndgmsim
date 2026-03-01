@@ -1,170 +1,183 @@
 [
   {
-    "id": "ATL-STAFF-1",
-    "team": "ATL",
-    "role": "Head Coach",
-    "name": "Gianni Gleason",
-    "vitals": {
-      "age": 40,
-      "experience": 26
-    },
-    "ratings": {
-      "leadership": 93,
-      "discipline": 79,
-      "schemeKnowledge": 73,
-      "playerDev": 71,
-      "motivation": 69,
-      "injuryManagement": 62,
-      "conditioning": 63,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2219370
-    }
+    "id": "1c29de1c-fef3-4889-b65f-686fdd564f4a",
+    "firstName": "Gary",
+    "lastName": "Von",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 55,
+    "yearsExperience": 25,
+    "type": "mastermind",
+    "leadership": 68,
+    "culture": 87,
+    "strategy": 75,
+    "playerDevelopment": 91,
+    "discipline": 99,
+    "schemeOffense": "west_coast",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 83,
+    "staffManagement": 83
   },
   {
-    "id": "ATL-STAFF-2",
-    "team": "ATL",
-    "role": "Offensive Coordinator",
-    "name": "Samuel Collier-Hayes",
-    "vitals": {
-      "age": 54,
-      "experience": 40
-    },
-    "ratings": {
-      "leadership": 74,
-      "discipline": 88,
-      "schemeKnowledge": 76,
-      "playerDev": 90,
-      "motivation": 74,
-      "injuryManagement": 53,
-      "conditioning": 59,
-      "analyticsIQ": 46
-    },
-    "contract": {
-      "years": 5,
-      "salary": 6629537
-    }
+    "id": "e40cea80-64aa-4316-866c-760f5ea0ab53",
+    "firstName": "Wilbert",
+    "lastName": "Gislason",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 63,
+    "yearsExperience": 24,
+    "playCalling": 63,
+    "qbDevelopment": 93,
+    "skillPlayerDevelopment": 93,
+    "offensiveSchemeKnowledge": 63,
+    "runGameDesign": 82,
+    "passGameDesign": 65,
+    "creativity": 97,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "ATL-STAFF-3",
-    "team": "ATL",
-    "role": "Defensive Coordinator",
-    "name": "Arthur Blick",
-    "vitals": {
-      "age": 38,
-      "experience": 4
-    },
-    "ratings": {
-      "leadership": 83,
-      "discipline": 86,
-      "schemeKnowledge": 69,
-      "playerDev": 68,
-      "motivation": 65,
-      "injuryManagement": 59,
-      "conditioning": 56,
-      "analyticsIQ": 60
-    },
-    "contract": {
-      "years": 5,
-      "salary": 1778575
-    }
+    "id": "e9151d7f-564e-4c57-b79c-f1a52b21acc1",
+    "firstName": "Wade",
+    "lastName": "Lowe",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 63,
+    "yearsExperience": 20,
+    "playCalling": 77,
+    "frontSevenDevelopment": 66,
+    "secondaryDevelopment": 92,
+    "defensiveSchemeKnowledge": 87,
+    "blitzDesign": 60,
+    "coverageDesign": 75,
+    "discipline": 86,
+    "schemePreference": "three_four"
   },
   {
-    "id": "ATL-STAFF-4",
-    "team": "ATL",
-    "role": "Strength & Conditioning Coach",
-    "name": "Porter Blick",
-    "vitals": {
-      "age": 63,
-      "experience": 8
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 80,
-      "schemeKnowledge": 66,
-      "playerDev": 73,
-      "motivation": 90,
-      "injuryManagement": 62,
-      "conditioning": 82,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 5,
-      "salary": 1427409
-    }
+    "id": "0734b5dd-6b08-44cb-9930-a9da42fb7ef8",
+    "firstName": "Daniel",
+    "lastName": "Douglas",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 53,
+    "yearsExperience": 29,
+    "injuryPrevention": 91,
+    "recoverySpeed": 72,
+    "conditioning": 79,
+    "strengthTraining": 73,
+    "speedTraining": 96,
+    "workEthicBoost": 80
   },
   {
-    "id": "ATL-STAFF-5",
-    "team": "ATL",
-    "role": "Physical Therapist",
-    "name": "Harold Goodwin",
-    "vitals": {
-      "age": 57,
-      "experience": 35
-    },
-    "ratings": {
-      "leadership": 63,
-      "discipline": 81,
-      "schemeKnowledge": 66,
-      "playerDev": 82,
-      "motivation": 90,
-      "injuryManagement": 71,
-      "conditioning": 41,
-      "analyticsIQ": 60
-    },
-    "contract": {
-      "years": 5,
-      "salary": 7732475
-    }
+    "id": "8faac679-6790-43b4-9bcd-f03000395560",
+    "firstName": "Jimmy",
+    "lastName": "Wiegand",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 66,
+    "yearsExperience": 21,
+    "diagnosisAccuracy": 99,
+    "rehabQuality": 83,
+    "injuryRiskAssessment": 83,
+    "returnToPlayConservatism": 74,
+    "longTermHealthManagement": 78
   },
   {
-    "id": "ATL-STAFF-6",
-    "team": "ATL",
-    "role": "Athletic Trainer",
-    "name": "Jordan Simonis",
-    "vitals": {
-      "age": 39,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 70,
-      "discipline": 73,
-      "schemeKnowledge": 73,
-      "playerDev": 86,
-      "motivation": 95,
-      "injuryManagement": 87,
-      "conditioning": 60,
-      "analyticsIQ": 48
-    },
-    "contract": {
-      "years": 4,
-      "salary": 7508337
-    }
+    "id": "949be63d-1895-4184-8f28-aa22ae31e607",
+    "firstName": "Jan",
+    "lastName": "Dooley",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 41,
+    "yearsExperience": 10,
+    "proEvaluation": 64,
+    "contractInsight": 99,
+    "tradeValueAssessment": 69,
+    "rosterConstruction": 93,
+    "schemeFitAwareness": 93,
+    "developmentProjection": 86
   },
   {
-    "id": "ATL-STAFF-7",
-    "team": "ATL",
-    "role": "Analytics Coordinator",
-    "name": "Rafael Gottlieb",
-    "vitals": {
-      "age": 64,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 89,
-      "discipline": 92,
-      "schemeKnowledge": 64,
-      "playerDev": 70,
-      "motivation": 60,
-      "injuryManagement": 59,
-      "conditioning": 58,
-      "analyticsIQ": 83
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4695081
-    }
+    "id": "fe36c7ea-e9b5-4bf8-8c4b-886b9eff31b4",
+    "firstName": "Perry",
+    "lastName": "Marquardt",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 47,
+    "yearsExperience": 18,
+    "draftBoardManagement": 74,
+    "prospectEvaluation": 84,
+    "combineInterpretation": 75,
+    "positionalNeedsAwareness": 79,
+    "scoutingAccuracy": 89,
+    "regionalCoordination": 70
+  },
+  {
+    "id": "59b2bb0a-38b1-4837-9f50-8fe07d359d79",
+    "firstName": "Danny",
+    "lastName": "Abbott",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 60,
+    "yearsExperience": 29,
+    "regionalKnowledge": 80,
+    "positionalStrengths": 73,
+    "evaluationAccuracy": 73,
+    "intangiblesAssessment": 71,
+    "schemeFitProjection": 79
+  },
+  {
+    "id": "54e1666e-a873-44b8-90b3-219abc937bb5",
+    "firstName": "Christopher",
+    "lastName": "Morissette",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 51,
+    "yearsExperience": 8,
+    "regionalKnowledge": 87,
+    "positionalStrengths": 66,
+    "evaluationAccuracy": 88,
+    "intangiblesAssessment": 72,
+    "schemeFitProjection": 71
+  },
+  {
+    "id": "ed18b340-28e0-4149-9aa0-5c0a47907f8d",
+    "firstName": "Eugene",
+    "lastName": "Kozey",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 35,
+    "yearsExperience": 16,
+    "modelingQuality": 88,
+    "fourthDownAggressiveness": 98,
+    "riskManagement": 65,
+    "contractValuation": 98,
+    "injuryRiskModeling": 70,
+    "tendencyAnalysis": 79
+  },
+  {
+    "id": "f94696d4-992a-4e9a-85c4-dcdd5e0fb6de",
+    "firstName": "Alan",
+    "lastName": "Collins",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 47,
+    "yearsExperience": 20,
+    "mechanicsTraining": 67,
+    "decisionMakingTraining": 67,
+    "accuracyDevelopment": 63,
+    "pocketPresenceDevelopment": 99,
+    "leadershipMentoring": 99,
+    "filmStudyImpact": 73
   }
 ]

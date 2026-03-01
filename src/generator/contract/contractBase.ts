@@ -5,16 +5,15 @@ import { POSITIONS } from "../config/positions.js";
 import { SALARY_CURVES, scaleCurve } from "../config/contractCurves.js";
 import type { Position } from "../config/positions.js";
 
-// -----------------------------
-// Contract Types
-// -----------------------------
+// ------------------------------------------------------------
+// Core Contract Types
+// ------------------------------------------------------------
 export interface ContractYearBreakdown {
   year: number;
   salary: number;
   bonusProrated: number;
   capHit: number;
 
-  // Added for Option C
   capSavings: number;
   capSavingsPostJune1: number;
 }
@@ -40,7 +39,6 @@ export interface Contract {
   structureType: string;
   yearBreakdown: ContractYearBreakdown[];
 
-  // ---- Metadata ----
   contractStyle: "balanced" | "team_friendly" | "player_friendly";
   voidYears: number;
   optionYears: number;
@@ -52,19 +50,52 @@ export interface Contract {
   isPlayerFriendly: boolean;
   isBalanced: boolean;
 
-  // ---- Dead Money Metadata ----
   deadMoney: DeadMoneyYear[];
   postJune1: PostJune1DeadMoney;
 
-  // ---- Cap Savings Metadata (Option C) ----
   capSavingsByYear: number[];
   capSavingsPostJune1ByYear: number[];
   cuttableYear: number | null;
 }
 
-// -----------------------------
+// ------------------------------------------------------------
+// Shared Types for Ops Modules
+// ------------------------------------------------------------
+export interface ExtensionPlan {
+  addedYears: number;
+  newAPY: number;
+  structureType: "frontloaded" | "balanced" | "backloaded";
+  startYear: number;
+}
+
+export interface RestructurePlan {
+  effectiveYear: number;
+  convertAmount: number;
+  useVoidYear: boolean;
+}
+
+export interface RestructureMetadata {
+  effectiveYear: number;
+  convertedAmount: number;
+  useVoidYear: boolean;
+  newBonusProrationYears: number;
+}
+
+export interface OptionCPlan {
+  extension?: ExtensionPlan | null;
+  restructure?: RestructurePlan | null;
+}
+
+export interface OptionCMetadata {
+  didExtend: boolean;
+  didRestructure: boolean;
+  extensionMetadata?: any;
+  restructureMetadata?: any;
+}
+
+// ------------------------------------------------------------
 // Utility: Weighted Random Pick
-// -----------------------------
+// ------------------------------------------------------------
 function weightedPick<T extends { weight: number }>(items: T[]): T {
   const total = items.reduce((s, i) => s + i.weight, 0);
   let r = Math.random() * total;
@@ -76,9 +107,9 @@ function weightedPick<T extends { weight: number }>(items: T[]): T {
   return items[items.length - 1];
 }
 
-// -----------------------------
+// ------------------------------------------------------------
 // Tier-Driven Deal Type Logic
-// -----------------------------
+// ------------------------------------------------------------
 const TIER_WEIGHTS: Record<
   string,
   { type: "team_friendly" | "balanced" | "player_friendly"; weight: number }[]
@@ -115,7 +146,6 @@ const TIER_WEIGHTS: Record<
   ],
 };
 
-// NFL-accurate curve mapping
 const DEAL_TYPE_CONFIG = {
   team_friendly: {
     bonusPct: 0.10,
@@ -136,9 +166,9 @@ function pickDealTypeByTier(tier: string): "team_friendly" | "balanced" | "playe
   return weightedPick(weights).type;
 }
 
-// -----------------------------
+// ------------------------------------------------------------
 // Salary Factor Helpers
-// -----------------------------
+// ------------------------------------------------------------
 function getOVRFactor(ovr: number): number {
   if (ovr >= 90) return 15.0;
   if (ovr >= 85) return 10.0;
@@ -173,9 +203,9 @@ function getPositionFactor(position: Position): number {
   }
 }
 
-// -----------------------------
+// ------------------------------------------------------------
 // Contract Length Logic
-// -----------------------------
+// ------------------------------------------------------------
 function getExpectedLength(age: number, ovr: number): number {
   let expected = 1;
 
@@ -212,10 +242,10 @@ function applyHardConstraints(age: number, ovr: number, years: number): number {
   return Math.min(maxYears, Math.max(minYears, years));
 }
 
-// -----------------------------
-// Dead Money Computation
-// -----------------------------
-function computeDeadMoney(
+// ------------------------------------------------------------
+// Dead Money Computation (Shared Utility)
+// ------------------------------------------------------------
+export function computeDeadMoney(
   yearBreakdown: ContractYearBreakdown[],
   guaranteedSalary: number,
   signingBonus: number
@@ -245,9 +275,9 @@ function computeDeadMoney(
   return { deadMoney, postJune1 };
 }
 
-// -----------------------------
-// Main Contract Generator
-// -----------------------------
+// ------------------------------------------------------------
+// Base Contract Generator
+// ------------------------------------------------------------
 export function generateBaseContract(player: {
   position: Position;
   ovr: number;
@@ -336,9 +366,6 @@ export function generateBaseContract(player: {
     signingBonus
   );
 
-  // -----------------------------
-  // Cap Savings Computation (Option C)
-  // -----------------------------
   const capSavingsByYear: number[] = [];
   const capSavingsPostJune1ByYear: number[] = [];
 
@@ -356,7 +383,6 @@ export function generateBaseContract(player: {
     capSavingsPostJune1ByYear.push(savingsPostJune1);
   }
 
-  // First year where cap savings > 0
   let cuttableYear: number | null = null;
   for (let i = 0; i < years; i++) {
     if (capSavingsByYear[i] > 0) {

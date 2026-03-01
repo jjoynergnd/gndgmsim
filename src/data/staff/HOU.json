@@ -1,170 +1,183 @@
 [
   {
-    "id": "HOU-STAFF-1",
-    "team": "HOU",
-    "role": "Head Coach",
-    "name": "Richard Douglas-Luettgen",
-    "vitals": {
-      "age": 58,
-      "experience": 36
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 83,
-      "schemeKnowledge": 68,
-      "playerDev": 65,
-      "motivation": 75,
-      "injuryManagement": 61,
-      "conditioning": 60,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3052775
-    }
+    "id": "4b036026-3620-4a5a-82f4-27672651e7d5",
+    "firstName": "Shane",
+    "lastName": "Rowe",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 41,
+    "yearsExperience": 16,
+    "type": "mastermind",
+    "leadership": 77,
+    "culture": 80,
+    "strategy": 89,
+    "playerDevelopment": 63,
+    "discipline": 97,
+    "schemeOffense": "vertical",
+    "schemeDefense": "three_four",
+    "schemeFlexibility": 45,
+    "staffManagement": 80
   },
   {
-    "id": "HOU-STAFF-2",
-    "team": "HOU",
-    "role": "Offensive Coordinator",
-    "name": "Vincent Treutel",
-    "vitals": {
-      "age": 46,
-      "experience": 24
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 91,
-      "schemeKnowledge": 90,
-      "playerDev": 64,
-      "motivation": 68,
-      "injuryManagement": 62,
-      "conditioning": 44,
-      "analyticsIQ": 40
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3659747
-    }
+    "id": "a04f9651-c7f2-4d2c-bbb8-65a10e0d3238",
+    "firstName": "Martin",
+    "lastName": "Breitenberg",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 49,
+    "yearsExperience": 23,
+    "playCalling": 79,
+    "qbDevelopment": 73,
+    "skillPlayerDevelopment": 99,
+    "offensiveSchemeKnowledge": 64,
+    "runGameDesign": 84,
+    "passGameDesign": 78,
+    "creativity": 94,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "HOU-STAFF-3",
-    "team": "HOU",
-    "role": "Defensive Coordinator",
-    "name": "Douglas Gibson",
-    "vitals": {
-      "age": 32,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 80,
-      "discipline": 74,
-      "schemeKnowledge": 66,
-      "playerDev": 75,
-      "motivation": 66,
-      "injuryManagement": 48,
-      "conditioning": 61,
-      "analyticsIQ": 69
-    },
-    "contract": {
-      "years": 5,
-      "salary": 3014746
-    }
+    "id": "76440eeb-5904-4409-83cb-9b5ae713b807",
+    "firstName": "Roger",
+    "lastName": "Dooley",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 41,
+    "yearsExperience": 26,
+    "playCalling": 69,
+    "frontSevenDevelopment": 70,
+    "secondaryDevelopment": 91,
+    "defensiveSchemeKnowledge": 83,
+    "blitzDesign": 88,
+    "coverageDesign": 93,
+    "discipline": 65,
+    "schemePreference": "three_four"
   },
   {
-    "id": "HOU-STAFF-4",
-    "team": "HOU",
-    "role": "Strength & Conditioning Coach",
-    "name": "Jason Rodriguez",
-    "vitals": {
-      "age": 42,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 62,
-      "discipline": 87,
-      "schemeKnowledge": 76,
-      "playerDev": 79,
-      "motivation": 69,
-      "injuryManagement": 47,
-      "conditioning": 83,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 2,
-      "salary": 6324485
-    }
+    "id": "ff2a8c7b-d327-4906-ad1f-81d94017b989",
+    "firstName": "Mathew",
+    "lastName": "Heaney",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 51,
+    "yearsExperience": 10,
+    "injuryPrevention": 90,
+    "recoverySpeed": 67,
+    "conditioning": 84,
+    "strengthTraining": 87,
+    "speedTraining": 72,
+    "workEthicBoost": 60
   },
   {
-    "id": "HOU-STAFF-5",
-    "team": "HOU",
-    "role": "Physical Therapist",
-    "name": "Justin Bernhard",
-    "vitals": {
-      "age": 40,
-      "experience": 12
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 95,
-      "schemeKnowledge": 76,
-      "playerDev": 93,
-      "motivation": 82,
-      "injuryManagement": 81,
-      "conditioning": 56,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5441264
-    }
+    "id": "3057185f-11e5-421b-948c-ded30f567084",
+    "firstName": "Kyle",
+    "lastName": "VonRueden",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 67,
+    "yearsExperience": 23,
+    "diagnosisAccuracy": 85,
+    "rehabQuality": 70,
+    "injuryRiskAssessment": 71,
+    "returnToPlayConservatism": 44,
+    "longTermHealthManagement": 66
   },
   {
-    "id": "HOU-STAFF-6",
-    "team": "HOU",
-    "role": "Athletic Trainer",
-    "name": "Douglas Dach",
-    "vitals": {
-      "age": 40,
-      "experience": 10
-    },
-    "ratings": {
-      "leadership": 75,
-      "discipline": 77,
-      "schemeKnowledge": 64,
-      "playerDev": 87,
-      "motivation": 84,
-      "injuryManagement": 71,
-      "conditioning": 62,
-      "analyticsIQ": 59
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2263954
-    }
+    "id": "920608f0-7479-469f-8061-8f0e2e78f96c",
+    "firstName": "Andrew",
+    "lastName": "Blanda",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 62,
+    "yearsExperience": 26,
+    "proEvaluation": 77,
+    "contractInsight": 86,
+    "tradeValueAssessment": 71,
+    "rosterConstruction": 72,
+    "schemeFitAwareness": 77,
+    "developmentProjection": 93
   },
   {
-    "id": "HOU-STAFF-7",
-    "team": "HOU",
-    "role": "Analytics Coordinator",
-    "name": "Kevin Schulist",
-    "vitals": {
-      "age": 64,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 95,
-      "discipline": 75,
-      "schemeKnowledge": 75,
-      "playerDev": 89,
-      "motivation": 63,
-      "injuryManagement": 69,
-      "conditioning": 57,
-      "analyticsIQ": 91
-    },
-    "contract": {
-      "years": 5,
-      "salary": 551322
-    }
+    "id": "843fac5e-da6e-44c8-ae42-4c9e51e68882",
+    "firstName": "Bennie",
+    "lastName": "Schultz",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 41,
+    "yearsExperience": 22,
+    "draftBoardManagement": 79,
+    "prospectEvaluation": 88,
+    "combineInterpretation": 72,
+    "positionalNeedsAwareness": 90,
+    "scoutingAccuracy": 91,
+    "regionalCoordination": 96
+  },
+  {
+    "id": "0da4a964-4af5-449e-b857-a0f2270fec62",
+    "firstName": "Ellis",
+    "lastName": "Larkin",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 55,
+    "yearsExperience": 23,
+    "regionalKnowledge": 99,
+    "positionalStrengths": 85,
+    "evaluationAccuracy": 83,
+    "intangiblesAssessment": 97,
+    "schemeFitProjection": 83
+  },
+  {
+    "id": "ec71cb99-20c8-4e68-a26c-f1dd3c7c8e00",
+    "firstName": "Ted",
+    "lastName": "Williamson",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 36,
+    "yearsExperience": 15,
+    "regionalKnowledge": 60,
+    "positionalStrengths": 75,
+    "evaluationAccuracy": 63,
+    "intangiblesAssessment": 71,
+    "schemeFitProjection": 95
+  },
+  {
+    "id": "e6ac0893-ad8c-409f-8046-16e03277f6ed",
+    "firstName": "Geoffrey",
+    "lastName": "Gottlieb-Veum",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 38,
+    "yearsExperience": 6,
+    "modelingQuality": 82,
+    "fourthDownAggressiveness": 97,
+    "riskManagement": 76,
+    "contractValuation": 93,
+    "injuryRiskModeling": 98,
+    "tendencyAnalysis": 99
+  },
+  {
+    "id": "ab60ae84-030a-4b17-af45-f4019b99c7de",
+    "firstName": "Hugh",
+    "lastName": "Purdy",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 62,
+    "yearsExperience": 30,
+    "mechanicsTraining": 91,
+    "decisionMakingTraining": 95,
+    "accuracyDevelopment": 87,
+    "pocketPresenceDevelopment": 81,
+    "leadershipMentoring": 72,
+    "filmStudyImpact": 97
   }
 ]

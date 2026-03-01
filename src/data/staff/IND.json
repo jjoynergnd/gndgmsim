@@ -1,170 +1,183 @@
 [
   {
-    "id": "IND-STAFF-1",
-    "team": "IND",
-    "role": "Head Coach",
-    "name": "Victor Baumbach",
-    "vitals": {
-      "age": 55,
-      "experience": 36
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 93,
-      "schemeKnowledge": 65,
-      "playerDev": 92,
-      "motivation": 94,
-      "injuryManagement": 41,
-      "conditioning": 63,
-      "analyticsIQ": 70
-    },
-    "contract": {
-      "years": 5,
-      "salary": 5458909
-    }
+    "id": "8beb9b5d-ef79-4282-9e52-7527a2406ed1",
+    "firstName": "Warren",
+    "lastName": "Stanton",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 52,
+    "yearsExperience": 19,
+    "type": "ceo",
+    "leadership": 84,
+    "culture": 72,
+    "strategy": 77,
+    "playerDevelopment": 94,
+    "discipline": 66,
+    "schemeOffense": "vertical",
+    "schemeDefense": "three_four",
+    "schemeFlexibility": 49,
+    "staffManagement": 83
   },
   {
-    "id": "IND-STAFF-2",
-    "team": "IND",
-    "role": "Offensive Coordinator",
-    "name": "Chase Lesch-Hane",
-    "vitals": {
-      "age": 33,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 89,
-      "discipline": 87,
-      "schemeKnowledge": 89,
-      "playerDev": 86,
-      "motivation": 94,
-      "injuryManagement": 45,
-      "conditioning": 53,
-      "analyticsIQ": 59
-    },
-    "contract": {
-      "years": 5,
-      "salary": 934919
-    }
+    "id": "86192ca6-1ee2-4e05-a07f-dc00e5ed0806",
+    "firstName": "Roland",
+    "lastName": "Langworth",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 65,
+    "yearsExperience": 19,
+    "playCalling": 64,
+    "qbDevelopment": 98,
+    "skillPlayerDevelopment": 88,
+    "offensiveSchemeKnowledge": 98,
+    "runGameDesign": 73,
+    "passGameDesign": 84,
+    "creativity": 67,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "IND-STAFF-3",
-    "team": "IND",
-    "role": "Defensive Coordinator",
-    "name": "Michael Weber",
-    "vitals": {
-      "age": 41,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 78,
-      "discipline": 75,
-      "schemeKnowledge": 72,
-      "playerDev": 71,
-      "motivation": 95,
-      "injuryManagement": 65,
-      "conditioning": 47,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 2,
-      "salary": 6245649
-    }
+    "id": "9848fdfd-7a24-4c1a-89c1-f2cea080acf0",
+    "firstName": "Jimmie",
+    "lastName": "Ondricka",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 63,
+    "yearsExperience": 27,
+    "playCalling": 79,
+    "frontSevenDevelopment": 87,
+    "secondaryDevelopment": 94,
+    "defensiveSchemeKnowledge": 87,
+    "blitzDesign": 76,
+    "coverageDesign": 70,
+    "discipline": 73,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "IND-STAFF-4",
-    "team": "IND",
-    "role": "Strength & Conditioning Coach",
-    "name": "Edgar Hane",
-    "vitals": {
-      "age": 37,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 79,
-      "discipline": 75,
-      "schemeKnowledge": 79,
-      "playerDev": 67,
-      "motivation": 65,
-      "injuryManagement": 69,
-      "conditioning": 84,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2519668
-    }
+    "id": "1bdd1e80-d282-4a8d-9d65-c44fa9121252",
+    "firstName": "Gary",
+    "lastName": "Wiza",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 35,
+    "yearsExperience": 13,
+    "injuryPrevention": 93,
+    "recoverySpeed": 81,
+    "conditioning": 92,
+    "strengthTraining": 73,
+    "speedTraining": 76,
+    "workEthicBoost": 96
   },
   {
-    "id": "IND-STAFF-5",
-    "team": "IND",
-    "role": "Physical Therapist",
-    "name": "Jeremy Lebsack",
-    "vitals": {
-      "age": 56,
-      "experience": 38
-    },
-    "ratings": {
-      "leadership": 83,
-      "discipline": 83,
-      "schemeKnowledge": 76,
-      "playerDev": 70,
-      "motivation": 75,
-      "injuryManagement": 90,
-      "conditioning": 58,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 2,
-      "salary": 6671990
-    }
+    "id": "033a2d96-211a-4b2e-bd2f-ec0c466d6003",
+    "firstName": "Edmond",
+    "lastName": "Dickens",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 58,
+    "yearsExperience": 30,
+    "diagnosisAccuracy": 65,
+    "rehabQuality": 93,
+    "injuryRiskAssessment": 82,
+    "returnToPlayConservatism": 60,
+    "longTermHealthManagement": 64
   },
   {
-    "id": "IND-STAFF-6",
-    "team": "IND",
-    "role": "Athletic Trainer",
-    "name": "Alberto Gleichner",
-    "vitals": {
-      "age": 40,
-      "experience": 7
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 71,
-      "schemeKnowledge": 71,
-      "playerDev": 76,
-      "motivation": 95,
-      "injuryManagement": 79,
-      "conditioning": 56,
-      "analyticsIQ": 69
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4401614
-    }
+    "id": "aa361942-0541-4bd3-a7c7-9921e6bac112",
+    "firstName": "Saul",
+    "lastName": "Wyman",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 54,
+    "yearsExperience": 12,
+    "proEvaluation": 84,
+    "contractInsight": 75,
+    "tradeValueAssessment": 78,
+    "rosterConstruction": 87,
+    "schemeFitAwareness": 77,
+    "developmentProjection": 97
   },
   {
-    "id": "IND-STAFF-7",
-    "team": "IND",
-    "role": "Analytics Coordinator",
-    "name": "Hyun Hane",
-    "vitals": {
-      "age": 38,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 78,
-      "discipline": 68,
-      "schemeKnowledge": 74,
-      "playerDev": 91,
-      "motivation": 78,
-      "injuryManagement": 70,
-      "conditioning": 59,
-      "analyticsIQ": 81
-    },
-    "contract": {
-      "years": 5,
-      "salary": 6171704
-    }
+    "id": "7bbfad3c-1be7-4d00-b558-328d43dc5c91",
+    "firstName": "Taylor",
+    "lastName": "Lockman",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 38,
+    "yearsExperience": 20,
+    "draftBoardManagement": 70,
+    "prospectEvaluation": 61,
+    "combineInterpretation": 95,
+    "positionalNeedsAwareness": 82,
+    "scoutingAccuracy": 83,
+    "regionalCoordination": 75
+  },
+  {
+    "id": "bf5e1be2-0228-48b7-86b7-183c57a760b0",
+    "firstName": "Clayton",
+    "lastName": "Schamberger",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 39,
+    "yearsExperience": 12,
+    "regionalKnowledge": 67,
+    "positionalStrengths": 65,
+    "evaluationAccuracy": 69,
+    "intangiblesAssessment": 85,
+    "schemeFitProjection": 71
+  },
+  {
+    "id": "9b7cb11c-1374-4772-8db1-1920d57fddba",
+    "firstName": "Alfred",
+    "lastName": "Schimmel",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 37,
+    "yearsExperience": 8,
+    "regionalKnowledge": 91,
+    "positionalStrengths": 84,
+    "evaluationAccuracy": 68,
+    "intangiblesAssessment": 87,
+    "schemeFitProjection": 93
+  },
+  {
+    "id": "035390ed-b061-47f6-a62b-cba2c8f2628a",
+    "firstName": "Jeremy",
+    "lastName": "Volkman",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 35,
+    "yearsExperience": 25,
+    "modelingQuality": 66,
+    "fourthDownAggressiveness": 49,
+    "riskManagement": 66,
+    "contractValuation": 79,
+    "injuryRiskModeling": 77,
+    "tendencyAnalysis": 98
+  },
+  {
+    "id": "37b35a7c-aa5d-4d78-b6c9-bba27a978d2b",
+    "firstName": "Alfred",
+    "lastName": "Hamill",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 54,
+    "yearsExperience": 28,
+    "mechanicsTraining": 61,
+    "decisionMakingTraining": 60,
+    "accuracyDevelopment": 70,
+    "pocketPresenceDevelopment": 68,
+    "leadershipMentoring": 88,
+    "filmStudyImpact": 79
   }
 ]

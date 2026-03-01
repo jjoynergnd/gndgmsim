@@ -1,170 +1,183 @@
 [
   {
-    "id": "TEN-STAFF-1",
-    "team": "TEN",
-    "role": "Head Coach",
-    "name": "Lucas Stehr",
-    "vitals": {
-      "age": 45,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 86,
-      "discipline": 68,
-      "schemeKnowledge": 79,
-      "playerDev": 79,
-      "motivation": 63,
-      "injuryManagement": 56,
-      "conditioning": 70,
-      "analyticsIQ": 50
-    },
-    "contract": {
-      "years": 5,
-      "salary": 4776319
-    }
+    "id": "51e12b9b-199d-47e0-9ef5-c81dd1f02703",
+    "firstName": "Preston",
+    "lastName": "Barrows-Denesik",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 35,
+    "yearsExperience": 24,
+    "type": "ceo",
+    "leadership": 93,
+    "culture": 76,
+    "strategy": 85,
+    "playerDevelopment": 90,
+    "discipline": 93,
+    "schemeOffense": "zone_run",
+    "schemeDefense": "nickel_heavy",
+    "schemeFlexibility": 45,
+    "staffManagement": 74
   },
   {
-    "id": "TEN-STAFF-2",
-    "team": "TEN",
-    "role": "Offensive Coordinator",
-    "name": "Cormac Bergnaum",
-    "vitals": {
-      "age": 52,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 66,
-      "schemeKnowledge": 60,
-      "playerDev": 83,
-      "motivation": 80,
-      "injuryManagement": 52,
-      "conditioning": 45,
-      "analyticsIQ": 53
-    },
-    "contract": {
-      "years": 3,
-      "salary": 6340753
-    }
+    "id": "a0ef8dce-abe7-42d8-8428-9ebdaaf757d3",
+    "firstName": "Troy",
+    "lastName": "Collins",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 37,
+    "yearsExperience": 21,
+    "playCalling": 97,
+    "qbDevelopment": 70,
+    "skillPlayerDevelopment": 80,
+    "offensiveSchemeKnowledge": 91,
+    "runGameDesign": 82,
+    "passGameDesign": 60,
+    "creativity": 66,
+    "schemePreference": "spread"
   },
   {
-    "id": "TEN-STAFF-3",
-    "team": "TEN",
-    "role": "Defensive Coordinator",
-    "name": "Lucas Heathcote",
-    "vitals": {
-      "age": 30,
-      "experience": 10
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 78,
-      "schemeKnowledge": 61,
-      "playerDev": 76,
-      "motivation": 69,
-      "injuryManagement": 65,
-      "conditioning": 56,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 2,
-      "salary": 620194
-    }
+    "id": "1670bd2b-f3eb-4cd8-8da4-6c108ff98e9e",
+    "firstName": "Shannon",
+    "lastName": "Kuhlman",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 36,
+    "yearsExperience": 11,
+    "playCalling": 90,
+    "frontSevenDevelopment": 73,
+    "secondaryDevelopment": 93,
+    "defensiveSchemeKnowledge": 78,
+    "blitzDesign": 91,
+    "coverageDesign": 83,
+    "discipline": 63,
+    "schemePreference": "three_four"
   },
   {
-    "id": "TEN-STAFF-4",
-    "team": "TEN",
-    "role": "Strength & Conditioning Coach",
-    "name": "Jonathan Bartoletti",
-    "vitals": {
-      "age": 48,
-      "experience": 26
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 91,
-      "schemeKnowledge": 74,
-      "playerDev": 93,
-      "motivation": 69,
-      "injuryManagement": 68,
-      "conditioning": 92,
-      "analyticsIQ": 63
-    },
-    "contract": {
-      "years": 3,
-      "salary": 1234537
-    }
+    "id": "9acce3cf-e71c-43ae-86a0-ff4c416991c7",
+    "firstName": "Miguel",
+    "lastName": "Simonis",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 68,
+    "yearsExperience": 21,
+    "injuryPrevention": 82,
+    "recoverySpeed": 68,
+    "conditioning": 91,
+    "strengthTraining": 87,
+    "speedTraining": 75,
+    "workEthicBoost": 98
   },
   {
-    "id": "TEN-STAFF-5",
-    "team": "TEN",
-    "role": "Physical Therapist",
-    "name": "Matthew Bahringer",
-    "vitals": {
-      "age": 63,
-      "experience": 11
-    },
-    "ratings": {
-      "leadership": 69,
-      "discipline": 87,
-      "schemeKnowledge": 83,
-      "playerDev": 72,
-      "motivation": 73,
-      "injuryManagement": 84,
-      "conditioning": 42,
-      "analyticsIQ": 40
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5936332
-    }
+    "id": "429dd001-8e69-4671-baa5-4d5322538520",
+    "firstName": "Rex",
+    "lastName": "Moore",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 64,
+    "yearsExperience": 24,
+    "diagnosisAccuracy": 97,
+    "rehabQuality": 75,
+    "injuryRiskAssessment": 73,
+    "returnToPlayConservatism": 65,
+    "longTermHealthManagement": 62
   },
   {
-    "id": "TEN-STAFF-6",
-    "team": "TEN",
-    "role": "Athletic Trainer",
-    "name": "Jacob Reynolds",
-    "vitals": {
-      "age": 63,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 73,
-      "discipline": 79,
-      "schemeKnowledge": 82,
-      "playerDev": 80,
-      "motivation": 84,
-      "injuryManagement": 81,
-      "conditioning": 59,
-      "analyticsIQ": 44
-    },
-    "contract": {
-      "years": 2,
-      "salary": 6274824
-    }
+    "id": "7868eaea-ca8a-4a49-b871-3b4d5d06d09c",
+    "firstName": "Alfonso",
+    "lastName": "Schneider",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 56,
+    "yearsExperience": 13,
+    "proEvaluation": 84,
+    "contractInsight": 80,
+    "tradeValueAssessment": 76,
+    "rosterConstruction": 77,
+    "schemeFitAwareness": 74,
+    "developmentProjection": 91
   },
   {
-    "id": "TEN-STAFF-7",
-    "team": "TEN",
-    "role": "Analytics Coordinator",
-    "name": "Jesse Zemlak",
-    "vitals": {
-      "age": 54,
-      "experience": 25
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 78,
-      "schemeKnowledge": 74,
-      "playerDev": 80,
-      "motivation": 74,
-      "injuryManagement": 70,
-      "conditioning": 54,
-      "analyticsIQ": 92
-    },
-    "contract": {
-      "years": 3,
-      "salary": 1125937
-    }
+    "id": "03e4f333-bdb6-47a5-8736-6c4d3a66cb46",
+    "firstName": "Lamar",
+    "lastName": "Will",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 53,
+    "yearsExperience": 23,
+    "draftBoardManagement": 75,
+    "prospectEvaluation": 96,
+    "combineInterpretation": 81,
+    "positionalNeedsAwareness": 78,
+    "scoutingAccuracy": 98,
+    "regionalCoordination": 68
+  },
+  {
+    "id": "4c40a4ea-0c85-4c02-9483-f650751b1e7b",
+    "firstName": "Tracy",
+    "lastName": "Marquardt",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 54,
+    "yearsExperience": 15,
+    "regionalKnowledge": 96,
+    "positionalStrengths": 97,
+    "evaluationAccuracy": 79,
+    "intangiblesAssessment": 94,
+    "schemeFitProjection": 97
+  },
+  {
+    "id": "c7bc58b5-a79f-43ad-9592-a9bb2ffc3b9c",
+    "firstName": "Phil",
+    "lastName": "Kuhn",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 54,
+    "yearsExperience": 26,
+    "regionalKnowledge": 89,
+    "positionalStrengths": 68,
+    "evaluationAccuracy": 63,
+    "intangiblesAssessment": 69,
+    "schemeFitProjection": 75
+  },
+  {
+    "id": "9eadaec2-de16-46fd-bb41-c51199607fdb",
+    "firstName": "Kenneth",
+    "lastName": "Cruickshank",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 61,
+    "yearsExperience": 20,
+    "modelingQuality": 85,
+    "fourthDownAggressiveness": 66,
+    "riskManagement": 73,
+    "contractValuation": 87,
+    "injuryRiskModeling": 92,
+    "tendencyAnalysis": 91
+  },
+  {
+    "id": "ce45ed57-ed8a-4f76-81ef-d1c977ecffd2",
+    "firstName": "Simon",
+    "lastName": "Cremin",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 48,
+    "yearsExperience": 8,
+    "mechanicsTraining": 66,
+    "decisionMakingTraining": 88,
+    "accuracyDevelopment": 78,
+    "pocketPresenceDevelopment": 83,
+    "leadershipMentoring": 64,
+    "filmStudyImpact": 87
   }
 ]

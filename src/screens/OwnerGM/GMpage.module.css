@@ -1,0 +1,56 @@
+.page {
+  position: relative;
+  background: #f7f8fa;
+  min-height: 100vh;
+  padding: 20px 16px 90px;
+  color: #111;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #3849e1;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 900px) {
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+.startButton {
+  position: fixed;
+  bottom: 18px;
+  left: 16px;
+  right: 16px;
+
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  background: #d0d3d8;
+  color: white;
+}
+
+.enabled {
+  background: #28c76f;
+}
+
+.loading {
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+}

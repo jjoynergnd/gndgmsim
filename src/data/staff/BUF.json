@@ -1,170 +1,183 @@
 [
   {
-    "id": "BUF-STAFF-1",
-    "team": "BUF",
-    "role": "Head Coach",
-    "name": "Yusuf Beatty",
-    "vitals": {
-      "age": 37,
-      "experience": 12
-    },
-    "ratings": {
-      "leadership": 61,
-      "discipline": 86,
-      "schemeKnowledge": 67,
-      "playerDev": 90,
-      "motivation": 68,
-      "injuryManagement": 69,
-      "conditioning": 61,
-      "analyticsIQ": 63
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3199997
-    }
+    "id": "0873e14f-ddc8-447e-8e04-2c8937b13c52",
+    "firstName": "Ted",
+    "lastName": "Roob",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 52,
+    "yearsExperience": 15,
+    "type": "teacher",
+    "leadership": 75,
+    "culture": 78,
+    "strategy": 70,
+    "playerDevelopment": 86,
+    "discipline": 83,
+    "schemeOffense": "west_coast",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 76,
+    "staffManagement": 70
   },
   {
-    "id": "BUF-STAFF-2",
-    "team": "BUF",
-    "role": "Offensive Coordinator",
-    "name": "Liang Jaskolski",
-    "vitals": {
-      "age": 35,
-      "experience": 29
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 95,
-      "schemeKnowledge": 63,
-      "playerDev": 60,
-      "motivation": 69,
-      "injuryManagement": 47,
-      "conditioning": 51,
-      "analyticsIQ": 47
-    },
-    "contract": {
-      "years": 2,
-      "salary": 4457467
-    }
+    "id": "82f8f027-2d86-4cdd-b998-877118ca1b34",
+    "firstName": "Shane",
+    "lastName": "Bechtelar-Reichel",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 67,
+    "yearsExperience": 13,
+    "playCalling": 60,
+    "qbDevelopment": 96,
+    "skillPlayerDevelopment": 63,
+    "offensiveSchemeKnowledge": 95,
+    "runGameDesign": 70,
+    "passGameDesign": 90,
+    "creativity": 95,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "BUF-STAFF-3",
-    "team": "BUF",
-    "role": "Defensive Coordinator",
-    "name": "Calvin Fahey",
-    "vitals": {
-      "age": 34,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 86,
-      "schemeKnowledge": 87,
-      "playerDev": 64,
-      "motivation": 87,
-      "injuryManagement": 58,
-      "conditioning": 43,
-      "analyticsIQ": 61
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3793067
-    }
+    "id": "0f9ba51d-2fc5-4774-a38d-b04dcffa5874",
+    "firstName": "Leonard",
+    "lastName": "Marks",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 54,
+    "yearsExperience": 29,
+    "playCalling": 77,
+    "frontSevenDevelopment": 78,
+    "secondaryDevelopment": 95,
+    "defensiveSchemeKnowledge": 87,
+    "blitzDesign": 69,
+    "coverageDesign": 79,
+    "discipline": 63,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "BUF-STAFF-4",
-    "team": "BUF",
-    "role": "Strength & Conditioning Coach",
-    "name": "Gabriel Stracke",
-    "vitals": {
-      "age": 49,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 64,
-      "schemeKnowledge": 93,
-      "playerDev": 83,
-      "motivation": 94,
-      "injuryManagement": 46,
-      "conditioning": 94,
-      "analyticsIQ": 58
-    },
-    "contract": {
-      "years": 2,
-      "salary": 691732
-    }
+    "id": "bff7d98c-3d04-42fc-808a-e050e0da495c",
+    "firstName": "Steve",
+    "lastName": "Windler",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 63,
+    "yearsExperience": 21,
+    "injuryPrevention": 97,
+    "recoverySpeed": 66,
+    "conditioning": 93,
+    "strengthTraining": 88,
+    "speedTraining": 73,
+    "workEthicBoost": 72
   },
   {
-    "id": "BUF-STAFF-5",
-    "team": "BUF",
-    "role": "Physical Therapist",
-    "name": "Quentin Braun",
-    "vitals": {
-      "age": 48,
-      "experience": 3
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 71,
-      "schemeKnowledge": 69,
-      "playerDev": 67,
-      "motivation": 76,
-      "injuryManagement": 72,
-      "conditioning": 60,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7806161
-    }
+    "id": "99eaf773-0645-43ca-a58e-4f036e30b794",
+    "firstName": "Zachary",
+    "lastName": "Hammes",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 39,
+    "yearsExperience": 18,
+    "diagnosisAccuracy": 69,
+    "rehabQuality": 73,
+    "injuryRiskAssessment": 73,
+    "returnToPlayConservatism": 74,
+    "longTermHealthManagement": 89
   },
   {
-    "id": "BUF-STAFF-6",
-    "team": "BUF",
-    "role": "Athletic Trainer",
-    "name": "Michael Reynolds",
-    "vitals": {
-      "age": 40,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 73,
-      "discipline": 69,
-      "schemeKnowledge": 84,
-      "playerDev": 94,
-      "motivation": 92,
-      "injuryManagement": 86,
-      "conditioning": 55,
-      "analyticsIQ": 59
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2939452
-    }
+    "id": "afd34b58-498d-4bed-8f3c-26e1d5cba3f4",
+    "firstName": "Darrell",
+    "lastName": "Schaefer",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 46,
+    "yearsExperience": 13,
+    "proEvaluation": 95,
+    "contractInsight": 61,
+    "tradeValueAssessment": 60,
+    "rosterConstruction": 97,
+    "schemeFitAwareness": 97,
+    "developmentProjection": 68
   },
   {
-    "id": "BUF-STAFF-7",
-    "team": "BUF",
-    "role": "Analytics Coordinator",
-    "name": "Benjamin Kunde",
-    "vitals": {
-      "age": 52,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 72,
-      "schemeKnowledge": 82,
-      "playerDev": 80,
-      "motivation": 61,
-      "injuryManagement": 57,
-      "conditioning": 55,
-      "analyticsIQ": 94
-    },
-    "contract": {
-      "years": 5,
-      "salary": 721579
-    }
+    "id": "4007eeae-4b27-4645-a431-5b273f4b0276",
+    "firstName": "Lionel",
+    "lastName": "Braun",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 37,
+    "yearsExperience": 6,
+    "draftBoardManagement": 82,
+    "prospectEvaluation": 68,
+    "combineInterpretation": 93,
+    "positionalNeedsAwareness": 91,
+    "scoutingAccuracy": 76,
+    "regionalCoordination": 96
+  },
+  {
+    "id": "70fb2a13-fd43-4e0a-a7fa-cfd03ec5368e",
+    "firstName": "Bert",
+    "lastName": "Goldner",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 41,
+    "yearsExperience": 24,
+    "regionalKnowledge": 94,
+    "positionalStrengths": 96,
+    "evaluationAccuracy": 67,
+    "intangiblesAssessment": 85,
+    "schemeFitProjection": 85
+  },
+  {
+    "id": "ef733c3e-7229-4fa2-8ddf-9e5906848769",
+    "firstName": "Ernesto",
+    "lastName": "Schimmel",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 42,
+    "yearsExperience": 20,
+    "regionalKnowledge": 66,
+    "positionalStrengths": 75,
+    "evaluationAccuracy": 90,
+    "intangiblesAssessment": 76,
+    "schemeFitProjection": 81
+  },
+  {
+    "id": "26a43fb2-69ed-42b5-bb4b-20d2328289a8",
+    "firstName": "Pat",
+    "lastName": "Labadie",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 42,
+    "yearsExperience": 6,
+    "modelingQuality": 79,
+    "fourthDownAggressiveness": 43,
+    "riskManagement": 60,
+    "contractValuation": 82,
+    "injuryRiskModeling": 74,
+    "tendencyAnalysis": 93
+  },
+  {
+    "id": "80f1bba0-f5a4-4393-9b6f-a4c8f7ba2606",
+    "firstName": "Trevor",
+    "lastName": "Haley",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 55,
+    "yearsExperience": 27,
+    "mechanicsTraining": 96,
+    "decisionMakingTraining": 60,
+    "accuracyDevelopment": 97,
+    "pocketPresenceDevelopment": 97,
+    "leadershipMentoring": 72,
+    "filmStudyImpact": 61
   }
 ]

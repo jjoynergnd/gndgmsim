@@ -1,170 +1,183 @@
 [
   {
-    "id": "NE-STAFF-1",
-    "team": "NE",
-    "role": "Head Coach",
-    "name": "Austin Bayer",
-    "vitals": {
-      "age": 45,
-      "experience": 32
-    },
-    "ratings": {
-      "leadership": 66,
-      "discipline": 90,
-      "schemeKnowledge": 89,
-      "playerDev": 82,
-      "motivation": 63,
-      "injuryManagement": 54,
-      "conditioning": 67,
-      "analyticsIQ": 58
-    },
-    "contract": {
-      "years": 2,
-      "salary": 516324
-    }
+    "id": "7abe2f72-b66c-4f65-93ea-f1827672be4f",
+    "firstName": "Damon",
+    "lastName": "Hagenes",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 37,
+    "yearsExperience": 7,
+    "type": "mastermind",
+    "leadership": 80,
+    "culture": 70,
+    "strategy": 94,
+    "playerDevelopment": 82,
+    "discipline": 90,
+    "schemeOffense": "vertical",
+    "schemeDefense": "hybrid",
+    "schemeFlexibility": 95,
+    "staffManagement": 74
   },
   {
-    "id": "NE-STAFF-2",
-    "team": "NE",
-    "role": "Offensive Coordinator",
-    "name": "Luca Lakin",
-    "vitals": {
-      "age": 32,
-      "experience": 11
-    },
-    "ratings": {
-      "leadership": 61,
-      "discipline": 74,
-      "schemeKnowledge": 72,
-      "playerDev": 74,
-      "motivation": 79,
-      "injuryManagement": 47,
-      "conditioning": 70,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3898817
-    }
+    "id": "82ec4a63-215b-4459-8b92-aa0fd9225949",
+    "firstName": "Felix",
+    "lastName": "Feest",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 51,
+    "yearsExperience": 19,
+    "playCalling": 98,
+    "qbDevelopment": 84,
+    "skillPlayerDevelopment": 98,
+    "offensiveSchemeKnowledge": 62,
+    "runGameDesign": 67,
+    "passGameDesign": 84,
+    "creativity": 78,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "NE-STAFF-3",
-    "team": "NE",
-    "role": "Defensive Coordinator",
-    "name": "Jesse Borer",
-    "vitals": {
-      "age": 45,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 91,
-      "discipline": 62,
-      "schemeKnowledge": 63,
-      "playerDev": 64,
-      "motivation": 69,
-      "injuryManagement": 62,
-      "conditioning": 45,
-      "analyticsIQ": 64
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3000991
-    }
+    "id": "2f2c8f72-bb36-416b-82fd-50018eb37204",
+    "firstName": "Marshall",
+    "lastName": "Kirlin",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 47,
+    "yearsExperience": 10,
+    "playCalling": 67,
+    "frontSevenDevelopment": 60,
+    "secondaryDevelopment": 61,
+    "defensiveSchemeKnowledge": 85,
+    "blitzDesign": 94,
+    "coverageDesign": 79,
+    "discipline": 69,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "NE-STAFF-4",
-    "team": "NE",
-    "role": "Strength & Conditioning Coach",
-    "name": "Sean Ward",
-    "vitals": {
-      "age": 60,
-      "experience": 7
-    },
-    "ratings": {
-      "leadership": 69,
-      "discipline": 66,
-      "schemeKnowledge": 91,
-      "playerDev": 85,
-      "motivation": 61,
-      "injuryManagement": 58,
-      "conditioning": 82,
-      "analyticsIQ": 57
-    },
-    "contract": {
-      "years": 5,
-      "salary": 7802568
-    }
+    "id": "ad56c156-738a-4742-af29-342c12978dff",
+    "firstName": "Roland",
+    "lastName": "Mills-Rohan",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 52,
+    "yearsExperience": 16,
+    "injuryPrevention": 67,
+    "recoverySpeed": 89,
+    "conditioning": 70,
+    "strengthTraining": 83,
+    "speedTraining": 92,
+    "workEthicBoost": 97
   },
   {
-    "id": "NE-STAFF-5",
-    "team": "NE",
-    "role": "Physical Therapist",
-    "name": "Bruce Nikolaus",
-    "vitals": {
-      "age": 52,
-      "experience": 12
-    },
-    "ratings": {
-      "leadership": 88,
-      "discipline": 71,
-      "schemeKnowledge": 73,
-      "playerDev": 75,
-      "motivation": 87,
-      "injuryManagement": 89,
-      "conditioning": 63,
-      "analyticsIQ": 66
-    },
-    "contract": {
-      "years": 4,
-      "salary": 7065019
-    }
+    "id": "fb2df084-4f85-46a2-86fb-033f4ba6b3a8",
+    "firstName": "Raul",
+    "lastName": "Bednar",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 37,
+    "yearsExperience": 15,
+    "diagnosisAccuracy": 95,
+    "rehabQuality": 93,
+    "injuryRiskAssessment": 85,
+    "returnToPlayConservatism": 56,
+    "longTermHealthManagement": 60
   },
   {
-    "id": "NE-STAFF-6",
-    "team": "NE",
-    "role": "Athletic Trainer",
-    "name": "Ruben Hyatt",
-    "vitals": {
-      "age": 59,
-      "experience": 14
-    },
-    "ratings": {
-      "leadership": 89,
-      "discipline": 65,
-      "schemeKnowledge": 93,
-      "playerDev": 64,
-      "motivation": 94,
-      "injuryManagement": 82,
-      "conditioning": 69,
-      "analyticsIQ": 47
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3862519
-    }
+    "id": "86060aca-698d-4143-9eb5-05ace362cd97",
+    "firstName": "Wilfred",
+    "lastName": "Shanahan",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 55,
+    "yearsExperience": 18,
+    "proEvaluation": 82,
+    "contractInsight": 81,
+    "tradeValueAssessment": 74,
+    "rosterConstruction": 62,
+    "schemeFitAwareness": 88,
+    "developmentProjection": 80
   },
   {
-    "id": "NE-STAFF-7",
-    "team": "NE",
-    "role": "Analytics Coordinator",
-    "name": "Calvin Jacobson",
-    "vitals": {
-      "age": 62,
-      "experience": 25
-    },
-    "ratings": {
-      "leadership": 64,
-      "discipline": 80,
-      "schemeKnowledge": 66,
-      "playerDev": 60,
-      "motivation": 75,
-      "injuryManagement": 59,
-      "conditioning": 63,
-      "analyticsIQ": 98
-    },
-    "contract": {
-      "years": 2,
-      "salary": 4308346
-    }
+    "id": "1d7b60ba-7bc6-4f58-9c86-23287021af3f",
+    "firstName": "Tom",
+    "lastName": "Hammes",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 45,
+    "yearsExperience": 12,
+    "draftBoardManagement": 66,
+    "prospectEvaluation": 92,
+    "combineInterpretation": 99,
+    "positionalNeedsAwareness": 74,
+    "scoutingAccuracy": 66,
+    "regionalCoordination": 90
+  },
+  {
+    "id": "f39dded1-47a5-4db1-90bd-2780da670541",
+    "firstName": "Corey",
+    "lastName": "Hahn",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 43,
+    "yearsExperience": 23,
+    "regionalKnowledge": 95,
+    "positionalStrengths": 96,
+    "evaluationAccuracy": 80,
+    "intangiblesAssessment": 76,
+    "schemeFitProjection": 82
+  },
+  {
+    "id": "ce98f231-a50d-418e-ae1f-06361dc056c1",
+    "firstName": "Carlos",
+    "lastName": "Morissette",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 66,
+    "yearsExperience": 6,
+    "regionalKnowledge": 69,
+    "positionalStrengths": 99,
+    "evaluationAccuracy": 91,
+    "intangiblesAssessment": 96,
+    "schemeFitProjection": 69
+  },
+  {
+    "id": "f1af12be-91cf-43ce-bfd6-f529fe75a132",
+    "firstName": "Joseph",
+    "lastName": "Konopelski",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 63,
+    "yearsExperience": 18,
+    "modelingQuality": 84,
+    "fourthDownAggressiveness": 60,
+    "riskManagement": 98,
+    "contractValuation": 94,
+    "injuryRiskModeling": 67,
+    "tendencyAnalysis": 99
+  },
+  {
+    "id": "4f83878a-343d-49dc-9c72-21ab2eee2781",
+    "firstName": "Erik",
+    "lastName": "Lindgren",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 58,
+    "yearsExperience": 28,
+    "mechanicsTraining": 65,
+    "decisionMakingTraining": 94,
+    "accuracyDevelopment": 93,
+    "pocketPresenceDevelopment": 96,
+    "leadershipMentoring": 69,
+    "filmStudyImpact": 65
   }
 ]

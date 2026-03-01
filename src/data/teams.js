@@ -1,6 +1,6 @@
 export const teams = [
   // -------------------- AFC NORTH --------------------
-  { id: "BAL", city: "BAL", mascot: "Night Wings", conference: "AFC", division: "North", color: "#5A4FCF" },
+  { id: "BAL", city: "BAL", mascot: "Sky Hawks", conference: "AFC", division: "North", color: "#5A4FCF" },
   { id: "CIN", city: "CIN", mascot: "Striped Fury", conference: "AFC", division: "North", color: "#F77F2F" },
   { id: "CLE", city: "CLE", mascot: "Forge Hounds", conference: "AFC", division: "North", color: "#A65A2E" },
   { id: "PIT", city: "PIT", mascot: "Iron Hammers", conference: "AFC", division: "North", color: "#6E6E6E" },

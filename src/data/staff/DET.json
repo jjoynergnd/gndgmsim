@@ -1,170 +1,183 @@
 [
   {
-    "id": "DET-STAFF-1",
-    "team": "DET",
-    "role": "Head Coach",
-    "name": "Keith Predovic",
-    "vitals": {
-      "age": 63,
-      "experience": 35
-    },
-    "ratings": {
-      "leadership": 83,
-      "discipline": 85,
-      "schemeKnowledge": 73,
-      "playerDev": 63,
-      "motivation": 86,
-      "injuryManagement": 57,
-      "conditioning": 45,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 5,
-      "salary": 5408547
-    }
+    "id": "f16e5fc3-ef49-4882-b9d1-c0b3cdbb0667",
+    "firstName": "Jack",
+    "lastName": "Runte",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 57,
+    "yearsExperience": 7,
+    "type": "teacher",
+    "leadership": 96,
+    "culture": 95,
+    "strategy": 86,
+    "playerDevelopment": 90,
+    "discipline": 95,
+    "schemeOffense": "vertical",
+    "schemeDefense": "nickel_heavy",
+    "schemeFlexibility": 78,
+    "staffManagement": 85
   },
   {
-    "id": "DET-STAFF-2",
-    "team": "DET",
-    "role": "Offensive Coordinator",
-    "name": "Tariq Wunsch-Rogahn",
-    "vitals": {
-      "age": 44,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 95,
-      "discipline": 81,
-      "schemeKnowledge": 88,
-      "playerDev": 65,
-      "motivation": 82,
-      "injuryManagement": 43,
-      "conditioning": 51,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3286300
-    }
+    "id": "a9db7cc7-db4e-44fc-ab80-668447f30193",
+    "firstName": "Santiago",
+    "lastName": "Rau",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 54,
+    "yearsExperience": 26,
+    "playCalling": 70,
+    "qbDevelopment": 66,
+    "skillPlayerDevelopment": 72,
+    "offensiveSchemeKnowledge": 83,
+    "runGameDesign": 75,
+    "passGameDesign": 62,
+    "creativity": 74,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "DET-STAFF-3",
-    "team": "DET",
-    "role": "Defensive Coordinator",
-    "name": "Igor MacGyver",
-    "vitals": {
-      "age": 48,
-      "experience": 24
-    },
-    "ratings": {
-      "leadership": 62,
-      "discipline": 67,
-      "schemeKnowledge": 79,
-      "playerDev": 92,
-      "motivation": 68,
-      "injuryManagement": 58,
-      "conditioning": 65,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 5,
-      "salary": 5676285
-    }
+    "id": "3fcb20c4-3a7b-4c02-af3b-b6ff9ce69be1",
+    "firstName": "Shannon",
+    "lastName": "Bahringer",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 68,
+    "yearsExperience": 7,
+    "playCalling": 94,
+    "frontSevenDevelopment": 71,
+    "secondaryDevelopment": 92,
+    "defensiveSchemeKnowledge": 90,
+    "blitzDesign": 97,
+    "coverageDesign": 98,
+    "discipline": 81,
+    "schemePreference": "three_four"
   },
   {
-    "id": "DET-STAFF-4",
-    "team": "DET",
-    "role": "Strength & Conditioning Coach",
-    "name": "Andre Considine",
-    "vitals": {
-      "age": 38,
-      "experience": 7
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 83,
-      "schemeKnowledge": 86,
-      "playerDev": 71,
-      "motivation": 64,
-      "injuryManagement": 51,
-      "conditioning": 88,
-      "analyticsIQ": 40
-    },
-    "contract": {
-      "years": 2,
-      "salary": 4559063
-    }
+    "id": "e773b7a0-a4b4-4a4f-b4d6-dc0545169d99",
+    "firstName": "Oscar",
+    "lastName": "Boyer",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 58,
+    "yearsExperience": 18,
+    "injuryPrevention": 60,
+    "recoverySpeed": 83,
+    "conditioning": 96,
+    "strengthTraining": 93,
+    "speedTraining": 76,
+    "workEthicBoost": 60
   },
   {
-    "id": "DET-STAFF-5",
-    "team": "DET",
-    "role": "Physical Therapist",
-    "name": "Pavel Donnelly",
-    "vitals": {
-      "age": 34,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 70,
-      "schemeKnowledge": 60,
-      "playerDev": 90,
-      "motivation": 73,
-      "injuryManagement": 74,
-      "conditioning": 57,
-      "analyticsIQ": 45
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7861217
-    }
+    "id": "9dbd4815-16a3-409b-986e-1ae0f8616109",
+    "firstName": "Dale",
+    "lastName": "Funk",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 68,
+    "yearsExperience": 14,
+    "diagnosisAccuracy": 77,
+    "rehabQuality": 84,
+    "injuryRiskAssessment": 83,
+    "returnToPlayConservatism": 45,
+    "longTermHealthManagement": 79
   },
   {
-    "id": "DET-STAFF-6",
-    "team": "DET",
-    "role": "Athletic Trainer",
-    "name": "Luke Runolfsdottir",
-    "vitals": {
-      "age": 36,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 76,
-      "discipline": 66,
-      "schemeKnowledge": 91,
-      "playerDev": 91,
-      "motivation": 80,
-      "injuryManagement": 82,
-      "conditioning": 63,
-      "analyticsIQ": 59
-    },
-    "contract": {
-      "years": 4,
-      "salary": 6859310
-    }
+    "id": "4aec37b0-bbfc-4f0c-95e6-fcec5c96a2e8",
+    "firstName": "Leroy",
+    "lastName": "Shanahan",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 44,
+    "yearsExperience": 5,
+    "proEvaluation": 94,
+    "contractInsight": 66,
+    "tradeValueAssessment": 66,
+    "rosterConstruction": 81,
+    "schemeFitAwareness": 81,
+    "developmentProjection": 88
   },
   {
-    "id": "DET-STAFF-7",
-    "team": "DET",
-    "role": "Analytics Coordinator",
-    "name": "Sung Bashirian",
-    "vitals": {
-      "age": 51,
-      "experience": 18
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 73,
-      "schemeKnowledge": 70,
-      "playerDev": 95,
-      "motivation": 94,
-      "injuryManagement": 41,
-      "conditioning": 56,
-      "analyticsIQ": 88
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5598337
-    }
+    "id": "2417cf50-51ff-4c1f-b7c5-c5abb88001a5",
+    "firstName": "Vincent",
+    "lastName": "Schmeler",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 40,
+    "yearsExperience": 6,
+    "draftBoardManagement": 80,
+    "prospectEvaluation": 83,
+    "combineInterpretation": 70,
+    "positionalNeedsAwareness": 93,
+    "scoutingAccuracy": 75,
+    "regionalCoordination": 93
+  },
+  {
+    "id": "b923ee77-f71b-4a9d-a277-64f51b8c69d5",
+    "firstName": "Ryan",
+    "lastName": "Mann",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 55,
+    "yearsExperience": 30,
+    "regionalKnowledge": 71,
+    "positionalStrengths": 81,
+    "evaluationAccuracy": 68,
+    "intangiblesAssessment": 85,
+    "schemeFitProjection": 78
+  },
+  {
+    "id": "89a9e02d-c804-4438-ad4c-b59a44a99ff1",
+    "firstName": "Fred",
+    "lastName": "Mills",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 40,
+    "yearsExperience": 26,
+    "regionalKnowledge": 98,
+    "positionalStrengths": 89,
+    "evaluationAccuracy": 92,
+    "intangiblesAssessment": 81,
+    "schemeFitProjection": 61
+  },
+  {
+    "id": "6bbb5cfe-0f75-4a0d-b0bc-d0fbf90dd438",
+    "firstName": "Casey",
+    "lastName": "O'Keefe",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 50,
+    "yearsExperience": 23,
+    "modelingQuality": 60,
+    "fourthDownAggressiveness": 50,
+    "riskManagement": 92,
+    "contractValuation": 71,
+    "injuryRiskModeling": 68,
+    "tendencyAnalysis": 92
+  },
+  {
+    "id": "9e9d4ec8-b0ac-432c-851f-604182d519c0",
+    "firstName": "Kelvin",
+    "lastName": "King",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 63,
+    "yearsExperience": 28,
+    "mechanicsTraining": 98,
+    "decisionMakingTraining": 91,
+    "accuracyDevelopment": 85,
+    "pocketPresenceDevelopment": 67,
+    "leadershipMentoring": 91,
+    "filmStudyImpact": 70
   }
 ]

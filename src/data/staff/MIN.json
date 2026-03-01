@@ -1,170 +1,183 @@
 [
   {
-    "id": "MIN-STAFF-1",
-    "team": "MIN",
-    "role": "Head Coach",
-    "name": "William Mohr",
-    "vitals": {
-      "age": 44,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 73,
-      "discipline": 70,
-      "schemeKnowledge": 88,
-      "playerDev": 93,
-      "motivation": 64,
-      "injuryManagement": 68,
-      "conditioning": 54,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2783336
-    }
+    "id": "e57b2f59-8c68-4f1e-a2a8-3f68e4b0f678",
+    "firstName": "Darin",
+    "lastName": "Gibson",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 41,
+    "yearsExperience": 25,
+    "type": "mastermind",
+    "leadership": 72,
+    "culture": 93,
+    "strategy": 63,
+    "playerDevelopment": 60,
+    "discipline": 84,
+    "schemeOffense": "west_coast",
+    "schemeDefense": "nickel_heavy",
+    "schemeFlexibility": 59,
+    "staffManagement": 71
   },
   {
-    "id": "MIN-STAFF-2",
-    "team": "MIN",
-    "role": "Offensive Coordinator",
-    "name": "Gavin O'Keefe",
-    "vitals": {
-      "age": 48,
-      "experience": 27
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 94,
-      "schemeKnowledge": 62,
-      "playerDev": 60,
-      "motivation": 89,
-      "injuryManagement": 62,
-      "conditioning": 46,
-      "analyticsIQ": 63
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7984140
-    }
+    "id": "b0d88c0f-8924-43ae-910d-8db73da1bbbb",
+    "firstName": "Robin",
+    "lastName": "Howell",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 53,
+    "yearsExperience": 30,
+    "playCalling": 87,
+    "qbDevelopment": 64,
+    "skillPlayerDevelopment": 78,
+    "offensiveSchemeKnowledge": 78,
+    "runGameDesign": 97,
+    "passGameDesign": 75,
+    "creativity": 87,
+    "schemePreference": "vertical"
   },
   {
-    "id": "MIN-STAFF-3",
-    "team": "MIN",
-    "role": "Defensive Coordinator",
-    "name": "Steven Quigley",
-    "vitals": {
-      "age": 59,
-      "experience": 6
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 84,
-      "schemeKnowledge": 91,
-      "playerDev": 92,
-      "motivation": 82,
-      "injuryManagement": 57,
-      "conditioning": 50,
-      "analyticsIQ": 55
-    },
-    "contract": {
-      "years": 4,
-      "salary": 1961380
-    }
+    "id": "8653d152-a6e3-4eb6-965b-380e6bdcda6c",
+    "firstName": "Adrian",
+    "lastName": "Jerde",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 54,
+    "yearsExperience": 7,
+    "playCalling": 75,
+    "frontSevenDevelopment": 62,
+    "secondaryDevelopment": 75,
+    "defensiveSchemeKnowledge": 75,
+    "blitzDesign": 83,
+    "coverageDesign": 80,
+    "discipline": 83,
+    "schemePreference": "four_three"
   },
   {
-    "id": "MIN-STAFF-4",
-    "team": "MIN",
-    "role": "Strength & Conditioning Coach",
-    "name": "Wei Williamson",
-    "vitals": {
-      "age": 42,
-      "experience": 7
-    },
-    "ratings": {
-      "leadership": 61,
-      "discipline": 72,
-      "schemeKnowledge": 93,
-      "playerDev": 62,
-      "motivation": 68,
-      "injuryManagement": 61,
-      "conditioning": 82,
-      "analyticsIQ": 41
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3928181
-    }
+    "id": "f5c1bf70-beca-47e0-8abe-083f38cea2cd",
+    "firstName": "Conrad",
+    "lastName": "Gerlach",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 50,
+    "yearsExperience": 9,
+    "injuryPrevention": 95,
+    "recoverySpeed": 74,
+    "conditioning": 79,
+    "strengthTraining": 83,
+    "speedTraining": 87,
+    "workEthicBoost": 96
   },
   {
-    "id": "MIN-STAFF-5",
-    "team": "MIN",
-    "role": "Physical Therapist",
-    "name": "Elijah Nitzsche",
-    "vitals": {
-      "age": 32,
-      "experience": 22
-    },
-    "ratings": {
-      "leadership": 78,
-      "discipline": 60,
-      "schemeKnowledge": 78,
-      "playerDev": 69,
-      "motivation": 67,
-      "injuryManagement": 70,
-      "conditioning": 63,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 4,
-      "salary": 7024195
-    }
+    "id": "b1dca603-e8de-4afd-a508-c4c74948c553",
+    "firstName": "Julio",
+    "lastName": "O'Connell",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 54,
+    "yearsExperience": 12,
+    "diagnosisAccuracy": 93,
+    "rehabQuality": 62,
+    "injuryRiskAssessment": 64,
+    "returnToPlayConservatism": 88,
+    "longTermHealthManagement": 61
   },
   {
-    "id": "MIN-STAFF-6",
-    "team": "MIN",
-    "role": "Athletic Trainer",
-    "name": "Zaid Moore",
-    "vitals": {
-      "age": 59,
-      "experience": 29
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 82,
-      "schemeKnowledge": 76,
-      "playerDev": 72,
-      "motivation": 76,
-      "injuryManagement": 92,
-      "conditioning": 50,
-      "analyticsIQ": 62
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5867709
-    }
+    "id": "48f9dbe7-59a0-474f-8de7-39229f53a220",
+    "firstName": "Travis",
+    "lastName": "Glover",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 68,
+    "yearsExperience": 24,
+    "proEvaluation": 62,
+    "contractInsight": 95,
+    "tradeValueAssessment": 61,
+    "rosterConstruction": 81,
+    "schemeFitAwareness": 92,
+    "developmentProjection": 67
   },
   {
-    "id": "MIN-STAFF-7",
-    "team": "MIN",
-    "role": "Analytics Coordinator",
-    "name": "Mario Greenfelder",
-    "vitals": {
-      "age": 54,
-      "experience": 38
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 64,
-      "schemeKnowledge": 71,
-      "playerDev": 62,
-      "motivation": 73,
-      "injuryManagement": 43,
-      "conditioning": 56,
-      "analyticsIQ": 93
-    },
-    "contract": {
-      "years": 4,
-      "salary": 1405786
-    }
+    "id": "70f73aa9-c912-4c8d-a9c7-833009c52b5e",
+    "firstName": "Leslie",
+    "lastName": "Walsh",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 48,
+    "yearsExperience": 5,
+    "draftBoardManagement": 86,
+    "prospectEvaluation": 91,
+    "combineInterpretation": 94,
+    "positionalNeedsAwareness": 75,
+    "scoutingAccuracy": 67,
+    "regionalCoordination": 73
+  },
+  {
+    "id": "d7c67338-8e26-45b7-8017-4f5c331fa88d",
+    "firstName": "Shawn",
+    "lastName": "Herman",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 67,
+    "yearsExperience": 26,
+    "regionalKnowledge": 73,
+    "positionalStrengths": 64,
+    "evaluationAccuracy": 71,
+    "intangiblesAssessment": 90,
+    "schemeFitProjection": 93
+  },
+  {
+    "id": "bf2b8438-3af9-47a1-b93e-1d89f3b1685a",
+    "firstName": "Miguel",
+    "lastName": "Gibson",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 43,
+    "yearsExperience": 15,
+    "regionalKnowledge": 84,
+    "positionalStrengths": 83,
+    "evaluationAccuracy": 62,
+    "intangiblesAssessment": 65,
+    "schemeFitProjection": 70
+  },
+  {
+    "id": "83392dc7-3ea0-46d4-ab36-e740680d9097",
+    "firstName": "Marcus",
+    "lastName": "Stiedemann",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 53,
+    "yearsExperience": 23,
+    "modelingQuality": 64,
+    "fourthDownAggressiveness": 42,
+    "riskManagement": 70,
+    "contractValuation": 61,
+    "injuryRiskModeling": 96,
+    "tendencyAnalysis": 92
+  },
+  {
+    "id": "69102391-17cf-44b9-ab51-bd5a668dbc0d",
+    "firstName": "Wendell",
+    "lastName": "Spencer",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 39,
+    "yearsExperience": 7,
+    "mechanicsTraining": 84,
+    "decisionMakingTraining": 95,
+    "accuracyDevelopment": 95,
+    "pocketPresenceDevelopment": 77,
+    "leadershipMentoring": 72,
+    "filmStudyImpact": 80
   }
 ]

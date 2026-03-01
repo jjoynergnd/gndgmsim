@@ -1,33 +1,34 @@
 // src/generator/cap/teamCapCalculator.ts
 
-// Team-level cap helpers, now year-aware and backwards-compatible.
+import type { Contract } from "../contract/contractBase.js";
 
-export function getTeamTotalSalary(roster: any[], year: number): number {
-  // --- DEBUG: confirm which file is executing + what data it sees ---
-  console.log("DEBUG CAP CALCULATOR FILE:", import.meta.url);
-  console.log("DEBUG CAP CALCULATOR INPUT YEAR:", year);
-  console.log("DEBUG CAP CALCULATOR FIRST CONTRACT:", roster[0]?.contract);
-  // ------------------------------------------------------------------
-
+/**
+ * Computes total team salary for a given league year.
+ * Fully compatible with the new multi-year Contract shape.
+ */
+export function getTeamTotalSalary(
+  roster: Array<{ id: string; position: string; contract?: Contract }>,
+  year: number
+): number {
   return roster.reduce((sum, p) => {
     const contract = p.contract;
     if (!contract) return sum;
 
     // New multi-year shape
     if (contract.yearBreakdown && Array.isArray(contract.yearBreakdown)) {
-      const entry = contract.yearBreakdown.find((y: any) => y.year === year);
+      const entry = contract.yearBreakdown.find((y) => y.year === year);
 
       if (entry) {
         const value = entry.capHit ?? entry.salary ?? 0;
 
-        // 🔥 DEBUG: catch NaN immediately
+        // Debug guard for NaN
         if (Number.isNaN(value)) {
           console.log("❌ NaN DETECTED:", {
             playerId: p.id,
             position: p.position,
             year,
             entry,
-            contract
+            contract,
           });
         }
 
@@ -37,10 +38,9 @@ export function getTeamTotalSalary(roster: any[], year: number): number {
       return sum;
     }
 
-
     // Backwards compatibility: old single-year { salary } shape
-    if (typeof contract.salary === "number") {
-      return sum + contract.salary;
+    if (typeof (contract as any).salary === "number") {
+      return sum + (contract as any).salary;
     }
 
     return sum;

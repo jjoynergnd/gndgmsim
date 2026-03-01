@@ -1,170 +1,183 @@
 [
   {
-    "id": "TB-STAFF-1",
-    "team": "TB",
-    "role": "Head Coach",
-    "name": "Jonathan Kunde",
-    "vitals": {
-      "age": 33,
-      "experience": 20
-    },
-    "ratings": {
-      "leadership": 64,
-      "discipline": 75,
-      "schemeKnowledge": 74,
-      "playerDev": 76,
-      "motivation": 64,
-      "injuryManagement": 70,
-      "conditioning": 46,
-      "analyticsIQ": 69
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5065040
-    }
+    "id": "fbda6d3d-dd74-4573-a03c-9fc51e20ad32",
+    "firstName": "Edmond",
+    "lastName": "Baumbach",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 47,
+    "yearsExperience": 30,
+    "type": "ceo",
+    "leadership": 67,
+    "culture": 89,
+    "strategy": 68,
+    "playerDevelopment": 97,
+    "discipline": 93,
+    "schemeOffense": "spread",
+    "schemeDefense": "hybrid",
+    "schemeFlexibility": 81,
+    "staffManagement": 84
   },
   {
-    "id": "TB-STAFF-2",
-    "team": "TB",
-    "role": "Offensive Coordinator",
-    "name": "Ralph Kunde",
-    "vitals": {
-      "age": 61,
-      "experience": 35
-    },
-    "ratings": {
-      "leadership": 92,
-      "discipline": 71,
-      "schemeKnowledge": 75,
-      "playerDev": 70,
-      "motivation": 90,
-      "injuryManagement": 41,
-      "conditioning": 69,
-      "analyticsIQ": 46
-    },
-    "contract": {
-      "years": 4,
-      "salary": 5395441
-    }
+    "id": "e43b46fb-e68e-484e-b3cb-848c4a6ae076",
+    "firstName": "Jonathon",
+    "lastName": "Flatley",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 53,
+    "yearsExperience": 24,
+    "playCalling": 89,
+    "qbDevelopment": 69,
+    "skillPlayerDevelopment": 61,
+    "offensiveSchemeKnowledge": 61,
+    "runGameDesign": 76,
+    "passGameDesign": 99,
+    "creativity": 96,
+    "schemePreference": "vertical"
   },
   {
-    "id": "TB-STAFF-3",
-    "team": "TB",
-    "role": "Defensive Coordinator",
-    "name": "Terry Rodriguez",
-    "vitals": {
-      "age": 38,
-      "experience": 18
-    },
-    "ratings": {
-      "leadership": 61,
-      "discipline": 78,
-      "schemeKnowledge": 83,
-      "playerDev": 95,
-      "motivation": 91,
-      "injuryManagement": 41,
-      "conditioning": 64,
-      "analyticsIQ": 56
-    },
-    "contract": {
-      "years": 4,
-      "salary": 6198535
-    }
+    "id": "f2173662-d0f9-40c0-b851-bfd6e49defeb",
+    "firstName": "Hugh",
+    "lastName": "Rolfson",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 56,
+    "yearsExperience": 8,
+    "playCalling": 67,
+    "frontSevenDevelopment": 74,
+    "secondaryDevelopment": 60,
+    "defensiveSchemeKnowledge": 76,
+    "blitzDesign": 64,
+    "coverageDesign": 63,
+    "discipline": 91,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "TB-STAFF-4",
-    "team": "TB",
-    "role": "Strength & Conditioning Coach",
-    "name": "Joon Fisher",
-    "vitals": {
-      "age": 57,
-      "experience": 10
-    },
-    "ratings": {
-      "leadership": 91,
-      "discipline": 72,
-      "schemeKnowledge": 73,
-      "playerDev": 92,
-      "motivation": 76,
-      "injuryManagement": 56,
-      "conditioning": 88,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2422367
-    }
+    "id": "5c54602f-4872-4983-b932-32c0ce72c8ef",
+    "firstName": "Terence",
+    "lastName": "Adams",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 65,
+    "yearsExperience": 27,
+    "injuryPrevention": 85,
+    "recoverySpeed": 89,
+    "conditioning": 87,
+    "strengthTraining": 99,
+    "speedTraining": 89,
+    "workEthicBoost": 62
   },
   {
-    "id": "TB-STAFF-5",
-    "team": "TB",
-    "role": "Physical Therapist",
-    "name": "Donald Goodwin-Bogisich",
-    "vitals": {
-      "age": 33,
-      "experience": 32
-    },
-    "ratings": {
-      "leadership": 75,
-      "discipline": 65,
-      "schemeKnowledge": 92,
-      "playerDev": 79,
-      "motivation": 82,
-      "injuryManagement": 81,
-      "conditioning": 64,
-      "analyticsIQ": 55
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4479424
-    }
+    "id": "784be74d-12b8-4c7d-9bb2-a63604052ca2",
+    "firstName": "Jerry",
+    "lastName": "Leannon",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 66,
+    "yearsExperience": 29,
+    "diagnosisAccuracy": 77,
+    "rehabQuality": 94,
+    "injuryRiskAssessment": 74,
+    "returnToPlayConservatism": 82,
+    "longTermHealthManagement": 73
   },
   {
-    "id": "TB-STAFF-6",
-    "team": "TB",
-    "role": "Athletic Trainer",
-    "name": "Blake Ondricka",
-    "vitals": {
-      "age": 64,
-      "experience": 4
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 63,
-      "schemeKnowledge": 95,
-      "playerDev": 60,
-      "motivation": 92,
-      "injuryManagement": 77,
-      "conditioning": 64,
-      "analyticsIQ": 46
-    },
-    "contract": {
-      "years": 4,
-      "salary": 1656809
-    }
+    "id": "0c989ee3-3324-4398-aeae-f90c5be0dd2f",
+    "firstName": "Kristopher",
+    "lastName": "Berge",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 68,
+    "yearsExperience": 8,
+    "proEvaluation": 89,
+    "contractInsight": 79,
+    "tradeValueAssessment": 80,
+    "rosterConstruction": 68,
+    "schemeFitAwareness": 87,
+    "developmentProjection": 69
   },
   {
-    "id": "TB-STAFF-7",
-    "team": "TB",
-    "role": "Analytics Coordinator",
-    "name": "Bryan Zboncak",
-    "vitals": {
-      "age": 55,
-      "experience": 25
-    },
-    "ratings": {
-      "leadership": 76,
-      "discipline": 87,
-      "schemeKnowledge": 62,
-      "playerDev": 81,
-      "motivation": 69,
-      "injuryManagement": 44,
-      "conditioning": 55,
-      "analyticsIQ": 80
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7524490
-    }
+    "id": "35ad478d-31e0-4a77-a88c-ec8b83c9f686",
+    "firstName": "Courtney",
+    "lastName": "McLaughlin",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 62,
+    "yearsExperience": 16,
+    "draftBoardManagement": 96,
+    "prospectEvaluation": 96,
+    "combineInterpretation": 79,
+    "positionalNeedsAwareness": 80,
+    "scoutingAccuracy": 94,
+    "regionalCoordination": 76
+  },
+  {
+    "id": "928d3218-2a0e-4943-9f3b-4f051f3c585c",
+    "firstName": "Timothy",
+    "lastName": "Zieme",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 67,
+    "yearsExperience": 13,
+    "regionalKnowledge": 89,
+    "positionalStrengths": 99,
+    "evaluationAccuracy": 92,
+    "intangiblesAssessment": 96,
+    "schemeFitProjection": 65
+  },
+  {
+    "id": "21420174-2c4f-4db8-b4ff-27f0f8fafbb6",
+    "firstName": "Brent",
+    "lastName": "Jones",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 47,
+    "yearsExperience": 15,
+    "regionalKnowledge": 88,
+    "positionalStrengths": 73,
+    "evaluationAccuracy": 98,
+    "intangiblesAssessment": 60,
+    "schemeFitProjection": 97
+  },
+  {
+    "id": "5ec98b4e-b66a-4a03-bca7-81396e92fdb0",
+    "firstName": "Randy",
+    "lastName": "Sawayn",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 62,
+    "yearsExperience": 27,
+    "modelingQuality": 88,
+    "fourthDownAggressiveness": 79,
+    "riskManagement": 94,
+    "contractValuation": 84,
+    "injuryRiskModeling": 75,
+    "tendencyAnalysis": 62
+  },
+  {
+    "id": "8109c03a-5d46-4dc7-98a2-a4c198bbd137",
+    "firstName": "Rolando",
+    "lastName": "Hane",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 44,
+    "yearsExperience": 30,
+    "mechanicsTraining": 80,
+    "decisionMakingTraining": 92,
+    "accuracyDevelopment": 83,
+    "pocketPresenceDevelopment": 82,
+    "leadershipMentoring": 98,
+    "filmStudyImpact": 63
   }
 ]

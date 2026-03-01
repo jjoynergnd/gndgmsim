@@ -1,170 +1,183 @@
 [
   {
-    "id": "CLE-STAFF-1",
-    "team": "CLE",
-    "role": "Head Coach",
-    "name": "Seamus Ondricka",
-    "vitals": {
-      "age": 44,
-      "experience": 14
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 88,
-      "schemeKnowledge": 84,
-      "playerDev": 81,
-      "motivation": 75,
-      "injuryManagement": 43,
-      "conditioning": 42,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 2,
-      "salary": 2506389
-    }
+    "id": "372aa652-497b-4bce-bbbb-5b767ce8c502",
+    "firstName": "Oscar",
+    "lastName": "Nikolaus",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 58,
+    "yearsExperience": 17,
+    "type": "mastermind",
+    "leadership": 63,
+    "culture": 87,
+    "strategy": 77,
+    "playerDevelopment": 76,
+    "discipline": 64,
+    "schemeOffense": "west_coast",
+    "schemeDefense": "three_four",
+    "schemeFlexibility": 94,
+    "staffManagement": 75
   },
   {
-    "id": "CLE-STAFF-2",
-    "team": "CLE",
-    "role": "Offensive Coordinator",
-    "name": "Nicholas Wilderman",
-    "vitals": {
-      "age": 55,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 80,
-      "discipline": 92,
-      "schemeKnowledge": 65,
-      "playerDev": 92,
-      "motivation": 75,
-      "injuryManagement": 69,
-      "conditioning": 59,
-      "analyticsIQ": 53
-    },
-    "contract": {
-      "years": 5,
-      "salary": 6364923
-    }
+    "id": "c031d803-ea86-4ef2-a267-b7846b6ebc6d",
+    "firstName": "Trevor",
+    "lastName": "Strosin",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 65,
+    "yearsExperience": 9,
+    "playCalling": 68,
+    "qbDevelopment": 85,
+    "skillPlayerDevelopment": 89,
+    "offensiveSchemeKnowledge": 85,
+    "runGameDesign": 88,
+    "passGameDesign": 65,
+    "creativity": 66,
+    "schemePreference": "spread"
   },
   {
-    "id": "CLE-STAFF-3",
-    "team": "CLE",
-    "role": "Defensive Coordinator",
-    "name": "Khalid Cole",
-    "vitals": {
-      "age": 41,
-      "experience": 29
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 76,
-      "schemeKnowledge": 74,
-      "playerDev": 63,
-      "motivation": 89,
-      "injuryManagement": 49,
-      "conditioning": 65,
-      "analyticsIQ": 57
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4953197
-    }
+    "id": "a462561c-c403-4055-b7de-400d0a5a0e95",
+    "firstName": "Israel",
+    "lastName": "Mante",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 66,
+    "yearsExperience": 22,
+    "playCalling": 99,
+    "frontSevenDevelopment": 91,
+    "secondaryDevelopment": 77,
+    "defensiveSchemeKnowledge": 92,
+    "blitzDesign": 88,
+    "coverageDesign": 98,
+    "discipline": 88,
+    "schemePreference": "three_four"
   },
   {
-    "id": "CLE-STAFF-4",
-    "team": "CLE",
-    "role": "Strength & Conditioning Coach",
-    "name": "Andrew Wisozk",
-    "vitals": {
-      "age": 55,
-      "experience": 15
-    },
-    "ratings": {
-      "leadership": 84,
-      "discipline": 84,
-      "schemeKnowledge": 84,
-      "playerDev": 69,
-      "motivation": 85,
-      "injuryManagement": 59,
-      "conditioning": 81,
-      "analyticsIQ": 47
-    },
-    "contract": {
-      "years": 3,
-      "salary": 6859548
-    }
+    "id": "ee0f80b6-74e6-4e39-a4b7-37568625fd1d",
+    "firstName": "Myron",
+    "lastName": "Gusikowski",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 54,
+    "yearsExperience": 13,
+    "injuryPrevention": 92,
+    "recoverySpeed": 89,
+    "conditioning": 88,
+    "strengthTraining": 64,
+    "speedTraining": 83,
+    "workEthicBoost": 98
   },
   {
-    "id": "CLE-STAFF-5",
-    "team": "CLE",
-    "role": "Physical Therapist",
-    "name": "Fernando Greenfelder",
-    "vitals": {
-      "age": 33,
-      "experience": 8
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 94,
-      "schemeKnowledge": 86,
-      "playerDev": 91,
-      "motivation": 60,
-      "injuryManagement": 93,
-      "conditioning": 48,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4074411
-    }
+    "id": "c3ffc8ec-718f-4f77-8224-2e2a2ccfd5f9",
+    "firstName": "Danny",
+    "lastName": "Krajcik",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 63,
+    "yearsExperience": 10,
+    "diagnosisAccuracy": 99,
+    "rehabQuality": 93,
+    "injuryRiskAssessment": 73,
+    "returnToPlayConservatism": 77,
+    "longTermHealthManagement": 67
   },
   {
-    "id": "CLE-STAFF-6",
-    "team": "CLE",
-    "role": "Athletic Trainer",
-    "name": "Victor Williamson",
-    "vitals": {
-      "age": 50,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 69,
-      "discipline": 73,
-      "schemeKnowledge": 74,
-      "playerDev": 92,
-      "motivation": 92,
-      "injuryManagement": 81,
-      "conditioning": 55,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3428621
-    }
+    "id": "e8a96ddc-4eb8-467a-b8e9-87468f124378",
+    "firstName": "Fredrick",
+    "lastName": "Donnelly",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 56,
+    "yearsExperience": 28,
+    "proEvaluation": 96,
+    "contractInsight": 70,
+    "tradeValueAssessment": 88,
+    "rosterConstruction": 85,
+    "schemeFitAwareness": 85,
+    "developmentProjection": 98
   },
   {
-    "id": "CLE-STAFF-7",
-    "team": "CLE",
-    "role": "Analytics Coordinator",
-    "name": "Eric Boyer",
-    "vitals": {
-      "age": 30,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 71,
-      "discipline": 62,
-      "schemeKnowledge": 64,
-      "playerDev": 78,
-      "motivation": 94,
-      "injuryManagement": 43,
-      "conditioning": 69,
-      "analyticsIQ": 98
-    },
-    "contract": {
-      "years": 4,
-      "salary": 5774080
-    }
+    "id": "01c54db7-ece6-445a-bca9-4e000d198a85",
+    "firstName": "Allen",
+    "lastName": "Huels",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 50,
+    "yearsExperience": 18,
+    "draftBoardManagement": 84,
+    "prospectEvaluation": 61,
+    "combineInterpretation": 86,
+    "positionalNeedsAwareness": 71,
+    "scoutingAccuracy": 68,
+    "regionalCoordination": 60
+  },
+  {
+    "id": "0e69dbbd-4e13-4180-a539-7deaad3b1589",
+    "firstName": "Darrel",
+    "lastName": "Vandervort",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 54,
+    "yearsExperience": 17,
+    "regionalKnowledge": 69,
+    "positionalStrengths": 61,
+    "evaluationAccuracy": 84,
+    "intangiblesAssessment": 88,
+    "schemeFitProjection": 76
+  },
+  {
+    "id": "f8593292-1bc4-4e0c-a4c5-f91b606fec6d",
+    "firstName": "Barry",
+    "lastName": "Dietrich-Heller",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 37,
+    "yearsExperience": 22,
+    "regionalKnowledge": 72,
+    "positionalStrengths": 89,
+    "evaluationAccuracy": 62,
+    "intangiblesAssessment": 93,
+    "schemeFitProjection": 74
+  },
+  {
+    "id": "ccb48b86-ff90-423f-b93b-452d6540d14d",
+    "firstName": "Abraham",
+    "lastName": "Brown",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 56,
+    "yearsExperience": 15,
+    "modelingQuality": 98,
+    "fourthDownAggressiveness": 61,
+    "riskManagement": 64,
+    "contractValuation": 82,
+    "injuryRiskModeling": 76,
+    "tendencyAnalysis": 61
+  },
+  {
+    "id": "35e5f10a-1140-4fa6-9dbf-18565ec06219",
+    "firstName": "Benny",
+    "lastName": "Runolfsdottir",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 51,
+    "yearsExperience": 16,
+    "mechanicsTraining": 67,
+    "decisionMakingTraining": 68,
+    "accuracyDevelopment": 81,
+    "pocketPresenceDevelopment": 65,
+    "leadershipMentoring": 95,
+    "filmStudyImpact": 88
   }
 ]

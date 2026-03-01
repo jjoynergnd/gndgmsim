@@ -1,170 +1,183 @@
 [
   {
-    "id": "JAX-STAFF-1",
-    "team": "JAX",
-    "role": "Head Coach",
-    "name": "Scott Goldner",
-    "vitals": {
-      "age": 59,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 94,
-      "schemeKnowledge": 72,
-      "playerDev": 93,
-      "motivation": 65,
-      "injuryManagement": 69,
-      "conditioning": 62,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4111551
-    }
+    "id": "2095de63-7927-48a8-aadd-39c750d05f1a",
+    "firstName": "Billy",
+    "lastName": "Hoeger",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 61,
+    "yearsExperience": 7,
+    "type": "mastermind",
+    "leadership": 79,
+    "culture": 83,
+    "strategy": 68,
+    "playerDevelopment": 84,
+    "discipline": 64,
+    "schemeOffense": "spread",
+    "schemeDefense": "hybrid",
+    "schemeFlexibility": 44,
+    "staffManagement": 83
   },
   {
-    "id": "JAX-STAFF-2",
-    "team": "JAX",
-    "role": "Offensive Coordinator",
-    "name": "Jack Howell",
-    "vitals": {
-      "age": 64,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 87,
-      "schemeKnowledge": 62,
-      "playerDev": 89,
-      "motivation": 75,
-      "injuryManagement": 70,
-      "conditioning": 65,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 2,
-      "salary": 2282396
-    }
+    "id": "6556aa1a-4628-47ce-8984-7785457a3fc2",
+    "firstName": "Brad",
+    "lastName": "Schultz",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 65,
+    "yearsExperience": 8,
+    "playCalling": 96,
+    "qbDevelopment": 90,
+    "skillPlayerDevelopment": 95,
+    "offensiveSchemeKnowledge": 86,
+    "runGameDesign": 93,
+    "passGameDesign": 88,
+    "creativity": 62,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "JAX-STAFF-3",
-    "team": "JAX",
-    "role": "Defensive Coordinator",
-    "name": "Joseph Dickinson",
-    "vitals": {
-      "age": 37,
-      "experience": 32
-    },
-    "ratings": {
-      "leadership": 60,
-      "discipline": 76,
-      "schemeKnowledge": 78,
-      "playerDev": 75,
-      "motivation": 84,
-      "injuryManagement": 68,
-      "conditioning": 53,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 3,
-      "salary": 4666461
-    }
+    "id": "63a36894-f8ae-4202-81e4-46c64f544037",
+    "firstName": "Jermaine",
+    "lastName": "Homenick",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 46,
+    "yearsExperience": 16,
+    "playCalling": 89,
+    "frontSevenDevelopment": 92,
+    "secondaryDevelopment": 85,
+    "defensiveSchemeKnowledge": 72,
+    "blitzDesign": 78,
+    "coverageDesign": 83,
+    "discipline": 81,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "JAX-STAFF-4",
-    "team": "JAX",
-    "role": "Strength & Conditioning Coach",
-    "name": "Malcolm Hand",
-    "vitals": {
-      "age": 50,
-      "experience": 31
-    },
-    "ratings": {
-      "leadership": 91,
-      "discipline": 68,
-      "schemeKnowledge": 60,
-      "playerDev": 73,
-      "motivation": 68,
-      "injuryManagement": 69,
-      "conditioning": 93,
-      "analyticsIQ": 41
-    },
-    "contract": {
-      "years": 5,
-      "salary": 3550595
-    }
+    "id": "e015f2c7-d238-4873-a628-db009dde849f",
+    "firstName": "Darnell",
+    "lastName": "Konopelski",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 59,
+    "yearsExperience": 30,
+    "injuryPrevention": 60,
+    "recoverySpeed": 88,
+    "conditioning": 70,
+    "strengthTraining": 67,
+    "speedTraining": 87,
+    "workEthicBoost": 76
   },
   {
-    "id": "JAX-STAFF-5",
-    "team": "JAX",
-    "role": "Physical Therapist",
-    "name": "Angelo Kilback",
-    "vitals": {
-      "age": 40,
-      "experience": 38
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 95,
-      "schemeKnowledge": 81,
-      "playerDev": 83,
-      "motivation": 86,
-      "injuryManagement": 83,
-      "conditioning": 58,
-      "analyticsIQ": 54
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5004779
-    }
+    "id": "94885aa7-d66d-4371-923b-2114b5cbd937",
+    "firstName": "Willie",
+    "lastName": "O'Conner",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 68,
+    "yearsExperience": 12,
+    "diagnosisAccuracy": 82,
+    "rehabQuality": 85,
+    "injuryRiskAssessment": 70,
+    "returnToPlayConservatism": 66,
+    "longTermHealthManagement": 95
   },
   {
-    "id": "JAX-STAFF-6",
-    "team": "JAX",
-    "role": "Athletic Trainer",
-    "name": "Leonard Graham",
-    "vitals": {
-      "age": 42,
-      "experience": 24
-    },
-    "ratings": {
-      "leadership": 87,
-      "discipline": 67,
-      "schemeKnowledge": 88,
-      "playerDev": 84,
-      "motivation": 87,
-      "injuryManagement": 88,
-      "conditioning": 48,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2135678
-    }
+    "id": "0f7275d6-1d90-4c44-91d5-0b0755ddff91",
+    "firstName": "Bryan",
+    "lastName": "Toy",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 68,
+    "yearsExperience": 18,
+    "proEvaluation": 70,
+    "contractInsight": 73,
+    "tradeValueAssessment": 91,
+    "rosterConstruction": 76,
+    "schemeFitAwareness": 74,
+    "developmentProjection": 70
   },
   {
-    "id": "JAX-STAFF-7",
-    "team": "JAX",
-    "role": "Analytics Coordinator",
-    "name": "Mario Lubowitz",
-    "vitals": {
-      "age": 39,
-      "experience": 22
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 66,
-      "schemeKnowledge": 87,
-      "playerDev": 71,
-      "motivation": 82,
-      "injuryManagement": 61,
-      "conditioning": 61,
-      "analyticsIQ": 89
-    },
-    "contract": {
-      "years": 5,
-      "salary": 964951
-    }
+    "id": "60fedf41-aa92-4fc4-ac8a-404cda92fdd4",
+    "firstName": "Todd",
+    "lastName": "Mann",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 62,
+    "yearsExperience": 28,
+    "draftBoardManagement": 60,
+    "prospectEvaluation": 68,
+    "combineInterpretation": 73,
+    "positionalNeedsAwareness": 85,
+    "scoutingAccuracy": 86,
+    "regionalCoordination": 79
+  },
+  {
+    "id": "e1e9e333-caef-4b01-954b-3d7fa0f7a5ea",
+    "firstName": "Rudolph",
+    "lastName": "Bins",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 53,
+    "yearsExperience": 8,
+    "regionalKnowledge": 95,
+    "positionalStrengths": 69,
+    "evaluationAccuracy": 68,
+    "intangiblesAssessment": 89,
+    "schemeFitProjection": 93
+  },
+  {
+    "id": "5d85771f-7ff5-47ae-8464-3bbeea0f7f72",
+    "firstName": "Tony",
+    "lastName": "Jerde",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 43,
+    "yearsExperience": 12,
+    "regionalKnowledge": 80,
+    "positionalStrengths": 89,
+    "evaluationAccuracy": 83,
+    "intangiblesAssessment": 82,
+    "schemeFitProjection": 74
+  },
+  {
+    "id": "2e46fcf1-d429-4aab-8cbe-fe2e80e337bf",
+    "firstName": "Chris",
+    "lastName": "Cruickshank-Tremblay",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 44,
+    "yearsExperience": 8,
+    "modelingQuality": 83,
+    "fourthDownAggressiveness": 57,
+    "riskManagement": 97,
+    "contractValuation": 82,
+    "injuryRiskModeling": 77,
+    "tendencyAnalysis": 83
+  },
+  {
+    "id": "1f5812d9-c848-4af7-a119-d232596cec78",
+    "firstName": "Laurence",
+    "lastName": "Funk",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 58,
+    "yearsExperience": 11,
+    "mechanicsTraining": 88,
+    "decisionMakingTraining": 88,
+    "accuracyDevelopment": 92,
+    "pocketPresenceDevelopment": 83,
+    "leadershipMentoring": 92,
+    "filmStudyImpact": 83
   }
 ]

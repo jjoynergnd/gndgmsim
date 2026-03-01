@@ -1,170 +1,183 @@
 [
   {
-    "id": "GB-STAFF-1",
-    "team": "GB",
-    "role": "Head Coach",
-    "name": "Khalid Kshlerin",
-    "vitals": {
-      "age": 57,
-      "experience": 4
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 93,
-      "schemeKnowledge": 81,
-      "playerDev": 81,
-      "motivation": 68,
-      "injuryManagement": 60,
-      "conditioning": 56,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 5,
-      "salary": 2720767
-    }
+    "id": "45377d78-5c47-4777-862b-efebcc66cdc7",
+    "firstName": "Alfred",
+    "lastName": "Jakubowski",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 51,
+    "yearsExperience": 18,
+    "type": "hybrid",
+    "leadership": 69,
+    "culture": 91,
+    "strategy": 65,
+    "playerDevelopment": 83,
+    "discipline": 89,
+    "schemeOffense": "spread",
+    "schemeDefense": "hybrid",
+    "schemeFlexibility": 54,
+    "staffManagement": 90
   },
   {
-    "id": "GB-STAFF-2",
-    "team": "GB",
-    "role": "Offensive Coordinator",
-    "name": "Tucker McGlynn",
-    "vitals": {
-      "age": 39,
-      "experience": 18
-    },
-    "ratings": {
-      "leadership": 60,
-      "discipline": 63,
-      "schemeKnowledge": 88,
-      "playerDev": 84,
-      "motivation": 67,
-      "injuryManagement": 55,
-      "conditioning": 42,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7570896
-    }
+    "id": "422c2942-4825-4723-aa2a-5d3ab6e80513",
+    "firstName": "Moses",
+    "lastName": "Rath",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 66,
+    "yearsExperience": 27,
+    "playCalling": 67,
+    "qbDevelopment": 79,
+    "skillPlayerDevelopment": 68,
+    "offensiveSchemeKnowledge": 77,
+    "runGameDesign": 85,
+    "passGameDesign": 70,
+    "creativity": 96,
+    "schemePreference": "spread"
   },
   {
-    "id": "GB-STAFF-3",
-    "team": "GB",
-    "role": "Defensive Coordinator",
-    "name": "Quentin Kihn-Goodwin",
-    "vitals": {
-      "age": 58,
-      "experience": 29
-    },
-    "ratings": {
-      "leadership": 86,
-      "discipline": 78,
-      "schemeKnowledge": 63,
-      "playerDev": 83,
-      "motivation": 91,
-      "injuryManagement": 53,
-      "conditioning": 64,
-      "analyticsIQ": 63
-    },
-    "contract": {
-      "years": 5,
-      "salary": 4584293
-    }
+    "id": "f5f3c88a-a94c-472b-b9df-63fb5aa6fb90",
+    "firstName": "Cameron",
+    "lastName": "Rau",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 61,
+    "yearsExperience": 24,
+    "playCalling": 67,
+    "frontSevenDevelopment": 90,
+    "secondaryDevelopment": 90,
+    "defensiveSchemeKnowledge": 67,
+    "blitzDesign": 66,
+    "coverageDesign": 72,
+    "discipline": 74,
+    "schemePreference": "three_four"
   },
   {
-    "id": "GB-STAFF-4",
-    "team": "GB",
-    "role": "Strength & Conditioning Coach",
-    "name": "Igor Wyman",
-    "vitals": {
-      "age": 55,
-      "experience": 32
-    },
-    "ratings": {
-      "leadership": 86,
-      "discipline": 68,
-      "schemeKnowledge": 66,
-      "playerDev": 77,
-      "motivation": 61,
-      "injuryManagement": 59,
-      "conditioning": 78,
-      "analyticsIQ": 60
-    },
-    "contract": {
-      "years": 3,
-      "salary": 6176753
-    }
+    "id": "762d8086-a0a2-4d03-9560-ec28b0096409",
+    "firstName": "Kelvin",
+    "lastName": "Konopelski",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 57,
+    "yearsExperience": 6,
+    "injuryPrevention": 66,
+    "recoverySpeed": 77,
+    "conditioning": 87,
+    "strengthTraining": 87,
+    "speedTraining": 64,
+    "workEthicBoost": 79
   },
   {
-    "id": "GB-STAFF-5",
-    "team": "GB",
-    "role": "Physical Therapist",
-    "name": "Maxwell Daugherty",
-    "vitals": {
-      "age": 43,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 71,
-      "schemeKnowledge": 67,
-      "playerDev": 70,
-      "motivation": 72,
-      "injuryManagement": 84,
-      "conditioning": 48,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2383875
-    }
+    "id": "231ef761-e05d-48a6-8093-ec24dd76eb50",
+    "firstName": "Myron",
+    "lastName": "Bergnaum",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 61,
+    "yearsExperience": 15,
+    "diagnosisAccuracy": 61,
+    "rehabQuality": 81,
+    "injuryRiskAssessment": 91,
+    "returnToPlayConservatism": 63,
+    "longTermHealthManagement": 84
   },
   {
-    "id": "GB-STAFF-6",
-    "team": "GB",
-    "role": "Athletic Trainer",
-    "name": "Emmanuel Daugherty",
-    "vitals": {
-      "age": 61,
-      "experience": 9
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 70,
-      "schemeKnowledge": 73,
-      "playerDev": 63,
-      "motivation": 90,
-      "injuryManagement": 90,
-      "conditioning": 63,
-      "analyticsIQ": 64
-    },
-    "contract": {
-      "years": 4,
-      "salary": 799577
-    }
+    "id": "e6829bd0-1423-435f-b3f2-44f3f994b4df",
+    "firstName": "Dave",
+    "lastName": "Jast",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 60,
+    "yearsExperience": 12,
+    "proEvaluation": 92,
+    "contractInsight": 83,
+    "tradeValueAssessment": 94,
+    "rosterConstruction": 81,
+    "schemeFitAwareness": 77,
+    "developmentProjection": 77
   },
   {
-    "id": "GB-STAFF-7",
-    "team": "GB",
-    "role": "Analytics Coordinator",
-    "name": "Griffin Lockman",
-    "vitals": {
-      "age": 53,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 93,
-      "discipline": 93,
-      "schemeKnowledge": 92,
-      "playerDev": 76,
-      "motivation": 80,
-      "injuryManagement": 60,
-      "conditioning": 64,
-      "analyticsIQ": 87
-    },
-    "contract": {
-      "years": 2,
-      "salary": 581799
-    }
+    "id": "9d6f2631-faae-41a1-92ba-71a33c1d8e05",
+    "firstName": "Tony",
+    "lastName": "Gleason",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 65,
+    "yearsExperience": 11,
+    "draftBoardManagement": 60,
+    "prospectEvaluation": 68,
+    "combineInterpretation": 93,
+    "positionalNeedsAwareness": 68,
+    "scoutingAccuracy": 62,
+    "regionalCoordination": 72
+  },
+  {
+    "id": "697925ca-563b-4a2f-b169-ff0c5a4541a0",
+    "firstName": "Lorenzo",
+    "lastName": "Bauch",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 50,
+    "yearsExperience": 20,
+    "regionalKnowledge": 84,
+    "positionalStrengths": 71,
+    "evaluationAccuracy": 71,
+    "intangiblesAssessment": 96,
+    "schemeFitProjection": 61
+  },
+  {
+    "id": "ae915e3f-9a8c-4d9f-a7ed-c1d66980011b",
+    "firstName": "Tyler",
+    "lastName": "Doyle",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 52,
+    "yearsExperience": 8,
+    "regionalKnowledge": 62,
+    "positionalStrengths": 75,
+    "evaluationAccuracy": 69,
+    "intangiblesAssessment": 74,
+    "schemeFitProjection": 94
+  },
+  {
+    "id": "8a2f395e-aa55-4855-85b7-75d68e904034",
+    "firstName": "Darin",
+    "lastName": "Lockman",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 44,
+    "yearsExperience": 5,
+    "modelingQuality": 70,
+    "fourthDownAggressiveness": 58,
+    "riskManagement": 72,
+    "contractValuation": 98,
+    "injuryRiskModeling": 67,
+    "tendencyAnalysis": 75
+  },
+  {
+    "id": "2e168506-b22e-4757-bbc8-320a058b7cda",
+    "firstName": "Jonathan",
+    "lastName": "Adams",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 46,
+    "yearsExperience": 14,
+    "mechanicsTraining": 99,
+    "decisionMakingTraining": 92,
+    "accuracyDevelopment": 94,
+    "pocketPresenceDevelopment": 65,
+    "leadershipMentoring": 98,
+    "filmStudyImpact": 76
   }
 ]

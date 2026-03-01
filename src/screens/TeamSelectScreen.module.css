@@ -1,0 +1,147 @@
+/* PAGE RESET — fixes invisible headers */
+.page {
+  position: relative;
+  z-index: 5;
+  background: #f7f8fa;
+  min-height: 100vh;
+  padding: 20px 16px 90px;
+  color: #111;
+}
+
+/* -------------------------
+   HEADERS
+-------------------------- */
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #3849e1;
+}
+
+.confTitle {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 8px;
+  margin: 18px 0 14px;
+}
+
+/* -------------------------
+   MOBILE FIRST LAYOUT
+-------------------------- */
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* desktop split later */
+@media (min-width: 900px) {
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+}
+
+/* -------------------------
+   TEAM GRID
+-------------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+/* phones */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* -------------------------
+   TEAM ITEM (NO BOXES)
+-------------------------- */
+
+.teamItem {
+  background: transparent;
+  border: none;
+  padding: 10px 4px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease;
+}
+
+.teamItem:hover {
+  transform: translateY(-2px);
+}
+
+.selected {
+  background: rgba(40, 199, 111, 0.12);
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 2px; /* tighter */
+}
+
+.teamCode {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-bottom: 2px;
+}
+
+.cap {
+  font-size: 13px;
+  font-weight: 600;
+  color: #28c76f;
+  line-height: 1;
+}
+
+/* -------------------------
+   CONTINUE BUTTON
+-------------------------- */
+
+.continue {
+  position: fixed;
+  bottom: 18px;
+  left: 16px;
+  right: 16px;
+
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  background: #d0d3d8;
+  color: white;
+}
+
+.enabled {
+  background: #28c76f;
+}
+.afc {
+  background: rgba(230, 57, 70, 0.08);
+  color: #e63946;
+}
+
+.nfc {
+  background: rgba(37, 99, 235, 0.08);
+  color: #2563eb;
+}

@@ -1,170 +1,183 @@
 [
   {
-    "id": "PHI-STAFF-1",
-    "team": "PHI",
-    "role": "Head Coach",
-    "name": "Logan Murphy",
-    "vitals": {
-      "age": 30,
-      "experience": 38
-    },
-    "ratings": {
-      "leadership": 67,
-      "discipline": 94,
-      "schemeKnowledge": 91,
-      "playerDev": 69,
-      "motivation": 79,
-      "injuryManagement": 56,
-      "conditioning": 65,
-      "analyticsIQ": 53
-    },
-    "contract": {
-      "years": 5,
-      "salary": 3570528
-    }
+    "id": "c4c38f74-3033-427d-b6f2-9095391185a9",
+    "firstName": "Kelvin",
+    "lastName": "Nader",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 39,
+    "yearsExperience": 15,
+    "type": "strategist",
+    "leadership": 73,
+    "culture": 96,
+    "strategy": 74,
+    "playerDevelopment": 65,
+    "discipline": 67,
+    "schemeOffense": "spread",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 93,
+    "staffManagement": 74
   },
   {
-    "id": "PHI-STAFF-2",
-    "team": "PHI",
-    "role": "Offensive Coordinator",
-    "name": "Jack Walter",
-    "vitals": {
-      "age": 63,
-      "experience": 5
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 80,
-      "schemeKnowledge": 70,
-      "playerDev": 85,
-      "motivation": 68,
-      "injuryManagement": 43,
-      "conditioning": 64,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2947334
-    }
+    "id": "a5c1ca56-6bd1-479a-b661-c0c4ea3aba1f",
+    "firstName": "Jonathan",
+    "lastName": "Hudson",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 64,
+    "yearsExperience": 8,
+    "playCalling": 83,
+    "qbDevelopment": 66,
+    "skillPlayerDevelopment": 94,
+    "offensiveSchemeKnowledge": 79,
+    "runGameDesign": 91,
+    "passGameDesign": 72,
+    "creativity": 67,
+    "schemePreference": "spread"
   },
   {
-    "id": "PHI-STAFF-3",
-    "team": "PHI",
-    "role": "Defensive Coordinator",
-    "name": "Henry Stokes",
-    "vitals": {
-      "age": 45,
-      "experience": 8
-    },
-    "ratings": {
-      "leadership": 75,
-      "discipline": 73,
-      "schemeKnowledge": 79,
-      "playerDev": 73,
-      "motivation": 60,
-      "injuryManagement": 54,
-      "conditioning": 40,
-      "analyticsIQ": 53
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7502436
-    }
+    "id": "a34356b1-cc53-41c8-baa5-d7e44bb19fab",
+    "firstName": "Kerry",
+    "lastName": "Marks-Nader",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 48,
+    "yearsExperience": 26,
+    "playCalling": 76,
+    "frontSevenDevelopment": 79,
+    "secondaryDevelopment": 67,
+    "defensiveSchemeKnowledge": 98,
+    "blitzDesign": 97,
+    "coverageDesign": 98,
+    "discipline": 75,
+    "schemePreference": "four_three"
   },
   {
-    "id": "PHI-STAFF-4",
-    "team": "PHI",
-    "role": "Strength & Conditioning Coach",
-    "name": "Jonathan Monahan",
-    "vitals": {
-      "age": 52,
-      "experience": 15
-    },
-    "ratings": {
-      "leadership": 92,
-      "discipline": 93,
-      "schemeKnowledge": 83,
-      "playerDev": 69,
-      "motivation": 87,
-      "injuryManagement": 70,
-      "conditioning": 82,
-      "analyticsIQ": 40
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3904879
-    }
+    "id": "d5fce9da-6b21-4e34-842c-4de080f3ae53",
+    "firstName": "Devin",
+    "lastName": "Buckridge",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 42,
+    "yearsExperience": 13,
+    "injuryPrevention": 73,
+    "recoverySpeed": 68,
+    "conditioning": 91,
+    "strengthTraining": 99,
+    "speedTraining": 62,
+    "workEthicBoost": 99
   },
   {
-    "id": "PHI-STAFF-5",
-    "team": "PHI",
-    "role": "Physical Therapist",
-    "name": "Reed Cassin",
-    "vitals": {
-      "age": 45,
-      "experience": 27
-    },
-    "ratings": {
-      "leadership": 87,
-      "discipline": 86,
-      "schemeKnowledge": 60,
-      "playerDev": 94,
-      "motivation": 75,
-      "injuryManagement": 80,
-      "conditioning": 70,
-      "analyticsIQ": 44
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4195872
-    }
+    "id": "ce1f67a0-924e-45f9-8b8f-77b8198cf270",
+    "firstName": "Jeremiah",
+    "lastName": "Bayer",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 65,
+    "yearsExperience": 18,
+    "diagnosisAccuracy": 81,
+    "rehabQuality": 76,
+    "injuryRiskAssessment": 89,
+    "returnToPlayConservatism": 45,
+    "longTermHealthManagement": 70
   },
   {
-    "id": "PHI-STAFF-6",
-    "team": "PHI",
-    "role": "Athletic Trainer",
-    "name": "Hassan Lueilwitz",
-    "vitals": {
-      "age": 33,
-      "experience": 5
-    },
-    "ratings": {
-      "leadership": 68,
-      "discipline": 87,
-      "schemeKnowledge": 63,
-      "playerDev": 78,
-      "motivation": 62,
-      "injuryManagement": 74,
-      "conditioning": 68,
-      "analyticsIQ": 62
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2415106
-    }
+    "id": "92fb50b4-2d69-4e4e-951f-f585d550527d",
+    "firstName": "Garry",
+    "lastName": "Schoen",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 35,
+    "yearsExperience": 22,
+    "proEvaluation": 82,
+    "contractInsight": 81,
+    "tradeValueAssessment": 63,
+    "rosterConstruction": 85,
+    "schemeFitAwareness": 80,
+    "developmentProjection": 77
   },
   {
-    "id": "PHI-STAFF-7",
-    "team": "PHI",
-    "role": "Analytics Coordinator",
-    "name": "Preston Schaefer",
-    "vitals": {
-      "age": 61,
-      "experience": 14
-    },
-    "ratings": {
-      "leadership": 89,
-      "discipline": 73,
-      "schemeKnowledge": 86,
-      "playerDev": 76,
-      "motivation": 69,
-      "injuryManagement": 66,
-      "conditioning": 54,
-      "analyticsIQ": 98
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5337055
-    }
+    "id": "b1179f22-713b-4087-99fa-4e8c74b3a520",
+    "firstName": "Anthony",
+    "lastName": "Schuppe",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 64,
+    "yearsExperience": 22,
+    "draftBoardManagement": 93,
+    "prospectEvaluation": 95,
+    "combineInterpretation": 60,
+    "positionalNeedsAwareness": 68,
+    "scoutingAccuracy": 83,
+    "regionalCoordination": 96
+  },
+  {
+    "id": "5bccfa19-b6cb-402a-980c-733a07dfb1b1",
+    "firstName": "Martin",
+    "lastName": "Wehner",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 43,
+    "yearsExperience": 6,
+    "regionalKnowledge": 61,
+    "positionalStrengths": 61,
+    "evaluationAccuracy": 89,
+    "intangiblesAssessment": 67,
+    "schemeFitProjection": 73
+  },
+  {
+    "id": "1f7ea1ea-c142-44f4-aeac-defba270ab94",
+    "firstName": "Michael",
+    "lastName": "Fisher",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 58,
+    "yearsExperience": 22,
+    "regionalKnowledge": 89,
+    "positionalStrengths": 95,
+    "evaluationAccuracy": 85,
+    "intangiblesAssessment": 63,
+    "schemeFitProjection": 69
+  },
+  {
+    "id": "2eca3ab1-7706-4d22-bccc-02b95c9ab309",
+    "firstName": "Roland",
+    "lastName": "Farrell",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 57,
+    "yearsExperience": 15,
+    "modelingQuality": 87,
+    "fourthDownAggressiveness": 52,
+    "riskManagement": 93,
+    "contractValuation": 92,
+    "injuryRiskModeling": 64,
+    "tendencyAnalysis": 89
+  },
+  {
+    "id": "2bdb87db-b585-4fd7-8bd4-f66ca07b7459",
+    "firstName": "Jesus",
+    "lastName": "Gerlach",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 55,
+    "yearsExperience": 28,
+    "mechanicsTraining": 89,
+    "decisionMakingTraining": 86,
+    "accuracyDevelopment": 96,
+    "pocketPresenceDevelopment": 74,
+    "leadershipMentoring": 85,
+    "filmStudyImpact": 97
   }
 ]

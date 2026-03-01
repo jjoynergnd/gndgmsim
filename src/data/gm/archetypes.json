@@ -1,0 +1,27 @@
+[
+  {
+    "id": "formerPlayer",
+    "name": "Former Player",
+    "description": "Understands locker room dynamics. Slight morale stability bonus."
+  },
+  {
+    "id": "capSpecialist",
+    "name": "Cap Specialist",
+    "description": "Better restructure outcomes and negotiation stability."
+  },
+  {
+    "id": "scoutGuru",
+    "name": "Scout Guru",
+    "description": "Improved scouting accuracy and prospect variance reduction."
+  },
+  {
+    "id": "negotiator",
+    "name": "Negotiator",
+    "description": "Lower walk-away chance during contract talks."
+  },
+  {
+    "id": "analyticsMind",
+    "name": "Analytics Mind",
+    "description": "Better scheme-fit predictions and decision modeling."
+  }
+]

@@ -1,170 +1,183 @@
 [
   {
-    "id": "DEN-STAFF-1",
-    "team": "DEN",
-    "role": "Head Coach",
-    "name": "Tristan Lubowitz",
-    "vitals": {
-      "age": 59,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 92,
-      "discipline": 66,
-      "schemeKnowledge": 63,
-      "playerDev": 74,
-      "motivation": 61,
-      "injuryManagement": 53,
-      "conditioning": 64,
-      "analyticsIQ": 57
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5848883
-    }
+    "id": "cf185d73-7fb2-4218-93d4-60e85c65ee91",
+    "firstName": "Sheldon",
+    "lastName": "Conroy",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 36,
+    "yearsExperience": 19,
+    "type": "strategist",
+    "leadership": 99,
+    "culture": 99,
+    "strategy": 64,
+    "playerDevelopment": 65,
+    "discipline": 66,
+    "schemeOffense": "zone_run",
+    "schemeDefense": "three_four",
+    "schemeFlexibility": 47,
+    "staffManagement": 92
   },
   {
-    "id": "DEN-STAFF-2",
-    "team": "DEN",
-    "role": "Offensive Coordinator",
-    "name": "Gabriel Kling",
-    "vitals": {
-      "age": 39,
-      "experience": 13
-    },
-    "ratings": {
-      "leadership": 76,
-      "discipline": 85,
-      "schemeKnowledge": 75,
-      "playerDev": 90,
-      "motivation": 79,
-      "injuryManagement": 58,
-      "conditioning": 55,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 3,
-      "salary": 1705783
-    }
+    "id": "df216561-2896-49a4-b19c-a5f9277cdc71",
+    "firstName": "Felix",
+    "lastName": "Quitzon",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 42,
+    "yearsExperience": 21,
+    "playCalling": 84,
+    "qbDevelopment": 97,
+    "skillPlayerDevelopment": 60,
+    "offensiveSchemeKnowledge": 66,
+    "runGameDesign": 91,
+    "passGameDesign": 67,
+    "creativity": 65,
+    "schemePreference": "vertical"
   },
   {
-    "id": "DEN-STAFF-3",
-    "team": "DEN",
-    "role": "Defensive Coordinator",
-    "name": "Hyun Kozey",
-    "vitals": {
-      "age": 47,
-      "experience": 30
-    },
-    "ratings": {
-      "leadership": 68,
-      "discipline": 77,
-      "schemeKnowledge": 64,
-      "playerDev": 67,
-      "motivation": 90,
-      "injuryManagement": 67,
-      "conditioning": 57,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 3,
-      "salary": 3154828
-    }
+    "id": "06592bbb-5fb0-438e-8905-141b26d1ba8c",
+    "firstName": "Jonathon",
+    "lastName": "Simonis",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 68,
+    "yearsExperience": 26,
+    "playCalling": 77,
+    "frontSevenDevelopment": 88,
+    "secondaryDevelopment": 67,
+    "defensiveSchemeKnowledge": 66,
+    "blitzDesign": 77,
+    "coverageDesign": 80,
+    "discipline": 99,
+    "schemePreference": "three_four"
   },
   {
-    "id": "DEN-STAFF-4",
-    "team": "DEN",
-    "role": "Strength & Conditioning Coach",
-    "name": "John Auer",
-    "vitals": {
-      "age": 43,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 76,
-      "discipline": 92,
-      "schemeKnowledge": 85,
-      "playerDev": 83,
-      "motivation": 79,
-      "injuryManagement": 51,
-      "conditioning": 87,
-      "analyticsIQ": 55
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3938833
-    }
+    "id": "32b4fdc6-7639-4eac-85ba-db2b5980cadc",
+    "firstName": "John",
+    "lastName": "Huel-Feil",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 41,
+    "yearsExperience": 5,
+    "injuryPrevention": 65,
+    "recoverySpeed": 67,
+    "conditioning": 85,
+    "strengthTraining": 85,
+    "speedTraining": 91,
+    "workEthicBoost": 97
   },
   {
-    "id": "DEN-STAFF-5",
-    "team": "DEN",
-    "role": "Physical Therapist",
-    "name": "Brendan Boehm",
-    "vitals": {
-      "age": 46,
-      "experience": 25
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 87,
-      "schemeKnowledge": 70,
-      "playerDev": 90,
-      "motivation": 71,
-      "injuryManagement": 92,
-      "conditioning": 70,
-      "analyticsIQ": 59
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3184529
-    }
+    "id": "4e9a097c-5f89-4559-a9b6-581bedc2afec",
+    "firstName": "Elias",
+    "lastName": "Ullrich",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 47,
+    "yearsExperience": 30,
+    "diagnosisAccuracy": 63,
+    "rehabQuality": 66,
+    "injuryRiskAssessment": 83,
+    "returnToPlayConservatism": 60,
+    "longTermHealthManagement": 70
   },
   {
-    "id": "DEN-STAFF-6",
-    "team": "DEN",
-    "role": "Athletic Trainer",
-    "name": "Cooper Mayer",
-    "vitals": {
-      "age": 64,
-      "experience": 20
-    },
-    "ratings": {
-      "leadership": 83,
-      "discipline": 80,
-      "schemeKnowledge": 64,
-      "playerDev": 87,
-      "motivation": 78,
-      "injuryManagement": 72,
-      "conditioning": 48,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 2,
-      "salary": 4123108
-    }
+    "id": "f83f9bd0-8146-4c62-b6f5-df6001ea4b4a",
+    "firstName": "Edward",
+    "lastName": "Ondricka",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 54,
+    "yearsExperience": 11,
+    "proEvaluation": 99,
+    "contractInsight": 67,
+    "tradeValueAssessment": 67,
+    "rosterConstruction": 80,
+    "schemeFitAwareness": 72,
+    "developmentProjection": 63
   },
   {
-    "id": "DEN-STAFF-7",
-    "team": "DEN",
-    "role": "Analytics Coordinator",
-    "name": "Elijah Haag",
-    "vitals": {
-      "age": 40,
-      "experience": 33
-    },
-    "ratings": {
-      "leadership": 93,
-      "discipline": 92,
-      "schemeKnowledge": 74,
-      "playerDev": 85,
-      "motivation": 79,
-      "injuryManagement": 70,
-      "conditioning": 62,
-      "analyticsIQ": 92
-    },
-    "contract": {
-      "years": 3,
-      "salary": 6325678
-    }
+    "id": "d106a737-cbe6-49a5-b10c-c28ee889cd06",
+    "firstName": "Julius",
+    "lastName": "Beier",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 60,
+    "yearsExperience": 12,
+    "draftBoardManagement": 60,
+    "prospectEvaluation": 72,
+    "combineInterpretation": 77,
+    "positionalNeedsAwareness": 81,
+    "scoutingAccuracy": 74,
+    "regionalCoordination": 91
+  },
+  {
+    "id": "9c65b7d3-071c-4945-aa63-462cc504aadf",
+    "firstName": "Erik",
+    "lastName": "Sanford",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 49,
+    "yearsExperience": 24,
+    "regionalKnowledge": 86,
+    "positionalStrengths": 83,
+    "evaluationAccuracy": 93,
+    "intangiblesAssessment": 63,
+    "schemeFitProjection": 98
+  },
+  {
+    "id": "6473482b-2362-4812-8d2b-3a0cd2c8a5b6",
+    "firstName": "Elmer",
+    "lastName": "Graham",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 39,
+    "yearsExperience": 19,
+    "regionalKnowledge": 73,
+    "positionalStrengths": 76,
+    "evaluationAccuracy": 78,
+    "intangiblesAssessment": 80,
+    "schemeFitProjection": 72
+  },
+  {
+    "id": "8afbb6e2-f86c-477d-8cb8-d6ea765389aa",
+    "firstName": "Kurt",
+    "lastName": "Franey",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 55,
+    "yearsExperience": 14,
+    "modelingQuality": 71,
+    "fourthDownAggressiveness": 66,
+    "riskManagement": 86,
+    "contractValuation": 95,
+    "injuryRiskModeling": 86,
+    "tendencyAnalysis": 70
+  },
+  {
+    "id": "8855aac7-ba36-4134-893c-c53000f92fa0",
+    "firstName": "Marlon",
+    "lastName": "Gleichner",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 54,
+    "yearsExperience": 16,
+    "mechanicsTraining": 70,
+    "decisionMakingTraining": 72,
+    "accuracyDevelopment": 76,
+    "pocketPresenceDevelopment": 82,
+    "leadershipMentoring": 93,
+    "filmStudyImpact": 83
   }
 ]

@@ -12,7 +12,6 @@
     "generate:roster": "node scripts/generateRoster.js",
     "generate:staff": "node scripts/generateStaff.js",
     "generate": "tsx src/generator/generateLeague.ts"
-
   },
   "dependencies": {
     "@faker-js/faker": "^10.2.0",

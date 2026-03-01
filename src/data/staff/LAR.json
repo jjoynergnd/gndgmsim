@@ -1,170 +1,183 @@
 [
   {
-    "id": "LAR-STAFF-1",
-    "team": "LAR",
-    "role": "Head Coach",
-    "name": "Pablo Goodwin",
-    "vitals": {
-      "age": 49,
-      "experience": 39
-    },
-    "ratings": {
-      "leadership": 69,
-      "discipline": 75,
-      "schemeKnowledge": 61,
-      "playerDev": 89,
-      "motivation": 77,
-      "injuryManagement": 54,
-      "conditioning": 44,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 5,
-      "salary": 7038698
-    }
+    "id": "1df4556b-c6cb-4fed-aef6-51821c57911e",
+    "firstName": "Jesse",
+    "lastName": "Stiedemann",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 45,
+    "yearsExperience": 30,
+    "type": "hybrid",
+    "leadership": 89,
+    "culture": 71,
+    "strategy": 89,
+    "playerDevelopment": 78,
+    "discipline": 71,
+    "schemeOffense": "zone_run",
+    "schemeDefense": "three_four",
+    "schemeFlexibility": 61,
+    "staffManagement": 76
   },
   {
-    "id": "LAR-STAFF-2",
-    "team": "LAR",
-    "role": "Offensive Coordinator",
-    "name": "Khalid Walter",
-    "vitals": {
-      "age": 60,
-      "experience": 6
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 92,
-      "schemeKnowledge": 62,
-      "playerDev": 83,
-      "motivation": 95,
-      "injuryManagement": 48,
-      "conditioning": 50,
-      "analyticsIQ": 50
-    },
-    "contract": {
-      "years": 5,
-      "salary": 5216163
-    }
+    "id": "96d2a020-d8a9-460a-8055-d4745299696a",
+    "firstName": "Arthur",
+    "lastName": "Mitchell",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 58,
+    "yearsExperience": 30,
+    "playCalling": 77,
+    "qbDevelopment": 69,
+    "skillPlayerDevelopment": 73,
+    "offensiveSchemeKnowledge": 73,
+    "runGameDesign": 60,
+    "passGameDesign": 94,
+    "creativity": 64,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "LAR-STAFF-3",
-    "team": "LAR",
-    "role": "Defensive Coordinator",
-    "name": "Matthew Mayer",
-    "vitals": {
-      "age": 40,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 85,
-      "discipline": 85,
-      "schemeKnowledge": 85,
-      "playerDev": 78,
-      "motivation": 94,
-      "injuryManagement": 60,
-      "conditioning": 46,
-      "analyticsIQ": 42
-    },
-    "contract": {
-      "years": 4,
-      "salary": 6977806
-    }
+    "id": "55ad997c-8e2c-4ea5-9693-74890d1b89ad",
+    "firstName": "Gerard",
+    "lastName": "Marquardt",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 51,
+    "yearsExperience": 20,
+    "playCalling": 78,
+    "frontSevenDevelopment": 72,
+    "secondaryDevelopment": 70,
+    "defensiveSchemeKnowledge": 94,
+    "blitzDesign": 93,
+    "coverageDesign": 79,
+    "discipline": 77,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "LAR-STAFF-4",
-    "team": "LAR",
-    "role": "Strength & Conditioning Coach",
-    "name": "Scott Reinger",
-    "vitals": {
-      "age": 60,
-      "experience": 25
-    },
-    "ratings": {
-      "leadership": 62,
-      "discipline": 91,
-      "schemeKnowledge": 90,
-      "playerDev": 63,
-      "motivation": 82,
-      "injuryManagement": 66,
-      "conditioning": 95,
-      "analyticsIQ": 50
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5999822
-    }
+    "id": "70c4bcd2-d6fb-454c-bd07-a566e7334e2c",
+    "firstName": "Russell",
+    "lastName": "Kuphal",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 58,
+    "yearsExperience": 23,
+    "injuryPrevention": 62,
+    "recoverySpeed": 99,
+    "conditioning": 81,
+    "strengthTraining": 90,
+    "speedTraining": 85,
+    "workEthicBoost": 61
   },
   {
-    "id": "LAR-STAFF-5",
-    "team": "LAR",
-    "role": "Physical Therapist",
-    "name": "Hayden Volkman",
-    "vitals": {
-      "age": 48,
-      "experience": 21
-    },
-    "ratings": {
-      "leadership": 78,
-      "discipline": 70,
-      "schemeKnowledge": 95,
-      "playerDev": 63,
-      "motivation": 85,
-      "injuryManagement": 78,
-      "conditioning": 57,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 4,
-      "salary": 850147
-    }
+    "id": "d07afda4-49c2-41b8-b3ec-919d0d3c71f1",
+    "firstName": "Simon",
+    "lastName": "Green",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 64,
+    "yearsExperience": 23,
+    "diagnosisAccuracy": 68,
+    "rehabQuality": 85,
+    "injuryRiskAssessment": 96,
+    "returnToPlayConservatism": 53,
+    "longTermHealthManagement": 79
   },
   {
-    "id": "LAR-STAFF-6",
-    "team": "LAR",
-    "role": "Athletic Trainer",
-    "name": "Austin Ruecker",
-    "vitals": {
-      "age": 40,
-      "experience": 30
-    },
-    "ratings": {
-      "leadership": 87,
-      "discipline": 93,
-      "schemeKnowledge": 89,
-      "playerDev": 82,
-      "motivation": 63,
-      "injuryManagement": 77,
-      "conditioning": 55,
-      "analyticsIQ": 48
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2200990
-    }
+    "id": "c2989354-0b11-4f04-9391-17d54a6bd4ed",
+    "firstName": "Antonio",
+    "lastName": "Rice",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 41,
+    "yearsExperience": 9,
+    "proEvaluation": 78,
+    "contractInsight": 99,
+    "tradeValueAssessment": 80,
+    "rosterConstruction": 71,
+    "schemeFitAwareness": 88,
+    "developmentProjection": 96
   },
   {
-    "id": "LAR-STAFF-7",
-    "team": "LAR",
-    "role": "Analytics Coordinator",
-    "name": "Scott Gibson",
-    "vitals": {
-      "age": 61,
-      "experience": 35
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 65,
-      "schemeKnowledge": 93,
-      "playerDev": 65,
-      "motivation": 71,
-      "injuryManagement": 44,
-      "conditioning": 46,
-      "analyticsIQ": 81
-    },
-    "contract": {
-      "years": 3,
-      "salary": 749472
-    }
+    "id": "25449c82-9998-4978-920c-712678619c69",
+    "firstName": "Ben",
+    "lastName": "Hilll",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 47,
+    "yearsExperience": 9,
+    "draftBoardManagement": 65,
+    "prospectEvaluation": 91,
+    "combineInterpretation": 64,
+    "positionalNeedsAwareness": 83,
+    "scoutingAccuracy": 97,
+    "regionalCoordination": 80
+  },
+  {
+    "id": "604e290e-d0e7-4868-8d30-f6cfb9f2157a",
+    "firstName": "Joseph",
+    "lastName": "Sipes",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 66,
+    "yearsExperience": 7,
+    "regionalKnowledge": 75,
+    "positionalStrengths": 89,
+    "evaluationAccuracy": 76,
+    "intangiblesAssessment": 83,
+    "schemeFitProjection": 94
+  },
+  {
+    "id": "d43df7f4-bf8d-43d3-9424-8039b089e142",
+    "firstName": "Aubrey",
+    "lastName": "Heaney",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 46,
+    "yearsExperience": 30,
+    "regionalKnowledge": 99,
+    "positionalStrengths": 61,
+    "evaluationAccuracy": 70,
+    "intangiblesAssessment": 73,
+    "schemeFitProjection": 70
+  },
+  {
+    "id": "fc9013c3-86d1-4c1b-88d1-a29b95e68601",
+    "firstName": "Frederick",
+    "lastName": "Herzog",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 56,
+    "yearsExperience": 12,
+    "modelingQuality": 97,
+    "fourthDownAggressiveness": 48,
+    "riskManagement": 86,
+    "contractValuation": 74,
+    "injuryRiskModeling": 80,
+    "tendencyAnalysis": 66
+  },
+  {
+    "id": "67abe44f-1de0-4052-af58-39adfa88a812",
+    "firstName": "Garrett",
+    "lastName": "Senger",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 52,
+    "yearsExperience": 6,
+    "mechanicsTraining": 61,
+    "decisionMakingTraining": 82,
+    "accuracyDevelopment": 62,
+    "pocketPresenceDevelopment": 69,
+    "leadershipMentoring": 74,
+    "filmStudyImpact": 73
   }
 ]

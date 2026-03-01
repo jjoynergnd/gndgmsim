@@ -1,18 +1,19 @@
 // -----------------------------------------------------------------------------
-// Layout — Corrected, Shadow-Safe, Full-Width Architecture
+// Layout — Multi-Mode (App + Onboarding)
 // -----------------------------------------------------------------------------
 
 import React, { useState } from "react";
 import HeaderBar from "./HeaderBar";
 import SeasonHeaderBar from "./season/SeasonHeaderBar";
 
-const Layout = ({ children }) => {
-  // Tier 1 — Global season context (read-only for now)
+const Layout = ({ children, variant = "app" }) => {
   const [seasonContext] = useState({
     year: 2026,
-    phase: "REGULAR_SEASON", // PRESEASON | REGULAR_SEASON | PLAYOFFS | OFFSEASON
+    phase: "REGULAR_SEASON",
     week: 4,
   });
+
+  const isOnboarding = variant === "onboarding";
 
   return (
     <div
@@ -22,14 +23,16 @@ const Layout = ({ children }) => {
         background: "var(--color-bg)",
         display: "flex",
         flexDirection: "column",
-        overflow: "hidden", // root clamps ONLY the viewport, not children
+        overflow: "hidden",
       }}
     >
-      {/* Global header bar */}
+      {/* Header stays visible */}
       <HeaderBar title="GND GM Simulator" />
 
-      {/* Tier 1 — Global season orientation */}
-      <SeasonHeaderBar season={seasonContext} />
+      {/* Hide season bar during onboarding */}
+      {!isOnboarding && (
+        <SeasonHeaderBar season={seasonContext} />
+      )}
 
       {/* SINGLE scroll container */}
       <div
@@ -37,7 +40,10 @@ const Layout = ({ children }) => {
           flex: 1,
           overflowY: "auto",
           overflowX: "hidden",
-          padding: "24px",
+
+          /* onboarding removes dashboard padding */
+          padding: isOnboarding ? "0px" : "24px",
+
           display: "flex",
           justifyContent: "center",
         }}
@@ -46,7 +52,9 @@ const Layout = ({ children }) => {
         <div
           style={{
             width: "100%",
-            maxWidth: "1200px",
+
+            /* onboarding gets full width */
+            maxWidth: isOnboarding ? "100%" : "1200px",
           }}
         >
           {children}

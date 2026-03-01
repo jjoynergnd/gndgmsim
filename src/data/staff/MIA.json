@@ -1,170 +1,183 @@
 [
   {
-    "id": "MIA-STAFF-1",
-    "team": "MIA",
-    "role": "Head Coach",
-    "name": "James McCullough",
-    "vitals": {
-      "age": 39,
-      "experience": 20
-    },
-    "ratings": {
-      "leadership": 68,
-      "discipline": 82,
-      "schemeKnowledge": 62,
-      "playerDev": 69,
-      "motivation": 75,
-      "injuryManagement": 62,
-      "conditioning": 69,
-      "analyticsIQ": 46
-    },
-    "contract": {
-      "years": 4,
-      "salary": 3798154
-    }
+    "id": "50b7a188-3e05-4d87-8725-b322b2df0962",
+    "firstName": "Reginald",
+    "lastName": "Thompson",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 68,
+    "yearsExperience": 12,
+    "type": "hybrid",
+    "leadership": 74,
+    "culture": 88,
+    "strategy": 95,
+    "playerDevelopment": 64,
+    "discipline": 97,
+    "schemeOffense": "spread",
+    "schemeDefense": "hybrid",
+    "schemeFlexibility": 66,
+    "staffManagement": 73
   },
   {
-    "id": "MIA-STAFF-2",
-    "team": "MIA",
-    "role": "Offensive Coordinator",
-    "name": "Viktor Sanford",
-    "vitals": {
-      "age": 55,
-      "experience": 23
-    },
-    "ratings": {
-      "leadership": 80,
-      "discipline": 91,
-      "schemeKnowledge": 83,
-      "playerDev": 60,
-      "motivation": 75,
-      "injuryManagement": 52,
-      "conditioning": 42,
-      "analyticsIQ": 55
-    },
-    "contract": {
-      "years": 2,
-      "salary": 534248
-    }
+    "id": "aee74d40-5d2b-4a66-9d3d-a4e3a45be89b",
+    "firstName": "Leon",
+    "lastName": "Davis",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 57,
+    "yearsExperience": 10,
+    "playCalling": 64,
+    "qbDevelopment": 89,
+    "skillPlayerDevelopment": 79,
+    "offensiveSchemeKnowledge": 81,
+    "runGameDesign": 70,
+    "passGameDesign": 94,
+    "creativity": 93,
+    "schemePreference": "spread"
   },
   {
-    "id": "MIA-STAFF-3",
-    "team": "MIA",
-    "role": "Defensive Coordinator",
-    "name": "George Bins",
-    "vitals": {
-      "age": 42,
-      "experience": 28
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 72,
-      "schemeKnowledge": 90,
-      "playerDev": 90,
-      "motivation": 91,
-      "injuryManagement": 48,
-      "conditioning": 54,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 2,
-      "salary": 7269244
-    }
+    "id": "a8d0395f-ee03-405d-8bac-d25b77a4f462",
+    "firstName": "Christopher",
+    "lastName": "Connelly",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 41,
+    "yearsExperience": 11,
+    "playCalling": 88,
+    "frontSevenDevelopment": 93,
+    "secondaryDevelopment": 84,
+    "defensiveSchemeKnowledge": 82,
+    "blitzDesign": 74,
+    "coverageDesign": 95,
+    "discipline": 98,
+    "schemePreference": "three_four"
   },
   {
-    "id": "MIA-STAFF-4",
-    "team": "MIA",
-    "role": "Strength & Conditioning Coach",
-    "name": "Sergei Balistreri",
-    "vitals": {
-      "age": 43,
-      "experience": 27
-    },
-    "ratings": {
-      "leadership": 72,
-      "discipline": 86,
-      "schemeKnowledge": 87,
-      "playerDev": 81,
-      "motivation": 79,
-      "injuryManagement": 60,
-      "conditioning": 89,
-      "analyticsIQ": 41
-    },
-    "contract": {
-      "years": 4,
-      "salary": 6228437
-    }
+    "id": "ec792b2d-2421-45be-9102-8ca76c86be08",
+    "firstName": "Tomas",
+    "lastName": "Price",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 35,
+    "yearsExperience": 28,
+    "injuryPrevention": 97,
+    "recoverySpeed": 72,
+    "conditioning": 73,
+    "strengthTraining": 82,
+    "speedTraining": 96,
+    "workEthicBoost": 60
   },
   {
-    "id": "MIA-STAFF-5",
-    "team": "MIA",
-    "role": "Physical Therapist",
-    "name": "Carter Blick",
-    "vitals": {
-      "age": 36,
-      "experience": 7
-    },
-    "ratings": {
-      "leadership": 76,
-      "discipline": 62,
-      "schemeKnowledge": 70,
-      "playerDev": 91,
-      "motivation": 80,
-      "injuryManagement": 89,
-      "conditioning": 47,
-      "analyticsIQ": 51
-    },
-    "contract": {
-      "years": 3,
-      "salary": 2235061
-    }
+    "id": "bdf8c2fa-3425-4e48-bb34-753de9bd4584",
+    "firstName": "Johnny",
+    "lastName": "Tillman",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 47,
+    "yearsExperience": 11,
+    "diagnosisAccuracy": 78,
+    "rehabQuality": 88,
+    "injuryRiskAssessment": 95,
+    "returnToPlayConservatism": 50,
+    "longTermHealthManagement": 60
   },
   {
-    "id": "MIA-STAFF-6",
-    "team": "MIA",
-    "role": "Athletic Trainer",
-    "name": "Malik O'Reilly",
-    "vitals": {
-      "age": 51,
-      "experience": 36
-    },
-    "ratings": {
-      "leadership": 63,
-      "discipline": 83,
-      "schemeKnowledge": 71,
-      "playerDev": 87,
-      "motivation": 95,
-      "injuryManagement": 76,
-      "conditioning": 56,
-      "analyticsIQ": 67
-    },
-    "contract": {
-      "years": 3,
-      "salary": 7010938
-    }
+    "id": "7d7ec2ad-a9aa-4408-b6e1-39e88c922206",
+    "firstName": "Austin",
+    "lastName": "Rowe",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 62,
+    "yearsExperience": 10,
+    "proEvaluation": 87,
+    "contractInsight": 96,
+    "tradeValueAssessment": 65,
+    "rosterConstruction": 66,
+    "schemeFitAwareness": 91,
+    "developmentProjection": 64
   },
   {
-    "id": "MIA-STAFF-7",
-    "team": "MIA",
-    "role": "Analytics Coordinator",
-    "name": "Julian Rolfson",
-    "vitals": {
-      "age": 47,
-      "experience": 11
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 92,
-      "schemeKnowledge": 92,
-      "playerDev": 93,
-      "motivation": 67,
-      "injuryManagement": 62,
-      "conditioning": 43,
-      "analyticsIQ": 80
-    },
-    "contract": {
-      "years": 2,
-      "salary": 2981910
-    }
+    "id": "a393785b-9581-4580-9bd5-42cb9af736d8",
+    "firstName": "Albert",
+    "lastName": "Kulas",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 68,
+    "yearsExperience": 29,
+    "draftBoardManagement": 97,
+    "prospectEvaluation": 82,
+    "combineInterpretation": 78,
+    "positionalNeedsAwareness": 97,
+    "scoutingAccuracy": 94,
+    "regionalCoordination": 96
+  },
+  {
+    "id": "9d307379-64f9-4d6d-bca1-9ff81c731d23",
+    "firstName": "Andy",
+    "lastName": "Stamm",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 50,
+    "yearsExperience": 25,
+    "regionalKnowledge": 64,
+    "positionalStrengths": 76,
+    "evaluationAccuracy": 98,
+    "intangiblesAssessment": 99,
+    "schemeFitProjection": 60
+  },
+  {
+    "id": "441df12d-41c2-4f22-818c-c5e6c353681e",
+    "firstName": "Frederick",
+    "lastName": "Rau",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 55,
+    "yearsExperience": 15,
+    "regionalKnowledge": 79,
+    "positionalStrengths": 70,
+    "evaluationAccuracy": 76,
+    "intangiblesAssessment": 93,
+    "schemeFitProjection": 86
+  },
+  {
+    "id": "d833ccdd-8879-4ccb-8345-6d9181a69601",
+    "firstName": "Alberto",
+    "lastName": "Metz",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 60,
+    "yearsExperience": 19,
+    "modelingQuality": 67,
+    "fourthDownAggressiveness": 82,
+    "riskManagement": 62,
+    "contractValuation": 86,
+    "injuryRiskModeling": 66,
+    "tendencyAnalysis": 65
+  },
+  {
+    "id": "c65a5a34-508f-4fdb-8b3f-6afd27f0b493",
+    "firstName": "Abraham",
+    "lastName": "Hudson",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 43,
+    "yearsExperience": 13,
+    "mechanicsTraining": 62,
+    "decisionMakingTraining": 84,
+    "accuracyDevelopment": 72,
+    "pocketPresenceDevelopment": 93,
+    "leadershipMentoring": 93,
+    "filmStudyImpact": 94
   }
 ]

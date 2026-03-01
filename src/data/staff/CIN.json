@@ -1,170 +1,183 @@
 [
   {
-    "id": "CIN-STAFF-1",
-    "team": "CIN",
-    "role": "Head Coach",
-    "name": "Edward Maggio",
-    "vitals": {
-      "age": 64,
-      "experience": 17
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 84,
-      "schemeKnowledge": 92,
-      "playerDev": 64,
-      "motivation": 68,
-      "injuryManagement": 58,
-      "conditioning": 66,
-      "analyticsIQ": 57
-    },
-    "contract": {
-      "years": 2,
-      "salary": 1460660
-    }
+    "id": "38dba748-d419-4174-9e04-5140dbb3f02b",
+    "firstName": "Joey",
+    "lastName": "Schuppe",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 52,
+    "yearsExperience": 17,
+    "type": "mastermind",
+    "leadership": 63,
+    "culture": 66,
+    "strategy": 87,
+    "playerDevelopment": 71,
+    "discipline": 75,
+    "schemeOffense": "spread",
+    "schemeDefense": "four_three",
+    "schemeFlexibility": 45,
+    "staffManagement": 99
   },
   {
-    "id": "CIN-STAFF-2",
-    "team": "CIN",
-    "role": "Offensive Coordinator",
-    "name": "Diego Shields",
-    "vitals": {
-      "age": 31,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 76,
-      "discipline": 92,
-      "schemeKnowledge": 88,
-      "playerDev": 83,
-      "motivation": 91,
-      "injuryManagement": 70,
-      "conditioning": 61,
-      "analyticsIQ": 64
-    },
-    "contract": {
-      "years": 5,
-      "salary": 2645116
-    }
+    "id": "7d966436-08be-4343-b644-2e1e8c8fad76",
+    "firstName": "Curtis",
+    "lastName": "Goyette",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 60,
+    "yearsExperience": 9,
+    "playCalling": 90,
+    "qbDevelopment": 68,
+    "skillPlayerDevelopment": 97,
+    "offensiveSchemeKnowledge": 60,
+    "runGameDesign": 97,
+    "passGameDesign": 75,
+    "creativity": 76,
+    "schemePreference": "vertical"
   },
   {
-    "id": "CIN-STAFF-3",
-    "team": "CIN",
-    "role": "Defensive Coordinator",
-    "name": "Nolan Schmitt",
-    "vitals": {
-      "age": 41,
-      "experience": 31
-    },
-    "ratings": {
-      "leadership": 82,
-      "discipline": 85,
-      "schemeKnowledge": 75,
-      "playerDev": 95,
-      "motivation": 82,
-      "injuryManagement": 46,
-      "conditioning": 41,
-      "analyticsIQ": 70
-    },
-    "contract": {
-      "years": 3,
-      "salary": 5434703
-    }
+    "id": "b4a72dfa-52c8-4a0c-b649-74a1ee39afc8",
+    "firstName": "Ruben",
+    "lastName": "Wolf",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 37,
+    "yearsExperience": 9,
+    "playCalling": 79,
+    "frontSevenDevelopment": 72,
+    "secondaryDevelopment": 60,
+    "defensiveSchemeKnowledge": 83,
+    "blitzDesign": 63,
+    "coverageDesign": 85,
+    "discipline": 67,
+    "schemePreference": "four_three"
   },
   {
-    "id": "CIN-STAFF-4",
-    "team": "CIN",
-    "role": "Strength & Conditioning Coach",
-    "name": "Vincent Emard",
-    "vitals": {
-      "age": 33,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 64,
-      "discipline": 92,
-      "schemeKnowledge": 60,
-      "playerDev": 61,
-      "motivation": 62,
-      "injuryManagement": 61,
-      "conditioning": 89,
-      "analyticsIQ": 65
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3610333
-    }
+    "id": "78d334db-80e7-49cb-ab5f-1daa77db1d78",
+    "firstName": "Ervin",
+    "lastName": "Blanda",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 37,
+    "yearsExperience": 21,
+    "injuryPrevention": 76,
+    "recoverySpeed": 94,
+    "conditioning": 76,
+    "strengthTraining": 95,
+    "speedTraining": 62,
+    "workEthicBoost": 73
   },
   {
-    "id": "CIN-STAFF-5",
-    "team": "CIN",
-    "role": "Physical Therapist",
-    "name": "Evan Senger",
-    "vitals": {
-      "age": 43,
-      "experience": 27
-    },
-    "ratings": {
-      "leadership": 60,
-      "discipline": 87,
-      "schemeKnowledge": 73,
-      "playerDev": 91,
-      "motivation": 63,
-      "injuryManagement": 82,
-      "conditioning": 53,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 2,
-      "salary": 2008360
-    }
+    "id": "0f9ae32a-b1c9-4d52-ba6c-9a8da737d010",
+    "firstName": "Israel",
+    "lastName": "Stracke",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 43,
+    "yearsExperience": 30,
+    "diagnosisAccuracy": 87,
+    "rehabQuality": 87,
+    "injuryRiskAssessment": 67,
+    "returnToPlayConservatism": 82,
+    "longTermHealthManagement": 91
   },
   {
-    "id": "CIN-STAFF-6",
-    "team": "CIN",
-    "role": "Athletic Trainer",
-    "name": "Pablo Rath",
-    "vitals": {
-      "age": 52,
-      "experience": 26
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 77,
-      "schemeKnowledge": 85,
-      "playerDev": 95,
-      "motivation": 82,
-      "injuryManagement": 76,
-      "conditioning": 67,
-      "analyticsIQ": 68
-    },
-    "contract": {
-      "years": 5,
-      "salary": 4077431
-    }
+    "id": "3c473464-bf16-4e8c-b2c1-0f898cffc7ad",
+    "firstName": "Glenn",
+    "lastName": "Ebert",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 42,
+    "yearsExperience": 12,
+    "proEvaluation": 83,
+    "contractInsight": 93,
+    "tradeValueAssessment": 97,
+    "rosterConstruction": 91,
+    "schemeFitAwareness": 63,
+    "developmentProjection": 84
   },
   {
-    "id": "CIN-STAFF-7",
-    "team": "CIN",
-    "role": "Analytics Coordinator",
-    "name": "Ronan Swaniawski",
-    "vitals": {
-      "age": 57,
-      "experience": 6
-    },
-    "ratings": {
-      "leadership": 77,
-      "discipline": 71,
-      "schemeKnowledge": 95,
-      "playerDev": 87,
-      "motivation": 71,
-      "injuryManagement": 55,
-      "conditioning": 66,
-      "analyticsIQ": 88
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3165962
-    }
+    "id": "e63c95e2-1623-493d-a52d-c5e89871cd44",
+    "firstName": "Malcolm",
+    "lastName": "Hayes",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 53,
+    "yearsExperience": 5,
+    "draftBoardManagement": 89,
+    "prospectEvaluation": 90,
+    "combineInterpretation": 88,
+    "positionalNeedsAwareness": 83,
+    "scoutingAccuracy": 84,
+    "regionalCoordination": 96
+  },
+  {
+    "id": "345c2a29-72ea-4558-bd03-537362eaabcc",
+    "firstName": "Reginald",
+    "lastName": "Schamberger",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 44,
+    "yearsExperience": 21,
+    "regionalKnowledge": 83,
+    "positionalStrengths": 99,
+    "evaluationAccuracy": 98,
+    "intangiblesAssessment": 68,
+    "schemeFitProjection": 70
+  },
+  {
+    "id": "b6e5da86-d97b-45a3-9eb4-e6374430decf",
+    "firstName": "Enrique",
+    "lastName": "Luettgen",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 61,
+    "yearsExperience": 23,
+    "regionalKnowledge": 83,
+    "positionalStrengths": 99,
+    "evaluationAccuracy": 93,
+    "intangiblesAssessment": 65,
+    "schemeFitProjection": 70
+  },
+  {
+    "id": "c19e8abe-f131-48bb-9842-6648ee8e96f1",
+    "firstName": "Mark",
+    "lastName": "Flatley",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 53,
+    "yearsExperience": 9,
+    "modelingQuality": 60,
+    "fourthDownAggressiveness": 49,
+    "riskManagement": 74,
+    "contractValuation": 95,
+    "injuryRiskModeling": 66,
+    "tendencyAnalysis": 67
+  },
+  {
+    "id": "c141e33f-f5a1-40c0-84be-8d321a2c935d",
+    "firstName": "Salvatore",
+    "lastName": "Cremin",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 40,
+    "yearsExperience": 30,
+    "mechanicsTraining": 76,
+    "decisionMakingTraining": 66,
+    "accuracyDevelopment": 85,
+    "pocketPresenceDevelopment": 81,
+    "leadershipMentoring": 87,
+    "filmStudyImpact": 98
   }
 ]

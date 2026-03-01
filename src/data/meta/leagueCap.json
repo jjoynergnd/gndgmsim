@@ -1,178 +1,178 @@
 {
   "year": 2026,
   "leagueCap": 305000000,
-  "averageTeamSpend": 248606188,
-  "averageCapSpace": 56393813,
+  "averageTeamSpend": 241837033,
+  "averageCapSpace": 63162967,
   "teams": [
     {
       "teamId": "BAL",
-      "totalSalary": 254304000,
-      "capSpace": 50696000
+      "totalSalary": 208001250,
+      "capSpace": 96998750
     },
     {
       "teamId": "CIN",
-      "totalSalary": 240445400,
-      "capSpace": 64554600
+      "totalSalary": 255259450,
+      "capSpace": 49740550
     },
     {
       "teamId": "CLE",
-      "totalSalary": 192433400,
-      "capSpace": 112566600
+      "totalSalary": 225993040,
+      "capSpace": 79006960
     },
     {
       "teamId": "PIT",
-      "totalSalary": 231248600,
-      "capSpace": 73751400
+      "totalSalary": 166445850,
+      "capSpace": 138554150
     },
     {
       "teamId": "BUF",
-      "totalSalary": 282129200,
-      "capSpace": 22870800
+      "totalSalary": 179103760,
+      "capSpace": 125896240
     },
     {
       "teamId": "MIA",
-      "totalSalary": 298564600,
-      "capSpace": 6435400
+      "totalSalary": 226817735,
+      "capSpace": 78182265
     },
     {
       "teamId": "NE",
-      "totalSalary": 274386000,
-      "capSpace": 30614000
+      "totalSalary": 165935450,
+      "capSpace": 139064550
     },
     {
       "teamId": "NYJ",
-      "totalSalary": 205410000,
-      "capSpace": 99590000
+      "totalSalary": 259932550,
+      "capSpace": 45067450
     },
     {
       "teamId": "HOU",
-      "totalSalary": 238645600,
-      "capSpace": 66354400
+      "totalSalary": 335391050,
+      "capSpace": -30391050
     },
     {
       "teamId": "IND",
-      "totalSalary": 241454800,
-      "capSpace": 63545200
+      "totalSalary": 197297890,
+      "capSpace": 107702110
     },
     {
       "teamId": "JAX",
-      "totalSalary": 275916600,
-      "capSpace": 29083400
+      "totalSalary": 233385910,
+      "capSpace": 71614090
     },
     {
       "teamId": "TEN",
-      "totalSalary": 249758000,
-      "capSpace": 55242000
+      "totalSalary": 325932440,
+      "capSpace": -20932440
     },
     {
       "teamId": "DEN",
-      "totalSalary": 274671000,
-      "capSpace": 30329000
+      "totalSalary": 250278900,
+      "capSpace": 54721100
     },
     {
       "teamId": "KC",
-      "totalSalary": 232445600,
-      "capSpace": 72554400
+      "totalSalary": 218401300,
+      "capSpace": 86598700
     },
     {
       "teamId": "LV",
-      "totalSalary": 220299400,
-      "capSpace": 84700600
+      "totalSalary": 283196310,
+      "capSpace": 21803690
     },
     {
       "teamId": "LAC",
-      "totalSalary": 272734200,
-      "capSpace": 32265800
+      "totalSalary": 220747340,
+      "capSpace": 84252660
     },
     {
       "teamId": "CHI",
-      "totalSalary": 280733000,
-      "capSpace": 24267000
+      "totalSalary": 191201450,
+      "capSpace": 113798550
     },
     {
       "teamId": "DET",
-      "totalSalary": 255227600,
-      "capSpace": 49772400
+      "totalSalary": 277290720,
+      "capSpace": 27709280
     },
     {
       "teamId": "GB",
-      "totalSalary": 242861200,
-      "capSpace": 62138800
+      "totalSalary": 230882950,
+      "capSpace": 74117050
     },
     {
       "teamId": "MIN",
-      "totalSalary": 234921200,
-      "capSpace": 70078800
+      "totalSalary": 285835640,
+      "capSpace": 19164360
     },
     {
       "teamId": "DAL",
-      "totalSalary": 222309600,
-      "capSpace": 82690400
+      "totalSalary": 213154980,
+      "capSpace": 91845020
     },
     {
       "teamId": "NYG",
-      "totalSalary": 237027200,
-      "capSpace": 67972800
+      "totalSalary": 256560400,
+      "capSpace": 48439600
     },
     {
       "teamId": "PHI",
-      "totalSalary": 251454400,
-      "capSpace": 53545600
+      "totalSalary": 226380000,
+      "capSpace": 78620000
     },
     {
       "teamId": "WAS",
-      "totalSalary": 209389000,
-      "capSpace": 95611000
+      "totalSalary": 269506950,
+      "capSpace": 35493050
     },
     {
       "teamId": "ATL",
-      "totalSalary": 223492600,
-      "capSpace": 81507400
+      "totalSalary": 263568875,
+      "capSpace": 41431125
     },
     {
       "teamId": "CAR",
-      "totalSalary": 224952200,
-      "capSpace": 80047800
+      "totalSalary": 229680550,
+      "capSpace": 75319450
     },
     {
       "teamId": "NO",
-      "totalSalary": 240497400,
-      "capSpace": 64502600
+      "totalSalary": 239829930,
+      "capSpace": 65170070
     },
     {
       "teamId": "TB",
-      "totalSalary": 276101400,
-      "capSpace": 28898600
+      "totalSalary": 305431270,
+      "capSpace": -431270
     },
     {
       "teamId": "ARI",
-      "totalSalary": 294799600,
-      "capSpace": 10200400
+      "totalSalary": 262022470,
+      "capSpace": 42977530
     },
     {
       "teamId": "LAR",
-      "totalSalary": 258452600,
-      "capSpace": 46547400
+      "totalSalary": 185675850,
+      "capSpace": 119324150
     },
     {
       "teamId": "SF",
-      "totalSalary": 275856400,
-      "capSpace": 29143600
+      "totalSalary": 312775885,
+      "capSpace": -7775885
     },
     {
       "teamId": "SEA",
-      "totalSalary": 242476200,
-      "capSpace": 62523800
+      "totalSalary": 236866900,
+      "capSpace": 68133100
     }
   ],
   "maxCapSpaceTeam": {
-    "teamId": "CLE",
-    "totalSalary": 192433400,
-    "capSpace": 112566600
+    "teamId": "NE",
+    "totalSalary": 165935450,
+    "capSpace": 139064550
   },
   "minCapSpaceTeam": {
-    "teamId": "MIA",
-    "totalSalary": 298564600,
-    "capSpace": 6435400
+    "teamId": "HOU",
+    "totalSalary": 335391050,
+    "capSpace": -30391050
   }
 }

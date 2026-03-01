@@ -1,170 +1,183 @@
 [
   {
-    "id": "LAC-STAFF-1",
-    "team": "LAC",
-    "role": "Head Coach",
-    "name": "Dominic Dach",
-    "vitals": {
-      "age": 59,
-      "experience": 4
-    },
-    "ratings": {
-      "leadership": 89,
-      "discipline": 74,
-      "schemeKnowledge": 61,
-      "playerDev": 80,
-      "motivation": 69,
-      "injuryManagement": 58,
-      "conditioning": 67,
-      "analyticsIQ": 52
-    },
-    "contract": {
-      "years": 2,
-      "salary": 4378602
-    }
+    "id": "c75acab7-61ff-4c65-adf0-e19b324ab1c3",
+    "firstName": "Carl",
+    "lastName": "Runolfsson",
+    "role": "HC",
+    "roleCode": "HC",
+    "roleName": "Head Coach",
+    "age": 59,
+    "yearsExperience": 29,
+    "type": "ceo",
+    "leadership": 91,
+    "culture": 63,
+    "strategy": 94,
+    "playerDevelopment": 86,
+    "discipline": 80,
+    "schemeOffense": "power_run",
+    "schemeDefense": "nickel_heavy",
+    "schemeFlexibility": 45,
+    "staffManagement": 77
   },
   {
-    "id": "LAC-STAFF-2",
-    "team": "LAC",
-    "role": "Offensive Coordinator",
-    "name": "Jacob Witting",
-    "vitals": {
-      "age": 62,
-      "experience": 31
-    },
-    "ratings": {
-      "leadership": 81,
-      "discipline": 80,
-      "schemeKnowledge": 73,
-      "playerDev": 81,
-      "motivation": 75,
-      "injuryManagement": 42,
-      "conditioning": 48,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 5,
-      "salary": 5029089
-    }
+    "id": "8926a21d-04bc-4220-9ee9-987407e7ff95",
+    "firstName": "Darrell",
+    "lastName": "Ankunding",
+    "role": "OC",
+    "roleCode": "OC",
+    "roleName": "Offensive Coordinator",
+    "age": 61,
+    "yearsExperience": 8,
+    "playCalling": 72,
+    "qbDevelopment": 82,
+    "skillPlayerDevelopment": 79,
+    "offensiveSchemeKnowledge": 67,
+    "runGameDesign": 69,
+    "passGameDesign": 92,
+    "creativity": 76,
+    "schemePreference": "west_coast"
   },
   {
-    "id": "LAC-STAFF-3",
-    "team": "LAC",
-    "role": "Defensive Coordinator",
-    "name": "Santiago Hansen",
-    "vitals": {
-      "age": 34,
-      "experience": 36
-    },
-    "ratings": {
-      "leadership": 92,
-      "discipline": 76,
-      "schemeKnowledge": 70,
-      "playerDev": 83,
-      "motivation": 93,
-      "injuryManagement": 66,
-      "conditioning": 56,
-      "analyticsIQ": 49
-    },
-    "contract": {
-      "years": 4,
-      "salary": 4224812
-    }
+    "id": "79655664-3dd6-4c24-94d1-abf513dbe98c",
+    "firstName": "Randall",
+    "lastName": "Brakus",
+    "role": "DC",
+    "roleCode": "DC",
+    "roleName": "Defensive Coordinator",
+    "age": 64,
+    "yearsExperience": 29,
+    "playCalling": 86,
+    "frontSevenDevelopment": 96,
+    "secondaryDevelopment": 96,
+    "defensiveSchemeKnowledge": 74,
+    "blitzDesign": 63,
+    "coverageDesign": 85,
+    "discipline": 95,
+    "schemePreference": "hybrid"
   },
   {
-    "id": "LAC-STAFF-4",
-    "team": "LAC",
-    "role": "Strength & Conditioning Coach",
-    "name": "Randy Halvorson",
-    "vitals": {
-      "age": 55,
-      "experience": 16
-    },
-    "ratings": {
-      "leadership": 94,
-      "discipline": 78,
-      "schemeKnowledge": 91,
-      "playerDev": 83,
-      "motivation": 78,
-      "injuryManagement": 66,
-      "conditioning": 78,
-      "analyticsIQ": 47
-    },
-    "contract": {
-      "years": 4,
-      "salary": 2027886
-    }
+    "id": "d264b1fe-82cf-4c99-9f9b-c17ca50899c0",
+    "firstName": "Hugh",
+    "lastName": "Lindgren",
+    "role": "STC",
+    "roleCode": "STC",
+    "roleName": "Strength & Conditioning Coach",
+    "age": 49,
+    "yearsExperience": 15,
+    "injuryPrevention": 76,
+    "recoverySpeed": 62,
+    "conditioning": 96,
+    "strengthTraining": 79,
+    "speedTraining": 94,
+    "workEthicBoost": 64
   },
   {
-    "id": "LAC-STAFF-5",
-    "team": "LAC",
-    "role": "Physical Therapist",
-    "name": "Eugene Turcotte",
-    "vitals": {
-      "age": 44,
-      "experience": 9
-    },
-    "ratings": {
-      "leadership": 64,
-      "discipline": 69,
-      "schemeKnowledge": 91,
-      "playerDev": 81,
-      "motivation": 65,
-      "injuryManagement": 77,
-      "conditioning": 45,
-      "analyticsIQ": 43
-    },
-    "contract": {
-      "years": 2,
-      "salary": 3560257
-    }
+    "id": "695adc8a-05d6-4bd3-94ce-34d07323cf0b",
+    "firstName": "Drew",
+    "lastName": "Waelchi",
+    "role": "HAT",
+    "roleCode": "HAT",
+    "roleName": "Head Athletic Trainer",
+    "age": 43,
+    "yearsExperience": 22,
+    "diagnosisAccuracy": 97,
+    "rehabQuality": 70,
+    "injuryRiskAssessment": 61,
+    "returnToPlayConservatism": 74,
+    "longTermHealthManagement": 61
   },
   {
-    "id": "LAC-STAFF-6",
-    "team": "LAC",
-    "role": "Athletic Trainer",
-    "name": "Eamon Stiedemann",
-    "vitals": {
-      "age": 32,
-      "experience": 15
-    },
-    "ratings": {
-      "leadership": 65,
-      "discipline": 83,
-      "schemeKnowledge": 92,
-      "playerDev": 95,
-      "motivation": 78,
-      "injuryManagement": 73,
-      "conditioning": 49,
-      "analyticsIQ": 62
-    },
-    "contract": {
-      "years": 2,
-      "salary": 5117276
-    }
+    "id": "4c42e92c-3e16-4150-84c8-38d3a7f8f172",
+    "firstName": "Emilio",
+    "lastName": "Abbott",
+    "role": "DPP",
+    "roleCode": "DPP",
+    "roleName": "Director of Player Personnel",
+    "age": 52,
+    "yearsExperience": 18,
+    "proEvaluation": 84,
+    "contractInsight": 63,
+    "tradeValueAssessment": 82,
+    "rosterConstruction": 89,
+    "schemeFitAwareness": 97,
+    "developmentProjection": 84
   },
   {
-    "id": "LAC-STAFF-7",
-    "team": "LAC",
-    "role": "Analytics Coordinator",
-    "name": "Holden Okuneva",
-    "vitals": {
-      "age": 64,
-      "experience": 19
-    },
-    "ratings": {
-      "leadership": 90,
-      "discipline": 82,
-      "schemeKnowledge": 66,
-      "playerDev": 76,
-      "motivation": 76,
-      "injuryManagement": 44,
-      "conditioning": 56,
-      "analyticsIQ": 99
-    },
-    "contract": {
-      "years": 5,
-      "salary": 7941333
-    }
+    "id": "ddb8e091-2839-48d0-ac36-bb6228ff5531",
+    "firstName": "Garrett",
+    "lastName": "Cummerata",
+    "role": "HEAD_SCOUT",
+    "roleCode": "HEAD_SCOUT",
+    "roleName": "Head Scout",
+    "age": 38,
+    "yearsExperience": 7,
+    "draftBoardManagement": 84,
+    "prospectEvaluation": 74,
+    "combineInterpretation": 62,
+    "positionalNeedsAwareness": 98,
+    "scoutingAccuracy": 99,
+    "regionalCoordination": 82
+  },
+  {
+    "id": "ec77a0e4-b0da-4654-a2a5-bf1ce0370805",
+    "firstName": "Rogelio",
+    "lastName": "Marks",
+    "role": "REGIONAL_SCOUT_EAST",
+    "roleCode": "REGIONAL_SCOUT_EAST",
+    "roleName": "Regional Scout (East)",
+    "age": 52,
+    "yearsExperience": 10,
+    "regionalKnowledge": 64,
+    "positionalStrengths": 85,
+    "evaluationAccuracy": 68,
+    "intangiblesAssessment": 95,
+    "schemeFitProjection": 62
+  },
+  {
+    "id": "413865e6-a87e-49eb-8e12-8d61afc8f939",
+    "firstName": "Carlton",
+    "lastName": "Marvin",
+    "role": "REGIONAL_SCOUT_WEST",
+    "roleCode": "REGIONAL_SCOUT_WEST",
+    "roleName": "Regional Scout (West)",
+    "age": 35,
+    "yearsExperience": 18,
+    "regionalKnowledge": 78,
+    "positionalStrengths": 85,
+    "evaluationAccuracy": 68,
+    "intangiblesAssessment": 80,
+    "schemeFitProjection": 94
+  },
+  {
+    "id": "adeab979-11cd-48cb-bca1-7e8341d6bb5c",
+    "firstName": "Lionel",
+    "lastName": "Crooks",
+    "role": "DA",
+    "roleCode": "DA",
+    "roleName": "Director of Analytics",
+    "age": 37,
+    "yearsExperience": 9,
+    "modelingQuality": 99,
+    "fourthDownAggressiveness": 46,
+    "riskManagement": 84,
+    "contractValuation": 90,
+    "injuryRiskModeling": 62,
+    "tendencyAnalysis": 92
+  },
+  {
+    "id": "1735fb3a-b1d7-4c5e-945f-944ddd19511a",
+    "firstName": "Ryan",
+    "lastName": "Turcotte",
+    "role": "QBC",
+    "roleCode": "QBC",
+    "roleName": "Quarterback Coach",
+    "age": 35,
+    "yearsExperience": 25,
+    "mechanicsTraining": 85,
+    "decisionMakingTraining": 81,
+    "accuracyDevelopment": 79,
+    "pocketPresenceDevelopment": 89,
+    "leadershipMentoring": 70,
+    "filmStudyImpact": 91
   }
 ]
