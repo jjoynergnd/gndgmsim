@@ -1,74 +1,31 @@
 // src/generator/engines/playerGenerator.ts
 
+import { PlayerState, Position } from "../../state/player.js";
+
 import { gaussian } from "../utils/gaussian.js";
 import { randInt, pickOne } from "../utils/random.js";
+
 import { PHYSICAL_PROFILES } from "../config/physicalProfiles.js";
-import type { Position } from "../config/positions.js";
+import { COLLEGES } from "../config/colleges.js";
+
 import { generateRatings } from "./ratingGenerator.js";
 import { computeAllSchemeFits } from "./schemeFitCalculator.js";
 import { assignPotential } from "./playerPotential.js";
-import type { PotentialProfile } from "./playerPotential.js";
-import { COLLEGES } from "../config/colleges.js";
 
-// -----------------------------
-// UPDATED IMPORTS (MODULAR CONTRACT ENGINE)
-// -----------------------------
 import { generateBaseContract } from "../contract/contractBase.js";
-import type { Contract } from "../contract/contractBase.js";
 
-export interface Player {
-  id: string;
-  position: Position;
-  age: number;
-  height: number;
-  weight: number;
-  college: string;
+import { generatePlayerTraits } from "../helpers/playerTraits.js";
+import { generatePlayerVitals } from "../helpers/playerVitals.js";
+import { generatePlayerStats } from "../helpers/playerStats.js";
+import { generatePlayerInjuryBlock } from "../helpers/playerInjury.js";
+import { pickPlayerPhoto } from "../helpers/playerPhoto.js";
+import { generatePlayerName } from "../helpers/playerName.js";
 
-  injuryProneness: number;
-  injuryHistory: Array<{
-    season: number;
-    week: number;
-    type: string;
-    severity: number;
-    weeksOut: number;
-  }>;
-  currentInjury?: {
-    type: string;
-    severity: number;
-    weeksRemaining: number;
-  };
-  injuryStatus: "Healthy" | "Out" | "IR";
-
-  rosterStatus: "Active" | "PracticeSquad" | "InjuredReserve" | "Suspended" | "FreeAgent";
-
-  accruedSeasons: number;
-
-  workEthic: number;
-  coachability: number;
-  competitiveness: number;
-
-  tier: string;
-  archetype: string;
-
-  ratings: Record<string, number>;
-  schemeFits: Record<string, any>;
-
-  potential: PotentialProfile;
-
-  developmentHistory: Array<{
-    season: number;
-    ovrChange: number;
-    notes?: string;
-  }>;
-
-  contract: Contract;
+function clamp(v: number, min: number, max: number) {
+  return Math.max(min, Math.min(max, v));
 }
 
-function clamp(value: number, min: number, max: number) {
-  return Math.max(min, Math.min(max, value));
-}
-
-function deriveAccruedSeasons(age: number): number {
+function deriveExperience(age: number): number {
   if (age <= 23) return 0;
   if (age <= 25) return randInt(1, 2);
   if (age <= 28) return randInt(3, 5);
@@ -76,47 +33,25 @@ function deriveAccruedSeasons(age: number): number {
   return randInt(10, 12);
 }
 
-export function generatePlayer(position: Position, year: number): Player {
+export function generatePlayer(position: Position, year: number): PlayerState {
   const profile = PHYSICAL_PROFILES[position];
 
-  const height = Math.round(clamp(gaussian(profile.heightMean, profile.heightStd), 65, 85));
-  const weight = Math.round(clamp(gaussian(profile.weightMean, profile.weightStd), 160, 380));
-  const age = randInt(21, 34);
-  const college = pickOne(COLLEGES);
-
-  const baseInjury = randInt(40, 90);
-  const positionRiskAdjustments: Partial<Record<Position, number>> = {
-    QB: -10, HB: +10, FB: +8,
-    WR_X: +5, WR_Z: +5, WR_SLOT: +7,
-    TE: +6,
-    LT: -4, LG: -4, C: -4, RG: -4, RT: -4,
-    EDGE: +8, DE: +6, DT_NT: +8, DT_3T: +8,
-    MLB: +8, OLB: +6,
-    CB: +4, NCB: +6, FS: +3, SS: +4,
-    K: -15, P: -15, LS: -10,
-    KR: +8, PR: +8
-  };
-
-  const injuryProneness = clamp(
-    baseInjury + (positionRiskAdjustments[position] ?? 0),
-    20,
-    99
+  const height = Math.round(
+    clamp(gaussian(profile.heightMean, profile.heightStd), 65, 85)
   );
 
-  const workEthic = randInt(40, 95);
-  const coachability = randInt(40, 95);
-  const competitiveness = randInt(40, 95);
+  const weight = Math.round(
+    clamp(gaussian(profile.weightMean, profile.weightStd), 160, 380)
+  );
 
-  const footballProfile = generateRatings(position, age);
-  const schemeFits = computeAllSchemeFits(position, footballProfile.ratings);
+  const age = randInt(21, 34);
 
-  const placeholderPotential: PotentialProfile = {
-    grade: "C",
-    ceilingBoost: 0,
-    volatility: 0.2
-  };
+  const college = pickOne(COLLEGES) as string;
 
-  const accruedSeasons = deriveAccruedSeasons(age);
+  const { firstName, lastName, name } = generatePlayerName();
+
+  const ratingProfile = generateRatings(position, age);
+  const schemeFits = computeAllSchemeFits(position, ratingProfile.ratings);
 
   const potential = assignPotential({
     id: "",
@@ -125,61 +60,83 @@ export function generatePlayer(position: Position, year: number): Player {
     height,
     weight,
     college,
-    tier: footballProfile.tier,
-    archetype: footballProfile.archetype,
-    ratings: footballProfile.ratings,
+    tier: ratingProfile.tier,
+    archetype: ratingProfile.archetype,
+    ratings: ratingProfile.ratings,
     schemeFits,
-    potential: placeholderPotential,
-    injuryProneness,
+    potential: { grade: "C", ceilingBoost: 0, volatility: 0.2 },
+    injuryProneness: 0,
     injuryHistory: [],
-    currentInjury: undefined,
+    currentInjury: null,
     injuryStatus: "Healthy",
     rosterStatus: "Active",
-    accruedSeasons,
-    workEthic,
-    coachability,
-    competitiveness,
+    accruedSeasons: 0,
+    workEthic: 0,
+    coachability: 0,
+    competitiveness: 0,
     developmentHistory: [],
-    contract: {
-      years: 1,
-      totalValue: 0,
-      apy: 0,
-      yearBreakdown: []
-    } as any
+    contract: { years: 1, totalValue: 0, apy: 0, yearBreakdown: [] } as any
   });
 
-  const contractInput = {
-    position,
-    ovr: footballProfile.ratings.overall,
-    age,
-    year,
-    tier: footballProfile.tier
+  const traits = generatePlayerTraits();
+
+  const vitals = generatePlayerVitals() as {
+    handedness: "Left" | "Right";
   };
 
-  const contract = generateBaseContract(contractInput);
+  const experience = deriveExperience(age);
+  const accruedSeasons = experience;
+
+  const injuryBlock = generatePlayerInjuryBlock(position);
+
+  const stats = generatePlayerStats();
+
+  const contract = generateBaseContract({
+    position,
+    ovr: ratingProfile.ratings.overall,
+    age,
+    year,
+    tier: ratingProfile.tier
+  });
+
+  const photo = pickPlayerPhoto(position);
 
   return {
     id: crypto.randomUUID(),
+
+    name,
+    firstName,
+    lastName,
+
     position,
     age,
     height,
     weight,
     college,
-    injuryProneness,
-    injuryHistory: [],
-    currentInjury: undefined,
-    injuryStatus: "Healthy",
-    rosterStatus: "Active",
+
+    experience,
     accruedSeasons,
-    workEthic,
-    coachability,
-    competitiveness,
-    tier: footballProfile.tier,
-    archetype: footballProfile.archetype,
-    ratings: footballProfile.ratings,
+
+    vitals,
+    traits,
+
+    ratings: ratingProfile.ratings,
+    tier: ratingProfile.tier,
+    archetype: ratingProfile.archetype,
     schemeFits,
     potential,
+
+    injuryProneness: injuryBlock.injuryProneness,
+    injuryHistory: injuryBlock.injuryHistory,
+    currentInjury: injuryBlock.currentInjury,
+    injuryStatus: injuryBlock.injuryStatus,
+
+    rosterStatus: "Active",
+
+    stats,
     developmentHistory: [],
-    contract
+
+    contract: contract as any,
+    photo
   };
 }

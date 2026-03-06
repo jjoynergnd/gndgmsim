@@ -29,6 +29,13 @@ function formatCapSpace(value) {
   return `${(value / 1_000_000).toFixed(1)}M`;
 }
 
+// 🔥 Cap Tier Logic
+function getCapClass(value) {
+  if (value < 0) return styles.capBad;
+  if (value < 50_000_000) return styles.capMedium;
+  return styles.capGood;
+}
+
 export default function TeamSelectScreen() {
   const navigate = useNavigate();
 
@@ -74,8 +81,11 @@ export default function TeamSelectScreen() {
             alt={teamId}
           />
 
-          <div className={styles.teamCode}>{teamId}</div>
-          <div className={styles.cap}>${team.formattedCap}</div>
+          <div
+            className={`${styles.cap} ${getCapClass(team.capSpace)}`}
+          >
+            ${team.formattedCap}
+          </div>
         </button>
       );
     });
