@@ -136,3 +136,8 @@ export const COLLEGES = [
   "Richmond",
   "William & Mary"
 ];
+import { pickOne } from "../utils/random.js";
+
+export function randomCollege(): string {
+  return pickOne(COLLEGES);
+}

@@ -1,8 +1,6 @@
 // src/franchise/createFranchise.ts
 
-import { FranchiseState } from "../state/franchise.js";
-import { FranchiseMeta } from "../state/franchise.js";
-import { LeagueState } from "../state/franchise.js";
+import { FranchiseState, FranchiseMeta, LeagueState } from "../state/franchise.js";
 
 export function createFranchise(options: {
   franchiseId: string;
@@ -20,7 +18,7 @@ export function createFranchise(options: {
     userTeamId: options.userTeamId,
 
     currentSeason: 1,
-    currentPhase: "OFFSEASON_RE_SIGN",
+    currentPhase: "OFFSEASON_STAFF", // Phase 1 of your offseason flow
 
     createdAt: now,
     lastSavedAt: now,
@@ -32,12 +30,12 @@ export function createFranchise(options: {
   };
 
   const league: LeagueState = {
-    teams: {},               // populated later by team generator
-    freeAgents: [],          // populated later by player generator
-    draftClasses: {},        // populated later by draft generator
+    teams: {},               
+    freeAgents: [],          
+    draftClasses: {},        
     transactions: [],
-    schedule: { weeks: [] }, // populated later by schedule generator
-    standings: {},           // populated later by standings initializer
+    schedule: { weeks: [] },
+    standings: {},
     newsFeed: [],
     retiredPlayers: [],
     history: [],
@@ -45,6 +43,19 @@ export function createFranchise(options: {
     settings: {
       difficulty: meta.difficulty,
       sliders: {},
+    },
+
+    // NEW: store the user’s team and GM info
+    user: {
+      gmName: options.gmName,
+      teamId: options.userTeamId,
+      seasonNumber: 1,
+      jobSecurity: 75,
+      reputation: 50,
+    },
+
+    offseason: {
+      phase: 1, // Staff Updates
     },
   };
 

@@ -9,6 +9,9 @@ import TeamSelectScreen from "./screens/TeamSelectScreen";
 import TeamPage from "./screens/TeamPage";
 import GMpage from "./screens/OwnerGM/GMpage";
 
+// ⭐ NEW: import your OffseasonHub screen
+import OffseasonHub from "./screens/Offseason/OffseasonHub";
+
 /*
 |----------------------------------------------------------------------
 | App Architecture
@@ -46,6 +49,21 @@ function App() {
           <Layout variant="onboarding">
             <GMpage />
           </Layout>
+        }
+      />
+
+      {/* -------------------------------- */}
+      {/* NEW: OFFSEASON HUB */}
+      {/* -------------------------------- */}
+      <Route
+        path="/offseason"
+        element={
+          <div style={{ display: "flex", height: "100vh", width: "100vw" }}>
+            <Sidebar />
+            <Layout>
+              <OffseasonHub />
+            </Layout>
+          </div>
         }
       />
 

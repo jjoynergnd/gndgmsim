@@ -110,3 +110,5 @@ export interface PlayerState {
   // Media / UI
   photo: string;
 }
+export { PlayerTier, Position };
+

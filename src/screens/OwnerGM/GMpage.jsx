@@ -1,8 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
+
 import styles from "./GMpage.module.css";
 
 import OwnerBriefing from "./components/OwnerBriefing";
 import GMSetup from "./components/GMSetup";
+
+import { createFranchise } from "../../franchise/createFranchise";
+import { saveFranchise } from "../../franchise/saveFranchise";
 
 export default function GMpage() {
   const [ownerProfile, setOwnerProfile] = useState(null);
@@ -18,6 +23,7 @@ export default function GMpage() {
   const [ownerReaction, setOwnerReaction] = useState("");
 
   const gmPanelRef = useRef(null);
+  const navigate = useNavigate();
 
   const teamId = window.location.pathname.split("/").pop();
 
@@ -44,7 +50,6 @@ export default function GMpage() {
   useEffect(() => {
     if (!ownerProfile || !teamMeta) return;
 
-    // Simple owner name fallback
     const ownerName = ownerProfile.name || "Larry Combs";
     const teamName = teamMeta.displayName || "Buffalo Frost Horns";
 
@@ -78,14 +83,10 @@ export default function GMpage() {
       setShowArchetypes(false);
       setOwnerReaction("");
     } else if (step === 4) {
-      setOwnerText(
-        `So tell me — what should I expect from you as a GM?`
-      );
+      setOwnerText(`So tell me — what should I expect from you as a GM?`);
       setShowArchetypes(true);
       setOwnerReaction("");
       scrollToGMPanel();
-    } else if (step === 5) {
-      // Archetype reaction handled separately
     }
   }, [step, ownerProfile, teamMeta, gmName]);
 
@@ -97,13 +98,9 @@ export default function GMpage() {
   }
 
   function handleNext() {
-    if (step === 0) {
-      setStep(1);
-    } else if (step === 2) {
-      setStep(3);
-    } else if (step === 3) {
-      setStep(4);
-    }
+    if (step === 0) setStep(1);
+    else if (step === 2) setStep(3);
+    else if (step === 3) setStep(4);
   }
 
   function handleSubmitName() {
@@ -124,7 +121,7 @@ export default function GMpage() {
       negotiator:
         "Contract talks can get messy. I’m glad you’re comfortable in that arena.",
       analyticsMind:
-        "Numbers don’t lie. I respect a GM who trusts the data, even when it’s uncomfortable."
+        "Numbers don’t lie. I respect a GM who trusts the data, even when it’s uncomfortable.",
     };
 
     setOwnerReaction(reactions[type] || "");
@@ -135,19 +132,17 @@ export default function GMpage() {
   function handleStartCareer() {
     if (!gmName || !gmType) return;
 
-    const career = {
-      gm: {
-        name: gmName,
-        type: gmType,
-        reputation: 50
-      },
-      currentTeamId: teamId,
-      jobSecurity: 75,
-      seasonNumber: 1
-    };
+    const franchise = createFranchise({
+      franchiseId: crypto.randomUUID(),
+      saveName: `${teamMeta.displayName} Franchise`,
+      gmName,
+      userTeamId: teamId,
+      difficulty: "sim",
+    });
 
-    console.log("START CAREER:", career);
-    // later: navigate to offseason phase 1
+    saveFranchise(franchise);
+
+    navigate("/offseason");
   }
 
   if (!ownerProfile || !teamMeta) {
