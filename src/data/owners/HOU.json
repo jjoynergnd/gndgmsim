@@ -1,0 +1,14 @@
+﻿{
+  "name": "Clara Vance",
+  "type": "developmentFocused",
+  "patience": 8,
+  "spendingAggression": 5,
+  "involvementLevel": 4,
+  "priorities": {
+    "wins": 6,
+    "playoffs": 6,
+    "finances": 6,
+    "playerDevelopment": 9,
+    "morale": 7
+  }
+}

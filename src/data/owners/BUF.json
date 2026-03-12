@@ -1,4 +1,5 @@
-{
+﻿{
+  "name": "Larry Combs",
   "type": "patient",
   "patience": 8,
   "spendingAggression": 6,

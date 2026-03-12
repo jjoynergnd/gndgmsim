@@ -1,0 +1,14 @@
+﻿{
+  "name": "Colton Merrick",
+  "type": "handsOn",
+  "patience": 5,
+  "spendingAggression": 8,
+  "involvementLevel": 10,
+  "priorities": {
+    "wins": 9,
+    "playoffs": 9,
+    "finances": 5,
+    "playerDevelopment": 6,
+    "morale": 5
+  }
+}

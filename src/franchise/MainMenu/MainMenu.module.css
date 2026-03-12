@@ -1,0 +1,133 @@
+/* PAGE WRAPPER */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: #f5f7ff;
+  overflow-x: hidden;
+}
+
+/* HERO BACKGROUND — FULL IMAGE */
+.heroBackground {
+  padding: 48px 0 32px 0;
+  display: flex;
+  justify-content: center;
+  background-image: url("/main_menu/main_menu_pic.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* HERO CARD */
+.heroCard {
+  width: 80%;
+  max-width: 900px;
+  background: rgba(8, 12, 30, 0.92);
+  border-radius: 16px;
+  padding: 32px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+/* TITLES & TEXT */
+.appTitle {
+  display: none; /* Removed header branding */
+}
+
+.heroTitle {
+  font-size: 30px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.heroText {
+  margin: 12px 0;
+  color: #d3d8f5;
+  line-height: 1.6;
+}
+
+.heroTagline {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* CTA BUTTON */
+.heroCTA {
+  margin-top: 26px;
+  padding: 14px 22px;
+  font-size: 18px;
+  background: #2d5be3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.heroCTA:hover {
+  background: #1a3fb3;
+  transform: translateY(-2px);
+}
+
+/* MENU SECTION */
+.menuSection {
+  padding: 24px 0 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 320px;
+}
+
+/* MENU BUTTONS */
+.menuButton {
+  padding: 14px 18px;
+  font-size: 18px;
+  background: rgba(10, 14, 32, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #f5f7ff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+.menuButton:hover {
+  border-color: #2d5be3;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+.menuButtonDisabled {
+  padding: 14px 18px;
+  font-size: 18px;
+  background: rgba(40, 44, 70, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  color: #8b90b0;
+  cursor: not-allowed;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .heroBackground {
+    padding: 32px 0 24px 0;
+  }
+
+  .heroCard {
+    width: 92%;
+    padding: 24px 22px;
+  }
+
+  .menuBox {
+    width: 90%;
+  }
+}

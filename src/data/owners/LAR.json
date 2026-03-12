@@ -1,0 +1,14 @@
+﻿{
+  "name": "Vivian Hale",
+  "type": "spender",
+  "patience": 6,
+  "spendingAggression": 10,
+  "involvementLevel": 6,
+  "priorities": {
+    "wins": 8,
+    "playoffs": 8,
+    "finances": 3,
+    "playerDevelopment": 6,
+    "morale": 6
+  }
+}

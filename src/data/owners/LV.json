@@ -1,0 +1,14 @@
+﻿{
+  "name": "Silas Crowley",
+  "type": "spender",
+  "patience": 5,
+  "spendingAggression": 10,
+  "involvementLevel": 7,
+  "priorities": {
+    "wins": 8,
+    "playoffs": 7,
+    "finances": 3,
+    "playerDevelopment": 5,
+    "morale": 5
+  }
+}

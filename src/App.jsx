@@ -1,5 +1,5 @@
 // src/App.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
@@ -8,31 +8,87 @@ import Layout from "./components/Layout";
 import TeamSelectScreen from "./screens/TeamSelectScreen";
 import TeamPage from "./screens/TeamPage";
 import GMpage from "./screens/OwnerGM/GMpage";
-
-// ⭐ NEW: import your OffseasonHub screen
 import OffseasonHub from "./screens/Offseason/OffseasonHub";
+
+// ⭐ NEW — Main Menu system
+import MainMenu from "./franchise/MainMenu/MainMenu";
+import LoadGame from "./franchise/MainMenu/LoadGame";
+
+// ⭐ NEW — Settings Page
+import Settings from "./franchise/MainMenu/Settings";
+
+// ⭐ NEW — Settings Hook
+import useSettings from "./hooks/useSettings";
 
 /*
 |----------------------------------------------------------------------
 | App Architecture
 |
+| Meta Routes (Main Menu):
+|   - No sidebar
+|
 | Onboarding Routes:
 |   - No sidebar
 |
-| App Routes:
+| In‑Franchise Routes:
 |   - Sidebar enabled
 |----------------------------------------------------------------------
 */
 
 function App() {
+  const { settings } = useSettings();
+
+  // Apply theme globally (React 19 safe)
+  useEffect(() => {
+    Promise.resolve().then(() => {
+      document.body.dataset.theme = settings.theme;
+    });
+  }, [settings.theme]);
+
   return (
     <Routes>
 
       {/* -------------------------------- */}
-      {/* ONBOARDING — TEAM SELECT */}
+      {/* MAIN MENU (NEW LANDING PAGE)     */}
       {/* -------------------------------- */}
       <Route
-        path="/"
+        path="/main-menu"
+        element={
+          <Layout variant="onboarding">
+            <MainMenu />
+          </Layout>
+        }
+      />
+
+      {/* -------------------------------- */}
+      {/* SETTINGS PAGE (NEW)              */}
+      {/* -------------------------------- */}
+      <Route
+        path="/settings"
+        element={
+          <Layout variant="onboarding">
+            <Settings />
+          </Layout>
+        }
+      />
+
+      {/* -------------------------------- */}
+      {/* LOAD GAME SCREEN                 */}
+      {/* -------------------------------- */}
+      <Route
+        path="/load-game"
+        element={
+          <Layout variant="onboarding">
+            <LoadGame />
+          </Layout>
+        }
+      />
+
+      {/* -------------------------------- */}
+      {/* TEAM SELECT (NEW FRANCHISE)      */}
+      {/* -------------------------------- */}
+      <Route
+        path="/team-select"
         element={
           <Layout variant="onboarding">
             <TeamSelectScreen />
@@ -41,7 +97,7 @@ function App() {
       />
 
       {/* -------------------------------- */}
-      {/* ONBOARDING — OWNER/GM PAGE */}
+      {/* OWNER/GM ONBOARDING              */}
       {/* -------------------------------- */}
       <Route
         path="/gm/:teamId"
@@ -53,7 +109,7 @@ function App() {
       />
 
       {/* -------------------------------- */}
-      {/* NEW: OFFSEASON HUB */}
+      {/* OFFSEASON HUB                    */}
       {/* -------------------------------- */}
       <Route
         path="/offseason"
@@ -68,14 +124,13 @@ function App() {
       />
 
       {/* -------------------------------- */}
-      {/* MAIN APP (WITH SIDEBAR) */}
+      {/* TEAM PAGE (IN‑FRANCHISE)         */}
       {/* -------------------------------- */}
       <Route
         path="/team/:teamId"
         element={
           <div style={{ display: "flex", height: "100vh", width: "100vw" }}>
             <Sidebar />
-
             <Layout>
               <TeamPage />
             </Layout>
@@ -83,9 +138,11 @@ function App() {
         }
       />
 
-      {/* FALLBACK */}
-      <Route path="*" element={<Navigate to="/" replace />} />
-
+      {/* -------------------------------- */}
+      {/* FALLBACK → MAIN MENU             */}
+      {/* -------------------------------- */}
+      <Route path="/" element={<Navigate to="/main-menu" replace />} />
+      <Route path="*" element={<Navigate to="/main-menu" replace />} />
     </Routes>
   );
 }

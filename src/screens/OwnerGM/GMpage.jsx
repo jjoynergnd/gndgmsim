@@ -9,6 +9,22 @@ import GMSetup from "./components/GMSetup";
 import { createFranchise } from "../../franchise/createFranchise";
 import { saveFranchise } from "../../franchise/saveFranchise";
 
+// ------------------------------
+// Generate a unique save name
+// Example: FrostHorns_1, FrostHorns_2, etc.
+// ------------------------------
+function generateSaveName(teamName) {
+  const base = teamName.replace(/\s+/g, "");
+  let index = 1;
+
+  // Look for existing save slots
+  while (localStorage.getItem(`leagueState_${base}_${index}`)) {
+    index++;
+  }
+
+  return `${base}_${index}`;
+}
+
 export default function GMpage() {
   const [ownerProfile, setOwnerProfile] = useState(null);
   const [teamMeta, setTeamMeta] = useState(null);
@@ -132,14 +148,22 @@ export default function GMpage() {
   function handleStartCareer() {
     if (!gmName || !gmType) return;
 
+    // Generate a unique save name based on the team mascot
+    const saveName = generateSaveName(teamMeta.mascot);
+
     const franchise = createFranchise({
       franchiseId: crypto.randomUUID(),
-      saveName: `${teamMeta.displayName} Franchise`,
+      saveName,
       gmName,
       userTeamId: teamId,
       difficulty: "sim",
     });
 
+    // Save under a unique slot
+    franchise.lastSavedAt = Date.now();   // ⭐ update timestamp
+    localStorage.setItem(`leagueState_${saveName}`, JSON.stringify(franchise));
+
+    // Also save as the active franchise
     saveFranchise(franchise);
 
     navigate("/offseason");

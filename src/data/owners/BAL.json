@@ -1,0 +1,14 @@
+﻿{
+  "name": "Darius Halden",
+  "type": "patient",
+  "patience": 9,
+  "spendingAggression": 6,
+  "involvementLevel": 3,
+  "priorities": {
+    "wins": 8,
+    "playoffs": 8,
+    "finances": 5,
+    "playerDevelopment": 7,
+    "morale": 6
+  }
+}

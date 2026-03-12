@@ -1,0 +1,14 @@
+﻿{
+  "name": "Felix Moretti",
+  "type": "impatient",
+  "patience": 3,
+  "spendingAggression": 7,
+  "involvementLevel": 8,
+  "priorities": {
+    "wins": 8,
+    "playoffs": 7,
+    "finances": 4,
+    "playerDevelopment": 5,
+    "morale": 5
+  }
+}

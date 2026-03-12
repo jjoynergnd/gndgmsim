@@ -1,0 +1,14 @@
+﻿{
+  "name": "Elena Marrow",
+  "type": "patient",
+  "patience": 9,
+  "spendingAggression": 6,
+  "involvementLevel": 3,
+  "priorities": {
+    "wins": 7,
+    "playoffs": 7,
+    "finances": 6,
+    "playerDevelopment": 8,
+    "morale": 7
+  }
+}

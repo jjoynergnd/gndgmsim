@@ -1,0 +1,14 @@
+﻿{
+  "name": "Eamon Pierce",
+  "type": "developmentFocused",
+  "patience": 9,
+  "spendingAggression": 4,
+  "involvementLevel": 3,
+  "priorities": {
+    "wins": 7,
+    "playoffs": 7,
+    "finances": 6,
+    "playerDevelopment": 10,
+    "morale": 7
+  }
+}

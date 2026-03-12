@@ -1,0 +1,14 @@
+﻿{
+  "name": "Cassius Wynn",
+  "type": "winNow",
+  "patience": 4,
+  "spendingAggression": 9,
+  "involvementLevel": 7,
+  "priorities": {
+    "wins": 10,
+    "playoffs": 9,
+    "finances": 4,
+    "playerDevelopment": 6,
+    "morale": 6
+  }
+}

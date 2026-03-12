@@ -1,0 +1,14 @@
+﻿{
+  "name": "Mason Hargrove",
+  "type": "balanced",
+  "patience": 6,
+  "spendingAggression": 6,
+  "involvementLevel": 5,
+  "priorities": {
+    "wins": 7,
+    "playoffs": 6,
+    "finances": 6,
+    "playerDevelopment": 6,
+    "morale": 6
+  }
+}

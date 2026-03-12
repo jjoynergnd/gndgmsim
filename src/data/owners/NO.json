@@ -1,0 +1,14 @@
+﻿{
+  "name": "Jules Marquette",
+  "type": "handsOn",
+  "patience": 5,
+  "spendingAggression": 7,
+  "involvementLevel": 9,
+  "priorities": {
+    "wins": 8,
+    "playoffs": 8,
+    "finances": 4,
+    "playerDevelopment": 5,
+    "morale": 5
+  }
+}
