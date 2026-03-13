@@ -1,0 +1,51 @@
+/* src/screens/Offseason/components/ProgressTracker.module.css */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  overflow-x: auto;
+  padding: 6px 4px;
+  border-radius: 999px;
+  background: #e5f0ff;
+}
+
+.stepWrapper {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.step {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #d1ddf5;
+  font-size: 11px;
+  color: #374151;
+  white-space: nowrap;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.stepLabel {
+  font-weight: 500;
+}
+
+.active {
+  background: #2563eb;
+  color: #f9fafb;
+}
+
+.completed {
+  background: #16a34a;
+  color: #f9fafb;
+}
+
+.connector {
+  width: 16px;
+  height: 2px;
+  border-radius: 999px;
+  background: #9ca3af;
+  margin: 0 2px;
+}

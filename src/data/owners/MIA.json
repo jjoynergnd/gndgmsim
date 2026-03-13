@@ -1,14 +1,17 @@
-﻿{
-  "name": "Victor Delaro",
-  "type": "spender",
-  "patience": 6,
-  "spendingAggression": 10,
-  "involvementLevel": 5,
-  "priorities": {
-    "wins": 8,
-    "playoffs": 8,
-    "finances": 3,
-    "playerDevelopment": 6,
-    "morale": 6
-  }
+{
+    "name":  "Victor Delaro",
+    "type":  "spender",
+    "patience":  6,
+    "spendingAggression":  10,
+    "involvementLevel":  5,
+    "priorities":  {
+                       "wins":  8,
+                       "playoffs":  8,
+                       "finances":  3,
+                       "playerDevelopment":  6,
+                       "morale":  6
+                   },
+    "staffBudget":  {
+                        "total":  32000000
+                    }
 }

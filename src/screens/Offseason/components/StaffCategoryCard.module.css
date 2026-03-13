@@ -1,0 +1,114 @@
+/* src/screens/Offseason/components/StaffCategoryCard.module.css */
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fitGood {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.2);
+}
+
+.fitPoor {
+  border-color: #f97316;
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.role {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  margin-bottom: 2px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.meta {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.fitBadge {
+  align-self: flex-start;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.attributes {
+  margin-top: 4px;
+}
+
+.contractRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.contractLabel {
+  font-weight: 500;
+}
+
+.contractValue {
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.keepButton,
+.replaceButton {
+  flex: 1;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.keepButton {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.keepButton:hover {
+  background: #d1d5db;
+}
+
+.replaceButton {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.replaceButton:hover {
+  background: #020617;
+}

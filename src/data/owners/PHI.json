@@ -1,14 +1,17 @@
-﻿{
-  "name": "Arielle Knox",
-  "type": "winNow",
-  "patience": 4,
-  "spendingAggression": 8,
-  "involvementLevel": 7,
-  "priorities": {
-    "wins": 9,
-    "playoffs": 9,
-    "finances": 4,
-    "playerDevelopment": 6,
-    "morale": 6
-  }
+{
+    "name":  "Arielle Knox",
+    "type":  "winNow",
+    "patience":  4,
+    "spendingAggression":  8,
+    "involvementLevel":  7,
+    "priorities":  {
+                       "wins":  9,
+                       "playoffs":  9,
+                       "finances":  4,
+                       "playerDevelopment":  6,
+                       "morale":  6
+                   },
+    "staffBudget":  {
+                        "total":  30000000
+                    }
 }

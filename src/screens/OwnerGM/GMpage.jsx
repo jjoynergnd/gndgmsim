@@ -1,3 +1,5 @@
+// src/screens/OwnerGM/GMpage.jsx
+
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -8,21 +10,98 @@ import GMSetup from "./components/GMSetup";
 
 import { createFranchise } from "../../franchise/createFranchise";
 import { saveFranchise } from "../../franchise/saveFranchise";
+import { teams } from "../../data/teams";
 
 // ------------------------------
-// Generate a unique save name
-// Example: FrostHorns_1, FrostHorns_2, etc.
+// Generate a unique save name (Hardened)
 // ------------------------------
 function generateSaveName(teamName) {
+  if (!teamName || typeof teamName !== "string") {
+    console.warn("generateSaveName called with invalid teamName:", teamName);
+    teamName = "Franchise";
+  }
+
   const base = teamName.replace(/\s+/g, "");
   let index = 1;
 
-  // Look for existing save slots
   while (localStorage.getItem(`leagueState_${base}_${index}`)) {
     index++;
   }
 
   return `${base}_${index}`;
+}
+
+// ------------------------------
+// Helper: build initial staff roles + budget
+// ------------------------------
+function buildInitialStaffAndBudget(rawStaffArray) {
+  if (!Array.isArray(rawStaffArray)) return { staff: null, staffBudget: null };
+
+  const findByRoleCode = (codes) =>
+    rawStaffArray.find((s) => codes.includes(s.roleCode));
+
+  const wrapStaff = (raw, friendlyRoleName, baseSalary) => {
+    if (!raw) return null;
+
+    const numericKeys = Object.keys(raw).filter(
+      (k) =>
+        typeof raw[k] === "number" &&
+        !["age", "yearsExperience"].includes(k)
+    );
+    const avg =
+      numericKeys.length > 0
+        ? numericKeys.reduce((sum, k) => sum + raw[k], 0) / numericKeys.length
+        : 70;
+
+    const salaryMultiplier = avg / 80;
+    const salary = Math.round(baseSalary * salaryMultiplier);
+
+    return {
+      id: raw.id,
+      role: raw.roleName,
+      roleCode: raw.roleCode,
+      roleName: friendlyRoleName,
+      firstName: raw.firstName,
+      lastName: raw.lastName,
+      age: raw.age,
+      yearsExperience: raw.yearsExperience,
+      attributes: { ...raw },
+      contract: {
+        years: 3,
+        salary,
+      },
+    };
+  };
+
+  const headCoach = wrapStaff(findByRoleCode(["HC"]), "Head Coach", 6_000_000);
+  const offensiveCoordinator = wrapStaff(findByRoleCode(["OC"]), "Offensive Coordinator", 3_500_000);
+  const defensiveCoordinator = wrapStaff(findByRoleCode(["DC"]), "Defensive Coordinator", 3_500_000);
+  const scoutingDirector = wrapStaff(findByRoleCode(["HEAD_SCOUT", "DPP"]), "Scouting Director", 2_500_000);
+  const medicalDirector = wrapStaff(findByRoleCode(["HAT"]), "Medical Director", 2_000_000);
+  const strengthCoach = wrapStaff(findByRoleCode(["STC"]), "Strength & Conditioning", 2_000_000);
+
+  const staff = {
+    headCoach,
+    offensiveCoordinator,
+    defensiveCoordinator,
+    scoutingDirector,
+    medicalDirector,
+    strengthCoach,
+  };
+
+  const salaries = Object.values(staff)
+    .filter(Boolean)
+    .map((s) => s.contract.salary);
+
+  const current = salaries.length > 0 ? salaries.reduce((sum, s) => sum + s, 0) : 0;
+
+  return {
+    staff,
+    staffBudget: {
+      current,
+      max: 25_000_000,
+    },
+  };
 }
 
 export default function GMpage() {
@@ -66,8 +145,9 @@ export default function GMpage() {
   useEffect(() => {
     if (!ownerProfile || !teamMeta) return;
 
-    const ownerName = ownerProfile.name || "Larry Combs";
-    const teamName = teamMeta.displayName || "Buffalo Frost Horns";
+    const teamInfo = teams.find((t) => t.id === teamId);
+    const teamName = teamInfo ? `${teamInfo.city} ${teamInfo.mascot}` : teamId;
+    const ownerName = ownerProfile.name || "Team Owner";
 
     if (step === 0) {
       setOwnerText(
@@ -104,7 +184,7 @@ export default function GMpage() {
       setOwnerReaction("");
       scrollToGMPanel();
     }
-  }, [step, ownerProfile, teamMeta, gmName]);
+  }, [step, ownerProfile, teamMeta, gmName, teamId]);
 
   function scrollToGMPanel() {
     if (!gmPanelRef.current) return;
@@ -128,16 +208,11 @@ export default function GMpage() {
     setGmType(type);
 
     const reactions = {
-      formerPlayer:
-        "I remember watching you in your playing days. Bring that leadership into the locker room.",
-      capSpecialist:
-        "Good. We’ll need your discipline and creativity with the cap this season.",
-      scoutGuru:
-        "Your eye for talent will be crucial as we build through the draft.",
-      negotiator:
-        "Contract talks can get messy. I’m glad you’re comfortable in that arena.",
-      analyticsMind:
-        "Numbers don’t lie. I respect a GM who trusts the data, even when it’s uncomfortable.",
+      formerPlayer: "I remember watching you in your playing days. Bring that leadership into the locker room.",
+      capSpecialist: "Good. We’ll need your discipline and creativity with the cap this season.",
+      scoutGuru: "Your eye for talent will be crucial as we build through the draft.",
+      negotiator: "Contract talks can get messy. I’m glad you’re comfortable in that arena.",
+      analyticsMind: "Numbers don’t lie. I respect a GM who trusts the data, even when it’s uncomfortable.",
     };
 
     setOwnerReaction(reactions[type] || "");
@@ -145,11 +220,13 @@ export default function GMpage() {
     setStep(5);
   }
 
-  function handleStartCareer() {
-    if (!gmName || !gmType) return;
+  async function handleStartCareer() {
+    if (!gmName || !gmType || !teamMeta || !ownerProfile) return;
 
-    // Generate a unique save name based on the team mascot
-    const saveName = generateSaveName(teamMeta.mascot);
+    const teamInfo = teams.find((t) => t.id === teamId);
+    const baseName = teamInfo ? `${teamInfo.city} ${teamInfo.mascot}` : teamId;
+
+    const saveName = generateSaveName(baseName);
 
     const franchise = createFranchise({
       franchiseId: crypto.randomUUID(),
@@ -159,14 +236,44 @@ export default function GMpage() {
       difficulty: "sim",
     });
 
-    // Save under a unique slot
-    franchise.lastSavedAt = Date.now();   // ⭐ update timestamp
+    franchise.league.gmProfile = {
+      name: gmName,
+      type: gmType,
+    };
+
+    franchise.league.ownerProfile = {
+      name: ownerProfile.name,
+      type: ownerProfile.type,
+      patience: ownerProfile.patience,
+      spendingAggression: ownerProfile.spendingAggression,
+      involvementLevel: ownerProfile.involvementLevel,
+      priorities: { ...ownerProfile.priorities },
+    };
+
+    if (franchise.league.user) {
+      franchise.league.user.gmType = gmType;
+    }
+
+    try {
+      const staffModule = await import(`../../data/staff/${teamId}.json`);
+      const rawStaffArray = staffModule.default;
+      const { staff, staffBudget } = buildInitialStaffAndBudget(rawStaffArray);
+
+      if (staff) franchise.league.staff = staff;
+      if (staffBudget) franchise.league.staffBudget = staffBudget;
+    } catch (err) {
+      console.error("Error loading staff data:", err);
+    }
+
+    franchise.meta.currentPhase = "OFFSEASON_STAFF";
+    franchise.league.offseason.phase = 1;
+
+    franchise.meta.lastSavedAt = Date.now();
     localStorage.setItem(`leagueState_${saveName}`, JSON.stringify(franchise));
 
-    // Also save as the active franchise
     saveFranchise(franchise);
 
-    navigate("/offseason");
+    navigate("/offseason/staff");
   }
 
   if (!ownerProfile || !teamMeta) {
@@ -205,9 +312,7 @@ export default function GMpage() {
       </div>
 
       <button
-        className={`${styles.startButton} ${
-          showStartCareer ? styles.enabled : ""
-        }`}
+        className={`${styles.startButton} ${showStartCareer ? styles.enabled : ""}`}
         disabled={!showStartCareer}
         onClick={handleStartCareer}
       >

@@ -1,14 +1,17 @@
-﻿{
-  "name": "Ruth Calder",
-  "type": "patient",
-  "patience": 10,
-  "spendingAggression": 5,
-  "involvementLevel": 2,
-  "priorities": {
-    "wins": 8,
-    "playoffs": 8,
-    "finances": 6,
-    "playerDevelopment": 9,
-    "morale": 7
-  }
+{
+    "name":  "Ruth Calder",
+    "type":  "patient",
+    "patience":  10,
+    "spendingAggression":  5,
+    "involvementLevel":  2,
+    "priorities":  {
+                       "wins":  8,
+                       "playoffs":  8,
+                       "finances":  6,
+                       "playerDevelopment":  9,
+                       "morale":  7
+                   },
+    "staffBudget":  {
+                        "total":  23000000
+                    }
 }

@@ -1,14 +1,17 @@
-﻿{
-  "name": "Nadia Trent",
-  "type": "budget",
-  "patience": 6,
-  "spendingAggression": 3,
-  "involvementLevel": 4,
-  "priorities": {
-    "wins": 6,
-    "playoffs": 6,
-    "finances": 8,
-    "playerDevelopment": 7,
-    "morale": 5
-  }
+{
+    "name":  "Nadia Trent",
+    "type":  "budget",
+    "patience":  6,
+    "spendingAggression":  3,
+    "involvementLevel":  4,
+    "priorities":  {
+                       "wins":  6,
+                       "playoffs":  6,
+                       "finances":  8,
+                       "playerDevelopment":  7,
+                       "morale":  5
+                   },
+    "staffBudget":  {
+                        "total":  19000000
+                    }
 }

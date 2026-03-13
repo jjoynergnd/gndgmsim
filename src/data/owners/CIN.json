@@ -1,14 +1,17 @@
-﻿{
-  "name": "Marjorie Kline",
-  "type": "budget",
-  "patience": 7,
-  "spendingAggression": 3,
-  "involvementLevel": 4,
-  "priorities": {
-    "wins": 6,
-    "playoffs": 6,
-    "finances": 8,
-    "playerDevelopment": 7,
-    "morale": 5
-  }
+{
+    "name":  "Marjorie Kline",
+    "type":  "budget",
+    "patience":  7,
+    "spendingAggression":  3,
+    "involvementLevel":  4,
+    "priorities":  {
+                       "wins":  6,
+                       "playoffs":  6,
+                       "finances":  8,
+                       "playerDevelopment":  7,
+                       "morale":  5
+                   },
+    "staffBudget":  {
+                        "total":  19000000
+                    }
 }

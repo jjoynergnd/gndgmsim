@@ -1,14 +1,17 @@
-﻿{
-  "name": "Harold Easton",
-  "type": "patient",
-  "patience": 9,
-  "spendingAggression": 5,
-  "involvementLevel": 3,
-  "priorities": {
-    "wins": 7,
-    "playoffs": 7,
-    "finances": 6,
-    "playerDevelopment": 8,
-    "morale": 6
-  }
+{
+    "name":  "Harold Easton",
+    "type":  "patient",
+    "patience":  9,
+    "spendingAggression":  5,
+    "involvementLevel":  3,
+    "priorities":  {
+                       "wins":  7,
+                       "playoffs":  7,
+                       "finances":  6,
+                       "playerDevelopment":  8,
+                       "morale":  6
+                   },
+    "staffBudget":  {
+                        "total":  23000000
+                    }
 }

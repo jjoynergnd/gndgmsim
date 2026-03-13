@@ -1,14 +1,17 @@
-﻿{
-  "name": "Damon Redd",
-  "type": "spender",
-  "patience": 5,
-  "spendingAggression": 9,
-  "involvementLevel": 6,
-  "priorities": {
-    "wins": 7,
-    "playoffs": 7,
-    "finances": 3,
-    "playerDevelopment": 6,
-    "morale": 6
-  }
+{
+    "name":  "Damon Redd",
+    "type":  "spender",
+    "patience":  5,
+    "spendingAggression":  9,
+    "involvementLevel":  6,
+    "priorities":  {
+                       "wins":  7,
+                       "playoffs":  7,
+                       "finances":  3,
+                       "playerDevelopment":  6,
+                       "morale":  6
+                   },
+    "staffBudget":  {
+                        "total":  32000000
+                    }
 }

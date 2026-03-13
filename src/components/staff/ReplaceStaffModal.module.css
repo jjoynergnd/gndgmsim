@@ -1,0 +1,116 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
+}
+
+.modal {
+  background: #111;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 480px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.2s ease-out;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.budgetLine {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.list {
+  max-height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.candidate {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.candidate:hover {
+  background: #222;
+}
+
+.candidateDisabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.candidateMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.candidateName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.candidateMeta {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.candidateRight {
+  text-align: right;
+}
+
+.candidateRating {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.candidateSalary {
+  font-size: 13px;
+  color: #bbb;
+}
+
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

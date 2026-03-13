@@ -1,14 +1,17 @@
-﻿{
-  "name": "Evelyn Stroud",
-  "type": "handsOn",
-  "patience": 4,
-  "spendingAggression": 7,
-  "involvementLevel": 9,
-  "priorities": {
-    "wins": 8,
-    "playoffs": 8,
-    "finances": 4,
-    "playerDevelopment": 5,
-    "morale": 5
-  }
+{
+    "name":  "Evelyn Stroud",
+    "type":  "handsOn",
+    "patience":  4,
+    "spendingAggression":  7,
+    "involvementLevel":  9,
+    "priorities":  {
+                       "wins":  8,
+                       "playoffs":  8,
+                       "finances":  4,
+                       "playerDevelopment":  5,
+                       "morale":  5
+                   },
+    "staffBudget":  {
+                        "total":  24000000
+                    }
 }

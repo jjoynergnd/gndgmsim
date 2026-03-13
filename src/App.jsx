@@ -20,25 +20,18 @@ import Settings from "./franchise/MainMenu/Settings";
 // ⭐ NEW — Settings Hook
 import useSettings from "./hooks/useSettings";
 
+// ⭐ NEW — Staff Update Screen
+import StaffUpdate from "./screens/Offseason/StaffUpdate";
+
 /*
 |----------------------------------------------------------------------
 | App Architecture
-|
-| Meta Routes (Main Menu):
-|   - No sidebar
-|
-| Onboarding Routes:
-|   - No sidebar
-|
-| In‑Franchise Routes:
-|   - Sidebar enabled
 |----------------------------------------------------------------------
 */
 
 function App() {
   const { settings } = useSettings();
 
-  // Apply theme globally (React 19 safe)
   useEffect(() => {
     Promise.resolve().then(() => {
       document.body.dataset.theme = settings.theme;
@@ -47,10 +40,7 @@ function App() {
 
   return (
     <Routes>
-
-      {/* -------------------------------- */}
-      {/* MAIN MENU (NEW LANDING PAGE)     */}
-      {/* -------------------------------- */}
+      {/* MAIN MENU */}
       <Route
         path="/main-menu"
         element={
@@ -60,9 +50,7 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* SETTINGS PAGE (NEW)              */}
-      {/* -------------------------------- */}
+      {/* SETTINGS */}
       <Route
         path="/settings"
         element={
@@ -72,9 +60,7 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* LOAD GAME SCREEN                 */}
-      {/* -------------------------------- */}
+      {/* LOAD GAME */}
       <Route
         path="/load-game"
         element={
@@ -84,9 +70,7 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* TEAM SELECT (NEW FRANCHISE)      */}
-      {/* -------------------------------- */}
+      {/* TEAM SELECT */}
       <Route
         path="/team-select"
         element={
@@ -96,9 +80,7 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* OWNER/GM ONBOARDING              */}
-      {/* -------------------------------- */}
+      {/* OWNER/GM ONBOARDING */}
       <Route
         path="/gm/:teamId"
         element={
@@ -108,9 +90,20 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* OFFSEASON HUB                    */}
-      {/* -------------------------------- */}
+      {/* NEW — OFFSEASON STAFF UPDATE */}
+      <Route
+        path="/offseason/staff"
+        element={
+          <div style={{ display: "flex", height: "100vh", width: "100vw" }}>
+            <Sidebar />
+            <Layout>
+              <StaffUpdate />
+            </Layout>
+          </div>
+        }
+      />
+
+      {/* EXISTING OFFSEASON HUB (older flow / placeholder) */}
       <Route
         path="/offseason"
         element={
@@ -123,9 +116,7 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* TEAM PAGE (IN‑FRANCHISE)         */}
-      {/* -------------------------------- */}
+      {/* TEAM PAGE */}
       <Route
         path="/team/:teamId"
         element={
@@ -138,9 +129,7 @@ function App() {
         }
       />
 
-      {/* -------------------------------- */}
-      {/* FALLBACK → MAIN MENU             */}
-      {/* -------------------------------- */}
+      {/* FALLBACK → MAIN MENU */}
       <Route path="/" element={<Navigate to="/main-menu" replace />} />
       <Route path="*" element={<Navigate to="/main-menu" replace />} />
     </Routes>

@@ -1,14 +1,17 @@
-﻿{
-  "name": "Elliot Branson",
-  "type": "impatient",
-  "patience": 3,
-  "spendingAggression": 7,
-  "involvementLevel": 7,
-  "priorities": {
-    "wins": 9,
-    "playoffs": 8,
-    "finances": 4,
-    "playerDevelopment": 5,
-    "morale": 5
-  }
+{
+    "name":  "Elliot Branson",
+    "type":  "impatient",
+    "patience":  3,
+    "spendingAggression":  7,
+    "involvementLevel":  7,
+    "priorities":  {
+                       "wins":  9,
+                       "playoffs":  8,
+                       "finances":  4,
+                       "playerDevelopment":  5,
+                       "morale":  5
+                   },
+    "staffBudget":  {
+                        "total":  27000000
+                    }
 }

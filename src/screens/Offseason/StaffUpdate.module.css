@@ -1,0 +1,101 @@
+/* src/screens/Offseason/StaffUpdate.module.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px 16px 80px;
+  box-sizing: border-box;
+  background: #f7f8fa;
+}
+
+.loading {
+  padding: 24px;
+  font-size: 14px;
+  color: #555;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: #111827;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 0 0 12px;
+  max-width: 640px;
+}
+
+.badgeRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e5f0ff;
+  border: 1px solid #c7ddff;
+  font-size: 11px;
+  color: #1f2933;
+}
+
+.badgeLabel {
+  font-weight: 600;
+  margin-right: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #4b5563;
+}
+
+.badgeValue {
+  font-weight: 600;
+  color: #111827;
+}
+
+.progressWrapper {
+  margin: 12px 0 20px;
+}
+
+.cardsSection {
+  flex: 1;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: #111827;
+}
+
+.sectionSubtitle {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0 0 12px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 24px 24px 88px;
+  }
+
+  .cardsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
